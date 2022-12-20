@@ -1,3 +1,5 @@
+[![pages-build-deployment](https://github.com/TalygenV/Vue-UI-Content/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/TalygenV/Vue-UI-Content/actions/workflows/pages/pages-build-deployment)
+
 # Vue-UI-Content
 
 ![image](https://user-images.githubusercontent.com/107092729/208605908-4b2ac9f5-9d7d-4553-bcb1-ec03f9e0259f.png)
