@@ -47,12 +47,12 @@ footer ul li a:hover {	color: #FCB322; opacity: .8;}
 .listing table{color:#303030;}
 .custom-checkbox .custom-control-label::before {background: #fff; border: 1px solid #afb5bb;}
 .custom-control-label::before{background:#fff; border:2px solid #aeb5bd;}
-.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::after{background-image: url('../../../images/radio.png');}
+.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::after{background-image: url('../images/radio.png');}
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before, .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{background: #fff;}
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before{border: 2px solid #259bff;}
-.custom-radio .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../../../images/radio.png');}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../images/radio.png');}
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before, .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{border: 2px solid #259bff;}
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../../../Content/images/checkmark.png');}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../images/checkmark.png');}
 
 .legends_profile{background:#df5966;}
 .legends_Critical{background:#ef8934;}
@@ -728,10 +728,9 @@ tr td.content {    background: #fbfbfb;}
 /*email-marketing pop-up gaurav*/
 
 /********Resource Scheduling-userguide icon-Harjit Singh*********************/
-.rs-userguide{background-color: transparent !important; background-image:url('/Content/images/user-guide-img-white.png'); width:20px; height:16px; display:inline-block; background-repeat:no-repeat;}
+.rs-userguide{background-color: transparent !important; background-image:url('../images/user-guide-img-white.png'); width:20px; height:16px; display:inline-block; background-repeat:no-repeat;}
 /********Resource Scheduling-userguide icon-Harjit Singh*********************/
 
-.subscription-main .subscription-list{}
 .subscription-main .subscription-list li:nth-child(5n+1) h3 {color: #fff;  background: #0cb08b;}
 .subscription-main .subscription-list li:nth-child(5n+1) .card { border: 2px solid #0cb08b; }
 .subscription-main .subscription-list li:nth-child(5n+1) .license-header .prog-head { background: #0cb08b; color: #fff; }
@@ -807,5 +806,5 @@ tr td.content {    background: #fbfbfb;}
 /***************** wizards for-default-theme*******************/
 
 /***Customize dropdown for Project listing screen-Harjit 5May2022*****/
-select.form-control.customized_ddl {background-color: #3d484d; color:#fff; border-color:#62686a; background-image: url(/Content/Responsive/images/drop-down-arrow-dark.png);}
+select.form-control.customized_ddl {background-color: #3d484d; color:#fff; border-color:#62686a; background-image: url('../images/drop-down-arrow-dark.png');}
 /***Customize dropdown for Project listing screen-Harjit 5May2022*****/
