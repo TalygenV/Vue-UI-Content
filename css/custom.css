@@ -5366,3 +5366,6 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
 .va_lft25.top4 { top: -4px;}
 .parentdiv.datarepfix{z-index: 999;} 
 
+.dropzone__box{border: 2px dashed #cbcbcb!important;}
+.dropzone-clickable {line-height: 50px!important; color: #cbcbcb!important;}
+
