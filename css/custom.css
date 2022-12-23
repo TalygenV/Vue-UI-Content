@@ -785,7 +785,7 @@ line-height: 27px;
 .conversation-main:before{content: ""; width: 1px; height:calc(100% - 60px); top:0; left:103px; position: absolute;}
 .conversation-time span{background:#fff; position:relative; z-index:1; min-width:86px; text-align:right;}
 /* .conversation-time span:after{position:absolute; content: "\f017"; font:normal normal normal 14px/1 FontAwesome;  right:-23px; top:2px; z-index:999; font-size:20px;} */
-.conversation-time span:after{position:absolute; content:"\f017"; line-height:1; right:-23px; top:2px; z-index:999; font-size:20px; font-weight:normal; font-family:FontAwesome;}
+.conversation-time span:after{position:absolute; content:"\f017"; line-height:1; right:-23px; top:2px; z-index:999; font-size:20px; font-weight:normal; font-family:'FontAwesome';}
 .conversation-main{display:flex; flex-wrap:wrap; margin-bottom:15px; position:relative;}
 .conversation-box:before{ width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; content:""; left:-10px; position:absolute; top:50%; margin-top:-10px;}
 .conversation-box-con{margin:0 0 15px 0; height:auto; width:calc(100% - 136px); box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; position:relative;}
