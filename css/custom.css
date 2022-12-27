@@ -1660,7 +1660,7 @@ box-sizing: border-box;font-size:10pt;}
 .gm-style .view-details a{padding:0 5px;margin-right:5px;color:#525e65;} .gm-style .view-details a i{padding-right:5px;}
 .gm-style .view-details a:hover{color:#2aa7fd;}
 /*Customize mam popup*/
-
+  
 /*mobile left filter panel*/
 @media (max-width:767px){
 .card-panel{height:auto;overflow:hidden;}
