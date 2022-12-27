@@ -428,7 +428,7 @@ padding: 0px;
 .dropdown-item{padding:.1rem .5rem; font-size: 14px;}
 .navbar-brand{padding-top:0; padding-bottom:0}
 .navbar-brand img {  max-height:40px; margin-top:-4px;}/*height:40px*/
-.my-image {width: 36px; height: 36px; display: inline-block; float:left; margin-right: 10px; overflow:hidden; border-radius: 100% !important; border:1px solid #ddd;}
+.my-image {width: 36px; height: 36px; display: inline-block; float:left; margin-right: 10px; overflow:hidden; border-radius: 100% !important; border:1px solid #ddd; position:relative;margin-top:5px;}
 .my-image img{width:100%;}
 .dropdown-menu.my-account{min-width:auto; width:196px; background: #353537; border:none; }
 .dropdown-menu.my-account a{color:#fff; padding: .8rem .5rem;  border-bottom: 1px solid rgba(0,0,0,.3); line-height: 18px;}
@@ -502,7 +502,7 @@ footer ul li a:hover{opacity:1; text-decoration:none;}
 #sidebar .navbar-nav li:first-child a:hover{background:none;}
 
 #sidebar.active .nav-item.leftsidebar.d-lg-none span.my-image{ display:inline-block !important; float: none; width: 50px; height: 50px; border:2px solid rgba(255,255,255,.1);  }
-#sidebar.active i{display:block; font-size:20px;}
+#sidebar.active i{display:block; font-size:20px;color:#a2a2a3 !important;}
 #sidebar.active .navbar-brand{width:100%; overflow:hidden; margin:0px; transition: all 0.3s;}
 #sidebar.active .dropdown-menu.full-menu{left:105px; box-shadow: -1px 2px 7px 0px #202020;}
 #sidebar.active .dropdown-menu.my-account{ position:absolute; top:-81px; left: 105px; width: 200px; box-shadow:-1px 2px 7px 0px #202020;} 
@@ -642,7 +642,7 @@ border-left: .3em solid transparent;
 .my-popups .modal-header button{display:flex;align-items:center;justify-content:center; position:absolute; right:2px; top:2px; border-radius:50%;opacity:1; width:30px; height:30px; line-height:22px; text-align:center; padding:0px; font-size:20px;}
 /*for model margin top*/ 
 .modal-dialog{margin: 4.75rem auto !important;}
-.my-popups .modal-header button{display:flex;align-items:center;justify-content:center;}
+
 .modal{padding:0 20px !important} 
 /*for model margin top*/ 
 
@@ -1653,7 +1653,7 @@ box-sizing: border-box;font-size:10pt;}
 .gm-style .details .icon-date:before{position:absolute;display:inline-block;content:url('../images/icon_date_time.jpg');}
 .gm-style .details .icon-ticket-type{position:relative;display:inline-block;width:28px;height:14px;}
 .gm-style .details .icon-ticket-type:before{position:absolute;display:inline-block;content:url('../images/icon_ticket_type.jpg');}
-.gm-style .details .icon-location {position: relative; display:inline-block; width:28px; height: 14px; color: #303030; font-size: 26px;  line-height:1; font-family:'FontAwesome'; font-weight:normal;}0
+.gm-style .details .icon-location {position: relative; display:inline-block; width:28px; height: 14px; color: #303030; font-size: 26px;  line-height:1; font-family:'FontAwesome', sans-serif; font-weight:normal;}
 .gm-style .details .icon-location:before{position:absolute;display:inline-block;content:"\f041";}
 .gm-style .details span{display:flex;padding:1px 0;}
 .gm-style .view-details{display:flex;width:100%;font-weight:bolder;font-size:14px;margin-bottom:4px;border-top: 2px solid #bfbfbf;flex-direction:row;}
@@ -1743,7 +1743,7 @@ box-sizing: border-box;font-size:10pt;}
 #sidebar.active .m-img .nav-link{padding:15px 0px !important;}
 #sidebar.active .dropdown-menu.full-menu,#sidebar.active .dropdown-menu.my-account{left: 55px !important;}
 #sidebar.active .m-logout{display:none !important;}
-#sidebar.active i{color:#a2a2a3 !important;}
+
 #sidebar.active .l-mfooter{background:black;position:absolute;bottom:0;left:0;width:100%;display:flex;align-items:center;justify-content:center;}
 .l-mfooter{display:none;}
 
@@ -1753,7 +1753,7 @@ box-sizing: border-box;font-size:10pt;}
 /*form action icons*/ 
 
 /*for nav image*/
-.my-image{position:relative;margin-top:5px;}
+
 /*for nav image*/
 
 /*customization for boostrap root classes overwriting*/
@@ -1762,8 +1762,8 @@ box-sizing: border-box;font-size:10pt;}
 /*customization for boostrap root classes overwriting*/
 
 /*for data tables*/
-.table-responsive table.dataTable{border-collapse:collapse !important;}
-.table-responsive table.dataTable{margin-bottom:0 !important;}
+.table-responsive table.dataTable{border-collapse:collapse !important;margin-bottom:0 !important;}
+
 .table-responsive table.dataTable.dtr-inline.collapsed > tbody > tr > td.child, .table-responsive table.dataTable.dtr-inline.collapsed > tbody > tr > th.child, .table-responsive table.dataTable.dtr-inline.collapsed > tbody > tr > td.dataTables_empty{padding:0 !important;}
 .table-responsive table.dataTable > tbody > tr.child ul.dtr-details > li{padding:5px !important;}
 /*for data tables*/
