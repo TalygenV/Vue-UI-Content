@@ -19,7 +19,7 @@ body{color:#303030;}
 .juda-menu-container .menu-box:nth-child(5n+5) ul li a:hover {background: #427e89;}
 
 .p-action-btn{border-left: 2px solid #4d5a60;}
-.Resolve-t{border-left: 2px solid #4d5a60;}
+
 .p-action-btn:hover{background: #4a565c;}
 .left-tab li a{	color: #303030;}
 .left-menu.active{background: #525f65 !important; color:#fff !important;}
@@ -37,8 +37,8 @@ body{color:#303030;}
 .six_wid {background: #eaf9f8 !important;border-color: #57aea6 !important;}
 .six_wid h3 {color: #57aea6 !important;}
 .dashbord-widget li h3 span{	color: #6d767d;}
-footer .contri_translate {	background-color: #252525;	color: #fff;}
-footer {	background: #424242;}
+footer .contri_translate {	background-color: #252525;	color: #fff; border-right: 1px solid #797777;}
+footer {background: #424242;}
 footer .copyright {	color: #fff;}
 footer ul li a {	color: #FCB322;}
 footer ul li a:hover {	color: #FCB322; opacity: .8;}
@@ -48,10 +48,10 @@ footer ul li a:hover {	color: #FCB322; opacity: .8;}
 .custom-checkbox .custom-control-label::before {background: #fff; border: 1px solid #afb5bb;}
 .custom-control-label::before{background:#fff; border:2px solid #aeb5bd;}
 .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::after{background-image: url('../images/radio.png');}
-.custom-radio .custom-control-input:checked ~ .custom-control-label::before, .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{background: #fff;}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before, .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{background: #fff;border: 2px solid #259bff;}
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before{border: 2px solid #259bff;}
 .custom-radio .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../images/radio.png');}
-.custom-radio .custom-control-input:checked ~ .custom-control-label::before, .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{border: 2px solid #259bff;}
+
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../images/checkmark.png');}
 
 .legends_profile{background:#df5966;}
@@ -63,7 +63,7 @@ footer ul li a:hover {	color: #FCB322; opacity: .8;}
 .legends-red-damask{background:#cc6848;}
 .legends-Apple{background:#76b13d;}
 .legends-slate-blue{background:#7c4ace;}
-.legends-Apple{background:#76b13d;}
+
 .legends-camouflage-green{background:#747e66;}
 .legends-iris-blue{background:#729bbf;}
 
@@ -71,7 +71,7 @@ footer ul li a:hover {	color: #FCB322; opacity: .8;}
 
 .actions {background: #24a5ff; color:#fff;}
 .actions:hover {color:#fff;}
-.thead-bg th {color:#303030;}
+.thead-bg th {color:#303030; background:#f5f5f5;}
 .listing td {color:#303030;}
 .map-actions span a{color:#fff;}
 .filetr-icon {background:#eee; color:#555;}
@@ -136,7 +136,7 @@ button.close:hover{color:#303030 !important;}
 .scroll-right {background:#d4d4d4; color:#303030;}
 .scroll-left:hover, .scroll-right:hover{background:#454545; color:#fff;}
 .Response-t {color:#fff;}
-.Resolve-t {color:#fff;}
+.Resolve-t {color:#fff; border-left: 2px solid #4d5a60;}
 .Response-t span{color:#22f151;}
 .Resolve-t span{color:#ff5454;}
 
@@ -263,10 +263,10 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .manage-color > .row:nth-of-type(odd) .bg-numbr{background:#d9eeff;}
 .manage-color > .row:nth-of-type(even) .bg-numbr{background:#d7dbf4;}
 
-footer{background:#424242;}
-footer .contri_translate{background-color: #252525; border-right: 1px solid #797777;}
-footer ul li a{color:#FCB322;}
-footer ul li a:hover{color:#FCB322;}
+
+
+
+
 .left-tab li:first-child{border-color:#dee1e6 !important;}
 
 /*-----------------For Legends---------------------*/
@@ -324,9 +324,9 @@ footer ul li a:hover{color:#FCB322;}
 .table-bordered tr.gt-lgtr-pausedresumed td.tabchild:first-child::after {background: #3a3a3d;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
 /*****Harjit Singh General Timesheet removed inn table bar on Mishra's PC******************/
 
-.legends_profile {
-    background: #df5966;
-}
+
+
+
 
 .login-user a{color:#78add7; font-size:13px;}
 .vendor a{color:#ca9f7f; font-size:13px;}
@@ -340,7 +340,7 @@ footer ul li a:hover{color:#FCB322;}
 .left-tab li{border-color:#dee1e6;}
 .dashbord-widget li{background: #ccc; border-color:#000;}
 .table-border{border:1px solid #c3c3c3;}
-.thead-bg th{background:#f5f5f5;}
+
 .table-bordered tr { border-bottom: 1px solid #c6cace;}
 .table-bordered thead tr { border-bottom: 2px solid #c6cace;}
 .thead-bg tr{border-top:0;}
@@ -409,7 +409,7 @@ footer ul li a:hover{color:#FCB322;}
 .page-menu .menu-box:nth-child(5n+3) a {background: #ffe18b;}
 .page-menu .menu-box:nth-child(5n+4) a {background: #a6cdb2;}
 .page-menu .menu-box:nth-child(5n+5) a {background: #92ced9;}
-.page-menu .menu-box:nth-child(5n+5) a {background: #92ced9;}
+
 
 /**********************New Menu***********************/
 
