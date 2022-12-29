@@ -699,13 +699,14 @@ background-image: linear-gradient(-45deg,rgb(187, 221, 247) 25%,#a7cae8 25%,#a7c
 .tab-pane.active.config_list { background: #fff;}
 .navbar-dark .navbar-brand {	padding: 0 5px;}
 footer .ipaddnone a img {	padding: 0px 4px 0 0;}
-.menu-search-panel::before {	position: absolute;	content: "\f002";	font: normal normal normal 14px/1 FontAwesome;	color: #353535;	right: 10px;	top: 50%;	font-size: 17px;	transform: translateY(-50%);}
+.menu-search-panel::before {	position: absolute;	content: "\f002";	
+	font-family:'FontAwesome', sans-serif;	color: #353535;	right: 10px;	top: 50%;	font-size: 17px;	transform: translateY(-50%); line-height: 1; font-weight: normal; font-size:14px;}
 .full-menu-new .menu-search-panel input {	background: none;}
 .table-responsive table th span {	display: inline-block;}
 .p-action-btn.active {	color: #fff !important;}
 .unit-group .name {	color: #000;}
 
-.canvan-view-list li > h3 span {	/*color: #333;*/}
+
 .pending > h3 {	/*color: #333;*/	background: #FFCA74;}
 .pending .card {	border: 2px solid #FFCA74;}
 .overdue > h3 {	/*color: #333;*/	background: #17a2b8;}

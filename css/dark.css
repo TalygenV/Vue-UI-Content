@@ -960,12 +960,12 @@ li.active ~ li span.round-tab {    background: #1c1f22;}
 .legends-camouflage-green{background:#747e66;}
 .legends-iris-blue{background:#729bbf;}
 aside .resourcemain:nth-child(2n+1) {	background: #2c3136 !important;	color: #ddd;}
-slider::before{ left: 3px; bottom: 2px;}
+.slider::before{ left: 3px; bottom: 2px;}
 .cke_chrome{ border-color: #3c3f43 !important; }
 .cke_editable{ background-color: #191d20 !important;}
 .cke_wysiwyg_frame, .cke_wysiwyg_div, .cke_reset_all{background-color: #191d20 !important; color: #666 !important;}
 a.cke_button, .cke_button_label, .cke_combo_button, .cke_toolgroup, .cke_editable{ opacity: 1 !important; } 
-.cke_top.cke_reset_all{box-shadow:none !important; background: #3c3f43 !important; border-color: #3c3f43 !important; box-shadow:none !important;}
+.cke_top.cke_reset_all{background: #3c3f43 !important; border-color: #3c3f43 !important; box-shadow:none !important;}
 a.cke_button, .cke_combo .cke_combo_button{    background: #464748 !important;}
 .cke_combo_text, .cke_button_label {    color: #ddd !important;}
 .cke_bottom{ border-color: #3c3f43 !important; box-shadow:none !important; }
