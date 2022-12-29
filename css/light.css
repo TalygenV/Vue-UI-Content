@@ -700,7 +700,7 @@ background-image: linear-gradient(-45deg,rgb(187, 221, 247) 25%,#a7cae8 25%,#a7c
 .navbar-dark .navbar-brand {	padding: 0 5px;}
 footer .ipaddnone a img {	padding: 0px 4px 0 0;}
 .menu-search-panel::before {	position: absolute;	content: "\f002";	
-	font-family:'FontAwesome', sans-serif;	color: #353535;	right: 10px;	top: 50%;	font-size: 17px;	transform: translateY(-50%); line-height: 1; font-weight: normal; font-size:14px;}
+	font-family:'FontAwesome', sans-serif;	color: #353535;	right: 10px;	top: 50%;	font-size: 17px;	transform: translateY(-50%); line-height: 1; font-weight: normal;}
 .full-menu-new .menu-search-panel input {	background: none;}
 .table-responsive table th span {	display: inline-block;}
 .p-action-btn.active {	color: #fff !important;}
