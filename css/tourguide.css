@@ -65,6 +65,9 @@ blockquote {
             box-sizing: border-box;
             box-shadow: 0 0 8px -4px #000;
             transition: opacity 150ms ;background-color:#ffffff;
+            box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49);
+            -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49);
+            -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49);
         }
 
 @media screen and (max-width: 760px) {
@@ -121,9 +124,10 @@ blockquote {
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-close {
         position: absolute;
         top: 0;
-        right: 0;
-        width: 32px;
-        height: 32px
+        right: 0;        
+        color: #000;
+    width: 42px;
+    height: 42px;
     }
 
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-prev, .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-next, .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-complete {
@@ -157,6 +161,9 @@ blockquote {
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-complete {
         right: 15px;
         bottom: 14px;
+        background: #3c7aff;
+    color: #ffffff;
+    border-radius: 100px;
     }
 
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-bullets {
@@ -167,7 +174,7 @@ blockquote {
         .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-bullets ul {
             margin: 10px 0 -18px 0;
             list-style: none;
-            padding: 0
+            padding: 0;  pointer-events: none;
         }
 
             .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-bullets ul li {
@@ -180,10 +187,10 @@ blockquote {
                 cursor: pointer;
                 background-color: #fff;
                 border: 8px solid #f4eba6;}
-                   /*background-color: var(--tourguide-bullet); */
+                 
 
                 .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-bullets ul li.complete {
-                    background-color: var(--tourguide-bullet-visited)
+                    background-color: #7b7121;
                 }
 
                 .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-bullets ul li.current {
@@ -236,11 +243,8 @@ blockquote {
         background: transparent
     }
 
-        .guided-tour-step.active .guided-tour-step-tooltip.guided-tour-arrow-bottom .guided-tour-step-tooltip-inner .guided-tour-arrow .guided-tour-arrow-inner::after {
-            content: "";
-            position: absolute;
-            width: 12px;
-            height: 12px;
+ .guided-tour-step.active .guided-tour-step-tooltip.guided-tour-arrow-bottom .guided-tour-step-tooltip-inner .guided-tour-arrow .guided-tour-arrow-inner::after {
+            content: "";  position: absolute;  width: 12px; height: 12px;
             background: var(--tourguide-background);
             transform: rotate(45deg);
             top: -6px;
@@ -256,23 +260,7 @@ blockquote {
     margin-bottom: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*Sushil 21june background color change background-color: #f4eba6;*/
-
-
-
-
 .guided-tour-step-footer .guided-tour-step-bullets {
     display: none;
 }
@@ -283,48 +271,13 @@ blockquote {
     background: #ffffff;
 }
 
-
-
-
-
-    
-
-
-    .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-bullets ul li.complete {
-        background-color: #7b7121;
-    }
-
-.guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-complete {
-    background: #3c7aff;
-    color: #ffffff;
-    border-radius: 100px;
-}
-
-.guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-close {
-    color: #000;
-    width: 42px;
-    height: 42px;
-}
-
-.guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-bullets ul {
-    pointer-events: none;
-}
-
-.guided-tour-step.active .guided-tour-step-tooltip {
-    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49);
-    -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49);
-    -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49);
-}
 .guided-tour-step-content a {
     background: #6d6c6c;
     color: white;
     padding: 6px 28px;
     margin: 0px 3px 5px 0px;
 }
-/*Fixed issue no #666164* 04/07/2022/ 
-/*a[href="/Project/Index"] {
-    background: #43a38a !important;
-}*/
+
 a[href="/Ticketing/Index"] {
     background: #cc7d38 !important;
 }
