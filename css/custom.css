@@ -5268,7 +5268,7 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
 .va_lft25{position: absolute; right:10px; top:-10px; z-index: 999; transform: rotate(90deg);}
 
 .verticle-action .fsm-list.datarep{width:500px;}
-.parentdiv.datarepfix{position: absolute;  right: 30px; top: 5px;}
+.parentdiv.datarepfix{position: absolute;  right: 30px; top: 5px; z-index: 999;}
 .parentdiv.datarepfix.filters{position: absolute;  right: 4px; top: 13px;}
 
 .conversation-box_custreps { width: 100%; float: left; margin: 1px 0px; height: auto; position: relative;
@@ -5364,7 +5364,6 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
 
 .verticle-action.lft75 { right: 75px; top: 40px; }
 .va_lft25.top4 { top: -4px;}
-.parentdiv.datarepfix{z-index: 999;} 
 
 .dropzone__box{border: 2px dashed #cbcbcb!important;}
 .dropzone-clickable {line-height: 50px!important; color: #cbcbcb!important;}
