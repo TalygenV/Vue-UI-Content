@@ -145,7 +145,7 @@ blockquote {
     }
 
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-next {
-        color: var(--tourguide-step-button-next);
+       
         box-shadow: 5px 0 1em 0rgba(0,0,0,.4);
         right: 15px;
         bottom: 14px;
@@ -176,7 +176,6 @@ blockquote {
                 border-radius: 50%;
                 padding: 0;
                 display: inline-block;                
-                border: 8px solid var(--tourguide-background);
                 box-sizing: content-box;
                 cursor: pointer;
                 background-color: #fff;
