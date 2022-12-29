@@ -80,7 +80,7 @@ ul.e-list-parent { max-height: 70vh;}
 .e-schedule .e-resource-tree-icon::before { content: '\e22f'; font-weight: 600 !important;}
 span.sa_unassigned { width: 45px; height: 40px; float: left; border-radius: 50%; margin-right: 10px; background: #3a3e3f; color: #ffff; text-align: center;}
 .main-content .panel .panel-content span.sa_unassigned i { font-size: 22px; padding-right: 0px;}
-.main-content .panel .panel-content .treeview-container h1 {font-size: 20px; background: #2f4050; padding: 11px 12px; color: #fff; font-weight: 300; margin-bottom: 0px; line-height: 38px;}
+.main-content .panel .panel-content .treeview-container h1 {display: flex; justify-content: space-between; font-size: 20px; background: #2f4050; padding: 11px 12px; color: #fff; font-weight: 300; margin-bottom: 0px; line-height: 38px;}
 .e-list-parent.e-ul {border:1px solid #d2d2d2; padding-top: 10px; padding-bottom: 10px; background: #fff;}
 .e-treeview .e-text-content {padding: 0 0 0 7px !important;}
 .e-treeview .e-list-text {color: #2f4050 !important; font-size: 14px !important; width: 100%;}
@@ -199,7 +199,7 @@ span.sa_unassigned { width: 45px; height: 40px; float: left; border-radius: 50%;
 .e-calendar .e-content td.e-selected span.e-day, .e-bigger.e-small .e-calendar .e-content td.e-selected span.e-day {background-color: #41b2f9 !important;}
 .e-footer-container button {color: #2f4050 !important; font-weight: 600 !important;}
 .e-toolbar .e-tbar-btn{background: #f0f0f0;}
-.main-content .panel .panel-content .treeview-container h1 { display: flex; justify-content: space-between;}
+
 .select-in-tag { display: inline-block; max-width: 180px; font-size: 14px;}
 .timezone #ancTimeZoneEdit {display: block;float: left;background: #f2f2f2;padding: 6px 5px;border: 1px solid #dfdfdf;}
 .timezone #ancTimeZoneEdit a{float:left;}
@@ -231,7 +231,7 @@ span.sa_unassigned { width: 45px; height: 40px; float: left; border-radius: 50%;
     color: #fff; margin: 5px 2px;}
 .zone-address {float: right}
 
-.e-schedule .e-timeline-view .e-appointment .e-left-icon { line-height: 19px !important;}
+
 .main-content .panel {background: #fff; border-radius: 0; border: 1px solid #d2d2d2 !important; border: none; color: #5b5b5b; margin-bottom: 20px; min-height: 30px; position: relative}
 .main-content .panel:after, .main-content .panel:before { content: " ";  display: table}
 .main-content .panel .panel-content h1 { font-weight: 100;font-size: 28px; margin-top: 0;}
@@ -245,7 +245,7 @@ span.sa_unassigned { width: 45px; height: 40px; float: left; border-radius: 50%;
 .main-content .panel .panel-header:hover .control-btn > a { background: none !important; color: #909090 !important; -webkit-transition: all .4s ease; -moz-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease;}
 .main-content .panel .panel-header .control-btn > a .icon-size-fullscreen:before { display: inline-block; width: 14px;}
 .main-content .panel .panel-header .control-btn .btn-group > a { color: #ccc !important;  cursor: pointer; margin-left: 11px;  margin-right: 0; -webkit-transition: all .4s ease; -moz-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease}
-.main-content .panel .panel-content h1 {font-size: 28px; margin-top: 0}
+
 
 
 @media (max-width:1599px) {

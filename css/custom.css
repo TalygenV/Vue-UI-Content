@@ -788,7 +788,7 @@ line-height: 27px;
 .conversation-date{font-size:20px; margin-bottom:10px;}
 .conversation-time{width:136px; float:left; text-align:center; position:relative; display:flex; align-items:center; margin-bottom:15px; font-weight:bolder;}
 .conversation-main:before{content: ""; width: 1px; height:calc(100% - 60px); top:0; left:103px; position: absolute;}
-.conversation-time span{background:#fff; position:relative; z-index:1; min-width:86px; text-align:right; box-sizing:content-box;text-align:right;padding-right:7px; font-weight:500;}
+.conversation-time span{background:#fff; position:relative; z-index:1; min-width:86px; box-sizing:content-box;text-align:right;padding-right:7px; font-weight:500;}
 .conversation-main::before {height:calc(100% - 20px)}
 .conversation-time span:after{position:absolute; content:"\f017"; line-height:1; right:-20px; top:2px; z-index:999; font-size:20px; font-weight:normal; font-family:'FontAwesome', sans-serif;}
 .conversation-main{display:flex; flex-wrap:wrap; margin-bottom:15px; position:relative;}
@@ -2141,10 +2141,10 @@ background-image: none;}
 .project .bar.ui-slider .ui-slider-handle { border-radius: 50%; background: #fff; box-shadow: 0px 0px 4px #666; border: none; top: -4px;}
 .cke_combo_text{padding:6px !important;}
 /********Unified Communication***************/
-.chat_popup {position: fixed;width: 50px;height: 193px;z-index: 9999; right: 0px;top:35%;display: block;} /*top: 330px***Harjit 11May2022**/
+.chat_popup {position: fixed;width: 50px;height: 193px;z-index: 9999; right: 0px;top:35%;display: block; -webkit-transition: transform 80ms; transition: transform 80ms;} /*top: 330px***Harjit 11May2022**/
 .chat-btn-hide {transform: translateX(37px); -webkit-transition: transform 80ms;transition: transform 80ms;transform-origin: left;}   
-.chat_popup {-webkit-transition: transform 80ms; transition: transform 80ms;}
-.chat_popup .cht-collapse { position: relative;background: #099de3;color: white;font-size: 12pt;width: 25px;padding: 2px; box-sizing: border-box;font-size: 12pt;
+
+.chat_popup .cht-collapse { position: relative;background: #099de3;width: 25px;padding: 2px; box-sizing: border-box;font-size: 12pt;
 color: #fff;display: inline-block;text-align: center; top: 110px;right: 12px;border-radius: 100% !important;} 
 .cht-collapse .arrow-rotate {transform: rotate(179deg) !important;transform-origin: center;-webkit-transition: transform 80ms;transition: transform 80ms;}
    
