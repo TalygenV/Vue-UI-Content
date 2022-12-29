@@ -444,7 +444,7 @@ input:checked + .toggle {  background: #448ee4;  color: #fff;}
 
 
 
-.Timer.manually-time{color: #fff; color: #fff; background: #1abdac;}
+.Timer.manually-time{color: #fff; background: #1abdac;}
 .Timer.auto-time{color: #fff; background:#24a5ff;} 
 .blue-time{color: #24a4fd;}
 /**********************New Menu***********************/
