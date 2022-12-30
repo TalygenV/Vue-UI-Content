@@ -341,7 +341,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .dashbord-widget li{background: #ccc; border-color:#000;}
 .table-border{border:1px solid #c3c3c3;}
 
-.table-bordered tr { border-bottom: 1px solid #c6cace;}
+.table-bordered tr { border-bottom: 1px solid #c6cace;background:none !important;}
 .table-bordered thead tr { border-bottom: 2px solid #c6cace;}
 .thead-bg tr{border-top:0;}
 .search .form-control{border:1px solid #afb5bb;}
@@ -356,8 +356,8 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .table-bordered tr.high-bar td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#fbc648;  display: block; position:absolute; left:0px; top:3px; }
 .table-bordered tr.medium-bar td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#4cb4fb;  display: block; position:absolute; left:0px; top:3px; }
 .table-bordered tr.low-bar td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#019704;  display: block; position:absolute; left:0px; top:3px; }
-.table-bordered tr.danger-bar td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#019704;  display: block; position:absolute; left:0px; top:3px; }
-.table-bordered tr.warning-bar td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#019704;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.danger-bar td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#ff0000;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.warning-bar td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#fdc107;  display: block; position:absolute; left:0px; top:3px; }
 
 .card-box{border:1px solid #ccc;}
 .card-number{color:#000;}
@@ -483,13 +483,13 @@ input:checked + .toggle {  background: #448ee4;  color: #fff;}
 .eta-setting::after {  color: #2196f3;  }
 
 /*-----------------eta-setting****************/
-.table-bordered tr.danger-bar td:first-child::after {background: #ff0000; }
-.table-bordered tr.critical-bar td:first-child::after {background: #f06f07; }
-.table-bordered tr.high-profile-bar td:first-child::after{background:#de0303;   }
-.table-bordered tr.high-bar td:first-child::after{ background:#fbc648; }
-.table-bordered tr.medium-bar td:first-child::after{background:#4cb4fb;  }
-.table-bordered tr.low-bar td:first-child::after{  background:#019704;  }
-.table-bordered tr.warning-bar td:first-child::after{background:#fdc107;}
+
+
+
+
+
+
+
 .Timer.manually-time{color: #fff; background: #1abdac;}
 .Timer.auto-time{color: #fff; background:#24a5ff;}
 .blue-time{color: #24a4fd;}
@@ -620,23 +620,7 @@ nav .collapse.show{background: #272727;}
     content: "\2606";
 }
 /*star rating gaurav dhiman*/
-
-.Timer.manually-time {
-    color: #fff;
-    background: #1abdac;
-}
-
-.Timer.auto-time {
-    color: #fff;
-    background: #24a5ff;
-}
-
-.blue-time {
-    color: #24a4fd;
-}
-
 .feedback-box .name-circle{background: #e7e7e7;color: #494949;border-color: #fff;}
-
 
 /*gaurav dhiman doc icons*/
 .doc-ico-legend .fa-file-archive-o{color:rgb(253, 182, 20);}
@@ -646,8 +630,6 @@ nav .collapse.show{background: #272727;}
 .doc-ico-legend .fa-file-o{color:rgb(47, 132, 221)}
 .doc-ico-legend .fa-file-image-o{color:#955c8a}
 .doc-ico-legend .fa-file-text-o{color:#3c99f0;}
-
-
 .doc-icon .fa-file-archive-o{color:rgb(253, 182, 20);}
 .doc-icon .fa-file-excel-o{color:#1a7343;}
 .doc-icon .fa-file-pdf-o{color:rgb(197, 6, 6)}
@@ -662,8 +644,6 @@ background-image: linear-gradient(-45deg,rgb(187, 221, 247) 25%,#a7cae8 25%,#a7c
 .left-menu-tab .list-group-item {background-color: #f1f1f1; }
 .ml-cutomf-bg{background:#f1f1f1 !important; border: 1px solid #dcdcdc;}
 .ml-cutomf-bg .labeltext .form-control:disabled { background-color: #fff !important; } 
-
-
 /*gaurav dhiman doc icons*/
 .left-menu-tab h5 a.tab-Search-btn i {color:#28a745 !important}
 .timer_respbase .heading {    color: #777;  }
@@ -688,7 +668,7 @@ background-image: linear-gradient(-45deg,rgb(187, 221, 247) 25%,#a7cae8 25%,#a7c
 .tdl-legend-progress{background:#17a2b8;}
 .tdl-legend-completed{background:#23a4ff;}
 .tdl-legend-upcoming{background:#78909C;}
-.table-bordered tr{background:none !important;}
+
 .table-bordered tr.tdl-legend-overdue td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#e05f37;  display: block; position:absolute; left:0px; top:3px; }
 .table-bordered tr.tdl-legend-pending td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#cdac37;  display: block; position:absolute; left:0px; top:3px; }
 .table-bordered tr.tdl-legend-progress td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#17a2b8;  display: block; position:absolute; left:0px; top:3px; }
@@ -709,17 +689,9 @@ background-image: linear-gradient(-45deg,rgb(187, 221, 247) 25%,#a7cae8 25%,#a7c
 .virtual-desk-legend{ background: #d8d8d8 !important;}
 .virtual-desk-bg{ background: #f0f0f0;}
 
-tr td.content {    background: #fbfbfb;}
+tr td.content { background: #fbfbfb;}
 .has-value .input-tel__input[data-v-e59be3b4]{border-color:rgb(220, 53, 69) !important;}
 .has-value.is-valid .input-tel__input[data-v-e59be3b4]{border-color:yellowgreen !important;}
-
-/*purchase order css Gaurav Dhiman*/
-/*.purchase-order .heading{background:rgb(242, 242, 242);}
-.purchase-order .thead{}
-.purchase-order .thead td{background:rgb(242, 242, 242);border:1px solid rgb(198, 198, 198); }
-.purchase-order .tbody{}
-.purchase-order .tbody td{border:1px solid rgb(198, 198, 198);}*/
-/*purchase order css Gaurav Dhiman end*/
 
 /*email-marketing pop-up gaurav*/
 .card-select{background:#525f65}
@@ -735,26 +707,18 @@ tr td.content {    background: #fbfbfb;}
 .subscription-main .subscription-list li:nth-child(5n+1) .card { border: 2px solid #0cb08b; }
 .subscription-main .subscription-list li:nth-child(5n+1) .license-header .prog-head { background: #0cb08b; color: #fff; }
 .subscription-main .subscription-list li:nth-child(5n+1) .price-row { background: #0cb08b;}
-
-
 .subscription-main .subscription-list li:nth-child(5n+2) h3 {color: #fff;  background: #fcb13c;}
 .subscription-main .subscription-list li:nth-child(5n+2) .card { border: 2px solid #fcb13c; }
 .subscription-main .subscription-list li:nth-child(5n+2) .license-header .prog-head { background: #fcb13c; color: #fff; }
 .subscription-main .subscription-list li:nth-child(5n+2) .price-row { background: #fcb13c;}
-
-
 .subscription-main .subscription-list li:nth-child(5n+3) h3 {color: #fff;  background: #fe6847;}
 .subscription-main .subscription-list li:nth-child(5n+3) .card { border: 2px solid #fe6847; }
 .subscription-main .subscription-list li:nth-child(5n+3) .license-header .prog-head { background: #fe6847; color: #fff; }
 .subscription-main .subscription-list li:nth-child(5n+3) .price-row { background: #fe6847;}
-
-
 .subscription-main .subscription-list li:nth-child(5n+4) h3 {color: #fff;  background: #3787cc;}
 .subscription-main .subscription-list li:nth-child(5n+4) .card { border: 2px solid #3787cc; }
 .subscription-main .subscription-list li:nth-child(5n+4) .license-header .prog-head { background: #3787cc; color: #fff; }
 .subscription-main .subscription-list li:nth-child(5n+4) .price-row { background: #3787cc;}
-
-
 .subscription-main .subscription-list li:nth-child(5n+5) h3 {color: #fff;  background: #17a2b8;}
 .subscription-main .subscription-list li:nth-child(5n+5) .card { border: 2px solid #17a2b8; }
 .subscription-main .subscription-list li:nth-child(5n+5) .license-header .prog-head { background: #17a2b8; color: #fff; } 
