@@ -137,7 +137,7 @@ input[type=checkbox], input[type=radio] { box-sizing: border-box;  padding: 0;}
 .navigation-panel ul.submenu li{width:100%;border-right: 1px solid #cfcfcf;}
 .navigation-panel ul:nth-child(3){border:none;}
 .navigation-panel .mCSB_inside > .mCSB_container { margin-right: 0;}
-.navigation-panel .mCSB_scrollTools { width: 2px;}
+/* .navigation-panel .mCSB_scrollTools { width: 2px;} */
 .navigation-panel ul li{ float:left; width:100%;  line-height:23px; position: relative;}/*line-height:52px;*/
 .navigation-panel ul li:nth-child(3n+3){border-right:0;}
 .navigation-panel ul li a{text-decoration:none; padding: 3px 20px; color: #3e3e3e; font-size: 16px; display: flex; align-items: center; width: 100%; line-height: 20px; min-height: 44px;}/****line-height: 38px;*Harjit 13May2022****/
@@ -949,7 +949,7 @@ div[rel='scrollcontent1'] { width:100%; height:320px;}
 /*.page-menu .menu-box ul li{list-style:none;}*/
 
 .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {  background-color: #000;  background-color: rgba(0,0,0,.5) !important; }
-.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar { background-color: #000; background-color: rgba(0,0,0,.3) !important; -webkit-border-radius: 2px;  -moz-border-radius: 2px;    border-radius: 2px; }
+.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar { background-color: #000!important; background-color: rgba(0,0,0,.3) !important; -webkit-border-radius: 2px;  -moz-border-radius: 2px;    border-radius: 2px; }
 
 /***************Location dropdown**********************/
 .custom-drop-down { position: relative !important; -webkit-appearance: none !important; border-radius: 0; appearance: none; -moz-appearance: none; }
@@ -2018,7 +2018,7 @@ span.round-tab i {color: #a7a7a7;}
 .wizard .nav-tabs > li a.active.red { width: 50px;height: 50px;border-radius: 100% !important; background: #fff !important;border: 2px solid #f1685e !important;z-index: 9}
 .wizard .nav-tabs > li a.active.green { width:33px;height:33px; border-radius: 100% !important;background: #fff !important;border: 2px solid #5cb85c !important;z-index: 9}
 .bg_outerdark { background: #f6f6f6}
-.wizard .nav-tabs > li { width: 6.66%;background:#f8f9fa !important;display: table-cell;position: relative;white-space: nowrap}
+.wizard .nav-tabs > li { width: 6.66%;background:#f8f9fa !important;display: table-cell;position: relative;white-space: nowrap; vertical-align:top;}
 .wizard .nav-tabs > li a {margin: 9px auto;border-radius: 100%;padding: 0; position: relative}
 .wizard .nav-tabs > li a:hover {background: 0 0}
 .wizard .tab-pane { position: relative;padding-top: 50px}
@@ -2878,7 +2878,7 @@ ul.bodbotcontrol li:last-child{border-bottom:1px solid #dee1e6;}
 .control_mCSB > .mCSB_inside > .mCSB_scrollTools{right:-5px!important;}
 .mCSB_inside > .mCSB_container{padding-bottom:2px;}
 .iframe body{margin:0;}
-.modal-body{height:auto;}
+
 
 .containerLegend100_WS {width: 100% !important; float: left !important; font-size:13px; color:#fff;} 
 .containerLegend100_WS .legend {height: auto !important; width: 100%; margin:0 !important;box-sizing: border-box !important; float:left;}/*min-height:120px; max-height:304px; padding:10px !important; */
@@ -4545,10 +4545,10 @@ span.colorpicker { display: none; padding: 12px; background-color: #EEE; border:
 .nd-combo-view .combo-canvan-view li.overdue > h3 { width: 100%; padding:12px 10px;  font-size:18px; color: #fff; background: #17a2b8; border: 1px solid #17a2b8; font-weight: 300;}
 .nd-combo-view .combo-canvan-view li.overdue > h3 span { font-size: 18px; font-weight:normal; float: right;}
 .nd-combo-view .combo-canvan-view li.pending > h3 { width: 100%; padding:12px 10px;  font-size:18px; color: #fff; background: #fcb13c; border: 1px solid #fcb13c; font-weight: 300;}
-.nd-combo-view .combo-canvan-view li.pending > h3 span { font-size: 18px; font-weight:normal; float: right;}
+.nd-combo-view .combo-canvan-view li.pending > h3 span { font-size: 18px; font-weight:normal; float: right; }
 /*.nd-combo-view .combo-canvan-view li.unassigned > h3 { width: 100%; padding:12px 10px;  font-size:18px; color: #fff; background: #78909C; border: 0px solid #78909C; font-weight: 300;}*/
 
-.nd-combo-view .combo-canvan-view li.pending > h3 span { font-size: 18px; font-weight:normal; float: right;}
+
 .nd-combo-view .combo-canvan-view li .card {	margin-bottom: 10px;	border-radius: 0;}
 .nd-combo-view .combo-canvan-view li .card-body {	padding: 10px;}
 .nd-combo-view .combo-canvan-view .card-header {	padding: 10px; color: #303030;}
@@ -4685,7 +4685,7 @@ ul.defaultrating li{color:#cccccc;}
 .bootstrap-datetimepicker-time-widget table td.separator{width:10px}
 .bootstrap-datetimepicker-time-widget table td span{width:30px !important; height:30px; line-height:30px}
 .bootstrap-datetimepicker-time-widget table a[data-action]{padding:0}
-.bootstrap-datetimepicker-time-widget table td, .bootstrap-datetimepicker-time-widget table th{padding:0}
+/* .bootstrap-datetimepicker-time-widget table td, .bootstrap-datetimepicker-time-widget table th{padding:0} */
 .bootstrap-datetimepicker-time-widget table td, .bootstrap-datetimepicker-time-widget table th{padding:.2rem !important}
 .bootstrap-datetimepicker-time-widget .picker-switch table td span{width:auto !important; display:block}
 /****************End Time picker custom csss********************/
@@ -4706,7 +4706,7 @@ ul.defaultrating li{color:#cccccc;}
     .ifnotmap .evmgt-text1{  min-height:410px;}
     .ifnotmap .event-description .cke_contents { height:400px !important;}
 }
-.vue-slider-dot-tooltip-inner{min-height: 20px;} 
+ 
 .notifybox .alert {border-bottom-right-radius: 0; border-bottom-left-radius: 0; }   
 @media (min-width: 1601px) {
      .ifnotmap .evmgt-text1{ min-height:520px;}
@@ -4792,7 +4792,7 @@ ul.defaultrating li{color:#cccccc;}
 .wizard-inner .nav-tabs > li.nav-item span.round-tab.default::before{content:"\f00c";}
 .wizard-inner .nav-tabs > li.nav-item span.round-tab::before{content:none;}
 .wizard-inner .nav-tabs > li.nav-item span.round-tab i{position: absolute; top: 4px; left: 5px;}
-.wizard .nav-tabs > li{vertical-align:top;}
+/* .wizard .nav-tabs > li{vertical-align:top;} */
 /***CRM deal detail - green drawing setting- Harjit Singh18Oct2021***********/
 #popNotificationCount:empty {display: none;}
 
@@ -4810,7 +4810,7 @@ ul.defaultrating li{color:#cccccc;}
 /****Zone mgmt - Harjit 03Nov2021**********/
 
 /***************** wizards Harkirat 10Nov2021*******************/
-.wizardnew a{	padding: 7px !important;}
+ 
 .wizardnew img{	max-width: 32px; display: block; float:left}
 #choosewizards .modal-title {	padding-left: 0;}
 #choosewizards .modal-header button {position:relative; top: -15px; right: -15px;}
@@ -4820,8 +4820,8 @@ ul.defaultrating li{color:#cccccc;}
 #choosewizards .short-menu-item {	background-color: #fff;	border: 1px solid #cfcfcf;}
 #choosewizards .left-icon-m {	padding: 8px 15px; border-left: 5px solid; width: 72px; line-height:normal;}
 #choosewizards .left-icon-m i{	font-size:35px;}
-#choosewizards .shortcuts-menu li:hover {	transform: none;}
-.wizardnew a{background-image: url('../images/wizardsprite.png');background-repeat: no-repeat;background-position: 1px 7px; height: 42px; width: 35px;}/*Harjit made Wizard icon aside BG img*/
+#choosewizards .shortcuts-menu li:hover {transform: none;}
+.wizardnew a{padding: 7px !important; background-image: url('../images/wizardsprite.png');background-repeat: no-repeat;background-position: 1px 7px; height: 42px; width: 35px;}/*Harjit made Wizard icon aside BG img*/
 
 @media (max-width:991px) {
     .wizardnew a{width: 175px!important; padding-left: 40px !important;}
@@ -4830,7 +4830,7 @@ ul.defaultrating li{color:#cccccc;}
 .menu-left-wrapper .wizardnew a{width: 145px; padding-left: 40px !important;}
 
 /******If left Menu- Harjit Singh 01Dec2021********************/
-.menu-left-wrapper .switch-menu{}
+ 
 .menu-left-wrapper .wizardnew{margin-right:15px;}
 .menu-left-wrapper.wrapper-shrink .wizardnew img{float:left; margin-right:0px;}
 .menu-left-wrapper .wizardnew img{float:left; margin-right:5px;}
@@ -4866,7 +4866,7 @@ ul.defaultrating li{color:#cccccc;}
 .btn_pos_bottom .btn_prevoius{background-color:#e59b08;border-color: #e59b08;}
 .btn_pos_bottom .btn_prevoius:hover{background-color:#f9a807;border-color: #f9a807;}
 .btn_pos_bottom .btn_back, .btn_pos_bottom .btn_back:hover{background-color:#cdcdcd;border-color: #cdcdcd; }
-.btn_cstm.active {background: green !important;}
+/* .btn_cstm.active {background: green !important;} */
 .user_type_choice label {margin: 0 15px !important;padding:10px 20px;}
 .btn_cstm {border: 1px solid #ccc;background: #fff;}
 .btn_cstm.active {border: 1px solid #00b298 !important;background: #00b298 !important;}
@@ -4904,7 +4904,7 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
 .navbar #divMainProjectAddWizard .container-fluid {display:block;}
 
 /* Expense card view and kanban view */
-.expense-card{}
+ 
 .expense-card .custom-control{ position: absolute; top: 2px; left: -3px; }
 .expense-card-header{width:100%; margin:0px; padding:10px 0px 0px 0px;}
 .expense-icon{ width: 50px; height: 50px; border-radius: 100%; border: 2px solid #ccc; display: inline-block; line-height: 44px; }  
@@ -4934,7 +4934,7 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
 /***Harjit- Select tag not expanding and eye or add icon on right side| Master Core universal***/
 
 /*Gaurav Dhiman for dashboard wizard widget */
-#choosewizards .shortcuts-menu li:hover {transform: none}
+/* #choosewizards .shortcuts-menu li:hover {transform: none} */
 #choosewizards .shortcuts-menu li:nth-child(9n+1) .left-icon-m {border-color: #216bca}
 #choosewizards .shortcuts-menu li:nth-child(9n+2) .left-icon-m {border-color: #63983e}
 #choosewizards .shortcuts-menu li:nth-child(9n+3) .left-icon-m {border-color: #575b6f}
@@ -4965,7 +4965,7 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
 .fsmaddresscontrol .card-detail-main{text-transform:capitalize;}
 
 /****FSM Harjit 10Feb2022*****/
-.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar  {background-color:#000 !important}
+/* .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar  {background-color:#000 !important} */
 .navigation-panel .mCSB_scrollTools{width:7px !important;}
 .nd-combo-view .combo-canvan-view .card .badge.medium {background:#25a5fc!important;} 
 .nd-combo-view .combo-canvan-view .card .badge.critical {background:#dc3546!important;}
@@ -5136,7 +5136,7 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
     position: relative;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 1rem;
+    padding: 1rem; height:auto;
 }
 
 /******************* Help and Guide Page Design 1 Nov 2022 *******************/
@@ -5222,9 +5222,6 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.close.chart-close {
     position: absolute;
     right: 50px;
     top: 80px;
@@ -5233,12 +5230,8 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
     width: 30px;
     height: 30px;
     line-height: 22px;
-    text-align: center;
-    padding: 0px;
+    text-align: center;   
     font-size: 20px;
-}
-
-.close.chart-close {
     padding: 1rem 1rem;
     margin: -1rem -1rem -1rem auto;
 }
