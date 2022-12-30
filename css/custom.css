@@ -105,7 +105,7 @@ label{font-weight:400; margin-bottom:0; font-size:14px;}
 .custom-control{min-height: 1.5rem; padding-left: 1.5rem;}
 input[type=checkbox], input[type=radio] { box-sizing: border-box;  padding: 0;}
 .custom-control-input { position: absolute; left: 0; z-index: -1; width: 1rem;  height: 1.25rem;   opacity: 0;}
-.custom-control-label { position: relative; margin-bottom: 0;  vertical-align: top;}
+.custom-control-label { position: relative; margin-bottom: 0;  vertical-align: top; line-height:22px;}
 
 .custom-control-label::before { position: absolute; top: 0.25rem; left: -1.5rem;  display: block; width: 1rem;
     height: 1rem;  pointer-events: none; content: ""; background-color: #fff;  border: #adb5bd solid 1px;
@@ -471,7 +471,7 @@ padding: 0px;
 .font-small{font-size:10px !important;}
 
 footer{width:100%; float:left; font-size:13px; position:relative;z-index:0;}
-footer .contri_translate {color: #fff; background-image: url('../images/translation.png');background-repeat: no-repeat; background-position: left;width: 243px; float: left;padding: 1rem 10px 1rem 44px;   
+footer .contri_translate {color: #fff; background-image: url('../images/contribution-icon.png') !important;background-repeat: no-repeat; background-position: left;width: 243px; float: left;padding: 1rem 10px 1rem 44px;   
 margin-top: 0px;font-size: 12px;}
 footer .copyright{padding:  1rem 10px 1rem 10px; margin:0px; color:#fff;}
 footer ul{list-style:none; margin:0px; padding:1rem 10px 1rem 10px}
@@ -1719,7 +1719,7 @@ box-sizing: border-box;font-size:10pt;}
 .mobile-tab-accordian .card-header a{color:inherit !important;}.mobile-tab-accordian .card-header h5{font-size:1rem !important;margin-bottom:0 !important;font-weight:normal;}
 .mobile-tab-accordian:hover{color:white !important;background:#525f65 !important;}
 .mobile-tab-accordian:active{color:white !important;background:#525f65 !important;}
-.mobile-tab-accordian.active{display:none;flex-direction:column;border-radius:0 !important;}
+.mobile-tab-accordian.active{display:none;flex-direction:column;border-radius:0 !important; color: #fff !important; background: #525f65 !important;}
  
 @media (max-width:1024px){
 .p-action-btn{padding: 7.8px 6px;}
@@ -4066,8 +4066,8 @@ span.cke_button_icon.cke_button__cleareditor_icon{display:none;}
 }
 
 @media (max-width:1400px) {
-.dashbord-widget li { padding: 25px 10px 17px 10px; }
- .dashbord-widget li { position:relative; }
+.dashbord-widget li { padding: 25px 10px 17px 10px;position:relative; }
+  
  .dashbord-widget li h3 {max-width: 82%; }
  .dashbord-widget i { font-size: 25px;position: absolute;right: 10px;}
 }
@@ -4090,7 +4090,7 @@ span.cke_button_icon.cke_button__cleareditor_icon{display:none;}
 .cardhead a.nostylelink{ color:#007bff;padding:0px; font-size:initial; float:unset;}
 .dark-full-screen {	display: inline-block;}
 .light-full-screen {	display: none;}
-footer .contri_translate {	background-image: url('../images/contribution-icon.png') !important;}
+
 
 /*****iPhone Modal header text - Harjit Singh 14Dec20************/
 @media (max-width:991px){
@@ -4105,7 +4105,7 @@ footer .contri_translate {	background-image: url('../images/contribution-icon.pn
 }
 
 
-footer .contri_translate {	background-image: url('../images/contribution-icon.png') !important;}
+
 
 .round-icon-small i{font-size:16px;}
 .bootstrap-datetimepicker-widget table td,.bootstrap-datetimepicker-widget table th{padding:.3rem !important;}
@@ -4230,7 +4230,7 @@ ul.canvan-view-list.kvlistview li div.card:hover{cursor:move;}
 .disable-all.v-select.disabled .dropdown-toggle, .disable-all.v-select.disabled .dropdown-toggle .clear, .disable-all.v-select.disabled .open-indicator{background:#e0e0e0!important;}
 
 .v-select.ddl_contact ul.dropdown-menu {max-height: 200px !important;}
-.custom-control-label{line-height:22px; }
+/* .custom-control-label{line-height:22px; } */
 .form-check .custom-control { float:left;}
 .form-check  .form-check-label{line-height:26px; float:left;}
 .custom-reports .list-group-item.selected { background: #f5f5f5 !important; border-top: 1px solid rgba(0,0,0,.125); border-radius: 0px; }
@@ -4276,7 +4276,7 @@ ul.canvan-view-list.kvlistview li div.card:hover{cursor:move;}
 .menu-left-wrapper .timer_wrap{padding:0px 3px 0px 7px;}
 .menu-left-wrapper .timer_desc{margin-right:0px;}
 
-.menu-left-wrapper .timer_desc .timer_txt{font-size:22px;}/*19px*/
+
 .menu-left-wrapper .timer_desc .desc_txt{width:165px; margin-right:5px; margin-top:2px;}/*width:65px;*/
 
 .menu-left-wrapper .circle a{margin-left:0px;}
@@ -4296,7 +4296,7 @@ ul.canvan-view-list.kvlistview li div.card:hover{cursor:move;}
 /**Running timer - left menu - Harjit 08Sept21***/
 
 .menu-left-wrapper .timer_wrap.show .timer_desc{min-width:60px!important;}
-.menu-left-wrapper .timer_desc .timer_txt{letter-spacing: 1px; text-align:center;line-height:24px;}
+.menu-left-wrapper .timer_desc .timer_txt{letter-spacing: 1px; text-align:center;line-height:24px;font-size:22px;}
 
 select.form-control[readonly="readonly"]{pointer-events:none;}
 
@@ -4351,7 +4351,7 @@ select.form-control[readonly="readonly"]{pointer-events:none;}
 
 }
 .currentversion{border: 1px solid #d2d2d2;padding: 4px;background: #f4f4f4;}
-.mobile-tab-accordian.active { color: #fff !important; background: #525f65 !important; }
+/* .mobile-tab-accordian.active { color: #fff !important; background: #525f65 !important; } */
 .menu-search-panel a.clear-search{position: absolute; background: #484848; color: #fff; padding: 0; top: 1px; right: -1px; height: 42px; width: 28px; display: none;}
 .legend-milestone{transform: rotate(45deg); width: 13px; height: 13px; margin-right: 8px;} 
 .wordbreak{word-break:break-word;}
@@ -4485,7 +4485,7 @@ a.todoprojname{float:left; padding:0px;width:95%; font-size:15px;font-weight:500
 .accordian-btn span { font-size: 16px !important; }
 .accordian-btn:hover, .accordian-btn:focus { background: #d3d3d3 !important; }
 .line-height { line-height: 0px; }
-.bg-draw { }
+
 .bg-draw .card{border-radius:0px !important;}
 .flowsharp button, .flowsharp button:hover{ background: none !important; width: 100%; color: #303030;}
 .flowsharp .card{ border:1px solid rgba(0,0,0,.125) !important;}
