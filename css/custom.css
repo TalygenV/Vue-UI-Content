@@ -34,6 +34,7 @@ url('/Content/Responsive/fonts/digital7.svg#digital7') format('svg');
 
 h6{font-size:14px;}
 .h5{font-weight:normal; margin-bottom:0;}
+.p-action-btn em{font-size: 16px!important;}  
 
 p{margin-bottom:10px;}
 /* .fixed-top{z-index: 99999;} Harjit */   
@@ -5346,4 +5347,3 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
 .vue-apexcharts .apexcharts-canvas{margin: 0 auto;}
 /*********With Ishan Goyal**********/
 
-.p-action-btn em {    font-size: 16px;}
