@@ -32,7 +32,7 @@ h6{font-size:14px;}
 
 /*****EM font Harjit 3 Dec2023**********/
 .p-action-btn em{font-size: 16px!important;} 
-.single-action em {font-size: 20px;} 
+.single-action em{font-size: 20px!important;} 
 /*****EM font Harjit 3 Dec2023**********/
 
 p{margin-bottom:10px;}
@@ -5338,5 +5338,4 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
 /*********With Ishan Goyal**********/
 .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-close {
 position: absolute; top: -10px; right: -10px; color: #fff; width: 22px; height: 22px;background: #1a1a1a; border-radius: 100%;}
-
-
+.expressionbx a {color: #303030;padding: 10px 15px;border-left: 1px solid #c7c7c7;font-size: 25px;font-weight: 500;}
