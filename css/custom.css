@@ -25,16 +25,15 @@ url('/Content/Responsive/fonts/digital7.woff') format('woff'),
 url('/Content/Responsive/fonts/digital7.ttf') format('truetype'),
 url('/Content/Responsive/fonts/digital7.svg#digital7') format('svg');
 }
-.ml-auto, .mx-auto {
-    margin-left: auto !important;
-}
+.ml-auto, .mx-auto {margin-left: auto !important;}
 .fixfc .form-control{height:auto;}
-/*.form-control{padding:.375rem .50rem!important;height:auto;}*//******Harjit added to reduce padding inside date picker fields*********/
-/**On Demand of Vaneet - Harjit commented this class*****/
-
 h6{font-size:14px;}
 .h5{font-weight:normal; margin-bottom:0;}
-.p-action-btn em{font-size: 16px!important;}  
+
+/*****EM font Harjit 3 Dec2023**********/
+.p-action-btn em{font-size: 16px!important;} 
+.single-action em {font-size: 20px;} 
+/*****EM font Harjit 3 Dec2023**********/
 
 p{margin-bottom:10px;}
 /* .fixed-top{z-index: 99999;} Harjit */   
@@ -5312,7 +5311,6 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
     .prof_control .user-detail .appliedfor{float: right;margin-top:0px;}
 }
 .storagegraph.smaller{ border-radius: 10px!important; height: 10px!important;}
-
 .whitepopup.my-popups .modal-header{ background: #fff; color: #303030;}
 .whitepopup.my-popups .modal-header button{ right: 22px; top: 26px;}
 .whitepopup.my-popups .modal-header button.close{background: none;}
@@ -5321,29 +5319,24 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
     background-image: linear-gradient(-45deg,rgb(113, 225, 96) 25%,#52c41d 25%,#52c41d 50%,rgb(113, 225, 96) 50%,rgb(113, 225, 96) 75%,#52c41d 75%,#52c41d);
 }
 .ini_setup.storagegraph .progress-bar {background-color: #52c41d;}     
-
- .btn-primary_custom{color: #303030; background-color: #dbecfa; border-color: #23a5fd;}
- .btn-primary_custom span{background: #23a5fd; width: 30px; height:30px;  padding: 5px 10px; margin-right: 10px;}
- .btn-primary_custom span i,  .btn-info_custom span i,  .btn-warning_custom span i{color:#fff}
-
- .btn-info_custom span{background: #8ea1f6; width: 30px; height:30px;  padding: 5px 10px; margin-right: 10px;}
- .btn-info_custom{color: #303030; background-color: #e4e9ff; border-color: #8ea1f6;}
-
- .btn-warning_custom span{background: #e0bd43; width: 30px; height:30px;  padding: 5px 10px; margin-right: 10px;}
- .btn-warning_custom{color: #303030; background-color: #fff5d2; border-color: #e0bd43;}
-
- .customScrollForLeftBar.llt .mCSB_container{margin-right: 0px;} 
-
- .tooltiptext { width: 100px;  background-color: #787878;  color: #fff;  text-align: center; border-radius: 6px;  padding: 0px 0;  
+.btn-primary_custom{color: #303030; background-color: #dbecfa; border-color: #23a5fd;}
+.btn-primary_custom span{background: #23a5fd; width: 30px; height:30px;  padding: 5px 10px; margin-right: 10px;}
+.btn-primary_custom span i,  .btn-info_custom span i,  .btn-warning_custom span i{color:#fff}
+.btn-info_custom span{background: #8ea1f6; width: 30px; height:30px;  padding: 5px 10px; margin-right: 10px;}
+.btn-info_custom{color: #303030; background-color: #e4e9ff; border-color: #8ea1f6;}
+.btn-warning_custom span{background: #e0bd43; width: 30px; height:30px;  padding: 5px 10px; margin-right: 10px;}
+.btn-warning_custom{color: #303030; background-color: #fff5d2; border-color: #e0bd43;}
+.customScrollForLeftBar.llt .mCSB_container{margin-right: 0px;} 
+.tooltiptext { width: 100px;  background-color: #787878;  color: #fff;  text-align: center; border-radius: 6px;  padding: 0px 0;  
     position: absolute;  z-index: 1;  top: 26px;  right: 0px;  left: 70px;}
-
 .verticle-action.lft75 { right: 75px; top: 40px; }
 .va_lft25.top4 { top: -4px;}
-
 .dropzone__box{border: 2px dashed #cbcbcb!important;}
 .dropzone-clickable {line-height: 50px!important; color: #cbcbcb!important;}
-
 /*********With Ishan Goyal**********/
 .vue-apexcharts .apexcharts-canvas{margin: 0 auto;}
 /*********With Ishan Goyal**********/
+.guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-close {
+position: absolute; top: -10px; right: -10px; color: #fff; width: 22px; height: 22px;background: #1a1a1a; border-radius: 100%;}
+
 
