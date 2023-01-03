@@ -5345,3 +5345,5 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
 /*********With Ishan Goyal**********/
 .vue-apexcharts .apexcharts-canvas{margin: 0 auto;}
 /*********With Ishan Goyal**********/
+
+.p-action-btn em {    font-size: 16px;}
