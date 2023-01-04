@@ -5183,6 +5183,7 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
 
 /********************Harjit Doc storage 29Nov2022**********************************/
 .pin.pinnewtag{position: absolute;top: 8px;left: 50px;z-index:9;}
+.pinff.pinnewtag{position: absolute;top: 8px;right: 20px;z-index:9;}
 /********************Harjit Doc storage 29Nov2022**********************************/
 
 .img-ico.fix145 img { max-height:145px; min-height:145px;}
