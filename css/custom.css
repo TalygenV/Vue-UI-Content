@@ -539,7 +539,7 @@ border-left: .3em solid transparent;
 .p-action-btn{font-size: 12px; text-align: center;display: inline-block; padding:7.8px 15px; min-width: 65px; height:46px; float:left;}
 .legends_topbar span{font-size: 12px; text-align: center;display: inline-block; padding:0px 5px; min-width: 65px; height:46px; line-height:46px;}
 .legends_topbar span em{width:25px; height:25px; color:#fff; line-height:26px; margin-right:5px; border-radius:50%;}
-.p-action-btn em{font-size: 16px;}
+/* .p-action-btn em{font-size: 16px;} */
 
 .left-menu-tab {float:left;	width:100%;	max-width:300px;}
 .right-content {float:right; width:calc(100% - 320px);}
@@ -851,7 +851,7 @@ color: #303030!important;
 .user-guide{font-size:13px; font-weight:normal; background:url('../images/user-guide-img.png'); background-repeat:no-repeat; background-position:0 2px;min-height:17px;display:inline-block;}
 .user-guide a { padding-left: 20px; }
 .btn{font-size:14px; padding:.4rem .75rem; border-radius:0 !important;-webkit-border-radius:0 !important;-khtml-border-radius:0 !important;}
-.single-action em{font-size:20px;}
+/* .single-action em{font-size:20px;} */
 .divancuserguide{position:absolute; width:514px !important; right:0; z-index:1000 !important; top:30px; border:1px solid #48555d; padding:15px; text-align:left; color:#454545; font-size:14px; background:#fff; font-weight:normal; display:none;}
 .modal .divancuserguide{top:32px;}
 .user-guide .con{ position:relative;}
@@ -2314,8 +2314,8 @@ button{outline:0 !important;}
 
 .mail-content-wrapper .listing-wrapper .lists span:nth-child(2) {font-size: 14px;}
 .mail-content-wrapper .listing-wrapper .lists span:nth-child(3) {color: #0078d4; font-style: normal;}
-.mail-content-wrapper .listing-wrapper .lists span:nth-child(3) em {text-overflow: ellipsis;  max-width: 20ch;  width: 60%; display: block; overflow: hidden;}
-.mail-content-wrapper .listing-wrapper .lists span:nth-child(3) em { display: flex; flex: 40%; justify-content: flex-end; color: #626262; font-size: 12px; font-style: normal;}
+
+.mail-content-wrapper .listing-wrapper .lists span:nth-child(3) em {text-overflow: ellipsis;  max-width: 20ch;  width: 60%; display: block; overflow: hidden; display: flex; flex: 40%; justify-content: flex-end; color: #626262; font-size: 12px; font-style: normal;}
 
 .mail-content-wrapper .listing-wrapper .lists span:nth-child(4) {color: #626262; max-width: 28ch; display: block; overflow: hidden; text-overflow: ellipsis;}
 .lists-overlay {
