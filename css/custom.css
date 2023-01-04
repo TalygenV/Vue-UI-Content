@@ -2315,7 +2315,7 @@ button{outline:0 !important;}
 .mail-content-wrapper .listing-wrapper .lists span:nth-child(2) {font-size: 14px;}
 .mail-content-wrapper .listing-wrapper .lists span:nth-child(3) {color: #0078d4; font-style: normal;}
 
-.mail-content-wrapper .listing-wrapper .lists span:nth-child(3) em {text-overflow: ellipsis;  max-width: 20ch;  width: 60%; display: block; overflow: hidden; display: flex; flex: 40%; justify-content: flex-end; color: #626262; font-size: 12px; font-style: normal;}
+.mail-content-wrapper .listing-wrapper .lists span:nth-child(3) em {text-overflow: ellipsis;  max-width: 20ch;  width: 60%; overflow: hidden; display: flex; flex: 40%; justify-content: flex-end; color: #626262; font-size: 12px; font-style: normal;}
 
 .mail-content-wrapper .listing-wrapper .lists span:nth-child(4) {color: #626262; max-width: 28ch; display: block; overflow: hidden; text-overflow: ellipsis;}
 .lists-overlay {
