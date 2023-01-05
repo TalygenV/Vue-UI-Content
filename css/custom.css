@@ -5340,3 +5340,5 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
 
 .expressionbx a {color: #303030;padding: 10px 15px;border-left: 1px solid #c7c7c7;font-size: 25px;font-weight: 500;}
 .img-icons em{font-size: 46px!important;}
+
+.round-icon-small2{width:24px; height:24px; float:left; display:inline-block; text-align:center; line-height:21px; font-size:14px; color:#fff; overflow:hidden;  transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; margin:0px 3px; border-radius: 100% !important;}
