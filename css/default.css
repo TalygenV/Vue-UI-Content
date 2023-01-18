@@ -341,7 +341,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .dashbord-widget li{background: #ccc; border-color:#000;}
 .table-border{border:1px solid #c3c3c3;}
 
-.table-bordered tr { border-bottom: 1px solid #c6cace;background:none !important;}
+.table-bordered tr { border-bottom: 1px solid #dee2e6;background:none !important;}/***border-bottom: 1px solid #c6cace***/
 .table-bordered thead tr { border-bottom: 2px solid #c6cace;}
 .thead-bg tr{border-top:0;}
 .search .form-control{border:1px solid #afb5bb;}

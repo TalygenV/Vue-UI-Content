@@ -39,6 +39,7 @@ p{margin-bottom:10px;}
 /* .fixed-top{z-index: 99999;} Harjit */   
 .fixed-top{z-index: 99998;}
 .wrapper { display:flex; align-items:stretch;}
+.font-12{font-size:12px;}
 .font-14{font-size:14px;}
 .font-16{font-size:16px;}
 .font-18{font-size:18px;}
@@ -700,7 +701,7 @@ border-left: .3em solid transparent;
 .tab-style .nav-tabs li:last-child {margin-right:0px;}
 
 .tab-style .nav-link.active {position:relative;}
-.tab-style .nav-link.active::after{position: absolute; content: ""; bottom: -11px;	width: 18px; height: 9px; left:0; right:0; margin:auto;	border-left:9px solid transparent;	border-right:9px solid transparent;	border-top:9px solid; z-index:1;}
+.tab-style .nav-link.active::after{position: absolute; content: ""; bottom: -9px;	width: 18px; height: 9px; left:0; right:0; margin:auto;	border-left:9px solid transparent;	border-right:9px solid transparent;	border-top:9px solid; z-index:1;}
 .scroll-left {width:4%; display: inline-block; float:left; text-align:center; padding:6px; margin-right:5px; cursor: pointer; border-bottom: 3px solid #414c50;}
 .all-tabs {width: auto; float:left;}
 .scroll-right {width:4%; display:inline-block; float:right; text-align:center;	padding:6px; margin-left:5px; cursor: pointer; border-bottom: 3px solid #414c50;}
@@ -5343,3 +5344,31 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
 .img-icons em{font-size: 46px!important;}
 
 .round-icon-small2{width:24px; height:24px; float:left; display:inline-block; text-align:center; line-height:24px; font-size:14px; color:#fff; overflow:hidden;  transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; margin:0px 3px; border-radius: 100% !important;}
+
+
+ul.graphinfo{ padding: 0; margin: 0; list-style: none;}
+ul.graphinfo li label{font-weight: 600;}
+ul.graphinfo li{border-top: 1px solid #ffffff; border-bottom: 1px solid #e3e2e2; line-height: 33px;padding:5px 10px;}
+ul.graphinfo li:last-child{border: none;}
+.table-bordered td.onlyrtbod{border-right:1px solid #dee2e6!important;}
+
+.shortcuts-menu li.setupguides.w50 {max-width: 50%;}
+.setupdoclist{ display: flex; align-content: center; align-items: center; width: 100%; font-size: 18px; font-weight: 400;}
+.setupdoclist .left-icon-m {background: transparent; margin-right: 0px; padding: 15px 15px;}
+.setupdoclist .darkbgicon{background: #525f65 !important; color: #fff;}
+.setupdoclist .darkbgicon em{ font-size: 35px;}
+.setupdoclist .tickposition{right:50px;}
+.setupdoclist .tickposition em{font-size:25px;}
+.setupdoclist .tickarrowposition em{font-size:16px;}
+.left-tab.newiconic li{height:65px;}
+.left-tab.newiconic li a{padding:8px;}
+.left-tab.newiconic .coloredicon{text-align: center; margin-right: 6px; padding:10px; background: #525f65 ; color:#fff; float:left;}
+.left-tab.newiconic .coloredicon em{padding: 0px; font-size: 25px;min-width:40px;}
+.left-tab.newiconic li:nth-child(1) .coloredicon{background: #8892d0 !important;}
+.left-tab.newiconic li:nth-child(2) .coloredicon{background: #da9c49 !important;}
+.left-tab.newiconic li:nth-child(3) .coloredicon{background: #94c5a3 !important;}
+.left-tab.newiconic li:nth-child(4) .coloredicon{background: #e67d21 !important;}
+.left-tab.newiconic li:nth-child(5) .coloredicon{background: #787878 !important;}
+.left-tab.newiconic li:nth-child(6) .coloredicon{background: #c59e71 !important;}
+.left-tab.newiconic li:nth-child(7) .coloredicon{background: #38b8df !important;}
+.left-tab.newiconic li .textlinks{margin-top: 4px; float: left; min-width: 200px;}
