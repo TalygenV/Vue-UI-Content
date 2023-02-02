@@ -5335,7 +5335,8 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
 .verticle-action.lft75 { right: 75px; top: 40px; }
 .va_lft25.top4 { top: -4px;}
 .dropzone__box{border: 2px dashed #cbcbcb!important;}
-.dropzone-clickable {line-height: 50px!important; color: #cbcbcb!important;}
+.dropzone-clickable {line-height: 80px !important;color: #393939 !important;background: #fafafa;padding-top: 56px;font-size: 15px;}
+.dropzone__box{position: relative;}
 /*********With Ishan Goyal**********/
 .vue-apexcharts .apexcharts-canvas{margin: 0 auto;}
 /*********With Ishan Goyal**********/
