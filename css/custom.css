@@ -5374,3 +5374,5 @@ ul.graphinfo li:last-child{border: none;}
 .left-tab.newiconic li:nth-child(6) .coloredicon{background: #c59e71 !important;}
 .left-tab.newiconic li:nth-child(7) .coloredicon{background: #38b8df !important;}
 .left-tab.newiconic li .textlinks{margin-top: 4px; float: left; min-width: 200px;}
+
+.disabled .clsdashboardgroup {opacity: 0.4;} /***Dynamic report disabled in edit report - Ishant****/
