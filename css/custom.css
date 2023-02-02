@@ -5339,6 +5339,7 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
 .dropzone__box{position: relative;}
 /*********With Ishan Goyal**********/
 .vue-apexcharts .apexcharts-canvas{margin: 0 auto;}
+.apexcharts-legend{text-align: left;}
 /*********With Ishan Goyal**********/
 
 .expressionbx a {color: #303030;padding: 10px 15px;border-left: 1px solid #c7c7c7;font-size: 25px;font-weight: 500;}
