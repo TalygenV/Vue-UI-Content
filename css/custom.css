@@ -5377,7 +5377,7 @@ ul.graphinfo li:last-child{border: none;}
 
 .disabled .clsdashboardgroup {opacity: 0.4;} /***Dynamic report disabled in edit report - Ishant****/
 
-.action-list-box-ddl a.actions-onclick em {width: 30px; text-align: center;}
+.action-list-box-ddl a.actions-onclick em {width: 30px; text-align: center; font-size: 1.2em;}
 .action-list-box-ddl a.actions-onclick i {text-align: center;}
 
 
