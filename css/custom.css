@@ -5383,7 +5383,7 @@ ul.graphinfo li:last-child{border: none;}
 .jslider .jslider-label {  font-size: 15px; line-height: 12px;  color: black; opacity: .4;  white-space: nowrap; padding: 0 2px; position: absolute;  top: -18px; left: 90%;}
 
 /*Parameter-sliders 16-02-2023*/
-.flat-slider { width: 99%; padding: 10px 0px 60px; position: relative;}
+/* .flat-slider { width: 99%; padding: 10px 0px 60px; position: relative;}
 .green .vue-slider-process, .green .vue-slider-rail { background-color: #28a745 !important;}
 .green .vue-slider-dot-handle{ border: solid 2px #28a745 !important;}
 .yellow .vue-slider-process, .yellow .vue-slider-rail { background-color: #f0ad4e !important;}
@@ -5399,7 +5399,7 @@ ul.graphinfo li:last-child{border: none;}
 .vue-slider-dot-handle { width: 28px !important; height: 28px !important; top: -8px; left: -7px;}
 .vue-slider-dot-tooltip-top{ top: -12px;}
 .jslider .jslider-label{ top: -9px;}
-.vue-slider-dot-tooltip-inner { font-size: 13px; border-radius: 0;}
+.vue-slider-dot-tooltip-inner { font-size: 13px; border-radius: 0;} */
 /*Parameter-sliders 16-02-2023*/
 
 
