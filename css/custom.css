@@ -5392,7 +5392,7 @@ ul.graphinfo li:last-child{border: none;}
 .red .vue-slider-dot-handle{ border: solid 2px #d9534f !important;}
 .blue .vue-slider-process, .blue .vue-slider-rail { background-color: #5bc0de !important;}
 .blue .vue-slider-dot-handle{ border: solid 2px #5bc0de !important;}
-.vue-slider-dot-tooltip-inner-top:after {border-top-color: #505557;}
+.vue-slider-dot-tooltip-inner-top:after {border-top-color: #505557!important;}
 .vue-slider-dot-tooltip-text {font-weight: 600;}
 .vue-slider-process, .vue-slider-rail {border-radius: 0px !important;}
 .vue-slider{height: 10px !important; padding: 30px 0px;}
