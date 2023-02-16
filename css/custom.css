@@ -5376,10 +5376,31 @@ ul.graphinfo li:last-child{border: none;}
 .left-tab.newiconic li .textlinks{margin-top: 4px; float: left; min-width: 200px;}
 
 .disabled .clsdashboardgroup {opacity: 0.4;} /***Dynamic report disabled in edit report - Ishant****/
-
 .action-list-box-ddl a.actions-onclick em {width: 30px; text-align: center; font-size: 1.2em;}
 .action-list-box-ddl a.actions-onclick i {text-align: center;}
+.vue-slider-dot-tooltip{ position: absolute; visibility: visible;}
+.vue-slider-dot-tooltip-inner{ background-color:#505557; height:20px;}
+.jslider .jslider-label {  font-size: 15px; line-height: 12px;  color: black; opacity: .4;  white-space: nowrap; padding: 0 2px; position: absolute;  top: -18px; left: 90%;}
 
+/*Parameter-sliders 16-02-2023*/
+.flat-slider { width: 99%; padding: 10px 0px 60px; position: relative;}
+.green .vue-slider-process, .green .vue-slider-rail { background-color: #28a745 !important;}
+.green .vue-slider-dot-handle{ border: solid 2px #28a745 !important;}
+.yellow .vue-slider-process, .yellow .vue-slider-rail { background-color: #f0ad4e !important;}
+.yellow .vue-slider-dot-handle{ border: solid 2px #f0ad4e !important;}
+.red .vue-slider-process, .red .vue-slider-rail { background-color: #d9534f !important;}
+.red .vue-slider-dot-handle{ border: solid 2px #d9534f !important;}
+.blue .vue-slider-process, .blue .vue-slider-rail { background-color: #5bc0de !important;}
+.blue .vue-slider-dot-handle{ border: solid 2px #5bc0de !important;}
+.vue-slider-dot-tooltip-inner-top:after {border-top-color: #505557;}
+.vue-slider-dot-tooltip-text {font-weight: 600;}
+.vue-slider-process, .vue-slider-rail {border-radius: 0px !important;}
+.vue-slider{height: 10px !important; padding: 30px 0 !important;}
+.vue-slider-dot-handle { width: 28px !important; height: 28px !important; top: -8px; left: -7px;}
+.vue-slider-dot-tooltip-top{ top: -12px;}
+.jslider .jslider-label{ top: -9px;}
+.vue-slider-dot-tooltip-inner { font-size: 13px; border-radius: 0;}
+/*Parameter-sliders 16-02-2023*/
 
 
 
