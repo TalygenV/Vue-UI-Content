@@ -5402,5 +5402,7 @@ ul.graphinfo li:last-child{border: none;}
 .vue-slider-dot-tooltip-inner { font-size: 13px; border-radius: 0;}
 /*Parameter-sliders 16-02-2023*/
 
-
+/*** CRM - Deal detail ***/
+#tab-Deal-content .card-body span.rightlabeltext {word-break: break-all; white-space: break-spaces;}
+/*** CRM - Deal detail ***/
 
