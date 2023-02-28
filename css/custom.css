@@ -5421,3 +5421,9 @@ a:hover { box-shadow: 2px 3px 4px 0px #b9b9b952; border: 1px solid #9b9b9b73;  t
 .clr-4 {color: #6d60b0;}
 .clr-5 {color: #6bd046;}
 /**************  Doc Storage Sushil 27 Feb ***************/
+
+.fsmaddresscontrol .card-detail i.fa-map-marker {font-size: 25px;color: #303030;}
+.fsmaddresscontrol .card-detail i {width: 25px;padding-left: 3px;}
+.card-detail i {width: 20px;padding-right: 6px;float: left;padding-top: 4px;}
+
+
