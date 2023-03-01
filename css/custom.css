@@ -1018,7 +1018,8 @@ div[rel='scrollcontent1'] { width:100%; height:320px;}
 }
 
 /***************** Ticketing Dashboard - widgets width control Harjit Singh*****************/
-@media only screen and (min-width:992px) and (max-width:1199px) {
+/* @media only screen and (min-width:992px) and (max-width:1199px) {} */
+@media only screen and (max-width:1279px) {
 .usercustomwidth .graph-widget{max-width: 100%; min-width:100%; flex:0 0 100%;}
 }
 /***************** User Home Dashboard - widgets width control Harjit Singh*****************/
