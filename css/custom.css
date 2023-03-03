@@ -5409,7 +5409,7 @@ ul.graphinfo li:last-child{border: none;}
 
 /**************  Doc Storage Sushil 27 Feb ***************/
 .tickarrowposition { position: absolute; right: 0px; width: 30px; background: #f2f2f2!important; height: 100%; vertical-align: middle;}
-a:hover { box-shadow: 2px 3px 4px 0px #b9b9b952; border: 1px solid #9b9b9b73;  text-decoration: underline; color: #333335; } 
+/* a:hover { box-shadow: 2px 3px 4px 0px #b9b9b952; border: 1px solid #9b9b9b73;  text-decoration: underline; color: #333335; }  */
 .short-menu-item {  background-color: #f7f7f7;  border: 1px solid #e7e7e7; color: #333335; }
 .box-inner1 { width: 50px; height: 45px; background: #ffaf2f; }
 .box-inner2 { width: 50px; height: 45px; background: #4d85fe; }
