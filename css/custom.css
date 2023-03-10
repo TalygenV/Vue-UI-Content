@@ -5442,7 +5442,7 @@ div#divscrollsetuptabs ul.nav.nav-pills { display: block;}
 .blink-icon { position: absolute; top: -10px; left: 40px;}
 
 
-.modal.right.fade .modal-dialog { max-width: 75%;}
+/* .modal.right.fade .modal-dialog { max-width: 75%;} */
 .nav-link.left-menu.active { background: #e0f2ff !important;}
 .nav-link.left-menu.active, .nav-link.left-menu:hover { background: #ffffff !important; color: #000 !important;box-shadow: 0; border: none;}
 .nav-link.left-menu.active .fa { color: #24a5ff !important; }
