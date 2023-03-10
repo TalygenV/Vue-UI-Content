@@ -5437,7 +5437,7 @@ div#divscrollsetuptabs ul.nav.nav-pills { display: block;}
 .skip-btn-clr{background: #eee;}
 
 .short-menu-item .barprogress {right: 30px;}
-#main-content .col-md-12.col-lg-6 a:hover { box-shadow: 2px 3px 4px 0px #b9b9b9d2; border: 1px solid #9b9b9b73;  text-decoration: underline; color: #333335; } 
+/* #main-content .col-md-12.col-lg-6 a:hover { box-shadow: 2px 3px 4px 0px #b9b9b9d2; border: 1px solid #9b9b9b73;  text-decoration: underline; color: #333335; }  */
 #btnStorageSpace {height: 52px;}
 .blink-icon { position: absolute; top: -10px; left: 40px;}
 
