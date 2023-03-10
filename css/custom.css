@@ -5314,7 +5314,7 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
     .prof_control .user-detail .user-name{width: 50%; float: left; margin-top: 10px; margin-left: 50px;}
     .prof_control .user-detail .appliedfor{float: right;margin-top:0px;}
 }
-.storagegraph.smaller{ border-radius: 10px!important; height: 10px!important;}
+.storagegraph.smaller{ border-radius: 10px!important; height: 15px!important;}
 .whitepopup.my-popups .modal-header{ background: #fff; color: #303030;}
 .whitepopup.my-popups .modal-header button{ right: 22px; top: 26px;}
 .whitepopup.my-popups .modal-header button.close{background: none;}
@@ -5427,4 +5427,30 @@ ul.graphinfo li:last-child{border: none;}
 .fsmaddresscontrol .card-detail i {width: 25px;padding-left: 3px;}
 .card-detail i {width: 20px;padding-right: 6px;float: left;padding-top: 4px;}
 
+/* Sushil Doc Storage 10 March 2023 */
+.blink { animation: blink-animation 1s steps(5, start) infinite; -webkit-animation: blink-animation 1s steps(5, start) infinite; }      
+@keyframes blink-animation { to { visibility: hidden; }  } @-webkit-keyframes blink-animation { to { visibility: hidden; } }
 
+.nxt-page-icon { top: 10px; right: 10px;  font-size: 24px; position: absolute; color: #4882eb; }
+#modalManageView { pointer-events: none;}
+div#divscrollsetuptabs ul.nav.nav-pills { display: block;}
+.skip-btn-clr{background: #eee;}
+
+.short-menu-item .barprogress {right: 30px;}
+#main-content .col-md-12.col-lg-6 a:hover { box-shadow: 2px 3px 4px 0px #b9b9b9d2; border: 1px solid #9b9b9b73;  text-decoration: underline; color: #333335; } 
+#btnStorageSpace {height: 52px;}
+.blink-icon { position: absolute; top: -10px; left: 40px;}
+
+
+.modal.right.fade .modal-dialog { max-width: 75%;}
+.nav-link.left-menu.active { background: #e0f2ff !important;}
+.nav-link.left-menu.active, .nav-link.left-menu:hover { background: #ffffff !important; color: #000 !important;box-shadow: 0; border: none;}
+.nav-link.left-menu.active .fa { color: #24a5ff !important; }
+
+@media (max-width:991px){ .border-left-0{ border-left: 1px solid #dee2e6!important;} }
+@media (max-width:568px){ .modal.right.fade .modal-dialog { max-width: 100%;} .c100 { width: 0;  height: 0} .c100 > span { left: -40px; top: -35px; font-weight: 400; background: #00a915; height: 19px; width: 40px; line-height: 19px; color: #ffff;
+    font-size: 12px;} 
+.c100:after{display: none;} 
+}
+
+/* Sushil Doc Storage 10 March 2023 */
