@@ -2068,6 +2068,7 @@ li.nav-item.stepper .text { float: left;display: inline-block;font-size: 15px;wi
 .folder .folderlink:hover{color:#297cb3 !important;}
 .folder.file-pin { position: relative;}
 .doc-ico-legend{ font-size: 14px;}
+.doc-icon em.fa-thumb-tack{font-size:inherit;}
 .doc-icon em{font-size:2.0em;}
 .doc-ico-legend em{font-size:14px;}
 .box .doc-icon em{font-size:4em;}
