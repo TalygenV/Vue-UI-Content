@@ -5339,7 +5339,10 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
 .dropzone__box{border: 2px dashed #b1c2d2!important;}
 .dropzone-clickable {line-height: 80px !important; color:#999b9d!important; background:#f3f9ff; padding:40px 0px; font-size: 15px; text-transform:capitalize;} 
 
-
+@media (min-width:768px) 
+{
+  .uploadfilesbtn{position:absolute; right:10px; bottom:10px;}
+}
 
 .dropzone__box{position: relative;}
 /*********With Ishan Goyal**********/
