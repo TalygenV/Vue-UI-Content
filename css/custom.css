@@ -5337,7 +5337,7 @@ ul.filterss li{border:1px solid #dee1e6!important; counter-increment: css-counte
 .verticle-action.lft75 { right: 75px; top: 40px; }
 .va_lft25.top4 { top: -4px;}
 .dropzone__box{border: 2px dashed #b1c2d2!important;}
-.dropzone-clickable {line-height: 80px !important;color: #393939 !important;background:#f3f9ff; padding:40px 0px; font-size: 15px;} 
+.dropzone-clickable {line-height: 80px !important; color:#999b9d!important; background:#f3f9ff; padding:40px 0px; font-size: 15px; text-transform:capitalize;} 
 .dropzone__box{position: relative;}
 /*********With Ishan Goyal**********/
 .vue-apexcharts .apexcharts-canvas{margin: 0 auto;}
