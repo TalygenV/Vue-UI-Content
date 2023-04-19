@@ -5456,11 +5456,18 @@ div#divscrollsetuptabs ul.nav.nav-pills { display: block;}
     font-size: 12px;} 
 .c100:after{display: none;} 
 }
-
-
-
-
-
-
-
 /* Sushil Doc Storage 10 March 2023 */
+
+/**Sushil CustomLayout 19 April 2023**/
+.left-fields { position: relative;}
+.left-fields i {  position: absolute;  top: 18px;  right: 25px;}
+div#MainDivForLayout{ position: relative; }
+div#MainDivForLayout .dropdown-menu.show{ position: absolute; right:0; left: inherit;}
+div#LayOut_Id30314 .modal-header { background: rgb(241 241 241);}
+
+.user-defined-fields { background: #dfdfdf; width: 100%; padding: 10px 15px; margin: 0px 0 5px 0;}
+.right-slide-arrow .arrow-solid-left::before { right: 3px;  color: #fff;}
+.add-custom-drop-popup-close { width: 20px !important; height: 20px !important; font-size: 16px !important; top: 5px !important; right: 5px !important;}
+.add-custom-drop-popup-close em{float: right; margin: 0px 2px 0px 3px !important;}
+div#collapseOne12 {height: 400px; overflow-y: scroll; overflow-x: hidden;}
+/**Sushil CustomLayout 19 April 2023**/
