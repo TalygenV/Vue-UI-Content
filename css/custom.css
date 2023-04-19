@@ -5470,4 +5470,7 @@ div#LayOut_Id30314 .modal-header { background: rgb(241 241 241);}
 .add-custom-drop-popup-close { width: 20px !important; height: 20px !important; font-size: 16px !important; top: 5px !important; right: 5px !important;}
 .add-custom-drop-popup-close em{float: right; margin: 0px 2px 0px 3px !important;}
 div#collapseOne12 {height: 400px; overflow-y: scroll; overflow-x: hidden;}
+
+div#mainDivProp { position: relative;}
+div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 /**Sushil CustomLayout 19 April 2023**/
