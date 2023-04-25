@@ -5460,7 +5460,7 @@ div#divscrollsetuptabs ul.nav.nav-pills { display: block;}
 
 /**Sushil CustomLayout 19 April 2023**/
 .left-fields { position: relative;}
-.left-fields i {  position: absolute;  top: 18px;  right: 25px;}
+.left-fields em {  position: absolute;  top: 18px;  right: 25px;}
 div#MainDivForLayout{ position: relative; }
 div#MainDivForLayout .dropdown-menu.show{ position: absolute; right:0; left: inherit;}
 div#LayOut_Id30314 .modal-header { background: rgb(241 241 241);}
