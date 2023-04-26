@@ -5475,3 +5475,13 @@ div#mainDivProp { position: relative;}
 div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 /**Sushil CustomLayout 19 April 2023**/
 .fontpoppins{font-family:'Poppins';}
+
+
+/**Doc Storage - Harjit 26 April 23 **/
+.p-action-btn.new em { font-size: 20px!important;  padding-top: 5px;}
+.p-action-btn.new span { font-size:14px!important;  padding-top: 5px; float:left;}
+.p-action-btn.new:hover{color: #fff !important;background: #8d9599;}
+.theme-light-shade{background: #f5f5f5;}
+.theme-light-shade .p-action-btn {border: none;}
+.img-icons.new em:before{top: 25px;}
+/**Doc Storage - Harjit 26 April 23 **/
