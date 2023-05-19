@@ -5447,9 +5447,9 @@ div#divscrollsetuptabs ul.nav.nav-pills { display: block;}
 
 
 .modal.right.fade.show .modal-dialog.doc-setup-slide { max-width: 75%;}
-#divscrollsetuptabs .nav-link.left-menu.active { background: #e0f2ff !important;}
-#divscrollsetuptabs .nav-link.left-menu.active, .nav-link.left-menu:hover { background: #ffffff !important; color: #000 !important;box-shadow: 0; border: none;}
-#divscrollsetuptabs .nav-link.left-menu.active .fa { color: #24a5ff !important; }
+.nav-link.left-menu.active { background: #e0f2ff !important;}
+.nav-link.left-menu.active, .nav-link.left-menu:hover { background: #ffffff !important; color: #000 !important;box-shadow: 0; border: none;}
+.nav-link.left-menu.active .fa { color: #24a5ff !important; }
 
 @media (max-width:991px){ .border-left-0{ border-left: 1px solid #dee2e6!important;} }
 @media (max-width:568px){ .modal.right.fade.show .modal-dialog.doc-setup-slide { max-width: 100%;} .c100 { width: 0;  height: 0} .c100 > span { left: -40px; top: -35px; font-weight: 400; background: #00a915; height: 19px; width: 40px; line-height: 19px; color: #ffff;
