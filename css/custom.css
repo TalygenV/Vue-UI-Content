@@ -5488,3 +5488,22 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 .img-icons.new em:before{top: 25px;}
 /**Doc Storage - Harjit 26 April 23 **/
 /****19May2023***/
+
+.tourplay {
+    border-left: 2px solid #878787;
+    border-right: 0px;
+    padding: 0px 12px;
+  }
+  .sampledata {
+    font-size: 20px;
+    border-left: 2px solid #878787 !important;
+    border-right: 2px solid #878787 !important;
+    padding: 0px 12px;
+  }
+  .timer-icon {
+    font-size: 20px;
+    border-left: 2px solid #878787 !important;
+    border-right: 2px solid #878787 !important;
+    padding: 0px 12px;
+    line-height: 46px;
+  }
