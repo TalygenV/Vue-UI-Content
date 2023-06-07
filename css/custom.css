@@ -30,12 +30,6 @@ url('/Content/Responsive/fonts/digital7.svg#digital7') format('svg');
 h6{font-size:14px;}
 .h5{font-weight:normal; margin-bottom:0;}
 
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    position: relative;
-    font-weight: normal;
-}
 
 /*****EM font Harjit 3 Dec2023**********/
 .p-action-btn em{font-size: 16px!important;} 
