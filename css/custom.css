@@ -1,4 +1,7 @@
-﻿*{outline:none; white-space: inherit; word-wrap: break-word; font-weight: 300!important;}
+﻿*{outline:none; white-space: inherit; word-wrap: break-word;font-weight: 300;}
+
+*, ::after, ::before {box-sizing: border-box; margin: 0; font-weight: 300;}
+
 body { padding-top: 56px; font-family: 'Poppins', sans-serif; font-weight: 300 !important;padding-right:inherit !important;}
 /* body, .form-control, .dataTables_info{font-size:.9rem; } */
 a {cursor:pointer!important;text-decoration:none!important;}
