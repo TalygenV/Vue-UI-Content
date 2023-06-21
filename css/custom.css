@@ -87,7 +87,7 @@ table.table-bordered.dataTable{border-width:1px!important;}
 .alert-warning-header{background:#baa566; padding:15px;}/*#856404*/
 
 .custom-file-label, .custom-select{height: calc(2.12rem + 2px);}
-select.form-control:not([size]):not([multiple]){height: calc(2.12rem + 2px);}
+select.form-control:not([size]):not([multiple]){height: calc(2.12rem + 2px)!important;}
 .form-control, .custom-select, .custom-file-label{border-radius:0; font-size:14px; font-weight:300;}
 label{font-weight:400; margin-bottom:0; font-size:14px;}
 /*table .fa-plus{padding-top:7px;}**Modules & Privileges - Harjit******/
