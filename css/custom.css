@@ -1772,7 +1772,7 @@ box-sizing: border-box;font-size:10pt;}
 /*for data tables*/
 /*for customize map pop padding input header fix*/
 .gm-style-iw-d #content{padding:0 !important;}
-.actions .action-list-box{transition:transform 0s;display:none;cursor:default;}        /*02june-2021    cursor:default; added*/
+.actions .action-list-box{transition:transform 0s;cursor:default;}        /*02june-2021    cursor:default; added*/
 .actions .action-list-box-ex{transform:scale(1) !important;transition:.30s;transform-origin:right;opacity:1;transition-property:transform,opacity;}
 @media (max-width:1024px){ .dtr-data  .actions .action-list-box{transform:scale(1);transition:transform 0s;opacity:1;}.dtr-data  .actions .list-actions{background:rgba(255, 255, 255, 0.00);}
 table.table-bordered.dataTable td.mobile-action{display:table !important;}
