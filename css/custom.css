@@ -4554,6 +4554,11 @@ span.colorpicker { display: none; padding: 12px; background-color: #EEE; border:
 .nd-combo-view .combo-canvan-view li.pending > h3 span { font-size: 18px; font-weight:normal; float: right; }
 /*.nd-combo-view .combo-canvan-view li.unassigned > h3 { width: 100%; padding:12px 10px;  font-size:18px; color: #fff; background: #78909C; border: 0px solid #78909C; font-weight: 300;}*/
 
+.nd-combo-view .combo-canvan-view li.unassigned > h3 { width: 100%; padding:12px 10px;  font-size:18px; color: #fff; background: #78909C; border: 1px solid #78909C; font-weight: 300;}
+.nd-combo-view .combo-canvan-view li.unassigned > h3 span { font-size: 18px; font-weight:normal; float: right;}
+.nd-combo-view .combo-canvan-view li.canceled > h3 { width: 100%; padding:12px 10px;  font-size:18px; color: #fff; background: #fe6847; border: 1px solid #fe6847; font-weight: 300;}
+.nd-combo-view .combo-canvan-view li.canceled > h3 span { font-size: 18px; font-weight:normal; float: right;}
+
 
 .nd-combo-view .combo-canvan-view li .card {	margin-bottom: 10px;	border-radius: 0;}
 .nd-combo-view .combo-canvan-view li .card-body {	padding: 10px;}
