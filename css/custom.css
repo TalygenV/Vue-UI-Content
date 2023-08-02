@@ -2574,7 +2574,7 @@ background-image: none;     */
 
 /*pop-up*/
 .mail-box-pop {
-    background: rgba(0, 0, 0, 0.07) !important;
+    background: rgba(0, 0, 0, 0.5) !important;
     padding: 0 !important;
 }
 
