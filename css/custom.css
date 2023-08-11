@@ -5533,5 +5533,27 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 .left-menu-tab.datareport { width: 100% !important; max-width: 100%;}
 .right-content.datareport { width: 100% !important; margin-top: 15px;}
 }
+
+.verticle-action.lft75 .arrow-solid-left::before { right: 4px;}
+
+@media (max-width:1439px) {
+    .verticle-action.lft75 { top: 80px !important;}
+}
+
+@media (max-width:1279px) {
+    .verticle-action.lft75 { top: 35px !important;}
+
+}
+
+@media (max-width:1250px) {
+    .verticle-action.lft75 { right: 50px !important;}
+
+}
+
+@media (max-width:1180px) {
+    .verticle-action.lft75 { top: 35px !important; right: 70px !important;}
+    
+}
+
  /*******From Lalit PC - Graph for Dynamic Reporting***********/
   
