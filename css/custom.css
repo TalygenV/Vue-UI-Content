@@ -5519,4 +5519,19 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
   }
   #page-2-container{min-height: calc(100vh - 118px);}
 
+/*******From Lalit PC - Graph for Dynamic Reporting***********/
+.apexcharts-legend.apexcharts-align-center.apx-legend-position-right { position: absolute; left: auto; top: 4px; right: 5px; width: 65%;}
+.graphinfo_base_lft { z-index: 99; max-height: 150px; width: 250px; overflow: auto;}
+.graphinfo_base_rgt { width: calc(100% - 280px);}
+@media (max-width:1600px) {
+
+.graphinfo_base_lft { z-index: 99; max-height: 150px; width: 100%; overflow: auto;}
+.graphinfo_base_rgt { width: 100%;}
+}
+
+@media (max-width:1279px) {
+.left-menu-tab.datareport { width: 100% !important; max-width: 100%;}
+.right-content.datareport { width: 100% !important; margin-top: 15px;}
+}
+ /*******From Lalit PC - Graph for Dynamic Reporting***********/
   
