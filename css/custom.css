@@ -5557,3 +5557,8 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 
  /*******From Lalit PC - Graph for Dynamic Reporting***********/
   
+ .dashbord-widget i {
+    float: right;
+    font-size: 35px;
+    color: #8b9197;
+}
