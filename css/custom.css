@@ -6,6 +6,9 @@ a:hover{text-decoration:none!important;}
 ul{margin:0!important; padding:0;}
 em{font-style:normal;}
 select, select option{text-transform:capitalize !important;} /*gaurav dhiman*/
+
+select.textnormal, select.textnormal option{text-transform:none!important;}
+
 /*select, input, textarea, checkbox, radio{-webkit-appearance:none; border-radius:0 !important;}*/
 @font-face {
 font-family: 'digital7_mono';
