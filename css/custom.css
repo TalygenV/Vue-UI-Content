@@ -5540,13 +5540,13 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 .verticle-action.lft75 .arrow-solid-left::before { right: 4px;}
 
 @media (max-width:1439px) {
-    .verticle-action.lft75 { top: 80px !important;}
+    .verticle-action.lft75 { top: 38px !important;}/***80px***/
 }
 
-@media (max-width:1279px) {
-    .verticle-action.lft75 { top: 35px !important;}
+/* @media (max-width:1279px) {
+    .verticle-action.lft75 { top: 38px !important;}
 
-}
+} */
 
 @media (max-width:1250px) {
     .verticle-action.lft75 { right: 50px !important;}
@@ -5554,7 +5554,11 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 }
 
 @media (max-width:1180px) {
-    .verticle-action.lft75 { top: 35px !important; right: 70px !important;}
+    .verticle-action.lft75 { top: 38px !important; right: 30px !important;}
+    
+}
+@media (max-width:899px) {
+    .verticle-action.lft75 { top: 84px !important; right: 30px !important;}
     
 }
 
