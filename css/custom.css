@@ -5559,25 +5559,21 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 }
 @media (max-width:899px) {
     .verticle-action.lft75 { top: 38px !important; right: 30px !important;}
-    
+    .maxwidth-140{max-width: 140px;}
 }
 
- /*******From Lalit PC - Graph for Dynamic Reporting***********/
+/*******From Lalit PC - Graph for Dynamic Reporting***********/
   
- .dashbord-widget i {
-    float: right;
-    font-size: 35px;
-    color: #8b9197;
-}
+ .dashbord-widget i { float: right; font-size: 35px; color: #8b9197;}
 
 /*****From Lalit PC*******/
 .parentdiv.datarepfix2 { position: absolute;  right: 0px;  top: 0px;  z-index: 999;}
-
 .parentdiv.datarepfix2 .va_lft25 { position: absolute;  right: 40px;  top: -5px; z-index: 999; transform: rotate(90deg);}
-
-
 .action-list-box.small .close.closebtnsmall { right: -14px; top: -12px; width: 25px; height: 25px; font-size: 13px; line-height: 12px; opacity: unset;}
 .verticle-action.lft75.rt30 {right: 30px; top: 38px;}
 /*****From Lalit PC*******/
 
-.maxwidth-140{max-width: 140px;}
+
+
+
+
