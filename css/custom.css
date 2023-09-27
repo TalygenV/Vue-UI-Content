@@ -5558,7 +5558,7 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
     
 }
 @media (max-width:899px) {
-    .verticle-action.lft75 { top: 84px !important; right: 30px !important;}
+    .verticle-action.lft75 { top: 38px !important; right: 30px !important;}
     
 }
 
@@ -5579,3 +5579,5 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 .action-list-box.small .close.closebtnsmall { right: -14px; top: -12px; width: 25px; height: 25px; font-size: 13px; line-height: 12px; opacity: unset;}
 .verticle-action.lft75.rt30 {right: 30px; top: 38px;}
 /*****From Lalit PC*******/
+
+.maxwidth-140{max-width: 140px;}
