@@ -1534,7 +1534,7 @@ line-height: 12px; font-size: 25px; cursor: pointer;overflow: hidden;}
 /*custom font icon gaurav dhiman*/
 /* .icon-solid{display: inline-block;font: normal normal normal 14px/1 FontAwesome;font-size: inherit;text-rendering: auto;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;} */
 .icon-solid {display: inline-block; font-size: inherit; text-rendering: auto;-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-weight: normal; line-height: 1; font-family:'FontAwesome', sans-serif;}
-.arrow-solid-left::before{content:"\f0dd";transform:rotate(89deg);display:inline-block;transition:transform .2s;transform-origin: right; position:absolute; right:-2px; top:46%;}
+.arrow-solid-left::before{content:"\f0dd";transform:rotate(89deg);display:inline-block;transition:transform .2s;transform-origin: right; position:absolute; right:3px; top:46%;}
 
 /*pop-up accordians gaurav dhiman*/
 
