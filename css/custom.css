@@ -1516,7 +1516,7 @@ line-height: 12px; font-size: 25px; cursor: pointer;overflow: hidden;}
 .expand-list{position:absolute;left:-11px;top:40%;display:inline-block;z-index:98;}/*****z-index:999**- This bar was overlapping timer wen coming from left menu - Harjit-08Feb21**/
 .expand-list .expand-list-btn{position:relative;display:flex;height:60px;width:12px;background:#929292;}
 .left-menu-tab-collapsed{width:0 !important;display:none; transition: 1s;} .right-content-expand{width:100% !important; transition: 1s;}
-.right-content-expand .arrow-solid-left::before{transform:rotate(271deg) !important;transition:transform .2s; transform-origin: left; right:-4px;}
+.right-content-expand .arrow-solid-left::before{transform:rotate(271deg) !important;transition:transform .2s; transform-origin: left; right:1px;}
 
 .refresh-all-filters { float: right;position: absolute; top: 0px;right: 46px;height: 45px; width: 45px;line-height: 45px;text-align: center;cursor: pointer}
 .left-filter .filter-head h5 .refresh-all-filters em{float:none !important;font-size:20px;font-weight:400;}
