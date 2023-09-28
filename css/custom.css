@@ -5261,8 +5261,8 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
 .va_lft25{position: absolute; right:10px; top:-10px; z-index: 999; transform: rotate(90deg);}
 
 .verticle-action .fsm-list.datarep{width:500px;}
-.parentdiv.datarepfix{position: absolute;  right: 30px; top: 5px; z-index: 999;}
-.parentdiv.datarepfix.filters{position: absolute;  right: 4px; top: 13px;}
+.parentdiv.datarepfix{position: absolute;  right: 30px;  z-index: 999;}/***top: 5px;***/
+.parentdiv.datarepfix.filters{position: absolute;  right: 4px;} /****top: 13px;****/
 
 .conversation-box_custreps { width: 100%; float: left; margin: 1px 0px; height: auto; position: relative;
     box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;}
