@@ -5573,7 +5573,12 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 .verticle-action.lft75.rt30 {right: 30px; top: 38px;}
 /*****From Lalit PC*******/
 
-
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    font-weight: normal;
+}
 
 
 
