@@ -5562,9 +5562,9 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
     .maxwidth-140{max-width: 140px;}
 }
 
-@media (max-width:1439px) {
-    .verticle-action.lft75 { top: 38px !important; right: 30px !important;}
-    .maxwidth-140{max-width: 140px;}
+@media (min-width:1280px) and (max-width:1439px) {
+    .verticle-action.lft75.llt { top: 85px !important; }
+    
 }
 
 
