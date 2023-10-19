@@ -5578,7 +5578,14 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 .action-list-box.small .close.closebtnsmall { right: -14px; top: -12px; width: 25px; height: 25px; font-size: 13px; line-height: 12px; opacity: unset;}
 .verticle-action.lft75.rt30 {right: 30px; top: 38px;}
 
-.va_lft25 .arrow-solid-left::before{transform: rotate(89deg)!important;}
+.va_lft25 .arrow-solid-left::before{ content: "\f0dd";
+    transform: rotate(89deg)!important;
+    display: inline-block;
+    transition: transform .2s;
+    transform-origin: right;
+    position: absolute;
+    right: 3px;
+    top: 46%;}
 
 /*****From Lalit PC*******/
 
