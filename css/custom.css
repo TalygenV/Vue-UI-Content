@@ -5598,3 +5598,12 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 
 .guided-tour-step-footer{position: initial;}
 
+.vue-treeselect__placeholder.vue-treeselect-helper-zoom-effect-off{
+  min-height: calc(1.5em + .75rem + 2px) !important;
+  height: auto !important; font-size: 14px;
+  font-weight: 300; display: block;
+  width: 100%; background-color: #fff;
+  background-clip: padding-box;
+  border:none;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
