@@ -5607,3 +5607,24 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   padding: .375rem .75rem;
 } 
+
+
+
+
+/****Manage Subscription Harjit with Thakur ji 25Jan2023*****/
+
+/*.flex-row-reverse .search-btm-btn {display:inherit;}*/
+/* Sushil Sharma    12-01-2023   Time Track New Slide View*/
+.time-track-slide .modal-dialog {max-width:500px !important;}
+.working-timer {text-align: center;font-family: digital7; font-size: 38px; line-height: 40px;background: rgb(245, 245, 245); margin-top: 0px;padding: 10px 20px; margin-bottom: 10px;}
+.working-timer-bg-clr {background: rgb(226, 255, 233); }
+.break-extended-timer-bg-clr { background: rgb(252 228 230);}
+.start-break-clr{background-color: rgb(255, 152, 1);}
+.view-timesheet{background-color: rgb(82, 95, 101);}
+.break-legend-clr { background-color: rgb(223, 89, 102);}
+.Timer-legend-clr {background-color: rgb(77, 181, 103);}
+.ExtraTime-legend-clr {background-color: rgb(76, 180, 251);}
+.yourbreak {background: rgba(255, 255, 255, 0.9); min-height: 520px; top: 90px; left: 0px; z-index:99999; padding-top:130px;}
+.yourbreak .cup { background-image: url(/Content/images/DefaultImages/breakcup.png);background-repeat:no-repeat;background-size: 30%; height:120px; background-position:center;}
+.addmanually_btn { background: none!important; color: #fff !important; right: 60px!important; position: absolute!important; border: none; top: 0px!important; left:initial!important;}
+/* Sushil Sharma    12-01-2023   Time Track New Slide View*/
