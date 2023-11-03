@@ -5754,3 +5754,5 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
   text-overflow: ellipsis;
 }
 /****File field of TG control ***From Avtar - 1 Nov 2023***************/
+.breakspaces{white-space: break-spaces!important;}
+   
