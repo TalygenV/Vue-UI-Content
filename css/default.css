@@ -355,7 +355,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .table-bordered tr.critical-bar > td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#f06f07;  display: block; position:absolute; left:0px; top:3px; }
 .table-bordered tr.high-bar > td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#fbc648;  display: block; position:absolute; left:0px; top:3px; }
 .table-bordered tr.medium-bar > td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#4cb4fb;  display: block; position:absolute; left:0px; top:3px; }
-/* .table-bordered tr.low-bar > td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#019704;  display: block; position:absolute; left:0px; top:3px; } */
+ .table-bordered tr.low-bar > td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#019704;  display: block; position:absolute; left:0px; top:3px; }
 .table-bordered tr.danger-bar > td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#ff0000;  display: block; position:absolute; left:0px; top:3px; }
 .table-bordered tr.warning-bar > td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#fdc107;  display: block; position:absolute; left:0px; top:3px; }
 
