@@ -773,3 +773,8 @@ tr td.content { background: #fbfbfb;}
 select.form-control.customized_ddl {background-color: #3d484d; color:#fff; border-color:#62686a; background-image: url('../images/drop-down-arrow-dark.png');}
 /***Customize dropdown for Project listing screen-Harjit 5May2022*****/
 /* Harjit 20Dec2022 3:10PM  **/
+
+.custom-checkbox .custom-control-input ~ .custom-control-label::after {
+    background-image: url('../images/checkmark.png') !important;
+  }
+
