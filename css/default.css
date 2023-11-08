@@ -778,3 +778,76 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     background-image: url('../images/checkmark.png') !important;
   } */
 
+
+/***New Timer 2Nov 2023****/
+.tt_bod-right{border-right:1px solid #cdcecf!important;}
+.basebod{border:1px solid #cdcecf!important;}
+.row select.form-control.tt_ddr{height: calc(2.12rem + 35px) !important; font-weight: 500; color: #505050!important;}
+
+.tt_p-action-btn {font-size: 12px; text-align: center; display: inline-block; padding: 15px 15px 0px 15px;  min-width: 75px; height: 100%; float:left; color: #505050; font-weight:400;}
+.tt_p-action-btn i{font-size:20px;}
+.text-orange{color:#ff9801;}
+.tt_textarea{width: calc(100% - 315px) !important; border:none; resize:none; overflow: hidden; height: 69px !important; padding-top: 28px;}
+
+.tt_play_btn{font-size: 18px; text-align: center; display: inline-block; padding:12px 10px;  min-width: 50px; height: 100%; float:left; background-color:#4db567; margin-top: 10px;}
+
+.timerclck {border: 1px solid #cfcfcf; color: #000!important; float: left; font-size: 38px!important; height: 52px; line-height: 52px; padding: 0 2px;
+text-align: center; width: 240px; font-family: 'digital7_mono'; background-color: #f5f5f5; min-height: auto !important; margin-top:10px; margin-left:10px;}
+
+.newtimetrack .form-control:focus {box-shadow:none;}
+.tt_status .grid{display:grid;}
+.tt_status div{max-width: 290px; min-width: 290px;}
+.tt_status i{font-size:30px; padding:25px}
+.tt_status .text-small{font-size: 14px; font-weight: 500; color:#454545;}
+.tt_status .text-large{font-size:22px; font-weight:500; color:#454545;}
+
+.tt_icon{ background-image:url(/Content/images/timersprite.png); background-repeat:no-repeat; height: 25px; float: left; width: 100%;}
+.tt_icon.ico_tag{background-position:-5px -16px;}
+.tt_icon.ico_dollar{background-position:-57px -16px;}
+.tt_icon.ico_cutlery{background-position:-122px -16px;}
+
+.tt_icons{ background-image:url(/Content/images/timersprite.png); background-repeat:no-repeat;width:60px; height: 20px; float: left; margin-top: 15px; margin-bottom: 15px;}
+.tt_icons.ico_totalhrs{background-position:1px -62px;}
+.tt_icons.ico_totalpaidtime{background-position:-58px -62px;}
+.tt_icons.ico_totalbreaktime{background-position:-120px -62px;}
+.tt_icons.ico_paidbreaktime{background-position:-180px -62px;}
+
+.tt_lisitng_icons{background-image: url(/Content/images/timersprite.png); background-repeat: no-repeat; width: 60px; height: 40px;}
+.tt_lisitng_icons.ico_listtags {background-position: -232px -9px;}
+.tt_lisitng_icons.ico_listtags-o {background-position: -294px -9px;}
+
+.tt_lisitng_icons.ico_listdollar {background-position: -47px -9px;}
+.tt_lisitng_icons.ico_listdollar-o {background-position: -468px -9px;}
+
+.tt_lisitng_icons.ico_listcup1 {background-position: -113px -9px;}
+.tt_lisitng_icons.ico_listcup2 {background-position: -167px -9px;}
+
+.tt_lisitng_icons.ico_listclock {background-position: -365px -19px; height: 29px; width:35px;}
+
+.tt_lisitng_icons.ico_listplaytime {background-position: -429px -19px; height: 29px; width:35px;}
+
+.dottedbod_rt div{border-left:1px dashed #c9c9c9;}
+.dottedbod_rt div:first-child{border-right:1px dashed #c9c9c9;}
+
+.dottedbod_rt .tagspanel span{float:left; font-size:12px; margin-right:10px; margin-top: 5px; padding: 4px 10px; font-weight:500;}
+.dottedbod_rt .tagspanel span:nth-child(2){background:#ccf8ee;}
+.dottedbod_rt .tagspanel span:nth-child(3){background:#fff2df;}
+
+.dottedbod_rt .tagspanel a { margin-top: 10px; float: left; font-size: 12px; margin-right: 10px; font-weight: 500; text-decoration: underline;}
+
+.parentwithchild.newtimetrack{border-radius:0px!important; background:#bce4ff!important;}
+.parentwithchild.newtimetrack i{ color:#0d8aa0!important; font-size:8px;}
+
+.font-12{font-size:12px!important;}
+.newtimertable tr td{color:#525f65!important}
+
+.newtimertable .timetracked span{font-size:16px; font-weight:500; background:#fafafa; border:1px solid #bbbbbb; border-radius:5px;text-align:center; padding:5px 15px; float:left;}
+.newtimertable .timetracked span.orange{font-size:16px; font-weight:500; background:#fff2df; border:1px solid #ff9904; border-radius:5px;text-align:center; padding:5px 15px; float:left;}
+.newtimertable .timetracked span.green{font-size:16px; font-weight:500; background:#e6ffec; border:1px solid #4db567; border-radius:5px;text-align:center; padding:5px 15px; float:left;}
+
+table.newtimertable tbody tr:last-child{border-bottom:none;}
+
+.totalactivity_rt .tagspanel span:nth-child(1) {background: #48ccae; color:#fff;}
+.totalactivity_rt .tagspanel span {float: right; font-size: 14px; padding: 4px 20px; font-weight: 500; background:#f6f6f6; color:#777777;}
+
+/***New Timer 2Nov 2023****/
