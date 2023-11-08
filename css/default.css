@@ -801,18 +801,18 @@ text-align: center; width: 240px; font-family: 'digital7_mono'; background-color
 .tt_status .text-small{font-size: 14px; font-weight: 500; color:#454545;}
 .tt_status .text-large{font-size:22px; font-weight:500; color:#454545;}
 
-.tt_icon{ background-image:url(/Content/images/timersprite.png); background-repeat:no-repeat; height: 25px; float: left; width: 100%;}
+.tt_icon{ background-image:url(/images/timersprite.png); background-repeat:no-repeat; height: 25px; float: left; width: 100%;}
 .tt_icon.ico_tag{background-position:-5px -16px;}
 .tt_icon.ico_dollar{background-position:-57px -16px;}
 .tt_icon.ico_cutlery{background-position:-122px -16px;}
 
-.tt_icons{ background-image:url(/Content/images/timersprite.png); background-repeat:no-repeat;width:60px; height: 20px; float: left; margin-top: 15px; margin-bottom: 15px;}
+.tt_icons{ background-image:url(/images/timersprite.png); background-repeat:no-repeat;width:60px; height: 20px; float: left; margin-top: 15px; margin-bottom: 15px;}
 .tt_icons.ico_totalhrs{background-position:1px -62px;}
 .tt_icons.ico_totalpaidtime{background-position:-58px -62px;}
 .tt_icons.ico_totalbreaktime{background-position:-120px -62px;}
 .tt_icons.ico_paidbreaktime{background-position:-180px -62px;}
 
-.tt_lisitng_icons{background-image: url(/Content/images/timersprite.png); background-repeat: no-repeat; width: 60px; height: 40px;}
+.tt_lisitng_icons{background-image: url(/images/timersprite.png); background-repeat: no-repeat; width: 60px; height: 40px;}
 .tt_lisitng_icons.ico_listtags {background-position: -232px -9px;}
 .tt_lisitng_icons.ico_listtags-o {background-position: -294px -9px;}
 
