@@ -852,3 +852,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .newtimertable .tagspanel { min-width: 330px;}
 /***New Timer 2Nov 2023****/
+
+#divManageSearchCriteria > span {
+    float: left;
+  }
