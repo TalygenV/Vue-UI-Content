@@ -851,6 +851,30 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .totalactivity_rt .tagspanel span {float: right; font-size: 14px; padding: 4px 20px; font-weight: 500; background:#f6f6f6; color:#777777;}
 
 .newtimertable .tagspanel { min-width: 330px;}
+
+
+/****HS-14Nov2023*****/
+.table-bordered tr.gt-low-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#019704;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-high-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#fbc648;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-medium-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#4cb4fb;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-high-profile-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#de0303;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-lgtr-pausedresumed td.tabchild:first-child::after {background: #3a3a3d;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+
+.table-bordered tr.gt-automatic-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#af39d0;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-manual-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#4db567;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-timesheet-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#4cb4fb;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-leave-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#df5966;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-holiday-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#fbc648;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-unpaid-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#747e66;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-paused-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#3a3a3d;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-auditable-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#5a97a5;  display: block; position:absolute; left:0px; top:3px; }
+
+.table-bordered tr.gt-approved-bar td.tabchild:first-child::after  { width: 2px; content: ""; height: calc(100% - 6px); background:#778189;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-thirdparty-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#38383b;  display: block; position:absolute; left:0px; top:3px; }
+
+/****HS-14Nov2023*****/
+
+
 /***New Timer 2Nov 2023****/
 
 #divManageSearchCriteria > span {
