@@ -780,6 +780,15 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 
 /***New Timer 2Nov 2023****/
+
+.newtimetrack .multiselect__select:before{z-index: 9!important;}
+.newtimetrack .multiselect__select{top:14px;}
+.newtimetrack .multiselect{min-height: calc(2.12rem + 18px) !important; padding-top: 15px;margin-bottom:0px;}
+
+.newtimetrack .multiselect__tags{border: none!important;}
+.newtimetrack .multiselect__content-wrapper{top: 74px; left: 0px;}
+
+
 .multiselect.tt_bod-right{border-right:1px solid #cdcecf!important;}
 .tt_bod-right{border-right:1px solid #cdcecf!important;}
 
@@ -792,7 +801,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .tt_textarea{width: calc(100% - 315px) !important; border:none; resize:none; overflow: hidden; height: 69px !important; padding-top: 28px;}
 
     .tt_play_btnbase{margin-top: 10px; margin-bottom: 10px;}
-    .tt_play_btn{border:none;font-size: 18px; text-align: center; display: inline-block; padding:17px 10px;  min-width: 50px; height: 100%; float: left; background-color:#4db567; }
+    .tt_play_btn{border:none;font-size: 18px; text-align: center; display: inline-block; padding:13px 10px;  min-width: 50px; height: 100%; float: left; background-color:#4db567; }
 
 
     .timerclck {border: 1px solid #cfcfcf; color: #000!important; float: left; font-size: 38px!important; height: 52px; line-height: 52px; padding: 0 2px;
