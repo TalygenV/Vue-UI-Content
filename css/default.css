@@ -781,6 +781,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 /***New Timer 2Nov 2023****/
 
+#divModalTimetrack #button label{display: none;}
+
 .newtimetrack .multiselect__select:before{z-index: 9!important;}
 .newtimetrack .multiselect__select{top:14px;}
 .newtimetrack .multiselect{min-height: calc(2.12rem + 18px) !important; padding-top: 15px;margin-bottom:0px;}
