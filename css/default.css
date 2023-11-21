@@ -781,6 +781,10 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 /***New Timer 2Nov 2023****/
 
+.p-action-btn i {
+    font-size: 16px;
+}
+
 .yourbreak {min-height: 520px; top: -10px; left: 0px; z-index:99999;}
 .yourbreak-in {background: rgba(255, 255, 255, 0.96); min-height: 440px; padding-top:120px; color:#525f65;}
 .yourbreak-down {background: rgba(255, 255, 255, 0.8); min-height: 170px;}
