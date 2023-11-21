@@ -780,7 +780,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 
 /***New Timer 2Nov 2023****/
-.tt_bod-right{border-right:1px solid #cdcecf!important;}
+.multiselect.tt_bod-right{border-right:1px solid #cdcecf!important;}
     .basebod{border:1px solid #cdcecf!important;}
     .row select.form-control.tt_ddr{height: calc(2.12rem + 35px) !important; font-weight: 500; color: #505050!important;}
 
