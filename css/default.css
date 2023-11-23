@@ -833,6 +833,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .tt_icon{ background-image:url(/Vue-UI-Content/images/timersprite.png); background-repeat:no-repeat; height: 25px; float: left; width: 100%;}
     .tt_icon.ico_tag{background-position:-5px -16px;}
     .tt_icon.ico_dollar{background-position:-57px -16px;}
+    .tt_icon.ico_dollar-o{background-position:-478px -16px;}
     .tt_icon.ico_cutlery{background-position:-122px -16px;}
 
     .tt_icons{ background-image:url(/Vue-UI-Content/images/timersprite.png); background-repeat:no-repeat;width:60px; height: 20px; float: left; margin-top: 15px; margin-bottom: 15px;}
