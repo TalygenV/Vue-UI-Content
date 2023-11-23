@@ -783,6 +783,22 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 /***New Timer 2Nov 2023****/
 
+
+.pt-8rem{padding-top: 0.8rem;}
+.bgdark_blkbar{background-color: #475256;}
+.p-action-btn.font-14 i, .p-action-btn.font-14 em{font-size: 14px!important;}
+.DatePopUp.divtimer_design.R75{right: 75px!important;}
+
+.multiselect__placeholder {
+  color: #505050!important;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-top: 2px;
+  font-weight: 500;
+}
+
+
+
 .p-action-btn i {
     font-size: 16px;
 }
@@ -800,7 +816,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .newtimetrack .multiselect__select:before{z-index: 9!important;}
 .newtimetrack .multiselect__select{top:14px;}
-.newtimetrack .multiselect{min-height: calc(2.12rem + 18px) !important; padding-top: 15px;margin-bottom:0px;}
+.newtimetrack .multiselect{min-height: calc(2.12rem + 12px)!important; padding-top: 21px; margin-bottom:0px;}
 
 .newtimetrack .multiselect__tags{border: none!important;}
 .newtimetrack .multiselect__content-wrapper{top: 74px; left: 0px;}
