@@ -7,6 +7,8 @@ ul{margin:0!important; padding:0;}
 em{font-style:normal;}
 select, select option{text-transform:capitalize !important;} /*gaurav dhiman*/
 
+*, ::before, ::after{font-weight: 300 !important}
+
 select.textnormal, select.textnormal option{text-transform:none!important;}
 
 /*select, input, textarea, checkbox, radio{-webkit-appearance:none; border-radius:0 !important;}*/
