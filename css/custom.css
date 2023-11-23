@@ -59,6 +59,9 @@ p{margin-bottom:10px;}
 .font-128{font-size:128px!important;}
 
 .pt-7{padding-top:7px;}
+
+.pt-8rem{padding-top: 0.8rem;}
+
 .breadcrumb{background:none; padding:4px 0 0 0; margin:0px;}
 .breadcrumb em{font-size:20px; padding-right:7px;}
 .breadcrumb-item{font-size:13px;}
