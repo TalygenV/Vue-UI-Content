@@ -808,6 +808,8 @@ li.active ~ li span.round-tab {    background: #1c1f22;}
 .legends_high{background:#fbc648;}
 .legends_medium{background:#4cb4fb;}
 .legends_low{background:#4db567;}
+.legends-purple {background: #af39d0;}
+
 .legends_air-force-blue{background:#5a97a5;}
 .legends-red-damask{background:#cc6848;}
 .legends-Apple{background:#76b13d;}

@@ -50,6 +50,8 @@ footer ul li a:hover {color: #FCB322; opacity: .8;}
 .legends_high{background:#fbc648;}
 .legends_medium{background:#4cb4fb;}
 .legends_low{background:#4db567;}
+.legends-purple {background: #af39d0;}
+
 .actions {background: #24a5ff; color:#fff;}
 .actions:hover {color:#fff;}
 .listing td {color:#303030;}

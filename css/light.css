@@ -63,6 +63,8 @@ footer ul li a:hover { opacity: .8;}
 .legends_high{background:#ffbd00;}
 .legends_medium{background:#4cb4fb;}
 .legends_low{background:#6cbfd0;}
+.legends-purple {background: #af39d0;}
+
 .legend-milestone {    background: rgb(255, 140, 59);}
 
 .menu-search-panel a.clear-search {    background: #d6d6d6;    color: #353535;}
