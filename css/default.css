@@ -845,8 +845,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .tt_status .grid{display:grid;}
     .tt_status div{max-width: 290px; min-width: 290px;}
     .tt_status i{font-size:30px; padding:25px}
-    .tt_status .text-small{font-size: 14px; font-weight: 500; color:#454545;}
-    .tt_status .text-large{font-size:22px; font-weight:500; color:#454545;}
+    .tt_status .text-small{font-size: 14px; font-weight: 500!important; color:#454545;}
+    .tt_status .text-large{font-size:22px; font-weight:500!important; color:#454545;}
 
     .tt_icon{ background-image:url(/Vue-UI-Content/images/timersprite.png); background-repeat:no-repeat; height: 25px; float: left; width: 100%;}
     .tt_icon.ico_tag{background-position:-5px -16px;}
@@ -877,11 +877,11 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .dottedbod_rt div{border-left:1px dashed #c9c9c9;}
     .dottedbod_rt div:first-child{border-right:1px dashed #c9c9c9;}
 
-    .dottedbod_rt .tagspanel span{float:left; font-size:12px; margin-right:10px; margin-top: 5px; padding: 4px 10px; font-weight:500;}
+    .dottedbod_rt .tagspanel span{float:left; font-size:12px; margin-right:10px; margin-top: 5px; padding: 4px 10px; font-weight:500!important;}
     .dottedbod_rt .tagspanel span:nth-child(2){background:#ccf8ee;}
     .dottedbod_rt .tagspanel span:nth-child(3){background:#fff2df;}
 
-    .dottedbod_rt .tagspanel a { margin-top: 10px; float: left; font-size: 12px; margin-right: 10px; font-weight: 500; text-decoration: underline;}
+    .dottedbod_rt .tagspanel a { margin-top: 10px; float: left; font-size: 12px; margin-right: 10px; font-weight: 500!important; text-decoration: underline;}
 
     .parentwithchild.newtimetrack{border-radius:0px!important; background:#bce4ff!important; margin-top:3px;}
     .parentwithchild.newtimetrack i{ color:#0d8aa0!important; font-size:8px;}
@@ -889,14 +889,14 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .font-12{font-size:12px!important;}
     .newtimertable tr td{color:#525f65!important}
 
-    .newtimertable .timetracked span{font-size:16px; font-weight:500; background:#fafafa; border:1px solid #bbbbbb; border-radius:5px;text-align:center; padding:5px 15px; float:left;}
-    .newtimertable .timetracked span.orange{font-size:16px; font-weight:500; background:#fff2df; border:1px solid #ff9904; border-radius:5px;text-align:center; padding:5px 15px; float:left;}
-    .newtimertable .timetracked span.green{font-size:16px; font-weight:500; background:#e6ffec; border:1px solid #4db567; border-radius:5px;text-align:center; padding:5px 15px; float:left;}
+    .newtimertable .timetracked span{font-size:16px; font-weight:500!important; background:#fafafa; border:1px solid #bbbbbb; border-radius:5px;text-align:center; padding:5px 15px; float:left;}
+    .newtimertable .timetracked span.orange{font-size:16px; font-weight:500!important; background:#fff2df; border:1px solid #ff9904; border-radius:5px;text-align:center; padding:5px 15px; float:left;}
+    .newtimertable .timetracked span.green{font-size:16px; font-weight:500!important; background:#e6ffec; border:1px solid #4db567; border-radius:5px;text-align:center; padding:5px 15px; float:left;}
 
     table.newtimertable tbody tr:last-child{border-bottom:none;}
 
 .totalactivity_rt .tagspanel span:nth-child(1) {background: #48ccae; color:#fff;}
-.totalactivity_rt .tagspanel span {float: right; font-size: 14px; padding: 4px 20px; font-weight: 500; background:#f6f6f6; color:#777777;}
+.totalactivity_rt .tagspanel span {float: right; font-size: 14px; padding: 4px 20px; font-weight: 500!important; background:#f6f6f6; color:#777777;}
 
 .newtimertable .tagspanel { min-width: 330px;}
 
