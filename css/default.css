@@ -831,7 +831,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .tt_p-action-btn {font-size: 12px; text-align: center; display: inline-block; padding: 15px 15px 0px 15px;  min-width: 75px; height: 100%; float: left; color: #505050; font-weight:400;}
     .tt_p-action-btn i{font-size:20px;}
     .text-orange{color:#ff9801;}
-    .tt_textarea{width:100%!important; border:none; resize:none; overflow: hidden; height: 69px !important; padding-top: 28px;}
+
+    .tt_textarea{width:98%!important; border:none; resize:none; overflow: hidden; height: 73px !important; padding-top: 28px;}
     .tt_textarea_stop{width: calc(100% - 335px) !important; border:none; resize:none; overflow: hidden; height: 69px !important; padding-top: 28px;}
 
     .tt_play_btnbase{margin-top: 10px; margin-bottom: 10px;}
