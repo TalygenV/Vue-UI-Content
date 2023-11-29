@@ -930,6 +930,12 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 /***New Timer 2Nov 2023****/
 
-#divManageSearchCriteria > span {
-    float: left;
-  }
+#divManageSearchCriteria > span {float: left;}
+
+.v-date-picker-header {display: none;}
+.vc-container.vc-blue {border: none;  margin-top: 15px;}
+.timepickercontrol .vue__time-picker{width: 60px; margin-right: 10px; border-radius: 2px;}
+
+.timepickercontrol .vue__time-picker-dropdown, .vue__time-picker .dropdown{width: 9em; border: 1px solid #cecece; box-sizing: initial;}
+.timepickercontrol .vue__time-picker-dropdown .select-list, .vue__time-picker .dropdown .select-list{width: 9em;}
+.vue__time-picker input.display-time{width: 100%!important;color: #505050;}
