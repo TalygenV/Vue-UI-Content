@@ -106,7 +106,7 @@ label{font-weight:400; margin-bottom:0; font-size:14px;}
 .form-control:disabled{background-color: #E0E0E0!important;}
 /*.form-control:disabled{background-color: #f4f4f4 !important;}*/
 .tab-no{width:23px; height:23px; display:inline-block; color:#fff; border-radius:100px; line-height:23px; text-align:center;}
-.font-weight-medium{font-weight:500;}
+.font-weight-medium{font-weight:500!important;}
 .username { display: inline-block;width: 100%;}
  .custom-checkbox .custom-control-label {margin-top: 2px;margin-left:0px}/*margin-left:8px */
 .table-plus-minus a {background: #656a70;width: 19px;height: 20px;display: inline-table;text-align: center;color: #fff;}
