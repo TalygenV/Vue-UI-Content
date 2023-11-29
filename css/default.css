@@ -940,3 +940,27 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .timepickercontrol .vue__time-picker-dropdown, .vue__time-picker .dropdown{width: 9em; border: 1px solid #cecece; box-sizing: initial;}
 .timepickercontrol .vue__time-picker-dropdown .select-list, .vue__time-picker .dropdown .select-list{width: 9em;}
 .vue__time-picker input.display-time{width: 100%!important;color: #505050;}
+
+
+.hs2{position: absolute; left:149px; top: 73px; z-index:99;background: #fff; padding: 10px;  border: 1px solid #c8c8c8; min-width: 330px; text-align: left;}
+.hs2 #divModalTimetrack .multiselect .multiselect__tags{border: 1px solid #abb5bf!important; min-height: 40px !important;}
+.hs2 #divModalTimetrack .multiselect .multiselect__content-wrapper{top:auto;}
+
+#btnBreakStart{background-color: #ff9801; border: none;}
+
+.hs2 #divModalTimetrack .multiselect .multiselect__select{top:4px;}
+.hs2 #divModalTimetrack .multiselect .multiselect__tags .multiselect__placeholder{padding-top: 7px;}
+
+
+.tt_ddr_1 ul.multiselect__content{width: 100%; overflow-y: hidden;}
+
+.tt_ddr_1 ul.multiselect__content li{margin: 10px 7px; width: 100%; color: #505050;}
+
+.tt_ddr_1 ul.multiselect__content li span.multiselect__option{white-space: normal; padding: 4px 12px; min-height: 24px; font-size: 14px;}
+
+.tt_ddr_1 .multiselect__content-wrapper{border-radius: 0px;}
+
+.tt_ddr_1 ul.multiselect__content li:nth-child(4n+1){border-left: 3px solid #6ac1ff;}
+.tt_ddr_1 ul.multiselect__content li:nth-child(4n+2){border-left: 3px solid #da9c49;}
+.tt_ddr_1 ul.multiselect__content li:nth-child(4n+3){border-left: 3px solid #e44d2e;}
+.tt_ddr_1 ul.multiselect__content li:nth-child(4n+4){border-left: 3px solid #3f51b5;}
