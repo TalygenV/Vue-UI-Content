@@ -971,3 +971,22 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     line-height: normal;
     font-size: 14px!important;
   }
+
+  .hs_tag .multiselect.tt_bod-right{border-right: none!important; width: 100%;box-sizing: border-box!important;}
+
+.newtimetrack .hs_tag .multiselect__select{top: 6px!important;}
+
+
+.newtimetrack .hs_tag .multiselect__content-wrapper {top: 0px;}
+
+.hs_tag .multiselect__content-wrapper{position: inherit;}
+
+
+.hs_tag{position: absolute; top: 73px; z-index:99;background: #fff; padding: 5px;  border: 1px solid #c8c8c8; width: 330px; text-align: left; left: 0;}
+.hs_tag #divModalTimetrack .multiselect .multiselect__tags{border: 1px solid #abb5bf!important; min-height: 40px !important;}
+.hs_tag #divModalTimetrack .multiselect .multiselect__content-wrapper{top:auto;}
+
+.hs_tag #divModalTimetrack .multiselect .multiselect__select{top:4px;}
+.hs_tag #divModalTimetrack .multiselect .multiselect__tags .multiselect__placeholder{padding-top: 7px;}
+
+.newtimetrack .hs_tag .multiselect{padding-top: 10px;}
