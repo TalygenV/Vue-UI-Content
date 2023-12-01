@@ -5762,3 +5762,4 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 /****File field of TG control ***From Avtar - 1 Nov 2023***************/
 .breakspaces{white-space: break-spaces!important;}
    
+.preferedtime{ float: left; width: 62px; font-size: 10px; text-align: center; font-weight: bold !important;}
