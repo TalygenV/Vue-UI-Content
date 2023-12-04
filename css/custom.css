@@ -7,7 +7,7 @@ ul{margin:0!important; padding:0;}
 em{font-style:normal;}
 select, select option{text-transform:capitalize !important;} /*gaurav dhiman*/
 
-/* *, ::before, ::after{font-weight: 300 !important} */
+/* *, ::before, ::after{font-weight: 300 !important}  Commented for Saini - for Service Appointment Calendar */
 
 b, strong {font-weight: bolder!important;}
 
@@ -5601,7 +5601,7 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
     box-sizing: border-box;
     margin: 0;
     position: relative;
-    /* font-weight: normal; */
+    /* font-weight: normal;  Commented for Saini - for Service Appointment Calendar */
 }
 
 .guided-tour-step-footer{position: initial;}
