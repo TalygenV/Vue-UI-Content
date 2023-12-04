@@ -5601,7 +5601,7 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
     box-sizing: border-box;
     margin: 0;
     position: relative;
-    font-weight: normal;
+    /* font-weight: normal; */
 }
 
 .guided-tour-step-footer{position: initial;}
