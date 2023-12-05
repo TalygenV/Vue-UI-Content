@@ -972,9 +972,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .multiselect__input {min-height: auto; line-height: normal; font-size: 14px!important;}
 
-.hs_tag .multiselect.tt_bod-right{border-right: none!important; width:85%; box-sizing: border-box!important; min-height: calc(2.12rem + 4px) !important;padding-top: 5px;}
+.hs_tag .multiselect.tt_bod-right{border-right: none!important; width:85%; box-sizing: border-box!important; min-height: calc(2.12rem + 4px) !important; padding-top: 5px!important;}
 
-.newtimetrack .hs_tag .multiselect__select{top: 6px!important;}
+.newtimetrack .hs_tag .multiselect__select{top: 0px!important;}
 
 .newtimetrack .hs_tag .multiselect__content-wrapper {top: 0px;}
 
@@ -989,5 +989,5 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .newtimetrack .hs_tag .multiselect{padding-top: 10px; padding-left: 0; padding-right: 0; float: left; border: 1px solid #c8c8c8 !important;}
 
-.squarebtn .round-icon-small{border-radius: 0!important;}
+.squarebtn .round-icon-small{border-radius: 0!important; height: 38px;line-height: 42px;}
 
