@@ -972,7 +972,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .multiselect__input {min-height: auto; line-height: normal; font-size: 14px!important;}
 
-.hs_tag .multiselect.tt_bod-right{border-right: none!important; width: 100%;box-sizing: border-box!important;}
+.hs_tag .multiselect.tt_bod-right{border-right: none!important; width:85%; box-sizing: border-box!important;}
 
 .newtimetrack .hs_tag .multiselect__select{top: 6px!important;}
 
