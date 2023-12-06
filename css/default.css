@@ -869,12 +869,12 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .tt_icons.ico_totalbreaktime{background-position:-120px -62px;}
     .tt_icons.ico_paidbreaktime{background-position:-180px -62px;}
 
-    .tt_lisitng_icons{background-image: url(/Vue-UI-Content/images/timersprite.png); background-repeat: no-repeat; width: 60px; height: 40px;}
+    .tt_lisitng_icons{background-image: url(/Vue-UI-Content/images/timersprite.png); background-repeat: no-repeat; width: 50px; height: 40px;}
     .tt_lisitng_icons.ico_listtags {background-position: -232px -9px;}
     .tt_lisitng_icons.ico_listtags-o {background-position: -294px -9px;}
 
-    .tt_lisitng_icons.ico_listdollar {background-position: -47px -9px;}
-    .tt_lisitng_icons.ico_listdollar-o {background-position: -468px -9px;}
+    .tt_lisitng_icons.ico_listdollar {background-position: -53px -9px;}
+    .tt_lisitng_icons.ico_listdollar-o {background-position: -474px -9px;}
 
     .tt_lisitng_icons.ico_listcup1 {background-position: -113px -9px;}
     .tt_lisitng_icons.ico_listcup2 {background-position: -167px -9px;}
