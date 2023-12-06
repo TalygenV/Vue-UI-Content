@@ -890,7 +890,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .dottedbod_rt .tagspanel span:nth-child(2){background:#ccf8ee;}
     .dottedbod_rt .tagspanel span:nth-child(3){background:#fff2df;}
 
-    .dottedbod_rt .tagspanel a { margin-top: 10px; float: right; font-size: 12px; margin-right: 10px; font-weight: 500!important; text-decoration: underline;}
+    .dottedbod_rt .tagspanel a { margin-top: 10px; float: right; font-size: 12px; margin-right: 10px; font-weight: 500!important; text-decoration: underline; }
 
     .parentwithchild.newtimetrack{border-radius:0px!important; background:#bce4ff!important; margin-top:3px;}
     .parentwithchild.newtimetrack i{ color:#0d8aa0!important; font-size:8px;}
