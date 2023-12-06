@@ -819,7 +819,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .newtimetrack .multiselect{min-height: calc(2.12rem + 12px)!important; padding-top: 21px; margin-bottom:0px;}
 
 .newtimetrack .multiselect__tags{border: none!important;}
-.newtimetrack .multiselect__content-wrapper{top: 74px; left: 0px;}
+.newtimetrack .multiselect__content-wrapper{top: 74px; left: 0px; border-radius:0;}
 
 
 .multiselect.tt_bod-right{border-right:1px solid #cdcecf!important;}
