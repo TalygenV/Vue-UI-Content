@@ -911,6 +911,16 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .tt_disabled{opacity: 0.4; cursor: no-drop; pointer-events: none;}
 
+.viewmoretagsbase {position: absolute; max-height: 185px; overflow-y: auto; z-index: 99; box-sizing: border-box; right: 50px; top: -2px; padding: 5px 10px 5px 5px; border: none;}
+
+.viewmoretags { box-sizing: border-box; float: left; width: 100%; background: #f2f2f2; width: 250px; border: 1px solid #d7d7d7; padding: 5px;}
+.viewmoretags span {float: left; background-color: #fff !important; padding: 4px 10px; margin: 5px; border: 1px solid #e6e6e6;}
+.popover-arrowss::before { right: 0; border-width: .5rem 0 .5rem .5rem; border-left-color: #d7d7d7 !important;}
+
+.popover-arrowss::after {right: 1px; border-width: .5rem 0 .5rem .5rem; border-left-color: #f2f2f2 !important;}
+.popover-arrowss::after, .popover-arrowss::before { position: absolute; display: block; content: ""; border-color: transparent; border-right-color: transparent; border-style: solid;}
+.popover-arrowss {right: 2px; width: 10px; height: 20px; border: none !important; top: -35px; position: absolute; transform: translate(0px, 47px);}
+
 
 /****HS-14Nov2023*****/
 .table-bordered tr.gt-low-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#019704;  display: block; position:absolute; left:0px; top:3px; }
