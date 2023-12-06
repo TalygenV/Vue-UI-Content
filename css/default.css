@@ -924,6 +924,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .popover-arrowss::after, .popover-arrowss::before { position: absolute; display: block; content: ""; border-color: transparent; border-right-color: transparent; border-style: solid;}
 .popover-arrowss {right: 2px; width: 10px; height: 20px; border: none !important; top: -35px; position: absolute; transform: translate(0px, 47px);}
 
+.linkcss{color: #007bff!important;}
 
 /****HS-14Nov2023*****/
 .table-bordered tr.gt-low-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#019704;  display: block; position:absolute; left:0px; top:3px; }
