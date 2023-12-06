@@ -802,6 +802,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .p-action-btn i {
     font-size: 16px;
 }
+.p-action-btn em {
+    font-size: 16px;
+}
 
 .yourbreak {min-height: 520px; top: -10px; left: 0px; z-index:99999;}
 .yourbreak-in {background: rgba(255, 255, 255, 0.96); min-height: 440px; padding-top:120px; color:#525f65;}
@@ -833,7 +836,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .row select.form-control.tt_ddr{height: calc(2.12rem + 35px) !important; font-weight: 500; color: #505050!important;}
 
     .tt_p-action-btn {font-size: 12px; text-align: center; display: inline-block; padding: 15px 15px 0px 15px;  min-width: 75px; height: 100%; float: left; color: #505050; font-weight:400;}
-    .tt_p-action-btn i{font-size:20px;}
+    .tt_p-action-btn em{font-size:20px;}
     .text-orange{color:#ff9801;}
 
     .tt_textarea{width:98%!important; border:none; resize:none; overflow: hidden; height: 73px !important; padding-top: 28px;}
@@ -853,7 +856,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .newtimetrack .form-control:focus {box-shadow:none;}
     .tt_status .grid{display:grid;}
     .tt_status div{max-width: 290px; min-width: 290px;}
-    .tt_status i{font-size:30px; padding:25px}
+    .tt_status em{font-size:30px; padding:25px}
     .tt_status .text-small{font-size: 14px; font-weight: 500!important; color:#454545;}
     .tt_status .text-large{font-size:22px; font-weight:500!important; color:#454545;}
 
@@ -893,7 +896,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .dottedbod_rt .tagspanel a { margin-top: 10px; float: right; font-size: 12px; margin-right: 10px; font-weight: 500!important; text-decoration: underline; }
 
     .parentwithchild.newtimetrack{border-radius:0px!important; background:#bce4ff!important; margin-top:3px;}
-    .parentwithchild.newtimetrack i{ color:#0d8aa0!important; font-size:8px;}
+    .parentwithchild.newtimetrack em{ color:#0d8aa0!important; font-size:8px;}
 
     .font-12{font-size:12px!important;}
     .newtimertable tr td{color:#525f65!important}
