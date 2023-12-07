@@ -985,7 +985,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .hs_tag .multiselect.tt_bod-right{border-right: none!important; width:85%; box-sizing: border-box!important; min-height: calc(2.12rem + 4px) !important; padding-top: 5px!important;}
 
-.newtimertable .actions.mobileaction { background: none; color: #b1b1b1; top: 10px;}
+.newtimertable .actions.mobileaction { background: none; color: #b1b1b1; top: 5px;}
 
 .newtimertable .actions.mobileaction em.action_icon { background: none; color: #b1b1b1; font-size: 14px; font-weight: normal; transform: rotate(90deg); top: 10px;}
 
