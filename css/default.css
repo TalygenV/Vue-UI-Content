@@ -985,6 +985,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .hs_tag .multiselect.tt_bod-right{border-right: none!important; width:85%; box-sizing: border-box!important; min-height: calc(2.12rem + 4px) !important; padding-top: 5px!important;}
 
+.newtimertable .actions.mobileaction { background: none; color: #b1b1b1; font-size: 14px; font-weight: normal; transform: rotate(90deg); top: 10px;}
+
 .newtimetrack .hs_tag .multiselect__select{top: 0px!important;}
 
 .newtimetrack .hs_tag .multiselect__content-wrapper {top: 0px; border-radius: 0!important;}
