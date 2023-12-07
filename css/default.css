@@ -988,10 +988,11 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .newtimertable .actions.mobileaction { background: none; color: #b1b1b1; top: 5px;}
 .newtimertable .actions.mobileaction em.action_icon { background: none; color: #b1b1b1; font-size: 14px; font-weight: normal; transform: rotate(90deg); top: 10px;}
 
-.newtimertable .actions.mobileaction .actions-onclick{width: 100%; text-align: left; padding: 8px 10px;}
+.newtimertable .actions.mobileaction .actions-onclick{width: 100%; text-align: left; padding: 8px 10px; border-bottom: 1px solid #eaeaea;}
 .newtimertable .actions.mobileaction .actions-onclick:hover{background-color: #f2f2f2;}
-
 .newtimertable .action-list-box{top: -14px; right: 30px;}
+
+.newtimertable .action-list-box .list-actions{border-radius: 0;}
 
 .newtimetrack .hs_tag .multiselect__select{top: 0px!important;}
 
