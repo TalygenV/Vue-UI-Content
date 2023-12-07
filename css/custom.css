@@ -5632,9 +5632,10 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 .break-legend-clr { background-color: rgb(223, 89, 102);}
 .Timer-legend-clr {background-color: rgb(77, 181, 103);}
 .ExtraTime-legend-clr {background-color: rgb(76, 180, 251);}
-.yourbreak {background: rgba(255, 255, 255, 0.9); min-height: 520px; top: 90px; left: 0px; z-index:99999; padding-top:130px;}
+/****Harjit commented 7Dec2023 .yourbreak {background: rgba(255, 255, 255, 0.9); min-height: 520px; top: 90px; left: 0px; z-index:99999; padding-top:130px;}
 .yourbreak .cup { background-image: url(/Content/images/DefaultImages/breakcup.png);background-repeat:no-repeat;background-size: 30%; height:120px; background-position:center;}
-.addmanually_btn { background: none!important; color: #fff !important; right: 60px!important; position: absolute!important; border: none; top: 0px!important; left:initial!important;}
+.addmanually_btn { background: none!important; color: #fff !important; right: 60px!important; position: absolute!important; border: none; top: 0px!important; left:initial!important;} */
+
 /* Sushil Sharma    12-01-2023   Time Track New Slide View*/
 
 
