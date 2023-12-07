@@ -991,6 +991,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .newtimertable .actions.mobileaction .actions-onclick{width: 100%; text-align: left; padding: 8px 10px;}
 .newtimertable .actions.mobileaction .actions-onclick:hover{background-color: #f2f2f2;}
 
+.newtimertable .action-list-box{top: -14px; right: 30px;}
+
 .newtimetrack .hs_tag .multiselect__select{top: 0px!important;}
 
 .newtimetrack .hs_tag .multiselect__content-wrapper {top: 0px; border-radius: 0!important;}
