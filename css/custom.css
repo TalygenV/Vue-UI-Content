@@ -5766,3 +5766,14 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 .breakspaces{white-space: break-spaces!important;}
    
 .preferedtime{ float: left; width: 62px; font-size: 10px; text-align: center; font-weight: bold !important;}
+
+/*******Avtar got added - 11 Dec2023***********/
+.switch.dynamic-form .slider.round.toggle-yes span{
+    display: block !important;
+    left: 0px;
+}
+.switch.dynamic-form .slider.round.toggle-no span{
+    display: block !important;
+    left: 20px;
+}
+/*******Avtar got added - 11 Dec2023***********/
