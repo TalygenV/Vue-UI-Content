@@ -999,3 +999,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .squarebtn .round-icon-small{border-radius: 0!important; height: 38px;line-height: 42px;width:40px;}
 
+/***Harkimat - Nav bar Time track****/
+.progress-bar.success{background-color: #28a745;}
+.progress-bar.danger{background-color: #dc3545;}
+.progress-bar.overtime{background-color: #ffc107;}
+/***Harkimat - Nav bar Time track****/
