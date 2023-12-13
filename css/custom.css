@@ -5777,3 +5777,30 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
     left: 20px;
 }
 /*******Avtar got added - 11 Dec2023***********/
+
+
+/*********CRM Campaign - Chad *******************/
+.shortcuts-menu.man_camp li {max-width: 33%; padding: 10px;}
+.shortcuts-menu.man_camp li.active a.short-menu-item {background: #00b298; color: #fff; border-color: #00b298;}
+.shortcuts-menu.man_camp li.active a span.left-icon-m {background-color: #00a68e;}
+.shortcuts-menu.man_camp li.active a span.left-icon-m i {color: #fff;}
+.shortcuts-menu.man_camp li:hover a.short-menu-item {background: #00b298 !important; color: #fff !important; border-color: #00b298 !important;}
+.shortcuts-menu li:hover .short-item-name {color: #fff !important;}
+.shortcuts-menu.man_camp li:hover a span.left-icon-m {background-color: #00a68e;}
+.shortcuts-menu.man_camp li:hover a span.left-icon-m i {color: #fff;}
+.shortcuts-menu.man_camp li a span.left-icon-m i {color: #00b298; font-size: 32px;}
+.btn_template {background: #ebfffc; color: #78b9af; border: 1px solid #99e6da;font-size: 20px;}
+.btn_template:hover {background: #00b298; color: #fff; border: 1px solid #99e6da;}
+
+.defaultpic_control .btn-select{background:#00b298; color:#fff;}
+.defaultpic_control .btn-view{background:#30b3f1; color:#fff;}
+
+.default_templates .default-tags{background: rgba(255, 255, 255, 0.9);}
+.default_templates .default-tags:hover{background: rgba(255, 255, 255, 0.9);}
+
+.default_templates .img-ico.ticket-attachments {min-height: 200px; display: flex; justify-content: center; align-items: center; max-height: 200px;}
+
+/*********CRM Campaign - Chad *******************/
+
+
+
