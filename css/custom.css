@@ -5800,6 +5800,50 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 
 .default_templates .img-ico.ticket-attachments {min-height: 200px; display: flex; justify-content: center; align-items: center; max-height: 200px;}
 
+.shortcuts-menu.man_camp.man_view li.active a.short-menu-item {
+    background: #e5fcff;
+    color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.shortcuts-menu.man_camp.man_view li.active a span.left-icon-m {
+    background-color: #e5fcff;
+}
+
+    .shortcuts-menu.man_camp.man_view li.active a span.left-icon-m i {
+        color: #17a2b8;
+    }
+
+.shortcuts-menu.man_camp.man_view li:hover a.short-menu-item {
+    background: #e5fcff !important;
+    color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+}
+
+.shortcuts-menu.man_camp.man_view li:hover a span.left-icon-m {
+    background-color: #e5fcff;
+}
+
+    .shortcuts-menu.man_camp.man_view li:hover a span.left-icon-m i {
+        color: #17a2b8;
+    }
+
+.shortcuts-menu.man_camp.man_view li a span.left-icon-m i {
+    color: #737373;
+    font-size: 32px;
+}
+
+.shortcuts-menu.man_camp.man_view li a span.left-icon-m {
+    background-color: #fff;
+}
+
+.shortcuts-menu.man_camp.man_view li:hover .short-item-name {
+    color: #17a2b8 !important;
+}
+
+.shortcuts-menu.man_camp.man_view li a.short-menu-item {
+    background-color: #fff;
+}
 /*********CRM Campaign - Chad *******************/
 
 
