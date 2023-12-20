@@ -1009,3 +1009,31 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .progress-bar.danger{background-color: #dc3545;}
 .progress-bar.overtime{background-color: #ffc107;}
 /***Harkimat - Nav bar Time track****/
+
+
+.leftstatus{float: left; width: calc(100% - 420px);}
+.rightgraph {float: right; width: 100%; max-width: 400px;}
+.team-con-box {width: 100%;float: left; margin: 1px 0px; height: auto; position: relative; min-height: 85px; box-sizing: border-box;-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box; padding: 15px 15px 15px 15px;}
+.team-con-img {float:left; width:70px!important; height:70px; position:relative;}
+.team-con-img .online {width:14px; height:14px; position:absolute; top:-1px; right:4px; background:#56c93a; border:1px solid #239b06; border-radius:100%;}
+.team-con-img .offline{width:14px; height:14px; position:absolute; top:-1px; right:4px; background:#56c93a; border:1px solid #239b06; border-radius:100%;}
+.team-con-img img{border-radius:100%; border: 1px solid #f2f2f2;}
+.team-con-content{float:right; width: calc(100% - 80px);}
+.team-con-range {float:right; width:65px!important; height:65px;}
+.team-con-rangecontent{float:left; width: calc(100% - 70px);}
+.barsbase .iconbase{float:left; width:30px; height:22px;}
+.barsbase .icontext{float:left; width:calc(100% - 35px);}
+.barsbase .progress{height:9px; margin-top:5px;}
+.barsbase.weektracked em{color:#1986c9; font-size:28px;}
+.barsbase.weektracked .progress-bar{background:#1986c9;}
+.barsbase.weektracked .progress{border-radius:.25rem 0px 0px .25rem;}
+.barsbase.auto em{color:#f7a82f; font-size:28px;}
+.barsbase.auto .progress-bar{background:#f7a82f;}
+.barsbase.auto .progress{border-radius:0px;}
+.barsbase.manual em{color:#00b298; font-size:28px;}
+.barsbase.manual .progress-bar{background:#00b298;}
+.barsbase.manual .progress{border-radius:0px;}
+.barsbase.efficiency em{color:#cacaca; font-size:28px;}
+.barsbase.efficiency .progress-bar{background:#cacaca;}
+.barsbase.efficiency .progress{border-radius:0px .25rem .25rem 0px;}
