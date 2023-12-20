@@ -999,10 +999,20 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .squarebtn .round-icon-small{border-radius: 0!important; height: 38px;line-height: 42px;width:40px;}
 
+/********Ridham - NewTimer******************/
 .tab-style.newtimer .nav-link.active::after{display: none;}
 .tab-style.newtimer .nav-link.active {background: #48ccae !important; color: #fff;}
 .tab-style.newtimer .nav-tabs {border-bottom: 3px solid #48ccae;}
 .tab-style.newtimer .nav-link {background:none;color: #000; text-transform: capitalize; font-weight: 500;}
+/********Ridham - NewTimer******************/
+
+/********Anuj - Statistics******************/
+.tab-style.plaintabs .nav-link.active::after{display: none;}
+.tab-style.plaintabs .nav-link.active {background:#fbfbfb!important; color: #38a0db; border-bottom:2px solid #38a0db;}
+.tab-style.plaintabs .nav-tabs {border-bottom: 3px solid #fbfbfb;}
+.tab-style.plaintabs .nav-link {background:#fbfbfb; color: #000; text-transform: capitalize;}
+/********Anuj - Statistics******************/
+
 
 /***Harkimat - Nav bar Time track****/
 .progress-bar.success{background-color: #28a745;}
