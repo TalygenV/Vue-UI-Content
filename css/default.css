@@ -944,6 +944,23 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 /****HS-14Nov2023*****/
 
+/******General Multi-Select for Vue JS*************/
+.hs_tag_general .multiselect { padding-top: 10px; padding-left: 0; padding-right: 0; float: left;  border: 1px solid #c8c8c8 !important; }
+.hs_tag_general .multiselect.tt_bod-right {border-right: none !important; width: 100%;box-sizing: border-box !important; min-height: calc(2.12rem + 4px) !important; padding-top: 5px !important;}
+.hs_tag_general .multiselect__select {top: 0px !important;}
+.hs_tag_general .multiselect__select::before {z-index: 9 !important;}
+.hs_tag_general .multiselect__tags { border: none !important;}
+.hs_tag_general .multiselect__content-wrapper {top: 0px;  border-radius: 0 !important; position: relative;}
+.tt_ddr_01 ul.multiselect__content{width: 100%; overflow-x: hidden;}
+.tt_ddr_01 ul.multiselect__content li{margin: 10px 7px; width: 100%; color: #505050;}
+.tt_ddr_01 ul.multiselect__content li span.multiselect__option{white-space: normal; padding: 4px 12px; min-height: 24px; font-size: 14px;}
+.tt_ddr_01 .multiselect__content-wrapper{border-radius: 0px;}
+.tt_ddr_01 ul.multiselect__content li:nth-child(4n+1){border-left: 3px solid #6ac1ff;}
+.tt_ddr_01 ul.multiselect__content li:nth-child(4n+2){border-left: 3px solid #da9c49;}
+.tt_ddr_01 ul.multiselect__content li:nth-child(4n+3){border-left: 3px solid #e44d2e;}
+.tt_ddr_01 ul.multiselect__content li:nth-child(4n+4){border-left: 3px solid #3f51b5;}
+/******General Multi-Select for Vue JS*************/
+
 
 /***New Timer 2Nov 2023****/
 
