@@ -5600,7 +5600,7 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
-    position: relative;
+    /*****position: relative;* Todo list Notes Popup with Gurpiyar 26Dec2023****/
     /* font-weight: normal;  Commented for Saini - for Service Appointment Calendar */
 }
 
