@@ -5604,6 +5604,7 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
     /*****position: relative;* Todo list Notes Popup with Gurpiyar 26Dec2023****/
     /* font-weight: normal;  Commented for Saini - for Service Appointment Calendar */
 }
+.ticket-card-container .card-detail-main{position:unset;} /***Todo list Notes Popup with Gurpiyar 27Dec2023*****/
 
 .guided-tour-step-footer{position: initial;}
 
