@@ -944,6 +944,19 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 /****HS-14Nov2023*****/
 
+
+/******28Dec2023 - NewTimerTable listing tr - bars*************/
+.table-bordered.newtimertable tr.gt-automatic-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 1px); background:#af39d0;  display: block; position:absolute; left:0px; top:0px; }
+.table-bordered.newtimertable tr.gt-manual-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 1px); background:#4db567;  display: block; position:absolute; left:0px; top:0px; }
+.table-bordered.newtimertable tr.gt-timesheet-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 1px); background:#4cb4fb;  display: block; position:absolute; left:0px; top:0px; }
+.table-bordered.newtimertable tr.gt-leave-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 1px); background:#df5966;  display: block; position:absolute; left:0px; top:0px; }
+.table-bordered.newtimertable tr.gt-holiday-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 1px); background:#fbc648;  display: block; position:absolute; left:0px; top:0px; }
+.table-bordered.newtimertable tr.gt-unpaid-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 1px); background:#747e66;  display: block; position:absolute; left:0px; top:0px; }
+.table-bordered.newtimertable tr.gt-paused-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 1px); background:#3a3a3d;  display: block; position:absolute; left:0px; top:0px; }
+/******28Dec2023 - NewTimerTable listing tr - bars*************/
+
+
+
 /******General Multi-Select for Vue JS*************/
 .hs_tag_general .multiselect { padding-top: 10px; padding-left: 0; padding-right: 0; float: left;  border: 1px solid #c8c8c8 !important; }
 .hs_tag_general .multiselect.tt_bod-right {border-right: none !important; width: 100%;box-sizing: border-box !important; min-height: calc(2.12rem + 4px) !important; padding-top: 5px !important;}
