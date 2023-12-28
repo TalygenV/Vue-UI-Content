@@ -975,6 +975,12 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 /******General Multi-Select for Vue JS*************/
 
 
+
+.common_multiselect .multiselect__tags{min-height:36px!important;}
+.common_multiselect .multiselect__select::before{top:19px; z-index:9;}
+
+
+
 /***New Timer 2Nov 2023****/
 
 #divManageSearchCriteria > span {float: left;}
@@ -1077,3 +1083,5 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .barsbase.efficiency em{color:#cacaca; font-size:28px;}
 .barsbase.efficiency .progress-bar{background:#cacaca;}
 .barsbase.efficiency .progress{border-radius:0px .25rem .25rem 0px;}
+
+
