@@ -974,13 +974,30 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .tt_ddr_01 ul.multiselect__content li:nth-child(4n+4){border-left: 3px solid #3f51b5;}
 /******General Multi-Select for Vue JS*************/
 
-
-
 .common_multiselect .multiselect__tags{min-height:36px!important;}
 .common_multiselect .multiselect__select::before{top:19px; z-index:9;}
 .common_multiselect .multiselect__placeholder{padding-top: 5px;}
 .common_multiselect .multiselect__placeholder{font-weight:normal;}
 .common_multiselect .multiselect__input{padding:0px;}
+
+#timetracking_wrap .time-tracked.newtimertracked input{background: #274468 !important;
+    border: 1px solid #274468 !important;
+    color: #fff;
+    width: 120px !important;
+    padding: 5px;
+    font-size: 18px;
+    -webkit-text-fill-color: #fff; 
+    height: 52px;}
+  
+    #timetracking_wrap .time-tracked.newtimertracked .custom-icon{left: unset;
+    right: 0;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    width: 40px;}
+  
+    #timetracking_wrap .time-tracked.newtimertracked span{display: flex;}
+
+
 
 /***New Timer 2Nov 2023****/
 
