@@ -16,21 +16,21 @@ select.textnormal, select.textnormal option{text-transform:none!important;}
 /*select, input, textarea, checkbox, radio{-webkit-appearance:none; border-radius:0 !important;}*/
 @font-face {
 font-family: 'digital7_mono';
-src: url('/Content/Responsive/fonts/digital7_mono.eot');
-src: url('/Content/Responsive/fonts/digital7_mono.eot') format('embedded-opentype'),
-url('/Content/Responsive/fonts/digital7_mono.woff2') format('woff2'),
-url('/Content/Responsive/fonts/digital7_mono.woff') format('woff'),
-url('/Content/Responsive/fonts/digital7_mono.ttf') format('truetype'),
-url('/Content/Responsive/fonts/digital7_mono.svg#digital7_mono') format('svg');
+src: url('/fonts/digital7_mono.eot');
+src: url('/fonts/digital7_mono.eot') format('embedded-opentype'),
+url('/fonts/digital7_mono.woff2') format('woff2'),
+url('/fonts/digital7_mono.woff') format('woff'),
+url('/fonts/digital7_mono.ttf') format('truetype'),
+url('/fonts/digital7_mono.svg#digital7_mono') format('svg');
 }
 @font-face {
 font-family: 'digital7'; 
-src: url('/Content/Responsive/fonts/digital7.eot');
-src: url('/Content/Responsive/fonts/digital7.eot') format('embedded-opentype'),
-url('/Content/Responsive/fonts/digital7.woff2') format('woff2'),
-url('/Content/Responsive/fonts/digital7.woff') format('woff'),
-url('/Content/Responsive/fonts/digital7.ttf') format('truetype'),
-url('/Content/Responsive/fonts/digital7.svg#digital7') format('svg');
+src: url('/fonts/digital7.eot');
+src: url('/fonts/digital7.eot') format('embedded-opentype'),
+url('/fonts/digital7.woff2') format('woff2'),
+url('/fonts/digital7.woff') format('woff'),
+url('/fonts/digital7.ttf') format('truetype'),
+url('/fonts/digital7.svg#digital7') format('svg');
 }
 .ml-auto, .mx-auto {margin-left: auto !important;}
 .fixfc .form-control{height:auto;}
@@ -1312,8 +1312,8 @@ li .actions.mobileaction .action-list-box {position: relative;width: 100%;displa
 .digital-timer {font-family: 'digital7_mono', sans-serif; font-size:19px;}
 @font-face {
 font-family: 'digital7_mono';
-src: url('/Content/Responsive/fonts/digital7_mono.eot');
-src: url('/Content/Responsive/fonts/digital7_mono.eot') format('embedded-opentype'), url('/Content/Responsive/fonts/digital7_mono.woff2') format('woff2'), url('/Content/Responsive/fonts/digital7_mono.woff') format('woff'), url('/Content/Responsive/fonts/digital7_mono.ttf') format('truetype'), url('/Content/Responsive/fonts/digital7_mono.svg#digital7_mono') format('svg');
+src: url('/fonts/digital7_mono.eot');
+src: url('/fonts/digital7_mono.eot') format('embedded-opentype'), url('/fonts/digital7_mono.woff2') format('woff2'), url('/fonts/digital7_mono.woff') format('woff'), url('/fonts/digital7_mono.ttf') format('truetype'), url('/fonts/digital7_mono.svg#digital7_mono') format('svg');
 }
 .customsearchbox .form-control:focus {outline: 0 !important;box-shadow: none;border-color: #abb5bf !important;}
 
