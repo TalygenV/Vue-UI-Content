@@ -979,6 +979,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .common_multiselect .multiselect__tags{min-height:36px!important;}
 .common_multiselect .multiselect__select::before{top:19px; z-index:9;}
 .common_multiselect .multiselect__placeholder{padding-top: 5px;}
+.common_multiselect .multiselect__placeholder{font-weight:normal;}
 
 
 /***New Timer 2Nov 2023****/
