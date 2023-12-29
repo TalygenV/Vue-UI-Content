@@ -1106,3 +1106,31 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .barsbase.efficiency .progress{border-radius:0px .25rem .25rem 0px;}
 
 
+/***New Timer responsive Css****/
+
+@media (max-width:1200px)
+{
+.leftcont_divs{max-width: 55%;}
+.rightcont_divs{max-width: 45%;}
+.multiselect__option--selected{font-weight: 600;}
+}
+
+@media (max-width:1024px)
+{
+.leftcont_divs{max-width: 100%; border-bottom: 1px solid #cdcecf;}
+.rightcont_divs{max-width: 100%;}
+}
+
+@media (max-width:767px)
+{
+.leftcont_divs{max-width: 100%; border-bottom: 1px solid #cdcecf;}
+.leftcont_divs .multiselect {max-width: 100%; box-sizing: inherit; border-bottom: 1px solid #cdcecf!important;}
+
+.leftcont_divs .row{display: block;}
+
+.rightcont_divs{max-width: 100%;}
+.rightcont_divs .row{display: block;}
+
+}
+
+/***New Timer responsive Css****/
