@@ -1133,7 +1133,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .tt_play_btnbase{width: 100%; float: left; padding: 10px;}
 .tt_play_btn{width: 100%;}
-.timerclck{width: 100%; border: none; border-top: 1px solid #cfcfcf;}
+.timerclck{width: 100%; border: none; border-top: 1px solid #cfcfcf; margin: 0px;}
 
 
 }
