@@ -1129,11 +1129,11 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .rightcont_divs{max-width: 100%;}
 .rightcont_divs .row{display: block;}
-.tt_textarea{background: #f4f4f4; width: 100%;}
+.tt_textarea{background: #f4f4f4; width: 100%!important;}
 
 .tt_play_btnbase{width: 100%; float: left; padding: 10px;}
 .tt_play_btn{width: 100%;}
-.timerclck{width: 100%; }
+.timerclck{width: 100%; border: none; border-top: 1px solid #cfcfcf;}
 
 
 }
