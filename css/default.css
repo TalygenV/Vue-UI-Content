@@ -965,7 +965,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .hs_tag_general .multiselect.tt_bod-right {border-right: none !important; width: 100%;box-sizing: border-box !important; min-height: calc(2.12rem + 4px) !important; padding-top: 5px !important;}
 .hs_tag_general .multiselect__select {top: 0px !important;}
 .hs_tag_general .multiselect__select::before {z-index: 9 !important;}
-.hs_tag_general .multiselect__tags { border: none !important;}
+.hs_tag_general .multiselect__tags { border: none !important; padding: 12px 30px 0 8px !important}
 .hs_tag_general .multiselect__content-wrapper {top: 0px;  border-radius: 0 !important; position: relative;}
 .tt_ddr_01 ul.multiselect__content{width: 100%; overflow-x: hidden;}
 .tt_ddr_01 ul.multiselect__content li{margin: 10px 7px; width: 100%; color: #505050;}
