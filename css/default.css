@@ -993,7 +993,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     padding: 5px;
     font-size: 18px;
     -webkit-text-fill-color: #fff; 
-    height: 52px;}
+    height: 52px; cursor: pointer;}
   
     #timetracking_wrap .time-tracked.newtimertracked .custom-icon{left: unset;
     right: 0;
