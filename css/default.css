@@ -1145,7 +1145,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .cardboxesbasenew li {width: 100%; max-width: 16%; padding: 0px; float: left; display: flex; transition: all .4s;}
 .cardboxesbasenew li div.cardbase{ display: flex; width: 100%;}
 
-.col-control-left{ max-width: 100%;}
+.col-control-left{ max-width: 60%;}
 
 @media (max-width:1600px)
 {
