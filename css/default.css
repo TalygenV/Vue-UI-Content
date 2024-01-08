@@ -1159,7 +1159,24 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 {
   .cardboxesbasenew li{max-width: 100%; margin-bottom: 20px;}
   .cardboxesbasenew li div.col-md-4{max-width: 100px;}
+}
+.col-control-left{ max-width: 100%;}
+
+@media (max-width:991px)
+{
+  .col-control-left{ max-width: 100%; width: 100%;}
+  .col-control-right{ max-width: 100%; width: 100%; padding:0; margin:10px 0px}
+
+  .col-control-left .col_1inn{max-width: 100%; width: 100%;}
+  .col-control-left .col_2inn{max-width: 100%; width: 100%;}
 
 }
+
+@media (max-width:991px)
+{
+.col-control-left{display: block!important; float: left; margin-bottom: 10px;}
+.col-control-left .col_2inn{margin-left: 0px!important; margin-top: 10px;}
+}
+
 /******Silent App - Time Track Dashboard - for Ezaj Ahmed**********/
 
