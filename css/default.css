@@ -1147,10 +1147,14 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .col-control-left{ max-width: 100%;}
 
-
+@media (max-width:1600px)
+{
+.timetrackdb_pb .productive-box{max-width: 49%!important; width: 49%!important; flex: 0 0 49%;}
+}
 @media (max-width:1400px)
 {
   .cardboxesbasenew li{max-width: 32%; margin-bottom: 20px;}
+  .productive-box{max-width: 49%!important; width: 49%!important; flex: 0 0 49%;}
 }
 
 @media (max-width:991px)
@@ -1164,7 +1168,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
   .col-control-left{display: block!important; float: left; margin-bottom: 10px;}
   .col-control-left .col_2inn{margin-left: 0px!important; margin-top: 10px;}
-  .productive-box{max-width: 49%!important; width: 49%!important; flex: 0 0 49%;}
+  .timetrackdb_pb .productive-box{max-width: 100%!important; width: 100%!important; flex: 0 0 100%;}
 
 }
 @media (max-width:768px)
