@@ -1145,20 +1145,12 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .cardboxesbasenew li {width: 100%; max-width: 16%; padding: 0px; float: left; display: flex; transition: all .4s;}
 .cardboxesbasenew li div.cardbase{ display: flex; width: 100%;}
 
+.col-control-left{ max-width: 100%;}
+
 @media (max-width:1400px)
 {
   .cardboxesbasenew li{max-width: 32%; margin-bottom: 20px;}
 }
-
-
-@media (max-width:768px)
-{
-  .cardboxesbasenew li{max-width: 100%; margin-bottom: 20px;}
-  .cardboxesbasenew li div.col-md-4{max-width: 100px;}
-  .productive-box{max-width: 100%; width: 100%; flex: 0 0 100%;}
-}
-
-.col-control-left{ max-width: 100%;}
 
 @media (max-width:991px)
 {
@@ -1172,6 +1164,12 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
   .col-control-left{display: block!important; float: left; margin-bottom: 10px;}
   .col-control-left .col_2inn{margin-left: 0px!important; margin-top: 10px;}
 
+}
+@media (max-width:768px)
+{
+  .cardboxesbasenew li{max-width: 100%; margin-bottom: 20px;}
+  .cardboxesbasenew li div.col-md-4{max-width: 100px;}
+  .productive-box{max-width: 100%; width: 100%; flex: 0 0 100%;}
 }
 
 
