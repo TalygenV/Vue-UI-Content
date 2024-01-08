@@ -1150,33 +1150,30 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
   .cardboxesbasenew li{max-width: 32%; margin-bottom: 20px;}
 }
 
-@media (max-width:991px)
-{
-  .cardboxesbasenew li{max-width: 49%; margin-bottom: 20px;}
-}
 
 @media (max-width:768px)
 {
   .cardboxesbasenew li{max-width: 100%; margin-bottom: 20px;}
   .cardboxesbasenew li div.col-md-4{max-width: 100px;}
+  .productive-box{max-width: 100%; width: 100%; flex: 0 0 100%;}
 }
+
 .col-control-left{ max-width: 100%;}
 
 @media (max-width:991px)
 {
+  .cardboxesbasenew li{max-width: 49%; margin-bottom: 20px;}
   .col-control-left{ max-width: 100%; width: 100%;}
   .col-control-right{ max-width: 100%; width: 100%; padding:0; margin:10px 0px}
 
   .col-control-left .col_1inn{max-width: 100%; width: 100%;}
   .col-control-left .col_2inn{max-width: 100%; width: 100%;}
 
+  .col-control-left{display: block!important; float: left; margin-bottom: 10px;}
+  .col-control-left .col_2inn{margin-left: 0px!important; margin-top: 10px;}
+
 }
 
-@media (max-width:991px)
-{
-.col-control-left{display: block!important; float: left; margin-bottom: 10px;}
-.col-control-left .col_2inn{margin-left: 0px!important; margin-top: 10px;}
-}
 
 /******Silent App - Time Track Dashboard - for Ezaj Ahmed**********/
 
