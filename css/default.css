@@ -1164,6 +1164,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
   .col-control-left{display: block!important; float: left; margin-bottom: 10px;}
   .col-control-left .col_2inn{margin-left: 0px!important; margin-top: 10px;}
+  .productive-box{max-width: 49%!important; width: 49%!important; flex: 0 0 49%;}
 
 }
 @media (max-width:768px)
