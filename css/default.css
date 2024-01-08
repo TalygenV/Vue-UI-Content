@@ -1137,8 +1137,29 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .tt_play_btnbase{width: 100%; float: left; padding: 10px;}
 .tt_play_btn{width: 100%;}
 .timerclck{width: 100%; border: none; border-top: 1px solid #cfcfcf; margin: 0px;}
+}
+/***New Timer responsive Css****/
 
 
+/******Silent App - Time Track Dashboard - for Ezaj Ahmed**********/
+.cardboxesbasenew li {width: 100%; max-width: 16%; padding: 0px; float: left; display: flex; transition: all .4s;}
+.cardboxesbasenew li div.cardbase{ display: flex; width: 100%;}
+
+@media (max-width:1400px)
+{
+  .cardboxesbasenew li{max-width: 32%; margin-bottom: 20px;}
 }
 
-/***New Timer responsive Css****/
+@media (max-width:991px)
+{
+  .cardboxesbasenew li{max-width: 49%; margin-bottom: 20px;}
+}
+
+@media (max-width:768px)
+{
+  .cardboxesbasenew li{max-width: 100%; margin-bottom: 20px;}
+  .cardboxesbasenew li div.col-md-4{max-width: 100px;}
+
+}
+/******Silent App - Time Track Dashboard - for Ezaj Ahmed**********/
+
