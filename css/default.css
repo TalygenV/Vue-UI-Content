@@ -1177,5 +1177,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
   .cardboxesbasenew li div.col-md-4{max-width: 100px;}
   .productive-box{max-width: 100%!important; width: 100%!important; flex: 0 0 100%;}
 }
+
+.progress .progress-bar .h6{font-size: 12px;}
 /******Silent App - Time Track Dashboard - for Ezaj Ahmed**********/
 
