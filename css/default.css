@@ -1090,8 +1090,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .team-con-img .offline{width:14px; height:14px; position:absolute; top:-1px; right:4px; background:#56c93a; border:1px solid #239b06; border-radius:100%;}
 .team-con-img img{border-radius:100%; border: 1px solid #f2f2f2;}
 .team-con-content{float:right; width: calc(100% - 80px);}
-.team-con-range {float:right; width:65px!important; height:65px;}
-.team-con-rangecontent{float:left; width: calc(100% - 70px);}
+.team-con-range {float:right; width:100px!important; height:100px;}
+.team-con-rangecontent{float:left; width: calc(100% - 120px);}
 .barsbase .iconbase{float:left; width:30px; height:22px;}
 .barsbase .icontext{float:left; width:calc(100% - 35px);}
 .barsbase .progress{height:9px; margin-top:5px;}
