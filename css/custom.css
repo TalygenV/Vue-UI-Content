@@ -5873,6 +5873,7 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 .stat_slides:nth-child(3) .boxex .icobase{border-radius:10px; padding-top:12px; font-size:25px; background:#f58343; color:#fff; width:60px; text-align:center;}
 
 .fck_img_dynamic img{width:100%;}
+.mobilebase{background:#d2dce2; border-radius:40px; max-width:320px; padding:60px 20px;}
 /*********CRM Campaign - Chad *******************/
 
 
