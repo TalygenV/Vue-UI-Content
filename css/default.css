@@ -890,7 +890,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     /* .dottedbod_rt div:first-child{border-right:1px dashed #c9c9c9;} *******- Commented due to New timer design with Ridham*/
 
     .newtt .vue__time-picker .custom-icon{right: 0px!important; left: unset!important;}
-    
+
+    .newtimertabsbase{background: #f4f4f4;}
+
     .dottedbod_rt .tagspanel span{float:left; font-size:12px; margin-right:10px; margin-top: 5px; padding: 4px 10px; font-weight:500!important; max-width: 100px;}
     .dottedbod_rt .tagspanel span:nth-child(2){background:#ccf8ee;}
     .dottedbod_rt .tagspanel span:nth-child(3){background:#fff2df;}
