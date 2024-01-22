@@ -85,7 +85,7 @@ table.table-bordered.dataTable{border-width:1px!important;}
 .heading-border{position:relative; width:100%;}
 .heading-border span{border-bottom:5px solid; display:inline-block;padding-bottom:2px;}
 .heading-border.with-accordian span{width: 100%; max-width: 450px;}
-.activity-tab .card-header a.card-link  .fa-angle-down::before{content: "\f106";}
+/* .activity-tab .card-header a.card-link  .fa-angle-down::before{content: "\f106";}*********- Commented due to New timer design with Ridham */
 .activity-tab .card-header a.card-link.collapsed  .fa-angle-down::before{content: "\f107";}
 
 
