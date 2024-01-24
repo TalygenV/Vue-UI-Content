@@ -5876,9 +5876,22 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 .mobilebase{background:#d2dce2; border-radius:40px; max-width:320px; padding:60px 20px;}
 /*********CRM Campaign - Chad *******************/
 
+
+
 /***Service Appointment - Saini 24Jan24*****/
+
+.schedule-container{width: calc(100% - 420px); margin-right: 19px;}
+.treeview-container {width: 400px;}
+
+@media (max-width:1060px) {
+    .schedule-container, .treeview-container {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
+    }
 
 @media (max-width:991px) {
 .schedule-container, .treeview-container {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
 }
+
+/***Service Appointment - Saini 24Jan24*****/
+
+
 
