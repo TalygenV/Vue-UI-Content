@@ -5880,16 +5880,14 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 
 /***Service Appointment - Saini 24Jan24*****/
 
-.schedule-container{width: calc(100% - 420px); margin-right: 19px;}
-.treeview-container {width: 400px;}
+.schedule-container{width: calc(100% - 490px);}
+.treeview-container {width: 490px;}
 
-@media (max-width:1060px) {
-    .schedule-container, .treeview-container {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
-    }
-
-@media (max-width:991px) {
-.schedule-container, .treeview-container {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
+@media (max-width:1200px) {
+.schedule-container, .treeview-container {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; margin-bottom: 10px;}
 }
+
+
 
 /***Service Appointment - Saini 24Jan24*****/
 
