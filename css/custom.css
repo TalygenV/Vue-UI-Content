@@ -5876,5 +5876,9 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 .mobilebase{background:#d2dce2; border-radius:40px; max-width:320px; padding:60px 20px;}
 /*********CRM Campaign - Chad *******************/
 
+/***Service Appointment - Saini 24Jan24*****/
 
+@media (max-width:991px) {
+.schedule-container, .treeview-container {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
+}
 
