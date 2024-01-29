@@ -827,7 +827,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .newtimetrack .multiselect__content-wrapper{top: 74px; left: 0px; border-radius:0;}
 
 
-.newtimetrack .multiselect__content-wrapper li span.option__title.child{border-left: 1px dotted #cacaca; padding-left: 20px; color:#a4a4a4;}
+.newtimetrack .multiselect__content-wrapper li span.option__title.child{border-left: 1px dotted #cacaca; padding-left: 20px; color:#999;}
 .newtimetrack .multiselect__content-wrapper li span.option__title.child::after{content:'\25BA'; position: absolute; left: -2px; color: #cacaca; top: 4px;}
 
 
