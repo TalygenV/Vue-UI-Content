@@ -924,8 +924,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
    
 
 .newtimertable td span.font-weight-medium{font-weight: 600 !important;}
-
-.newtimertable td span.text-dark.d-block.font-12{color: #525f65; font-weight: 500;}
+.newtimertable td span.text-dark.d-block.font-12{color: #525f65!important; font-weight: 500!important;}
 
 .totalactivity_rt .tagspanel span:nth-child(1) {background: #48ccae; color:#fff;}
 .totalactivity_rt .tagspanel span {float: right; font-size: 14px; padding: 4px 20px; font-weight: 500!important; background:#f6f6f6; color:#777777;}
