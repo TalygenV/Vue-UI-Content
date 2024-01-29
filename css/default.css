@@ -305,6 +305,10 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .lg-pausedresumed{background:#3a3a3d;}
 .lg-flaggedentry{background:#93604d;}
 
+.lg-orange{background:#fd7a1a;}
+
+
+
 .table-bordered tr.lgtr-timesheet td:first-child::after {background: #3ebe0b;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
 .table-bordered tr.lgtr-addedmanually td:first-child::after {background: #cca51d;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
 .table-bordered tr.lgtr-bulktime td:first-child::after {background: #43acf7;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
@@ -955,6 +959,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 
 /******28Dec2023 - NewTimerTable listing tr - bars*************/
+.table-bordered.newtimertable tr.gt-orange-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 1px); background:#fd7a1a;  display: block; position:absolute; left:0px; top:0px; }
 .table-bordered.newtimertable tr.gt-automatic-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 1px); background:#af39d0;  display: block; position:absolute; left:0px; top:0px; }
 .table-bordered.newtimertable tr.gt-manual-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 1px); background:#4db567;  display: block; position:absolute; left:0px; top:0px; }
 .table-bordered.newtimertable tr.gt-timesheet-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 1px); background:#4cb4fb;  display: block; position:absolute; left:0px; top:0px; }
