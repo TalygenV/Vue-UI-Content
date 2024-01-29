@@ -1042,7 +1042,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .tt_ddr_1 ul.multiselect__content li:nth-child(4n+4){border-left: 3px solid #3f51b5;}
 
 .multiselect__input {min-height: auto; line-height: normal; font-size: 14px!important;}
-.hs_tag .multiselect.tt_bod-right{border-right: none!important; width:85%; box-sizing: border-box!important; min-height: calc(2.12rem + 4px) !important; padding-top: 5px!important;}
+.hs_tag .multiselect.tt_bod-right{border-right: none!important; width:70%; box-sizing: border-box!important; min-height: calc(2.12rem + 4px) !important; padding-top: 5px!important;}
 
 /***New timer - Action btn css***/
 .newtimertable .actions.mobileaction { background: none; color: #b1b1b1; top: 5px; box-shadow:none;}
