@@ -842,7 +842,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .basebod{border:1px solid #cdcecf!important;}
     .row select.form-control.tt_ddr{height: calc(2.12rem + 35px) !important; font-weight: 500; color: #505050!important;}
 
-    .tt_p-action-btn {font-size: 12px; text-align: center; display: inline-block; padding: 15px 15px 0px 15px;  min-width: 75px; height: 100%; float: left; color: #505050; font-weight:400;}
+    .tt_p-action-btn {font-size: 12px; text-align: center; display: inline-block; padding: 15px 15px 0px 15px;  min-width: 75px; height: 100%; float: left; color: #505050; font-weight:500;}
     .tt_p-action-btn em{font-size:20px;}
     .text-orange{color:#ff9801;}
 
