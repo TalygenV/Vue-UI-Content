@@ -1074,6 +1074,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .hs_tag #divModalTimetrack .multiselect .multiselect__tags .multiselect__placeholder{padding-top: 7px;}
 .newtimetrack .hs_tag .multiselect{padding-top: 10px; padding-left: 0; padding-right: 0; float: left; border: 1px solid #c8c8c8 !important;}
 
+.newtimetrack .rightcont_divs .tt_textarea_span .form-control{font-weight: 450!important; color: #9f9f9f !important;}
+
+
 .squarebtn .round-icon-small{border-radius: 0!important; height: 38px;line-height: 42px;width:40px;}
 
 /********Ridham - NewTimer******************/
