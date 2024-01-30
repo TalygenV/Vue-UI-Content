@@ -1078,6 +1078,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .table.table-bordered.timesheettable tr.its_fixedrow2 td{ font-weight: 600;}
 
+.table.table-bordered.timesheettable tr.its_fixedrow2 {background: #f5f5f5!important;}
+.table.table-bordered.timesheettable tr.its_fixedrow2 {border-bottom: 1px solid #fff !important;}
+
 .table.table-bordered.timesheettable tr td input{font-weight: 400!important;}
 
 .squarebtn .round-icon-small{border-radius: 0!important; height: 38px;line-height: 42px;width:40px;}
