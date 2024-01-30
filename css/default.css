@@ -1073,19 +1073,48 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .hs_tag #divModalTimetrack .multiselect .multiselect__select{top:4px;}
 .hs_tag #divModalTimetrack .multiselect .multiselect__tags .multiselect__placeholder{padding-top: 7px;}
 .newtimetrack .hs_tag .multiselect{padding-top: 10px; padding-left: 0; padding-right: 0; float: left; border: 1px solid #c8c8c8 !important;}
-
 .newtimetrack .rightcont_divs .tt_textarea_span .form-control{font-weight: 450!important; color: #9f9f9f !important;}
-
 .table.table-bordered.timesheettable tr.its_fixedrow2 td{ font-weight: 600;}
-
 .table.table-bordered.timesheettable tr.its_fixedrow2 {background: #f5f5f5!important;}
 .table.table-bordered.timesheettable tr.its_fixedrow2 {border-bottom: 1px solid #fff !important;}
-
 .table.table-bordered.timesheettable tr td input{font-weight: 400!important;}
-
 .table.table-bordered.timesheettable tr td.totalvalue{font-weight: 600;}
-
 .squarebtn .round-icon-small{border-radius: 0!important; height: 38px;line-height: 42px;width:40px;}
+
+
+
+
+
+.red-border {border-color: red;}
+.daterangecontrolHS #slotdate div.form-group label {display: none;}
+.daterangecontrolHS #slotdate span.timesheetdatepicker input#date_range {border: none;}
+.daterangecontrolHS #slotdate span.timesheetdatepicker a#aDateLable {position: absolute; left: 10px; z-index: 9; top: 4px; font-size: 14px;}
+.daterangecontrolHS #slotdate span.timesheetdatepicker .input-group-append .input-group-text {border: none; border-left: 1px solid #afb5bb;}
+.daterangecontrolHS #user_id div.form-group label {display: none;}
+.daterangecontrolHS #slotbutton div.form-group label {display: none;}
+.table.table-bordered.timesheettable tr th:first-child {border-right: 1px solid #c6cace !important;}
+.table.table-bordered.timesheettable tr td:first-child {border-right: 1px solid #c6cace !important;}
+
+.listing .table.timesheettable thead th:not(:last-child):not(.border-right-0)::after {background: none;}
+.table.table-bordered.timesheettable tr td.its_projectnamebase { max-width: 300px;}
+.table.table-bordered.timesheettable tr td.its_projectnamebase .its_taskdesc {color: #787878 !important;}
+.table.table-bordered.timesheettable tr.its_fixedrow td {background: #f5f5f5 !important;}
+.table.table-bordered.timesheettable tr.its_fixedrow {border-bottom: 1px solid #fff !important;}
+
+.hs_tag3 { position: absolute; top: 44px; z-index: 99; background: #fff; padding: 5px; border: 1px solid #c8c8c8; width: 330px; text-align: left; right: 0px; 
+    -webkit-box-shadow: -9px -6px 5px -6px rgba(181, 181, 181, 1);
+    -moz-box-shadow: -9px -6px 5px -6px rgba(181, 181, 181, 1);
+    box-shadow: -9px -6px 5px -6px rgba(181, 181, 181, 1);
+}
+
+.table-bordered tr td.legend_leaves::after { width: 3px; content: ""; height: calc(100% - 6px); background: #df5966;  display: block; position: absolute; left: 0px; top: 3px;}
+.table-bordered tr td.legend_auditable::after {width: 3px; content: ""; height: calc(100% - 6px); background: #af39d0; display: block; position: absolute; left: 0px; top: 3px;}
+.table-bordered tr td.legend_unpaid::after {width: 3px; content: ""; height: calc(100% - 6px); background: #4db567; display: block; position: absolute; left: 0px; top: 3px;}
+.table-bordered tr td.legend_holiday::after {width: 3px; content: ""; height: calc(100% - 6px); background: #fbc648; display: block; position: absolute; left: 0px; top: 3px;}
+.table-bordered tr td.legend_paused::after { width: 3px; content: ""; height: calc(100% - 6px); background: #3a3a3d; display: block; position: absolute; left: 0px; top: 3px;}
+
+
+
 
 /********Ridham - NewTimer******************/
 .tab-style.newtimer .nav-link.active::after{display: none;}
