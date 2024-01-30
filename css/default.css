@@ -1076,6 +1076,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .newtimetrack .rightcont_divs .tt_textarea_span .form-control{font-weight: 450!important; color: #9f9f9f !important;}
 
+.table.table-bordered.timesheettable tr.its_fixedrow2 td{ font-weight: 600;}
+
+.table.table-bordered.timesheettable tr td input{font-weight: 400!important;}
 
 .squarebtn .round-icon-small{border-radius: 0!important; height: 38px;line-height: 42px;width:40px;}
 
