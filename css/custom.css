@@ -5888,6 +5888,6 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 }
 
 /***Service Appointment - Saini 24Jan24*****/
-input.menusearchitem {color:#f2f2f2!important;}
 
+.full-menu-new .menu-search-panel input.menusearchitem {color:#f2f2f2!important;}
 
