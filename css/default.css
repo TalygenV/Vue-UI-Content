@@ -912,7 +912,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .parentwithchild.newtimetrack em{ color:#0d8aa0!important; font-size:8px;}
 
     .font-12{font-size:12px!important;}
-    .newtimertable tr td{color:#525f65!important}
+    .newtimertable tr td{color:#525f65!important; vertical-align: middle;}
 
     .newtimertable tr td div a.text-dark{color:#525f65!important}
 
