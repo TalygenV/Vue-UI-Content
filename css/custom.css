@@ -3547,6 +3547,13 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 .trackinfo a{text-decoration:underline;color:#24a5ff}
 .trackinfo li span{font-size:25px}
 
+
+.trackinfo_left2{width: 50%!important;}
+.trackinfo_right2{width: 50%!important;}
+
+
+
+
 .align_bx{justify-content:center;align-items:center}
 
 #project-detail.modal.right.fade .modal-dialog{max-width:500px}
