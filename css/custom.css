@@ -3547,14 +3547,23 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 .trackinfo a{text-decoration:underline;color:#24a5ff}
 .trackinfo li span{font-size:25px}
 
-
 .trackinfo_left2{width: 50%!important;}
 .trackinfo_right2{width: 50%!important;}
+ 
+
+.tablelist_icos{background-image: url('https://talygenv.github.io/Vue-UI-Content/images/timersprite.png'); height: 22px; width: 25px; float: left; background-repeat: no-repeat;}
+
+
+.email_icos{background-position: -17px -140px;}
+.fb_icos{background-position: -60px -140px;}
+.insta_icos{background-position: -101px -140px;}
+.bing_icos{background-position: -152px -140px;}
 
 
 
 
-.align_bx{justify-content:center;align-items:center}
+
+.align_bx{justify-content:center; align-items:center;}
 
 #project-detail.modal.right.fade .modal-dialog{max-width:500px}
 .white_bx{background:#fff;padding:15px;border:1px solid #b4b9bf}
