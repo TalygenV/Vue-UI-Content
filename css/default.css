@@ -896,6 +896,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .tt_lisitng_icons.ico_listplaytime {background-position: -429px -19px; height: 29px; width:35px;}
 
     .dottedbod_rt div{border-left:1px dashed #c9c9c9;}
+    .dottedbod_rt div:last-child {border-right: 1px dashed #c9c9c9;}
+    
     /* .dottedbod_rt div:first-child{border-right:1px dashed #c9c9c9;} *******- Commented due to New timer design with Ridham*/
 
     .newtt .vue__time-picker .custom-icon{right: 0px!important; left: unset!important;}
