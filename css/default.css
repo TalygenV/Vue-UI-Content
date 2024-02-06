@@ -1174,9 +1174,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .barsbase.efficiency .progress{border-radius:0px .25rem .25rem 0px;}
 
 
-.rightgraph .trackinfo .time_info{font-size: 32px; font-weight: 500;}
-.rightgraph .trackinfo h5.time_info{font-size: 18px; font-weight: normal;}
-.rightgraph .trackinfo p.mb-4{font-size: 15px; color: #5e5e5e;}
+.rightgraph .trackinfo .time_info{font-size: 32px; font-weight: 500; padding-left: 18px;}
+.rightgraph .trackinfo h5.text-secondary{font-size: 18px; font-weight: normal;  padding-left: 18px;}
+.rightgraph .trackinfo p.mb-4{font-size: 15px; color: #5e5e5e;  padding-left: 18px;}
 
 
 
