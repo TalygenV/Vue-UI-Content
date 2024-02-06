@@ -1049,11 +1049,10 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .tt_ddr_1 ul.multiselect__content li span.multiselect__option{white-space: normal; padding: 4px 12px; min-height: 24px; font-size: 14px; color:#505050;}
 .tt_ddr_1 .multiselect__content-wrapper{border-radius: 0px;}
 
-.multiselect__option--highlight {
-    background: #41b883;
-    outline: none;
-    color: #fff!important;
-}
+
+.tt_ddr ul.multiselect__content li.multiselect__element {color: #505050!important;}
+
+.multiselect__option--highlight { background: #41b883; outline: none; color: #fff!important;}
 
 .tt_ddr_1 ul.multiselect__content li:nth-child(4n+1){border-left: 3px solid #6ac1ff;}
 .tt_ddr_1 ul.multiselect__content li:nth-child(4n+2){border-left: 3px solid #da9c49;}
