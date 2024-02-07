@@ -1283,4 +1283,4 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 /******Silent App - Time Track Dashboard - for Ezaj Ahmed**********/
 
 .newddlist .dropdown input[type="text"]{border:1px solid #abb5bf;}
-.dropdown-content{position: absolute;width: 100%;border: 1px solid #adadad;background: #fff; z-index:9;}
+.dropdown-content{position: absolute;width: 100%;border: 1px solid #adadad;background: #fff; z-index:9; max-height: 200px; overflow-y: auto;}
