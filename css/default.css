@@ -930,7 +930,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .totalactivity_rt .tagspanel span:nth-child(1) {background: #48ccae; color:#fff;}
 .totalactivity_rt .tagspanel span {float: right; font-size: 14px; padding: 4px 20px; font-weight: 500!important; background:#f6f6f6; color:#777777;}
-.newtimertable .tagspanel { min-width: 330px;}
+.newtimertable .tagspanel { max-width: 330px;}/****min-width****/
 .tt_disabled{opacity: 0.4; cursor: no-drop; pointer-events: none;}
 
 /****----View more Tags in Table listing----*****/
