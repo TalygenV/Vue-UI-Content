@@ -1101,7 +1101,11 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .hs_tag #divModalTimetrack .multiselect .multiselect__select{top:4px;}
 .hs_tag #divModalTimetrack .multiselect .multiselect__tags .multiselect__placeholder{padding-top: 7px;}
 .newtimetrack .hs_tag .multiselect{padding-top: 10px; padding-left: 0; padding-right: 0; float: left; border: 1px solid #c8c8c8 !important;}
-.newtimetrack .rightcont_divs .tt_textarea_span .form-control{font-weight: 450!important; color: #9f9f9f !important;}
+/* .newtimetrack .rightcont_divs .tt_textarea_span .form-control{font-weight: 450!important; color: #9f9f9f !important;} */
+
+.newtimetrack .rightcont_divs .tt_textarea_span .form-control{font-weight: 450!important; color: #000 !important;}
+    
+
 .table.table-bordered.timesheettable tr.its_fixedrow2 td{ font-weight: 600;}
 .table.table-bordered.timesheettable tr.its_fixedrow2 {background: #f5f5f5!important;}
 .table.table-bordered.timesheettable tr.its_fixedrow2 {border-bottom: 1px solid #fff !important;}
