@@ -3564,6 +3564,11 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 .insta_icos{background-position: -101px -140px;}
 .bing_icos{background-position: -152px -140px;}
 
+.tweet_icos{background-position: -203px -140px;}
+.google_icos{background-position: -257px -140px;}
+.default_icos{background-position: -317px -140px;}
+
+
 
 .tt_ddr ul.multiselect__content li.multiselect__element .multiselect__option{color: #505050!important;}
 .tt_ddr ul.multiselect__content li.multiselect__element .multiselect__option.multiselect__option--highlight{color: #fff!important;}
@@ -5914,4 +5919,4 @@ div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
 /***Service Appointment - Saini 24Jan24*****/
 
 .full-menu-new .menu-search-panel input.menusearchitem {color:#f2f2f2!important;}
-
+.borderbottom{border-bottom: 1px solid #dee2e6!important;}
