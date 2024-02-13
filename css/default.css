@@ -467,15 +467,15 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 /*.shortcuts-menu li:nth-child(10n+10) .left-icon-m em{color:#4581d0;}*/
 
 
-.shortcuts-menu li:nth-child(9n+1):hover .short-item-name{color:#216bca;}
-.shortcuts-menu li:nth-child(9n+2):hover .short-item-name{color:#63983e;}
-.shortcuts-menu li:nth-child(9n+3):hover .short-item-name{color:#575b6f;}
-.shortcuts-menu li:nth-child(9n+4):hover .short-item-name{color:#43a38a;}
-.shortcuts-menu li:nth-child(9n+5):hover .short-item-name{color:#cc7d38;}
-.shortcuts-menu li:nth-child(9n+6):hover .short-item-name{color:#735da5;}
-.shortcuts-menu li:nth-child(9n+7):hover .short-item-name{color:#7e6c5e;}
-.shortcuts-menu li:nth-child(9n+8):hover .short-item-name{color:#e3644b;}
-.shortcuts-menu li:nth-child(9n+9):hover .short-item-name{color:#dcad3a;}
+.shortcuts-menu li:nth-child(9n+1):hover .short-item-name{color:#216bca!important;}
+.shortcuts-menu li:nth-child(9n+2):hover .short-item-name{color:#63983e!important;}
+.shortcuts-menu li:nth-child(9n+3):hover .short-item-name{color:#575b6f!important;}
+.shortcuts-menu li:nth-child(9n+4):hover .short-item-name{color:#43a38a!important;}
+.shortcuts-menu li:nth-child(9n+5):hover .short-item-name{color:#cc7d38!important;}
+.shortcuts-menu li:nth-child(9n+6):hover .short-item-name{color:#735da5!important;}
+.shortcuts-menu li:nth-child(9n+7):hover .short-item-name{color:#7e6c5e!important;}
+.shortcuts-menu li:nth-child(9n+8):hover .short-item-name{color:#e3644b!important;}
+.shortcuts-menu li:nth-child(9n+9):hover .short-item-name{color:#dcad3a!important;}
 /*.shortcuts-menu li:nth-child(10n+10):hover .short-item-name{color:#4581d0;}*/
 
 /*****************eta-setting----------------*/
