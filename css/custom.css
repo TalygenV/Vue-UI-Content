@@ -5526,6 +5526,9 @@ div#collapseOne12 {height: 70vh; overflow-y: scroll; overflow-x: hidden;}
 
 div#mainDivProp { position: relative;}
 div#mainDivProp .dropdown-menu{ position: absolute; left: inherit; right: 0px;}
+
+div#mainDivProp .dropdown-menu button em.fa.fa-times{position: relative;}
+
 /**Sushil CustomLayout 19 April 2023**/
 .fontpoppins{font-family:'Poppins';}
 
