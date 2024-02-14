@@ -3983,6 +3983,7 @@ p:nth-child(even) { background:blue;}*/
 
 #AddManually.addman{width: 100%; border-bottom: 2px solid #17a2b8!important;}
 
+
 @media (max-width:767px){	
 .addman {padding: 9px 10px; margin-bottom: 0; line-height: 26px; display:block ruby;}	
 .mystatus {padding-right: 15px !important;}
