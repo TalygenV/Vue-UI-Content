@@ -3981,13 +3981,14 @@ p:nth-child(even) { background:blue;}*/
 .addman img{width:18px;margin-right:4px}
 .lg_btn{font-size:16px;padding:11px 20px}
 
+#AddManually.addman{width: 100%;}
+
 @media (max-width:767px){	
 .addman {padding: 9px 10px; margin-bottom: 0; line-height: 26px; display:block ruby;}	
 .mystatus {padding-right: 15px !important;}
 .spbx-tb { min-height: auto;}
 .my-popups .tab-style .nav-tabs.cust li{flex:0 0 100%;}	
 }
-
 
 
 .v-select input[type="search"], .v-select input[type="search"]:focus { margin: 0px !important; font-size:14px!important; padding:.3rem .50rem !important;}
