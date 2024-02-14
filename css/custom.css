@@ -3981,7 +3981,7 @@ p:nth-child(even) { background:blue;}*/
 .addman img{width:18px;margin-right:4px}
 .lg_btn{font-size:16px;padding:11px 20px}
 
-#AddManually.addman{width: 100%; border-bottom: none;}
+#AddManually.addman{width: 100%; border-bottom: none!important;}
 
 @media (max-width:767px){	
 .addman {padding: 9px 10px; margin-bottom: 0; line-height: 26px; display:block ruby;}	
