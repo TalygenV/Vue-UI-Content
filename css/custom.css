@@ -1218,7 +1218,8 @@ span.text-lmenu{display:contents!important;}
 .p-action-map span{padding: 0; width: auto;}
 .w-50.alert-message{width:90%!important;}   
 
-  .btn:not(.multiselect-clear-filter){width: 100%; margin-bottom: 5px;}
+  .btn:not(.multiselect-clear-filter){width: 100%; margin-bottom: 5px; margin-left: 0px !important;}/*** For all buttons - Harjit added ml-0 21Feb24***/
+  
   .customize_ht .btn:not(.multiselect-clear-filter){margin-bottom: 0px!important;}/***645440 Harjit 16May2022*******/
 /*.btn:not(.multiselect-clear-filter){width:100%; margin-bottom:5px;}*//****#641891 - Harjit commented - 22April2022 but later uncommented*****/
 
