@@ -5930,5 +5930,10 @@ div#mainDivProp .dropdown-menu button em.fa.fa-times{position: relative;}
 .full-menu-new .menu-search-panel input.menusearchitem {color:#f2f2f2!important;}
 .borderbottom{border-bottom: 1px solid #dee2e6!important;}
 
+/**Avtar added 20 Feb2024***/
 justwraper .actions-onclick {float: none !important; display: inline-block;}
 justwraper .close.close-action{ float: none !important; vertical-align: top;}
+.dynamic-form-toggle .switch.dynamic-form .slider.round.toggle-yes span {padding-left:0px;}
+
+
+/**Avtar added 20 Feb2024***/
