@@ -1152,6 +1152,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .table.table-bordered.timesheettable tr.its_fixedrow td {background: #f5f5f5 !important;}
 .table.table-bordered.timesheettable tr.its_fixedrow {border-bottom: 1px solid #fff !important;}
 
+.table.table-bordered.timesheettable tr.its_fixedrow td.table-danger {background:#f5c6cb!important;}
+
 
 .table.table-bordered.timesheettable tr td div.form-check.form-check-inline.p-0 {padding-left:5px!important;}
 
