@@ -5938,4 +5938,10 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .ml-cutomf-bg.box-warning{background:#f9efe2!important; border:1px solid #dcdcdc;} 
 
 /**Avtar added 20 Feb2024***/
-.vue-treeselect__control{border:1px solid #abb5bf!important; border-radius:0px; color:#303030;}
+
+/** Location DDl Harjit 27Feb2024***/
+.vue-treeselect__control{border:1px solid #abb5bf!important; border-radius:0px!important; color:#303030;}
+.vue-treeselect__control-arrow{color:#303030!important;}
+
+/** Location DDl Harjit 27Feb2024***/
+
