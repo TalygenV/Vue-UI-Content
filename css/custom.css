@@ -88,7 +88,7 @@ table.table-bordered.dataTable{border-width:1px!important;}
 /* .activity-tab .card-header a.card-link  .fa-angle-down::before{content: "\f106";}*********- Commented due to New timer design with Ridham */
 .activity-tab .card-header a.card-link.collapsed  .fa-angle-down::before{content: "\f107";}
 
-.required_field{color:#dc3545 !important; font-size: 12px;}
+.required_field{color:#dc3545 !important; font-size: 80%;}
 
 .heading-border:after{height:1px; content:""; width:100%; position:absolute; bottom:2px; left:0;}
 
