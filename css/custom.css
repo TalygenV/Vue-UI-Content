@@ -5660,8 +5660,11 @@ div#mainDivProp .dropdown-menu button em.fa.fa-times{position: relative;}
   /* padding: .375rem .75rem; Harjit Commented 27 Feb2024*/
 } 
 
-
-
+/** Location DDl Harjit 27Feb2024***/
+.vue-treeselect__control{border:1px solid #abb5bf!important; border-radius:0px!important; color:#303030;}
+.vue-treeselect__control-arrow{color:#303030!important;}
+.vue-treeselect__placeholder{color: #303030!important;}
+/** Location DDl Harjit 27Feb2024***/
 
 /****Manage Subscription Harjit with Thakur ji 25Jan2023*****/
 
@@ -5939,9 +5942,4 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 
 /**Avtar added 20 Feb2024***/
 
-/** Location DDl Harjit 27Feb2024***/
-.vue-treeselect__control{border:1px solid #abb5bf!important; border-radius:0px!important; color:#303030;}
-.vue-treeselect__control-arrow{color:#303030!important;}
-
-/** Location DDl Harjit 27Feb2024***/
 
