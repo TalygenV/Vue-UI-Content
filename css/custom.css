@@ -749,7 +749,7 @@ border-left: .3em solid transparent;
 .icon_ticket_Critical, .icon_ticket_High, .icon_ticket_Medium, .icon_ticket_Low{border-radius:50%; width:20px; height:20px; line-height:20px; text-align:center; font-size:16px; margin-right:10px;}
 .bottom_filter_button{float:right; width:100%; margin-top:10px;}
 .bottom_filter_button a{font-size:14px; float:right; line-height:32px; font-weight:500; padding:0px 14px;}
-.left-filter .custom-radio{ width:100%; padding-bottom:4px; font-size:15px;margin-left:3px;}
+.left-filter .custom-radio{ width:100%; padding-bottom:4px; font-size:15px; margin-left:3px; min-height: auto;}
 
 /*.Response-t {display: inline-block;	font-size:16px;	line-height: 20px;	}
 .Resolve-t {display: inline-block;	font-size:16px;	line-height: 20px;	}*/
