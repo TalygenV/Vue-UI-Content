@@ -5657,8 +5657,10 @@ div#mainDivProp .dropdown-menu button em.fa.fa-times{position: relative;}
   background-clip: padding-box;
   border:none;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  line-height: 33px;
   /* padding: .375rem .75rem; Harjit Commented 27 Feb2024*/
 } 
+
 
 /** Location DDl Harjit 27Feb2024***/
 .vue-treeselect__control{border:1px solid #abb5bf!important; border-radius:0px!important; color:#303030;}
