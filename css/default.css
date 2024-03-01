@@ -1074,6 +1074,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .multiselect__input {min-height: auto; line-height: normal; font-size: 14px!important;}
 .hs_tag .multiselect.tt_bod-right{border-right: none!important; width:70%; box-sizing: border-box!important; min-height: calc(2.12rem + 4px) !important; padding-top: 5px!important;}
 
+
+
+
 /********New timer Listing***********/
 .newtimertable.tdsize tbody tr td {vertical-align:middle;}
 
@@ -1094,6 +1097,14 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .newtimertable.tdsize tbody div tr td:nth-child(5){width:130px; padding: 0;}
 .newtimertable.tdsize tbody div tr td:nth-child(6){width:60px;}    
 .newtimertable.tdsize tbody div tr td:nth-child(7){width:40px;}
+
+.exceededcup{position: absolute;
+    left: 10px;
+    top: 30px;
+    font-size: 11px;
+    color: #f00;
+    font-weight: 400;}
+
 
 /********New timer Listing***********/
 
