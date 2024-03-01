@@ -5501,14 +5501,18 @@ div#divscrollsetuptabs ul.nav.nav-pills { display: block;}
 #btnStorageSpace {height: 52px;}
 .blink-icon { position: absolute; top: -10px; left: 40px;}
 
-
 .modal.right.fade.show .modal-dialog.doc-setup-slide { max-width: 75%;}
 
 .newtab_des .nav-link.left-menu.active { background: #e0f2ff !important;}/*** Harjit added newtab_des ***/
 .newtab_des .nav-link.left-menu.active, .newtab_des .nav-link.left-menu:hover { background: #ffffff !important; color: #000 !important;box-shadow: 0; border: none;}
 .newtab_des .nav-link.left-menu.active .fa { color: #24a5ff !important; }
 
-@media (max-width:991px){ .border-left-0{ border-left: 1px solid #dee2e6!important;} }
+@media (max-width:991px){
+.border-left-0{border-left: 1px solid #dee2e6!important;}
+.modal.right.fade.show .modal-dialog.doc-setup-slide {max-width: 100%!important;}
+
+}
+
 @media (max-width:568px){ .modal.right.fade.show .modal-dialog.doc-setup-slide { max-width: 100%;} .c100 { width: 0;  height: 0} .c100 > span { left: -40px; top: -35px; font-weight: 400; background: #00a915; height: 19px; width: 40px; line-height: 19px; color: #ffff;
     font-size: 12px;} 
 .c100:after{display: none;} 
