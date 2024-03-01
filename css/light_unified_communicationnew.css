@@ -282,7 +282,7 @@ a.searchContactAlpha:hover, a.searchClientAlpha:hover {background: #72c6a0;color
 .team_info.collapse_dv { margin-right: 0px; }
 .team_info.expand_dv .expand-box { display: block }
 .chat-links a img { width: 18px; vertical-align: middle; }
-.uc_dialerbase { width: 350px; margin: 0 auto; /*display: none;*/ }
+.uc_dialerbase { width: 360px; margin: 0 auto; /*display: none;*/ }
 .uc_dialerbase .span4 { width: 94px; float: left; margin: 0 8px 10px 8px; }
 .uc_dialerbase .tel { margin-bottom: 10px; margin-top: 10px; border: 1px solid #f6f7f9; border-bottom: 2px solid #d7d7d7 !important; border-radius: 0px; min-height: 70px; font-size: 26pt; color: #106f99; letter-spacing: 3px; font-weight: 600; background: #f6f7f9; width: 100%; }
 .uc_dialerbase .dialcol { width: 94px; float: left; margin: 0 8px 10px 8px; }
