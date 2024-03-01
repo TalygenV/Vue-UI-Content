@@ -231,7 +231,9 @@ h4.left-heading {color: #fff;padding: 7px 14px;}
 .chat-links a.phone {background: #d2862d}
 .chat-links a.video_icon {background: #72c6a0}
 .chat-links a.file {background: #58a4eb}
-.chat-links a.users {background: #52cbd2}
+.chat-links a.users {background: #52cbd2!important;}
+
+.recentab_uc a { line-height: 16px;}
 .chat-links a:hover {opacity: 0.8;}
 .chatdv {flex-wrap: wrap;}
 .scroll-topsect {height: calc(100vh - 244px);height: -webkit-calc(100vh - 244px);height: -moz-calc(100vh - 244px);}
