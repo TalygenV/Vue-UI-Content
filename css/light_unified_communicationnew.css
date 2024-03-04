@@ -227,11 +227,13 @@ h4.left-heading {color: #fff;padding: 7px 14px;}
 .chat_user .data_info {text-align: right;float: right;}
 .chat-header {display: flex;width: 100%;justify-content: space-between;padding: 2px;margin-bottom: 21px;border-bottom: 1px solid #c3c3c3;padding-bottom: 12px;align-items: center;}
 .chat-header .name {font-size: 19px;color: #222;}
-.chat-links a {color: #fff;width: 35px;height: 35px;display: inline-block;border-radius: 50%;text-align: center;line-height: 34px;padding: 10px;}
+.chat-links a {color: #fff;width: 35px;height: 35px;display: inline-block;border-radius: 50%;text-align: center;line-height: 16px;padding: 10px;}/**line-height:34px**/
 .chat-links a.phone {background: #d2862d}
 .chat-links a.video_icon {background: #72c6a0}
 .chat-links a.file {background: #58a4eb}
 .chat-links a.users {background: #52cbd2!important;}
+
+.uc_fav.icons{line-height: 16px!important;}
 
 .recentab_uc a { line-height: 16px;}
 .chat-links a:hover {opacity: 0.8;}
