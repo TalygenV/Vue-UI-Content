@@ -830,7 +830,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .newtimetrack .multiselect__content-wrapper li span.option__title.child{border-left: 1px dotted #cacaca; padding-left: 20px; font-style: italic;}
 .newtimetrack .multiselect__content-wrapper li span.option__title.child::after{content:'\25BA'; position: absolute; left: -2px; color: #cacaca; top: 4px;}
 
-.newtimetrack .datepicker_HS {padding-left: 0px;padding-right: 0px; cursor: not-allowed;}
+.newtimetrack .datepicker_HS {padding-left: 0px;padding-right: 0px;}
+.cursornotallowed{cursor: not-allowed!important;}
 
 .tt_ddr .taskcount{background-color: #525252; border-radius: 5px; padding: 2px 3px; min-width: 26px; text-align: center;}
 .multiselect.tt_bod-right{border-right:1px solid #cdcecf!important;}
