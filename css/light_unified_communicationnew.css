@@ -570,10 +570,11 @@ a.searchContactAlpha { margin-bottom: 10px; }
 .replycross a i{ color: #656565 !important;  opacity:.7; font-size: 15px;}
 .replycross a:hover i { opacity:1; }
 .message-data .row.no-margin.message-info-row.replyBack { background: #dfefe8 !important; border-left:3px solid #9eccb8 !important;  box-sizing: border-box; border-radius: 5px 0px 0px 5px; padding: 5px 16px; margin-right: 30px;  margin-bottom:5px; margin-top: 5px;}
-.message-bx:nth-child(8n+2) .message-data .row.no-margin.message-info-row.replyBack { background: #dfefe8 !important; border-left:3px solid #9eccb8 !important; }
-.message-bx:nth-child(8n+4) .message-data .row.no-margin.message-info-row.replyBack { background: #d8e4f1 !important; border-left:3px solid #34495e !important; }
-.message-bx:nth-child(8n+6) .message-data .row.no-margin.message-info-row.replyBack { background: #ede5f1 !important; border-left:3px solid #9668a9 !important; }
-.message-bx:nth-child(8n+8) .message-data .row.no-margin.message-info-row.replyBack { background: #ffebcc !important; border-left:3px solid #f39c12 !important; }
+
+.message-bx:nth-child(8n+4) .message-data .row.no-margin.message-info-row.replyBack { background: #dfefe8 !important; border-left:3px solid #9eccb8 !important; }
+.message-bx:nth-child(8n+6) .message-data .row.no-margin.message-info-row.replyBack { background: #d8e4f1 !important; border-left:3px solid #34495e !important; }
+.message-bx:nth-child(8n+8) .message-data .row.no-margin.message-info-row.replyBack { background: #ede5f1 !important; border-left:3px solid #9668a9 !important; }
+.message-bx:nth-child(8n+10) .message-data .row.no-margin.message-info-row.replyBack { background: #ffebcc !important; border-left:3px solid #f39c12 !important; }
 
 
 /* .message-bx:nth-child(8n+1) .message-data .row.no-margin.message-info-row.replyBack { background: #dfefe8 !important; border-left:3px solid #9eccb8 !important; }
