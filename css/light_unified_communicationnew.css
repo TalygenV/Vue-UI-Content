@@ -571,10 +571,10 @@ a.searchContactAlpha { margin-bottom: 10px; }
 .replycross a:hover i { opacity:1; }
 .message-data .row.no-margin.message-info-row.replyBack { background: #dfefe8 !important; border-left:3px solid #9eccb8 !important;  box-sizing: border-box; border-radius: 5px 0px 0px 5px; padding: 5px 16px; margin-right: 30px;  margin-bottom:5px; margin-top: 5px;}
 
-.message-bx:nth-child(8n+1) .message-data .row.no-margin.message-info-row.replyBack { background: #dfefe8 !important; border-left:3px solid #9eccb8 !important; }
-.message-bx:nth-child(8n+3) .message-data .row.no-margin.message-info-row.replyBack { background: #d8e4f1 !important; border-left:3px solid #34495e !important; }
-.message-bx:nth-child(8n+5) .message-data .row.no-margin.message-info-row.replyBack { background: #ede5f1 !important; border-left:3px solid #9668a9 !important; }
-.message-bx:nth-child(8n+7) .message-data .row.no-margin.message-info-row.replyBack { background: #ffebcc !important; border-left:3px solid #f39c12 !important; }
+.message-bx:nth-child(7n+1) .message-data .row.no-margin.message-info-row.replyBack { background: #dfefe8 !important; border-left:3px solid #9eccb8 !important; }
+.message-bx:nth-child(7n+3) .message-data .row.no-margin.message-info-row.replyBack { background: #d8e4f1 !important; border-left:3px solid #34495e !important; }
+.message-bx:nth-child(7n+5) .message-data .row.no-margin.message-info-row.replyBack { background: #ede5f1 !important; border-left:3px solid #9668a9 !important; }
+.message-bx:nth-child(7n+7) .message-data .row.no-margin.message-info-row.replyBack { background: #ffebcc !important; border-left:3px solid #f39c12 !important; }
 
 .replyBack .message-sendername { font-size: 12px; font-weight: bold; text-decoration: unset; margin-bottom:1px; }
 .replyBack .message-body { font-size: 12px; margin-bottom:3px; }
