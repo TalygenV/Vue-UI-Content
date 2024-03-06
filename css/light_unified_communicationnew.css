@@ -334,6 +334,7 @@ a.searchContactAlpha:hover, a.searchClientAlpha:hover {background: #72c6a0;color
 /*********27-08-20208************/
 .message-data { position: relative; }
 .msg-actions { background: #fff; border: 1px solid #cdcdcd; padding: 1px 5px; position: absolute; right: 10px; top: -15px; display: none }
+.msg-actions ul {    margin-bottom: 0;}
 .msg-actions ul li { list-style: none; display: inline-block; padding: 4px 2px; }
 .msg-actions ul li a { color: #626262; padding: 5px; position: relative; }
 .msg-actions ul li a:hover { color: #f0ab5d; }
@@ -1259,7 +1260,7 @@ line-height: 30px;	color: #fff;	box-shadow: 0px 0px 5px #fff;	top: 15px; transit
 .divAddEvent .bootstrap-datetimepicker-widget ul.list-unstyled li{list-style:none;}
 .divAddEvent .bootstrap-datetimepicker-widget.dropdown-menu{width:auto !important}
 .divAddEvent .bootstrap-datetimepicker-widget table.table {min-width: initial !important}
-.message-bx:first-child .msg-actions {top: -6px !important;}
+/* .message-bx:first-child .msg-actions {top: -6px !important;}*** Harjit commented 6March2024***/
 .tooltip{position:absolute;z-index:99999999999;display:block;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;line-height:1.42857143;line-break:auto;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;letter-spacing:normal;word-break:normal;word-spacing:normal;word-wrap:normal;white-space:normal;font-size:12px;filter:alpha(opacity=0);opacity:1;padding:0px;}.tooltip.in{filter:alpha(opacity=90);opacity:.9}.tooltip.top{padding:5px 0;margin-top:-3px}.tooltip.right{padding:0 5px;margin-left:3px}.tooltip.bottom{padding:5px 0;margin-top:3px}.tooltip.left{padding:0 5px;margin-left:-3px}.tooltip.top .tooltip-arrow{bottom:0;left:50%;margin-left:-5px;border-width:5px 5px 0;border-top-color:#000}.tooltip.top-left .tooltip-arrow{right:5px;bottom:0;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:#000}.tooltip.top-right .tooltip-arrow{bottom:0;left:5px;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:#000}.tooltip.right .tooltip-arrow{top:50%;left:0;margin-top:-5px;border-width:5px 5px 5px 0;border-right-color:#000}.tooltip.left .tooltip-arrow{top:50%;right:0;margin-top:-5px;border-width:5px 0 5px 5px;border-left-color:#000}.tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-width:0 5px 5px;border-bottom-color:#000}.tooltip.bottom-left .tooltip-arrow{top:0;right:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:#000}.tooltip.bottom-right .tooltip-arrow{top:0;left:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:#000}.tooltip-inner{max-width:200px;padding:3px 8px;color:#fff;text-align:center;background-color:#000;border-radius:4px}.tooltip-arrow{position:absolute;width:0;height:0;border-color:transparent;border-style:solid}
 .cal_iconsbase ul li.selectnon {    background-color: #ff7b7c !important;}
 .cal_iconsbase ul li.selectnon:hover {    background-color: #ef5456 !important;}
