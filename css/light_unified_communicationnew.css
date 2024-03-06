@@ -309,7 +309,7 @@ a.searchContactAlpha:hover, a.searchClientAlpha:hover {background: #72c6a0;color
 .body-CommunicationClassForCSS .modal-wrapper { position: absolute; z-index: 9999; top: 6em; left: 50%; width: 32em; margin-left: -16em; background-color: #fff; box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35); } 
 .body-CommunicationClassForCSS .modal-transition { transition: all 0.3s 0.12s; transform: translateY(-10%); opacity: 0; }
 .body-CommunicationClassForCSS .modal.is-visible .modal-transition { transform: translateY(0); opacity: 1; }
-.body-CommunicationClassForCSS .modal-header, .body-CommunicationClassForCSS .modal-content {    /*padding: 1em;*/}
+/* .body-CommunicationClassForCSS .modal-header, .body-CommunicationClassForCSS .modal-content {    padding: 1em;} */
 .body-CommunicationClassForCSS .modal-header { position: relative; background-color: #fff; box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06); border-bottom: 1px solid #e8e8e8; }
 .body-CommunicationClassForCSS .modal-close { position: absolute; top: 0; right: 0; padding: 16px; color: #aaa; background: none; border: 0; font-size: 19px; cursor: pointer; }
 .body-CommunicationClassForCSS .modal-close:hover { color: #777; }
@@ -334,7 +334,7 @@ a.searchContactAlpha:hover, a.searchClientAlpha:hover {background: #72c6a0;color
 /*********27-08-20208************/
 .message-data { position: relative; }
 .msg-actions { background: #fff; border: 1px solid #cdcdcd; padding: 1px 5px; position: absolute; right: 10px; top: -15px; display: none }
-.msg-actions ul {    margin-bottom: 0;}
+.msg-actions ul{margin-bottom:0!important;}
 .msg-actions ul li { list-style: none; display: inline-block; padding: 4px 2px; }
 .msg-actions ul li a { color: #626262; padding: 5px; position: relative; }
 .msg-actions ul li a:hover { color: #f0ab5d; }
