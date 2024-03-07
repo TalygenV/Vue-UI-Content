@@ -555,7 +555,7 @@ a.searchContactAlpha { margin-bottom: 10px; }
 .uc_msgsicons .fa:hover{ color:#17a2b8; }
 .forwardChatDiv .chat_user.frwd .name { font-weight: 500; color: #404040; font-size: 14px; }
 .forwardChatDiv .chat_user.frwd { display: flex; align-items: center; border-bottom: 1px solid #c3c3c3; padding-bottom: 10px; margin-bottom: 10px; position: relative; }
-.fowardlistbase { height: calc(100vh - 240px); overflow: auto; width:100%; }
+.fowardlistbase { height: calc(100vh - 280px); overflow: auto; width:100%; }
 .forwardChatDiv .search-menu{ border-bottom: none; }
 .forwardChatDiv .search-menu input[type="text"] { background: #eee; margin-bottom: 10px; border: 1px solid #ccc; }
 #div_globalforwardData.team_info { padding: 0px; }
