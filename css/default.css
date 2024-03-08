@@ -1139,7 +1139,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .newtimetrack .rightcont_divs .tt_textarea_span .form-control{font-weight: 450!important;}
     
-.timesheetdatepicker.hsstyle a{position: absolute; z-index: 9; left: 5px;  top: 5px; font-size: 12px;background-color: #e3e3e3 !important; color: #888888 !important;}
+.timesheetdatepicker.hsstyle a{position: absolute; z-index: 9; left: 5px;  top: 5px; font-size: 12px;background-color: #e3e3e3 !important; color: #888888 !important; width: 150px;}
 
 
 
