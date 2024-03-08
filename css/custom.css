@@ -5950,7 +5950,7 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 
 
 /********Dashboard Date Filter - Harjit and Shubham Saini - 7March2024*****************/
-.DatePopUp { width: 320px;}
+/* .DatePopUp { width: 320px;}
 .divtimer_design table.AssetDatePopUp {margin-bottom: 0;border: none; overflow: visible;}
 .divtimer_design table.AssetDatePopUp td.daterangetd {padding: 0 !important; text-align: left; vertical-align: top; font-size: 12px; border: none; overflow: visible;}
 .divtimer_design table.AssetDatePopUp td.sep { border-right: 1px solid #D2D2D2;}
@@ -5959,7 +5959,7 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .divtimer_design .bootstrap-datetimepicker-widget { position: relative !important; top: auto !important; left: 5px !important;}
 .AssetDatePopUp tr td.daterangetd.date-range-column { max-width: 114px !important; display: table-column !important; width: auto !important;}
 .AssetDatePopUp tbody.daterangebody tr.daterangetr { display: table-row !important;}
-.AssetDatePopUp ul.date_select{padding-right: 8px;}
+.AssetDatePopUp ul.date_select{padding-right: 8px;} */
 /********Dashboard Date Filter - Harjit and Shubham Saini - 7March2024*****************/
 
 
