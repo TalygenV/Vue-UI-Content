@@ -1003,6 +1003,8 @@ to{ transform: translateX(-50%) scale(0); }
 .drop-box i { width: 100%; font-size: 60px; margin-bottom: 20px; }
 .open-menu .emojioneemoji { width: 12px;  margin-top:5px;}
 
+fowardlistbase .forward-selected {background: #58a4eb;}
+
 /* Calendar */
 /*.unified_ { height: auto !important; }*/
 .unified_Month {
