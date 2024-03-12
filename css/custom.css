@@ -5970,8 +5970,9 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 #Location .w-100.d-flex.dynamic-multiselect {display: unset !important;}
 #Location .invalid-feedback.d-block {position: unset; margin-top: unset; margin-left: unset;}
 
+@media (max-width:991px) {
 .sm_mt-3{margin-top: 1rem !important;}
 .sm_mt-2{margin-top: 0.5rem !important;}
-
+}
 /***Harjit Singh - some important classes 12 March 2024*****/
 
