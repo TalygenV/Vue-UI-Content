@@ -5966,6 +5966,11 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .AssetDatePopUp ul.date_select{padding-right: 8px;} */
 /********Dashboard Date Filter - Harjit and Shubham Saini - 7March2024*****************/
 
-
+#Location .w-100.d-flex.dynamic-multiselect {display: unset !important;}
+#Location .invalid-feedback.d-block {
+    position: unset;
+    margin-top: unset;
+    margin-left: unset;
+  }
 
 
