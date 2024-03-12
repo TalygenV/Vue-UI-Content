@@ -5966,11 +5966,12 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .AssetDatePopUp ul.date_select{padding-right: 8px;} */
 /********Dashboard Date Filter - Harjit and Shubham Saini - 7March2024*****************/
 
+/***Harjit Singh - some important classes 12 March 2024*****/
 #Location .w-100.d-flex.dynamic-multiselect {display: unset !important;}
-#Location .invalid-feedback.d-block {
-    position: unset;
-    margin-top: unset;
-    margin-left: unset;
-  }
+#Location .invalid-feedback.d-block {position: unset; margin-top: unset; margin-left: unset;}
 
+.sm_mt-3{margin-top: 1rem !important;}
+.sm_mt-2{margin-top: 0.5rem !important;}
+
+/***Harjit Singh - some important classes 12 March 2024*****/
 
