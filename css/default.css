@@ -1152,7 +1152,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .table.table-bordered.timesheettable tr td.totalvalue{font-weight: 600;}
 .squarebtn .round-icon-small{border-radius: 0!important; height: 38px;line-height: 42px;width:40px;}
 
-.newtimetrack .rightcont_divs .tt_textarea_span .form-control.tt_disabled{color: #000000!important;}
+.newtimetrack .rightcont_divs .tt_textarea_span .form-control.tt_disabled{color: #000000!important;opacity: 0.7;}
 
 
 
