@@ -385,7 +385,7 @@ input:checked + .slider span.slider-yes {    display:inline-block;    }/***paddi
 input:checked + .slider span.slider-no {    display: none !important;}
 input:checked + .slider span{display: block;}
 input[type=checkbox] + .slider span.slider-no{display: inline-block;    padding-right: 10px!important;    margin-left: 19px;} /****padding-left:17px;**Harjit  - 7March2024 ***/
-input:checked + .slider:before {-webkit-transform: translateX(26px); -ms-transform: translateX(26px); transform: translateX(26px); left:17px;}
+input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:auto; right: 23px;}
 
 .slider.round {border-radius: 34px;}
 .slider.round:before {border-radius: 50%;}
