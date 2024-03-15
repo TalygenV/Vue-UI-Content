@@ -2979,6 +2979,9 @@ tr.expandedtr-rowbase{display:none;}
 .unique_dynamicdatalist { float: left; margin-bottom: 10px; border: 1px solid #454545; position: absolute; width: 100%; box-sizing: border-box;  max-height: 155px; overflow-y: auto; z-index: 9999;top: 35px;}
 .unique_dynamicdatalist ul {padding: 0;margin: 0; list-style: none;}
 .unique_dynamicdatalist ul li{float: left;background: #f2f2f2;border-top: 1px solid #d7d7d7;box-sizing: border-box;display: inline-block;margin: 0;padding: 5px 10px; width: 100%;border-bottom: 1px solid #fff;cursor: pointer;text-align: left;color: #454545;font-size: 14px;}
+
+#itemsearch .location .unique_dynamicdatalist{border: 1px solid #b9b9b9;}
+
 .text-green {color:green;}
   
 /**************Event - Event card Harjit Singh***********************/
