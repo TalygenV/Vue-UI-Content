@@ -5932,6 +5932,12 @@ div#mainDivProp .dropdown-menu button em.fa.fa-times{position: relative;}
 .fck_img_dynamic img{width:100%;}
 .mobilebase{background:#d2dce2; border-radius:40px; max-width:320px; padding:60px 20px;}
 .fb_pagelist img{width:40px; border-radius:100%;}
+
+.tab-style.plaintabs ul.socialtabs .nav-link {color:#a8a8a8;}
+.tab-style.plaintabs ul.socialtabs .nav-link.active{color:#1877f2; border-bottom: 3px solid #1877f2;}
+
+.sociallisting ul li{list-style:none; margin-left:15px; }
+
 /*********CRM Campaign - Chad *******************/
 
 /***Service Appointment - Saini 24Jan24*****/
