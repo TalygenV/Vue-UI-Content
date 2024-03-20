@@ -751,6 +751,10 @@ border-left: .3em solid transparent;
 .bottom_filter_button a{font-size:14px; float:right; line-height:32px; font-weight:500; padding:0px 14px;}
 .left-filter .custom-radio{ width:100%; padding-bottom:4px; font-size:15px; margin-left:3px; min-height: auto;}
 
+@media (max-width:991px) {
+#quickViewData p.col-6 { max-width: 100%; flex: 0 0 100%; -ms-flex: 0 0 100%;}
+}
+
 /*.Response-t {display: inline-block;	font-size:16px;	line-height: 20px;	}
 .Resolve-t {display: inline-block;	font-size:16px;	line-height: 20px;	}*/
 
@@ -5988,6 +5992,6 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 
 /*.__vuescroll .__view{overflow-x: hidden!important;} ***Common fix for bottom scroll in left search in all Listing screens****/  
 
-.filterscroll_leftsearch .custom-control.custom-control-inline.w-100.custom-checkbox {margin: 0px;}
+.filterscroll_leftsearch .custom-control.custom-control-inline.w-100.custom-checkbox {margin: 0px;}/***Common fix for bottom scroll in left search in all Listing screens****/
 
  
