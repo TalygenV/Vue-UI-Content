@@ -5986,7 +5986,7 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 }
 /***Harjit Singh - some important classes 12 March 2024*****/
 
-.__vuescroll .__panel{overflow-x: hidden; overflow-y:scroll;}   
+.__vuescroll .__view{overflow-x: hidden!important; overflow-y:scroll!important;}   
 
 
  
