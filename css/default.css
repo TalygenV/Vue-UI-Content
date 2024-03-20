@@ -926,7 +926,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
     .newtimertable tr td div a.text-dark{color:#525f65!important}
 
-    .newtimertable .timetracked span{font-size:14px; font-weight:500!important; background:#fafafa; border:1px solid #bbbbbb; border-radius:5px;text-align:center; padding:5px 15px; float:left;}/***font-size:16px;***/
+    .newtimertable .timetracked span{font-size:13px; font-weight:500!important; background:#fafafa; border:1px solid #bbbbbb; border-radius:5px;text-align:center; padding:5px 15px; float:left;}/***font-size:16px;***/
     .newtimertable .timetracked span.orange{font-size:16px; font-weight:500!important; background:#fff2df; border:1px solid #ff9904; border-radius:5px;text-align:center; padding:5px 15px; float:left;}
     .newtimertable .timetracked span.green{font-size:16px; font-weight:500!important; background:#e6ffec; border:1px solid #4db567; border-radius:5px;text-align:center; padding:5px 15px; float:left;}
 
