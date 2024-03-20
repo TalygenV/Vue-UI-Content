@@ -5986,7 +5986,7 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 }
 /***Harjit Singh - some important classes 12 March 2024*****/
 
-.__vuescroll .__view{overflow-x: hidden!important; overflow-y:scroll!important;}   
+.__vuescroll .__view{overflow-x: hidden!important;} /****Common fix for bottom scroll in left search in all Listing screens****/  
 
 
  
