@@ -196,7 +196,7 @@ a.btn-secondary:hover {background: #208636;}
 .card-flex {display: flex;flex-wrap: wrap;}
 h4 {font-size: 16px;font-weight: 400;color: #222;}
 .icons {width: 100%;margin-top: 10px;}
-.icons a {background: #28b8d9;color: #fff;width: 30px;height: 30px;display: inline-block;text-align: center;line-height: 30px;border-radius: 50%;font-size: 13px;margin-right: 5px;padding-top:8px; /*Added by avtar -  icons were not in correct format*/}
+.icons a {background: #28b8d9;color: #fff;width: 30px;height: 30px;display: inline-block;text-align: center;line-height: 30px;border-radius: 50%;font-size: 13px;margin-right: 5px;/***padding-top:8px;**/ /*Added by avtar -  icons were not in correct format*/}
 .call_list {display: flex;flex-wrap: wrap;}
 .call_list h2 {width: 100%;}
 .call_list .card-contact {align-items: flex-start;filter: grayscale(50%);width: 24.2%;margin-left: 0;margin-right: 15px;margin-bottom: 15px;}
