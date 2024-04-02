@@ -6012,4 +6012,10 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 
  /**Timer Ridham - Advanced Setup***/
 
+/***Help & Guide - Video Article - Mohit***/
+.vidsbase_panel{float: right; width: 100%; border-radius: 2px; padding: 5px 5px; position: relative; box-sizing: border-box;}
+.vidsbase_panel ul {list-style-type: none; display: flex; flex-wrap: wrap;}
+.vidsbase_panel li {flex: 0 0 19%; margin-right: 1%; margin-bottom: 15px; max-width: 230px; min-width: 230px;}
+.vidsbase_panel .card-detail-main.detail_bx {display: flex; flex-wrap: wrap; padding: 10px; overflow: hidden; max-height: initial; float: left; width: 100%;}
 
+/***Help & Guide - Video Article - Mohit***/
