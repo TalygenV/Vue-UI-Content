@@ -956,7 +956,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .totalactivity_rt .tagspanel span:nth-child(1) {background: #48ccae; color:#fff;}
 .totalactivity_rt .tagspanel span {float: right; font-size: 14px; padding: 4px 20px; font-weight: 500!important; background:#f6f6f6; color:#777777;}
 .newtimertable .tagspanel { max-width: 330px;position:relative;}/****min-width****/
-.tt_disabled{opacity: 0.4; cursor: no-drop; pointer-events: none;}
+.tt_disabled{opacity: 0.7; cursor: no-drop; pointer-events: none;}/**opacity:0.4**/
 
 /****----View more Tags in Table listing----*****/
 .viewmoretagsbase {position: absolute;  z-index: 99; box-sizing: border-box; right: 50px; top: -2px; padding: 5px 10px 5px 5px; border: none!important;}
