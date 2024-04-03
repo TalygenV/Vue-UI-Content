@@ -867,7 +867,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .timerclck {border: 1px solid #cfcfcf; color: #000!important; float: left; font-size: 38px!important; height: 52px; line-height: 52px; padding: 0 2px;
     text-align: center; width: 200px; font-family: 'digital7_mono'; background-color: #f5f5f5; min-height: auto !important; margin-top:10px; margin-left:10px;}
 
-    /* .timerclck.success{background: #e2ffe9; color: #2f4c36 !important;} */
+    /**** .timerclck.success{background: #e2ffe9; color: #2f4c36 !important;} ****/
+
+    .form-control.datepicker_HS:disabled {color: #000;}
     .timerclck.success{background: #f5f5f5; color: #000!important;}
     .timerclck.danger{background: #fce4e6; color: #3d2a2b !important;}
 
