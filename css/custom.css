@@ -6048,4 +6048,12 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 
 .widget_panel li a.card-box {color: #303030;}
 
+.widget_panel .card-detail-main.detail_bx em.fa-user{color:#62983d;}
+.widget_panel .card-detail-main.detail_bx em.fa-book{color:#4aaab8;}
+.widget_panel .card-detail-main.detail_bx em.fa-download{color:#8892d0;}
+.widget_panel .card-detail-main.detail_bx em.fa-play{color:#23a5fd;}
+.widget_panel .card-detail-main.detail_bx em.fa-wizard{color:#4aaab8;}
+.widget_panel .card-detail-main.detail_bx em.fa-star{color:#ffd000;}
+.widget_panel .card-detail-main.detail_bx em.fa-comments{color:#059be1;}
+
 /****Help & Guide - Initial Setup Header - Mohit***********/
