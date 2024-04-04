@@ -6045,4 +6045,7 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .widget_panel li {flex: 0 0 19%; margin-right: 1%; margin-bottom: 15px; max-width: 120px; min-width:120px;}    
 .widget_panel .card-detail-main.detail_bx {display: flex; flex-wrap: wrap; padding: 10px 8px; margin-top:5px; overflow: hidden; max-height: initial; float: left; width: 100%; line-height: 18px;}
 .initialpopupbase{vertical-align: top!important; margin-top: 46px !important; max-width: 545px!important;}  
+
+.widget_panel li a.card-box {color: #303030;}
+
 /****Help & Guide - Initial Setup Header - Mohit***********/
