@@ -6022,7 +6022,11 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
  .box-inner14 { width: 50px; height: 45px; background: #38b8df; }
  .box-inner15 { width: 50px; height: 45px; background: #8892d0; }
 
-.fa.hs-tags{background-image: url('../images/companysetupsprite.png'); background-position: 0px 0px;}
+.fa.hs-tags{background-image: url('../images/companysetupsprite.png'); background-position: -316px -13px;  width: 30px;  height: 30px;}
+.fa.hs-compholi{background-image: url('../images/companysetupsprite.png'); background-position: -390px -13px;  width: 35px;  height: 30px;}
+.fa.hs-appchain{background-image: url('../images/companysetupsprite.png'); background-position: -155px -13px;  width: 30px;  height: 30px;}
+.fa.hs-apprule{background-image: url('../images/companysetupsprite.png'); background-position: -236px -13px;  width: 30px;  height: 30px;}
+.fa.hs-auditrule{background-image: url('../images/companysetupsprite.png'); background-position: -18px -11px;  width: 30px;  height: 30px;}
 
   
  /**Timer Ridham - Advanced Setup***/
