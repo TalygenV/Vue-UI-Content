@@ -6020,8 +6020,11 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
  .box-inner12 { width: 50px; height: 45px; background: #c59f72; }
  .box-inner13 { width: 50px; height: 45px; background: #e67d21; }
  .box-inner14 { width: 50px; height: 45px; background: #38b8df; }
-  .box-inner15 { width: 50px; height: 45px; background: #8892d0; }
+ .box-inner15 { width: 50px; height: 45px; background: #8892d0; }
 
+.fa.hs-tags{background-image: url('../images/companysetupsprite.png'); background-position: 0px 0px;}
+
+  
  /**Timer Ridham - Advanced Setup***/
 
 /***Help & Guide - Video Article - Mohit***/
@@ -6031,3 +6034,4 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .vidsbase_panel .card-detail-main.detail_bx {display: flex; flex-wrap: wrap; padding: 10px; overflow: hidden; max-height: initial; float: left; width: 100%;}
 
 /***Help & Guide - Video Article - Mohit***/
+
