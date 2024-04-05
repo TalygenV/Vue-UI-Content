@@ -6029,7 +6029,8 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .fa.hs-apprule{background-image: url('../images/companysetupsprite.png'); background-position: -236px -13px;  width: 30px;  height: 30px;}
 .fa.hs-auditrule{background-image: url('../images/companysetupsprite.png'); background-position: -18px -11px;  width: 30px;  height: 30px;}
 
-  
+  table.AssetDatePopUp tr td.daterangetd.table_datepickerfix input.datepicker_HS{color: #fff;}
+
  /**Timer Ridham - Advanced Setup***/
 
 /***Help & Guide - Video Article - Mohit***/
