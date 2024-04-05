@@ -1322,7 +1322,8 @@ li .actions.mobileaction .action-list-box {position: relative;width: 100%;displa
     background-image: url('../images/radio.png') !important;
 }
 
-.form-check.form-check-inline{margin: 0px;padding: 0px 15px 0px 0px;}
+/* .form-check.form-check-inline{margin: 0px;padding: 0px 15px 0px 0px;} */
+   .form-check.form-check-inline{margin: 0px;padding: 0px 0px 0px 0px;}/**15px to 0 - with Saini to make check box center in lisitng screens***/
 
 /* 8 July */
 .listing  .table thead th {  border-bottom: none; font-weight: 400; padding: 8px 8px !important; position:relative;}
