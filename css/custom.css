@@ -6058,4 +6058,10 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .widget_panel .card-detail-main.detail_bx em.fa-star{color:#ffd000;}
 .widget_panel .card-detail-main.detail_bx em.fa-comments{color:#059be1;}
 
+section.help-and-guide .card-footer.bg-white.border-0 {
+  margin-bottom: 40px;
+}
+
+section.help-and-guide .innerminheight.col-md-4.mb-4 a{color:#303030;}
+
 /****Help & Guide - Initial Setup Header - Mohit***********/
