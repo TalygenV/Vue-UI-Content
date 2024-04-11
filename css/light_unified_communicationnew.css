@@ -181,7 +181,7 @@ a.btn-secondary:hover {background: #208636;}
 .card-list.last .circle-bx::after {display: none;}
 .card-list .circle-bx::after {content: "";position: absolute;left: 19px;top: 41px;background: #e6e6e6;width: 1px;height: 100%;}
 .card-list .circle-bx:last-child::after {display: none;}
-.circle-bx {background: #fff;width: 38px;height: 38px;border-radius: 50%;text-align: center;line-height: 38px;font-weight: 600;font-size: 17px;margin-right: 10px;color: #fff;padding-top: 10px;overflow: hidden;}
+.circle-bx {background: #fff;width: 38px;height: 38px;border-radius: 50%;text-align: center;line-height: 38px;font-weight: 600;font-size: 17px;margin-right: 10px;color: #fff;overflow: hidden;}/***padding-top: 10px;***/
 .card-desc {flex: 1;}
 .sky_bg {background: #2aabf9}
 .green_bg {background: #20bd3e}
