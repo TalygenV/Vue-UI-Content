@@ -6071,3 +6071,31 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 #action-list .actions-onclick.disabledaction i{color: #b9b9b9 !important;}
 
 #GroupType label.form-check.form-check-inline{margin-right: 15px;} /******Ticketing/AddGroup*****/
+
+/***Integration Module - Rahul Kumar****/
+.integrationicons {background-image: url(https://talygenv.github.io/Vue-UI-Content/images/newintegration.png);
+    background-repeat: no-repeat; float: left; width: 40px; height: 30px;}
+
+.integrationicons.fb{background-position: -36px -5px;}
+.integrationicons.google{background-position: -105px -5px;}
+.integrationicons.instagram{background-position: -176px -5px;}
+.integrationicons.bing{background-position: -251px -5px;}
+.integrationicons.quickbook{background-position: -325px -5px;}
+.integrationicons.freshbook{background-position: -403px -5px;}
+.integrationicons.mailchimp{background-position: -479px -5px;}
+.integrationicons.email{background-position: -554px -5px;}
+.integrationicons.outlook{background-position: -639px -5px;}
+.integrationicons.sendgrid{background-position: -724px -5px;}
+
+.integrationicons.aws{background-position: -36px -63px;}
+.integrationicons.dropbox{background-position: -104px -63px;}
+.integrationicons.googledrive{background-position: -177px -63px;}
+.integrationicons.twillio{background-position: -250px -62px;}
+.integrationicons.ringcentral{background-position: -327px -62px;}
+.integrationicons.salesforce{background-position: -401px -62px;}
+.integrationicons.dynamiccrm{background-position: -479px -61px;}
+.integrationicons.trello{background-position: -555px -61px;}
+.integrationicons.projectplan{background-position: -641px -61px;}
+.integrationicons.basecamp{background-position: -722px -61px;}
+
+/***Integration Module - Rahul Kumar****/
