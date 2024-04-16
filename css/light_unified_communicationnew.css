@@ -1365,10 +1365,7 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
     background-size: 9px;
     background-position: 9px 5px;
 }
-.action-icon.text-success {
-    color: #28a745 !important;
-}
-
+.action-icon.text-success { color: #28a745 !important;}
 .icons a.btn_CallTransfer{background: #535d5f;}
-
 .vca_btnsbase a.dropcall.alone{border-radius:10px!important;}
+#v-pills-meetings .form-group{width:100%!important;}
