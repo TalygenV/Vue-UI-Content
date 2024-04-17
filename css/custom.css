@@ -6101,3 +6101,11 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 .integrationicons.basecamp{background-position: -722px -61px;}
 
 /***Integration Module - Rahul Kumar****/
+
+/****Ticket List - default view Dropdown css****/
+@media (max-width:767px) {
+.ticketsmallfix.theme-primary.partition.p-actions-expand span.cursor-pointer {display: none;}
+.ticketsmallfix.theme-primary.partition.p-actions-expand.p-actions-collapse span.cursor-pointer {display: block; float: left; width: 10%;}
+.ticketsmallfix.theme-primary.partition.p-actions-expand.p-actions-collapse span.p-name.text-white.px-2 {display: block; width: 80%; float: left;}
+}
+/****Ticket List - default view Dropdown css****/
