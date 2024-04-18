@@ -219,7 +219,7 @@ h4.left-heading {color: #fff;padding: 7px 14px;}
 .chat_user .data_info {text-align: right;float: right;}
 .chat-header {display: flex;width: 100%;justify-content: space-between;padding: 2px;margin-bottom: 21px;border-bottom: 1px solid #c3c3c3;padding-bottom: 12px;align-items: center;}
 .chat-header .name {font-size: 19px;color: #222;}
-.chat-links a {color: #fff;width: 35px;height: 35px;display: inline-block;border-radius: 50%;text-align: center;line-height: 16px;padding: 10px;}/**line-height:34px**/
+.chat-links a {color: #fff;width: 35px;height: 35px;display: inline-block;border-radius: 50%;text-align: center;line-height: 16px;padding: 10px; margin-right: 5px;}/**line-height:34px**/
 .chat-links a.phone {background: #d2862d}
 .chat-links a.video_icon {background: #72c6a0}
 .chat-links a.file {background: #58a4eb}
@@ -1380,3 +1380,5 @@ input:checked + .slider {text-indent: 0;}
 table {border-collapse: collapse;}
 .table-fix-header table th { position: sticky !important;top: 0; z-index: 999;}
 /********Harjit Singh 15March2022****************/
+
+.uc_dialerbase .container-fluid{padding:0px;}
