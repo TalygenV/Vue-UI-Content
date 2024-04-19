@@ -291,7 +291,7 @@ a.searchContactAlpha:hover, a.searchClientAlpha:hover {background: #72c6a0;color
 
 /* 1. Ensure this sits above everything when visible */
 .body-CommunicationClassForCSS .modal { position: absolute; z-index: 10000; /* 1 */ top: 0; left: 0; visibility: hidden; width: 100%; height: 100%; }
-.body-CommunicationClassForCSS .modal.is-visible{ visibility: visible; }
+.body-CommunicationClassForCSS .modal.is-visible{ visibility: visible;  display: block;}
 .body-CommunicationClassForCSS .modal-overlay { position: fixed; z-index: 10; top: 0; left: 0; width: 100%; height: 100%; background: hsla(0, 0%, 0%, 0.5); visibility: hidden; opacity: 0; transition: visibility 0s linear 0.3s, opacity 0.3s; }
 .body-CommunicationClassForCSS .modal.is-visible .modal-overlay {  opacity: 1; visibility: visible; transition-delay: 0s; }
 .body-CommunicationClassForCSS .modal-wrapper { position: absolute; z-index: 9999; top: 6em; left: 0; right:0; margin:auto; width: 32em; background-color: #fff; box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35); } 
