@@ -6111,3 +6111,5 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 .ticketsmallfix.theme-primary.partition.p-actions-expand.p-actions-collapse span.p-name.text-white.px-2 {display: block; width: 80%; float: left;}
 }
 /****Ticket List - default view Dropdown css****/
+
+#TemplateList .conversation-box-con .conversation-box .name-circle i{margin-top: 17px;}
