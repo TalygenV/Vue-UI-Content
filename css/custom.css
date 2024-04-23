@@ -6113,3 +6113,8 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 /****Ticket List - default view Dropdown css****/
 
 #TemplateList .conversation-box-con .conversation-box .name-circle i{margin-top: 17px;}
+
+/***Nav top widget menu ****/
+.modal-dialog.modal-dialog-centered.initialpopupbase.menuwidgets {position: absolute; top: 0; right: 14%;}
+/***Nav top widget menu ****/
+
