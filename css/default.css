@@ -904,7 +904,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .tt_lisitng_icons.ico_listcup1 {background-position: -108px -9px;}/***-113px***/
     .tt_lisitng_icons.ico_listcup2 {background-position: -161px -9px;}/***-167**/
 
-    .tt_lisitng_icons.ico_listclock {background-position: -365px -19px; height: 29px; width:35px;}
+    .tt_lisitng_icons.ico_listclock {background-position: -372px -19px; height: 29px; width:25px;}
+
+    /* .tt_lisitng_icons.ico_listclock {background-position: -365px -19px; height: 29px; width:35px;} */
 
     .tt_lisitng_icons.ico_listplaytime {background-position: -429px -19px; height: 29px; width:35px;}
 
