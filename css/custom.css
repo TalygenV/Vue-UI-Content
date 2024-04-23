@@ -5962,6 +5962,16 @@ div#mainDivProp .dropdown-menu button em.fa.fa-times{position: relative;}
 
 .sociallisting ul li{list-style:none; margin-left:15px; }
 
+.device_iconsbase a{color:#6d6d6d;}
+.device_iconsbase em {font-size: 23px; margin: 0px 10px; width: 50px; height: 50px; line-height: 50px;}
+.device_iconsbase em.active {font-size: 20px; margin: 0px 10px; border: 1px solid #75b4ec; border-radius: 100%; width: 40px; height: 40px; line-height: 40px; color: #fff; background: #75b4ec;}
+
+.device_viewbase{border: 1px solid #c4c4c4; padding: 20px; background: #e6e7e8; margin:0 auto;}
+
+.device_viewbase.web{width:100%;}
+.device_viewbase.tab{width:60%;}
+.device_viewbase.mobile{width:40%;}
+
 /*********CRM Campaign - Chad *******************/
 
 /***Service Appointment - Saini 24Jan24*****/
