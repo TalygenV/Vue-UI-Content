@@ -1385,8 +1385,10 @@ table {border-collapse: collapse;}
 
 .useristypingbase{width: 100%; position: absolute; bottom: 75px; left: 4px; }
 
-.useristyping{ background: #58a4eb; color:#fff; padding: 5px 12px; font-size: 11px; z-index: 999;
-    text-align: center; font-weight: 450;}
+.useristyping{ background: #58a4eb; color:#fff; padding: 3px 12px; font-size: 11px; z-index: 999;
+    text-align: center; font-weight: 450; max-width: 250px; border-radius: 20px; border: 1px solid #fddbb3;
+    margin: 0 auto;}
 
-.useristyping2{background: #feecd7; color:#fda641; padding: 5px 12px; font-size: 11px; z-index: 999;
-   text-align: center; font-weight: 450;}
+.useristyping2 { background: #feecd7; color: #e18a25; padding: 3px 12px; font-size: 11px; z-index: 999;
+    text-align: center; font-weight: 450; max-width: 250px; border-radius: 20px; border: 1px solid #fddbb3;
+    margin: 0 auto;}
