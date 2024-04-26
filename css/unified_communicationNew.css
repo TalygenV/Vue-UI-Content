@@ -1383,7 +1383,7 @@ table {border-collapse: collapse;}
 
 .uc_dialerbase .container-fluid{padding:0px;}
 
-.useristypingbase{width: 100%; position: absolute; bottom: 67px; left: 4px; z-index: 99;}
+.useristypingbase{width: 100%; position: absolute; bottom: 67px; left: 4px; z-index: 999;}
 
 .useristyping{ background: #58a4eb; color:#fff; padding: 3px 12px; font-size: 11px;
     text-align: center; font-weight: 450; max-width: 250px; border-radius: 20px; border: 1px solid #fddbb3;
