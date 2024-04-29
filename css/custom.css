@@ -4106,6 +4106,9 @@ span.cke_button_icon.cke_button__cleareditor_icon{display:none;}
 .ipadmr-3{margin-right: 1rem !important; width:auto!important;}
 }
 .mydbsize .p-action-btn{min-width:85px;}
+
+.p-actions.float-end.mydbsize {float: right;}
+
 .mCustomScrollBox{width:100%;}
 .left-menu-tab .mCustomScrollBox{overflow:hidden!important;}
 .approved-reject-cmnt { font-weight: 600; color: #000; margin-bottom: 10px; display: block; line-height: 32px; float: left; width: 100%; background: #f1f1f1; padding-left: 8px; }
