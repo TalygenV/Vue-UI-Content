@@ -6129,6 +6129,11 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 
 /***Nav top widget menu ****/
 .modal-dialog.modal-dialog-centered.initialpopupbase.menuwidgets {position: absolute; top: 0; right: 14%;}
+
+@media (max-width:991px) {  
+.modal-dialog.modal-dialog-centered.initialpopupbase.menuwidgets {position: absolute; top: 50px!important; right: 14%; display: block!important;}
+}
+
 /***Nav top widget menu ****/
 
 /****web app Chat conversation History - Harkeemat*****/
