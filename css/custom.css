@@ -6145,4 +6145,5 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 .conv_box_btns{border-top:1px solid #e0e0e0;}
 /****web app Chat conversation History - Harkeemat*****/
 
+select #dropdownMenu2 btn.dropdown-toggle{width:auto;}
 
