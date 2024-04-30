@@ -1089,8 +1089,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .multiselect__input {min-height: auto; line-height: normal; font-size: 14px!important;}
 .hs_tag .multiselect.tt_bod-right{border-right: none!important; width:70%; box-sizing: border-box!important; min-height: calc(2.12rem + 4px) !important; padding-top: 5px!important;}
 
-
-
+@media (max-width:767px) { 
+.leftcont_divs.manual .tt_bod-right.timepickercontrol.pt-4.pr-2.pl-3 {float: left; width: 100%;}
+}
 
 /********New timer Listing***********/
 .newtimertable.tdsize tbody tr td {vertical-align:middle;}
