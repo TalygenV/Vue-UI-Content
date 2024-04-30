@@ -1315,7 +1315,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 
 .multiselect__content-wrapper ul.multiselect__content li.multiselect__element .multiselect__option span.option__title
-{width: 75%; float: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+{width: 65%; float: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 
 .newtimertable tr td.teamstatus span{color:#6a6a6a;}
 
