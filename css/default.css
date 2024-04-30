@@ -1089,10 +1089,6 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .multiselect__input {min-height: auto; line-height: normal; font-size: 14px!important;}
 .hs_tag .multiselect.tt_bod-right{border-right: none!important; width:70%; box-sizing: border-box!important; min-height: calc(2.12rem + 4px) !important; padding-top: 5px!important;}
 
-@media (max-width:767px) { 
-.leftcont_divs.manual .tt_bod-right.timepickercontrol.pt-4.pr-2.pl-3 {float: left; width: 100%;}
-}
-
 /********New timer Listing***********/
 .newtimertable.tdsize tbody tr td {vertical-align:middle;}
 
@@ -1289,6 +1285,10 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .tt_play_btnbase{width: 100%; float: left; padding: 10px;}
 .tt_play_btn{width: 100%;}
 .timerclck{width: 100%; border: none; border-top: 1px solid #cfcfcf; margin: 0px;}
+.leftcont_divs.manual .tt_bod-right.timepickercontrol.pt-4.pr-2.pl-3 {float: left; width: 100%;}
+
+.leftcont_divs.manual .p-0.position-relative {float: left; width: 100%; border-bottom: 1px solid #cdcecf !important;}
+
 }
 
 .newtimertable tr td.teamstatus span{color:#6a6a6a;}
