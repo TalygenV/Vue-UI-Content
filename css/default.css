@@ -1289,6 +1289,13 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 }
 
+@media (min-width: 768px) and (max-width: 991px)
+{
+.leftcont_divs.manual .tt_bod-right.timepickercontrol.pt-4.pr-2.pl-3{padding-top: 12px !important;}
+
+}
+
+
 @media (max-width:991px)
 {
 .leftcont_divs.manual .multiselect{max-width: 100%; box-sizing: inherit; border-bottom: 1px solid #cdcecf !important;}
