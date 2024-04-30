@@ -4008,7 +4008,7 @@ p:nth-child(even) { background:blue;}*/
 .lg_btn{font-size:16px;padding:11px 20px}
 
 #AddManually.addman{width: 100%; border-bottom: 2px solid #17a2b8!important;}
-
+#AddManually.addman:hover{background-color: #117a8b!important;}
 
 @media (max-width:767px){	
 .addman {padding: 9px 10px; margin-bottom: 0; line-height: 26px; display:block ruby;}	
