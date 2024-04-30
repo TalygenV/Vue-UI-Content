@@ -1291,9 +1291,12 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 @media (min-width: 768px) and (max-width: 991px)
 {
 .leftcont_divs.manual .tt_bod-right.timepickercontrol.pt-4.pr-2.pl-3{padding-top: 12px !important;}
-
 }
 
+@media (min-width: 768px) and (max-width: 1024px)
+{
+.leftcont_divs .hs2.breakModal{left: -83px;}
+}
 
 @media (max-width:991px)
 {
