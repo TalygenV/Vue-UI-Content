@@ -1303,10 +1303,20 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 }
 
+@media (max-width:1500px)
+{
+.leftcont_divs.manual {max-width: 100%; border-bottom: 1px solid #cdcecf;}
+.rightcont_divs.manual { max-width: 100%;}
+}
+
+
+
 .multiselect__content-wrapper ul.multiselect__content li.multiselect__element .multiselect__option span.option__title
 {width: 75%; float: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 
 .newtimertable tr td.teamstatus span{color:#6a6a6a;}
+
+.multiselect__content-wrapper ul.multiselect__content{width: 100%;}
 /***New Timer responsive Css****/
 
 
