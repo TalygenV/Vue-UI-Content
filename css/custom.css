@@ -5153,6 +5153,8 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
     a#popNotificationLink small.noti-circle {left:140px!important;}
     .responsivefix991 {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
     .responsivefix991.rgt{margin-bottom:15px;}
+    .responsivefix991.rgt .w-70{width:100%!important;}
+
     .w-setpercentage .slider_setpercentage {width:100%!important;}
     .w-setpercentage .slider-input {width:80px;}
     #ProjectTemplateData .proj-convboxact {position:relative!important;}/*****Harjit added - 27April2022******/        
