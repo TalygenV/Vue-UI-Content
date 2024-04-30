@@ -1306,7 +1306,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 @media (max-width:1500px)
 {
 .leftcont_divs.manual {max-width: 100%; border-bottom: 1px solid #cdcecf;}
-.rightcont_divs.manual { max-width: 100%;}
+.rightcont_divs.manualrt { max-width: 100%;}
 }
 
 
