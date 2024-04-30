@@ -1288,7 +1288,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .leftcont_divs .hs2.breakModal{left: -1px; top: 58px;}
 .newtimetrack .multiselect__content-wrapper{top: 58px;}
 
-.mobilelistview_base .contentt{width: calc(100% - 50px);}
+.mobilelistview_base .contentt{width: calc(100% - 50px)!important;}
 
 }
 
