@@ -1287,6 +1287,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .timerDiv{float: left; width: 99%;}
 .leftcont_divs .hs2.breakModal{left: -1px; top: 58px;}
 .newtimetrack .multiselect__content-wrapper{top: 58px;}
+
+.mobilelistview_base .contentt{width: calc(100% - 50px);}
+
 }
 
 @media (min-width: 768px) and (max-width: 991px)
