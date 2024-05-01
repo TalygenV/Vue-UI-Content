@@ -1323,6 +1323,13 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .multiselect__content-wrapper ul.multiselect__content li.multiselect__element .multiselect__option span.option__title
 {width: 65%; float: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 
+@media (max-width:1200px)
+{
+.multiselect__content-wrapper ul.multiselect__content li.multiselect__element .multiselect__option span.option__title
+{width: 55%;}
+}
+
+
 .newtimertable tr td.teamstatus span{color:#6a6a6a;}
 
 .multiselect__content-wrapper ul.multiselect__content{width: 100%;}
