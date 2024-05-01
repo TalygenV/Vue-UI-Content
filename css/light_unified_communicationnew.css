@@ -602,7 +602,7 @@ a.searchContactAlpha { margin-bottom: 10px; }
 .text-truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .li_globalSearch .highlight { color: #ff7e00; font-weight: 900; }
 .li_globalSearch a { text-decoration: none; }
-.message-bx.blinking { animation: blinkingBackOwn 0.9s 2; }
+.message-bx.blinking { animation: blinkingBackOwn 2.9s 2; }
 
 @keyframes blinkingBackOwn {
 0% { background-color: #92b4fb; }
