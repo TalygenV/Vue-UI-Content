@@ -4023,7 +4023,7 @@ p:nth-child(even) { background:blue;}*/
 transform: rotate(0deg) !important;}
 .v-select .vs__actions {padding:0!important;}
 /*.left-filter .filterscroll{overflow-x:hidden; overflow-y:scroll;}*/
-
+   
 .filterscroll_leftsearch{max-height:200px;}
 
 /******************Billing Rule View - panel design fixes - Harjit Singh*******************************/
