@@ -6190,3 +6190,6 @@ select#dropdownMenu2.btn.dropdown-toggle{width:auto;}
     transform: rotate(-30deg);
     transform-origin: 37px 45px;}
 
+    .table-bordered tr.sample-bar justwraper td.mobile-action:first-child::before { display: none;
+    }
+
