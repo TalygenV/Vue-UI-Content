@@ -6153,6 +6153,17 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 .conv_box_tab{border-bottom:1px solid #e0e0e0; }
 .conv_box_desc textarea{ border:none; width:100%; height:100px; font-size:13px; color:#303030; resize:none;}
 .conv_box_btns{border-top:1px solid #e0e0e0;}
+
+.dividerdate{ border-bottom:1px solid #75b4ec; width:100%; float:left; margin:0 auto; text-align:center;}
+.dividerdate_box {
+        background: #aed8ff;  text-align: center; display: inline-block; position: absolute;
+        top: -15px;
+        padding: 4px 10px;
+        font-size: 12px;
+        font-weight: 400;
+        border-radius: 5px;
+        color: #fff;
+    }
 /****web app Chat conversation History - Harkeemat*****/
 
 select#dropdownMenu2.btn.dropdown-toggle{width:auto;}
