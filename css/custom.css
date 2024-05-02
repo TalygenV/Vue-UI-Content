@@ -6062,9 +6062,27 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .control_helpguide .border.py4{padding-bottom: 1rem !important; padding-top: 1rem !important;}
 .control_helpguide .equator-color{text-align: right!important;}
 
-.control_helpguide div.col-md-4:nth-child(1) .col-md-2 em {color: #ff0000!important;}
-
-
+.control_helpguide div.col-md-4:nth-child(1) .col-md-2 em {color: #09519b!important;}
+.control_helpguide div.col-md-4:nth-child(2) .col-md-2 em {color: #69915c!important;}
+.control_helpguide div.col-md-4:nth-child(3) .col-md-2 em {color: #dda628!important;}
+.control_helpguide div.col-md-4:nth-child(4) .col-md-2 em {color: #da9c49!important;}
+.control_helpguide div.col-md-4:nth-child(5) .col-md-2 em {color: #756caf!important;}
+.control_helpguide div.col-md-4:nth-child(6) .col-md-2 em {color: #29b0ce!important;}
+.control_helpguide div.col-md-4:nth-child(7) .col-md-2 em {color: #e24a28!important;}
+.control_helpguide div.col-md-4:nth-child(8) .col-md-2 em {color: #9da376!important;}
+.control_helpguide div.col-md-4:nth-child(9) .col-md-2 em {color: #2e7fb9!important;}
+.control_helpguide div.col-md-4:nth-child(10) .col-md-2 em {color: #4b6a7e!important;}
+.control_helpguide div.col-md-4:nth-child(11) .col-md-2 em {color: #7d6a59!important;}
+.control_helpguide div.col-md-4:nth-child(12) .col-md-2 em {color: #e3af64!important;}
+.control_helpguide div.col-md-4:nth-child(13) .col-md-2 em {color: #cbb00b!important;}
+.control_helpguide div.col-md-4:nth-child(14) .col-md-2 em {color: #756bb0!important;}
+.control_helpguide div.col-md-4:nth-child(15) .col-md-2 em {color: #4aaab8!important;}
+.control_helpguide div.col-md-4:nth-child(16) .col-md-2 em {color: #6c947f!important;}
+.control_helpguide div.col-md-4:nth-child(17) .col-md-2 em {color: #dda628!important;}
+.control_helpguide div.col-md-4:nth-child(18) .col-md-2 em {color: #0a529b!important;}
+.control_helpguide div.col-md-4:nth-child(19) .col-md-2 em {color: #29b0ce!important;}
+.control_helpguide div.col-md-4:nth-child(20) .col-md-2 em {color: #e44d2f!important;}
+.control_helpguide div.col-md-4:nth-child(21) .col-md-2 em {color: #736aae!important;}
 
 
 /***Help & Guide - Video Article - Mohit***/
