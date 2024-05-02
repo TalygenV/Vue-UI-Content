@@ -6094,7 +6094,7 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .control_helpguide .col-md-4{ flex: 0 0 100%; max-width: 100%;}
 }
 
-.justhover .border{ background: #f1f1f1;}
+.justhover .border:hover{ background: #f1f1f1;}
 
 
 /***Help & Guide - Video Article - Mohit***/
