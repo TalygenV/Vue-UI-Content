@@ -1392,3 +1392,7 @@ table {border-collapse: collapse;}
 .useristyping2 { background: #feecd7; color: #e18a25; padding: 3px 12px; font-size: 11px;
     text-align: center; font-weight: 450; max-width: 250px; border-radius: 20px; border: 1px solid #fddbb3;
     margin: 0 auto;}
+
+.chat_detail.details.usertyping p.text-truncate {display: none !important;}
+.chat_detail.details.usertyping p.ut {display: block !important;}
+

@@ -1369,3 +1369,6 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 .icons a.btn_CallTransfer{background: #535d5f;}
 .vca_btnsbase a.dropcall.alone{border-radius:10px!important;}
 #v-pills-meetings .form-group{width:100%!important;}
+
+.chat_detail.details.usertyping p.text-truncate {display: none !important;}
+.chat_detail.details.usertyping p.ut {display: block !important;}
