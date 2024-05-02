@@ -6084,6 +6084,17 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .control_helpguide div.col-md-4:nth-child(20) .col-md-2 em {color: #e44d2f!important;}
 .control_helpguide div.col-md-4:nth-child(21) .col-md-2 em {color: #736aae!important;}
 
+@media (max-width:1399px)
+{
+.control_helpguide.col-md-4{ flex: 0 0 50%; max-width: 50%;}
+}
+
+@media (max-width:1024px)
+{
+.control_helpguide.col-md-4{ flex: 0 0 100%; max-width: 100%;}
+}
+
+
 
 /***Help & Guide - Video Article - Mohit***/
 
