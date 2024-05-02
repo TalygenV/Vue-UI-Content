@@ -6086,12 +6086,12 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 
 @media (max-width:1399px)
 {
-.control_helpguide.col-md-4{ flex: 0 0 50%; max-width: 50%;}
+.control_helpguide .col-md-4{ flex: 0 0 50%; max-width: 50%;}
 }
 
 @media (max-width:1024px)
 {
-.control_helpguide.col-md-4{ flex: 0 0 100%; max-width: 100%;}
+.control_helpguide .col-md-4{ flex: 0 0 100%; max-width: 100%;}
 }
 
 
