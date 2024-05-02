@@ -1397,7 +1397,7 @@ table {border-collapse: collapse;}
 .chat_detail.details.usertyping p.ut {display: block !important;}
 
 .conv_base.undelivered { border: 1px solid #d18f8f; background: #fff9f9;}
-.cb_undelivered { font-size: 12px;  font-weight: 500;  color: #ad0101;}
+.cb_undelivered { font-size: 12px;  font-weight: 500;  color: #ad0101; border-top: 1px dashed #f9dede;  padding-top: 5px;}
 
 .dividerdate{ border-bottom:1px solid #75b4ec; width:100%; float:left; margin:0 auto; text-align:center; position: relative;}
 .dividerdate_box {
