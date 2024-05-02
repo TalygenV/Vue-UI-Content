@@ -1400,12 +1400,7 @@ table {border-collapse: collapse;}
 .cb_undelivered { font-size: 12px;  font-weight: 500;  color: #ad0101; border-top: 1px dashed #f9dede;  padding-top: 5px;}
 
 .dividerdate{ border-bottom:1px solid #75b4ec; width:100%; float:left; margin:0 auto; text-align:center; position: relative;}
-.dividerdate_box {
-        background: #aed8ff;  text-align: center; display: inline-block; position: absolute;
-        top: -15px;
-        padding: 4px 10px;
-        font-size: 12px;
-        font-weight: 400;
-        border-radius: 5px;
-        color: #fff; 
-    }
+.dividerdate_box {background: #aed8ff;  text-align: center; display: inline-block; position: absolute;top: -15px;
+  padding: 4px 10px; font-size: 12px; font-weight: 400; border-radius: 5px; color: #fff;}
+
+.timeloader_base{ width: 80px; height: 19px; position: relative; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); z-index:99999; margin-top:30px; }

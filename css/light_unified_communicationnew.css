@@ -1370,6 +1370,18 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 .vca_btnsbase a.dropcall.alone{border-radius:10px!important;}
 #v-pills-meetings .form-group{width:100%!important;}
 
+.uc_dialerbase .container-fluid{padding:0px;}
+
+.useristypingbase{width: 100%; position: absolute; bottom: 67px; left: 4px; z-index: 999;}
+
+.useristyping{ background: #58a4eb; color:#fff; padding: 3px 12px; font-size: 11px;
+    text-align: center; font-weight: 450; max-width: 250px; border-radius: 20px; border: 1px solid #fddbb3;
+    margin: 0 auto;}
+
+.useristyping2 { background: #feecd7; color: #e18a25; padding: 3px 12px; font-size: 11px;
+    text-align: center; font-weight: 450; max-width: 250px; border-radius: 20px; border: 1px solid #fddbb3;
+    margin: 0 auto;}
+
 .chat_detail.details.usertyping p.text-truncate {display: none !important;}
 .chat_detail.details.usertyping p.ut {display: block !important;}
 
@@ -1377,12 +1389,7 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 .cb_undelivered { font-size: 12px;  font-weight: 500;  color: #ad0101; border-top: 1px dashed #f9dede;  padding-top: 5px;}
 
 .dividerdate{ border-bottom:1px solid #75b4ec; width:100%; float:left; margin:0 auto; text-align:center; position: relative;}
-.dividerdate_box {
-        background: #aed8ff;  text-align: center; display: inline-block; position: absolute;
-        top: -15px;
-        padding: 4px 10px;
-        font-size: 12px;
-        font-weight: 400;
-        border-radius: 5px;
-        color: #fff; 
-    }
+.dividerdate_box {background: #aed8ff;  text-align: center; display: inline-block; position: absolute;top: -15px;
+  padding: 4px 10px; font-size: 12px; font-weight: 400; border-radius: 5px; color: #fff;}
+
+.timeloader_base{ width: 80px; height: 19px; position: relative; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); z-index:99999; margin-top:30px; }
