@@ -5325,8 +5325,8 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
 /***Harjit 30Nov2022 - Karan PC****/
 
 .verticle-action.rt25{right: -547px; top:-55px;}
- .verticle-action.rt25.rt502{right: -502px; top:-55px;}
-.va_rt25{position: absolute; left: -12px; top:58px; z-index: 999;}
+ .verticle-action.rt25.rt502{right: -502px; top:-185px;}/***top:-55px;***/
+.va_rt25{position: absolute; left: -12px; top:188px; z-index: 999;}/**top:58px;**/
 
 .verticle-action.lft25{right: -30px; top:28px;}
 .va_lft25{position: absolute; right:10px; top:-10px; z-index: 999; transform: rotate(90deg);}
