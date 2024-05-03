@@ -6215,6 +6215,6 @@ select#dropdownMenu2.btn.dropdown-toggle{width:auto;}
     @media (max-width:1200px)
     {
 td.single-action{min-width: 100px; }
-
+td.single-action a.actions-onclick{margin-top: 10px;}
     }
 
