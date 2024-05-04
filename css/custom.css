@@ -6088,7 +6088,7 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .control_helpguide div.col-md-4:nth-child(20) .col-md-2 em {color: #e44d2f!important;}
 .control_helpguide div.col-md-4:nth-child(21) .col-md-2 em {color: #736aae!important;}
 
-.videobtn_disabled{opacity: 0.7; cursor: no-drop;  pointer-events: none; background: #f1f1f1;}
+.videobtn_disabled{opacity: 0.5; cursor: no-drop;  pointer-events: none; background: #f1f1f1;}
 
 @media (max-width:1399px)
 {
