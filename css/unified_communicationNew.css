@@ -618,7 +618,7 @@ a.searchContactAlpha { margin-bottom: 10px; }
 @keyframes blinkingBackOwn2 {
 0% { background-color: #fda36e; color: #fff;}
 49% { background-color: #fda36e; color: #fff;}
-100% { background-color: #fff; }
+100% { background-color: #1e222b; }
 }
 
 .dateheading { width: 100%; float: left; font-size: 15px; background-color: #f2f2f2 !important; padding-left: 15px !important; padding:8px; }
