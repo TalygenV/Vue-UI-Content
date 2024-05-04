@@ -896,8 +896,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
     @media (max-width: 1260px) {
         .tt_status div {
-          max-width: 415px;
-          min-width: 415px;
+          max-width: 33%;
+          min-width: 33%;
         }
       }
 
