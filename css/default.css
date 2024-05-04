@@ -1357,6 +1357,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 {
 .leftcont_divs.manual {max-width: 100%; border-bottom: 1px solid #cdcecf;}
 .rightcont_divs.manualrt { max-width: 100%;}
+.val_msg{right:55px!important;}
+.tt-bod-right .vc-popover-content-wrapper{transform: translate(1185px, 52px)!important;}
+
 }
 
 
