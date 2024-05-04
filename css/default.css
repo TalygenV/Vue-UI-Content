@@ -853,7 +853,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .basebod{border:1px solid #cdcecf!important;}
     .row select.form-control.tt_ddr{height: calc(2.12rem + 35px) !important; font-weight: 500; color: #505050!important;}
 
-    .tt_p-action-btn {font-size: 12px; text-align: center; display: inline-block; padding: 15px 15px 0px 15px;  min-width: 75px; height: 100%; float: left; color: #505050; font-weight:500;}
+    .tt_p-action-btn {font-size: 12px; text-align: center; display: inline-block; padding: 15px 15px 0px 15px;  min-width: 75px; height: 100%; float:left; color: #505050; font-weight:500;}
     .tt_p-action-btn em{font-size:20px;}
     .text-orange{color:#ff9801;}
 
@@ -875,11 +875,40 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
     .newtimetrack .form-control:focus {box-shadow:none;}
     .tt_status .grid{display:grid;}
-    .tt_status div{max-width: 290px; min-width: 290px;}
+    /* .tt_status div{max-width: 330px; min-width: 330px;} */
     .tt_status em{font-size:30px; padding:25px}
     .tt_status .text-small{font-size: 14px; font-weight: 500!important; color:#454545;}
-    .tt_status .text-large{font-size:18px; font-weight:500!important; color:#454545;}/***font-size:22px***/
+    .tt_status .text-large{font-size:22px; font-weight:600!important; color:#454545;}/***font-size:22px***/
     
+    @media (max-width:1599px)
+    {
+    .tt_status .text-large{font-size: 20px;}
+    }
+    @media (max-width:1480px)
+    {
+    .tt_status .text-large{font-size: 18px;}
+    }
+    @media (max-width:1360px)
+    {
+    .tt_status .text-small{font-size: 13px;}
+    .tt_status .text-large{font-size: 16px;}
+    }
+
+    @media (max-width: 1260px) {
+        .tt_status div {
+          max-width: 415px;
+          min-width: 415px;
+        }
+      }
+
+
+      @media (max-width: 1024px) {
+        .tt_status div {
+          max-width: 336px;
+          min-width: 336px;
+        }
+      }
+
 
     .tt_icon{ background-image:url(/Vue-UI-Content/images/timersprite.png); background-repeat:no-repeat; height: 25px; float: left; width: 100%;}
     .tt_icon.ico_tag{background-position:-5px -16px;}
