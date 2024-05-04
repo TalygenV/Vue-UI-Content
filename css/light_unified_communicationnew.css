@@ -615,8 +615,8 @@ a.searchContactAlpha { margin-bottom: 10px; }
 .blinkingcommon2 { animation: blinkingBackOwn2 0.9s 6; }
 
 @keyframes blinkingBackOwn2 {
-0% { background-color: #fd7424; }
-49% { background-color: #fd7424; }
+0% { background-color: #fd7424; color: #fff;}
+49% { background-color: #fd7424; color: #fff;}
 100% { background-color: #fff; }
 }
 
