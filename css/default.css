@@ -1256,7 +1256,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .progress-bar.overtime{background-color: #ffc107;}
 /***Harkimat - Nav bar Time track****/
 
-.team-con-content .progress{height: 9px!important;}
+.team-con-content .progress{height: 9px!important; margin-top: 5px;}
 
 .leftstatus{float: left; width: calc(100% - 520px);}
 .rightgraph {float: right; width: 100%; max-width: 500px;}
@@ -1284,6 +1284,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .barsbase.efficiency em{color:#cacaca; font-size:28px;}
 .barsbase.efficiency .progress-bar{background:#cacaca;}
 .barsbase.efficiency .progress{border-radius:0px .25rem .25rem 0px;}
+
+.barsbase.auto em.fa-circle-o-notch{font-size: 25px;}
 
 
 .rightgraph .trackinfo .time_info{font-size: 32px; font-weight: 500; padding-left: 18px;}
