@@ -615,10 +615,13 @@ a.searchContactAlpha { margin-bottom: 10px; }
 .blinkingcommon2 { animation: blinkingBackOwn2 0.9s 6; }
 
 @keyframes blinkingBackOwn2 {
-0% { background-color: #fda36e; color: #fff;}
-49% { background-color: #fda36e; color: #fff;}
+0% { background-color: #f97a40; color: #fff;}
+49% { background-color: #f97a40; color: #fff;}
 100% { background-color: #1e222b; }
 }
+
+.blinkingcommon2 i, .blinkingcommon2 span{ color: #fff!important;}
+
 
 .dateheading { width: 100%; float: left; font-size: 15px; background-color: #f2f2f2 !important; padding-left: 15px !important; padding:8px; }
 .loadMoreButtonforChat { z-index: 99; /* background: rgba(212, 212, 212, 0.5) none repeat scroll 0% 0%; */ padding: 0px 5px; box-sizing: border-box; margin: 0px auto; position: absolute; left: 40%; right: 40%; top: 4px; }
