@@ -612,7 +612,7 @@ a.searchContactAlpha { margin-bottom: 10px; }
 100% { background-color: #fff; }
 }
 
-.blinkingcommon2 { animation: blinkingBackOwn2 0.9s 6; }
+.nav-pills .nav-link.active.blinkingcommon2 { animation: blinkingBackOwn2 0.9s 6; }
 
 @keyframes blinkingBackOwn2 {
 0% { background-color: #fd7424!important; }
