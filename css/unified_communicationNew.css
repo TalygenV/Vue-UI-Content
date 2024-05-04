@@ -877,7 +877,8 @@ span.invalid-feedback{ display:none; color:red; font-size:14px;}
 .popup-call .call-item img { height: 54px; }
 .alert { position: relative; padding: .75rem 1.25rem; margin-bottom: 1rem; border: 1px solid transparent; border-radius: .25rem;padding-right:30px; }
 .alert-danger { color: #721c24; background-color: #f8d7da; border: 1px solid #ad091b; padding: 8px 15px; margin-bottom: 10px;}
-.replyUsers { background: #f6f7f9; padding: 2px; position: absolute; top: 40px; z-index: 999; right: 7px; box-shadow: 0px 2px 4px 1px #111; }
+
+.replyUsers { background: #f6f7f9; padding: 2px; position: absolute; top: 2px; z-index: 999; right: -37px; box-shadow: 0px 2px 4px 1px #111; }
 .contacts-panel.menu-accrodion .chat_user.info:last-child .replyUsers { top: auto;  bottom: 45px; }
 .replyUsers a { display: block; color: #282828; padding: 3px 10px; text-align: left;} 
 .replyUsers a:hover { background-color: #58a4eb; color: #fff; }
