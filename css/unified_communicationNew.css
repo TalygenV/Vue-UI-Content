@@ -612,6 +612,15 @@ a.searchContactAlpha { margin-bottom: 10px; }
 49% { background-color: #92b4fb; }
 100% { background-color: #fff; }
 }
+
+.blinkingcommon2 { animation: blinkingBackOwn2 0.9s 6; }
+
+@keyframes blinkingBackOwn2 {
+0% { background-color: #fd7424; }
+49% { background-color: #fd7424; }
+100% { background-color: #fff; }
+}
+
 .dateheading { width: 100%; float: left; font-size: 15px; background-color: #f2f2f2 !important; padding-left: 15px !important; padding:8px; }
 .loadMoreButtonforChat { z-index: 99; /* background: rgba(212, 212, 212, 0.5) none repeat scroll 0% 0%; */ padding: 0px 5px; box-sizing: border-box; margin: 0px auto; position: absolute; left: 40%; right: 40%; top: 4px; }
 .loadMoreButtonforChat .btn-info, #div_loadMoreForRecentCallLogs .btn-info { background: #f6f6f6; color: #787878 !important; border: 1px solid #ddd; padding: 3px 10px; font-size: 9pt; text-decoration: none; }
