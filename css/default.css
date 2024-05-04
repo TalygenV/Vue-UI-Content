@@ -1288,6 +1288,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .barsbase.auto em.fa-circle-o-notch{font-size: 25px;}
 
 .font-weight-600{font-weight: 600;}
+.text-underline{text-decoration: underline;}
 
 .rightgraph .trackinfo .time_info{font-size: 32px; font-weight: 500; padding-left: 18px;}
 .rightgraph .trackinfo h5.text-secondary{font-size: 18px; font-weight: normal;  padding-left: 18px;}
