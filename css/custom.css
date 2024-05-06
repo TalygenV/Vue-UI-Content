@@ -6220,3 +6220,28 @@ td.single-action{min-width: 100px; }
 td.single-action a.actions-onclick{margin-top: 10px;}
     }
 
+/***** Header Tour Guide Dropdown Css - Sushil 05 july 2022****/
+/*.modal-body {  height: auto;  padding: 0 15px 15px 15px;}*/
+#divModalTourPlay { height: auto; padding: 0 15px 15px 15px;}
+.h-tour-guide ul {list-style-type:none; }
+.h-tour-guide li a { color: #19191a;  font-size: 16px;}
+.h-tour-guide li { padding: 15px 0px 15px 30px; border-bottom: 1px Solid #dbdbdb;   margin: 0 0;   position: relative;   line-height: 12px;   display: inline-block;  width: 100%; }
+.h-tour-guide li ul li { padding: 12px 15px 15px 15px;  margin: 0px 0 0 0;  line-height: 15px;}
+li.active li { margin: 25px 0 0 0; }
+.h-tour-guide li a {  color: #303030 !important;    font-size: 16px;   display: inline-block;    float: left; width: 100%; font-weight:500;}
+.h-tour-guide li ul li a {  color: #19191a;    font-size: 16px;   display: inline-block;    float: left; width: 100%; font-weight:normal;}
+.replay-tour { cursor:pointer; float: right;    display: inline-block;    margin: -5px 0 0 0;}
+.h-tour-guide li::after { position: absolute; left: 15px;  top: 8px;    height: 25px;  width: 4px;  content: "";   bottom: 0; }
+.h-tour-guide li ul li::after {   position: absolute;  left: 0px;  top: 8px;  height: 25px;  width: 4px;  content: "";    bottom: 0;}
+.h-tour-guide li:nth-child(5n+1)::after { background: #4d85fe; }
+.h-tour-guide li:nth-child(5n+2)::after {background: #28d7d2; }
+.h-tour-guide li:nth-child(5n+3)::after {background: #ffb02f; }
+.h-tour-guide li:nth-child(5n+4)::after {background: #6d60b0; }
+.h-tour-guide li:nth-child(5n+5)::after {background: #6bd046; }
+.h-tour-guide {  list-style-type: none;  padding: 5px 15px 0 0; }
+.h-tour-next { text-align: right;}
+.h-tour-next a { background: #3c7aff; color: #fff; border-radius: 100px; padding: 4px 25px; display: inline-block; line-height: 30px; }
+.my-popups .modal-header { background: #ffffff;  color: #fff;}
+.h-tour-guide li ul {background: #ffffff;  display: inline-block;position: relative;margin: 20px 0 0 0 !important; width:100%;}
+/***** Header Tour Guide Dropdown Css - Sushil 05 july 2022****/
+
