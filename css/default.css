@@ -1309,8 +1309,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 @media (max-width:1024px)
 {
-.leftcont_divs{max-width: 100%; border-bottom: 1px solid #cdcecf;}
-.rightcont_divs{max-width: 100%;}
+.leftcont_divs{max-width: 100%; border-bottom: 1px solid #cdcecf!important;}
+.rightcont_divs{max-width: 100%;  border-top: 1px solid #ff0000!important;}
 }
 
 @media (max-width:767px)
