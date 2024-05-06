@@ -1093,6 +1093,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
   
     #timetracking_wrap .time-tracked.newtimertracked span{display: flex;}
 
+.AssetDatePopUp tbody.daterangebody tr.daterangetr td.table_datepickerfix input.disabled{ color: #adacac !important; background-color: #ccd9cf; border-color: #b6bbb7;}
 
 
 /***New Timer 2Nov 2023****/
