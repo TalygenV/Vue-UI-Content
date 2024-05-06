@@ -1348,8 +1348,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 @media (max-width:1024px)
 {
-.leftcont_divs.manual .multiselect{max-width: 100%; box-sizing: inherit; border-bottom: 1px solid #cdcecf !important;}
-.leftcont_divs.manual .p-0.position-relative {float: left; width: 100%; border-bottom: 1px solid #cdcecf !important;}
+.leftcont_divs.manual .multiselect{max-width: 100%; box-sizing: inherit; border-bottom: 1px solid #cdcecf !important; min-height: calc(2.12rem + 40px) !important;}
+.leftcont_divs.manual .p-0.position-relative {float: left; width: 100%; border-bottom: 1px solid #cdcecf !important; min-height: calc(2.12rem + 40px);}
+
 }
 
 /* @media (max-width:991px)
