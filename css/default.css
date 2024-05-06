@@ -857,7 +857,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     .tt_p-action-btn em{font-size:20px;}
     .text-orange{color:#ff9801;}
 
-    .tt_textarea{width:98%!important; border:none; resize:none; height: 73px !important; padding-top: 28px;}
+    .tt_textarea{width:98%!important; border:none; resize:none; height: 70px !important; padding-top: 28px;margin:2px;}/**height:73px;***/
     .tt_textarea_stop{width: calc(100% - 335px) !important;}
     /* .tt_textarea_stop{width: calc(100% - 335px) !important; border:none; resize:none; overflow: hidden; height: 69px !important; padding-top: 28px;} */
 
