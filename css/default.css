@@ -1346,12 +1346,18 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .leftcont_divs .hs2.breakModal{left: -83px;}
 }
 
-@media (max-width:991px)
+@media (max-width:1024px)
 {
 .leftcont_divs.manual .multiselect{max-width: 100%; box-sizing: inherit; border-bottom: 1px solid #cdcecf !important;}
 .leftcont_divs.manual .p-0.position-relative {float: left; width: 100%; border-bottom: 1px solid #cdcecf !important;}
-
 }
+
+/* @media (max-width:991px)
+{
+.leftcont_divs.manual .multiselect{max-width: 100%; box-sizing: inherit; border-bottom: 1px solid #cdcecf !important;}
+.leftcont_divs.manual .p-0.position-relative {float: left; width: 100%; border-bottom: 1px solid #cdcecf !important;}
+} */
+
 
 @media (max-width:1500px)
 {
