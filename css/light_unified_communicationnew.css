@@ -39,7 +39,8 @@ body.body-CommunicationClassForCSS { font-family: 'Poppins', sans-serif !importa
 .open-menu { background: #fff; flex: 1; min-width: 245px; max-width: 245px; }
 .message-bx { display: flex; margin-bottom: 20px; padding: 5px; transition: all .3s ease; border: 1px solid transparent; }
 .message-bx:hover { background: #fff; border: 1px solid #ececec; }
-.user-avatar { width: 53px; height: 53px; border-radius: 5px; overflow: hidden; margin-right: 12px;  border: 1px solid #dcdcdc;}
+/* .user-avatar { width: 53px; height: 53px; border-radius: 5px; overflow: hidden; margin-right: 12px;  border: 1px solid #dcdcdc;} */
+.user-avatar { width: 43px; height: 43px; border-radius: 100%; overflow: hidden; margin-right: 12px;  border: 1px solid #dcdcdc;}
 .user-avatar img { width: 100%; object-fit: cover; }
 .message-data { flex: 1; }
 .author-name { font-weight: 500; color: #444444; font-size: 14px; }
@@ -1425,4 +1426,8 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 .timeloader_base{ width: 100px; position: relative; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%);
     z-index: 99999; margin-top: 30px; text-align: center; background: #aed8ff; padding: 5px; border-radius: 10px; color: #fff; font-weight: 400; }
 
-    .message-body img{width: 90px;}
+.message-body img{width: 90px;}
+
+.messageslists_uc60.me_right div.message-bx{width: 70%;}
+.messageslists_uc60.me_right div.message-bx:nth-child(odd){float:left;}
+.messageslists_uc60.me_right div.message-bx:nth-child(even){float:right;}
