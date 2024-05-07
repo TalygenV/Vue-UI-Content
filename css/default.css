@@ -812,7 +812,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .yourbreak {min-height: 520px; top: -10px; left: 0px; z-index:99999;}
 .yourbreak-in {background: rgba(255, 255, 255, 0.96); min-height: 440px; padding-top:160px; color:#525f65;}
-.yourbreak-down {background: rgba(255, 255, 255, 0.8); min-height: 170px;}
+.yourbreak-down {background: rgba(255, 255, 255, 0.8); min-height: 99px;}/***min-height: 170px;***/
 .yourbreak-in .cup { background-image: url(/Vue-UI-Content/images/breakcup.png); background-repeat:no-repeat; background-size: 30%; height:120px; background-position:center;}
 .addmanually_btn { background: none!important; color: #fff !important; right: 60px!important; position: absolute!important; border: none; top: 0px!important; left:initial!important;}
 
