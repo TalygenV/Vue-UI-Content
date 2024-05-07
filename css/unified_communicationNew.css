@@ -1439,6 +1439,10 @@ table {border-collapse: collapse;}
     
 .message-body img{width: 90px;}
 
-.messageslists_uc60.me_right div.message-bx{width: 70%;}
-.messageslists_uc60.me_right div.message-bx:nth-child(odd){float:left;}
-.messageslists_uc60.me_right div.message-bx:nth-child(even){float:right;}
+.messageslists_uc60.me_right div.message-bx{width: 55%;}
+.messageslists_uc60.me_right div.message-bx.yourself{float:left;background: #fff; border: 1px solid #eee;}
+.messageslists_uc60.me_right div.message-bx.myself{float:right;background: #edffef; border: 1px solid #e6f2e7;}
+
+.messageslists_uc60.me_left div.message-bx{width: 55%;}
+.messageslists_uc60.me_left div.message-bx.yourself{float:right;background: #fff; border: 1px solid #eee;}
+.messageslists_uc60.me_left div.message-bx.myself{float:left;background: #edffef; border: 1px solid #e6f2e7;}
