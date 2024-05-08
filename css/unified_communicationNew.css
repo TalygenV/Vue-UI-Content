@@ -1449,3 +1449,4 @@ table {border-collapse: collapse;}
 .messageslists_uc60.me_left div.message-bx{width: 55%;}
 .messageslists_uc60.me_left div.message-bx.yourself{float:right;background: #fff; border: 1px solid #eee;}
 .messageslists_uc60.me_left div.message-bx.myself{float:left;background: #edffef; border: 1px solid #e6f2e7;}
+.parentthread .user-avatar {border: 0px;}
