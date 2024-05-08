@@ -6907,5 +6907,7 @@ li.active li { margin: 25px 0 0 0; }
 
 .newddlist .dropdown input[type="text"]{border:1px solid #abb5bf;}
 .dropdown-content{position: absolute;width: 100%;border: 1px solid #adadad;background: #fff; z-index:9; max-height: 200px; overflow-y: auto;}
-
 #divModalTimetrack.dynamic-multiselect{position: relative!important;}
+#spnAdvancedSetup{float:left;}
+
+
