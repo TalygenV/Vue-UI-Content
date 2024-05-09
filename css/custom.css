@@ -1882,74 +1882,50 @@ a.moreinfo:hover + #info-hover {display: block;}
 /*****Manage Subscription - Subscribed Addons new css - Harjit Singh 08Sept 2021************************/
 .min-box .listing-rw:first-child {margin-top: 0px;}
 /*****Manage Subscription - Subscribed Addons new css - Harjit Singh 08Sept 2021************************/
-
 .bootstrap-datetimepicker-widget.dropdown-menu {width:auto !important;z-index:99999;}
-
 /*[data-width="0"]::before {
 height:calc(14px * 2) !important;
 }*/
-
 .min-height-cal{min-height:310px;}
-
 .nav-header .search-bar{background-color: #525f65 !important;}
-
 .color-bar{display:flex;}
 .color-bar li{flex:1; background:#23a5fd; list-style:none; height:4px;}
 .time-bar{display:flex; border:1px solid #abb5bf; overflow:auto;}
 .time-bar li{flex:1; background:#fcfcfc; list-style:none; padding:9px 8px 8px 8px; text-align:center; border-right:1px solid #abb5bf;}
 .time-bar li:last-child{border-right:0;}
-
 @media (min-width:1026px) and (max-width:1280px){  /*form issue content devices resolution between 1025 px to 1280px issue no.438654*/
 /*.action-list-box{max-width:600px;}*/
 .action-list-box .actions-onclick{margin-top:5px;}
 footer .copyright {font-size: 11px;}
-
 }
 .form-control.is-invalid, .was-validated .form-control:invalid{padding-right: calc(1.5em + .75rem)!important;} /*gaurav dhiman as form invalid background was overllaping the text*/
-
-
 @media (max-width:991px) {
 .modal{padding: 150px 20px 0px 20px!important;}
 .right-content .pagination{flex-wrap:wrap;flex-direction:column;}
 .right-content .pagination li:first-child{max-width:100%; -ms-flex: 0 0 100%; margin-bottom:10px; }/**flex:100%; **Removed - as on small devices First button was very broad**/
 .right-content-expand .pagination{flex-wrap:wrap; flex-direction:row;}
 .right-content-expand .pagination li:first-child{max-width:100%; -ms-flex: 0 0 100%; margin-bottom:auto;}
-/*.right-content-expand .pagination li:first-child{flex:50%; max-width:50%; -ms-flex: 0 0 50%; margin-bottom:auto;}*/
 }
-
 .margin-top-none{margin-top:auto !important;}
-
 .w-75 .clsdashboardgroup .short-menu-item{flex-direction:column;}
 .w-75 .clsdashboardgroup .short-menu-item .left-icon-m{width:100%;margin:auto;margin-top: 0;margin-bottom: 0;}
 .w-75 .clsdashboardgroup .short-menu-item .left-icon-m em{font-size:40px;}
 .w-75 .clsdashboardgroup .short-menu-item  .short-item-name{text-align:center;font-size:16px;padding:5px 0px;}
-
-
 .popover-custom{display:flex;flex-wrap:nowrap;max-width:unset;}/*#403756*/
-
 .flat-slider .slider:before{display:none;}
 .slider.ui-slider span{display:block !important;}
 @media (max-width:768px) {
 .table-responsive .thead-bg th  .cstm-chk .custom-control{padding-left: 0.5rem;}
 }
-
 .listing-tag{background:#f0f0f0;}
 .table-fix-header table tbody  .backgroundffffff{ position:relative !important; z-index: 0 !important;}
-
 .help-labels-right{float:right;display:inline-block;width:50%;text-align:right;padding-bottom:0px;} 
-
 @media (max-width:420px){.help-labels-right{float:right;display:inline-block;width:100%;text-align:left;padding-bottom:0px;}
 .help-labels-right span{display:inline-block;width:auto !important;}
-/*.heading-btn{position: relative; width: 100%;top:0px; right: 0;left: 0;display: flex;flex-direction: row;justify-content: flex-start;}
-.heading-btn a{display: flex;justify-content: space-around;background: #f3f3f3;padding: 5px;margin-right: 5px;} 
-.hdng-bdr-mbl span{width:100%;} .hdng-bdr-mbl:after{display:none;}*/
 }
-
 .trpaging{width:100%;}  .trpaging td{width:100%;}
 .v-select{height:auto;}
-
 button{outline:0 !important;}
-
 @media (max-width:1024px){
 .mover-panel-box {flex:100%;}
 .mover-controls{width:100%;flex-direction:row;align-items:center;justify-content:center;}
@@ -1961,176 +1937,45 @@ button{outline:0 !important;}
 }
 .invalid-feedback{white-space:normal;font-size: 80%;}
 .form-invalid {display: inline-block;width: 100%;margin-top: .25rem;font-size: 80%; color: #dc3545;white-space:normal;}
-     
+   
 @media (max-width:768px ){
 .CompantLocationSelectSubStatusselected{max-width:80px;}
 }
 @media (max-width:320px ){
 .CompantLocationSelectSubStatusselected{max-width:60px;}
 }
-
 .md-accordion .card-panel-extand  .collapsed .rotate-icon{-webkit-transform:rotate(180deg);transform: rotate(180deg);}
-
 @media (max-width:900px) {
 .table-responsive tbody .w-80{width:100% !important;}
 .table-responsive tbody .ddlTaskselected.w-80{width:80% !important;}/***Harjit added 20May2022 - #645958*******/
 }
-
-/*.p-actions .send-save-btn{border-left: 2px solid #4d5a60;font-size: 12px;text-align: center;display: inline-block;padding: 7.8px 15px;min-width: 65px;height: 46px;float: left;background:rgba(0, 0, 0, 0.00)}*/
-
 .table-responsive .unique_dynamicdatalist{position:unset;}
-
 .vc-chrome{transform: translateX(-192px);right: auto;}
-
 .mail-content-wrapper .listing-wrapper .lists span:nth-child(2) {font-size: 14px;}
 .mail-content-wrapper .listing-wrapper .lists span:nth-child(3) {color: #0078d4; font-style: normal;}
-
 .mail-content-wrapper .listing-wrapper .lists span:nth-child(3) em {text-overflow: ellipsis;  max-width: 20ch;  width: 60%; overflow: hidden; display: flex; flex: 40%; justify-content: flex-end; color: #626262; font-size: 12px; font-style: normal;}
-
 .mail-content-wrapper .listing-wrapper .lists span:nth-child(4) {color: #626262; max-width: 28ch; display: block; overflow: hidden; text-overflow: ellipsis;}
-.lists-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(49, 49, 49, 0.05);
-    transition: background .10s;
-    display: none;
-}
+.lists-overlay { position: absolute; width: 100%; height: 100%;  left: 0;  top: 0;  background: rgba(49, 49, 49, 0.05); transition: background .10s; display: none;}
+.lists-overlay em { z-index: 9999; position: absolute; right: 0; top: 5px;}
+.mail-content-wrapper .listing-wrapper .lists:hover .lists-overlay {display: block;}
+.mail-content-wrapper .content .mail-head { display: flex; align-items: center; padding: 15px; font-size: 18px; box-sizing: border-box;}
+.mail-content-wrapper .content .inbox-section { display: flex; align-items: stretch; width: 98%; flex-direction: column; padding: 0px 10px; box-sizing: border-box; background: white; box-shadow: 0 0 1px #bbb; margin: 0 auto;}
+.mail-content-wrapper .content .inbox-section .head {display: flex; flex: 100%; flex-direction: row; padding: 10px 0;}
+.mail-content-wrapper .detail { display: flex; flex: 100%; flex-direction: column; color: #535353;}
+.mail-content-wrapper .actions { display: flex; flex: 100%; flex-direction: row; align-items: center; justify-content: flex-end;}
+.mail-content-wrapper .mail-content {display: flex; flex: 100%; padding: 10px 0;}
+.mail-content-wrapper .content .reply-section {display: flex; align-items: stretch; width: 98%; flex-direction: column; padding: 0px 10px; box-sizing: border-box;
+    background: white; box-shadow: 0 0 1px #bbb; margin: 0 auto;}
+.mail-content-wrapper .reply-section .Editor-editor {border: none; min-height: 450px !important;}
+.mail-content-wrapper #statusbar {display: none;}
+.mail-content-wrapper .reply-section #menuBarDiv { border: none;  border: 0; border-color: none; border-bottom-color: none; filter: none;
+    zoom: 1; position: absolute; bottom: 0; z-index: 2; display: flex; width: 100%; flex-direction: row; border-top: 1px solid #eeedeb; background: white;}
+.mail-content-wrapper .reply-section .Editor-container { position: relative;}
+.mail-content-wrapper .reply-section .Editor-container .btn {font-size: 12px !important; border: none !important;}
 
-    .lists-overlay em {
-        z-index: 9999;
-        position: absolute;
-        right: 0;
-        top: 5px;
-    }
-
-.mail-content-wrapper .listing-wrapper .lists:hover .lists-overlay {
-    display: block;
-}
-
-.mail-content-wrapper .content .mail-head {
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    font-size: 18px;
-    box-sizing: border-box;
-}
-
-.mail-content-wrapper .content .inbox-section {
-    display: flex;
-    align-items: stretch;
-    width: 98%;
-    flex-direction: column;
-    padding: 0px 10px;
-    box-sizing: border-box;
-    background: white;
-    box-shadow: 0 0 1px #bbb;
-    margin: 0 auto;
-}
-
-    .mail-content-wrapper .content .inbox-section .head {
-        display: flex;
-        flex: 100%;
-        flex-direction: row;
-        padding: 10px 0;
-    }
-
-.mail-content-wrapper .detail {
-    display: flex;
-    flex: 100%;
-    flex-direction: column;
-    color: #535353;
-}
-
-.mail-content-wrapper .actions {
-    display: flex;
-    flex: 100%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.mail-content-wrapper .mail-content {
-    display: flex;
-    flex: 100%;
-    padding: 10px 0;
-}
-
-.mail-content-wrapper .content .reply-section {
-    display: flex;
-    align-items: stretch;
-    width: 98%;
-    flex-direction: column;
-    padding: 0px 10px;
-    box-sizing: border-box;
-    background: white;
-    box-shadow: 0 0 1px #bbb;
-    margin: 0 auto;
-}
-
-.mail-content-wrapper .reply-section .Editor-editor {
-    border: none;
-    min-height: 450px !important;
-}
-
-.mail-content-wrapper #statusbar {
-    display: none;
-}
-
-.mail-content-wrapper .reply-section #menuBarDiv {     
-    border: none;
-    border: 0;
-    border-color: none;
-    border-bottom-color: none;
-    filter: none;
-    zoom: 1;
-    position: absolute;
-    bottom: 0;
-    z-index: 2; display: flex; width: 100%; flex-direction: row; border-top: 1px solid #eeedeb; background: white;}
-/* } background-color: none !important;  
-background-image: none;     */
-
-
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
-
-
-.mail-content-wrapper .reply-section .Editor-container {
-    position: relative;
-}
-
-    .mail-content-wrapper .reply-section .Editor-container .btn {
-        font-size: 12px !important;
-        border: none !important;
-    }
-
-    
-
-
-
-#menuBarDiv .btn-group:nth-child(6) a:nth-child(3) {
-    display: none !important;
-}
-
-#menuBarDiv .btn-group:nth-child(7) {
-    display: none;
-}
-
-#menuBarDiv .btn-group:nth-child(8) {
-    display: none;
-}
+#menuBarDiv .btn-group:nth-child(6) a:nth-child(3) { display: none !important;}
+#menuBarDiv .btn-group:nth-child(7) {display: none;}
+#menuBarDiv .btn-group:nth-child(8) {display: none;}
 
 .mail-content-wrapper .reply-btns {
     display: flex;
