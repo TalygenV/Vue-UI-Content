@@ -1444,3 +1444,5 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 
 .parentthread { margin-bottom: 4px;}
 
+.messageslists_uc60.me_default .message-bx.yourself{ background: #fff;}
+.messageslists_uc60.me_default .message-bx.myself{ background: #eaefe1;}

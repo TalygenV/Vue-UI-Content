@@ -1455,3 +1455,6 @@ table {border-collapse: collapse;}
 
 .parentthread { margin-bottom: 4px;}
 
+.messageslists_uc60.me_default .message-bx.yourself{ background: #fff;}
+.messageslists_uc60.me_default .message-bx.myself{ background: #eaefe1;}
+
