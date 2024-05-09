@@ -38,7 +38,7 @@ body.body-CommunicationClassForCSS { font-family: 'Poppins', sans-serif !importa
 .sm-leftmenu li a:hover { background: #3e4a58; color: #fff; }
 .open-menu { background: #fff; flex: 1; min-width: 245px; max-width: 245px; }
 .message-bx { display: flex; margin-bottom: 20px; padding: 5px; transition: all .3s ease; border: 1px solid transparent; }
-.message-bx:hover { background: #fff; border: 1px solid #ececec; }
+.message-bx:hover { background: #fff; border: 1px solid #e5e5e5; }/**#ececec**/
 /* .user-avatar { width: 53px; height: 53px; border-radius: 5px; overflow: hidden; margin-right: 12px;  border: 1px solid #dcdcdc;} */
 .user-avatar { width: 43px; height: 43px; border-radius: 100%; overflow: hidden; margin-right: 12px;  border: 1px solid #dcdcdc;}
 .user-avatar img { width: 100%; object-fit: cover; }
