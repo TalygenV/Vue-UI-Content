@@ -1430,14 +1430,15 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
     z-index: 99999; margin-top: 30px; text-align: center; background: #aed8ff; padding: 5px; border-radius: 10px; color: #fff; font-weight: 400; }
 
 .message-body img{width: 90px;}
+.parentthread .user-avatar {border: 0px;}
 
 .messageslists_uc60.me_right div.message-bx{width: 55%;}
 .messageslists_uc60.me_right div.message-bx.yourself{float:left;background: #fff; border: 1px solid #eee;}
 .messageslists_uc60.me_right div.message-bx.myself{float:right;background: #edffef; border: 1px solid #c4dbc8;}
+.messageslists_uc60.me_right div.message-bx.parentthread { margin-bottom: 4px;}
 
 .messageslists_uc60.me_left div.message-bx{width: 55%;}
 .messageslists_uc60.me_left div.message-bx.yourself{float:right;background: #fff; border: 1px solid #eee;}
 .messageslists_uc60.me_left div.message-bx.myself{float:left;background: #edffef; border: 1px solid #c4dbc8;}
-.parentthread .user-avatar {border: 0px;}
-.messageslists_uc60.me_right div.message-bx.parentthread { margin-bottom: 4px;}
+.messageslists_uc60.me_left div.message-bx.parentthread { margin-bottom: 4px;}
 
