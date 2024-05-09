@@ -1444,12 +1444,12 @@ table {border-collapse: collapse;}
 .parentthread .user-avatar {border: 0px;}
 
 .messageslists_uc60.me_right div.message-bx{width: 55%;}
-.messageslists_uc60.me_right div.message-bx.yourself{float:left;background: #fff; border: 1px solid #eee;}
+.messageslists_uc60.me_right div.message-bx.yourself{float:left;background: #fff; border: 1px solid #dbdbdb;}
 .messageslists_uc60.me_right div.message-bx.myself{float:right;background: #edffef; border: 1px solid #c4dbc8;}
 .messageslists_uc60.me_right div.message-bx.parentthread { margin-bottom: 4px;}
 
 .messageslists_uc60.me_left div.message-bx{width: 55%;}
-.messageslists_uc60.me_left div.message-bx.yourself{float:right;background: #fff; border: 1px solid #eee;}
+.messageslists_uc60.me_left div.message-bx.yourself{float:right;background: #fff; border: 1px solid #dbdbdb;}
 .messageslists_uc60.me_left div.message-bx.myself{float:left;background: #edffef; border: 1px solid #c4dbc8;}
 .messageslists_uc60.me_left div.message-bx.parentthread { margin-bottom: 4px;}
 
