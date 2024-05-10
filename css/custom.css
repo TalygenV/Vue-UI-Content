@@ -3051,6 +3051,11 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 .trackinfo_left2{width: 50%!important;}
 .trackinfo_right2{width: 50%!important;}
  
+@media (max-width:768px)
+{
+    .trackinfo{width:100%!important;}
+}
+
 
 .tablelist_icos{background-image: url('https://talygenv.github.io/Vue-UI-Content/images/timersprite.png'); height: 22px; width: 35px; float: left; background-repeat: no-repeat;}
 
@@ -3064,13 +3069,9 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 .google_icos{background-position: -257px -140px;}
 .default_icos{background-position: -317px -140px;}
 
-
-
 .tt_ddr ul.multiselect__content li.multiselect__element .multiselect__option{color: #505050!important;}
 .tt_ddr ul.multiselect__content li.multiselect__element .multiselect__option.multiselect__option--highlight{color: #fff!important;}
 .tt_ddr .multiselect__option{color: #ff0000; font-weight: 400;} /* Ridham 5Feb2024*/
-
-
 
 .align_bx{justify-content:center; align-items:center;}
 
