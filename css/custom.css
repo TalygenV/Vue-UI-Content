@@ -3055,6 +3055,7 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 {
     .trackinfo{width:100%!important;}
     .track-hours-chart{width:100%!important;}
+    .infotrack.eqcol {display: block;}
 }
 
 
