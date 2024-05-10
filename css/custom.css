@@ -5908,7 +5908,7 @@ li.active li { margin: 25px 0 0 0; }
     table.newtimertable tbody tr:last-child{border-bottom:none;}
    
 
-    .activity-tab.weblistviewtimer:last-child{margin-bottom: 150px;}
+    div.activity-tab.col-md-12.p-0.mt-4.float-left.weblistviewtimer:last-child{margin-bottom: 150px;}
 
 
 
