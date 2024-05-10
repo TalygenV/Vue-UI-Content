@@ -5908,6 +5908,10 @@ li.active li { margin: 25px 0 0 0; }
     table.newtimertable tbody tr:last-child{border-bottom:none;}
    
 
+    .activity-tab.weblistviewtimer:last-child{margin-bottom: 150px;}
+
+
+
     @media (min-width:769px)
     {
         .mobilelistview.newtimertable{display: none;}
