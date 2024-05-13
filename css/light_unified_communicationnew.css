@@ -1383,9 +1383,13 @@ small.float-right {    float: right;}
 
 ul.multiselect-container li div.input-group{width:auto!important;}/******Create chat group- members DDL search width Harjit Singh 21Sept2021**********/
 .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
-    background-image: url('../../../../content/images/radio.png') !important;
+    background-image: url('../images/radio.png') !important;
+    background-size: 8px;
+    background-position: 4px 4px;
+    /* 
     background-size: 9px;
     background-position: 9px 5px;
+    background-image: url('../../../../content/images/radio.png') !important; */
 }
 .action-icon.text-success { color: #28a745 !important;}
 .icons a.btn_CallTransfer{background: #535d5f;}

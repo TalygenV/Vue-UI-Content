@@ -1359,7 +1359,14 @@ div[rel='scrollcontent1'] { width:100%; height:320px;}
 .emojionearea .emojionearea-picker {z-index: 99;}
 
 ul.multiselect-container li div.input-group{width:auto!important;}/******Create chat group- members DDL search width Harjit Singh 21Sept2021**********/
-.custom-radio .custom-control-input:checked ~ .custom-control-label::after {background-image: url('../../../../content/images/radio.png') !important;background-size: 9px;background-position: 5px 5px;}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after 
+{background-image: url('../images/radio.png') 
+    !important;background-size: 8px;
+    background-position: 4px 4px;
+    /* background-image: url('../../../../content/images/radio.png') 
+    !important;background-size: 9px;
+    background-position: 5px 5px; */
+}
 .action-icon.text-success {color: #28a745 !important;}
 .action-icon.text-danger {color: #dc3545 !important;}
 
