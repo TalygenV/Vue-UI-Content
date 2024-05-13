@@ -41,7 +41,7 @@ body.body-CommunicationClassForCSS {  font-size: 14px; color: #686767; backgroun
 .message-bx:hover { background: #fff; border: 1px solid #e5e5e5; }/**#ececec**/
 /* .user-avatar { width: 53px; height: 53px; border-radius: 5px; overflow: hidden; margin-right: 12px;  border: 1px solid #dcdcdc;} */
 .user-avatar { width: 43px; height: 43px; border-radius: 100%; overflow: hidden; margin-right: 12px;  border: 1px solid #dcdcdc;}
-.user-avatar img { width: 100%; object-fit: cover; }
+.user-avatar img { width: 100%!important; object-fit: cover; }
 .message-data { flex: 1; }
 .author-name { font-weight: 500; color: #444444; font-size: 14px; }
 .date { color: #9a9a9a; font-size: 12px; margin-left: 10px; }
