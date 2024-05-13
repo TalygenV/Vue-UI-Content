@@ -1548,7 +1548,7 @@ position: absolute;border:4px solid #fff; left: 0;top: -4px; }
 .badge-enable .badge em:before{content:"\f142"}
 .badge-disable .badge em:before{content:"\f142";visibility:hidden;}
 /*form context menu widget management*/
-.my-popups .modal {position: fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: 1040;background-color:rgba(0, 0, 0, 0.5);overflow-y:auto;}
+.my-popups .modal {position: fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: 1040;background-color:rgba(0, 0, 0, 0.8);overflow-y:auto;}
 .disabled { color:#8e9894!important; cursor: not-allowed !important;pointer-events:none;}/*color:#a7aeb3!important;* this color code was not working on Mac***/
 .select select{background-image:none !important;}
 .border-top-pagi {border-top:1px solid #c3c3c3;}
