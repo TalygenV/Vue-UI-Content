@@ -4712,6 +4712,9 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
 .b-light-green {border-color: #9acb3e !important;} 
 .b-secondery-blue {border-color: #2085ff !important;} 
 
+a.b-turquoise:hover{ background-color: #2dc8ba!important; color: #fff!important;}
+a.b-secondery-blue:hover{ background-color: #2085ff!important; color: #fff!important;}
+a.b-light-green:hover{ background-color: #9acb3e!important; color: #fff!important;}
 
 /******************* Help and Guide Page Design 1 Nov 2022 *******************/
 
