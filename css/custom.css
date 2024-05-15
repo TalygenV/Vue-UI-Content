@@ -6294,7 +6294,7 @@ li.active li { margin: 25px 0 0 0; }
 .timerclck{width: 100%; border: none; border-top: 1px solid #cfcfcf; margin: 0px;}
 .leftcont_divs.manual .tt_bod-right.timepickercontrol.pt-4.pr-2.pl-3 {float: left; width: 100%;}
 .timerDiv{float: left; width: 99%;}
-.leftcont_divs .hs2.breakModal{left: -1px; top: 58px;}
+.leftcont_divs .hs2.breakModal{left: -1px; top: 73px;}
 .newtimetrack .multiselect__content-wrapper{top: 58px;}
 
 .mobilelistview_base .contentt{width: calc(100% - 50px)!important;}
