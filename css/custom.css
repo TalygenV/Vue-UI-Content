@@ -6226,8 +6226,11 @@ li.active li { margin: 25px 0 0 0; }
 
 .team-con-content .progress{height: 7px!important; margin-top: 5px;}
 
-.leftstatus{float: left; width: calc(100% - 520px);}
-.rightgraph {float: right; width: 100%; max-width: 500px;}
+/*.leftstatus{float: left; width: calc(100% - 520px);}
+.rightgraph {float: right; width: 100%; max-width: 500px;} */
+
+.leftstatus{float: left; width: calc(100% - 490px);}
+.rightgraph {float: right; width: 100%; max-width: 470px;}
 .team-con-box {width: 100%;float: left; margin: 1px 0px; height: auto; position: relative; min-height: 85px; box-sizing: border-box;-webkit-box-sizing: border-box;
 -moz-box-sizing: border-box; padding: 15px 15px 15px 15px;}
 .team-con-img {float:left; width:70px!important; height:70px; position:relative;}
@@ -6274,6 +6277,11 @@ li.active li { margin: 25px 0 0 0; }
 .team-con-box2{max-width: 100%;}
 }
 
+@media (max-width:1600px)
+{
+.team-con-box{max-width: 60%;}
+.team-con-box2{max-width: 40%;}
+}
 
 @media (max-width:1200px)
 {
