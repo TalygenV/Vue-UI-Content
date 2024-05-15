@@ -6268,6 +6268,13 @@ li.active li { margin: 25px 0 0 0; }
 
 /***New Timer responsive Css****/
 
+@media (max-width:1440px)
+{
+.team-con-box{max-width: 100%;}
+.team-con-box2{max-width: 100%;}
+}
+
+
 @media (max-width:1200px)
 {
 .leftcont_divs{max-width: 55%;}
