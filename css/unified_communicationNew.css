@@ -1465,3 +1465,10 @@ table {border-collapse: collapse;}
 .messageslists_uc60.me_default .message-bx.yourself{ background: #fff;}
 .messageslists_uc60.me_default .message-bx.myself{ background: #ededed;}
 
+.own-message.message-bx.myself.progressbasediv {
+    color: #004085!important;
+    background-color: #cce5ff!important;
+    border-color: #b8daff!important;
+    padding: 10px;
+    font-size: 17px;
+}
