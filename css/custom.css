@@ -6311,7 +6311,9 @@ li.active li { margin: 25px 0 0 0; }
 
 @media (min-width: 768px) and (max-width: 1024px)
 {
-.leftcont_divs .hs2.breakModal{left: -83px;}
+.leftcont_divs .hs2.breakModal{left: -104px;}
+.leftcont_divs.manual .hs2.breakModal{left: -1px;}
+
 .leftcont_divs.manual .tt_bod-right.timepickercontrol.pt-4.pr-2.pl-3{min-width: 320px !important; padding-top: 12px !important;}
 .leftcont_divs.manual .tt_bod-right.timepickercontrol.pt-4.pr-2.pl-3 input{min-width: 150px;}
 }
