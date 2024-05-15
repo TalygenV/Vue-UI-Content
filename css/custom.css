@@ -884,7 +884,7 @@ body { padding-top:50px;}
 .modal-dialog {width:100%; max-width:900px; display: inline-block; text-align: left; vertical-align: middle; min-height:auto;} 
 }
 
-@media (max-width:992px)
+@media (max-width:1024px)
 {
  .modal-dialog {max-width:900px!important;}
 
