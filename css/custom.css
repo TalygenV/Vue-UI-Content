@@ -6129,6 +6129,12 @@ li.active li { margin: 25px 0 0 0; }
     
 .timesheetdatepicker.hsstyle a{position: absolute; z-index: 9; left: 5px;  top: 5px; font-weight:400; font-size: 10px;background-color: #e3e3e3 !important; color: #888888 !important; width: 150px; height:25px; cursor:text!important;padding-left: 5px;}
 
+@media (min-width: 768px) and (max-width:1024px)
+{
+    .hs_tag{left: -105px!important;}
+
+}
+
 
 
 
