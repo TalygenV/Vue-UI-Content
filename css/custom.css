@@ -1905,6 +1905,10 @@ footer .copyright {font-size: 11px;}
 .right-content .pagination li:first-child{max-width:100%; -ms-flex: 0 0 100%; margin-bottom:10px; }/**flex:100%; **Removed - as on small devices First button was very broad**/
 .right-content-expand .pagination{flex-wrap:wrap; flex-direction:row;}
 .right-content-expand .pagination li:first-child{max-width:100%; -ms-flex: 0 0 100%; margin-bottom:auto;}
+
+.modal{text-align: center!important;}
+.modal-dialog{text-align: left!important;}
+
 }
 .margin-top-none{margin-top:auto !important;}
 .w-75 .clsdashboardgroup .short-menu-item{flex-direction:column;}
