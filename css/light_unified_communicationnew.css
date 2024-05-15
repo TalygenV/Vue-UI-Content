@@ -1453,8 +1453,9 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 
 .own-message.message-bx.myself.progressbasediv {
     color: #004085!important;
-    background-color: #cce5ff!important;
-    border-color: #b8daff!important;
+    background-color: #fff!important;
+    border-color: #e0e6ed !important;
     padding: 10px;
     font-size: 17px;
+    display: block;
 }
