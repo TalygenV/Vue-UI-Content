@@ -6301,7 +6301,7 @@ li.active li { margin: 25px 0 0 0; }
 
 .tt_lisitng_icons.ico_listtags {background-position: -233px -9px;width: 60px;}
 .tt_lisitng_icons.ico_listdollar{background-position: -62px -9px; width: 60px;}
-
+.tt_p-action-btn{padding: 15px 15px 15px 15px!important;}
 }
 
 @media (min-width: 768px) and (max-width: 991px)
