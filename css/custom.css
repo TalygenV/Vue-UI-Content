@@ -6283,6 +6283,14 @@ li.active li { margin: 25px 0 0 0; }
 .team-con-box2{max-width: 40%;}
 }
 
+@media (max-width:1100px)
+{
+ .leftstatus, .rightgraph{max-width: 100%!important; width:100%;}
+    
+}
+
+
+
 @media (max-width:1200px)
 {
 .leftcont_divs{max-width: 55%;}
