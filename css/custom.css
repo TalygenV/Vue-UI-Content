@@ -6361,18 +6361,18 @@ li.active li { margin: 25px 0 0 0; }
 .timerDiv{float: left; width: 99%;}
 .leftcont_divs .hs2.breakModal{left: -1px; top: 73px;}
 .newtimetrack .multiselect__content-wrapper{top: 58px;}
-
 .mobilelistview_base .contentt{width: calc(100% - 50px)!important;}
-
 .tt_lisitng_icons.ico_listtags {background-position: -233px -9px;width: 60px;}
 .tt_lisitng_icons.ico_listdollar{background-position: -62px -9px; width: 60px;}
 .tt_p-action-btn{padding: 15px 15px 15px 15px!important;}
-
 .team-con-content .col-md-3 {max-width: 50%;}
-
 .tt_play_btnbase .tt_play_btn{margin-bottom: 10px;}
+}
 
-
+@media (max-width:768px)
+{
+    .totalactivity_rt .tagspanel2 span.px-0{display: none;}
+    .totalactivity_rt .tagspanel2 span{width: 100%; border-bottom: 1px solid #fff;}
 }
 
 @media (min-width: 768px) and (max-width: 991px)
