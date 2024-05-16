@@ -3108,7 +3108,7 @@ ul.file_list{list-style-type:none;display:flex;justify-content:space-between}
 .grey-txt{color:#848a8f}
 .app-time{padding:10px 15px}
 .app-time h3{font-size:18px;font-weight:600;margin-bottom:5px;padding-bottom:8px}
-.progress.prog_bx{display:flex;height:8px;overflow:hidden;font-size:.75rem;background-color:#e9ecef;border-radius:.25rem;border:0;flex:1;margin-left:20px;margin-right:15px}
+.progress.prog_bx{display:flex;height:8px;overflow:hidden;font-size:.75rem;background-color:#fff;border-radius:.25rem;border:0;flex:1;margin-left:20px;margin-right:15px}/****background-color:#e9ecef;****/
 ul.app-time-info{list-style-type:none}
 .app-time-info li{margin-bottom:9px;display:flex;align-items:center;flex-wrap:wrap;}
 .app-time-info li:last-child{margin-bottom:0}
