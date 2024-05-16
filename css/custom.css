@@ -3124,12 +3124,20 @@ ul.app-time-info{list-style-type:none}
 /*******workdiary **********/
 .list-actions.task:before {content: ''; border-bottom: 10px solid #dcdcdc; border-left: 8px solid transparent; border-right: 8px solid transparent; top: -10px; position: absolute;}
 
+.workdairy_leftbase {float: left; width: calc(100% - 380px); padding: 10px;}
+.workdairy_rightbase {float: right; width: 100%; max-width: 360px; margin-left: 15px;}
+
+@media (max-width:991px){
+    .workdairy_leftbase{width: 100%!important;}
+    .workdairy_rightbase{max-width: 100%!important; flex: 0 0 100%!important; padding: 0px 25px!important; margin: 0px!important;}
+}
+
 
 @media (max-width:1600px){
 
 .custtab{min-width:1600px;}
-.card-body .gantt-right {  width: 60%;}
-.card-body .gantt-left {  width: 40%;}
+.card-body .gantt-right {width: 60%;}
+.card-body .gantt-left {width: 40%;}
 
 
 }
@@ -5841,6 +5849,13 @@ li.active li { margin: 25px 0 0 0; }
     .tt_status .text-small{font-size: 14px; font-weight: 500!important; color:#454545;}
     .tt_status .text-large{font-size:22px; font-weight:600!important; color:#454545;}/***font-size:22px***/
     
+    @media (max-width:768px)
+    {
+        span.tt_textarea_span textarea.tt_textarea{margin: 0px;}
+    }
+
+
+
     @media (max-width:1599px)
     {
     .tt_status .text-large{font-size: 20px;}
