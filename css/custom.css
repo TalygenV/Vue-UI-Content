@@ -6045,7 +6045,14 @@ li.active li { margin: 25px 0 0 0; }
 .table-bordered.newtimertable tr.gt-paused-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 1px); background:#3a3a3d;  display: block; position:absolute; left:0px; top:0px; }
 /******28Dec2023 - NewTimerTable listing tr - bars*************/
 
-
+.mobilelistview_base div.gt-orange-bar{border-left: 3px solid #fd7a1a;}
+.mobilelistview_base div.gt-automatic-bar{border-left: 3px solid #af39d0;}
+.mobilelistview_base div.gt-manual-bar{border-left: 3px solid #4db567;}
+.mobilelistview_base div.gt-timesheet-bar{border-left: 3px solid #4cb4fb;}
+.mobilelistview_base div.gt-leave-bar{border-left: 3px solid #df5966;}
+.mobilelistview_base div.gt-holiday-bar{border-left: 3px solid #fbc648;}
+.mobilelistview_base div.gt-unpaid-bar{border-left: 3px solid #747e66;}
+.mobilelistview_base div.gt-paused-bar{border-left: 3px solid #3a3a3d;}
 
 /******General Multi-Select for Vue JS*************/
 .hs_tag_general .multiselect { padding-top: 10px; padding-left: 0; padding-right: 0; float: left;  border: 1px solid #c8c8c8 !important; }
