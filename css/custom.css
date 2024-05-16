@@ -5890,6 +5890,10 @@ li.active li { margin: 25px 0 0 0; }
         }
       }
 
+      @media (max-width: 673px) {
+        .tt_status div {border-right: none!important;}
+      }
+
 
     .tt_icon{ background-image:url(/Vue-UI-Content/images/timersprite.png); background-repeat:no-repeat; height: 25px; float: left; width: 100%;}
     .tt_icon.ico_tag{background-position:-5px -16px;}
