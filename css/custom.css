@@ -6054,6 +6054,13 @@ li.active li { margin: 25px 0 0 0; }
 .editentrybase .col-md-1{width: 45px; float:left;}
 .editentrybase .col-md-2{width: calc(100% - 60px); float:left;}
 .editentrybase .col-md-9{margin-top: 10px;}
+
+.editentrybase .row {
+    margin-bottom: 10px;
+    background: #f4f4f4;
+    padding: 10px;
+  }
+
 }
 
 /******General Multi-Select for Vue JS*************/
