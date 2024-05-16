@@ -5756,6 +5756,11 @@ li.active li { margin: 25px 0 0 0; }
 .p-action-btn.font-14 i, .p-action-btn.font-14 em{font-size: 14px!important;}
 .DatePopUp.divtimer_design.R75{right: 75px!important;}
 
+@media (max-width:767px)
+{
+    .DatePopUp.divtimer_design.R75{left: 0px!important;}
+}
+
 .multiselect__placeholder {
   color: #505050!important;
   display: inline-block;
