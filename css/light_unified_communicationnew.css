@@ -1451,7 +1451,7 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 
 .messageslists_uc60.me_right div.message-bx.yourself {position: relative; padding:0px; float:left; max-width: 55%; min-width: 130px; width: auto; border: 0px solid #fff !important;}
 .messageslists_uc60.me_right div.message-bx.yourself .message-data {background: #ffffff; border: 1px solid #dbdbdb; padding: 5px 10px;border-radius: 0px 20px 20px 20px; }
-.messageslists_uc60.me_right div.message-bx.yourself .user-avatar{ position: absolute; bottom: 4px;}
+.messageslists_uc60.me_right div.message-bx.yourself .user-avatar{ position: absolute; bottom: 4px; width: 30px!important; height: 30px!important;}
 
 .messageslists_uc60.me_right div.message-bx.yourself:hover{background: none!important; border: 0px solid #fff!important;}
 .messageslists_uc60.me_right div.message-bx.myself .author-name.message-time {font-size: 10px;}
@@ -1461,7 +1461,7 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 
 .aalcontacts{ background: #1e222b; padding: 5px 15px;  float: left; width: 100%; border-left: 5px solid #3e3e3e; box-sizing: border-box; color: #fdce71; margin-top: 10px;}
 
-.messageslists_uc60.me_right.groupchat div.message-bx.yourself .message-data {margin-left: 50px;}
+.messageslists_uc60.me_right.groupchat div.message-bx.yourself .message-data {margin-left: 35px;}
 
 /*******17 May quick design short changes****/
 
