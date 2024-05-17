@@ -1464,6 +1464,7 @@ table {border-collapse: collapse;}
 .messageslists_uc60.me_right div.message-bx.yourself .user-avatar{ position: absolute; bottom: 4px;}
 
 .messageslists_uc60.me_right div.message-bx.yourself:hover{background: none!important; border:  0px solid #fff!important;}
+.messageslists_uc60.me_right div.message-bx.myself .author-name.message-time {font-size: 10px;} 
 
 /*******17 May quick design short changes****/
 
