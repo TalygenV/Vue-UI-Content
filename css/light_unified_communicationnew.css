@@ -1445,7 +1445,7 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 .messageslists_uc60.me_right div.message-bx.myself .author-name{color:#fff;}
 .messageslists_uc60.me_right div.message-bx.myself .message-body p{color:#fff; margin-bottom: 0px;}
 
-.messageslists_uc60.me_right div.message-bx.yourself {background: #ffffff; border: 1px solid #dbdbdb; padding: 5px 10px;border-radius: 10px 10px 10px 0px;}
+.messageslists_uc60.me_right div.message-bx.yourself .message-data {background: #ffffff; border: 1px solid #dbdbdb; padding: 5px 10px;border-radius: 10px 10px 10px 0px;}
 
 
 /*******17 May quick design short changes****/
