@@ -1437,14 +1437,15 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 .parentthread .user-avatar {border: 0px;}
 
 .messageslists_uc60.me_right div.message-bx{width: 55%;}
-.messageslists_uc60.me_right div.message-bx.yourself{float:left;background: #fff; border: 1px solid #dbdbdb;}
-/* .messageslists_uc60.me_right div.message-bx.myself{float:right;background: #edffef; border: 1px solid #c4dbc8;} */
+/*.messageslists_uc60.me_right div.message-bx.yourself{float:left;background: #fff; border: 1px solid #dbdbdb;}
+ .messageslists_uc60.me_right div.message-bx.myself{float:right;background: #edffef; border: 1px solid #c4dbc8;} */
 
 /*******17 May quick design short changes****/ 
 .messageslists_uc60.me_right div.message-bx.myself{float: right;  background: #3a7bc7; border: 1px solid #3a7bc7; border-radius: 20px 20px 0px 20px; padding: 10px 20px;}
 .messageslists_uc60.me_right div.message-bx.myself .author-name{color:#fff;}
-.messageslists_uc60.me_right div.message-bx.myself .message-body p{color:#fff;}
+.messageslists_uc60.me_right div.message-bx.myself .message-body p{color:#fff; margin-bottom: 0px;}
 
+.messageslists_uc60.me_right div.message-bx.yourself {background: #ffffff; border: 1px solid #dbdbdb; border-radius: 10px 10px 10px 0px;}
 
 
 /*******17 May quick design short changes****/
