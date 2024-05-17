@@ -5917,11 +5917,11 @@ li.active li { margin: 25px 0 0 0; }
 
     .tt_icons{ background-image:url(/Vue-UI-Content/images/timersprite.png); background-repeat:no-repeat;width:60px; height: 20px; float: left; margin-top: 15px; margin-bottom: 15px;}
     .tt_icons.ico_totalhrs{background-position:1px -62px;}
-    .tt_icons.ico_totalpaidtime{background-position:-58px -62px;}
-    .tt_icons.ico_totalbreaktime{background-position:-120px -62px;}
-    .tt_icons.ico_paidbreaktime{background-position:-180px -62px;}
+    .tt_icons.ico_totalpaidtime{background-position:-50px -62px;}
+    .tt_icons.ico_totalbreaktime{background-position:-110px -62px;}
+    .tt_icons.ico_paidbreaktime{background-position:-170px -62px;}
 
-    .tt_icons.ico_paidbreaktime.disable{background-position:-243px -62px;}
+    .tt_icons.ico_paidbreaktime.disable{background-position:-233px -62px;}
 
     .tt_lisitng_icons{background-image: url(/Vue-UI-Content/images/timersprite.png); background-repeat: no-repeat; width: 70px; height: 40px;}
     .tt_lisitng_icons.ico_listtags {background-position: -225px -9px;}
