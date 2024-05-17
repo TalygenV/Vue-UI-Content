@@ -1455,12 +1455,12 @@ table {border-collapse: collapse;}
  .messageslists_uc60.me_right div.message-bx.myself{float:right;background: #edffef; border: 1px solid #c4dbc8;} */
 
 /*******17 May quick design short changes****/ 
-.messageslists_uc60.me_right div.message-bx.myself{float: right;  background: #3a7bc7; border: 1px solid #3a7bc7; border-radius: 20px 20px 0px 20px; padding: 10px 20px;}
+.messageslists_uc60.me_right div.message-bx.myself{float: right;  background: #3a7bc7; border: 1px solid #3a7bc7; border-radius: 20px 0px 20px 20px; padding: 5px 10px;}
 .messageslists_uc60.me_right div.message-bx.myself .author-name{color:#fff;}
 .messageslists_uc60.me_right div.message-bx.myself .message-body p{color:#fff; margin-bottom: 0px;}
 
 .messageslists_uc60.me_right div.message-bx.yourself {position: relative; padding:0px;}
-.messageslists_uc60.me_right div.message-bx.yourself .message-data {background: #ffffff; border: 1px solid #dbdbdb; padding: 5px 10px;border-radius: 10px 10px 10px 0px; }
+.messageslists_uc60.me_right div.message-bx.yourself .message-data {background: #ffffff; border: 1px solid #dbdbdb; padding: 5px 10px;border-radius: 0px 20px 20px 20px; }
 .messageslists_uc60.me_right div.message-bx.yourself .user-avatar{ position: absolute; bottom: 4px;}
 
 
