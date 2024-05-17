@@ -1457,6 +1457,8 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 .messageslists_uc60.me_right div.message-bx.myself .author-name.message-time {font-size: 10px;}
 .messageslists_uc60.me_right div.message-bx.yourself .author-name.message-time {font-size: 10px;}
 
+.messageslists_uc60.me_right div.message-bx.myself .message-header{text-align: right;}
+
 /*******17 May quick design short changes****/
 
 .messageslists_uc60.me_right div.message-bx.parentthread { margin-bottom: 4px;}
