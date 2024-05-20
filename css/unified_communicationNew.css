@@ -1509,5 +1509,5 @@ table {border-collapse: collapse;}
         .dev_msgbx_left_for_attachment .user.card-contact{max-width: 46%!important; }
     }
     @media (max-width: 1199px) {
-        .dev_msgbx_left_for_attachment .user.card-contact{max-width: 100%!important; }
+        .dev_msgbx_left_for_attachment .user.card-contact{max-width: 96%!important; }
     }
