@@ -5820,7 +5820,7 @@ li.active li { margin: 25px 0 0 0; }
 
 
 
-.tt_textarea_span{width:calc(100% - 275px) !important;}
+.tt_textarea_span{width:calc(100% - 275px) !important; padding:1px;}
 .val_msg{color: #dc3545 !important; white-space: normal; position: absolute; bottom: 5px; right: 15px; font-size: 80%;}
 
 .val_msg2{color: #dc3545 !important; white-space: normal; font-size: 80%; float: left; margin-bottom: 10px;}
