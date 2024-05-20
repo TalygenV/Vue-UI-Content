@@ -1449,6 +1449,9 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 .messageslists_uc60.me_right div.message-bx.myself .message-body p{color:#fff; margin-bottom: 0px;}
 .messageslists_uc60.me_right div.message-bx.yourself .message-body p{margin-bottom: 0px;}
 
+.messageslists_uc60.me_right div.message-bx.yourself .message-body.onlyattachment { width: auto; min-width: auto;}
+.messageslists_uc60.me_right div.message-bx.myself .message-body.onlyattachment { width: auto; min-width: auto;}
+
 .messageslists_uc60.me_right div.message-bx.myself .message-body a.attachment.box{border: none!important; background: none;height: 150px!important; width: 150px!important;padding:0px!important;}
 .messageslists_uc60.me_right div.message-bx.myself .message-body a.attachment.box img{width: 100%!important;height: 100%!important;}
 
