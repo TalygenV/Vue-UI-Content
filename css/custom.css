@@ -311,6 +311,9 @@ input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transfo
 .custom-switch .custom-control-label::after {transition: none;}}
 .custom-switch .custom-control-input:checked ~ .custom-control-label::after{background-color: #fff; -webkit-transform: translateX(0.75rem); transform: translateX(0.75rem);}
 .custom-switch .custom-control-input:disabled:checked ~ .custom-control-label::before {background-color: rgba(0, 123, 255, 0.5);}
+
+label.switch.w70{min-width: 70px;}
+
 .switch.medium{ width:90px; }
 .switch.medium input:checked + .slider::before{ left: 40px; }
 .switch.large{ width:110px; }
