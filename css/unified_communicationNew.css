@@ -1520,5 +1520,5 @@ table {border-collapse: collapse;}
     width: 100%; max-width: 30%; float: left; display: flex; transition: all .4s;}
     */
 
-    .dev_msgbx_left_for_attachment .dividerdate{border-bottom:0px; text-align: left;}
-    .dev_msgbx_left_for_attachment .dividerdate_box{background: #4d4d4d;}
+    .dev_msgbx_left_for_attachment .dividerdate{border-bottom:0px!important; text-align: left!important;}
+    .dev_msgbx_left_for_attachment .dividerdate_box{background: #4d4d4d!important;}
