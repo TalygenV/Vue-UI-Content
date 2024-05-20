@@ -322,7 +322,7 @@ a.searchContactAlpha:hover, a.searchClientAlpha:hover {background: #72c6a0;color
 
 /*********27-08-20208************/
 .message-data { position: relative; }
-.msg-actions { background: #fff; border: 1px solid #cdcdcd; padding: 1px 5px; position: absolute; right: 10px; top: -15px; display: none }
+.msg-actions { background: #fff; border: 1px solid #cdcdcd; padding: 1px 5px; position: absolute; right: 10px; top: -30px; display: none }
 .msg-actions ul li { list-style: none; display: inline-block; padding: 4px 2px; }
 .msg-actions ul li a { color: #626262; padding: 5px; position: relative; }
 .msg-actions ul li a:hover { color: #f0ab5d; }
