@@ -5949,6 +5949,14 @@ li.active li { margin: 25px 0 0 0; }
 
     .newtt .vue__time-picker .custom-icon{right: 0px!important; left: unset!important;}
 
+    @media (min-width:1024px)
+    {
+        .newtt input{width: 100%;box-sizing: border-box;
+            -moz-box-sizing: border-box; 
+            -webkit-box-sizing: border-box;}
+    }
+
+
     .newtimertabsbase{background: #f4f4f4;}
 
     .dottedbod_rt .tagspanel span{float:left; font-size:12px; margin-right:10px; margin-top: 5px; padding: 4px 10px; font-weight:500!important; max-width: 100px;}
