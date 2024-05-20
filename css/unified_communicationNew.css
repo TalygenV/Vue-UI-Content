@@ -1494,7 +1494,8 @@ table {border-collapse: collapse;}
     color: #004085!important;
     background-color: #fff!important;
     border-color: #e0e6ed !important;
-    padding: 10px;
-    font-size: 17px;
-    display: block;
+    padding: 10px!important;
+    font-size: 13px;
+    display: block; min-width: 340px !important;
 }
+.own-message.message-bx.myself.progressbasediv .control-section{margin-bottom: 5px;}
