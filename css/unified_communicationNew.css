@@ -1463,6 +1463,9 @@ table {border-collapse: collapse;}
 .messageslists_uc60.me_right div.message-bx.myself .message-body a.attachment.box{border: none!important; background: none;height: 150px!important; width: 150px!important;padding:0px!important;}
 .messageslists_uc60.me_right div.message-bx.myself .message-body a.attachment.box img{width: 100%!important;height: 100%!important;}
 
+.messageslists_uc60.me_right div.message-bx.yourself .message-body a.attachment.box{border: none!important; background: none;height: 150px!important; width: 150px!important;padding:0px!important;}
+.messageslists_uc60.me_right div.message-bx.yourself .message-body a.attachment.box img{width: 100%!important;height: 100%!important;}
+
 .messageslists_uc60.me_right div.message-bx.yourself {position: relative; padding:0px; float:left; max-width: 55%; min-width: 130px; width: auto; border: 0px solid #fff !important;}
 .messageslists_uc60.me_right div.message-bx.yourself .message-data {background: #ffffff; border: 1px solid #dbdbdb; padding: 5px 10px;border-radius: 0px 20px 20px 20px; }
 .messageslists_uc60.me_right div.message-bx.yourself .user-avatar{ position: absolute; bottom: 4px; width: 30px!important; height: 30px!important;}
@@ -1502,7 +1505,8 @@ table {border-collapse: collapse;}
 
 .own-message.message-bx.myself.progress{height: 0.50rem!important;}
 
-.dev_msgbx_left_for_attachment .user.card-contact{display: flex; flex: 0 0 100%;  align-items: center;  box-sizing: border-box;  margin: 15px; margin-bottom: 5px; flex-flow: row wrap;
+.dev_msgbx_left_for_attachment .user.card-contact{display: flex; flex: 0 0 100%;  
+    align-items: center;  box-sizing: border-box;  margin: 15px; margin-bottom: 5px; flex-flow: row wrap;
     width: 100%; max-width: 30%; float: left; display: flex; transition: all .4s;}
 
     @media (max-width: 1439px) {
