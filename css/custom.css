@@ -298,7 +298,7 @@ input[type=checkbox], input[type=radio] { box-sizing: border-box;  padding: 0;}
 .slider span{display:none;}
 .sliderGoalProgress .slider span { display: block;}
 .sliderGoalProgress .slider::before{ display: none;}
-.slider:before{position: absolute;content: "";  height: 19px;  width: 19px; left: 4px; bottom: 3px; background-color: white; -webkit-transition: .4s; transition: .4s;}
+.slider:before{position: absolute;content: "";  height: 19px;  width: 19px; left: 4px; bottom: 5px; background-color: white; -webkit-transition: .4s; transition: .4s;}
 input:checked + .slider {text-indent:0;  background: #4595db!important;    padding-right: 27px;}
 input:checked + .slider span.slider-yes {    display:inline-block;    }/***padding: 0 26px 0 0px;***/
 input:checked + .slider span.slider-no {    display: none !important;}
