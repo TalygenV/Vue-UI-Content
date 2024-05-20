@@ -1507,4 +1507,4 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
     */
 
     .dev_msgbx_left_for_attachment .dividerdate{border-bottom:0px!important; text-align: left!important;margin-bottom: 10px !important;}
-    .dev_msgbx_left_for_attachment .dividerdate_box{background: none!important; color: #303030!important;font-size: 16px!important;}
+    .dev_msgbx_left_for_attachment .dividerdate_box{background: none!important; color: #303030!important;font-size: 16px!important;text-align: left !important;padding: 0px;}
