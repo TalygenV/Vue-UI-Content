@@ -1456,8 +1456,8 @@ table {border-collapse: collapse;}
 
 /*******17 May quick design short changes****/ 
 .messageslists_uc60.me_right div.message-bx.myself{float: right;  background: #3a7bc7; border: 1px solid #3a7bc7; border-radius: 20px 0px 20px 20px; padding: 5px 10px; max-width: 55%; min-width: 130px; width: auto;}
-.messageslists_uc60.me_right div.message-bx.myself .message-body{word-break: break-all; float: left; width: calc(100% - 100px); min-width: 150px;}
-.messageslists_uc60.me_right div.message-bx.yourself .message-body{word-break: break-all; float: left; width: calc(100% - 100px); min-width: 170px;}
+.messageslists_uc60.me_right div.message-bx.myself .message-body{word-break: break-all; float: left; width: calc(100% - 140px); min-width: 250px; margin-right: 20px;}
+.messageslists_uc60.me_right div.message-bx.yourself .message-body{word-break: break-all; float: left; width: calc(100% - 140px); min-width: 250px;}
 
 .messageslists_uc60.me_right div.message-bx.myself .author-name{color:#fff;}
 .messageslists_uc60.me_right div.message-bx.myself .message-body p{color:#fff; margin-bottom: 0px;}
