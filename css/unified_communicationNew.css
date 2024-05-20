@@ -360,7 +360,7 @@ max-height: -moz-calc(100vh - 171px)
 
 .expand-box { margin-right: 10px; display: none }
 .expand-box { color: #ccc; cursor: pointer }
-.menu_foot { position: absolute; bottom: 4px; min-width: 245px; padding: 20px }
+.menu_foot { position: absolute; bottom: 4px; min-width: 245px; padding: 20px ; background: #2a313a; z-index: 99;}
 .menu_foot a.btn { border: 1px solid #6b6b6b; color: #ccc; text-decoration: none; padding: 8px 18px; margin: 0 auto; display: block; text-align: center }
 .menu_foot a.btn:hover { background: #5698c6; border-color: #5698c6; }
 .body-CommunicationClassForCSS .modal-body { overflow-y: scroll; max-height: 400px }
