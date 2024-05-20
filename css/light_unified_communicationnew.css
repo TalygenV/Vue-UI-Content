@@ -1506,5 +1506,5 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
     width: 100%; max-width: 30%; float: left; display: flex; transition: all .4s;}
     */
 
-    .dev_msgbx_left_for_attachment .dividerdate{border-bottom:0px!important; text-align: left!important;}
-    .dev_msgbx_left_for_attachment .dividerdate_box{background: #4d4d4d!important;}
+    .dev_msgbx_left_for_attachment .dividerdate{border-bottom:0px!important; text-align: left!important;margin-bottom: 10px !important;}
+    .dev_msgbx_left_for_attachment .dividerdate_box{background: none!important; color: #303030!important;font-size: 16px!important;}
