@@ -1515,13 +1515,10 @@ table {border-collapse: collapse;}
 
 .own-message.message-bx.myself.progress{height: 0.50rem!important;}
 
-.dev_msgbx_left_for_attachment .user.card-contact{display: flex; flex: 0 0 100%;  
+/* .dev_msgbx_left_for_attachment .user.card-contact{display: flex; flex: 0 0 100%;  
     align-items: center;  box-sizing: border-box;  margin: 15px; margin-bottom: 5px; flex-flow: row wrap;
     width: 100%; max-width: 30%; float: left; display: flex; transition: all .4s;}
+    */
 
-    @media (max-width: 1439px) {
-        .dev_msgbx_left_for_attachment .user.card-contact{max-width: 46%!important; }
-    }
-    @media (max-width: 1199px) {
-        .dev_msgbx_left_for_attachment .user.card-contact{max-width: 96%!important; }
-    }
+    .dev_msgbx_left_for_attachment .dividerdate{border-bottom:0px; text-align: left;}
+    .dev_msgbx_left_for_attachment .dividerdate_box{background: #4d4d4d;}
