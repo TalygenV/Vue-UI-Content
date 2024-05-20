@@ -1490,3 +1490,10 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 
 .dev_msgbx_left_for_attachment .user.card-contact{display: flex; flex: 0 0 100%;  align-items: center;  box-sizing: border-box;  margin: 15px; margin-bottom: 5px; flex-flow: row wrap;
     width: 100%; max-width: 30%; float: left; display: flex; transition: all .4s;}
+
+    @media (max-width: 1439px) {
+        .dev_msgbx_left_for_attachment .user.card-contact{max-width: 46%!important; }
+    }
+    @media (max-width: 1199px) {
+        .dev_msgbx_left_for_attachment .user.card-contact{max-width: 100%!important; }
+    }
