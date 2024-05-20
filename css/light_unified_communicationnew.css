@@ -1485,3 +1485,5 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
     display: block; min-width: 340px !important;
 }
 .own-message.message-bx.myself.progressbasediv .control-section{margin-bottom: 5px;}
+
+.own-message.message-bx.myself.progress{height: 0.50rem;}
