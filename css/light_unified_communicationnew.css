@@ -1486,4 +1486,7 @@ ul.multiselect-container li div.input-group{width:auto!important;}/******Create 
 }
 .own-message.message-bx.myself.progressbasediv .control-section{margin-bottom: 5px;}
 
-.own-message.message-bx.myself.progress{height: 0.50rem;}
+.own-message.message-bx.myself.progress{height: 0.50rem!important;}
+
+.dev_msgbx_left_for_attachment .user.card-contact{display: flex; flex: 0 0 100%;  align-items: center;  box-sizing: border-box;  margin: 15px; margin-bottom: 5px; flex-flow: row wrap;
+    width: 100%; max-width: 30%; float: left; display: flex; transition: all .4s;}
