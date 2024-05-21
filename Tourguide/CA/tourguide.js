@@ -122,14 +122,19 @@ touritem["Ticketing/Manage"] = {
                 "content": "SplitMerge",
             },
             {
-                "selector": "#tabscontent #postReplyNote",
+                "selector": "#tabscontent a[title='Reply']",
                 "step": 3,
-                "title": "Add Notes & Post Reply",
-                "content": "AddNotesPostReply",
-            }
+                "title": "Add Post Reply",
+                "content": "AddPostReply",
+            },
+            {
+              "selector": "#tabscontent a[title='Add Notes']",
+              "step": 4,
+              "title": "Add Notes",
+              "content": "AddNotesReply",
+          }
         ]
 };
-
 
 touritem["Ticketing/Group"] = {
     ModuleDisplayName: "Ticketing",

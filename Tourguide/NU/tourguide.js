@@ -601,30 +601,36 @@ touritem["Ticketing/add"] = {
 };
 
 touritem["Ticketing/Manage"] = {
-  ModuleDisplayName: "Ticketing",
-  ModuleName: "Ticketing",
-  displayName: "Details",
-  items:
-      [
-          {
-              "selector": "#UpdateDetail",
-              "step": 1,
-              "title": "Status Update",
-              "content": "StatusUpdatePageTour",
-          },
-          {
-              "selector": "#MergeDetail",
-              "step": 2,
-              "title": "Split & Merge",
-              "content": "SplitMerge",
-          },
-          {
-              "selector": "#tabscontent #postReplyNote",
-              "step": 3,
-              "title": "Add Notes & Post Reply",
-              "content": "AddNotesPostReply",
+    ModuleDisplayName: "Ticketing",
+    ModuleName: "Ticketing",
+    displayName: "Details",
+    items:
+        [
+            {
+                "selector": "#UpdateDetail",
+                "step": 1,
+                "title": "Status Update",
+                "content": "StatusUpdatePageTour",
+            },
+            {
+                "selector": "#MergeDetail",
+                "step": 2,
+                "title": "Split & Merge",
+                "content": "SplitMerge",
+            },
+            {
+                "selector": "#tabscontent a[title='Reply']",
+                "step": 3,
+                "title": "Add Post Reply",
+                "content": "AddPostReply",
+            },
+            {
+              "selector": "#tabscontent a[title='Add Notes']",
+              "step": 4,
+              "title": "Add Notes",
+              "content": "AddNotesReply",
           }
-      ]
+        ]
 };
 
 
