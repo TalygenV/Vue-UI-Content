@@ -635,24 +635,24 @@ touritem["Ticketing/Manage"] = {
 
 
 touritem["Ticketing/Group"] = {
-  ModuleDisplayName: "Ticketing",
-  ModuleName: "Ticketing",
-  displayName: "GroupListing",
-  items:
-      [
-          {
-              "selector": "#accordionEx",
-              "step": 1,
-              "title": "Search Filters",
-              "content": "SearchFiltersPageTour",
-          },
-          {
-              "selector": "#AddGroup",
-              "step": 2,
-              "title": "Add Group",
-              "content": "AddGroupPageTour",
-          }            
-      ]
+    ModuleDisplayName: "Ticketing",
+    ModuleName: "Ticketing",
+    displayName: "GroupListing",
+    items:
+        [
+            {
+                "selector": "#accordionEx",
+                "step": 1,
+                "title": "Search Filters",
+                "content": "SearhFiltersGroup",
+            },
+            {
+                "selector": "#AddGroup",
+                "step": 2,
+                "title": "Add Group",
+                "content": "AddGroupPageTour",
+            }            
+        ]
 };
 
 touritem["Ticketing/AddGroup"] = {

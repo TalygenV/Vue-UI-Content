@@ -146,7 +146,7 @@ touritem["Ticketing/Group"] = {
                 "selector": "#accordionEx",
                 "step": 1,
                 "title": "Search Filters",
-                "content": "SearchFiltersPageTour",
+                "content": "SearhFiltersGroup",
             },
             {
                 "selector": "#AddGroup",
