@@ -5949,7 +5949,7 @@ li.active li { margin: 25px 0 0 0; }
 
     .newtt .vue__time-picker .custom-icon{right: 0px!important; left: unset!important;}
 
-    @media (min-width:1024px)
+    @media (max-width:1024px)
     {
         .newtt input{width: 100%;box-sizing: border-box;
             -moz-box-sizing: border-box; 
