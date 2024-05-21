@@ -6009,29 +6009,12 @@ li.active li { margin: 25px 0 0 0; }
 .viewmoretags {box-sizing: border-box; float: left; background: #f2f2f2; width: 250px; border: 1px solid #d7d7d7!important; padding: 5px;max-height: 210px; overflow-y: auto; overflow-x: hidden;}
 .viewmoretags span {float: left; background-color: #fff !important; padding: 4px 10px; margin: 5px 0px; border: 1px solid #e6e6e6!important; width: 100%; max-width: 100%!important;}
 
-
 .mobilelistview_base .viewmoretagsbase {
-    position: absolute;
-    z-index: 99;
-    box-sizing: border-box;
-    right: auto!important;
-    top: -6px!important;
-    padding: 5px 10px 5px 5px;
-    border: none !important;
-    left: 114px!important;
+    position: absolute; z-index: 99; box-sizing: border-box;  right: auto!important; top: -6px!important; padding: 5px 10px 5px 5px;
+    border: none !important; left: 114px!important;
   }
-
-  .mobilelistview_base .popover-arrowss {
-    left: -3px!important;
-    width: 10px;
-    height: 20px;
-    border: none !important;
-    top: 10px!important;
-    position: absolute;
-    transform: rotate(180deg)!important;
-  }
-
-
+ .mobilelistview_base .popover-arrowss { left: -3px!important; width: 10px; height: 20px; border: none !important; top: 10px!important; position: absolute; transform: rotate(180deg)!important;}
+ .mobilelistview_base .hs_tag{left: 170px !important;}
 
 .popover-arrowss::before {right: 0; border-width: .5rem 0 .5rem .5rem; border-left-color: #d7d7d7 !important;}
 .popover-arrowss::after {right: 1px; border-width: .5rem 0 .5rem .5rem; border-left-color: #f2f2f2 !important;}
