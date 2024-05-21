@@ -6511,3 +6511,5 @@ li.active li { margin: 25px 0 0 0; }
 
 
 .activity-tab.col-md-12.p-0.mt-4.float-left.weblistviewtimer:last-child{margin-bottom: 150px;}
+
+.vue-popover{width: 200px!important;}
