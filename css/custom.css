@@ -5814,9 +5814,9 @@ li.active li { margin: 25px 0 0 0; }
 .multiselect.tt_bod-right{border-right:1px solid #cdcecf!important;}
 .tt_bod-right{border-right:1px solid #cdcecf!important;}
 
-
-
 .tt_ddr.tt_ddr_new .vue-treeselect__control{border: none!important;} 
+
+.tt_ddr.tt_ddr_new .vue-treeselect__placeholder {font-weight: 500!important; color: #505050 !important;}
 
 
 
