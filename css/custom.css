@@ -151,7 +151,7 @@ input[type=checkbox], input[type=radio] { box-sizing: border-box;  padding: 0;}
 .nav-heading .back a{color:#777576;}
 .nav-heading .back a:hover{color:#212529;}
 .navigation-panel .custom-scrollbar-js{max-height:400px;}
-.full-menu-new.custom-width-menu{max-width:400px;}
+.full-menu-new.custom-width-menu{max-width:470px;}/**400**/
 .full-menu-new.custom-width-menu .navigation-panel {min-height: 300px;}
 .full-menu-new.custom-width-menu .navigation-panel ul {width:100%;}
 .user-guide .custom-scrollbar-js { max-height: 320px; }
