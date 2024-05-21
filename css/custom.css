@@ -6385,6 +6385,10 @@ li.active li { margin: 25px 0 0 0; }
 .tt_play_btn{width: 100%;}
 .timerclck{width: 100%; border: none; border-top: 1px solid #cfcfcf; margin: 0px;}
 .leftcont_divs.manual .tt_bod-right.timepickercontrol.pt-4.pr-2.pl-3 {float: left; width: 100%;}
+
+.leftcont_divs.manual .tt_bod-right.timepickercontrol.pt-4.pr-2.pl-3 input{box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; 
+    min-width: 150px!important; width: 150px!important;}
+
 .timerDiv{float: left; width: 99%;}
 .leftcont_divs .hs2.breakModal{left: -1px; top: 73px;}
 .newtimetrack .multiselect__content-wrapper{top: 58px;}
