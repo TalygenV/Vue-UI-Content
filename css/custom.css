@@ -5766,10 +5766,10 @@ li.active li { margin: 25px 0 0 0; }
 
 .multiselect__placeholder {
   color: #505050!important;
-  display: inline-block;
-  margin-bottom: 10px;
-  padding-top: 2px;
-  font-weight: 500;
+  display: inline-block!important;
+  margin-bottom: 10px!important;
+  padding-top: 5px!important;
+  font-weight: 500!important;
 }
 
 
@@ -5790,8 +5790,8 @@ li.active li { margin: 25px 0 0 0; }
 
 #breakTime .multiselect__select:before{z-index: 99;}     
 
-.newtimetrack .multiselect__select:before{z-index: 9!important;}
-.newtimetrack .multiselect__select{top:14px;}
+.newtimetrack .multiselect__select:before{z-index: 9!important;border-color: #303030 transparent transparent!important;}
+.newtimetrack .multiselect__select{top:22px;}
 .newtimetrack .multiselect{min-height: calc(2.12rem + 12px)!important; padding-top: 21px; margin-bottom:0px; min-width: auto;}
 
 .newtimetrack .multiselect__tags{border: none!important;}
