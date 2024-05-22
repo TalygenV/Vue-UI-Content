@@ -5595,6 +5595,10 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .control_helpguide .border.py-4{padding-bottom: 0.25rem !important; padding-top: 0.25rem !important;}
 .control_helpguide .equator-color{text-align: right!important;}
 
+.control_helpguide .description-hover{min-height: 43px;}
+
+
+
 .control_helpguide div.col-md-4:nth-child(1) .col-md-2 em {color: #09519b!important;}
 .control_helpguide div.col-md-4:nth-child(2) .col-md-2 em {color: #69915c!important;}
 .control_helpguide div.col-md-4:nth-child(3) .col-md-2 em {color: #dda628!important;}
