@@ -5642,7 +5642,7 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
      overflow: hidden; max-height: initial; float: left; width: 100%; line-height: 18px;}
 .initialpopupbase{vertical-align: top!important; margin-top: 46px !important; max-width: 520px!important;}  
 
-.widget_panel.bijlee .time_clk{line-height:12px;}
+.widget_panel.bijlee .time_clk{line-height:12px;font-size: 11px!important;}
 
 .widget_panel li a.card-box {color: #303030;}
 
