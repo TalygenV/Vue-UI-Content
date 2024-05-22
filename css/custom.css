@@ -5020,8 +5020,18 @@ ul.graphinfo li:last-child{border: none;}
 
 /******After Design Kand - 22 MAy 2024 HArjit Singh*********/
 
-.card-view.custom-box-width .div-cardView:nth-child(1) .box div.align-items-center{background: #000000!important;}
-.card-view.custom-box-width .div-cardView:nth-child(2) .box div.align-items-center{background: #ff0000!important;}
+.card-view.custom-box-width .div-cardView:nth-child(10n+1) .box div.align-items-center{background: #3d995d!important;}
+.card-view.custom-box-width .div-cardView:nth-child(10n+2) .box div.align-items-center{background: #7d6b5d!important;}
+.card-view.custom-box-width .div-cardView:nth-child(10n+3) .box div.align-items-center{background: #089ce0!important;}
+.card-view.custom-box-width .div-cardView:nth-child(10n+4) .box div.align-items-center{background: #f5c800!important;}
+.card-view.custom-box-width .div-cardView:nth-child(10n+5) .box div.align-items-center{background: #787878!important;}
+.card-view.custom-box-width .div-cardView:nth-child(10n+6) .box div.align-items-center{background: #56ada7!important;}
+.card-view.custom-box-width .div-cardView:nth-child(10n+7) .box div.align-items-center{background: #c59e71!important;}
+.card-view.custom-box-width .div-cardView:nth-child(10n+8) .box div.align-items-center{background: #e67d21!important;}
+.card-view.custom-box-width .div-cardView:nth-child(10n+9) .box div.align-items-center{background: #6d60b0!important;}
+.card-view.custom-box-width .div-cardView:nth-child(10n+10) .box div.align-items-center{background: #6bd046!important;}
+
+
 
 /* .control_helpguide div.col-md-4:nth-child(1) .col-md-2 em {color: #09519b!important;}
 .control_helpguide div.col-md-4:nth-child(2) .col-md-2 em {color: #69915c!important;}
