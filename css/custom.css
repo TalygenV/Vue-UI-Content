@@ -6552,4 +6552,4 @@ li.active li { margin: 25px 0 0 0; }
 
 .vue-popover{width: 200px!important;}
 
-.c100.green .bar, .c100.green .fill{border-color:#3d995d!important;}
+.barprogress .c100.green .bar, .barprogress .c100.green .fill{border-color:#3d995d!important;}
