@@ -5597,7 +5597,7 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 
 .control_helpguide .description-hover{min-height: 43px;}
 
-
+.control_helpguide div.col-md-4 .col-md-2 .equator-color em.text-primary {color: #25a5ff!important;}
 
 .control_helpguide div.col-md-4:nth-child(1) .col-md-2 em {color: #09519b!important;}
 .control_helpguide div.col-md-4:nth-child(2) .col-md-2 em {color: #69915c!important;}
