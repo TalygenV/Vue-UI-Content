@@ -5018,6 +5018,24 @@ ul.graphinfo li:last-child{border: none;}
 .clr-5 {color: #6bd046;}
 /**************  Doc Storage Sushil 27 Feb ***************/
 
+/******After Design Kand - 22 MAy 2024 HArjit Singh*********/
+
+.card-view.custom-box-width .div-cardView:nth-child(1) .box div.align-items-center{background: #000000!important;}
+.card-view.custom-box-width .div-cardView:nth-child(2) .box div.align-items-center{background: #ff0000!important;}
+
+/* .control_helpguide div.col-md-4:nth-child(1) .col-md-2 em {color: #09519b!important;}
+.control_helpguide div.col-md-4:nth-child(2) .col-md-2 em {color: #69915c!important;}
+.control_helpguide div.col-md-4:nth-child(3) .col-md-2 em {color: #dda628!important;}
+.control_helpguide div.col-md-4:nth-child(4) .col-md-2 em {color: #da9c49!important;}
+.control_helpguide div.col-md-4:nth-child(5) .col-md-2 em {color: #756caf!important;}
+.control_helpguide div.col-md-4:nth-child(6) .col-md-2 em {color: #29b0ce!important;} */
+
+
+
+
+
+/******After Design Kand - 22 MAy 2024 HArjit Singh*********/
+
 .fsmaddresscontrol .card-detail i.fa-map-marker {font-size: 25px;color: #303030;}
 .fsmaddresscontrol .card-detail i {width: 25px;padding-left: 3px;}
 .card-detail i {width: 20px;padding-right: 6px;float: left;padding-top: 4px;}
