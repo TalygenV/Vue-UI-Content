@@ -5031,6 +5031,7 @@ ul.graphinfo li:last-child{border: none;}
 .card-view.custom-box-width .div-cardView:nth-child(10n+9) .box div.align-items-center{background: #6d60b0!important;}
 .card-view.custom-box-width .div-cardView:nth-child(10n+10) .box div.align-items-center{background: #6bd046!important;}
 
+.card-view.custom-box-width .div-cardView .align-items-end .col-md-12.font-14.mt-2.text-center{font-weight: 500;}
 
 
 /* .control_helpguide div.col-md-4:nth-child(1) .col-md-2 em {color: #09519b!important;}
