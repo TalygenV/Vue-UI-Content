@@ -5042,7 +5042,7 @@ ul.graphinfo li:last-child{border: none;}
 .control_helpguide div.col-md-4:nth-child(6) .col-md-2 em {color: #29b0ce!important;} */
 
 
-.c100.green .bar,.c100.green .fill{border-color:#3d995d!important;}
+
 
 
 /******After Design Kand - 22 MAy 2024 HArjit Singh*********/
@@ -6551,3 +6551,5 @@ li.active li { margin: 25px 0 0 0; }
 .activity-tab.col-md-12.p-0.mt-4.float-left.weblistviewtimer:last-child{margin-bottom: 150px;}
 
 .vue-popover{width: 200px!important;}
+
+.c100.green .bar, .c100.green .fill{border-color:#3d995d!important;}
