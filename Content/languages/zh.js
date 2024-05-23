@@ -1,4 +1,4 @@
-const ZH =
+const EN =
 {
     '3characterwaring': "Please set last 3 characters as digit only",
     '3_QUARTER_LEAVE': "3 Quarter Leave",
@@ -7955,4 +7955,4 @@ const ZH =
     HelpGuide:'帮助指南'
 
 }
-export default ZH;
+export default EN;
