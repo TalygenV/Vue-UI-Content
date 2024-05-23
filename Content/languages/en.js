@@ -1,5 +1,4 @@
-const EN =
-{
+[{
     '3characterwaring': "Please set last 3 characters as digit only",
     '3_QUARTER_LEAVE': "3 Quarter Leave",
     a: "a",
@@ -9078,5 +9077,4 @@ HelpGuide:'Help & Guide',
 Socialize:'Socialize',
 dynamicformsavemsg:'Form has been save Successfully',
 AlreadyExistRec:'Record Already Exists.'
-}
-export default EN;
+}]

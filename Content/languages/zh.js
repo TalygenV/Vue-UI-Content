@@ -1,7 +1,6 @@
-const EN =
-{
-    '3characterwaring': "Please set last 3 characters as digit only",
-    '3_QUARTER_LEAVE': "3 Quarter Leave",
+[{
+    characterwaring: "Please set last 3 characters as digit only",
+    QUARTER_LEAVE: "3 Quarter Leave",
     a: "a",
     Abbreviations: "Abbreviations",
     AbbrName: "Abbrev Name",
@@ -7953,6 +7952,4 @@ const EN =
     ResourceUserGuide2: "In this section, you can resize, edit existing and add new task <br><br>\r\n       1. <b>Resize</b> - This helps to resize the task assigned to the resource by extending the assigned end date for that particular user<br><br>\r\n 2. <b>Single click</b> -Helps you to edit the current assigned task <br><br>\r\n 3. <b>Double click</b> - Helps you to assign new task<br><br>\r\n <br><br>\r\n <br><br>\r\n <br><br>\r\n <br><br>\r\n <br><br>",
     ResourceUserGuide3: "In this section, you can resize, edit existing and add new task <br><br>\r\n       1. <b>Resize</b> - This helps to resize the task assigned to the resource by extending the assigned end date for that particular user<br><br>\r\n 2. <b>Single click</b> -Helps you to edit the current assigned task <br><br>\r\n 3. <b>Double click</b> - Helps you to assign new task<br><br>\r\n <br><br>\r\n <br><br>\r\n <br><br>\r\n <br><br>\r\n <br><br>",
     HelpGuide:'帮助指南'
-
-}
-export default EN;
+}]
