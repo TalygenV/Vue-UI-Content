@@ -6558,9 +6558,21 @@ li.active li { margin: 25px 0 0 0; }
 #divModalTimetrack.dynamic-multiselect{position: relative!important;}
 #spnAdvancedSetup{float:left;}
 
-
 .activity-tab.col-md-12.p-0.mt-4.float-left.weblistviewtimer:last-child{margin-bottom: 150px;}
 
 .vue-popover{width: 200px!important;}
 
 .barprogress .c100.green .bar, .barprogress .c100.green .fill{border-color:#3d995d!important;}
+
+
+/***********KnowledgeBase Articles*****************************/
+.knowledgebasemain .knowledgebaselist h1{font-size: 1.1rem;color: #424f55; font-weight: 400; margin: 0px 0px 10px 0px; background: #f9f9f9; padding: 10px;}
+.nav-pills .title.overflow_hid h3 {font-size: 1.4rem; color: #424f55; font-weight: 400; margin: 0px 0px 10px 0px;}
+
+
+
+
+
+
+/***********KnowledgeBase Articles*****************************/
+
