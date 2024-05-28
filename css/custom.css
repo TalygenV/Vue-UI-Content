@@ -6567,14 +6567,14 @@ li.active li { margin: 25px 0 0 0; }
 .helpartilceslistcontrol .card .card-header a span.textquestions{color:#4d85fc; text-transform: none;}
 
 
-ul.helparticlesnewdesign{background: #f9f9f9!important;}
+/* ul.helparticlesnewdesign{background: #f9f9f9!important;}
 ul.helparticlesnewdesign li a { color: #424f55; font-weight: 400;}
 
 ul.helparticlesnewdesign li a.left-menu:hover{background:#ededed!important;color: #424f55!important;}
-ul.helparticlesnewdesign li a.left-menu.active{background:#ededed!important;color: #424f55!important}
+ul.helparticlesnewdesign li a.left-menu.active{background:#ededed!important;color: #424f55!important;}
 
 ul.helparticlesnewdesign li {border-bottom: none !important;}
-ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!important;}
+ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!important;} */
 
    
 
