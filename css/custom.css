@@ -6566,6 +6566,11 @@ li.active li { margin: 25px 0 0 0; }
 .helpartilceslistcontrol .card .card-header a em{color:#d9d9d9!important;}
 .helpartilceslistcontrol .card .card-header a span.textquestions{color:#598bf5; text-transform: none;}
 
+ul.helparticlesnewdesign li {border-bottom: none !important;}
+ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!important;}
+
+
+
 
 /***********KnowledgeBase Articles*****************************/
 
