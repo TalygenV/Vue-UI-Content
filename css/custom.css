@@ -2376,7 +2376,7 @@ width: 50px !important; height: 50px !important; text-align: center; transition:
 .card-view.custom-box-width{min-height:300px;}
 
 
-ul.lefttabiconfix li a em{min-width:30px; text-align:center;}
+ul.lefttabiconfix li a em{min-width:30px; text-align:center;padding:0px!important; }
 
 ul.lefttabiconfix.rtfix li a{display: flex; flex-wrap: nowrap;padding: 10px;}
 ul.lefttabiconfix.rtfix li a em{min-width:30px; text-align:center; font-size: 25px;}
