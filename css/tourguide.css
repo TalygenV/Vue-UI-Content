@@ -51,15 +51,16 @@ blockquote {
             position: absolute;
             box-sizing: border-box;
             border-radius: 0px;
-            box-shadow: 0 0 0 999em var(--tourguide-overlay);
             z-index: 1024; border: 6px solid #25a5fc;
+            box-shadow: 0 0 0 999em rgba(0, 0, 0, 0.6);            
+            /* box-shadow: 0 0 0 999em var(--tourguide-overlay); */
         }
 
         .guided-tour-step.active .guided-tour-step-tooltip {
             position: absolute;
             margin: 16px 0;
             z-index: 1025;
-           min-width: 280px;
+            min-width: 280px;
             max-width: 400px;
             border-radius: 5px;
             box-sizing: border-box;            
