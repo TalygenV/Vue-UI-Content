@@ -163,7 +163,7 @@ blockquote {
         bottom: 14px;
         background: #28a745;
     color: #ffffff;
-    border-radius: 0px;
+    border-radius: 0px; width: 90px;
     }
 
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-bullets {
@@ -270,7 +270,7 @@ blockquote {
     color: #4f4f4f;
     font-weight: 400;
     line-height: 20px;
-    margin-bottom: 25px; font-size: 14px; font-weight: 400;
+    margin-bottom: 25px; font-size: 14px;
 }
 
 /*Sushil 21june background color change background-color: #f4eba6;*/
