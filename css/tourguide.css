@@ -65,10 +65,10 @@ blockquote {
             border: 6px solid #25a5fc;
             border-radius: 0px;
             box-sizing: border-box;            
-            transition: opacity 150ms ;background-color:#ffffff;
-            box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49);
+            transition: opacity 150ms ;background-color:#ffffff; border-bottom: 30px solid #25a5fc;
+            /* box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49);
             -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49);
-            -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49);
+            -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49); */
         }
 
 @media screen and (max-width: 760px) {

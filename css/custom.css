@@ -5831,7 +5831,7 @@ li.active li { margin: 25px 0 0 0; }
 #breakTime .multiselect__select:before{z-index: 99;}     
 
 .newtimetrack .multiselect__select:before{z-index: 9!important;border-color: #303030 transparent transparent!important;}
-.newtimetrack .multiselect__select{top:25px;}
+.newtimetrack .multiselect__select{top:22px;right: 7px;}
 .newtimetrack .multiselect{min-height: calc(2.12rem + 12px)!important; padding-top: 20px; padding-bottom: 10px; margin-bottom:0px; min-width: auto;}
 
 .newtimetrack .multiselect__tags{border: none!important;}
