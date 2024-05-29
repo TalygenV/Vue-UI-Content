@@ -50,9 +50,9 @@ blockquote {
         .guided-tour-step.active .guided-tour-step-highlight {
             position: absolute;
             box-sizing: border-box;
-            border-radius: 4px;
+            border-radius: 0px;
             box-shadow: 0 0 0 999em var(--tourguide-overlay);
-            z-index: 1024
+            z-index: 1024; border: 6px solid #25a5fc;
         }
 
         .guided-tour-step.active .guided-tour-step-tooltip {
