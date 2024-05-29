@@ -102,7 +102,7 @@ blockquote {
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-title {
         font-weight: 600;
         margin-bottom: 6px;
-        text-transform: uppercase;  color:#25a5fc; font-size: 18px;
+        text-transform: capitalize;  color:#25a5fc; font-size: 18px;
     }
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-title span.font-weight-normal {
      color: #4f4f4f!important; float: right; font-size: 14px;
@@ -131,7 +131,7 @@ blockquote {
 
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-prev, .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-next, .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-complete {
         width: 75px;
-        height: 35px;
+        height: 30px;
         /* width: 105px; */
         /* border: 2px solid currentColor; */
         background: var(--tourguide-background);
@@ -229,6 +229,29 @@ blockquote {
             left: 4px;
             /* box-shadow: 1px 1px 6px -3px #000 */
         }
+
+        .guided-tour-step.active .guided-tour-step-tooltip.guided-tour-arrow-top .guided-tour-step-tooltip-inner .guided-tour-arrow {
+            width: 18px;
+            height: 18px;
+            position: relative;
+            overflow: hidden;
+            background: transparent
+        }
+    
+            .guided-tour-step.active .guided-tour-step-tooltip.guided-tour-arrow-top .guided-tour-step-tooltip-inner .guided-tour-arrow::after {
+                content: "";
+                position: absolute;
+                width: 12px;
+                height: 12px;
+                background: var(--tourguide-background);
+                transform: rotate(225deg);
+                top: 13px;
+                left: 4px;
+                /* box-shadow: 1px 1px 6px -3px #000 */
+            }
+
+
+
 
 .guided-tour-step.active .guided-tour-step-tooltip.guided-tour-arrow-bottom .guided-tour-step-tooltip-inner .guided-tour-arrow {
     margin-bottom: -18px;
