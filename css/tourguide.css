@@ -62,7 +62,8 @@ blockquote {
             z-index: 1025;
             min-width: 280px;
             max-width: 400px;
-            border-radius: 5px;
+            border: 6px solid #25a5fc;
+            border-radius: 0px;
             box-sizing: border-box;            
             transition: opacity 150ms ;background-color:#ffffff;
             box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49);
@@ -121,7 +122,7 @@ blockquote {
             align-self: center
         }
         .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-close {
-            position: absolute; top: -10px; right: -10px; color: #fff; width: 22px; height: 22px;background: #1a1a1a; border-radius: 100%;}
+            position: absolute; top: -17px; right: -18px; color: #fff; width: 22px; height: 22px;background: #1a1a1a; border-radius: 100%; stroke-width:3px!important;}
     /* .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-close {
         position: absolute; top: 0; right: 0; color: #000; width: 42px; height: 42px;} */
 
