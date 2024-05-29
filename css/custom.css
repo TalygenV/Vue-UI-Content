@@ -6444,7 +6444,7 @@ li.active li { margin: 25px 0 0 0; }
 .team-con-content .col-md-3 {max-width: 50%;}
 .tt_play_btnbase .tt_play_btn{margin-bottom: 10px;}
 
-.val_msg_tt {position: unset;}
+.newtimetrack .tt_textarea_span span.val_msg {position: unset!important;}
 
 }
 
