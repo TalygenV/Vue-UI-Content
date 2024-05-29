@@ -105,7 +105,7 @@ blockquote {
         text-transform: capitalize;  color:#25a5fc; font-size: 18px;
     }
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-title span.font-weight-normal {
-     color: #4f4f4f!important; float: right; font-size: 14px;
+     color: #4f4f4f!important; float: right; font-size: 14px; font-weight: 400;
     }
 
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-icon {
@@ -270,7 +270,7 @@ blockquote {
     color: #4f4f4f;
     font-weight: 400;
     line-height: 20px;
-    margin-bottom: 25px; font-size: 14px;
+    margin-bottom: 25px; font-size: 14px; font-weight: 400;
 }
 
 /*Sushil 21june background color change background-color: #f4eba6;*/
