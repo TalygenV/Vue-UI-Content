@@ -229,6 +229,18 @@ blockquote {
             left: 4px;
             /* box-shadow: 1px 1px 6px -3px #000 */
         }
+
+        .guided-tour-step.active .guided-tour-step-tooltip.guided-tour-arrow-top .guided-tour-step-tooltip-inner .guided-tour-arrow .guided-tour-arrow-inner::before {
+            content: "";
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background: var(--tourguide-background);
+            transform: rotate(225deg);
+            top: 13px;
+            left: 4px;
+            /* box-shadow: 1px 1px 6px -3px #000 */
+        }
         
 
 .guided-tour-step.active .guided-tour-step-tooltip.guided-tour-arrow-bottom .guided-tour-step-tooltip-inner .guided-tour-arrow {
