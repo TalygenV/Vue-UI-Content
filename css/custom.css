@@ -6443,6 +6443,9 @@ li.active li { margin: 25px 0 0 0; }
 .tt_p-action-btn{padding: 15px 15px 15px 15px!important;}
 .team-con-content .col-md-3 {max-width: 50%;}
 .tt_play_btnbase .tt_play_btn{margin-bottom: 10px;}
+
+.val_msg_tt {position: unset;}
+
 }
 
 @media (max-width:768px)
@@ -6488,6 +6491,7 @@ li.active li { margin: 25px 0 0 0; }
 .tt-bod-right .vc-popover-content-wrapper{transform: translate(1185px, 52px)!important;}
 
 }
+
 
 
 
