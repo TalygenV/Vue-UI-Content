@@ -102,10 +102,10 @@ blockquote {
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-title {
         font-weight: 600;
         margin-bottom: 6px;
-        text-transform: uppercase;  color:#25a5fc;
+        text-transform: uppercase;  color:#25a5fc; font-size: 18px;
     }
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-title span.font-weight-normal {
-     color: #4f4f4f!important; float: right;
+     color: #4f4f4f!important; float: right; font-size: 14px;
     }
 
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-icon {
@@ -130,8 +130,9 @@ blockquote {
         position: absolute; top: 0; right: 0; color: #000; width: 42px; height: 42px;} */
 
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-prev, .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-next, .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-complete {
-        width: 105px;
+        width: 75px;
         height: 35px;
+        /* width: 105px; */
         /* border: 2px solid currentColor; */
         background: var(--tourguide-background);
         border-radius: 0px;
@@ -256,7 +257,7 @@ blockquote {
     color: #4f4f4f;
     font-weight: 400;
     line-height: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 25px; font-size: 14px;
 }
 
 /*Sushil 21june background color change background-color: #f4eba6;*/
