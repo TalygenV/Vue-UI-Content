@@ -6590,5 +6590,21 @@ ul.helparticlesnewdesign li a.left-menu.active{background:#ededed!important;colo
 ul.helparticlesnewdesign li {border-bottom: none !important;}
 ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!important;} */
 
+@media (max-width:1400px)
+{
+.page-action.help-and-guide .innerminheight .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width:991px)
+{
+.page-action.help-and-guide .innerminheight .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
 /***********KnowledgeBase Articles*****************************/
 
