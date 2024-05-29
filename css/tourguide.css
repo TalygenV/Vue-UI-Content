@@ -235,9 +235,9 @@ blockquote {
             position: absolute;
             width: 12px;
             height: 12px;
-            background: var(--tourguide-background);
+            background:#25a5fc;
             transform: rotate(225deg);
-            top: 13px;
+            top: 6px;
             left: 4px;
             /* box-shadow: 1px 1px 6px -3px #000 */
         }
