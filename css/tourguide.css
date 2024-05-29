@@ -227,7 +227,7 @@ blockquote {
             transform: rotate(225deg);
             top: 13px;
             left: 4px;
-            box-shadow: 1px 1px 6px -3px #000
+            /* box-shadow: 1px 1px 6px -3px #000 */
         }
 
 .guided-tour-step.active .guided-tour-step-tooltip.guided-tour-arrow-bottom .guided-tour-step-tooltip-inner .guided-tour-arrow {
