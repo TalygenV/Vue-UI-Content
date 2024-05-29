@@ -6056,6 +6056,18 @@ li.active li { margin: 25px 0 0 0; }
  .mobilelistview_base .popover-arrowss { left: -3px!important; width: 10px; height: 20px; border: none !important; top: 10px!important; position: absolute; transform: rotate(180deg)!important;}
  .mobilelistview_base .hs_tag{left: 170px !important;}
 
+ @media (max-width:767px)
+ {
+    .mobilelistview_base .hs_tag{left: 10px !important; top: 110px;}
+    .mobilelistview_base .viewmoretagsbase{left: -90px !important; top: 40px !important;}
+    .mobilelistview_base .popover-arrowss {
+        left: 167px !important;       
+        border: none !important;
+        top: -8px !important;       
+        transform: rotate(270deg) !important;
+      }
+ }
+
 .popover-arrowss::before {right: 0; border-width: .5rem 0 .5rem .5rem; border-left-color: #d7d7d7 !important;}
 .popover-arrowss::after {right: 1px; border-width: .5rem 0 .5rem .5rem; border-left-color: #f2f2f2 !important;}
 .popover-arrowss::after, .popover-arrowss::before {position: absolute; display: block; content: ""; border-color: transparent; border-right-color: transparent; border-style: solid;}
