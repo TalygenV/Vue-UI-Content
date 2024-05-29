@@ -161,9 +161,9 @@ blockquote {
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-complete {
         right: 15px;
         bottom: 14px;
-        background: #3c7aff;
+        background: #28a745;
     color: #ffffff;
-    border-radius: 100px;
+    border-radius: 0px;
     }
 
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-bullets {
