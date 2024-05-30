@@ -143,7 +143,7 @@ blockquote {
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-prev {
         left: 15px;
         bottom: 14px;
-        background: #dbb06c;
+        background: #ffc000;
         color: #ffffff;
         border-radius: 0px; font-size: 14px;
     }
