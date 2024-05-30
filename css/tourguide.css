@@ -105,7 +105,7 @@ blockquote {
         text-transform: capitalize;  color:#25a5fc; font-size: 18px;
     }
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-title span.font-weight-normal {
-     color: #4f4f4f!important; float: right; font-size: 14px; font-weight: 400;
+     color: #4f4f4f!important; float: right; font-size: 14px; font-weight: 500!important;
     }
 
     .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-icon {
