@@ -62,10 +62,10 @@ blockquote {
             z-index: 1025;
             min-width: 280px;
             max-width: 400px;
-            border: 6px solid #25a5fc;
+            /* border: 6px solid #25a5fc; */
             border-radius: 0px;
             box-sizing: border-box;            
-            transition: opacity 150ms ;background-color:#ffffff; border-bottom: 30px solid #25a5fc;
+            transition: opacity 150ms ;background-color:#ffffff; border-bottom: 20px solid #25a5fc;
             /* box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49);
             -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49);
             -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.49); */
@@ -125,7 +125,7 @@ blockquote {
             align-self: center
         }
         .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-close {
-            position: absolute; top: -17px; right: -18px; color: #fff; width: 22px; height: 22px;background: #1a1a1a; border-radius: 100%; stroke-width:3px!important;}
+            position: absolute; top: -12px; right: -11px; color: #fff; width: 22px; height: 22px;background: #1a1a1a; border-radius: 100%; stroke-width:3px!important;}
     /* .guided-tour-step.active .guided-tour-step-tooltip .guided-tour-step-tooltip-inner .guided-tour-step-button-close {
         position: absolute; top: 0; right: 0; color: #000; width: 42px; height: 42px;} */
 
@@ -230,7 +230,7 @@ blockquote {
             /* box-shadow: 1px 1px 6px -3px #000 */
         }
 
-        .guided-tour-step.active .guided-tour-step-tooltip.guided-tour-arrow-top .guided-tour-step-tooltip-inner .guided-tour-arrow .guided-tour-arrow-inner::before {
+        /* .guided-tour-step.active .guided-tour-step-tooltip.guided-tour-arrow-top .guided-tour-step-tooltip-inner .guided-tour-arrow .guided-tour-arrow-inner::before {
             content: "";
             position: absolute;
             width: 12px;
@@ -239,8 +239,7 @@ blockquote {
             transform: rotate(225deg);
             top: 6px;
             left: 4px;
-            /* box-shadow: 1px 1px 6px -3px #000 */
-        }
+            } */
         
 
 .guided-tour-step.active .guided-tour-step-tooltip.guided-tour-arrow-bottom .guided-tour-step-tooltip-inner .guided-tour-arrow {
