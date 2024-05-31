@@ -3078,11 +3078,13 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
  
 @media (min-width:1024px) and (max-width:1660px)
 {
-.newtimertabsbase .weeklystatusboxcontrol .col-md-4{-ms-flex: 0 0 50%!important;
-    flex: 0 0 50%!important; max-width: 50%!important;}
-
+.newtimertabsbase .weeklystatusboxcontrol .col-md-4{
+    -ms-flex: 0 0 50%!important; flex: 0 0 50%!important; max-width: 50%!important;}
 .track-hours-chart .apexcharts-canvas { position: absolute; left:7px;}
-
+}
+@media (min-width:1100px) and (max-width:1279px)
+{
+.track-hours-chart .apexcharts-canvas { position: absolute; left:-29px;}
 }
 
 
@@ -3093,9 +3095,7 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
     .infotrack.eqcol {display: block;}
 }
 
-
 .tablelist_icos{background-image: url('https://talygenv.github.io/Vue-UI-Content/images/timersprite.png'); height: 22px; width: 35px; float: left; background-repeat: no-repeat;}
-
 
 .email_icos{background-position: -17px -140px;}
 .fb_icos{background-position: -60px -140px;}
