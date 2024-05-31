@@ -3068,7 +3068,7 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 .trackinfo{width:60%;}/*flex:1; margin-right:20px*/
 
 .track-hours-chart{width:40%; overflow: hidden; position: relative;}
-.track-hours-chart .apexcharts-canvas { position: absolute; left: 0px;}
+.track-hours-chart .apexcharts-canvas { position: absolute; left: -24px;}
 
 .trackinfo a{text-decoration:underline;color:#24a5ff}
 .trackinfo li span{font-size:25px}
