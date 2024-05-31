@@ -3064,14 +3064,12 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 .trackinfo ul{list-style-type:none}
 .trackinfo li{font-size:18px;border-bottom:1px solid #cbcbcb;padding-bottom:6px;line-height:25px;margin-bottom:5px}
 .trackinfo li:last-child{margin-bottom:0;padding-bottom:0; border-bottom:0;}
+
 .trackinfo{width:60%;}/*flex:1; margin-right:20px*/
-.track-hours-chart{width:40%;
-    overflow: hidden;
-    position: relative;}
-    .track-hours-chart .apexcharts-canvas {
-        position: absolute;
-        left: -27px;
-      }
+
+.track-hours-chart{width:40%; overflow: hidden; position: relative;}
+.track-hours-chart .apexcharts-canvas { position: absolute; left: 0px;}
+
 .trackinfo a{text-decoration:underline;color:#24a5ff}
 .trackinfo li span{font-size:25px}
 
@@ -3081,8 +3079,9 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 @media (max-width:1660px)
 {
 .newtimertabsbase .weeklystatusboxcontrol .col-md-4{-ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;}
+    flex: 0 0 50%; max-width: 50%;}
+
+.track-hours-chart .apexcharts-canvas { position: absolute; left:7px;}
 
 }
 
