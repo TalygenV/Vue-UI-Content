@@ -6738,3 +6738,12 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .font-weight600{font-weight:600;}
 
 /****30May2024 New tabs design with Anuj - Harjit******/
+.new_initialsetup_btnsbase a.btn-secondary {background:#eeeeee!important;color:#3f3f3f!important;font-size:18px!important; border:none!important; font-weight:500; min-width:113px; padding:10px;}
+
+.new_initialsetup_btnsbase a.btn-warning {background:#e59b08!important;color:#fff!important;font-size:18px!important; border:none!important; padding:10px; margin-right: 5px;}
+.new_initialsetup_btnsbase a.btn-warning i{font-size: 14px !important;}
+
+.new_initialsetup_btnsbase a.btn-success {background:#28a745!important;color:#fff!important;font-size:18px!important; border:none!important; padding:10px; margin-right: 5px;}
+
+.new_initialsetup_btnsbase a.btn-primary {background:#25a5ff!important;color:#fff!important;font-size:18px!important;border:none!important; padding:10px;}
+.new_initialsetup_btnsbase a.btn-primary i{font-size: 14px !important;}
