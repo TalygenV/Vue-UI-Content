@@ -1071,6 +1071,8 @@ span.text-lmenu{display:contents!important;}
 .modal-footer {flex-wrap:wrap !important;} /*For applying full width on buttons in popup*/
 .modal-footer button.btn{margin-left:0;margin-right:0;}/*For removing margin left and right from buttons in popup*/
 .h5, h5 {font-size: 1.1rem;}
+.theme-primary.partition span.vc-popover-caret{width: 12px!important;}/** work dairy calendar arrow fixes Harjit 31May2024*****/
+
 }
 
 @media (max-width: 500px) {.collapse_map{width:100%!important; float:right!important;} .etamap_css{width:50%!important;} .locatormap_css{width:50%!important;} #menuBarDiv > .btn-group, #menuBarDiv > .btn-group:first-child .btn-group:nth-child(2){display:none;} #menuBarDiv > .btn-group:first-child, #menuBarDiv > .btn-group:nth-child(2){display:inline-block;} .custom-tab-content .tab-content .tab-pane{padding:.5rem;} .ticket-btn a{width: 50%; margin-bottom: 0;} .ticket-btn a:last-child{margin-bottom:.5rem; border-right:2px solid #fff !important;}  .login-form{background:none; padding-top:0px !important;}  .messages .panel.post .post-heading .avatar{width:40px; height:40px;} .messages .panel{padding-left:60px;} .messages .panel::before{left:55px; border-top: 5px solid transparent; border-right: 5px solid #313131; border-bottom: 5px solid transparent;} .messages .panel.post .post-heading .image{margin-top:-20px;}
