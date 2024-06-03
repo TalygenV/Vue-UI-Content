@@ -6702,6 +6702,16 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     color: #4fb262!important;
 }
 
+
+.initialsetup_newtab_design.left-tab li.active.initialsetup_completed {
+    background: #e0f2ff!important;
+    color: #4f4f4f!important; border-right: 1px solid #c9d9e5!important;
+}
+.initialsetup_newtab_design.left-tab li.active.initialsetup_completed a i {
+    color: #4fb262!important; font-size:23px;
+}
+
+
 .initialsetup_newtab_design.left-tab li {
     background: #f5f5f5!important;
     border-top:none!important;
