@@ -6604,9 +6604,9 @@ li.active li { margin: 25px 0 0 0; }
 
 /***********KnowledgeBase Articles*****************************/
 
-.knowledgebaselist img:hover {opacity: 0.2;}
+.knowledgebaselist img:hover {opacity: 0.2; cursor: pointer;}
 
-.knowledgebaselist img:hover::after {opacity: 1; position:absolute;  top: 0;  right:-10px;  bottom:0;  border-top: 10px solid transparent;
+/* .knowledgebaselist img:hover::after {opacity: 1; position:absolute;  top: 0;  right:-10px;  bottom:0;  border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-left: 10px solid #303030; width: 50px;
     height: 10px; content: "";}
@@ -6614,7 +6614,7 @@ li.active li { margin: 25px 0 0 0; }
     .knowledgebaselist img:hover::before {opacity: 1; position:absolute;  top: 0;  right:-10px;  bottom:0;  border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
         border-left: 10px solid #303030; width: 50px;
-height: 10px; content: "";}    
+height: 10px; content: "";}     */
 
 .knowledgebasemain .knowledgebaselist h1{font-size: 1.1rem;color: #424f55; font-weight: 400; margin: 0px 0px 10px 0px; background: #f9f9f9; padding: 10px;}
 .knowledgebaselist img {max-width: 98%;}
