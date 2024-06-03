@@ -1152,6 +1152,16 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .apexcharts-legend-text{color:#ddd!important;}
 .apexcharts-text tspan{color:#ddd!important;}
 
+.border.light-blue-border { border-color: #008ff5 !important;}
+.border.border-warning { border-color: #ffc107 !important;}
+.border.border-success { border-color: #28a745 !important;}
+.border.dark-blue-border { border-color: #3967d1 !important;}
+.border.red-orange-border { border-color: #f86245 !important;}
+
+
+.productive-box{}
+
+
 /****2024 - Department View Dashboard - Harjit { developer - Ejaz }*****/
 /****2024 - New Css added *****/
 
