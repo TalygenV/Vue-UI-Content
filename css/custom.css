@@ -6578,11 +6578,11 @@ li.active li { margin: 25px 0 0 0; }
   .col-control-left{ max-width: 100%; width: 100%;}
   .col-control-right{ max-width: 100%; width: 100%; padding:0; margin:10px 0px}
 
-  .col-control-left .col_1inn{max-width: 100%; width: 100%;}
+  .col-control-left .col_1inn{max-width: 100%; width: 100%; padding: 0px !important;}
   .col-control-left .col_2inn{max-width: 100%; width: 100%;}
 
   .col-control-left{display: block!important; float: left; margin-bottom: 10px;}
-  .col-control-left .col_2inn{margin-left: 0px!important; margin-top: 10px;}
+  .col-control-left .col_2inn{margin-left: 0px!important; margin-top: 10px; margin-bottom: 10px;}
   .timetrackdb_pb .productive-box{max-width: 100%!important; width: 100%!important; flex: 0 0 100%;}
 
 }
@@ -6603,6 +6603,10 @@ li.active li { margin: 25px 0 0 0; }
 .barprogress .c100.green .bar, .barprogress .c100.green .fill{border-color:#3d995d!important;}
 
 /***********KnowledgeBase Articles*****************************/
+
+.knowledgebaselist img:hover {opacity: 0.2;}
+.knowledgebaselist img:hover::after {opacity: 0.9;position:absolute;  top: 0;  right:-10px;  bottom:0;}
+
 .knowledgebasemain .knowledgebaselist h1{font-size: 1.1rem;color: #424f55; font-weight: 400; margin: 0px 0px 10px 0px; background: #f9f9f9; padding: 10px;}
 .knowledgebaselist img {max-width: 98%;}
 .nav-pills .title.overflow_hid h3 {font-size: 1.4rem; color: #424f55; font-weight: 400; margin: 0px 0px 10px 0px;}
