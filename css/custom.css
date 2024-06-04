@@ -6784,10 +6784,9 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 .newtabsdes_configuration{}
 
-.newtabsdes_configuration li.active {
+.newtabsdes_configuration li a.active {
     background: #e0f2ff !important;
     color: #4f4f4f !important;
-    border-right: 1px solid #c9d9e5 !important;
 }
 
 .newtabsdes_configuration li {
