@@ -6803,7 +6803,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     color: #4f4f4f !important;
 }
 
-.newtabsdes_configuration li.active a i {
+.newtabsdes_configuration li a.active i {
     color: #24a5ff !important;
 }
 .newtabsdes_configuration li {
