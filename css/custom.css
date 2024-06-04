@@ -6784,6 +6784,12 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 .newtabsdes_configuration{}
 
+.newtabsdes_configuration li.active {
+    background: #e0f2ff !important;
+    color: #4f4f4f !important;
+    border-right: 1px solid #c9d9e5 !important;
+}
+
 .newtabsdes_configuration li {
     background: #f5f5f5 !important;
     border-top: none !important;
@@ -6793,28 +6799,33 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     height: auto;
     display: flex;
     flex-wrap: nowrap;
-  }
-  
+}
+
 .newtabsdes_configuration li a {
     padding: 16px 5px;
-    width: auto;
+    width: 100%;
     display: inline-block;
     font-size: 16px;
     font-weight: 500;
     color: #4f4f4f !important;
-  }
+}
 
 .newtabsdes_configuration li a i {
     font-size: 21px;
     padding-top: 3px;
     color: #798086;
-    float: left; min-width: 30px;
+    float: left; min-width: 50px;
     text-align: center;
-  }
+}
 
 .newtabsdes_configuration li a span {
     float: left;
     margin-top: 2px;
     margin-left: 10px;
-  }
+}
+
+.newtabsdes_configuration li:hover {
+    background: #fdfdfd !important;
+    cursor: pointer;
+}
 
