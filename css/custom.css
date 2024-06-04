@@ -6780,7 +6780,10 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .new_initialsetup_btnsbase a.btn-primary i{font-size: 14px !important;}
 
 
-/******newtabsdes_configuration Harjit - 4June2024 *************/
+/****** newtabsdes_configuration Harjit - 4June2024 *************/
+
+.newtabdes_buttonsbase button.btn {font-size:18px!important; border:none!important; padding:10px;}
+
 
 .newtabsdes_configuration_mainbase{padding:0px!important;}
 
@@ -6796,7 +6799,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     border-left:1px solid #dedede;height: calc(100vh - 120px); padding: 15px;
 }
 
-.newtabsdes_configuration{}
+
 
 .newtabsdes_configuration li a.active {
     background: #e0f2ff !important;
