@@ -6782,6 +6782,20 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 /******newtabsdes_configuration Harjit - 4June2024 *************/
 
+.newtabsdes_configuration_mainbase{padding:0px!important;}
+
+.newtabsdes_configuration_mainbase .left-menu-tab{
+    float: left;
+    width: 100%;
+    max-width: 368px!important; padding: 20px;
+}
+
+.newtabsdes_configuration_mainbase .right-content {
+    float: right;
+    width: calc(100% - 370px)!important;
+    border-left:1px solid #dedede;height: calc(100vh - 120px); padding: 15px;
+}
+
 .newtabsdes_configuration{}
 
 .newtabsdes_configuration li a.active {
