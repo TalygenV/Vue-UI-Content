@@ -6828,3 +6828,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     cursor: pointer;
 }
 
+.newtabsdes_configuration li:hover a i {
+    color:#798086!important;    
+}
+
