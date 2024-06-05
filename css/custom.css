@@ -5879,7 +5879,9 @@ li.active li { margin: 25px 0 0 0; }
 .newtimetrack .datepicker_HS {padding-left: 0px;padding-right: 0px;}
 .cursornotallowed{cursor: not-allowed!important;}
 
-.tt_ddr .taskcount{background-color: #525252; border-radius: 5px; padding: 2px 3px; min-width: 26px; text-align: center;}
+/* .tt_ddr .taskcount{background-color: #525252; border-radius: 5px; padding: 2px 3px; min-width: 26px; text-align: center;} */
+.tt_ddr .taskcount{background-color: #525252;  border-radius: 5px; padding: 2px 3px; min-width: 26px; text-align: center; width: unset; height: 26px; line-height: 22px;}
+
 .multiselect.tt_bod-right{border-right:1px solid #cdcecf!important;}
 .tt_bod-right{border-right:1px solid #cdcecf!important;}
 
