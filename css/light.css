@@ -921,7 +921,6 @@ span.virtual-desk-legend {background:#b0afaf!important;}
 
 .actions a:hover {color: #0072e0 !important}/***New added 9May2022***/
 
-
 .btn-info { color: #fff; background-color: #28a4fa; border-color: #28a4fa; }
 .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar { background-color: #3f4a58 !important; }
 .nu-paging .paging-count .page-item .page-link.active { background: #3f4a58 !important; }
@@ -934,8 +933,12 @@ span.virtual-desk-legend {background:#b0afaf!important;}
 #pinUnpinId:hover { color: #475256 !important; }
 /***New added Sushil 24May2022***/
 
+
 /****2024 - New Css added *****/
 
-.page-action.help-and-guide {background: #fff;}
- 
+.page-action.help-and-guide {background: #fff;} 
 .page-action.help-and-guide .theme-primary.partition-full{border-bottom: 3px solid #f3f3f3;}
+.row.control_helpguide {background: #fff; padding-top: 10px;}
+
+
+
