@@ -6709,12 +6709,12 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     .initialsetup_newtab_mainbase .left-menu-tab {width: 100%;max-width: 100% !important;}
     .initialsetup_newtab_mainbase .right-content {width: 100%!important; border-left: 0px;}
 
+    .newtabsdes_configuration_mainbase .left-menu-tab{width: 100%;max-width: 100% !important;}
+    .newtabsdes_configuration_mainbase .right-content {width: 100%!important; border-left: 0px;}
+
 }
 
-
-
 .initialsetup_newtab_mainbase span.smallresult{font-size:11px;}
-
 
 .initialsetup_newtab_design.storagegraph.progress {background-color: #dcdde1; height: 10px !important;}
 .initialsetup_newtab_design.storagegraph .progress-bar {background-color: #4fb262;}
