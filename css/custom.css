@@ -5037,7 +5037,7 @@ ul.graphinfo li:last-child{border: none;}
 .clr-5 {color: #6bd046;}
 
 /**Harjit - image tumb size in listing 6June24*/
-#tblFileList .file-image img.border {width: 50px; height: 50px; padding: 5px; border: 1px solid #dee2e6 !important;}
+#tblFileList .file-image img{width: 50px; height: 50px; padding: 5px; border: 1px solid #dee2e6 !important;}
 
 
 
