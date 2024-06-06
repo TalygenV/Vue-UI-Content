@@ -903,7 +903,7 @@ body { padding-top:50px;}
 .breadcrumb .breadcrumb-item{max-width: 150px; overflow: hidden;white-space: nowrap; text-overflow: ellipsis; display:block!important;}/****** display:block added by Harjit, as text was cutting - Vaneet suggested 19 Dec20******/
 .breadcrumb .breadcrumb-item:first-child{width: auto; }
 
-
+.advancedsetup.shortcuts-menu li { max-width: 33.33% !important; }
 
 }
 @media (max-width:1025px)
@@ -921,6 +921,9 @@ table.dataTable > tbody > tr.child ul.dtr-details {padding:0px 10px!important;}
 table.dataTable > tbody > tr.child ul.dtr-details .sort::after{display:none;}
 .breadcrumb .breadcrumb-item{max-width: 300px; overflow: hidden;white-space: nowrap; text-overflow: ellipsis; display:block!important;}/****** display:block added by Harjit, as text was cutting - Vaneet suggested 19 Dec20******/
 .breadcrumb .breadcrumb-item:first-child{width: auto; }
+
+.advancedsetup.shortcuts-menu li { max-width: 50% !important; }
+
 }
 @media (max-width:1279px)
 {
@@ -1027,6 +1030,9 @@ span.text-lmenu{display:contents!important;}
 .shortcuts-menu li {  max-width: 100%;}
 #choosewizards .shortcuts-menu li{max-width: 100%!important;}
 #choosewizards .tab-style .nav-tabs.cust li{flex: 0 0 50%!important;}
+
+.advancedsetup.shortcuts-menu li { max-width: 100% !important; }
+
 .detailtxt{display:block;}
 .theme-primary.partition span {width: 100%;}
 .p-action-btn.dash{width:50%; float:left;}
