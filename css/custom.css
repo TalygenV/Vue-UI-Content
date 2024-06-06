@@ -6799,6 +6799,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 .newtabdes_buttonsbase button.btn {font-size:18px!important; border:none!important; padding:10px;}
 
+.newtabdes_buttonsbase button.btn.btn-warning{color:#fff;}
 
 .newtabsdes_configuration_mainbase{padding:0px!important;}
 
