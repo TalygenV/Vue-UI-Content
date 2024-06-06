@@ -6704,6 +6704,15 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     border-left:1px solid #dedede;height: calc(100vh - 120px); padding: 15px;
 }
 
+@media (max-width:767px)
+{
+    .initialsetup_newtab_mainbase .left-menu-tab {width: 100%;}
+    .initialsetup_newtab_mainbase .right-content {width: 100%;}
+
+}
+
+
+
 .initialsetup_newtab_mainbase span.smallresult{font-size:11px;}
 
 
