@@ -6706,8 +6706,8 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 @media (max-width:767px)
 {
-    .initialsetup_newtab_mainbase .left-menu-tab {width: 100%;}
-    .initialsetup_newtab_mainbase .right-content {width: 100%; border-left: 0px;}
+    .initialsetup_newtab_mainbase .left-menu-tab {width: 100%;max-width: 100% !important;}
+    .initialsetup_newtab_mainbase .right-content {width: 100%!important; border-left: 0px;}
 
 }
 
