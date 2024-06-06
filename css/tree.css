@@ -1,0 +1,258 @@
+/*
+    Copied from previous design.
+    Copied By: Surinderjit Singh
+    Copied At: 2013-04-17
+*/
+.expandable.last {
+  position: relative;
+}
+.filetree li.expandable.last span.folder::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 1px;
+  top: 17px;
+  left: 7px;
+} /**background:#cccccc;***/
+
+.treeview,
+.treeview ul {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.treeview ul {
+  margin-top: 4px;
+}
+.treeview .hitarea {
+  background: url(../../Content/images/treeview-default.png) -64px -22px
+    no-repeat;
+  height: 20px;
+  width: 21px;
+  margin-left: -18px;
+  float: left;
+  cursor: pointer;
+}
+/* fix for IE6 */
+* html .hitarea {
+  display: inline;
+  float: none;
+}
+.treeview li {
+  margin: 0;
+  padding: 3px 0pt 3px 16px;
+}
+.treeview a.selected {
+  background-color: #eee;
+}
+#treecontrol {
+  margin: 1em 0;
+  display: none;
+}
+.treeview .hover {
+  color: red;
+  cursor: pointer;
+}
+.treeview li {
+  background: url(../../Content/images/treeview-default-line.png) 0 0 no-repeat;
+}
+.treeview li.collapsable,
+.treeview li.expandable {
+  background-position: 0 -176px;
+}
+.treeview .expandable-hitarea {
+  background-position: -80px 0px;
+}
+.treeview li.last {
+  background-position: 0 -1758px;
+}
+.treeview li.lastCollapsable,
+.treeview li.lastExpandable {
+  background-image: url(../../Content/images/treeview-default.png);
+}
+.treeview li.lastCollapsable {
+  background-position: 0 -106px;
+}
+.treeview li.lastExpandable {
+  background-position: -28px -62px;
+}
+.treeview div.lastCollapsable-hitarea,
+.treeview div.lastExpandable-hitarea {
+  background-position: 0;
+}
+.treeview-red li {
+  background-image: url(../../Content/images/treeview-red-line.gif);
+}
+.treeview-red .hitarea,
+.treeview-red li.lastCollapsable,
+.treeview-red li.lastExpandable {
+  background-image: url(../../Content/images/treeview-red.gif);
+}
+.treeview-black li {
+  background-image: url(../../Content/images/treeview-black-line.gif);
+}
+.treeview-black .hitarea,
+.treeview-black li.lastCollapsable,
+.treeview-black li.lastExpandable {
+  background-image: url(../../Content/images/treeview-black.gif);
+}
+.treeview-gray li {
+  background-image: url(../../Content/images/treeview-gray-line.gif);
+}
+.treeview-gray .hitarea,
+.treeview-gray li.lastCollapsable,
+.treeview-gray li.lastExpandable {
+  background-image: url(../../images/inner/treeview-gray.gif);
+}
+.treeview-famfamfam li {
+  background-image: url(../../Content/images/treeview-famfamfam-line.gif);
+}
+.treeview-famfamfam .hitarea,
+.treeview-famfamfam li.lastCollapsable,
+.treeview-famfamfam li.lastExpandable {
+  background-image: url(../../Content/images/treeview-famfamfam.gif);
+}
+.treeview .placeholder {
+  background: url(../../Content/images/ajax-loader.gif) 0 0 no-repeat;
+  height: 16px;
+  width: 16px;
+  display: block;
+}
+.filetree li {
+  padding: 3px 0 2px 16px;
+}
+.filetree span.folder,
+.filetree span.file {
+  padding: 1px 0 1px 20px;
+  display: block;
+}
+.filetree span.folder {
+  background: url(../../Content/images/folder.png) 0 0 no-repeat;
+}
+.filetree li.expandable span.folder {
+  background: url(../../Content/images/folder-closed.png) 0 0 no-repeat;
+  background-position: left 50%;
+}
+.filetree span.file {
+  background: url(../../Content/images/file.gif) 0 0 no-repeat;
+}
+.filetree li {
+  padding: 5px 0 3px 19px;
+  font-size: 14px;
+}
+.filetree span.folder,
+.filetree span.file {
+  padding: 1px 0 1px 20px;
+  display: block;
+}
+.filetree span.folder {
+  background: url(../../Content/images/folder.png) 0 0 no-repeat;
+  font-weight: bold;
+  color: #000000;
+  background-position: left 4px;
+} /*background-position:left 50%*/
+.filetree li.expandable span.folder {
+  background: url(../../Content/images/folder-closed.png) 0 0 no-repeat;
+  background-position: left 4px;
+} /*background-position:left 50%;*/
+.filetree span.file {
+  background: url(../../Content/images/file.gif) 0 0 no-repeat;
+}
+.treeview li.last input {
+  float: right;
+}
+.treeview span.file input {
+  float: right;
+}
+.filetree span.folder input {
+  float: right;
+}
+
+.filetree li.expandable span.file-pin:after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(/Content/images/file-pin.png) 0 0 no-repeat;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-position: right 4px;
+  /* right: 0; */
+}
+
+.selectedfolder {
+  color: #17a2b8 !important;
+  font-weight: 600 !important;
+}
+
+.folderlink.selectedfolder {
+  color: #2f2f2f;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+}
+.folder {
+  color: #000000;
+  width: 100%;
+}
+.folder .hover {
+  color: Red;
+  text-decoration: underline;
+}
+.table_data2 h2 {
+  color: #000000;
+  display: block;
+  float: left;
+  font-size: 20px;
+  margin: 6px 3px 0 0;
+}
+.folderexplorer {
+  height: 222px;
+  overflow: auto;
+}
+.user_container {
+  border: medium none !important;
+  border-radius: 0 0 0 0 !important;
+}
+.treeheight {
+  height: 380px;
+  overflow: auto;
+}
+/*******Harjit - outlook page 23 oct2015*******/
+.outlookmaintree {
+  height: auto !important;
+  max-height: 538px !important;
+  background: #f3f3f3 !important;
+  border: 1px solid #dfdfdf !important;
+}
+.outlookmaintree ul {
+  border-bottom: 3px solid #fff !important;
+}
+.outlookmaintree .collapsable:hover {
+  background: #ffffff none repeat scroll 0 0;
+  border-bottom: 1px solid #dfdfdf;
+}
+.outlookmaintree .collapsable {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border-bottom: 1px solid #f3f3f3;
+  border-top: 3px solid #fff;
+}
+.outlookmaintree .collapsable .folderlink {
+  color: #565656 !important;
+}
+.outlookmaintree li.selected {
+  background: #ffffff !important;
+  border-bottom: 1px solid #dfdfdf;
+}
+.outlookmaintree .collapsable a.folderlinkselected {
+  color: #068dd3 !important;
+}
+/**sub ul li**/
+.outlookmaintree .collapsable ul {
+  border-bottom: none !important;
+}
+.outlookmaintree .collapsable ul li {
+  border-bottom: none !important;
+}
+/**sub ul li**/
+/*******Harjit - outlook page 23 oct2015*******/

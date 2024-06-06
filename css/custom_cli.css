@@ -1,0 +1,437 @@
+.vue-slider-dot-handle {
+  position: absolute;
+}
+.vue-slider-dot-tooltip-inner {
+  height: 28px !important;
+}
+.vue-slider-dot-tooltip {
+  opacity: unset !important;
+}
+.sampledata {
+  font-size: 20px;
+  border-left: 2px solid #878787 !important;
+  border-right: 2px solid #878787 !important;
+  padding: 0px 12px;
+}
+.__bar-is-vertical,
+.__bar-is-horizontal {
+  background: rgb(146 146 146) !important;
+}
+
+/* multislect css start */
+/*.multiselect {min-width: 200px; border-radius: 0px!important;color: #303030!important; border-color: #303030!important;   min-height: 28px;font-size: 14px;}.multiselect-dropdown > .multiselect-no-options{display: none;}.multiselect__select:before {color: #000; border-color: #0e0e0e transparent transparent;}.multiselect.is-invalid div.multiselect__tags{border-color: red !important; padding-top: 0px;}.multiselect.is-invalid .multiselect__input{min-height: 32px; padding-left: 0px;}.multiselect__tags {min-height: 36px; padding: 8px 40px 0 8px; border-radius: 0px; border: 1px solid #303030;}.multiselect__single {font-size: 14px;margin-bottom: 6px;}.multiselect__placeholder {color:#515058; margin-bottom: 6px; padding-top: 0px;}.multiselect__input{margin-bottom:1px; min-height: auto; line-height:normal; font-size: 14px;}*/
+.multiselect {
+  min-width: 200px;
+  border-radius: 0px !important;
+  color: #303030 !important;
+  border: none !important;
+  min-height: 28px;
+  font-size: 14px;
+}
+.multiselect-dropdown > .multiselect-no-options {
+  display: none;
+}
+.multiselect__select:before {
+  color: #000;
+  border-color: #0e0e0e transparent transparent;
+}
+.multiselect.is-invalid div.multiselect__tags {
+  border-color: red !important;
+  padding-top: 0px;
+}
+.multiselect.is-invalid .multiselect__input {
+  min-height: 32px;
+  padding-left: 0px;
+}
+.multiselect__tags {
+  min-height: 36px;
+  padding: 8px 40px 0 8px;
+  border-radius: 0px;
+  border: 1px solid #303030;
+}
+.multiselect__single {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.multiselect__placeholder {
+  color: #515058;
+  margin-bottom: 6px;
+  padding-top: 0px;
+}
+.multiselect__input {
+  margin-bottom: 1px;
+  min-height: auto;
+  line-height: normal;
+  font-size: 14px;
+}
+/* multislect css end */
+
+.font-cstm {
+  font-size: 16px;
+  padding: 10px;
+  display: inline-block;
+}
+.tab-border {
+  border: 1px solid #6c757d !important;
+  padding: 0.5rem 0px !important;
+}
+.cstm-border-bottom {
+  border-bottom: 1px solid #6c757d !important;
+}
+.notify-container {
+  max-height: 336px;
+  overflow-y: auto;
+}
+.border-cstm {
+  border: 1px solid #6c757d !important;
+}
+.pd-cstm {
+  padding: 10px 0;
+}
+
+.bg-unread {
+  background: #ddd;
+}
+.bg-read {
+  background: #f4f4f4;
+}
+.list-view-more {
+  position: relative;
+  padding-left: 10px;
+  border-bottom: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.list_rw .detail p {
+  margin-bottom: 0;
+}
+
+.more-details .pop {
+  font-weight: 600 !important;
+}
+.p-action-btn-noti {
+  padding: 0px 10px;
+  min-width: 65px;
+  float: left;
+  text-align: center;
+  font-size: 13px;
+}
+
+.short-menu-item .barprogress {
+  right: 40px;
+  top: -32px;
+}
+.multiselect__tags {
+  min-height: 26px !important;
+  display: block !important;
+  padding: 6px 30px 0 8px !important;
+  border-radius: 0px !important;
+  border: 1px solid #bbbbbb !important;
+  background: #fff !important;
+  font-size: 14px !important;
+  line-height: 12px !important;
+}
+.img-icons {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+.img-icons img {
+  width: 88%;
+}
+
+/****Work Dairy icons Harjit 5April2023******/
+.appicon {
+  background-image: url(/Content/images/smalliconsprite.png);
+  background-repeat: no-repeat;
+  width: 26px !important;
+  height: 26px !important;
+  float: left;
+  margin-top: -2px;
+  margin-right: 6px;
+}
+
+.appicon.settings {
+  background-position: -12px -12px;
+}
+.appicon.pidgin {
+  background-position: -12px -66px;
+}
+.appicon.textedit {
+  background-position: -12px -119px;
+}
+.appicon.wmplayer {
+  background-position: -12px -176px;
+}
+.appicon.cmd {
+  background-position: -12px -223px;
+}
+.appicon.vnc {
+  background-position: -12px -275px;
+}
+.appicon.dock {
+  background-position: -12px -328px;
+}
+.appicon.postman {
+  background-position: -12px -383px;
+}
+.appicon.mspaint {
+  background-position: -12px -440px;
+}
+.appicon.mspowerpoint {
+  background-position: -12px -500px;
+}
+.appicon.appstore {
+  background-position: -12px -554px;
+}
+.appicon.signal {
+  background-position: -12px -607px;
+}
+.appicon.chrome {
+  background-position: -12px -661px;
+}
+.appicon.calendar {
+  background-position: -12px -718px;
+}
+.appicon.map {
+  background-position: -12px -777px;
+}
+.appicon.default {
+  background-position: -12px -823px;
+}
+
+.appicon.talygen {
+  background-position: -60px -14px;
+}
+.appicon.signaldesktop {
+  background-position: -60px -65px;
+}
+.appicon.itunes {
+  background-position: -60px -119px;
+}
+.appicon.messages {
+  background-position: -60px -174px;
+}
+.appicon.firefox {
+  background-position: -60px -221px;
+}
+.appicon.java {
+  background-position: -60px -276px;
+}
+.appicon.keychain {
+  background-position: -60px -328px;
+}
+.appicon.facetime {
+  background-position: -60px -383px;
+}
+.appicon.finder {
+  background-position: -60px -438px;
+}
+.appicon.notes {
+  background-position: -60px -497px;
+}
+.appicon.internetexplorer {
+  background-position: -60px -552px;
+}
+.appicon.xcode {
+  background-position: -60px -606px;
+}
+.appicon.netbeans {
+  background-position: -60px -660px;
+}
+.appicon.applebooks {
+  background-position: -60px -718px;
+}
+.appicon.msedge {
+  background-position: -60px -778px;
+}
+.appicon.safari {
+  background-position: -109px -14px;
+}
+.appicon.stickynotes {
+  background-position: -109px -63px;
+}
+.appicon.startmenu {
+  background-position: -109px -117px;
+}
+.appicon.ssms {
+  background-position: -109px -173px;
+}
+.appicon.zoom {
+  background-position: -109px -220px;
+}
+.appicon.snippingtool {
+  background-position: -109px -278px;
+}
+.appicon.outlook {
+  background-position: -109px -328px;
+}
+.appicon.searchui {
+  background-position: -109px -380px;
+}
+.appicon.windows {
+  background-position: -109px -437px;
+}
+.appicon.mmc {
+  background-position: -109px -499px;
+}
+.appicon.anydesk {
+  background-position: -109px -554px;
+}
+.appicon.windowupdate {
+  background-position: -109px -605px;
+}
+.appicon.terminal {
+  background-position: -109px -659px;
+}
+.appicon.msexcel {
+  background-position: -109px -717px;
+}
+.appicon.opera {
+  background-position: -109px -780px;
+}
+.appicon.winrar {
+  background-position: -162px -12px;
+}
+.appicon.systeminfo {
+  background-position: -162px -64px;
+}
+.appicon.windowcalc {
+  background-position: -162px -118px;
+}
+.appicon.vmconnect {
+  background-position: -162px -174px;
+}
+.appicon.powershell {
+  background-position: -162px -223px;
+}
+.appicon.vysor {
+  background-position: -162px -276px;
+}
+.appicon.activitymonitor {
+  background-position: -162px -327px;
+}
+.appicon.visualstudio {
+  background-position: -162px -381px;
+}
+.appicon.notepadplus {
+  background-position: -162px -437px;
+}
+.appicon.photos {
+  background-position: -162px -499px;
+}
+.appicon.adium {
+  background-position: -162px -557px;
+}
+.appicon.taskmanager {
+  background-position: -162px -605px;
+}
+.appicon.mail {
+  background-position: -162px -658px;
+}
+.appicon.systeminfo {
+  background-position: -162px -718px;
+}
+.appicon.wordpad {
+  background-position: -162px -779px;
+}
+.appicon.fontbook {
+  background-position: -222px -10px;
+}
+.appicon.vdesk {
+  background-position: -222px -62px;
+}
+.appicon.windowsterminal {
+  background-position: -222px -118px;
+}
+.appicon.skype {
+  background-position: -222px -175px;
+}
+.appicon.calculator {
+  background-position: -222px -222px;
+}
+.appicon.windowform {
+  background-position: -222px -274px;
+}
+.appicon.iisexpresstray {
+  background-position: -222px -327px;
+}
+.appicon.remotedesktop {
+  background-position: -222px -380px;
+}
+.appicon.msword {
+  background-position: -222px -436px;
+}
+.appicon.fileexplorer {
+  background-position: -222px -495px;
+}
+.appicon.eclipse {
+  background-position: -222px -555px;
+}
+.appicon.contacts {
+  background-position: -222px -603px;
+}
+.appicon.mstsc {
+  background-position: -222px -657px;
+}
+.appicon.wrsa {
+  background-position: -222px -717px;
+}
+.appicon.mspub {
+  background-position: -222px -780px;
+}
+.appicon.music {
+  background-position: -285px -12px;
+}
+.appicon.ccleaner {
+  background-position: -285px -61px;
+}
+/****Work Dairy icons Harjit 5April2023******/
+
+/****Work Dairy icons Harjit 16Jan2024******/
+.appicon.linkedin {
+  background-position: -284px -117px;
+}
+.appicon.facebook {
+  background-position: -284px -173px;
+}
+.appicon.twitter {
+  background-position: -284px -221px;
+}
+.appicon.instagram {
+  background-position: -284px -273px;
+}
+.appicon.telegram {
+  background-position: -285px -328px;
+}
+.appicon.amazon {
+  background-position: -285px -379px;
+}
+.appicon.flipkart {
+  background-position: -285px -436px;
+}
+.appicon.amazonprime {
+  background-position: -285px -494px;
+}
+.appicon.guardian {
+  background-position: -285px -555px;
+}
+.appicon.actitime {
+  background-position: -285px -605px;
+}
+.appicon.marketresearchfuture {
+  background-position: -285px -655px;
+}
+.appicon.icicibank {
+  background-position: -285px -716px;
+}
+.appicon.sbibank {
+  background-position: -285px -780px;
+}
+.appicon.myntra {
+  background-position: -339px -11px;
+}
+/****Work Dairy icons Harjit 16Jan2024******/
