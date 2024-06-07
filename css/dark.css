@@ -1158,11 +1158,47 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .border.dark-blue-border { border:1px solid #3967d1 !important;}
 .border.red-orange-border { border:1px solid #f86245 !important;}
 
-
 .productive-box{}
-
-
 /****2024 - Department View Dashboard - Harjit { developer - Ejaz }*****/
+
+.initialsetup_newtab_mainbase .right-content{border-left: 1px solid #535353; background: #212528;}
+
+.initialsetup_newtab_design.left-tab li {
+    background: #f5f5f5 !important;
+    border-top: none !important;
+    border-left: 1px solid #000 !important;
+    border-right: 1px solid #000 !important;
+    border-bottom: 1px solid #000 !important;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .initialsetup_newtab_design.left-tab li a.digits_num {   
+    border-right: 1px solid #000 !important;   
+    color: #fff !important;
+  }
+  .initialsetup_newtab_design.left-tab li a {
+      color: #fff !important;
+  }
+
+.initialsetup_newtab_design.left-tab li.active.initialsetup_completed {
+    background: #7eb5e8 !important;
+    color: #4f4f4f !important;
+    border-right: 1px solid #000 !important;
+  }
+
+  .initialsetup_newtab_design.left-tab li.initialsetup_completed {
+    background: #2c362d !important;
+  }
+  .initialsetup_newtab_design.left-tab li.active.initialsetup_completed a i {
+    color: #fff !important;
+    font-size: 23px;
+  }
+
+
+
+
+
 /****2024 - New Css added *****/
 
 
