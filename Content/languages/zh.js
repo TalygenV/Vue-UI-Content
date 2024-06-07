@@ -8753,4 +8753,5 @@
     "User_Guide_Trophy_And_Badge_Add":"User Guide Trophy And Badge Add",
     "UserAvailability":"User Availability",
     "UserExistsAsCRMOwnerConfirmation":"This user is Owner Lead/Oppurtunity/Prospect. Are you sure want to deactivate it? ",
+    "HideContextmenu": "Hide Context menu"
   }]
