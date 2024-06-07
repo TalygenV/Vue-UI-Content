@@ -1243,7 +1243,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
   .newtabsdes_configuration li:first-child {
         border-top: 1px solid #000 !important;
   }
-  .newtabsdes_configuration li a{background: #2c3136!important ;}
+  .newtabsdes_configuration li a{background: #2c3136!important ; border-radius: 0!important;}
 
   .newtabsdes_configuration li a.active{background: #6795bf !important; color: #fff !important;}
   .newtabsdes_configuration li a.active i{color: #fff !important;}
