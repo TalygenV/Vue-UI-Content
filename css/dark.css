@@ -1190,6 +1190,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
   .initialsetup_newtab_design.left-tab li.initialsetup_completed {
     background: #2c362d !important;
   }
+  .initialsetup_newtab_design.left-tab li:first-child {
+    border-top: 1px solid #000 !important;
+  }
   .initialsetup_newtab_design.left-tab li.active.initialsetup_completed a i {
     color: #fff !important;
     font-size: 23px;
