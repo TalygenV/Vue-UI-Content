@@ -6835,7 +6835,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     
     .newtabsdes_configuration_mainbase .left-menu-tab{width: 100%;max-width: 100% !important;}
     .newtabsdes_configuration_mainbase .right-content {width: 100%!important; border-left: 0px;}
-
+    .mobile_d-none{display: none!important;}
 }
 
 

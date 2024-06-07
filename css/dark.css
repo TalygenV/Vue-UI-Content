@@ -1241,7 +1241,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     border-bottom: 1px solid #000 !important;}
 
   .newtabsdes_configuration li:first-child {
-        border-top: 1px solid #000 !important;
+        border: 1px solid #000 !important;
   }
   .newtabsdes_configuration li a{background: #2c3136!important ; border-radius: 0!important;}
 
