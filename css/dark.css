@@ -1200,6 +1200,14 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     color:#fff!important;    
 }
 
+.initialsetup_newtab_design.left-tab li.active:hover{
+    background: #6795bf!important; color: #fff!important;
+} 
+
+.initialsetup_newtab_design.left-tab li.active:hover a i {
+    color:#fff!important;    
+}
+
 
   .initialsetup_newtab_design.left-tab li.active.initialsetup_completed {
     background:#6795bf!important;
