@@ -1235,8 +1235,10 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
   .newtabsdes_configuration_mainbase .right-content {border-left: 1px solid #535353; background: #212528;}
 
+  .newtabsdes_configuration li{background: #2c3136 ;}
 
-
+  .newtabsdes_configuration li a.active{background: #6795bf !important; color: #fff !important;}
+  .newtabsdes_configuration li a.active i{color: #fff !important;}
 
 
 /****2024 - New Css added *****/
