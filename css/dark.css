@@ -1199,10 +1199,10 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
   }
 
   .initialsetup_newtab_design.left-tab li.initialsetup_completed:hover {
-    background: #2c362d !important;
+    background: #6795bf !important;
   }
   .initialsetup_newtab_design.left-tab li.initialsetup_completed:hover a i {
-    color: #65956a !important;
+    color: #fff !important;
   }
 
 
