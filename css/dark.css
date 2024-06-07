@@ -1198,11 +1198,18 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     font-size: 23px;
   }
 
-  .initialsetup_newtab_design.left-tab li.initialsetup_completed:hover {
+  .initialsetup_newtab_design.left-tab li.active.initialsetup_completed:hover {
     background: #6795bf !important;
   }
-  .initialsetup_newtab_design.left-tab li.initialsetup_completed:hover a i {
+  .initialsetup_newtab_design.left-tab li.active.initialsetup_completed:hover a i {
     color: #fff !important;
+  }
+
+  .initialsetup_newtab_design.left-tab li.initialsetup_completed:hover {
+    background: #2c362d!important;
+  }
+  .initialsetup_newtab_design.left-tab li.initialsetup_completed:hover a i {
+    color: #4fb262!important;
   }
 
 
