@@ -1162,7 +1162,6 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 /****2024 - Department View Dashboard - Harjit { developer - Ejaz }*****/
 
 .initialsetup_newtab_mainbase .right-content{border-left: 1px solid #535353; background: #212528;}
-
 .initialsetup_newtab_design.left-tab li {
     background: #f5f5f5 !important;
     border-top: none !important;
@@ -1180,13 +1179,11 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
   .initialsetup_newtab_design.left-tab li a {
       color: #fff !important;
   }
-
 .initialsetup_newtab_design.left-tab li.active.initialsetup_completed {
     background:#6795bf!important;
     color: #4f4f4f !important;
     border-right: 1px solid #000 !important;
   }
-
   .initialsetup_newtab_design.left-tab li.initialsetup_completed {
     background: #2c362d !important;
   }
@@ -1197,14 +1194,12 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     color: #fff !important;
     font-size: 23px;
   }
-
   .initialsetup_newtab_design.left-tab li.active.initialsetup_completed:hover {
     background: #6795bf !important;
   }
   .initialsetup_newtab_design.left-tab li.active.initialsetup_completed:hover a i {
     color: #fff !important;
   }
-
   .initialsetup_newtab_design.left-tab li.initialsetup_completed:hover {
     background: #2c362d!important;
   }
@@ -1213,8 +1208,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
   }
 
 
-
-
+  
 /****2024 - New Css added *****/
 
 
