@@ -1172,6 +1172,10 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     display: flex;
     flex-wrap: nowrap;
   }
+  .initialsetup_newtab_design.left-tab li:hover {
+    background:#3a4753!important;
+    cursor:pointer;
+ }
   .initialsetup_newtab_design.left-tab li a.digits_num {   
     border-right: 1px solid #000 !important;   
     color: #fff !important;
