@@ -5443,7 +5443,7 @@ div#mainDivProp .dropdown-menu button em.fa.fa-times{position: relative;}
 .shortcuts-menu.man_camp li.active a span.left-icon-m {background-color: #00a68e;}
 .shortcuts-menu.man_camp li.active a span.left-icon-m i {color: #fff;}
 .shortcuts-menu.man_camp li:hover a.short-menu-item {background: #00b298 !important; color: #fff !important; border-color: #00b298 !important;}
-.shortcuts-menu li:hover .short-item-name {color: #fff !important;}
+/* .shortcuts-menu li:hover .short-item-name {color: #fff !important;} */
 .shortcuts-menu.man_camp li:hover a span.left-icon-m {background-color: #00a68e;}
 .shortcuts-menu.man_camp li:hover a span.left-icon-m i {color: #fff;}
 .shortcuts-menu.man_camp li a span.left-icon-m i {color: #00b298; font-size: 32px;}
