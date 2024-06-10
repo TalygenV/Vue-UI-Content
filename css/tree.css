@@ -26,7 +26,7 @@
   margin-top: 4px;
 }
 .treeview .hitarea {
-  background: url(../../Content/images/treeview-default.png) -64px -22px
+  background: url(https://talygenv.github.io/Vue-UI-Content/images/treeview-default.png) -64px -22px
     no-repeat;
   height: 20px;
   width: 21px;
@@ -55,7 +55,7 @@
   cursor: pointer;
 }
 .treeview li {
-  background: url(../../Content/images/treeview-default-line.png) 0 0 no-repeat;
+  background: url(https://talygenv.github.io/Vue-UI-Content/images/treeview-default-line.png) 0 0 no-repeat;
 }
 .treeview li.collapsable,
 .treeview li.expandable {
@@ -69,7 +69,7 @@
 }
 .treeview li.lastCollapsable,
 .treeview li.lastExpandable {
-  background-image: url(../../Content/images/treeview-default.png);
+  background-image: url(https://talygenv.github.io/Vue-UI-Content/images/treeview-default.png);
 }
 .treeview li.lastCollapsable {
   background-position: 0 -106px;
@@ -82,23 +82,23 @@
   background-position: 0;
 }
 .treeview-red li {
-  background-image: url(../../Content/images/treeview-red-line.gif);
+  background-image: url(https://talygenv.github.io/Vue-UI-Content/images/treeview-red-line.gif);
 }
 .treeview-red .hitarea,
 .treeview-red li.lastCollapsable,
 .treeview-red li.lastExpandable {
-  background-image: url(../../Content/images/treeview-red.gif);
+  background-image: url(https://talygenv.github.io/Vue-UI-Content/images/treeview-red.gif);
 }
 .treeview-black li {
-  background-image: url(../../Content/images/treeview-black-line.gif);
+  background-image: url(https://talygenv.github.io/Vue-UI-Content/images/treeview-black-line.gif);
 }
 .treeview-black .hitarea,
 .treeview-black li.lastCollapsable,
 .treeview-black li.lastExpandable {
-  background-image: url(../../Content/images/treeview-black.gif);
+  background-image: url(https://talygenv.github.io/Vue-UI-Content/images/treeview-black.gif);
 }
 .treeview-gray li {
-  background-image: url(../../Content/images/treeview-gray-line.gif);
+  background-image: url(https://talygenv.github.io/Vue-UI-Content/images/treeview-gray-line.gif);
 }
 .treeview-gray .hitarea,
 .treeview-gray li.lastCollapsable,
@@ -106,15 +106,15 @@
   background-image: url(../../images/inner/treeview-gray.gif);
 }
 .treeview-famfamfam li {
-  background-image: url(../../Content/images/treeview-famfamfam-line.gif);
+  background-image: url(https://talygenv.github.io/Vue-UI-Content/images/treeview-famfamfam-line.gif);
 }
 .treeview-famfamfam .hitarea,
 .treeview-famfamfam li.lastCollapsable,
 .treeview-famfamfam li.lastExpandable {
-  background-image: url(../../Content/images/treeview-famfamfam.gif);
+  background-image: url(https://talygenv.github.io/Vue-UI-Content/images/treeview-famfamfam.gif);
 }
 .treeview .placeholder {
-  background: url(../../Content/images/ajax-loader.gif) 0 0 no-repeat;
+  background: url(https://talygenv.github.io/Vue-UI-Content/images/ajax-loader.gif) 0 0 no-repeat;
   height: 16px;
   width: 16px;
   display: block;
@@ -128,14 +128,14 @@
   display: block;
 }
 .filetree span.folder {
-  background: url(../../Content/images/folder.png) 0 0 no-repeat;
+  background: url(https://talygenv.github.io/Vue-UI-Content/images/folder.png) 0 0 no-repeat;
 }
 .filetree li.expandable span.folder {
-  background: url(../../Content/images/folder-closed.png) 0 0 no-repeat;
+  background: url(https://talygenv.github.io/Vue-UI-Content/images/folder-closed.png) 0 0 no-repeat;
   background-position: left 50%;
 }
 .filetree span.file {
-  background: url(../../Content/images/file.gif) 0 0 no-repeat;
+  background: url(https://talygenv.github.io/Vue-UI-Content/images/file.gif) 0 0 no-repeat;
 }
 .filetree li {
   padding: 5px 0 3px 19px;
@@ -147,17 +147,17 @@
   display: block;
 }
 .filetree span.folder {
-  background: url(../../Content/images/folder.png) 0 0 no-repeat;
+  background: url(https://talygenv.github.io/Vue-UI-Content/images/folder.png) 0 0 no-repeat;
   font-weight: bold;
   color: #000000;
   background-position: left 4px;
 } /*background-position:left 50%*/
 .filetree li.expandable span.folder {
-  background: url(../../Content/images/folder-closed.png) 0 0 no-repeat;
+  background: url(https://talygenv.github.io/Vue-UI-Content/images/folder-closed.png) 0 0 no-repeat;
   background-position: left 4px;
 } /*background-position:left 50%;*/
 .filetree span.file {
-  background: url(../../Content/images/file.gif) 0 0 no-repeat;
+  background: url(https://talygenv.github.io/Vue-UI-Content/images/file.gif) 0 0 no-repeat;
 }
 .treeview li.last input {
   float: right;
