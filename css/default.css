@@ -781,7 +781,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 /* Harjit 20Dec2022 3:10PM  **/
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
-    background-image: url('../images/checkmark.png') !important;
+    background-image: url('../images/checkmark.png') !important; position: absolute; left: 0; top: 0;width: 10px; height: 10px; border:1px solid #ff0000;
   }
 
 
