@@ -6170,6 +6170,8 @@ li.active li { margin: 25px 0 0 0; }
 .mobilelistview_base div.gt-unpaid-bar{border-left: 3px solid #747e66;}
 .mobilelistview_base div.gt-paused-bar{border-left: 3px solid #3a3a3d;}
 
+.editentrybase label.switch{min-width: 100px;}
+
 @media (max-width:768px)
 {
 .editentrybase .col-md-1{width: 45px; float:left;}
@@ -6408,8 +6410,8 @@ li.active li { margin: 25px 0 0 0; }
 /*.leftstatus{float: left; width: calc(100% - 520px);}
 .rightgraph {float: right; width: 100%; max-width: 500px;} */
 
-.leftstatus{float: left; width: calc(100% - 490px);}
-.rightgraph {float: right; width: 100%; max-width: 470px;}
+.leftstatus{float: left; width: calc(100% - 530px);}
+.rightgraph {float: right; width: 100%; max-width: 510px;}
 .team-con-box {width: 100%;float: left; margin: 1px 0px; height: auto; position: relative; min-height: 85px; box-sizing: border-box;-webkit-box-sizing: border-box;
 -moz-box-sizing: border-box; padding: 15px 15px 15px 15px;}
 .team-con-img {float:left; width:70px!important; height:70px; position:relative;}
