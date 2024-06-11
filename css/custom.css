@@ -305,7 +305,7 @@ input:checked + .slider span.slider-no {    display: none !important;}
 input:checked + .slider span{display: block;}
 input[type=checkbox] + .slider span.slider-no{display: inline-block; padding-right: 10px!important; margin-left: 19px;} /****padding-left:17px;**Harjit  - 7March2024 ***/
 
-input[type=checkbox] + .slider span.slider-yes {display: inline-block; padding-right: 5px !important; margin-left: 0px;}
+input[type=checkbox] + .slider span.slider-yes { padding-right: 5px !important; margin-left: 0px;}
 
 input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:auto; right: 23px!important;}
 .slider.round {border-radius: 34px;}
