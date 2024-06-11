@@ -557,3 +557,15 @@ span.virtual-desk-legend {background: #d8d8d8 !important;}
 select.form-control.customized_ddl {background-color: #3d484d; color:#fff; border-color:#62686a; background-image: url(/Content/Responsive/images/drop-down-arrow-dark.png);}
 /***Customize dropdown for Project listing screen-Harjit 5May2022*****/
 /**** Harjit-21Dec2022 - 11:05 am ****/
+
+  
+/****2024 - New Css added *****/
+.fa.hs-tags_colored{background-image: url('../images/companysetupsprite_colored_white.png'); background-position: -316px -13px;  width: 30px;  height: 30px;}
+.fa.hs-compholi_colored{background-image: url('../images/companysetupsprite_colored_white.png'); background-position: -390px -13px;  width: 44px;  height: 30px;}
+.fa.hs-appchain_colored{background-image: url('../images/companysetupsprite_colored_white.png'); background-position: -154px -11px;  width: 40px;  height: 30px;}
+.fa.hs-apprule_colored{background-image: url('../images/companysetupsprite_colored_white.png'); background-position: -236px -12px;  width: 40px;  height: 30px;}
+.fa.hs-auditrule_colored{background-image: url('../images/companysetupsprite_colored_white.png'); background-position: -20px -9px;  width: 30px;  height: 30px;}
+
+
+  
+/****2024 - New Css added *****/
