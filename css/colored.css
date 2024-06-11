@@ -203,7 +203,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .manage-color > .row:nth-child(2){background:#e4e9ff;}
 .manage-color .bg-numbr1{background:#d9eeff;}
 .manage-color .bg-numbr2{background:#d7dbf4;}
-.left-tab li:first-child{border-top:0px solid !important;}
+.left-tab li:first-child{border-top:0px solid !important;border-color:#fff;}
 .legend-blue{background:#9ad5ff;}
 .legend-green{background:#8ce68c;}
 .legend-brown{background:#c79e72;}
