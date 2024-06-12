@@ -22,5 +22,40 @@
       "vue-router": "https://cdn.jsdelivr.net/npm/vue-router@3.1.6/dist/vue-router.min.js",
       "@talygen/root-config/": "http://localhost:9000/",
       "@talygen/navbar/": "http://localhost:9002/"
+    },
+    "moduleContollers": {
+        "@talygen/ticketing": [
+            "Company",
+            "AnnouncementMessage",
+            "CompanyHoliday",
+            "Category",
+            "Channel",
+            "CurrencyManagement",
+            "Department",
+            "Designation",
+            "EmailTemplate",
+            "Shift",
+            "Skill",
+            "Roles",
+            "Break",
+            "CannedReply",
+            "CompanyNotification",
+            "ContactType",
+            "Feedback",
+            "Greeting",
+            "IndustryType",
+            "Immigration",
+            "Location",
+            "LoginAuthorization",
+            "PaymentGateway",
+            "ProvisionalRight",
+            "ReviewTemplate",
+            "Service",
+            "Stage",
+            "Status",
+            "Storage",
+            "UserTitle",
+            "AdvanceSetup"
+          ]
     }
 }
