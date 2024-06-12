@@ -5057,6 +5057,8 @@ ul.graphinfo li:last-child{border: none;}
     padding: 4px;
 }
 
+.docstorage_leftaccordian #accordion:last-child{border-bottom: none!important;}
+.docstorage_leftaccordian #accordion .progress-bar{background-color: #19a0ff;}
 
 /**************  Doc Storage Sushil 27 Feb ***************/
 
