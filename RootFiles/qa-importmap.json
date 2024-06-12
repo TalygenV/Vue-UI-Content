@@ -20,5 +20,22 @@
       "@talygen/root-config/": "https://qatestnewui.talygen.com/",
       "@talygen/navbar/": "https://talygenv.github.io/talygenuiqa/QATestNew/NavBar/dist/",
       "@talygen/authservice/": "https://qatestnewuiauth.talygen.com/" 
+    },
+    "moduleContollers": {
+        "@talygen/ticketing":["FSM","Ticketing","RuleEngine","ServiceAppointment","FormBuilder","ReplyTemplate","TicketReport","KnowledgeBase"],
+        "@talygen/crm": ["CRM","Brand","CommunicationModes","CRMReport","User","logout"],
+        "@talygen/expenses": ["Expenses","ExpenseApproval","ExpenseReport","ExpensesHistory"],
+        "@talygen/docstorage":["File","ViewFileDetails","RecyleBin","Storage","MyDashboard","ViewFolderDetails","AdvancedSetup","UserStorageReport","UserStorage","ManageTags","DownloadPublicFile","DownloadPublicFolder","files"],
+        "@talygen/assetmanagement":["Asset","AssetAssignment","AssetRequisition","AssetCatalog","AssetReport","AdvancedSetups","ProductType"],
+        "@talygen/commonui": ["Help","Report","Dashboard","unauthorized","Configuration"],
+        "@talygen/timer": ["TimeTracking","TimerReports","TimesheetApproval","Timer","WorkDiary","Project","Timesheet","TimeApproval"],
+        "@talygen/approvalmodule": ["ApprovalRule","ApprovalChain","ApprovalGroup","ApprovalReport"],
+        "@talygen/customlayout": ["CustomLayout", "Custom"],
+        "@talygen/ucaas": ["Communication"],
+        "@talygen/billing": ["ClientInvoice"],
+        "@talygen/webbuilder": ["WebBuilder"],
+        "@talygen/hr": ["JobPost"],
+        "@talygen/companysetup": ["Company","AnnouncementMessage","CompanyHoliday","Category","Channel","CurrencyManagement","Department","Designation","EmailTemplate","Shift","Skill","Roles","Break","CannedReply","CompanyNotification","ContactType","Feedback","Greeting","IndustryType","Immigration","Location","LoginAuthorization","PaymentGateway","ProvisionalRight","ReviewTemplate","Service","Stage","Status","Storage","UserTitle","AdvanceSetup"]
     }
+    
 }
