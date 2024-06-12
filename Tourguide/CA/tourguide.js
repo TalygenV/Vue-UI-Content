@@ -1367,197 +1367,8 @@ touritem["Timer/BulkTimeEntry"] = {
     },
   ],
 };
-touritem["Asset/Dashboard"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Dashboard",
-  items: [
-    {
-      selector: "#aDateLable_global",
-      step: 1,
-      title: "DateSelection",
-      content: "SelectYourDateViewReports",
-    },
-    {
-      selector: "#hlkAddMoreReports",
-      step: 2,
-      title: "AddReport",
-      content: "AddMoreReports",
-    },
-  ],
-};
-touritem["AssetCatalog/Index"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Manage Catalog",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchYourProductsUsingFilters",
-    },
-    {
-      selector: "#ancCreateJob",
-      step: 2,
-      title: "AddAssetCatalogue",
-      content: "AddNewProductYourProductCatalogue",
-    },
-  ],
-};
-touritem["AssetCatalog/Add"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Asset Catalog Add",
-  items: [
-    {
-      selector: ".productCreateTab1",
-      step: 1,
-      title: "EnterProductDetails",
-      content: "SelectProductTypeFillRequiredDetails",
-    },
-    {
-      selector: "#ancDeployItems",
-      step: 2,
-      title: "AddAssetCatalogue",
-      content: "AddNewProductYourProductCatalogue",
-    },
-    {
-      selector: ".productDeployTourGuideTab2",
-      step: 3,
-      title: "ProductDeployment",
-      content: "ProductDeloyementTab",
-    },
-  ],
-};
-touritem["AssetCatalog/TransferItem"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Item Transfer",
-  items: [
-    {
-      selector: ".Search-panel",
-      step: 1,
-      title: "AssetTransfer",
-      content: "TransferProductsFromOneLocationToAnother",
-    },
-  ],
-};
-touritem["AssetCatalog/ViewInTransitItems"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "InTransit Items",
-  items: [
-    {
-      selector: ".single-action",
-      step: 1,
-      title: "TransitCheck",
-      content: "CheckYourIntransitProductsMovingFromOneLocationToAnother",
-    },
-    {
-      selector: ".fa .fa-check-circle",
-      step: 2,
-      title: "TransitClearance",
-      content: "ApproveRejectProductsThatAreTransit",
-    },
-  ],
-};
-touritem["Asset/MyItems"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "My Items",
-  items: [
-    {
-      selector: "#ancaddgroupRequisitions",
-      step: 1,
-      title: "GetYourProduct",
-      content: "YouCanRequestProductsIssuesForYourself",
-    },
-  ],
-};
-touritem["AssetRequisition/AddRequisition"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "AddRequisition",
-  items: [
-    {
-      selector: "#ancsaverequest",
-      step: 1,
-      title: "CheckOut",
-      content: "YouCanRequestProductsIssuesForYourself",
-    },
-  ],
-};
-touritem["AssetAssignment/Index"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Item Assignment",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchFilters",
-      content: "FindAssignedProductUsingTheDefaultFilters",
-    },
-    {
-      selector: "#ancCreateJob",
-      step: 2,
-      title: "AssignItem",
-      content: "AssignProductsEmployeeReturnProductsFromOneSingleScreen",
-    },
-  ],
-};
-touritem["AssetAssignment/Add"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Add Asset Assignment",
-  items: [
-    {
-      selector: "#btnSave",
-      step: 1,
-      title: "ProductSelectionAssignment",
-      content: "SelectProductEnterRequiredInformationAssignProduct",
-    },
-  ],
-};
-touritem["AssetRequisition/NewAssetRequisitionListing"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "New Asset Requistion",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchThroughRaisedProductRequests",
-    },
-    {
-      selector: ".aViewRequisition",
-      step: 2,
-      title: "RequestView",
-      content: "ViewYourRequestDetailsComments",
-    },
-    {
-      selector: "#ancCreateJob",
-      step: 3,
-      title: "ProductRequest",
-      content: "RequesNewPproductsByAddingYouRequest",
-    },
-  ],
-};
-touritem["AssetRequisition/AddNewRequisition"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Add New Requisition",
-  items: [
-    {
-      selector: "#main-content",
-      step: 1,
-      title: "EnterDescription",
-      content: "NameProductAndDescribeIt",
-    },
-  ],
-};
+
+
 touritem["AssetCatalog/ScheduleUpdate"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
@@ -3329,7 +3140,7 @@ touritem["Ticketing/Group"] = {
       selector: "#accordionEx",
       step: 1,
       title: "Search Filters",
-      content: "SearchFiltersPageTour",
+      content: "SearhFiltersGroup",
     },
     {
       selector: "#AddGroup",
@@ -3623,6 +3434,162 @@ touritem["File/Dashboard"] = {
     },
   ],
 };
+
+
+// touritem["Asset/Dashboard"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Dashboard",
+//   items: [
+//     {
+//       selector: "#aDateLable_global",
+//       step: 1,
+//       title: "DateSelection",
+//       content: "SelectYourDateViewReports",
+//     },
+//     {
+//       selector: "#hlkAddMoreReports",
+//       step: 2,
+//       title: "AddReport",
+//       content: "AddMoreReports",
+//     },
+//   ],
+// };
+// touritem["AssetCatalog/Index"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Asset Catalog Listing",
+//   items: [
+//     {
+//       selector: "#accordionEx",
+//       step: 1,
+//       title: "SearchFilters",
+//       content: "SearchYourProductsUsingFilters",
+//     },
+//     {
+//       selector: "#ancCreateJob",
+//       step: 2,
+//       title: "AddAssetCatalogue",
+//       content: "AddNewProductYourProductCatalogue",
+//     },
+//   ],
+// };
+// touritem["AssetCatalog/Add"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Asset Catalog Add",
+//   items: [
+//     {
+//       selector: ".productCreateTab1",
+//       step: 1,
+//       title: "EnterProductDetails",
+//       content: "SelectProductTypeFillRequiredDetails",
+//     },
+//     {
+//       selector: "#ancDeployItems",
+//       step: 2,
+//       title: "AddAssetCatalogue",
+//       content: "AddNewProductYourProductCatalogue",
+//     },
+//     {
+//       selector: ".productDeployTourGuideTab2",
+//       step: 3,
+//       title: "ProductDeployment",
+//       content: "ProductDeloyementTab",
+//     },
+//   ],
+// };
+// touritem["AssetCatalog/TransferItem"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Item Transfer",
+//   items: [
+//     {
+//       selector: ".Search-panel",
+//       step: 1,
+//       title: "AssetTransfer",
+//       content: "TransferProductsFromOneLocationToAnother",
+//     },
+//   ],
+// };
+// touritem["AssetCatalog/ViewInTransitItems"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "InTransit Items",
+//   items: [
+//     {
+//       selector: ".single-action",
+//       step: 1,
+//       title: "TransitCheck",
+//       content: "CheckYourIntransitProductsMovingFromOneLocationToAnother",
+//     },
+//     {
+//       selector: ".fa .fa-check-circle",
+//       step: 2,
+//       title: "TransitClearance",
+//       content: "ApproveRejectProductsThatAreTransit",
+//     },
+//   ],
+// };
+// touritem["Asset/MyItems"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "My Items",
+//   items: [
+//     {
+//       selector: "#ancaddgroupRequisitions",
+//       step: 1,
+//       title: "GetYourProduct",
+//       content: "YouCanRequestProductsIssuesForYourself",
+//     },
+//   ],
+// };
+// touritem["AssetRequisition/AddRequisition"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "AddRequisition",
+//   items: [
+//     {
+//       selector: "#ancsaverequest",
+//       step: 1,
+//       title: "CheckOut",
+//       content: "YouCanRequestProductsIssuesForYourself",
+//     },
+//   ],
+// };
+// touritem["AssetAssignment/Index"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Item Assignment",
+//   items: [
+//     {
+//       selector: "#accordionEx",
+//       step: 1,
+//       title: "SearchFilters",
+//       content: "FindAssignedProductUsingTheDefaultFilters",
+//     },
+//     {
+//       selector: "#ancCreateJob",
+//       step: 2,
+//       title: "AssignItem",
+//       content: "AssignProductsEmployeeReturnProductsFromOneSingleScreen",
+//     },
+//   ],
+// };
+// touritem["AssetAssignment/Add"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Add Asset Assignment",
+//   items: [
+//     {
+//       selector: "#btnSave",
+//       step: 1,
+//       title: "ProductSelectionAssignment",
+//       content: "SelectProductEnterRequiredInformationAssignProduct",
+//     },
+//   ],
+// };
+
 touritem["Asset/Dashboard"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
@@ -3654,13 +3621,239 @@ touritem["AssetCatalog/Index"] = {
       content: "SearchYourProductsUsingFilters",
     },
     {
-      selector: "#ancCreateJob",
+      selector: "#titleName",
       step: 2,
-      title: "AddAssetCatalogue",
-      content: "AddNewProductYourProductCatalogue",
+      title: "Default View",
+      content: "DefaultView",
+    },
+
+    {
+      selector: "#manageViewbutton",
+      step: 3,
+      title: "Manage View",
+      content: "ManageViewSteps",
+    },
+
+    {
+      selector: "#addManageView",
+      step: 4,
+      title: "Add New",
+      content: "AddMangeView",
+    },
+
+    {
+      selector: "#manageProductFilter",
+      step: 5,
+      title: "Filters",
+      content: "FiltersProudctAssignment",
+    },
+
+    {
+      selector: "#productlist",
+      step: 6,
+      title: "Product List",
+      content: "ProductList",
+    },
+
+    {
+      selector: "#addRelationship",
+      step: 7,
+      title: "Add Relationship",
+      content: "AddRelationship",
+    },
+    {
+      selector: "#checkAvailability",
+      step: 8,
+      title: "Check Availability",
+      content: "CheckAvailability",
+    },
+    {
+      selector: "#Addproduct",
+      step: 9,
+      title: "Add Product",
+      content: "AddProduct",
+    },
+    {
+      selector: "#inTransitProducts",
+      step: 10,
+      title: "In-Transit Products",
+      content: "InTransitProducts",
+    },
+
+    {
+      selector: "#deprectiation",
+      step: 11,
+      title: "Depreciation",
+      content: "DepreciationStep",
+    },
+    {
+      selector: "#importProduct",
+      step: 12,
+      title: "Import Products",
+      content: "ImportProducts",
+    },
+    {
+      selector: "#relatedProduct",
+      step: 13,
+      title: "Related Products",
+      content: "RelatedProducts",
+    },
+    {
+      selector: ".action-list-box is-visible",
+      step: 14,
+      title: "Action Button",
+      content: "ManageProductAction",
     },
   ],
 };
+
+touritem["AssetCatalog/RelatedInformation"] = {
+  ModuleDisplayName: "Asset Management",
+  ModuleName: "Asset",
+  displayName: "Product List",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchYourProductsUsingFilters",
+    },
+    {
+      selector: "#titleName",
+      step: 2,
+      title: "Default View",
+      content: "DefaultView",
+    },
+
+    {
+      selector: "#manageViewbutton",
+      step: 3,
+      title: "Manage View",
+      content: "ManageViewSteps",
+    },
+
+    {
+      selector: "#addManageView",
+      step: 4,
+      title: "Add New",
+      content: "AddMangeView",
+    },
+
+    {
+      selector: "#relatedFilter",
+      step: 5,
+      title: "Filters",
+      content: "FiltersProudctAssignment",
+    },
+
+    {
+      selector: "#addProduct",
+      step: 6,
+      title: "Add Product",
+      content: "RelatedAddProduct",
+    },
+
+    {
+      selector: "#deployProductRelated",
+      step: 7,
+      title: "Deploy Product",
+      content: "DeployProduct",
+    },
+
+    {
+      selector: "#DeployMentType",
+      step: 8,
+      title: "Add Deploy Product",
+      content: "AddDeployProduct",
+    },
+    {
+      selector: "#barcode",
+      step: 9,
+      title: "Barcode",
+      content: "RelatedBarcode",
+    },
+
+    {
+      selector: "#barcodePrint",
+      step: 10,
+      title: "Barcode Print",
+      content: "RelatedBarcodePrint",
+    },
+
+    {
+      selector: "#backtolist",
+      step: 11,
+      title: "Back to List",
+      content: "RelatedBacktoList",
+    },
+  ],
+};
+
+touritem["AssetCatalog/TransferItem"] = {
+  ModuleDisplayName: "Asset Management",
+  ModuleName: "Asset",
+  displayName: "Product Transfer",
+  items: [
+    // {
+    //   selector: ".Search-panel",
+    //   step: 1,
+    //   title: "AssetTransfer",
+    //   content: "TransferProductsFromOneLocationToAnother",
+    // },
+    {
+      selector: "#searchProductTransfer",
+      step: 1,
+      title: "Product Transfer",
+      content: "ProductTransferDetail",
+    },
+
+    {
+      selector: "#addProdcutMoveList",
+      step: 2,
+      title: "Product Move to List",
+      content: "ProductMovetoList",
+    },
+  ],
+};
+
+touritem["AssetCatalog/ViewInTransitItems"] = {
+  ModuleDisplayName: "Asset Management",
+  ModuleName: "Asset",
+  displayName: "In-Transit List",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "In-Transit List",
+      content: "InTransitListStep",
+    },
+    {
+      selector: "#AcceptReject",
+      step: 2,
+      title: "Accept/Reject",
+      content: "AcceptandReject",
+    },
+    {
+      selector: "#transferredList",
+      step: 3,
+      title: "Transferred List",
+      content: "TransferredList",
+    },
+    {
+      selector: "#backtolist",
+      step: 4,
+      title: "Back to List",
+      content: "TransferredBacktoList",
+    },
+    {
+      selector: "#comment",
+      step: 5,
+      title: "Comment",
+      content: "InTransitComment",
+    },
+  ],
+};
+
 touritem["AssetCatalog/Add"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
@@ -3686,51 +3879,148 @@ touritem["AssetCatalog/Add"] = {
     },
   ],
 };
-touritem["AssetCatalog/TransferItem"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Item Transfer",
-  items: [
-    {
-      selector: ".Search-panel",
-      step: 1,
-      title: "AssetTransfer",
-      content: "TransferProductsFromOneLocationToAnother",
-    },
-  ],
-};
-touritem["AssetCatalog/ViewInTransitItems"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "InTransit Items",
-  items: [
-    {
-      selector: ".single-action",
-      step: 1,
-      title: "TransitCheck",
-      content: "CheckYourIntransitProductsMovingFromOneLocationToAnother",
-    },
-    {
-      selector: ".fa .fa-check-circle",
-      step: 2,
-      title: "TransitClearance",
-      content: "ApproveRejectProductsThatAreTransit",
-    },
-  ],
-};
+// touritem["AssetCatalog/TransferItem"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Item Transfer",
+//   items: [
+//     {
+//       selector: ".Search-panel",
+//       step: 1,
+//       title: "AssetTransfer",
+//       content: "TransferProductsFromOneLocationToAnother",
+//     },
+//   ],
+// };
+// touritem["AssetCatalog/ViewInTransitItems"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "InTransit Items",
+//   items: [
+//     {
+//       selector: ".single-action",
+//       step: 1,
+//       title: "TransitCheck",
+//       content: "CheckYourIntransitProductsMovingFromOneLocationToAnother",
+//     },
+//     {
+//       selector: ".fa .fa-check-circle",
+//       step: 2,
+//       title: "TransitClearance",
+//       content: "ApproveRejectProductsThatAreTransit",
+//     },
+//   ],
+// };
+
 touritem["Asset/MyItems"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
   displayName: "My Items",
   items: [
+    // {
+    //   selector: "#ancaddgroupRequisitions",
+    //   step: 1,
+    //   title: "GetYourProduct",
+    //   content: "YouCanRequestProductsIssuesForYourself",
+    // },
     {
-      selector: "#ancaddgroupRequisitions",
+      selector: "#accordionEx",
       step: 1,
-      title: "GetYourProduct",
-      content: "YouCanRequestProductsIssuesForYourself",
+      title: "Search Filters",
+      content: "MyproductFilter",
+    },
+    {
+      selector: "#myProductCheckAvailability",
+      step: 2,
+      title: "Check Availability",
+      content: "CheckAvailabilityMyProduct",
+    },
+    {
+      selector: "#selfAssignmentMyProduct",
+      step: 3,
+      title: "Self Assignment",
+      content: "SelfAssignmentMyProduct",
+    },
+    {
+      selector: "#checkOutList",
+      step: 4,
+      title: "Check Out Request List",
+      content: "CheckOutRequestList",
+    },
+    {
+      selector: "#AddCheckOutRequest",
+      step: 5,
+      title: "Add Check Out Request",
+      content: "AddCheckOutRequestAllow",
     },
   ],
 };
+
+touritem["AssetRequisition/MyRequisitions"] = {
+  ModuleDisplayName: "Asset Management",
+  ModuleName: "Asset",
+  displayName: "Check-Out List",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filters",
+      content: "SearchFilter",
+    },
+
+    {
+      selector: "#rejectCheckoutRequest",
+      step: 2,
+      title: "Reject",
+      content: "RejectCheckoutProduct",
+    },
+
+    {
+      selector: "#addCheckoutRequest",
+      step: 3,
+      title: "Add Check out Request",
+      content: "AddCheckOutRequestAllow",
+    },
+  ],
+};
+
+touritem["AssetAssignment/CheckOut"] = {
+  ModuleDisplayName: "Asset Management",
+  ModuleName: "Asset",
+  displayName: "Check-Out List",
+  items: [
+    {
+      selector: "#addProduct",
+      step: 1,
+      title: "Add Products",
+      content: "AddProductsCheckout",
+    },
+  ],
+};
+
+// touritem["AssetAssignment/CheckOut"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Check-Out List",
+//   items: [
+
+//     {
+//       selector: "#addProduct",
+//       step: 1,
+//       title: "Add Products",
+//       content: "AddProductsCheckout",
+//     },
+
+//       {
+//       selector: "#accordionEx",
+//       step: 2,
+//       title: "Search Filters",
+//       content: "SearchFilter",
+//     },
+
+//   ],
+// };
+
 touritem["AssetRequisition/AddRequisition"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
@@ -3744,10 +4034,12 @@ touritem["AssetRequisition/AddRequisition"] = {
     },
   ],
 };
+
 touritem["AssetAssignment/Index"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
   displayName: "Item Assignment",
+
   items: [
     {
       selector: "#accordionEx",
@@ -3755,14 +4047,64 @@ touritem["AssetAssignment/Index"] = {
       title: "SearchFilters",
       content: "FindAssignedProductUsingTheDefaultFilters",
     },
+
+    // {
+    //   selector: "#ancCreateJob",
+    //   step: 2,
+    //   title: "AssignItem",
+    //   content: "AssignProductsEmployeeReturnProductsFromOneSingleScreen",
+    // },
     {
-      selector: "#ancCreateJob",
+      selector: "#titleName",
       step: 2,
-      title: "AssignItem",
-      content: "AssignProductsEmployeeReturnProductsFromOneSingleScreen",
+      title: "Default View",
+      content: "DefaultView",
+    },
+
+    {
+      selector: "#manageViewbutton",
+      step: 3,
+      title: "Manage View",
+      content: "ManageViewSteps",
+    },
+
+    {
+      selector: "#addManageView",
+      step: 4,
+      title: "Add New",
+      content: "AddMangeView",
+    },
+
+    {
+      selector: "#filterProductAssingment",
+      step: 5,
+      title: "Filters",
+      content: "FiltersProudctAssignment",
+    },
+
+    {
+      selector: "#returnProduct",
+      step: 6,
+      title: "Return Product",
+      content: "ReturnProduct",
+    },
+
+    {
+      selector: "#requestforReturn",
+      step: 7,
+      title: "Request for Return",
+      content: "RequestforReturn",
+    },
+
+    {
+      selector: ".action-list-box",
+      step: 8,
+      title: "Action Button",
+      content: "ActionButton",
     },
   ],
 };
+
 touritem["AssetAssignment/Add"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
@@ -3776,6 +4118,247 @@ touritem["AssetAssignment/Add"] = {
     },
   ],
 };
+
+touritem["Asset/Index"] = {
+  ModuleDisplayName: "Asset Management",
+  ModuleName: "Asset",
+  displayName: "Product Type",
+
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filter",
+      content: "SearchFilterProductType",
+    },
+
+    {
+      selector: "#addProducttype",
+      step: 2,
+      title: "Add",
+      content: "AddProductType",
+    },
+
+    {
+      selector: "#importProductType",
+      step: 3,
+      title: "Import Product Type",
+      content: "ImportProductType",
+    },
+    {
+      selector: "#Active",
+      step: 4,
+      title: "Activate",
+      content: "ActivateProductType",
+    },
+    {
+      selector: "#Inactive",
+      step: 5,
+      title: "Deactivate",
+      content: "DeactivateProductType",
+    },
+  ],
+};
+
+touritem["Asset/AssetGrouping"] = {
+  ModuleDisplayName: "Asset Management",
+  ModuleName: "Asset",
+  displayName: "Product Container",
+
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filter",
+      content: "SearchFilterProductContainer",
+    },
+
+    {
+      selector: "#addProductcontainer",
+      step: 2,
+      title: "Add",
+      content: "AddProductContainer",
+    },
+
+    {
+      selector: "#activeProduct",
+      step: 3,
+      title: "Activate",
+      content: "ActivateProductContainer",
+    },
+
+    {
+      selector: "#InactiveProduct",
+      step: 4,
+      title: "Deactivate",
+      content: "DeactivateProductContainer",
+    },
+  ],
+};
+
+touritem["Asset/PendingRequest"] = {
+  ModuleDisplayName: "Asset Management",
+  ModuleName: "Asset",
+  displayName: "Pending Request",
+
+  items: [
+    {
+      selector: "#pendingRequest",
+      step: 1,
+      title: "Pending Check Out Request",
+      content: "PendingCheckOutRequestSection",
+    },
+
+    {
+      selector: "#productName",
+      step: 2,
+      title: "Product Name",
+      content: "PendingRequestProductName",
+    },
+
+    {
+      selector: "#divtable1",
+      step: 3,
+      title: "Product Check Out Requests",
+      content: "ProductCheckOutRequests",
+    },
+
+    {
+      selector: "#pendignAssign",
+      step: 4,
+      title: "Assign",
+      content: "AssignProductPendingRequest",
+    },
+
+    {
+      selector: "#rejectProduct",
+      step: 5,
+      title: "Reject",
+      content: "RejectProductPendingRequest",
+    },
+
+    {
+      selector: "#nextButton",
+      step: 6,
+      title: "Next",
+      content: "NextSection",
+    },
+
+    {
+      selector: "#pendingRequest",
+      step: 7,
+      title: "Replace Request",
+      content: "ReplaceRequestSteps",
+    },
+
+    {
+      selector: "#divtable2",
+      step: 8,
+      title: "Replace Product List",
+      content: "ReplaceProductList",
+    },
+
+    {
+      selector: "#activeReplaceRequest",
+      step: 9,
+      title: "Approve/Reject Request",
+      content: "ApproveRejectRequest",
+    },
+
+    {
+      selector: "#repairReplaceRequest",
+      step: 10,
+      title: "Repair",
+      content: "RepairRepalceRequest",
+    },
+
+    {
+      selector: "#previousButton",
+      step: 11,
+      title: "Previous",
+      content: "PreviousStep",
+    },
+
+    {
+      selector: "#nextButton",
+      step: 12,
+      title: "Next",
+      content: "NextSection",
+    },
+
+    {
+      selector: "#pendingRequest",
+      step: 13,
+      title: "Return Request",
+      content: "ReturnRequest",
+    },
+
+    {
+      selector: "#searchFilterReturnRequest",
+      step: 14,
+      title: "Search Filter",
+      content: "SearchFilterReturnRequest",
+    },
+
+    {
+      selector: "#divtable3",
+      step: 15,
+      title: "Product List",
+      content: "ReturnProductList",
+    },
+
+    {
+      selector: "#ReturnRequest",
+      step: 16,
+      title: "Approve/Reject",
+      content: "ApproveRejectReturnProduct",
+    },
+
+    {
+      selector: "#previousButton",
+      step: 17,
+      title: "Previous",
+      content: "PreviousStep",
+    },
+
+    {
+      selector: "#nextButton",
+      step: 18,
+      title: "Next",
+      content: "NextSection",
+    },
+
+    {
+      selector: "#pendingRequest",
+      step: 19,
+      title: "Reservation",
+      content: "ReservationStep",
+    },
+
+    {
+      selector: "#productReserve",
+      step: 20,
+      title: "Search Filter",
+      content: "ReservationSearchFilter",
+    },
+
+    {
+      selector: "#divtable4",
+      step: 21,
+      title: "Product List",
+      content: "ReservationProductList",
+    },
+
+    {
+      selector: "#previousButton",
+      step: 22,
+      title: "Previous",
+      content: "PreviousStep",
+    },
+  ],
+};
+
+
 touritem["AssetRequisition/NewAssetRequisitionListing"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",

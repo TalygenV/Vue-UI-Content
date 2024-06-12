@@ -303,7 +303,10 @@ input:checked + .slider {text-indent:0;  background: #4595db!important;    paddi
 input:checked + .slider span.slider-yes {    display:inline-block;    }/***padding: 0 26px 0 0px;***/
 input:checked + .slider span.slider-no {    display: none !important;}
 input:checked + .slider span{display: block;}
-input[type=checkbox] + .slider span.slider-no{display: inline-block;    padding-right: 10px!important;    margin-left: 19px;} /****padding-left:17px;**Harjit  - 7March2024 ***/
+input[type=checkbox] + .slider span.slider-no{display: inline-block; padding-right: 10px!important; margin-left: 19px;} /****padding-left:17px;**Harjit  - 7March2024 ***/
+
+input[type=checkbox] + .slider span.slider-yes { padding-right: 5px !important; margin-left: 0px;}
+
 input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:auto; right: 23px!important;}
 .slider.round {border-radius: 34px;}
 .slider.round:before {border-radius: 50%;}
@@ -3085,11 +3088,11 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 .trackinfo_left2{width: 50%!important;}
 .trackinfo_right2{width: 50%!important;}
  
-@media (min-width:1024px) and (max-width:1660px)
+@media (min-width:1100px) and (max-width:1660px)
 {
 .newtimertabsbase .weeklystatusboxcontrol .col-md-4{
     -ms-flex: 0 0 50%!important; flex: 0 0 50%!important; max-width: 50%!important;}
-.track-hours-chart .apexcharts-canvas { position: absolute; left:7px;}
+.track-hours-chart .apexcharts-canvas { position: absolute; left:0px;}
 }
 @media (min-width:1100px) and (max-width:1279px)
 {
@@ -5443,7 +5446,9 @@ div#mainDivProp .dropdown-menu button em.fa.fa-times{position: relative;}
 .shortcuts-menu.man_camp li.active a span.left-icon-m {background-color: #00a68e;}
 .shortcuts-menu.man_camp li.active a span.left-icon-m i {color: #fff;}
 .shortcuts-menu.man_camp li:hover a.short-menu-item {background: #00b298 !important; color: #fff !important; border-color: #00b298 !important;}
-.shortcuts-menu li:hover .short-item-name {color: #fff !important;}
+
+/* .shortcuts-menu li:hover .short-item-name {color: #fff !important;} *//******In all themes boxes of Adv. Setup - text was coming white on hover so Commented. 10June2024********/
+
 .shortcuts-menu.man_camp li:hover a span.left-icon-m {background-color: #00a68e;}
 .shortcuts-menu.man_camp li:hover a span.left-icon-m i {color: #fff;}
 .shortcuts-menu.man_camp li a span.left-icon-m i {color: #00b298; font-size: 32px;}
@@ -6168,6 +6173,8 @@ li.active li { margin: 25px 0 0 0; }
 .mobilelistview_base div.gt-unpaid-bar{border-left: 3px solid #747e66;}
 .mobilelistview_base div.gt-paused-bar{border-left: 3px solid #3a3a3d;}
 
+.editentrybase label.switch{min-width: 100px;}
+
 @media (max-width:768px)
 {
 .editentrybase .col-md-1{width: 45px; float:left;}
@@ -6406,8 +6413,8 @@ li.active li { margin: 25px 0 0 0; }
 /*.leftstatus{float: left; width: calc(100% - 520px);}
 .rightgraph {float: right; width: 100%; max-width: 500px;} */
 
-.leftstatus{float: left; width: calc(100% - 490px);}
-.rightgraph {float: right; width: 100%; max-width: 470px;}
+.leftstatus{float: left; width: calc(100% - 530px);}
+.rightgraph {float: right; width: 100%; max-width: 510px;}
 .team-con-box {width: 100%;float: left; margin: 1px 0px; height: auto; position: relative; min-height: 85px; box-sizing: border-box;-webkit-box-sizing: border-box;
 -moz-box-sizing: border-box; padding: 15px 15px 15px 15px;}
 .team-con-img {float:left; width:70px!important; height:70px; position:relative;}
@@ -6701,7 +6708,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .initialsetup_newtab_mainbase .right-content {
     float: right;
     width: calc(100% - 370px)!important;
-    border-left:1px solid #dedede;height: calc(100% - 120px); padding: 15px;
+    border-left:1px solid #dedede;height: calc(100% - 120px); padding: 15px; min-height: 100vh;
 }
 
 @media (max-width:767px)
