@@ -1,0 +1,24 @@
+{
+    "imports": {
+      "@talygen/root-config": "https://qatestnewui.talygen.com/talygen-root-config.js",
+      "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.1/lib/system/single-spa.min.js",
+      "@talygen/authservice": "https://qatestnewuiauth.talygen.com/talygen-authservice.js",
+      "@talygen/navbar": "https://talygenv.github.io/talygenuiqa/QATestNew/NavBar/dist/app.js",
+      "@talygen/crm": "https://talygenv.github.io/talygenuiqa/QATestNew/CRM/dist/app.js",
+      "@talygen/expenses": "https://talygenv.github.io/talygenuiqa/QATestNew/Expense/dist/app.js",
+      "@talygen/docstorage":"https://talygenv.github.io/talygenuiqa/QATestNew/DocStorage/dist/app.js",
+      "@talygen/ticketing":"https://talygenv.github.io/talygenuiqa/QATestNew/Ticketing/dist/app.js",
+      "@talygen/assetmanagement":"https://talygenv.github.io/talygenuiqa/QATestNew/AssetManagement/dist/app.js",
+      "@talygen/commonui": "https://talygenv.github.io/talygenuiqa/QATestNew/CommonUi/dist/app.js",
+      "@talygen/timer": "https://talygenv.github.io/talygenuiqa/QATestNew/Timer/dist/app.js",
+      "@talygen/approvalmodule": "https://talygenv.github.io/talygenuiqa/QATestNew/Approval/dist/app.js",
+      "@talygen/companysetup": "https://talygenv.github.io/talygenuiqa/QATestNew/CompanySetup/dist/app.js",
+      "@talygen/customlayout": "https://talygenv.github.io/talygenuiqa/QATestNew/CustomLayout/dist/app.js",
+      "@talygen/ucaas": "https://talygenv.github.io/talygenuiqa/QATestNew/Ucaas/dist/app.js",
+      "vue": "https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js",
+      "vue-router": "https://cdn.jsdelivr.net/npm/vue-router@3.1.6/dist/vue-router.min.js",
+      "@talygen/root-config/": "https://qatestnewui.talygen.com/",
+      "@talygen/navbar/": "https://talygenv.github.io/talygenuiqa/QATestNew/NavBar/dist/",
+      "@talygen/authservice/": "https://qatestnewuiauth.talygen.com/" 
+    }
+}
