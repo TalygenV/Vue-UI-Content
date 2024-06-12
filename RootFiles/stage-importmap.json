@@ -1,0 +1,39 @@
+{
+    "imports": {
+        "@talygen/root-config": "https://stagespa.talygen.com/talygen-root-config.js",
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.1/lib/system/single-spa.min.js",
+        "@talygen/authservice": "https://spaauthstage.talygen.com/talygen-authservice.js",
+        "@talygen/navbar": "https://talygenv.github.io/talygenui/Stage/NavBar/dist/app.js",
+        "@talygen/crm": "https://talygenv.github.io/talygenui/Stage/CRM/dist/app.js",
+        "@talygen/expenses": "https://talygenv.github.io/talygenui/Stage/Expense/dist/app.js",
+        "@talygen/docstorage": "https://talygenv.github.io/talygenui/Stage/DocStorage/dist/app.js",
+        "@talygen/assetmanagement":"https://talygenv.github.io/talygenui/Stage/AssetManagement/dist/app.js", 
+        "@talygen/commonui": "https://talygenv.github.io/talygenui/Stage/CommonUi/dist/app.js",
+        "@talygen/timer": "https://talygenv.github.io/talygenui/Stage/Timer/dist/app.js",
+        "@talygen/companysetup": "https://talygenv.github.io/talygenui/Stage/CompanySetup/dist/app.js",
+        "@talygen/ticketing":"https://talygenv.github.io/talygenui/Stage/Ticketing/dist/app.js",
+        "@talygen/approvalmodule": "https://talygenv.github.io/talygenui/Stage/Approval/dist/app.js",
+        "vue": "https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js",
+        "vue-router": "https://cdn.jsdelivr.net/npm/vue-router@3.1.6/dist/vue-router.min.js",
+        "@talygen/root-config/": "https://stagespa.talygen.com/",
+        "@talygen/navbar/": "https://talygenv.github.io/talygenui/Stage/NavBar/dist/",
+        "@talygen/crm/": "https://talygenv.github.io/talygenui/Stage/CRM/dist/",
+        "@talygen/authservice/": "https://spaauthstage.talygen.com/"
+    },
+    "moduleContollers": {
+        "@talygen/ticketing":["FSM","Ticketing","RuleEngine","ServiceAppointment","FormBuilder","ReplyTemplate","TicketReport","KnowledgeBase"],
+        "@talygen/crm": ["CRM","Brand","CommunicationModes","CRMReport","User","logout"],
+        "@talygen/expenses": ["Expenses","ExpenseApproval","ExpenseReport","ExpensesHistory"],
+        "@talygen/docstorage":["File","ViewFileDetails","RecyleBin","Storage","MyDashboard","ViewFolderDetails","AdvancedSetup","UserStorageReport","UserStorage","ManageTags","DownloadPublicFile","DownloadPublicFolder","files"],
+        "@talygen/assetmanagement":["Asset","AssetAssignment","AssetRequisition","AssetCatalog","AssetReport","AdvancedSetups","ProductType"],
+        "@talygen/commonui": ["Help","Report","Dashboard","unauthorized","Configuration"],
+        "@talygen/timer": ["TimeTracking","TimerReports","TimesheetApproval","Timer","WorkDiary","Project","Timesheet","TimeApproval"],
+        "@talygen/approvalmodule": ["ApprovalRule","ApprovalChain","ApprovalGroup","ApprovalReport"],
+        "@talygen/customlayout": ["CustomLayout", "Custom"],
+        "@talygen/ucaas": ["Communication"],
+        "@talygen/billing": ["ClientInvoice"],
+        "@talygen/webbuilder": ["WebBuilder"],
+        "@talygen/hr": ["JobPost"],
+        "@talygen/companysetup": ["Company","AnnouncementMessage","CompanyHoliday","Category","Channel","CurrencyManagement","Department","Designation","EmailTemplate","Shift","Skill","Roles","Break","CannedReply","CompanyNotification","ContactType","Feedback","Greeting","IndustryType","Immigration","Location","LoginAuthorization","PaymentGateway","ProvisionalRight","ReviewTemplate","Service","Stage","Status","Storage","UserTitle","AdvanceSetup"]
+    }
+}
