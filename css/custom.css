@@ -307,7 +307,8 @@ input[type=checkbox] + .slider span.slider-no{display: inline-block; padding-rig
 
 input[type=checkbox] + .slider span.slider-yes { padding-right: 5px !important; margin-left: 0px;}
 
-input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:auto; right: 23px!important;}
+input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:21px;}
+/* input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:auto; right: 23px!important;} */
 .slider.round {border-radius: 34px;}
 .slider.round:before {border-radius: 50%;}
 @media screen and (prefers-reduced-motion: reduce) {
@@ -5060,6 +5061,7 @@ ul.graphinfo li:last-child{border: none;}
 .docstorage_leftaccordian #accordion:last-child{border-bottom: none!important;}
 .docstorage_leftaccordian #accordion .progress-bar{background-color: #19a0ff;}
 
+
 /**************  Doc Storage Sushil 27 Feb ***************/
 
 /******After Design Kand - 22 MAy 2024 HArjit Singh*********/
@@ -6354,8 +6356,8 @@ li.active li { margin: 25px 0 0 0; }
 .daterangecontrolHS #slotdate span.timesheetdatepicker input#date_range {border: none;}
 .daterangecontrolHS #slotdate span.timesheetdatepicker a#aDateLable {position: absolute; left: 10px; z-index: 9; top: 4px; font-size: 14px;}
 .daterangecontrolHS #slotdate span.timesheetdatepicker .input-group-append .input-group-text {border: none; border-left: 1px solid #afb5bb;}
-.daterangecontrolHS #user_id div.form-group label {display: none;}
-.daterangecontrolHS #slotbutton div.form-group label {display: none;}
+/* .daterangecontrolHS #user_id div.form-group label {display: none;}
+.daterangecontrolHS #slotbutton div.form-group label {display: none;} */ /****Company setup imigration tab User dropdown was not coming so commented - Harjit & Anuj - 12June2024*******/
 .table.table-bordered.timesheettable tr th:first-child {border-right: 1px solid #c6cace !important;}
 .table.table-bordered.timesheettable tr td:first-child {border-right: 1px solid #c6cace !important;}
 
