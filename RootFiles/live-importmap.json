@@ -7,7 +7,7 @@
         "@talygen/crm": "https://d2pvmahzgsgqn.cloudfront.net/prod/v1.2/CRM/dist/app.js",
         "@talygen/expenses": "https://d2pvmahzgsgqn.cloudfront.net/prod/v1.0/Expense/dist/app.js",
         "@talygen/docstorage":"https://d2pvmahzgsgqn.cloudfront.net/prod/v1.0/DocStorage/dist/app.js",
-        "@talygen/ticketing":"https://d2pvmahzgsgqn.cloudfront.net/prod/v1.1/Ticketing/dist/app.js",
+        "@talygen/ticketing":"https://d2pvmahzgsgqn.cloudfront.net/prod/v1.2/Ticketing/dist/app.js",
         "@talygen/assetmanagement":"https://d2pvmahzgsgqn.cloudfront.net/prod/v1.0/AssetManagement/dist/app.js",
         "@talygen/commonui": "https://d2pvmahzgsgqn.cloudfront.net/prod/v1.1/CommonUi/dist/app.js",
         "@talygen/timer": "https://d2pvmahzgsgqn.cloudfront.net/prod/v1.0/Timer/dist/app.js",
