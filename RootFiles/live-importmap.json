@@ -12,7 +12,7 @@
         "@talygen/commonui": "https://d2pvmahzgsgqn.cloudfront.net/prod/v1.1/CommonUi/dist/app.js",
         "@talygen/timer": "https://d2pvmahzgsgqn.cloudfront.net/prod/v1.0/Timer/dist/app.js",
         "@talygen/approvalmodule": "https://d2pvmahzgsgqn.cloudfront.net/prod/v1.0/Approval/dist/app.js",
-        "@talygen/companysetup": "https://d2pvmahzgsgqn.cloudfront.net/prod/v1.1/CompanySetup/dist/app.js",
+        "@talygen/companysetup": "https://d2pvmahzgsgqn.cloudfront.net/prod/v1.2/CompanySetup/dist/app.js",
         "@talygen/customlayout": "https://d2pvmahzgsgqn.cloudfront.net/prod/v1.1/CustomLayout/dist/app.js",
         "vue": "https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js",
         "vue-router": "https://cdn.jsdelivr.net/npm/vue-router@3.1.6/dist/vue-router.min.js",
