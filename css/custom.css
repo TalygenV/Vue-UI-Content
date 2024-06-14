@@ -322,6 +322,13 @@ label.switch.w70{min-width: 70px;}
 .switch.medium input:checked + .slider::before{ left: 40px; }
 .switch.large{ width:110px; }
 .switch.large input:checked + .slider::before{ left: 61px; }
+
+/***Silent App Time Track DB***/
+.col-control-right label.switch input:checked + .slider::before{left: 60px;}
+
+/***Silent App Time Track DB***/
+
+
 /*********************** switch ********************/
 /*********************** Login ********************/
 .loginbg {padding: 0px;}
