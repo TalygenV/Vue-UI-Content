@@ -5732,6 +5732,8 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 
 .mandatoryblue{border-color: #80cbff !important; box-shadow: none; background: #e8f5ff!important;}
 
+
+
 /****Help & Guide - Initial Setup Header - Mohit***********/
 
 .disabledaction {color: #8e9894 !important; cursor: not-allowed !important; pointer-events: none;}
@@ -6753,10 +6755,10 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     color:#24a5ff!important;    
 }
 .initialsetup_newtab_design.left-tab li.initialsetup_completed {
-    background: #eafeee!important;
+    background: #c9ffd4 !important;
 }
 .initialsetup_newtab_design.left-tab li.initialsetup_completed:hover {
-    background: #eafeee!important;
+    background: #c9ffd4 !important;
 }
 .initialsetup_newtab_design.left-tab li.initialsetup_completed a i{
     color: #4fb262!important; font-size:23px;
@@ -6767,7 +6769,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 
 .initialsetup_newtab_design.left-tab li.active.initialsetup_completed {
-    background: #e0f2ff!important;
+    background: #a5d9ff!important;
     color: #4f4f4f!important; border-right: 1px solid #c9d9e5!important;
 }
 .initialsetup_newtab_design.left-tab li.active.initialsetup_completed a i {
