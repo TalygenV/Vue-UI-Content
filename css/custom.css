@@ -6377,14 +6377,19 @@ li.active li { margin: 25px 0 0 0; }
 .table.table-bordered.timesheettable tr td.its_projectnamebase .its_taskdesc {color: #787878 !important;}
 .table.table-bordered.timesheettable tr.its_fixedrow td {background: #f5f5f5 !important;}
 .table.table-bordered.timesheettable tr.its_fixedrow {border-bottom: 1px solid #fff !important;}
-
 .table.table-bordered.timesheettable tr.its_fixedrow td.table-danger {background:#f5c6cb!important;}
 .table.table-bordered.timesheettable tbody tr:nth-child(even) td.table-danger{background:#f5c6cb!important;}
-
-
 .table.table-bordered.timesheettable tr td div.form-check.form-check-inline.p-0 {padding-left:5px!important;}
-
 .table.table-bordered.timesheettable tbody tr:nth-child(even) td{background-color: #f9f9f9;}
+
+
+@media (max-width:767px)
+{
+    #CopyTimesheet span.mble_show{width:100%; float:left;}
+    #CopyTimesheet div.d-flex{display: block!important;}
+   #CopyTimesheet .ml-3.custom-control.custom-radio.custom-control-inline { margin-left: 0px !important; }
+}
+
 
 
 .hs_tag3 { position: absolute; top: 44px; z-index: 99; background: #fff; padding: 5px; border: 1px solid #c8c8c8; width: 330px; text-align: left; right: 0px; 
