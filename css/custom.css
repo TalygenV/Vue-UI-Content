@@ -6667,6 +6667,10 @@ li.active li { margin: 25px 0 0 0; }
         border-left: 10px solid #303030; width: 50px;
 height: 10px; content: "";}     */
 
+.knowledgebasemain .knowledgebaselist p strong {
+    font-weight: 500 !important;
+  }
+
 .knowledgebasemain .knowledgebaselist h1{font-size: 1.1rem;color: #424f55; font-weight: 400; margin: 0px 0px 10px 0px; background: #f9f9f9; padding: 10px;}
 .knowledgebaselist img {max-width: 98%;}
 .nav-pills .title.overflow_hid h3 {font-size: 1.4rem; color: #424f55; font-weight: 400; margin: 0px 0px 10px 0px;}
