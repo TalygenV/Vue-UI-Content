@@ -6939,7 +6939,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
     .livescreen_leftbase {float: right; width: calc(100% - 300px) !important; height: calc(100% - 120px); padding: 15px;}
     .livescreen_rightbase {float: left; width: 100%; max-width: 290px !important; padding:0px; background: #e0f2ff;}
-    .led_screen{min-height:555px; width:100%; background:#cacaca;}
+    .led_screen{min-height:555px; width:100%; background:#cacaca; position: relative;}
 
     .livescreen_rightbase .cont_desc{border-bottom:2px solid #85c8f9; padding:15px; width:100%; float:left;}
     .livescreen_rightbase .cont_desc:last-child{border:none;}
@@ -6954,5 +6954,14 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     .livescreen_rightbase .cont_btns .smallbtns a.btn-yellow{background:#ff9800;}
     .livescreen_rightbase .cont_btns .smallbtns a.btn-blue{background:#2196f3; margin: 0 auto;}
     .livescreen_rightbase .cont_btns .smallbtns a.btn-purple{background:#3f51b5;}
+
+    .fullscreen_btn {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        background: #f2f2f2;
+    }
 
     /***Live screen - Anuj - HArjit 24June2024***/
