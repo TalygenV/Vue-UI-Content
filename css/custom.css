@@ -6918,7 +6918,6 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .tab-pane ul.dashbord-widget li span.barprogress div.progress-bar-striped{ background-image: none!important; background-color: #cccccc!important; }
 
 /***Chad - Harjit added 21June2024****/
-
 .left-menu-tab.cvscontrol { max-width: 375px;}
 .cvscontrol .leftpanebase { background: #f7f7f7;}
 .cvscontrol .highLight-Box {padding: 0;  border: none;}
@@ -6934,9 +6933,26 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 .right-content.cvs_control { width: calc(100% - 395px); float: right;}
 .cvs_control .user-detail { background: #eff8ff; border: 1px solid #cae5ff !important;}
-
-
-
-
-
 /***Chad - Harjit added 21June2024****/
+
+    /***Live screen - Anuj - HArjit 24June2024***/
+
+    .livescreen_leftbase {float: right; width: calc(100% - 300px) !important; height: calc(100% - 120px); padding: 15px;}
+    .livescreen_rightbase {float: left; width: 100%; max-width: 290px !important; padding:0px; background: #e0f2ff;}
+    .led_screen{min-height:555px; width:100%; background:#cacaca;}
+
+    .livescreen_rightbase .cont_desc{border-bottom:2px solid #85c8f9; padding:15px; width:100%; float:left;}
+    .livescreen_rightbase .cont_desc:last-child{border:none;}
+    .livescreen_rightbase .cont_desc h3{font-size:18px; margin: 0px; font-weight: normal; width:100%; float:left;}
+    .livescreen_rightbase .cont_desc span{font-size:15px; width:100%; float:left;}
+
+    .livescreen_rightbase .cont_btns{padding:15px; width:100%; float:left;}
+        
+    .livescreen_rightbase .cont_btns .largebtns a{width:100%; margin-bottom:5px; margin-top:5px; font-size:16px;}
+    .livescreen_rightbase .cont_btns .smallbtns a{width:26%; float:left; color:#fff;}
+
+    .livescreen_rightbase .cont_btns .smallbtns a.btn-yellow{background:#ff9800;}
+    .livescreen_rightbase .cont_btns .smallbtns a.btn-blue{background:#2196f3; margin: 0 auto;}
+    .livescreen_rightbase .cont_btns .smallbtns a.btn-purple{background:#3f51b5;}
+
+    /***Live screen - Anuj - HArjit 24June2024***/
