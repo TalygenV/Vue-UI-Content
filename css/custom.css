@@ -3076,7 +3076,7 @@ ul.canvan-view-list { display: flex; flex-wrap: wrap; }
 .date_fm p{font-size:12px;margin-bottom:0;text-transform:uppercase}
 .month_day li:nth-child(2n) .lightblue{background:#24a5ff}
 /* weekly status  */
-.lightblue{background:#61beff;color:#fff;font-weight:500;height:77px;line-height:80px}/***height:58px;line-height:61px***/
+.lightblue{background:#61beff;color:#fff;font-weight:500;min-height:77px;line-height:80px}/***height:58px;line-height:61px***/
 .eqcol{min-height:170px;}
 span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 .month_day li:nth-child(2n) .lightblue.darkyellow{background:#cdac37}
