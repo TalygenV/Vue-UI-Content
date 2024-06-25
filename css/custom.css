@@ -3323,7 +3323,7 @@ ul.canvan-view-list {display: flex; flex-wrap: wrap;	min-width: 1200px;}
 .help-page ul li{ width: 33.33%; float: left; list-style: disclosure-closed; }
 .help-page a{ color:#068DD3}
 .help-page ul li a:hover{ color:#104baa}
-.help-page img{ padding-right:10px; width: 100%;}
+.help-page img{ padding-right:10px;}
 .help-page .helplink_talyhelp { display: block; background: #f1f1f1; padding: 5px 10px; }
 .help-page .helplink_talyhelp a{ color:#068DD3}
 
