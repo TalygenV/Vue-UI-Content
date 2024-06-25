@@ -6195,6 +6195,8 @@ li.active li { margin: 25px 0 0 0; }
 
 .editentrybase label.switch{min-width: 100px;}
 
+.editentrybase .row {margin-bottom: 10px;}
+
 @media (max-width:768px)
 {
 .editentrybase .col-md-1{width: 45px; float:left;}
