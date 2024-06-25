@@ -311,7 +311,7 @@ input[type=checkbox] + .slider span.slider-yes { padding-right: 5px !important; 
 /* input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:auto; right: 23px!important;} */
 
 /**broad toggle 25june24 HS****/
-table#tblReport0 td input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:40px;}/**left:40px HS 24jun24***/
+#modalprojectquickviewpopforadddabhboard .modal-body input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:40px;}/**left:40px HS 24jun24***/
 /**broad toggle 25june24 HS****/
 
 .slider.round {border-radius: 34px;}
