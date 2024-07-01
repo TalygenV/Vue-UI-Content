@@ -6980,5 +6980,9 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     .bodbtn_grey{ border: 1px solid #c0c0c0; color: #c0c0c0; background-color: #fff;}
     .bodbtn_yellow{ border: 1px solid #fcae18; color:#fcae18; background-color: #fff;}
 
+    .blink { animation: blink-animation 1s steps(5, start) infinite; 
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;}
+            @keyframes blink-animation {to {visibility: hidden;}} 
+        @-webkit-keyframes blink-animation {to {visibility: hidden;}}
     /***Live screen - Anuj - HArjit 24June2024***/
 
