@@ -6977,6 +6977,8 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     .fullscreen_btn { position: absolute; bottom: 20px; right: 20px; font-size: 30px; background: rgba(0, 0, 0, 0.3); padding: 0px 10px;}
     .fullscreen_btn a{color: #fff;}
 
+    .livescreen_rightbase .cont_btns .smallbtns a em { font-size: 26px;}
+
     .bodbtn_green{ border: 1px solid #42c683; color: #42c683; background-color: #fff;}
     .bodbtn_grey{ border: 1px solid #c0c0c0; color: #c0c0c0; background-color: #fff;}
     .bodbtn_yellow{ border: 1px solid #fcae18; color:#fcae18; background-color: #fff;}
