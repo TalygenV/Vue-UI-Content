@@ -3761,6 +3761,9 @@ ul.canvan-view-list.kvlistview li div.card:hover{cursor:move;}
 .default_db .onlyd-view{max-height: 1010px;}
 .default_db .onlyd-view.onlytodo_kb .kvfixhead {min-width: 740px!important;}
 
+.default_db .onlytodo_kb .canvan-view-list.kvfixhead div.pending{ width: 355px !important; max-width: 355px;}
+.default_db .onlytodo_kb .canvan-view-list.kvfixhead div.overdue{ width: 355px !important; max-width: 355px;}
+
 /***Kanbanview only Project - todo -list Harjit Singh 13oct2021**************************/
 
 .timer_respbase .heading {   font-weight: 400;}
