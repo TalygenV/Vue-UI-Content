@@ -3757,6 +3757,10 @@ ul.canvan-view-list.kvlistview li div.card:hover{cursor:move;}
 .onlytodo_kb .canvan-view-list.kvlistview li {flex:1!important; width:380px!important; max-width:380px;}/***Harjit changed width inherit from 446px*****/
 .onlytodo_kb .list-group-item{border:none;}
 .onlytodo_kb a.nostylelink{color:#303030;}
+
+.default_db .onlyd-view{max-height: 1010px;}
+.default_db .onlyd-view.onlytodo_kb .kvfixhead {min-width: 790px!important;}
+
 /***Kanbanview only Project - todo -list Harjit Singh 13oct2021**************************/
 
 .timer_respbase .heading {   font-weight: 400;}
