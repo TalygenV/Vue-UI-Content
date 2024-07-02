@@ -1250,5 +1250,11 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
   
 /****2024 - New Css added *****/
 
+  /***********KnowledgeBase Articles*****************************/
+  .knowledgebasemain .knowledgebaselist h1{font-size: 1.1rem;color: #ddd; font-weight: 400; margin: 0px 0px 10px 0px; background: #191d20; padding: 10px;}
+  .nav-pills .title.overflow_hid h3 {font-size: 1.4rem; color: #ddd; font-weight: 400; margin: 0px 0px 10px 0px;}
+
+  /***********KnowledgeBase Articles*****************************/
+
 
 
