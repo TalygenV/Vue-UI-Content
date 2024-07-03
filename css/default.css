@@ -784,8 +784,10 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     background-image: url('../images/checkmark.png') !important;
   } */
 
-
-
+  /***********KnowledgeBase Articles - 2024*****************************/
+.left-filter .helpartilceslistcontrol .card-header{margin: 0px !important; padding: 0px 0px !important;}
+.left-filter .helpartilceslistcontrol .card{margin-bottom: 10px;}
+  /***********KnowledgeBase Articles - 2024*****************************/
 
 
 
