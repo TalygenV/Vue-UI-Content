@@ -952,6 +952,14 @@ span.virtual-desk-legend {background:#b0afaf!important;}
 .skip-btn-clr {background: #e6e6e6;}
 
 /***********KnowledgeBase Articles - 2024*****************************/
+.b-turquoise{border-color: #2dc8ba !important;}
+.b-light-green {border-color: #9acb3e !important;} 
+.b-secondery-blue {border-color: #2085ff !important;} 
+
+a.b-turquoise:hover{ background-color: #2dc8ba!important; color: #fff!important;}
+a.b-secondery-blue:hover{ background-color: #2085ff!important; color: #fff!important;}
+a.b-light-green:hover{ background-color: #9acb3e!important; color: #fff!important;}
+
 .left-filter .helpartilceslistcontrol .card-header{margin: 0px !important; padding: 5px 0px !important; background: #f9f9f9; border-bottom: 1px solid #f2f2f2;}
 .left-filter .helpartilceslistcontrol .card{margin-bottom: 10px;}
 /***********KnowledgeBase Articles - 2024*****************************/
