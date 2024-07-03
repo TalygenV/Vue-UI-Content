@@ -1256,6 +1256,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 
   /***********KnowledgeBase Articles - 2024*****************************/
+  .left-tab li:first-child{border-color:#1c1f22;}
+
+
   .left-filter .helpartilceslistcontrol .card-header{margin: 0px !important; padding: 5px 0px !important;}
   .left-filter .helpartilceslistcontrol .card{margin-bottom: 10px;}
 
