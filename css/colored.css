@@ -572,6 +572,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 /***********KnowledgeBase Articles*****************************/
 
+.left-filter .helpartilceslistcontrol .card-header{margin: 0px !important; padding: 5px 0px !important;}
+.left-filter .helpartilceslistcontrol .card{margin-bottom: 10px;}
+
 .left-filter .helpartilceslistcontrol .card{background: #f9f9f9; border-bottom: 2px solid #fff !important;}
 .left-filter .helpartilceslistcontrol .card-header {background: #f2f2f2;}
 
