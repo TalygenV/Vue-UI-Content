@@ -1253,12 +1253,19 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
   
 /****2024 - New Css added *****/
 
-  /***********KnowledgeBase Articles*****************************/
+
+
+  /***********KnowledgeBase Articles - 2024*****************************/
+  .left-filter .helpartilceslistcontrol .card-header{margin: 0px !important; padding: 0px 0px !important;}
+  .left-filter .helpartilceslistcontrol .card{margin-bottom: 10px;}
+
   .knowledgebasemain .knowledgebaselist h1{font-size: 1.1rem;color: #ddd; font-weight: 400; margin: 0px 0px 10px 0px; background: #191d20; padding: 10px;}
   .nav-pills .title.overflow_hid h3 {font-size: 1.4rem; color: #ddd; font-weight: 400; margin: 0px 0px 10px 0px;}
   section.help-and-guide .innerminheight .col-md-4.mb-4 a{color: unset;}
+  
+    /***********KnowledgeBase Articles - 2024*****************************/
 
-  /***********KnowledgeBase Articles*****************************/
+
 
 
 
