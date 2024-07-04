@@ -3579,6 +3579,9 @@ transform: rotate(0deg) !important;}
 @media (min-width: 1441px) and (max-width: 1600px) {
 .BRCFix {flex: 0 0 33.333333%!important; max-width: 33.333333%!important;}
 }
+
+#divruleflowdatashow.flowchart-fix { min-width: 1180px;}
+
 /******************Billing Rule View - panel design fixes - Harjit Singh*******************************/
 
 
