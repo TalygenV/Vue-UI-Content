@@ -3588,6 +3588,10 @@ transform: rotate(0deg) !important;}
 
 .formsfieldmainunique_condition .col-md-6 .input-group span a i.fa-minus-circle{ font-size: 18px !important;}
 
+.formsfieldmainunique_condition.multiselect.ddlfirstfield .multiselect__tags{min-height: 35px !important;}
+
+
+
 }
 
 /******************Billing Rule View - panel design fixes - Harjit Singh*******************************/
