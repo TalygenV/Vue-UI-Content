@@ -3582,6 +3582,10 @@ transform: rotate(0deg) !important;}
 
 #divruleflowdatashow.flowchart-fix { min-width: 1180px;}
 
+@media (max-width:767px){
+#divruleflowdatafsmshow .fc_parentchild .arrowdown{-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
+}
+
 /******************Billing Rule View - panel design fixes - Harjit Singh*******************************/
 
 
