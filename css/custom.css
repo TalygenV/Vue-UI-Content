@@ -3584,6 +3584,10 @@ transform: rotate(0deg) !important;}
 
 @media (max-width:767px){
 #divruleflowdatafsmshow .fc_parentchild .arrowdown{-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
+.formsfieldmainunique_condition .col-md-6 .input-group span:first-child { min-width: 80%; float: left;}
+
+.formsfieldmainunique_condition .col-md-6 .input-group span a i.fa-minus-circle{ font-size: 18px !important;}
+
 }
 
 /******************Billing Rule View - panel design fixes - Harjit Singh*******************************/
