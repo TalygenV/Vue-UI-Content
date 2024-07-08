@@ -6695,6 +6695,14 @@ li.active li { margin: 25px 0 0 0; }
   .productive-box{max-width: 100%!important; width: 100%!important; flex: 0 0 100%;}
 }
 .progress .progress-bar .h6{font-size: 12px;}
+
+/****Silent App****/
+.silentappbase{background:#008ff5; color:#fff; border-radius:5px;}
+.silentappbase .bodrightwhite{border-right:1px solid #2f9cee;}
+.btn-silentapp{background:#fbba3a; color:#333333; font-size:20px; font-weight:500;}
+/****Silent App****/
+
+
 /******Silent App - Time Track Dashboard - for Ezaj Ahmed**********/
 .newddlist .dropdown input[type="text"]{border:1px solid #abb5bf;}
 .dropdown-content{position: absolute;width: 100%;border: 1px solid #adadad;background: #fff; z-index:9; max-height: 200px; overflow-y: auto;}
