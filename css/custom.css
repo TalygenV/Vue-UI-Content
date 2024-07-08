@@ -3982,6 +3982,9 @@ select.form-control[readonly="readonly"]{pointer-events:none;}
 .custtab.actionalignments .mobile-action .actions.mobileaction {top: 50% !important;}/****Harjit-27April2022*****/
 .only2-display div.col-md-12 { flex: 0 0 100%;  max-width: 100%;}
 .wiz-upimg .circle{width:150px!important; height:150px!important; line-height:80px!important;}
+
+justwraper .mobile-action .actions.mobileaction{top: -14px !important;}
+
 }
 
 @media (min-width: 1368px) {
