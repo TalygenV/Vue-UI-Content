@@ -6702,7 +6702,6 @@ li.active li { margin: 25px 0 0 0; }
 .btn-silentapp{background:#fbba3a; color:#333333; font-size:20px; font-weight:500;}
 
 .silentappbase a.text-white{text-decoration: underline!important;}
-
 .silentappbase .close-button{position: absolute; right: 0px;  top: -12px; border-radius: 50%;  opacity: 1; width: 25px; height: 25px; line-height: 21px; text-align: center; padding: 0px; font-size: 12px; background: #f0f0f0;  border: 1px solid #6e6e6e;  font-weight: bold;}
 
 /****Silent App****/
