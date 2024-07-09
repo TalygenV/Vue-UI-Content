@@ -51,12 +51,12 @@ footer ul li a:hover { opacity: .8;}
 .custom-control-label{line-height:22px;}
 .custom-checkbox .custom-control-label::before {background: #fff; border: 1px solid #afb5bb;}
 .custom-control-label::before{background:#fff; border:2px solid #aeb5bd;}
-.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::after{background-image: url("../../../images/radio.png");}
+.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::after{background-image: url("../images/radio.png");}
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before, .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{background: #fff;border: 1px solid #259bff;}
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before{border: 2px solid #259bff;}
-.custom-radio .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../../../images/radio.png');}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../images/radio.png');}
 
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../../../images/checkmark.png');}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../images/checkmark.png');}
 
 .legends_profile{background:#cf4855;}
 .legends_Critical{background:#ea8f44;}
