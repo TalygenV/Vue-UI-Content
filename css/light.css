@@ -861,7 +861,7 @@ footer .ipaddnone a img {	padding: 0px 4px 0 0;}
 .custom_tcurrencymanagement #divShowlistingData { background: transparent;}
 .custom_tcurrencymanagement .tab-content > .tab-pane {    background: transparent;}
 
-.light-ftr-logo a {    display: block;    background-image: url('../../../images/footer-light-logo.png');    background-position: center center;    background-repeat: no-repeat;}
+.light-ftr-logo a {    display: block;    background-image: url('../images/footer-light-logo.png');    background-position: center center;    background-repeat: no-repeat;}
 .light-ftr-logo a img { visibility: hidden; }
 
 /*****company setup******/
