@@ -6700,6 +6700,9 @@ li.active li { margin: 25px 0 0 0; }
 .silentappbase{background-color:#008ff5; color:#fff; border-radius:5px; background-image:url('https://talygenv.github.io/Vue-UI-Content/images/silentappbg.png'); background-repeat: no-repeat;background-position: right;}
 .silentappbase .bodleftwhite{border-left:1px solid #2f9cee;}
 .btn-silentapp{background:#fbba3a; color:#333333; font-size:20px; font-weight:500;}
+
+.silentappbase a.text-white{text-decoration: underline!important;}
+
 /****Silent App****/
 
 
