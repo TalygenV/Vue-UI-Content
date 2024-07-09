@@ -61,11 +61,11 @@ footer ul li a:hover {	color: #FCB322; opacity: .8;}
 .custom-control-label{line-height:22px;}
 .custom-checkbox .custom-control-label::before { background:#2d3135; border:1px solid #737a7d;}/*background: #2c3136; border: 1px solid #4b4f51;*/
 .custom-control-label::before {	background: #191d20; border: 2px solid #acb2b8;}
-.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::after{background-image: url('../../../images/radio.png');}
+.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::after{background-image: url('../images/radio.png');}
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before{border: 2px solid #259bff;}
-.custom-radio .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../../../images/radio.png');}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../images/radio.png');}
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before, .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{border: 1px solid #259bff; background: #191d20;}
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {	background-image: url('../../../images/checkmark.png');	background-color: #2c3136; border: 1px solid #737a7d;}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {	background-image: url('../images/checkmark.png');	background-color: #2c3136; border: 1px solid #737a7d;}
 
 .jslider .jslider-label {    color: #fff !important;}
 .bg-light.border.border-lightgrey {    background: #191d20 !important;    border: 1px solid #3c3f43 !important;}
