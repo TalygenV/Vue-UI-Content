@@ -6697,7 +6697,7 @@ li.active li { margin: 25px 0 0 0; }
 .progress .progress-bar .h6{font-size: 12px;}
 
 /****Silent App****/
-.silentappbase{background:#008ff5; color:#fff; border-radius:5px;}
+.silentappbase{background-color:#008ff5; color:#fff; border-radius:5px; background-image:url('https://talygenv.github.io/Vue-UI-Content/images/silentappbg.png'); background-repeat: no-repeat;background-position: right;}
 .silentappbase .bodrightwhite{border-right:1px solid #2f9cee;}
 .btn-silentapp{background:#fbba3a; color:#333333; font-size:20px; font-weight:500;}
 /****Silent App****/
