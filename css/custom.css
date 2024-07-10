@@ -7043,9 +7043,6 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
             @keyframes blink-animation {to {visibility: hidden;}} 
         @-webkit-keyframes blink-animation {to {visibility: hidden;}}
 
-        .livemonitoring .dashbord-widget li {
-            border: 1px solid;
-            border-radius: 10px;
-        }
+        
     /***Live screen - Anuj - HArjit 24June2024***/
 
