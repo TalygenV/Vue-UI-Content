@@ -307,8 +307,13 @@ input[type=checkbox] + .slider span.slider-no{display: inline-block; padding-rig
 
 input[type=checkbox] + .slider span.slider-yes { padding-right: 5px !important; margin-left: 0px;}
 
-input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:21px;}
+   input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:21px;}/**left:40px HS 24jun24***/
 /* input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:auto; right: 23px!important;} */
+
+/**broad toggle 25june24 HS****/
+#modalprojectquickviewpopforadddabhboard .modal-body input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:40px;}/**left:40px HS 24jun24***/
+/**broad toggle 25june24 HS****/
+
 .slider.round {border-radius: 34px;}
 .slider.round:before {border-radius: 50%;}
 @media screen and (prefers-reduced-motion: reduce) {
@@ -322,6 +327,13 @@ label.switch.w70{min-width: 70px;}
 .switch.medium input:checked + .slider::before{ left: 40px; }
 .switch.large{ width:110px; }
 .switch.large input:checked + .slider::before{ left: 61px; }
+
+/***Silent App Time Track DB***/
+.col-control-right label.switch input:checked + .slider::before{left: 60px;}
+
+/***Silent App Time Track DB***/
+
+
 /*********************** switch ********************/
 /*********************** Login ********************/
 .loginbg {padding: 0px;}
@@ -771,7 +783,7 @@ div[rel='scrollcontent1'] { width:100%; height:320px;}
 .mover-panel-box .mCSB_container{margin-right:0px !important;}
 .my-popups .nav-tabs{display:flex; width:100%;}
 .my-popups .tab-style .nav-tabs li{flex:1; text-align:center;}
-.my-popups .tab-style .nav-link{width:100%; padding:10px; font-size:14px;}
+.my-popups .tab-style .nav-link{width:100%; padding:10px!important; font-size:14px;}
 .my-popups .tab-style .nav-link.disabled{background-color:#d4d4d4!important;color:#595959!important;}
 .my-popups .tab-style .nav-link.disabled span.numb{background-color:#99a1a4!important;}
 .custom-accr .card-header{padding:0; border-radius:0; border:0;}
@@ -808,6 +820,25 @@ div[rel='scrollcontent1'] { width:100%; height:320px;}
 .page-menu .menu-box:nth-child(5n+6) a em{font-size:18px; margin-top:3px; color:#303030;}
 .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {  background-color: #000;  background-color: rgba(0,0,0,.5) !important; }
 .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar { background-color: #000!important; background-color: rgba(0,0,0,.3) !important; -webkit-border-radius: 2px;  -moz-border-radius: 2px;    border-radius: 2px; }
+
+
+#divChannelTypes.shortcuts-menu li{max-width: 33%;}
+
+@media (max-width: 1280px) {
+    #divChannelTypes.shortcuts-menu li {max-width:25%;}
+  }
+
+  @media (max-width: 1025px) {
+    #divChannelTypes.shortcuts-menu li {max-width:33.33%;}
+  }
+
+  @media (max-width: 767px) {
+    #divChannelTypes.shortcuts-menu li {max-width:100%;}
+  }
+
+
+
+
 /***************Location dropdown**********************/
 .custom-drop-down { position: relative !important; -webkit-appearance: none !important; border-radius: 0; appearance: none; -moz-appearance: none; }
 .custom-drop-down [type=button] { -webkit-appearance: none !important; }
@@ -3069,7 +3100,7 @@ ul.canvan-view-list { display: flex; flex-wrap: wrap; }
 .date_fm p{font-size:12px;margin-bottom:0;text-transform:uppercase}
 .month_day li:nth-child(2n) .lightblue{background:#24a5ff}
 /* weekly status  */
-.lightblue{background:#61beff;color:#fff;font-weight:500;height:77px;line-height:80px}/***height:58px;line-height:61px***/
+.lightblue{background:#61beff;color:#fff;font-weight:500;min-height:77px;line-height:80px}/***height:58px;line-height:61px***/
 .eqcol{min-height:170px;}
 span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 .month_day li:nth-child(2n) .lightblue.darkyellow{background:#cdac37}
@@ -3312,8 +3343,8 @@ ul.canvan-view-list {display: flex; flex-wrap: wrap;	min-width: 1200px;}
 .help-page a{ color:#068DD3}
 .help-page ul li a:hover{ color:#104baa}
 .help-page img{ padding-right:10px;}
-.help-page  .helplink_talyhelp { display: block; background: #f1f1f1; padding: 5px 10px; }
-.help-page  .helplink_talyhelp a{ color:#068DD3}
+.help-page .helplink_talyhelp { display: block; background: #f1f1f1; padding: 5px 10px; }
+.help-page .helplink_talyhelp a{ color:#068DD3}
 
 /*.modal-body.legend-yellow #divStarttime,.modal-body.legend-yellow #divStoptime{ display:block !important;}*/
 @media (max-width:1024px) {
@@ -3567,6 +3598,21 @@ transform: rotate(0deg) !important;}
 @media (min-width: 1441px) and (max-width: 1600px) {
 .BRCFix {flex: 0 0 33.333333%!important; max-width: 33.333333%!important;}
 }
+
+#divruleflowdatashow.flowchart-fix { min-width: 1180px;}
+
+@media (max-width:767px){
+#divruleflowdatafsmshow .fc_parentchild .arrowdown{-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
+.formsfieldmainunique_condition .col-md-6 .input-group span:first-child { min-width: 80%; float: left;}
+
+.formsfieldmainunique_condition .col-md-6 .input-group span a i.fa-minus-circle{ font-size: 18px !important;}
+
+.formsfieldmainunique_condition .multiselect.ddlfirstfield .multiselect__tags{min-height: 35px !important;}
+
+
+
+}
+
 /******************Billing Rule View - panel design fixes - Harjit Singh*******************************/
 
 
@@ -3745,6 +3791,13 @@ ul.canvan-view-list.kvlistview li div.card:hover{cursor:move;}
 .onlytodo_kb .canvan-view-list.kvlistview li {flex:1!important; width:380px!important; max-width:380px;}/***Harjit changed width inherit from 446px*****/
 .onlytodo_kb .list-group-item{border:none;}
 .onlytodo_kb a.nostylelink{color:#303030;}
+
+.default_db .onlyd-view{max-height: 1010px;}
+.default_db .onlyd-view.onlytodo_kb .kvfixhead {min-width: 740px!important;}
+
+.default_db .onlytodo_kb .canvan-view-list.kvfixhead div.pending{ width: 355px !important; max-width: 355px;}
+.default_db .onlytodo_kb .canvan-view-list.kvfixhead div.overdue{ width: 355px !important; max-width: 355px;}
+
 /***Kanbanview only Project - todo -list Harjit Singh 13oct2021**************************/
 
 .timer_respbase .heading {   font-weight: 400;}
@@ -3929,6 +3982,9 @@ select.form-control[readonly="readonly"]{pointer-events:none;}
 .custtab.actionalignments .mobile-action .actions.mobileaction {top: 50% !important;}/****Harjit-27April2022*****/
 .only2-display div.col-md-12 { flex: 0 0 100%;  max-width: 100%;}
 .wiz-upimg .circle{width:150px!important; height:150px!important; line-height:80px!important;}
+
+justwraper .mobile-action .actions.mobileaction{top: -14px !important;}
+
 }
 
 @media (min-width: 1368px) {
@@ -5723,6 +5779,10 @@ section.help-and-guide .card-footer.bg-white.border-0 {
 section.help-and-guide .innerminheight .col-md-4.mb-4 a{color:#303030; float: left; width: 100%;}
 section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f1;}
 
+.mandatoryblue{border-color: #80cbff !important; box-shadow: none; background: #e8f5ff!important;}
+
+
+
 /****Help & Guide - Initial Setup Header - Mohit***********/
 
 .disabledaction {color: #8e9894 !important; cursor: not-allowed !important; pointer-events: none;}
@@ -6179,6 +6239,8 @@ li.active li { margin: 25px 0 0 0; }
 
 .editentrybase label.switch{min-width: 100px;}
 
+.editentrybase .row {margin-bottom: 10px;}
+
 @media (max-width:768px)
 {
 .editentrybase .col-md-1{width: 45px; float:left;}
@@ -6366,14 +6428,19 @@ li.active li { margin: 25px 0 0 0; }
 .table.table-bordered.timesheettable tr td.its_projectnamebase .its_taskdesc {color: #787878 !important;}
 .table.table-bordered.timesheettable tr.its_fixedrow td {background: #f5f5f5 !important;}
 .table.table-bordered.timesheettable tr.its_fixedrow {border-bottom: 1px solid #fff !important;}
-
 .table.table-bordered.timesheettable tr.its_fixedrow td.table-danger {background:#f5c6cb!important;}
 .table.table-bordered.timesheettable tbody tr:nth-child(even) td.table-danger{background:#f5c6cb!important;}
-
-
 .table.table-bordered.timesheettable tr td div.form-check.form-check-inline.p-0 {padding-left:5px!important;}
-
 .table.table-bordered.timesheettable tbody tr:nth-child(even) td{background-color: #f9f9f9;}
+
+
+@media (max-width:767px)
+{
+    #CopyTimesheet span.mble_show{width:100%; float:left;}
+    #CopyTimesheet div.d-flex{display: block!important;}
+   #CopyTimesheet .ml-3.custom-control.custom-radio.custom-control-inline { margin-left: 0px !important; }
+}
+
 
 
 .hs_tag3 { position: absolute; top: 44px; z-index: 99; background: #fff; padding: 5px; border: 1px solid #c8c8c8; width: 330px; text-align: left; right: 0px; 
@@ -6628,6 +6695,18 @@ li.active li { margin: 25px 0 0 0; }
   .productive-box{max-width: 100%!important; width: 100%!important; flex: 0 0 100%;}
 }
 .progress .progress-bar .h6{font-size: 12px;}
+
+/****Silent App****/
+.silentappbase{background-color:#008ff5; color:#fff; border-radius:5px;position: relative; background-image:url('https://talygenv.github.io/Vue-UI-Content/images/silentappbg.png'); background-repeat: no-repeat;background-position: right;}
+.silentappbase .bodleftwhite{border-left:1px solid #2f9cee;}
+.btn-silentapp{background:#fbba3a; color:#333333; font-size:20px; font-weight:500;}
+
+.silentappbase a.text-white{text-decoration: underline!important;}
+.silentappbase .close-button{cursor: pointer; z-index: 999; position: absolute; right: -12px;  top: -12px; border-radius: 50%;  opacity: 1; width: 25px; height: 25px; line-height: 21px; text-align: center; padding: 0px; font-size: 12px; background: #f0f0f0;  border: 1px solid #6e6e6e;  font-weight: bold;}
+
+/****Silent App****/
+
+
 /******Silent App - Time Track Dashboard - for Ezaj Ahmed**********/
 .newddlist .dropdown input[type="text"]{border:1px solid #abb5bf;}
 .dropdown-content{position: absolute;width: 100%;border: 1px solid #adadad;background: #fff; z-index:9; max-height: 200px; overflow-y: auto;}
@@ -6650,6 +6729,10 @@ li.active li { margin: 25px 0 0 0; }
         border-bottom: 10px solid transparent;
         border-left: 10px solid #303030; width: 50px;
 height: 10px; content: "";}     */
+
+.knowledgebasemain .knowledgebaselist p strong {
+    font-weight: 500 !important;
+  }
 
 .knowledgebasemain .knowledgebaselist h1{font-size: 1.1rem;color: #424f55; font-weight: 400; margin: 0px 0px 10px 0px; background: #f9f9f9; padding: 10px;}
 .knowledgebaselist img {max-width: 98%;}
@@ -6744,10 +6827,10 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     color:#24a5ff!important;    
 }
 .initialsetup_newtab_design.left-tab li.initialsetup_completed {
-    background: #eafeee!important;
+    background: #c9ffd4 !important;
 }
 .initialsetup_newtab_design.left-tab li.initialsetup_completed:hover {
-    background: #eafeee!important;
+    background: #c9ffd4 !important;
 }
 .initialsetup_newtab_design.left-tab li.initialsetup_completed a i{
     color: #4fb262!important; font-size:23px;
@@ -6758,7 +6841,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 
 .initialsetup_newtab_design.left-tab li.active.initialsetup_completed {
-    background: #e0f2ff!important;
+    background: #a5d9ff!important;
     color: #4f4f4f!important; border-right: 1px solid #c9d9e5!important;
 }
 .initialsetup_newtab_design.left-tab li.active.initialsetup_completed a i {
@@ -6897,7 +6980,72 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     cursor: pointer;
 }
 
-/* .newtabsdes_configuration li:hover a i {
-    color:#798086!important;    
-} */
+/****.newtabsdes_configuration li:hover a i {color:#798086!important;}******/
+
+.tab-pane ul.dashbord-widget li span.barprogress div.progress-bar-striped{ background-image: none!important; background-color: #cccccc!important; }
+
+/***Chad - Harjit added 21June2024****/
+.left-menu-tab.cvscontrol { max-width: 375px;}
+.cvscontrol .leftpanebase { background: #f7f7f7;}
+.cvscontrol .highLight-Box {padding: 0;  border: none;}
+.cvscontrol ul li { list-style: none;}
+.cvscontrol .highLight-Box .user-detail { background: #eff8ff !important;  box-shadow: 0px 2px 2px 1px rgb(172, 221, 255); border: 1px solid #fff !important;}
+.cvscontrol .user-detail .user-image { width: auto; text-align: center;  margin: 5px 10px 0px 0px; padding: 0px; float: left;}
+.cvscontrol .user-detail .user-image img { width: 50px; height: 50px; border-radius: 100%; border: 1px solid #fff;}
+.cvscontrol .user-detail .user-name { text-align: left; margin: 0px; padding: 0px; font-size: 15px; font-weight: 500; float: left; width: 190px; color: #000;}
+.cvscontrol .user-detail .user-contactinfo { text-align: left; border-top: 1px solid #ccc;  padding-top: 0px; float: left; width: 260px;
+    margin: 0px; border: none; font-size: 13px; color: #404040 !important;}
+.starrating { position: absolute; right: 5px; top: 12px; font-size: 11px;}
+.candi_experience { position: absolute; right: 10px; bottom: 10px; font-size: 12px; color: #404040 !important;}
+
+.right-content.cvs_control { width: calc(100% - 395px); float: right;}
+.cvs_control .user-detail { background: #eff8ff; border: 1px solid #cae5ff !important;}
+/***Chad - Harjit added 21June2024****/
+
+    /***Live screen - Anuj - HArjit 24June2024***/
+
+    .livescreen_leftbase {float: right; width: calc(100% - 300px) !important; height: calc(100% - 120px); padding: 15px;}
+    .livescreen_rightbase {float: left; width: 100%; max-width: 290px !important; padding:0px; background: #e0f2ff;}
+    .led_screen{ width:100%; background:#282828; position: relative;}/*min-height:555px;*/
+    .led_screen.empty{min-height:555px;}
+    .led_screen img{width:100%;}
+
+    .livescreen_leftbase .led_screen.empty{background: #282828;}
+    .livescreen_leftbase .led_screen.empty div.errormsgs .innererrors{ color:#eeeeee; font-size: 16px; display: flex;}
+    .livescreen_leftbase .led_screen.empty div.errormsgs .innererrors span.heading{font-size: 30px;}
+    .livescreen_leftbase .led_screen.empty div.errormsgs .innererrors em {font-size: 50px; color:#717171;}
+
+    .livescreen_rightbase .cont_desc{border-bottom:2px solid #85c8f9; padding:15px; width:100%; float:left;}
+    .livescreen_rightbase .cont_desc:last-child{border:none;}
+    .livescreen_rightbase .cont_desc h3{font-size:18px; margin: 0px; font-weight: normal; width:100%; float:left;}
+    .livescreen_rightbase .cont_desc span{font-size:15px; width:100%; float:left;}
+
+    .livescreen_rightbase .cont_btns{padding:15px; width:100%; float:left;}
+        
+    .livescreen_rightbase .cont_btns .largebtns a{width:100%; margin-bottom:5px; margin-top:5px; font-size:16px;}
+    .livescreen_rightbase .cont_btns .smallbtns a{width:26%; float:left; color:#fff;}
+
+    .livescreen_rightbase .cont_btns .smallbtns a.btn-yellow{background:#ff9800;}
+    .livescreen_rightbase .cont_btns .smallbtns a.btn-blue{background:#2196f3; margin: 0 auto;}
+    .livescreen_rightbase .cont_btns .smallbtns a.btn-purple{background:#3f51b5;}
+
+    .fullscreen_btn { position: absolute; bottom: 20px; right: 20px; font-size: 30px; background: rgba(0, 0, 0, 0.3); padding: 0px 10px;}
+    .fullscreen_btn a{color: #fff;}
+
+    .livescreen_rightbase .cont_btns .smallbtns a em { font-size: 26px;}
+
+    .bodbtn_green{ border: 1px solid #42c683; color: #42c683; background-color: #fff;}
+    .bodbtn_grey{ border: 1px solid #c0c0c0; color: #c0c0c0; background-color: #fff;}
+    .bodbtn_yellow{ border: 1px solid #fcae18; color:#fcae18; background-color: #fff;}
+
+    .blink { animation: blink-animation 1s steps(5, start) infinite; 
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;}
+            @keyframes blink-animation {to {visibility: hidden;}} 
+        @-webkit-keyframes blink-animation {to {visibility: hidden;}}
+
+        .livemonitoring .dashbord-widget li {
+            border: 1px solid;
+            border-radius: 10px;
+        }
+    /***Live screen - Anuj - HArjit 24June2024***/
 

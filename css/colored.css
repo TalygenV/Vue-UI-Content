@@ -40,11 +40,11 @@ footer ul li a:hover {color: #FCB322; opacity: .8;}
 .custom-control-label{line-height:22px;}
 .custom-checkbox .custom-control-label::before {background: #fff; border: 1px solid #afb5bb;}
 .custom-control-label::before{background:#fff; border:2px solid #aeb5bd;}
-.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::after{background-image: url('../../../images/radio.png');}
+.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::after{background-image: url('../images/radio.png');}
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before{border: 2px solid #259bff;}
-.custom-radio .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../../../images/radio.png');}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../images/radio.png');}
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before, .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{background: #fff; border: 1px solid #259bff;}
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../../../images/checkmark.png');}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../images/checkmark.png');}
 .legends_profile{background:#df5966;}
 .legends_Critical{background:#ef8934;}
 .legends_high{background:#fbc648;}
@@ -569,3 +569,13 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
   
 /****2024 - New Css added *****/
+
+/***********KnowledgeBase Articles*****************************/
+
+.left-filter .helpartilceslistcontrol .card-header{margin: 0px !important; padding: 5px 0px !important;}
+.left-filter .helpartilceslistcontrol .card{margin-bottom: 10px;}
+
+.left-filter .helpartilceslistcontrol .card{background: #f9f9f9; border-bottom: 2px solid #fff !important;}
+.left-filter .helpartilceslistcontrol .card-header {background: #f2f2f2;}
+
+/***********KnowledgeBase Articles*****************************/

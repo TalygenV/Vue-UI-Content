@@ -61,11 +61,11 @@ footer ul li a:hover {	color: #FCB322; opacity: .8;}
 .custom-control-label{line-height:22px;}
 .custom-checkbox .custom-control-label::before { background:#2d3135; border:1px solid #737a7d;}/*background: #2c3136; border: 1px solid #4b4f51;*/
 .custom-control-label::before {	background: #191d20; border: 2px solid #acb2b8;}
-.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::after{background-image: url('../../../images/radio.png');}
+.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::after{background-image: url('../images/radio.png');}
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before{border: 2px solid #259bff;}
-.custom-radio .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../../../images/radio.png');}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after{background-image: url('../images/radio.png');}
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before, .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{border: 1px solid #259bff; background: #191d20;}
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {	background-image: url('../../../images/checkmark.png');	background-color: #2c3136; border: 1px solid #737a7d;}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {	background-image: url('../images/checkmark.png');	background-color: #2c3136; border: 1px solid #737a7d;}
 
 .jslider .jslider-label {    color: #fff !important;}
 .bg-light.border.border-lightgrey {    background: #191d20 !important;    border: 1px solid #3c3f43 !important;}
@@ -1158,6 +1158,9 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .border.dark-blue-border { border:1px solid #3967d1 !important;}
 .border.red-orange-border { border:1px solid #f86245 !important;}
 
+.border.b-secondery-blue{border: 1px solid #2085ff !important;}
+.border.b-turquoise{border: 1px solid #2dc8ba!important;}
+
 .productive-box{}
 /****2024 - Department View Dashboard - Harjit { developer - Ejaz }*****/
 
@@ -1249,6 +1252,23 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
   
 /****2024 - New Css added *****/
+
+
+
+  /***********KnowledgeBase Articles - 2024*****************************/
+  ul.left-tab.helparticlesnewdesign li:first-child{border-color:#1c1f22!important;}
+
+
+  .left-filter .helpartilceslistcontrol .card-header{margin: 0px !important; padding: 5px 0px !important;}
+  .left-filter .helpartilceslistcontrol .card{margin-bottom: 10px;}
+
+  .knowledgebasemain .knowledgebaselist h1{font-size: 1.1rem;color: #ddd; font-weight: 400; margin: 0px 0px 10px 0px; background: #191d20; padding: 10px;}
+  .nav-pills .title.overflow_hid h3 {font-size: 1.4rem; color: #ddd; font-weight: 400; margin: 0px 0px 10px 0px;}
+  section.help-and-guide .innerminheight .col-md-4.mb-4 a{color: unset;}
+
+    /***********KnowledgeBase Articles - 2024*****************************/
+
+
 
 
 
