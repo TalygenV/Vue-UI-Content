@@ -4403,4 +4403,152 @@ touritem["ProjectRequest/Index"] = {
     //}
   ],
 };
+
+
+touritem["TimeTracking/TimetrackDashBoard"] = {
+  ModuleDisplayName: "Time Track",
+  ModuleName: "Timer",
+  displayName: "Time track DashBoard",
+  items: [
+    {
+      selector: "#Changeview",
+      step: 1,
+      title: "Multiple Views",
+      content: "MultipleViewsTimer",
+    },
+
+    {
+      selector: "#dayAndnightShift",
+      step: 2,
+      title: "Day View/Shift View",
+      content: "DayViewAndShiftView",
+    },
+
+    {
+      selector: "#searchFilterTimer",
+      step: 3,
+      title: "Search Filter",
+      content: "SearchFilterTimerDash",
+    },
+  ],
+};
+
+touritem["TimeTracking/AppsAndWebsites"] = {
+  ModuleDisplayName: "Time Track",
+  ModuleName: "Timer",
+  displayName: "Apps And Websites",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filters",
+      content: "SearchFilterAppAndWebSite",
+    },
+
+    {
+      selector: "#AssignDepartment",
+      step: 2,
+      title: "Assign Department",
+      content: "AssignDepartmentApp",
+    },
+
+    {
+      selector: "#ViewHistory",
+      step: 3,
+      title: "View History",
+      content: "ViewHistoryApp",
+    },
+
+    {
+      selector: ".fa.fa-ellipsis-h.action_icon",
+      step: 4,
+      title: "Action Button",
+      content: "ActionButtonApp",
+    },
+    {
+      selector: "#ddlUserCurrentStatus",
+      step: 5,
+      title: "List/Card View",
+      content: "ListCardViewApp",
+    },
+  ],
+};
+
+touritem["TimeTracking/Category"] = {
+  ModuleDisplayName: "Time Track",
+  ModuleName: "Timer",
+  displayName: "Category",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filter",
+      content: "SearchFilterCategory",
+    },
+    {
+      selector: "#ImportCategoryID",
+      step: 2,
+      title: "Import",
+      content: "ImportTimerCategory",
+    },
+    {
+      selector: "#AddCategoryID",
+      step: 3,
+      title: "Add New",
+      content: "AddNewCategory",
+    },
+    {
+      selector: ".text-center.single-action",
+      step: 4,
+      title: "Action",
+      content: "ActionCategory",
+    },
+  ],
+};
+
+touritem["TimeTracking/UserProductivity"] = {
+  ModuleDisplayName: "Time Track",
+  ModuleName: "Timer",
+  displayName: "User Productivity",
+  items: [
+    {
+      selector: "#User",
+      step: 1,
+      title: "User Productivity",
+      content: "UserProductivityKey",
+    },
+    {
+      selector: ".checkBoxClick",
+      step: 2,
+      title: "Select Status",
+      content: "SelectStatusCategory",
+    },
+  ],
+};
+
+touritem["TimeTracking/DepartmentViewDasboard"] = {
+  ModuleDisplayName: "Time Track",
+  ModuleName: "Timer",
+  displayName: "Department View Dasboard",
+  items: [
+    {
+      selector: "#SearchReset",
+      step: 1,
+      title: "SearchReset",
+      content: "SearchResetDepartmentViewDasboard",
+    },
+    {
+      selector: "#shiftchange",
+      step: 2,
+      title: "DayShiftView",
+      content: "DayShiftViewDepartmentViewDasboard",
+    },
+    {
+      selector: ".mt-1",
+      step: 3,
+      title: "DateRange",
+      content: "DateRangeDepartmentViewDasboard",
+    },
+  ],
+};
 tourData.push(touritem);
