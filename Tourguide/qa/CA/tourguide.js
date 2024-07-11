@@ -4404,10 +4404,11 @@ touritem["ProjectRequest/Index"] = {
   ],
 };
 
+
 touritem["TimeTracking/TimetrackDashBoard"] = {
   ModuleDisplayName: "Time Track",
   ModuleName: "Timer",
-  displayName: "TimeTrackingTimetrackDashBoard",
+  displayName: "Time track DashBoard",
   items: [
     {
       selector: "#Changeview",
@@ -4435,7 +4436,7 @@ touritem["TimeTracking/TimetrackDashBoard"] = {
 touritem["TimeTracking/AppsAndWebsites"] = {
   ModuleDisplayName: "Time Track",
   ModuleName: "Timer",
-  displayName: "TimeTrackingTimetrackDashBoard",
+  displayName: "Apps And Websites",
   items: [
     {
       selector: "#accordionEx",
@@ -4508,7 +4509,7 @@ touritem["TimeTracking/Category"] = {
 touritem["TimeTracking/UserProductivity"] = {
   ModuleDisplayName: "Time Track",
   ModuleName: "Timer",
-  displayName: "UserProductivity",
+  displayName: "User Productivity",
   items: [
     {
       selector: "#User",
@@ -4528,7 +4529,7 @@ touritem["TimeTracking/UserProductivity"] = {
 touritem["TimeTracking/DepartmentViewDasboard"] = {
   ModuleDisplayName: "Time Track",
   ModuleName: "Timer",
-  displayName: "TimeTrackingDepartmentViewDasboard",
+  displayName: "Department View Dasboard",
   items: [
     {
       selector: "#SearchReset",
@@ -4550,5 +4551,4 @@ touritem["TimeTracking/DepartmentViewDasboard"] = {
     },
   ],
 };
-
 tourData.push(touritem);
