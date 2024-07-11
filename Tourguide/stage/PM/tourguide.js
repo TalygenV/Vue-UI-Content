@@ -1,5 +1,5 @@
-let tourData = [];
-let touritem = {};
+var tourData = [];
+var touritem = {};
 
 touritem["User/Dashboard"] = {
   ModuleDisplayName: "Company Setup",
@@ -578,900 +578,16 @@ touritem["CRM/ItemTypeListing"] = {
     },
   ],
 };
-
-
-
-
-
-
-touritem["Asset/Dashboard"] = {
+touritem["Asset/Add"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
-  displayName: "Dashboard",
-  items: [
-    {
-      selector: "#aDateLable_global",
-      step: 1,
-      title: "DateSelection",
-      content: "SelectYourDateViewReports",
-    },
-    {
-      selector: "#hlkAddMoreReports",
-      step: 2,
-      title: "AddReport",
-      content: "AddMoreReports",
-    },
-  ],
-};
-touritem["AssetCatalog/Index"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Asset Catalog Listing",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchYourProductsUsingFilters",
-    },
-    {
-      selector: "#titleName",
-      step: 2,
-      title: "Default View",
-      content: "DefaultView",
-    },
-
-    {
-      selector: "#manageViewbutton",
-      step: 3,
-      title: "Manage View",
-      content: "ManageViewSteps",
-    },
-
-    {
-      selector: "#addManageView",
-      step: 4,
-      title: "Add New",
-      content: "AddMangeView",
-    },
-
-    {
-      selector: "#manageProductFilter",
-      step: 5,
-      title: "Filters",
-      content: "FiltersProudctAssignment",
-    },
-
-    {
-      selector: "#productlist",
-      step: 6,
-      title: "Product List",
-      content: "ProductList",
-    },
-
-    {
-      selector: "#addRelationship",
-      step: 7,
-      title: "Add Relationship",
-      content: "AddRelationship",
-    },
-    {
-      selector: "#checkAvailability",
-      step: 8,
-      title: "Check Availability",
-      content: "CheckAvailability",
-    },
-    {
-      selector: "#Addproduct",
-      step: 9,
-      title: "Add Product",
-      content: "AddProduct",
-    },
-    {
-      selector: "#inTransitProducts",
-      step: 10,
-      title: "In-Transit Products",
-      content: "InTransitProducts",
-    },
-
-    {
-      selector: "#deprectiation",
-      step: 11,
-      title: "Depreciation",
-      content: "DepreciationStep",
-    },
-    {
-      selector: "#importProduct",
-      step: 12,
-      title: "Import Products",
-      content: "ImportProducts",
-    },
-    {
-      selector: "#relatedProduct",
-      step: 13,
-      title: "Related Products",
-      content: "RelatedProducts",
-    },
-    {
-      selector: ".action-list-box is-visible",
-      step: 14,
-      title: "Action Button",
-      content: "ManageProductAction",
-    },
-  ],
-};
-
-touritem["AssetCatalog/RelatedInformation"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Product List",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchYourProductsUsingFilters",
-    },
-    {
-      selector: "#titleName",
-      step: 2,
-      title: "Default View",
-      content: "DefaultView",
-    },
-
-    {
-      selector: "#manageViewbutton",
-      step: 3,
-      title: "Manage View",
-      content: "ManageViewSteps",
-    },
-
-    {
-      selector: "#addManageView",
-      step: 4,
-      title: "Add New",
-      content: "AddMangeView",
-    },
-
-    {
-      selector: "#relatedFilter",
-      step: 5,
-      title: "Filters",
-      content: "FiltersProudctAssignment",
-    },
-
-    {
-      selector: "#addProduct",
-      step: 6,
-      title: "Add Product",
-      content: "RelatedAddProduct",
-    },
-
-    {
-      selector: "#deployProductRelated",
-      step: 7,
-      title: "Deploy Product",
-      content: "DeployProduct",
-    },
-
-    {
-      selector: "#DeployMentType",
-      step: 8,
-      title: "Add Deploy Product",
-      content: "AddDeployProduct",
-    },
-    {
-      selector: "#barcode",
-      step: 9,
-      title: "Barcode",
-      content: "RelatedBarcode",
-    },
-
-    {
-      selector: "#barcodePrint",
-      step: 10,
-      title: "Barcode Print",
-      content: "RelatedBarcodePrint",
-    },
-
-    {
-      selector: "#backtolist",
-      step: 11,
-      title: "Back to List",
-      content: "RelatedBacktoList",
-    },
-  ],
-};
-
-touritem["AssetCatalog/TransferItem"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Product Transfer",
-  items: [
-    // {
-    //   selector: ".Search-panel",
-    //   step: 1,
-    //   title: "AssetTransfer",
-    //   content: "TransferProductsFromOneLocationToAnother",
-    // },
-    {
-      selector: "#searchProductTransfer",
-      step: 1,
-      title: "Product Transfer",
-      content: "ProductTransferDetail",
-    },
-
-    {
-      selector: "#addProdcutMoveList",
-      step: 2,
-      title: "Product Move to List",
-      content: "ProductMovetoList",
-    },
-  ],
-};
-
-touritem["AssetCatalog/ViewInTransitItems"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "In-Transit List",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "In-Transit List",
-      content: "InTransitListStep",
-    },
-    {
-      selector: "#AcceptReject",
-      step: 2,
-      title: "Accept/Reject",
-      content: "AcceptandReject",
-    },
-    {
-      selector: "#transferredList",
-      step: 3,
-      title: "Transferred List",
-      content: "TransferredList",
-    },
-    {
-      selector: "#backtolist",
-      step: 4,
-      title: "Back to List",
-      content: "TransferredBacktoList",
-    },
-    {
-      selector: "#comment",
-      step: 5,
-      title: "Comment",
-      content: "InTransitComment",
-    },
-  ],
-};
-
-touritem["AssetCatalog/Add"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Asset Catalog Add",
-  items: [
-    {
-      selector: ".productCreateTab1",
-      step: 1,
-      title: "EnterProductDetails",
-      content: "SelectProductTypeFillRequiredDetails",
-    },
-    {
-      selector: "#ancDeployItems",
-      step: 2,
-      title: "AddAssetCatalogue",
-      content: "AddNewProductYourProductCatalogue",
-    },
-    {
-      selector: ".productDeployTourGuideTab2",
-      step: 3,
-      title: "ProductDeployment",
-      content: "ProductDeloyementTab",
-    },
-  ],
-};
-// touritem["AssetCatalog/TransferItem"] = {
-//   ModuleDisplayName: "Asset Management",
-//   ModuleName: "Asset",
-//   displayName: "Item Transfer",
-//   items: [
-//     {
-//       selector: ".Search-panel",
-//       step: 1,
-//       title: "AssetTransfer",
-//       content: "TransferProductsFromOneLocationToAnother",
-//     },
-//   ],
-// };
-// touritem["AssetCatalog/ViewInTransitItems"] = {
-//   ModuleDisplayName: "Asset Management",
-//   ModuleName: "Asset",
-//   displayName: "InTransit Items",
-//   items: [
-//     {
-//       selector: ".single-action",
-//       step: 1,
-//       title: "TransitCheck",
-//       content: "CheckYourIntransitProductsMovingFromOneLocationToAnother",
-//     },
-//     {
-//       selector: ".fa .fa-check-circle",
-//       step: 2,
-//       title: "TransitClearance",
-//       content: "ApproveRejectProductsThatAreTransit",
-//     },
-//   ],
-// };
-
-touritem["Asset/MyItems"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "My Items",
-  items: [
-    // {
-    //   selector: "#ancaddgroupRequisitions",
-    //   step: 1,
-    //   title: "GetYourProduct",
-    //   content: "YouCanRequestProductsIssuesForYourself",
-    // },
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "Search Filters",
-      content: "MyproductFilter",
-    },
-    {
-      selector: "#myProductCheckAvailability",
-      step: 2,
-      title: "Check Availability",
-      content: "CheckAvailabilityMyProduct",
-    },
-    {
-      selector: "#selfAssignmentMyProduct",
-      step: 3,
-      title: "Self Assignment",
-      content: "SelfAssignmentMyProduct",
-    },
-    {
-      selector: "#checkOutList",
-      step: 4,
-      title: "Check Out Request List",
-      content: "CheckOutRequestList",
-    },
-    {
-      selector: "#AddCheckOutRequest",
-      step: 5,
-      title: "Add Check Out Request",
-      content: "AddCheckOutRequestAllow",
-    },
-  ],
-};
-
-touritem["AssetRequisition/MyRequisitions"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Check-Out List",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "Search Filters",
-      content: "SearchFilter",
-    },
-
-    {
-      selector: "#rejectCheckoutRequest",
-      step: 2,
-      title: "Reject",
-      content: "RejectCheckoutProduct",
-    },
-
-    {
-      selector: "#addCheckoutRequest",
-      step: 3,
-      title: "Add Check out Request",
-      content: "AddCheckOutRequestAllow",
-    },
-  ],
-};
-
-touritem["AssetAssignment/CheckOut"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Check-Out List",
-  items: [
-    {
-      selector: "#addProduct",
-      step: 1,
-      title: "Add Products",
-      content: "AddProductsCheckout",
-    },
-  ],
-};
-
-// touritem["AssetAssignment/CheckOut"] = {
-//   ModuleDisplayName: "Asset Management",
-//   ModuleName: "Asset",
-//   displayName: "Check-Out List",
-//   items: [
-
-//     {
-//       selector: "#addProduct",
-//       step: 1,
-//       title: "Add Products",
-//       content: "AddProductsCheckout",
-//     },
-
-//       {
-//       selector: "#accordionEx",
-//       step: 2,
-//       title: "Search Filters",
-//       content: "SearchFilter",
-//     },
-
-//   ],
-// };
-
-touritem["AssetRequisition/AddRequisition"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "AddRequisition",
-  items: [
-    {
-      selector: "#ancsaverequest",
-      step: 1,
-      title: "CheckOut",
-      content: "YouCanRequestProductsIssuesForYourself",
-    },
-  ],
-};
-
-touritem["AssetAssignment/Index"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Item Assignment",
-
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchFilters",
-      content: "FindAssignedProductUsingTheDefaultFilters",
-    },
-
-    // {
-    //   selector: "#ancCreateJob",
-    //   step: 2,
-    //   title: "AssignItem",
-    //   content: "AssignProductsEmployeeReturnProductsFromOneSingleScreen",
-    // },
-    {
-      selector: "#titleName",
-      step: 2,
-      title: "Default View",
-      content: "DefaultView",
-    },
-
-    {
-      selector: "#manageViewbutton",
-      step: 3,
-      title: "Manage View",
-      content: "ManageViewSteps",
-    },
-
-    {
-      selector: "#addManageView",
-      step: 4,
-      title: "Add New",
-      content: "AddMangeView",
-    },
-
-    {
-      selector: "#filterProductAssingment",
-      step: 5,
-      title: "Filters",
-      content: "FiltersProudctAssignment",
-    },
-
-    {
-      selector: "#returnProduct",
-      step: 6,
-      title: "Return Product",
-      content: "ReturnProduct",
-    },
-
-    {
-      selector: "#requestforReturn",
-      step: 7,
-      title: "Request for Return",
-      content: "RequestforReturn",
-    },
-
-    {
-      selector: ".action-list-box",
-      step: 8,
-      title: "Action Button",
-      content: "ActionButton",
-    },
-  ],
-};
-
-touritem["AssetAssignment/Add"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Add Asset Assignment",
+  displayName: "Add Asset",
   items: [
     {
       selector: "#btnSave",
       step: 1,
-      title: "ProductSelectionAssignment",
-      content: "SelectProductEnterRequiredInformationAssignProduct",
-    },
-  ],
-};
-
-touritem["Asset/Index"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Product Type",
-
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "Search Filter",
-      content: "SearchFilterProductType",
-    },
-
-    {
-      selector: "#addProducttype",
-      step: 2,
-      title: "Add",
-      content: "AddProductType",
-    },
-
-    {
-      selector: "#importProductType",
-      step: 3,
-      title: "Import Product Type",
-      content: "ImportProductType",
-    },
-    {
-      selector: "#Active",
-      step: 4,
-      title: "Activate",
-      content: "ActivateProductType",
-    },
-    {
-      selector: "#Inactive",
-      step: 5,
-      title: "Deactivate",
-      content: "DeactivateProductType",
-    },
-  ],
-};
-
-touritem["Asset/AssetGrouping"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Product Container",
-
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "Search Filter",
-      content: "SearchFilterProductContainer",
-    },
-
-    {
-      selector: "#addProductcontainer",
-      step: 2,
-      title: "Add",
-      content: "AddProductContainer",
-    },
-
-    {
-      selector: "#activeProduct",
-      step: 3,
-      title: "Activate",
-      content: "ActivateProductContainer",
-    },
-
-    {
-      selector: "#InactiveProduct",
-      step: 4,
-      title: "Deactivate",
-      content: "DeactivateProductContainer",
-    },
-  ],
-};
-
-touritem["Asset/PendingRequest"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Pending Request",
-
-  items: [
-    {
-      selector: "#pendingRequest",
-      step: 1,
-      title: "Pending Check Out Request",
-      content: "PendingCheckOutRequestSection",
-    },
-
-    {
-      selector: "#productName",
-      step: 2,
-      title: "Product Name",
-      content: "PendingRequestProductName",
-    },
-
-    {
-      selector: "#divtable1",
-      step: 3,
-      title: "Product Check Out Requests",
-      content: "ProductCheckOutRequests",
-    },
-
-    {
-      selector: "#pendignAssign",
-      step: 4,
-      title: "Assign",
-      content: "AssignProductPendingRequest",
-    },
-
-    {
-      selector: "#rejectProduct",
-      step: 5,
-      title: "Reject",
-      content: "RejectProductPendingRequest",
-    },
-
-    {
-      selector: "#nextButton",
-      step: 6,
-      title: "Next",
-      content: "NextSection",
-    },
-
-    {
-      selector: "#pendingRequest",
-      step: 7,
-      title: "Replace Request",
-      content: "ReplaceRequestSteps",
-    },
-
-    {
-      selector: "#divtable2",
-      step: 8,
-      title: "Replace Product List",
-      content: "ReplaceProductList",
-    },
-
-    {
-      selector: "#activeReplaceRequest",
-      step: 9,
-      title: "Approve/Reject Request",
-      content: "ApproveRejectRequest",
-    },
-
-    {
-      selector: "#repairReplaceRequest",
-      step: 10,
-      title: "Repair",
-      content: "RepairRepalceRequest",
-    },
-
-    {
-      selector: "#previousButton",
-      step: 11,
-      title: "Previous",
-      content: "PreviousStep",
-    },
-
-    {
-      selector: "#nextButton",
-      step: 12,
-      title: "Next",
-      content: "NextSection",
-    },
-
-    {
-      selector: "#pendingRequest",
-      step: 13,
-      title: "Return Request",
-      content: "ReturnRequest",
-    },
-
-    {
-      selector: "#searchFilterReturnRequest",
-      step: 14,
-      title: "Search Filter",
-      content: "SearchFilterReturnRequest",
-    },
-
-    {
-      selector: "#divtable3",
-      step: 15,
-      title: "Product List",
-      content: "ReturnProductList",
-    },
-
-    {
-      selector: "#ReturnRequest",
-      step: 16,
-      title: "Approve/Reject",
-      content: "ApproveRejectReturnProduct",
-    },
-
-    {
-      selector: "#previousButton",
-      step: 17,
-      title: "Previous",
-      content: "PreviousStep",
-    },
-
-    {
-      selector: "#nextButton",
-      step: 18,
-      title: "Next",
-      content: "NextSection",
-    },
-
-    {
-      selector: "#pendingRequest",
-      step: 19,
-      title: "Reservation",
-      content: "ReservationStep",
-    },
-
-    {
-      selector: "#productReserve",
-      step: 20,
-      title: "Search Filter",
-      content: "ReservationSearchFilter",
-    },
-
-    {
-      selector: "#divtable4",
-      step: 21,
-      title: "Product List",
-      content: "ReservationProductList",
-    },
-
-    {
-      selector: "#previousButton",
-      step: 22,
-      title: "Previous",
-      content: "PreviousStep",
-    },
-  ],
-};
-
-touritem["AssetRequisition/NewAssetRequisitionListing"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "New Asset Requistion",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchThroughRaisedProductRequests",
-    },
-    {
-      selector: ".aViewRequisition",
-      step: 2,
-      title: "RequestView",
-      content: "ViewYourRequestDetailsComments",
-    },
-    {
-      selector: "#ancCreateJob",
-      step: 3,
-      title: "ProductRequest",
-      content: "RequesNewPproductsByAddingYouRequest",
-    },
-  ],
-};
-touritem["AssetRequisition/AddNewRequisition"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Add New Requisition",
-  items: [
-    {
-      selector: "#main-content",
-      step: 1,
-      title: "EnterDescription",
-      content: "NameProductAndDescribeIt",
-    },
-  ],
-};
-touritem["AssetCatalog/ScheduleUpdate"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Schedule Update",
-  items: [
-    {
-      selector: "#aRelatedSearchAsset",
-      step: 1,
-      title: "SearchProduct",
-      content: "SeeCalibrationScheduleProductWithTheFrequencyDetails",
-    },
-    {
-      selector: ".left-menu-tab",
-      step: 2,
-      title: "ManageMaintenance",
-      content:
-        "ManageMaintenanceScheduleUpdatingDetailsMaintenanceOptionsAvailable",
-    },
-    {
-      selector: ".viewcomment",
-      step: 3,
-      title: "View",
-      content: "CheckCalibrationCommentsAndAuditorDetails",
-    },
-    {
-      selector: "#postcomment",
-      step: 4,
-      title: "ManageCalibration",
-      content: "UpdateStatusCalibrationScheduleNextCalibration",
-    },
-  ],
-};
-touritem["Asset/rfidassetlisting"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Asset Listing",
-  items: [
-    {
-      selector: ".theme-primary",
-      step: 1,
-      title: "WarehousManagement",
-      content:
-        "ViewRFIDEnabledAssetListTheirDetailsLikeLocationCodeScanHistoryAndMuchMore",
-    },
-  ],
-};
-touritem["Asset/ItemsScanSummary"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Items Scan Summary",
-  items: [
-    {
-      selector: ".row .mt-0",
-      step: 1,
-      title: "ScanTagsAndAssignProduct",
-      content: "CheckScannedTagsAssignProductTag",
-    },
-  ],
-};
-touritem["Asset/ScannedItems"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Scanned Items",
-  items: [
-    {
-      selector: "#tblMyRequisitions",
-      step: 1,
-      title: "ViewScannedTags",
-      content: "ViewScannedTags",
-    },
-  ],
-};
-touritem["Asset/RFIDMissingAssets"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "RFID Missing Assets",
-  items: [
-    {
-      selector: ".p-name .text-white",
-      step: 1,
-      title: "ViewScannedTags",
-      content: "ViewRFIDEnabledAssetMissingAndUnlocated",
+      title: "AddAssetType",
+      content: "AddAssetTypeContent",
     },
   ],
 };
@@ -2133,7 +1249,7 @@ touritem["Ticketing/Group"] = {
       selector: "#accordionEx",
       step: 1,
       title: "Search Filters",
-      content: "SearchFiltersPageTour",
+      content: "SearhFiltersGroup",
     },
     {
       selector: "#AddGroup",
@@ -2217,39 +1333,93 @@ touritem["Ticketing/AddPolicy"] = {
 touritem["Timer/Index"] = {
   ModuleDisplayName: "Time Track",
   ModuleName: "Timer",
-  displayName: "Time Track",
+  displayName: "Timer",
   items: [
     {
-      selector: ".chkbillable",
-      step: 1,
-      title: "AutomaticTimeTracking",
-      content:
-        "StartBillableNonbillableAutomaticTimetrackingProjectAndTaskWorking",
-    },
-    {
       selector: "#AddManually",
+      step: 1,
+      title: "Add Manually",
+      content: "ManualContent",
+    },
+    {
+      selector: ".Project",
       step: 2,
-      title: "ManualTimeTracking",
-      content: "SaveYourPastEntriesProjectYouWorkedOn",
+      title: "Select Project",
+      content:
+        "SelectProjectTimeTrack",
     },
     {
-      selector: "#ShowCalender",
+      selector: "#Task",
       step: 3,
-      title: "ViewSavedTimeEntries",
-      content: "DetailedViewYourTimeEntries",
+      title: "Select Task",
+      content: "SelectTaskTimeTrack",
     },
     {
-      selector: ".continuetimer",
+      selector: "#Tags",
       step: 4,
-      title: "ContinueTimeEntry",
-      content: "ContinuePreviousTimeEntryWorkingSameProjectAndTask",
+      title: "Tags",
+      content:"SelectTagsTimeTrack",
     },
     {
-      selector: "#header-Graph",
+      selector: "#AddTags",
       step: 5,
-      title: "Reports",
-      content: "ViewGraphicalReportsYourAndYourTeamTimeEntries",
+      title: "Create a New Tag",
+      content:"CreateTags",
     },
+    {
+      selector: "#isBillable",
+      step: 6,
+      title: "Paid/Unpaid",
+      content: "PaidUnpaidcontent.",
+    },
+    {
+      selector: "#Break",
+      step: 7,
+      title: "Break",
+      content: "BreakContent",
+    },
+    {
+      selector: "#AddManualBreak",
+      step: 8,
+      title: "Add Manually",
+      content: "ManualBreakContent",
+    },
+    {
+      selector: "#Taskdescription",
+      step: 9,
+      title: "Description",
+      content: "DescContent",
+    },
+    {
+      selector: "#Start",
+      step: 10,
+      title: "Start Timer",
+      content: "StartTimeContent",
+    },
+    {
+      selector: "#aDateLable_",
+      step: 11,
+      title: "FilterTitle",
+      content: "FilterContent",
+    },
+    {
+      selector: "#list",
+      step: 12,
+      title: "ListGraphTitle",
+      content: "ListGraphContent",
+    },
+    {
+      selector: "#tab-Details_status",
+      step: 13,
+      title: "MyStatus",
+      content: "MyStatusContent",
+    },
+    {
+      selector: "#tab-Details_team",
+      step: 14,
+      title: "TeamStatus",
+      content: "ListGraphContent",
+    }
   ],
 };
 touritem["Timer/BulkTimeEntry"] = {
@@ -2295,23 +1465,60 @@ touritem["Timesheet/Index"] = {
   displayName: "Timesheet",
   items: [
     {
-      selector: "#week-picker",
+      selector: "#Export",
       step: 1,
-      title: "ViewWeeklyTimesheet",
-      content: "SelectWeekAndTheUserToViewTheWeeklyTimesheet",
+      title: "Export",
+      content: "ExportContent",
     },
     {
-      selector: ".aAddHours",
+      selector: "#SelectWeek",
       step: 2,
-      title: "AddHours",
-      content: "AddNumberHoursSpentProjectAndTask",
+      title: "Select Week",
+      content: "SelectWeekContent",
+    },
+    {
+      selector: ".taskAddModal",
+      step: 3,
+      title: "Add New Entry",
+      content: "AddNewEntryContent",
+    },
+    {
+      selector: "#user_id",
+      step: 4,
+      title: "Show Timesheet",
+      content: "ShowTimesheetContent",
     },
     {
       selector: "#btnSendForApproval",
-      step: 3,
-      title: "SendForApproval",
-      content: "CongratsYouHaveSubmittedTimesheetForApproval",
+      step: 5,
+      title: "Save as draft",
+      content: "SaveContent",
     },
+    {
+      selector: "#btnCopyLastWeek",
+      step: 6,
+      title: "Copy last week",
+      content: " LastWeekContent",
+    },
+    {
+      selector: "#btnCopyUser",
+      step: 7,
+      title: "Copy to other users",
+      content: "UserContent",
+    },
+    {
+      selector: "#CopyTimesheet",
+      step: 8,
+      title: "Copy timesheet",
+      content: "CopyTimesheetContent",
+    },
+    {
+      selector: "#btnSaveAsDraft",
+      step: 9,
+      title: "Send for approval",
+      content: "ApprovalContent",
+    },
+    
   ],
 };
 
@@ -2914,5 +2121,152 @@ touritem["CRM/VendorListing"] = {
     }    
   ]
 };
+
+touritem["TimeTracking/TimetrackDashBoard"] = {
+  ModuleDisplayName: "Time Track",
+  ModuleName: "Timer",
+  displayName: "TimeTrackingTimetrackDashBoard",
+  items: [
+    {
+      selector: "#Changeview",
+      step: 1,
+      title: "Multiple Views",
+      content: "MultipleViewsTimer",
+    },
+
+    {
+      selector: "#dayAndnightShift",
+      step: 2,
+      title: "Day View/Shift View",
+      content: "DayViewAndShiftView",
+    },
+
+    {
+      selector: "#searchFilterTimer",
+      step: 3,
+      title: "Search Filter",
+      content: "SearchFilterTimerDash",
+    },
+  ],
+};
+
+touritem["TimeTracking/AppsAndWebsites"] = {
+  ModuleDisplayName: "Time Track",
+  ModuleName: "Timer",
+  displayName: "TimeTrackingTimetrackDashBoard",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filters",
+      content: "SearchFilterAppAndWebSite",
+    },
+
+    {
+      selector: "#AssignDepartment",
+      step: 2,
+      title: "Assign Department",
+      content: "AssignDepartmentApp",
+    },
+
+    {
+      selector: "#ViewHistory",
+      step: 3,
+      title: "View History",
+      content: "ViewHistoryApp",
+    },
+
+    {
+      selector: ".fa.fa-ellipsis-h.action_icon",
+      step: 4,
+      title: "Action Button",
+      content: "ActionButtonApp",
+    },
+    {
+      selector: "#ddlUserCurrentStatus",
+      step: 5,
+      title: "List/Card View",
+      content: "ListCardViewApp",
+    },
+  ],
+};
+
+touritem["TimeTracking/Category"] = {
+  ModuleDisplayName: "Time Track",
+  ModuleName: "Timer",
+  displayName: "Category",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filter",
+      content: "SearchFilterCategory",
+    },
+    {
+      selector: "#ImportCategoryID",
+      step: 2,
+      title: "Import",
+      content: "ImportTimerCategory",
+    },
+    {
+      selector: "#AddCategoryID",
+      step: 3,
+      title: "Add New",
+      content: "AddNewCategory",
+    },
+    {
+      selector: ".text-center.single-action",
+      step: 4,
+      title: "Action",
+      content: "ActionCategory",
+    },
+  ],
+};
+
+touritem["TimeTracking/UserProductivity"] = {
+  ModuleDisplayName: "Time Track",
+  ModuleName: "Timer",
+  displayName: "UserProductivity",
+  items: [
+    {
+      selector: "#User",
+      step: 1,
+      title: "User Productivity",
+      content: "UserProductivityKey",
+    },
+    {
+      selector: ".checkBoxClick",
+      step: 2,
+      title: "Select Status",
+      content: "SelectStatusCategory",
+    },
+  ],
+};
+
+touritem["TimeTracking/DepartmentViewDasboard"] = {
+  ModuleDisplayName: "Time Track",
+  ModuleName: "Timer",
+  displayName: "TimeTrackingDepartmentViewDasboard",
+  items: [
+    {
+      selector: "#SearchReset",
+      step: 1,
+      title: "SearchReset",
+      content: "SearchResetDepartmentViewDasboard",
+    },
+    {
+      selector: "#shiftchange",
+      step: 2,
+      title: "DayShiftView",
+      content: "DayShiftViewDepartmentViewDasboard",
+    },
+    {
+      selector: ".mt-1",
+      step: 3,
+      title: "DateRange",
+      content: "DateRangeDepartmentViewDasboard",
+    },
+  ],
+};
+
 tourData.push(touritem);
-export { tourData };
