@@ -7002,6 +7002,12 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .cvs_control .user-detail { background: #eff8ff; border: 1px solid #cae5ff !important;}
 /***Chad - Harjit added 21June2024****/
 
+.apone_multiselect .p-multiselect{border-radius: 0;}
+.apone_multiselect .p-multiselect .p-multiselect-label{padding: .375rem .75rem;}
+.apone_multiselect .p-inputtext{padding: .375rem .75rem;}
+.apone_multiselect .p-multiselect-items-wrapper ul li{padding: .375rem .75rem;}
+
+
     /***Live screen - Anuj - HArjit 24June2024***/
 
     .livescreen_leftbase {float: right; width: calc(100% - 300px) !important; height: calc(100% - 120px); padding: 15px;}
