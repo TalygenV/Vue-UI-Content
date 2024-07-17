@@ -6954,3 +6954,11 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 #manageChannelModal .modal-footer.fixed-bottom{background: #fff;}
 }
 
+@media (max-width: 768px) {
+#manageChannelModal.modal.right.fade .modal-body{padding-bottom: 160px;}
+
+}
+
+
+
+
