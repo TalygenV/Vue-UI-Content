@@ -6956,7 +6956,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 @media (max-width: 768px) {
 #manageChannelModal.modal.right.fade .modal-body{padding-bottom: 160px;}
-
+#manageChannelModal.modal.right.fade .modal-body ul#divChannelTypes.shortcuts-menu li{width: 100%;}
 }
 
 
