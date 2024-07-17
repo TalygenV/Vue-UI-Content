@@ -6783,203 +6783,76 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 /***********KnowledgeBase Articles*****************************/
 
 /****30May2024 New tabs design with Anuj - Harjit******/
-
 .initialsetup_newtab_mainbase{padding:0px!important;}
-
 .initialsetup_newtab_mainbase .left-menu-tab{
     float: left;
     width: 100%;
     max-width: 368px!important; padding: 20px;
 }
-
 .initialsetup_newtab_mainbase .right-content {
     float: right;
     width: calc(100% - 370px)!important;
     border-left:1px solid #dedede;height: calc(100% - 120px); padding: 15px; min-height: 100vh;
 }
-
 @media (max-width:767px)
 {
     .initialsetup_newtab_mainbase .left-menu-tab {width: 100%;max-width: 100% !important;}
     .initialsetup_newtab_mainbase .right-content {width: 100%!important; border-left: 0px;}
     
 }
-
 .initialsetup_newtab_mainbase span.smallresult{font-size:11px;}
-
 .initialsetup_newtab_design.storagegraph.progress {background-color: #dcdde1; height: 10px !important;}
 .initialsetup_newtab_design.storagegraph .progress-bar {background-color: #4fb262;}
-
-.initialsetup_newtab_design.left-tab li.active:hover{
-    background: #e0f2ff!important; color: #4f4f4f!important;
-} 
-
-.initialsetup_newtab_design.left-tab li.active:hover a i {
-    color:#24a5ff!important;    
-}
-
-.initialsetup_newtab_design.left-tab li.active {
-    background: #e0f2ff!important;
-    color: #4f4f4f!important; border-right: 1px solid #c9d9e5!important;
-}
-
-.initialsetup_newtab_design.left-tab li.active a i {
-    color:#24a5ff!important;    
-}
-.initialsetup_newtab_design.left-tab li.initialsetup_completed {
-    background: #c9ffd4 !important;
-}
-.initialsetup_newtab_design.left-tab li.initialsetup_completed:hover {
-    background: #c9ffd4 !important;
-}
-.initialsetup_newtab_design.left-tab li.initialsetup_completed a i{
-    color: #4fb262!important; font-size:23px;
-}
-.initialsetup_newtab_design.left-tab li.initialsetup_completed:hover a i{
-    color: #4fb262!important;
-}
-
-
-.initialsetup_newtab_design.left-tab li.active.initialsetup_completed {
-    background: #a5d9ff!important;
-    color: #4f4f4f!important; border-right: 1px solid #c9d9e5!important;
-}
-.initialsetup_newtab_design.left-tab li.active.initialsetup_completed a i {
-    color: #4fb262!important; font-size:23px;
-}
-
-
-.initialsetup_newtab_design.left-tab li {
-    background: #f5f5f5!important;
-    border-top:none!important;
-    border-left: 1px solid #e5e5e5 !important;
-    border-right: 1px solid #e5e5e5 !important;
-    border-bottom: 1px solid #e5e5e5 !important;
-    height:auto;
-    display: flex;
-    flex-wrap: nowrap; 
-}
-.initialsetup_newtab_design.left-tab li:first-child {
-    border-top: 1px solid #e5e5e5 !important;
-}
-.initialsetup_newtab_design.left-tab li:hover {
-   background: #fdfdfd!important;
-   cursor:pointer;
-}
-.initialsetup_newtab_design.left-tab li a {
-    padding:16px 5px;
-    width: auto;
-    display: inline-block; font-size:16px; font-weight: 500; color: #4f4f4f!important;
-}
-.initialsetup_newtab_design.left-tab li a i{
-    font-size:21px; padding-top: 3px; color:#798086; float: left;
-}
-
-.initialsetup_newtab_design.left-tab li a i.fa-map-marker{
-    font-size:24px;
-}
-
-.initialsetup_newtab_design.left-tab li:hover a i {
-    color:#798086!important;    
-}
-.initialsetup_newtab_design.left-tab li a.digits_num{
-    width:55px; text-align:center;
-    border-right: 1px solid #e5e5e5!important; padding-top: 20px;
-    font-size:14px; font-weight: 600; color: #4f4f4f!important;
-}
-.initialsetup_newtab_design.left-tab li a span {
-    float: left; margin-top: 2px; margin-left: 10px;
-}
+.initialsetup_newtab_design.left-tab li.active:hover{background: #e0f2ff!important; color: #4f4f4f!important;} 
+.initialsetup_newtab_design.left-tab li.active:hover a i {color:#24a5ff!important;}
+.initialsetup_newtab_design.left-tab li.active {background: #e0f2ff!important; color: #4f4f4f!important; border-right: 1px solid #c9d9e5!important;}
+.initialsetup_newtab_design.left-tab li.active a i {color:#24a5ff!important;}
+.initialsetup_newtab_design.left-tab li.initialsetup_completed {background: #c9ffd4 !important;}
+.initialsetup_newtab_design.left-tab li.initialsetup_completed:hover { background: #c9ffd4 !important;}
+.initialsetup_newtab_design.left-tab li.initialsetup_completed a i{ color: #4fb262!important; font-size:23px;}
+.initialsetup_newtab_design.left-tab li.initialsetup_completed:hover a i{color: #4fb262!important;}
+.initialsetup_newtab_design.left-tab li.active.initialsetup_completed {background: #a5d9ff!important; color: #4f4f4f!important; border-right: 1px solid #c9d9e5!important;}
+.initialsetup_newtab_design.left-tab li.active.initialsetup_completed a i {color: #4fb262!important; font-size:23px;}
+.initialsetup_newtab_design.left-tab li { background: #f5f5f5!important; border-top:none!important; border-left: 1px solid #e5e5e5 !important; border-right: 1px solid #e5e5e5 !important; border-bottom: 1px solid #e5e5e5 !important;
+    height:auto; display: flex; flex-wrap: nowrap; }
+.initialsetup_newtab_design.left-tab li:first-child { border-top: 1px solid #e5e5e5 !important;}
+.initialsetup_newtab_design.left-tab li:hover {background: #fdfdfd!important; cursor:pointer;}
+.initialsetup_newtab_design.left-tab li a {padding:16px 5px; width: auto; display: inline-block; font-size:16px; font-weight: 500; color: #4f4f4f!important;}
+.initialsetup_newtab_design.left-tab li a i{font-size:21px; padding-top: 3px; color:#798086; float: left;}
+.initialsetup_newtab_design.left-tab li a i.fa-map-marker{font-size:24px;}
+.initialsetup_newtab_design.left-tab li:hover a i { color:#798086!important;}
+.initialsetup_newtab_design.left-tab li a.digits_num{ width:55px; text-align:center; border-right: 1px solid #e5e5e5!important; padding-top: 20px; font-size:14px; font-weight: 600; color: #4f4f4f!important;}
+.initialsetup_newtab_design.left-tab li a span { float: left; margin-top: 2px; margin-left: 10px;}
 .font-weight600{font-weight:600;}
 
 /****30May2024 New tabs design with Anuj - Harjit******/
 .new_initialsetup_btnsbase a.btn-secondary {background:#eeeeee!important;color:#3f3f3f!important;font-size:18px!important; border:none!important; font-weight:500; min-width:113px; padding:10px;}
-
 .new_initialsetup_btnsbase a.btn-warning {background:#e59b08!important;color:#fff!important;font-size:18px!important; border:none!important; padding:10px; margin-right: 5px;}
 .new_initialsetup_btnsbase a.btn-warning i{font-size: 14px !important;}
-
 .new_initialsetup_btnsbase a.btn-success {background:#28a745!important;color:#fff!important;font-size:18px!important; border:none!important; padding:10px; margin-right: 5px;}
-
 .new_initialsetup_btnsbase a.btn-primary {background:#25a5ff!important;color:#fff!important;font-size:18px!important;border:none!important; padding:10px;}
 .new_initialsetup_btnsbase a.btn-primary i{font-size: 14px !important;}
-
-
 /****** newtabsdes_configuration Harjit - 4June2024 *************/
-
 .newtabdes_buttonsbase button.btn {font-size:18px!important; border:none!important; padding:10px;}
-
 .newtabdes_buttonsbase button.btn.btn-warning{color:#fff;}
-
 .newtabsdes_configuration_mainbase{padding:0px!important;}
-
-.newtabsdes_configuration_mainbase .left-menu-tab{
-    float: left;
-    width: 100%;
-    max-width: 368px!important; padding: 20px;
-}
-
-.newtabsdes_configuration_mainbase .right-content {
-    float: right;
-    width: calc(100% - 370px)!important;
-    border-left:1px solid #dedede;height: calc(100vh - 120px); padding: 15px;
-}
-
+.newtabsdes_configuration_mainbase .left-menu-tab{ float: left; width: 100%; max-width: 368px!important; padding: 20px;}
+.newtabsdes_configuration_mainbase .right-content { float: right; width: calc(100% - 370px)!important; border-left:1px solid #dedede;height: calc(100vh - 120px); padding: 15px;}
 @media (max-width:767px)
-{
-    
+{    
     .newtabsdes_configuration_mainbase .left-menu-tab{width: 100%;max-width: 100% !important;}
     .newtabsdes_configuration_mainbase .right-content {width: 100%!important; border-left: 0px;}
     .mobile_d-none{display: none!important;}
 }
 
-
-.newtabsdes_configuration li a.active {
-    background: #e0f2ff !important;
-    color: #4f4f4f !important;
-}
-
-.newtabsdes_configuration li a.active i {
-    color: #24a5ff !important;
-}
-.newtabsdes_configuration li {
-    background: #f5f5f5 !important;
-    border-top: none !important;
-    border-left: 1px solid #e5e5e5 !important;
-    border-right: 1px solid #e5e5e5 !important;
-    border-bottom: 1px solid #e5e5e5 !important;
-    height: auto;
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.newtabsdes_configuration li a {
-    padding: 16px 5px;
-    width: 100%;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 500;
-    color: #4f4f4f !important;
-}
-
-.newtabsdes_configuration li a i {
-    font-size: 21px;
-    padding-top: 3px;
-    color: #798086;
-    float: left; min-width: 50px;
-    text-align: center;
-}
-
-.newtabsdes_configuration li a span {
-    float: left;
-    margin-top: 2px;
-    margin-left: 10px;
-}
-
-.newtabsdes_configuration li:hover {
-    background: #fdfdfd !important;
-    cursor: pointer;
-}
-
+.newtabsdes_configuration li a.active { background: #e0f2ff !important;  color: #4f4f4f !important;}
+.newtabsdes_configuration li a.active i { color: #24a5ff !important;}
+.newtabsdes_configuration li {background: #f5f5f5 !important; border-top: none !important; border-left: 1px solid #e5e5e5 !important;
+    border-right: 1px solid #e5e5e5 !important; border-bottom: 1px solid #e5e5e5 !important; height: auto;  display: flex;  flex-wrap: nowrap;}
+.newtabsdes_configuration li a { padding: 16px 5px;  width: 100%;  display: inline-block;  font-size: 16px; font-weight: 500; color: #4f4f4f !important;}
+.newtabsdes_configuration li a i { font-size: 21px; padding-top: 3px; color: #798086;  float: left; min-width: 50px; text-align: center;}
+.newtabsdes_configuration li a span { float: left; margin-top: 2px; margin-left: 10px;}
+.newtabsdes_configuration li:hover { background: #fdfdfd !important; cursor: pointer;}
 /****.newtabsdes_configuration li:hover a i {color:#798086!important;}******/
 
 .tab-pane ul.dashbord-widget li span.barprogress div.progress-bar-striped{ background-image: none!important; background-color: #cccccc!important; }
@@ -7007,55 +6880,48 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .apone_multiselect .p-inputtext{padding: .375rem .75rem;}
 .apone_multiselect .p-multiselect-items-wrapper ul li{padding: .375rem .75rem;}
 
+ /***Live screen - Anuj - HArjit 24June2024***/
+.livescreen_leftbase {float: right; width: calc(100% - 300px) !important; height: calc(100% - 120px); padding: 15px;}
+.livescreen_rightbase {float: left; width: 100%; max-width: 290px !important; padding:0px; background: #e0f2ff;}
+.led_screen{ width:100%; background:#282828; position: relative;}/*min-height:555px;*/
+.led_screen.empty{min-height:555px;}
+.led_screen img{width:100%;}
 
-    /***Live screen - Anuj - HArjit 24June2024***/
+.livescreen_leftbase .led_screen.empty{background: #282828;}
+.livescreen_leftbase .led_screen.empty div.errormsgs .innererrors{ color:#eeeeee; font-size: 16px; display: flex;}
+.livescreen_leftbase .led_screen.empty div.errormsgs .innererrors span.heading{font-size: 30px;}
+.livescreen_leftbase .led_screen.empty div.errormsgs .innererrors em {font-size: 50px; color:#717171;}
 
-    .livescreen_leftbase {float: right; width: calc(100% - 300px) !important; height: calc(100% - 120px); padding: 15px;}
-    .livescreen_rightbase {float: left; width: 100%; max-width: 290px !important; padding:0px; background: #e0f2ff;}
-    .led_screen{ width:100%; background:#282828; position: relative;}/*min-height:555px;*/
-    .led_screen.empty{min-height:555px;}
-    .led_screen img{width:100%;}
+.livescreen_rightbase .cont_desc{border-bottom:2px solid #85c8f9; padding:15px; width:100%; float:left;}
+.livescreen_rightbase .cont_desc:last-child{border:none;}
+.livescreen_rightbase .cont_desc h3{font-size:18px; margin: 0px; font-weight: normal; width:100%; float:left;}
+.livescreen_rightbase .cont_desc span{font-size:15px; width:100%; float:left;}
 
-    .livescreen_leftbase .led_screen.empty{background: #282828;}
-    .livescreen_leftbase .led_screen.empty div.errormsgs .innererrors{ color:#eeeeee; font-size: 16px; display: flex;}
-    .livescreen_leftbase .led_screen.empty div.errormsgs .innererrors span.heading{font-size: 30px;}
-    .livescreen_leftbase .led_screen.empty div.errormsgs .innererrors em {font-size: 50px; color:#717171;}
+.livescreen_rightbase .cont_btns{padding:15px; width:100%; float:left;}        
+.livescreen_rightbase .cont_btns .largebtns a{width:100%; margin-bottom:5px; margin-top:5px; font-size:16px;}
+.livescreen_rightbase .cont_btns .smallbtns a{width:26%; float:left; color:#fff;}
 
-    .livescreen_rightbase .cont_desc{border-bottom:2px solid #85c8f9; padding:15px; width:100%; float:left;}
-    .livescreen_rightbase .cont_desc:last-child{border:none;}
-    .livescreen_rightbase .cont_desc h3{font-size:18px; margin: 0px; font-weight: normal; width:100%; float:left;}
-    .livescreen_rightbase .cont_desc span{font-size:15px; width:100%; float:left;}
+.livescreen_rightbase .cont_btns .smallbtns a.btn-yellow{background:#ff9800;}
+.livescreen_rightbase .cont_btns .smallbtns a.btn-blue{background:#2196f3; margin: 0 auto;}
+.livescreen_rightbase .cont_btns .smallbtns a.btn-purple{background:#3f51b5;}
 
-    .livescreen_rightbase .cont_btns{padding:15px; width:100%; float:left;}
-        
-    .livescreen_rightbase .cont_btns .largebtns a{width:100%; margin-bottom:5px; margin-top:5px; font-size:16px;}
-    .livescreen_rightbase .cont_btns .smallbtns a{width:26%; float:left; color:#fff;}
+.fullscreen_btn { position: absolute; bottom: 20px; right: 20px; font-size: 30px; background: rgba(0, 0, 0, 0.3); padding: 0px 10px;}
+.fullscreen_btn a{color: #fff;}
+.livescreen_rightbase .cont_btns .smallbtns a em { font-size: 26px;}
+.bodbtn_green{ border: 1px solid #42c683; color: #42c683; background-color: #fff;}
+.bodbtn_grey{ border: 1px solid #c0c0c0; color: #c0c0c0; background-color: #fff;}
+.bodbtn_yellow{ border: 1px solid #fcae18; color:#fcae18; background-color: #fff;}
 
-    .livescreen_rightbase .cont_btns .smallbtns a.btn-yellow{background:#ff9800;}
-    .livescreen_rightbase .cont_btns .smallbtns a.btn-blue{background:#2196f3; margin: 0 auto;}
-    .livescreen_rightbase .cont_btns .smallbtns a.btn-purple{background:#3f51b5;}
-
-    .fullscreen_btn { position: absolute; bottom: 20px; right: 20px; font-size: 30px; background: rgba(0, 0, 0, 0.3); padding: 0px 10px;}
-    .fullscreen_btn a{color: #fff;}
-
-    .livescreen_rightbase .cont_btns .smallbtns a em { font-size: 26px;}
-
-    .bodbtn_green{ border: 1px solid #42c683; color: #42c683; background-color: #fff;}
-    .bodbtn_grey{ border: 1px solid #c0c0c0; color: #c0c0c0; background-color: #fff;}
-    .bodbtn_yellow{ border: 1px solid #fcae18; color:#fcae18; background-color: #fff;}
-
-    .blink { animation: blink-animation 1s steps(5, start) infinite; 
-        -webkit-animation: blink-animation 1s steps(5, start) infinite;}
-            @keyframes blink-animation {to {visibility: hidden;}} 
-        @-webkit-keyframes blink-animation {to {visibility: hidden;}}
+.blink { animation: blink-animation 1s steps(5, start) infinite; 
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;}
+        @keyframes blink-animation {to {visibility: hidden;}} 
+    @-webkit-keyframes blink-animation {to {visibility: hidden;}}
 
 /****Live monitoring - widgets and listing new des****/
 .livemonitoring .dashbord-widget li { border: 1px solid; border-radius: 10px; padding: 23px 12px;}
-
 .livemonitoring .dashbord-widget i{float:left; margin-top: 10px; font-size: 40px;}
 .livemonitoring .dashbord-widget li h3{float: left;font-weight: 500; font-size: 30px; margin-left: 25px;}
 .livemonitoring .dashbord-widget li h3 span{font-size: 14px;}
-
 .livemonitoring .one_wid{background: #dbf3ff !important; border-color: #33a5f7 !important;}
 .livemonitoring .one_wid h3, .livemonitoring .one_wid i{color: #33a5f7 !important;}
 .livemonitoring .two_wid{background: #e1fff0 !important; border-color: #3bc47e !important;}
@@ -7066,28 +6932,24 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .livemonitoring .four_wid h3, .livemonitoring .four_wid i{color: #fcae18 !important;}
 .livemonitoring .five_wid{background: #e3ebff !important; border-color: #3967d1 !important;}
 .livemonitoring .five_wid h3, .livemonitoring .five_wid i{color: #3967d1 !important;}
-
 .livemonitoring .listing .thead-bg{background: none!important;}
 .livemonitoring .thead-bg th{background: none!important; border: none!important;}
 .livemonitoring .table-bordered thead tr{border-bottom: none!important;}
-
 .livemonitoring .listing .table thead th:not(:last-child):not(.border-right-0)::after{display: none;}
-
 .livemonitoring .table-responsive{border: none!important;}
-
 .livemonitoring .table-bordered tbody tr{border: none!important; border-radius:10px!important;}
 .livemonitoring .table.table-bordered tbody tr:last-child { border-radius:10px!important;}
-
 .livemonitoring .listing .nu-paging{border: none;}
-
 .livemonitoring .table-bordered tbody tr td{border-top: 1px solid #c6cace!important; border-bottom: 1px solid #c6cace!important;border-style: solid none; }
 .livemonitoring .table-bordered tbody tr td:first-child {  border-left:1px solid #c6cace!important; border-top-left-radius: 10px; border-bottom-left-radius: 10px;}
 .livemonitoring .table-bordered tbody tr td:last-child {  border-right:1px solid #c6cace!important; border-bottom-right-radius: 10px; border-top-right-radius: 10px;}
 .livemonitoring table{border-spacing: 0 10px; border-collapse: separate;}
-
 .livemonitoring .ticketsmallfix{display: none;}
 .livemonitoring .table-bordered tbody tr td a span{border-radius: 10px!important; padding:5px; min-width: 100px;}
 /****Live monitoring - widgets and listing new des****/
-        
-    /***Live screen - Anuj - HArjit 24June2024***/
+/***Live screen - Anuj - HArjit 24June2024***/
+
+@media (max-width: 1024px) {
+#manageChannelModal .modal.right.fade .modal-body{padding-bottom: 70px;}
+}
 
