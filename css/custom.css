@@ -6950,7 +6950,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 /***Live screen - Anuj - HArjit 24June2024***/
 
 @media (max-width: 1024px) {
-#manageChannelModal .modal.right.fade .modal-body{padding-bottom: 70px;}
+#manageChannelModal.modal.right.fade .modal-body{padding-bottom: 70px;}
 #manageChannelModal .modal-footer.fixed-bottom{background: #fff;}
 }
 
