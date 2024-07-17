@@ -6951,5 +6951,6 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 @media (max-width: 1024px) {
 #manageChannelModal .modal.right.fade .modal-body{padding-bottom: 70px;}
+#manageChannelModal .modal-footer.fixed-bottom{background: #fff;}
 }
 
