@@ -6154,6 +6154,9 @@ li.active li { margin: 25px 0 0 0; }
 .newtimertable td span.font-weight-medium{font-weight: 600 !important;}
 .newtimertable td span.text-dark.d-block.font-12{color: #525f65!important; font-weight: 500!important;}
 
+#divModalTimetrack .btn-primary-light{background-color: #2082eb;}
+#divModalTimetrack .btn-primary-light:hover{background-color:#0069d9;}
+
 .barsbase .icontext span.font-weight-medium {
     font-weight: 600 !important;
   }
