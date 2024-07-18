@@ -6959,6 +6959,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 #manageChannelModal.modal.right.fade .modal-body ul#divChannelTypes.shortcuts-menu li{width: 100%;}
 }
 
+#manageChannelModal.modal.right.fade .modal-body ul#divChannelTypes.shortcuts-menu li:hover .short-item-name{color: #000 !important;}
 
 
 
