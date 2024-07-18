@@ -6463,6 +6463,9 @@ li.active li { margin: 25px 0 0 0; }
 .tab-style.newtimer .nav-link.active {background: #48ccae !important; color: #fff;}
 .tab-style.newtimer .nav-tabs {border-bottom: 3px solid #48ccae;}
 .tab-style.newtimer .nav-link {background:none;color: #000; text-transform: capitalize; font-weight: 500;}
+
+.tab-style.newtimer .nav-link.active.nusingle {background: #48ccae !important; color: #fff; cursor: default!important;}
+
 /********Ridham - NewTimer******************/
 
 /********Anuj - Statistics******************/
