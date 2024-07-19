@@ -140,9 +140,9 @@ input[type=checkbox], input[type=radio] { box-sizing: border-box;  padding: 0;}
 .navigation-panel ul li a em.fa-circle{font-size:10px;}
 .gotosub { position: absolute; right: 0; z-index: 10; top: 0; width: 30px; height: 100%; line-height: 40px; text-align: center; cursor:pointer; }
 .navigation-panel ul li:hover .gotosub {color:#fff; background: #424f55 !important;}
-.indl, .indl:hover{ font-size: 18px; padding-left: 10px; color: #177cb8 !important; font-weight: 400; } 
+.indl, .indl:hover{ font-size: 16px; padding-left: 10px; color: #177cb8 !important; font-weight: 400; } 
 .indl em, .indl:hover em{ color:#177cb8 !important; font-size: 19px !important; padding: 0px 8px 0px 8px !important;}
-.nav-heading{border-bottom:2px solid #cfcfcf;  display:flex; align-items:center; margin:0 20px 20px 20px; font-size:20px; margin-bottom:5px !important;padding: 2px 0 !important; width:calc(100% - 40px); justify-content:flex-start; flex-direction: row; flex-wrap: wrap}
+.nav-heading{border-bottom:2px solid #cfcfcf;  display:flex; align-items:center; margin:0 20px 20px 20px; font-size:16px; margin-bottom:5px !important;padding: 2px 0 !important; width:calc(100% - 40px); justify-content:flex-start; flex-direction: row; flex-wrap: wrap}
 .navigation-panel h4{width:calc(100% - 40px); font-size:18px; margin:0 20px; color:#212529; padding:10px 0;}
 .nav-heading span{display:flex; align-items:center;}
 .nav-heading  span em{color:#6b935e; font-size:22px; padding:0px 16px 0px 0px;}
