@@ -5869,9 +5869,11 @@ select#dropdownMenu2.btn.dropdown-toggle{width:auto;}
 .table-bordered tr.sample-bar td:first-child::before {
     background: #0667c8 !important; content: "Sample"; display: block; position: absolute;  left: 0px; text-transform: uppercase;
     color: white;  line-height: 16px;  width: 80px; height: 15px;  bottom: 10px !important; right: 0px; font-size: 9px;
-    font-weight: 500; margin: 0 auto; top: 0 !important; transform: rotate(-30deg);  transform-origin: 37px 45px;}
+    font-weight: 500; margin: 0 auto; top: 0 !important; transform: rotate(-30deg);  transform-origin: 37px 45px; z-index: 999;}
 
 .table-bordered tr.sample-bar justwraper td.mobile-action:first-child::before {display: none;}
+.table-bordered tr.sample-bar justwraper td.single-action:first-child::before {display: none;}
+
 
 .samplebar_card .card-body {padding: 10px; background-image: url(/Vue-UI-Content/images/sample_png.png); background-repeat: no-repeat;background-size: auto; background-position: center center;}
 .samplebar_card { padding: 10px; background-image: url(/Vue-UI-Content/images/sample_png.png) !important; background-repeat: no-repeat !important; background-size: auto !important; background-position: center center !important;}
