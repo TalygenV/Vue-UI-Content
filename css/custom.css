@@ -6909,17 +6909,17 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .livescreen_rightbase .cont_btns .largebtns a{width:100%; margin-bottom:5px; margin-top:5px; font-size:16px;}
 .livescreen_rightbase .cont_btns .smallbtns a{width:26%; float:left; color:#fff;}
 
-/* .livescreen_rightbase .cont_btns .smallbtns a.btn-yellow{background:#ff9800;}
+.livescreen_rightbase .cont_btns .smallbtns a.btn-yellow{background:#ff9800;}
 .livescreen_rightbase .cont_btns .smallbtns a.btn-blue{background:#2196f3; margin: 0 auto;}
-.livescreen_rightbase .cont_btns .smallbtns a.btn-purple{background:#3f51b5;} */
+.livescreen_rightbase .cont_btns .smallbtns a.btn-purple{background:#3f51b5;}
 
-.livescreen_rightbase .cont_btns .smallbtns a.btn-yellow{background:#ff9800;background-image:url('../images/livepreview.png'); background-repeat: no-repeat;background-position: 20px 0px; min-height: 40px;}
+/* .livescreen_rightbase .cont_btns .smallbtns a.btn-yellow{background:#ff9800;background-image:url('../images/livepreview.png'); background-repeat: no-repeat;background-position: 20px 0px; min-height: 40px;}
 .livescreen_rightbase .cont_btns .smallbtns a.btn-blue{background:#2196f3; margin: 0 auto;background-image:url('../images/livepreview.png'); background-repeat: no-repeat;background-position: -54px 0px;}
 .livescreen_rightbase .cont_btns .smallbtns a.btn-purple{background:#3f51b5;background-image:url('../images/livepreview.png'); background-repeat: no-repeat;background-position: -129px 0px;}
 
 .livescreen_rightbase .cont_btns .smallbtns a.btn-yellow.disabled{background-position: 20px -49px;}
 .livescreen_rightbase .cont_btns .smallbtns a.btn-blue.disabled{background-position: -54px -49px;}
-.livescreen_rightbase .cont_btns .smallbtns a.btn-purple.disabled{background-position: -129px -49px;}
+.livescreen_rightbase .cont_btns .smallbtns a.btn-purple.disabled{background-position: -129px -49px;} */
 
 
 .fullscreen_btn { position: absolute; bottom: 20px; right: 20px; font-size: 30px; background: rgba(0, 0, 0, 0.3); padding: 0px 10px;}
