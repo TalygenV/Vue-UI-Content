@@ -6984,7 +6984,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .livemonitoring .table-bordered tbody tr td:first-child {  border-left:1px solid #c6cace!important; border-top-left-radius: 10px; border-bottom-left-radius: 10px;}
 .livemonitoring .table-bordered tbody tr td:last-child {  border-right:1px solid #c6cace!important; border-bottom-right-radius: 10px; border-top-right-radius: 10px;}
 
-.livemonitoring table{border-spacing: 0 10px; border-collapse: separate;}
+.livemonitoring table{border-spacing: 0 13px; border-collapse: separate;}
 .livemonitoring .ticketsmallfix{display: none;}
 .livemonitoring .table-bordered tbody tr td a span{border-radius: 30px!important; padding:5px; min-width: 130px;}
 /****Live monitoring - widgets and listing new des****/
