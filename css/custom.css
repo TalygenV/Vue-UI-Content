@@ -6909,7 +6909,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .livescreen_rightbase .cont_btns .largebtns a{width:100%; margin-bottom:5px; margin-top:5px; font-size:16px;}
 .livescreen_rightbase .cont_btns .smallbtns a{width:26%; float:left; color:#fff;}
 
-.livescreen_rightbase .cont_btns .largebtns a.btn-primary.disabled{}
+/* .livescreen_rightbase .cont_btns .largebtns a.btn-primary.disabled{} */
 
 
 /* .livescreen_rightbase .cont_btns .smallbtns a.btn-yellow{background:#ff9800;}
@@ -6927,6 +6927,8 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .fullscreen_btn { position: absolute; bottom: 20px; right: 20px; font-size: 30px; background: rgba(0, 0, 0, 0.3); padding: 0px 10px;}
 .fullscreen_btn a{color: #fff;}
 .livescreen_rightbase .cont_btns .smallbtns a em { font-size: 26px;}
+
+.listing .livemonitoring .table-bordered tbody tr td {font-weight: 400;}
 
 .livemonitoring .table-bordered tbody tr td a span.bodbtn_green{ border: 1px solid #42c683; color: #42c683; background-color: #fff; border-radius: 10px !important; font-weight: 400;}
 .livemonitoring .table-bordered tbody tr td a span.bodbtn_grey{ border: 1px solid #c0c0c0; color: #c0c0c0; background-color: #fff; border-radius: 10px !important; font-weight: 400;}
