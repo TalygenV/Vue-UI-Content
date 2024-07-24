@@ -6909,8 +6909,8 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .livescreen_rightbase .cont_btns .largebtns a{width:100%; margin-bottom:5px; margin-top:5px; font-size:16px;}
 .livescreen_rightbase .cont_btns .smallbtns a{width:26%; float:left; color:#fff;}
 
-.livescreen_rightbase .cont_btns .largebtns a.btn-primary.disabled{opacity: 0.6 !important;color:#fff!important;}
-.livescreen_rightbase .cont_btns .largebtns a.btn-success.disabled{opacity: 0.6 !important;color:#fff!important;}
+.livescreen_rightbase .cont_btns .largebtns a.btn-primary.disabled{opacity: 0.6 !important;color:#c8c8c8!important;}
+.livescreen_rightbase .cont_btns .largebtns a.btn-success.disabled{opacity: 0.6 !important;color:#c8c8c8!important;}
 
 /* .livescreen_rightbase .cont_btns .smallbtns a.btn-yellow{background:#ff9800;}
 .livescreen_rightbase .cont_btns .smallbtns a.btn-blue{background:#2196f3; margin: 0 auto;}
