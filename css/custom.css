@@ -6928,7 +6928,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .fullscreen_btn a{color: #fff;}
 .livescreen_rightbase .cont_btns .smallbtns a em { font-size: 26px;}
 
-.livemonitoring .listing .table-bordered tbody tr td {font-weight: 400;}
+.livemonitoring .listing .table-bordered tbody tr td {font-weight: 400;padding: 8px!important;}
 
 .livemonitoring .table-bordered tbody tr td a span.bodbtn_green{ border: 1px solid #42c683; color: #42c683; background-color: #fff; border-radius: 10px !important; font-weight: 400;}
 .livemonitoring .table-bordered tbody tr td a span.bodbtn_grey{ border: 1px solid #c0c0c0; color: #c0c0c0; background-color: #fff; border-radius: 10px !important; font-weight: 400;}
@@ -6939,6 +6939,9 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .livemonitoring .table-bordered tbody tr td a span.btn-primary { color: #fff; background-color: #3967d1; border-color: #3967d1;}
 .livemonitoring .table-bordered tbody tr td a span.btn-danger{ color: #fff; background-color: #f44336; border-color: #f44336;}
 .livemonitoring .table-bordered tbody tr td a span.btn-success{ color: #fff; background-color: #3bc47e; border-color: #3bc47e;}
+
+.livemonitoring .table-bordered tbody tr td span.my-image{width: 43px; height: 43px;}
+
 
 .livemonitoring .nu-paging .select{border-radius: 10px!important;}
 
