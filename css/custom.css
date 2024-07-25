@@ -2916,6 +2916,8 @@ textarea.form-control { white-space: normal; }
 .timer_wrap.show{display:flex}/***24May2022****/
 .timer_desc{margin-right:15px}
 
+#divTopTimer.timer_wrap .circle{width:31px;}
+
 .circle a{border:2px solid #fff;width:31px;height:31px;margin-left:9px;display:inline-block;text-align:center;border-radius:50%;line-height:28px;font-size:14px}
 .pause a{color:#ffc412}
 .stop a{color:#e43f3a}
