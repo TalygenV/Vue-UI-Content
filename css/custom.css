@@ -6948,7 +6948,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .livemonitoring .table-bordered tbody tr td a span.btn-danger{ color: #fff; background-color: #f44336; border-color: #f44336; cursor:text!important;}
 .livemonitoring .table-bordered tbody tr td a span.btn-success{ color: #fff; background-color: #3bc47e; border-color: #3bc47e; cursor:text!important;}
 
-.livemonitoring .table-bordered tbody tr td a span.btn-primary.liveview { color: #fff; background-color: #2196f3; border-color: #2196f3;}
+.livemonitoring .table-bordered tbody tr td a span.btn-primary.liveview { color: #fff; background-color: #2196f3; border-color: #2196f3; cursor: pointer!important;}
 
 .livemonitoring .table-bordered tbody tr td span.my-image{width: 43px; height: 43px;}
 
