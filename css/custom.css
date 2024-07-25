@@ -6922,9 +6922,15 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .livescreen_rightbase .cont_btns .smallbtns a.btn-blue{background:#2196f3; margin: 0 auto;background-image:url('../images/livepreview.png'); background-repeat: no-repeat;background-position: -54px 0px; border-radius: 10px !important;}
 .livescreen_rightbase .cont_btns .smallbtns a.btn-purple{background:#3f51b5;background-image:url('../images/livepreview.png'); background-repeat: no-repeat;background-position: -129px 0px; border-radius: 10px !important;}
 
+.livescreen_rightbase .cont_btns .smallbtns a.btn-yellow:hover{background-color: #ea8d05;}
+.livescreen_rightbase .cont_btns .smallbtns a.btn-blue:hover{background-color: #0d76ca;}
+.livescreen_rightbase .cont_btns .smallbtns a.btn-purple:hover{background-color: #1c2e91;}
+
 .livescreen_rightbase .cont_btns .smallbtns a.btn-yellow.disabled{background-color: #ffb03a; opacity: 0.4 !important}
 .livescreen_rightbase .cont_btns .smallbtns a.btn-blue.disabled{background-color: #39a6fd; opacity: 0.4 !important}
 .livescreen_rightbase .cont_btns .smallbtns a.btn-purple.disabled{background-color: #4055c8; opacity: 0.4 !important}
+
+
 
 .fullscreen_btn { position: absolute; bottom: 20px; right: 20px; font-size: 30px; background: rgba(0, 0, 0, 0.3); padding: 0px 10px;}
 .fullscreen_btn a{color: #fff;}
