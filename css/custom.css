@@ -6642,7 +6642,7 @@ li.active li { margin: 25px 0 0 0; }
 .tt-bod-right .vc-popover-content-wrapper{transform: translate(1185px, 52px)!important;}
 
 }
-.vc-popover-content-wrapper{z-index: 999;}
+.vc-popover-content-wrapper{z-index: 999!important;}
 
 
 
