@@ -5492,7 +5492,7 @@ div#mainDivProp .dropdown-menu button em.fa.fa-times{position: relative;}
 
 /*******Avtar got added - 11 Dec2023***********/
 .switch.dynamic-form .slider.round.toggle-yes span{
-    /* display: block !important; */
+    display: block !important;
     left: 0px;
 }
 .switch.dynamic-form .slider.round.toggle-no span{
