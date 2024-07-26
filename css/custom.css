@@ -6644,7 +6644,7 @@ li.active li { margin: 25px 0 0 0; }
 }
 .vc-popover-content-wrapper{z-index: 999!important;}
 
-.single-action i { font-size: 20px;}
+
 
 .multiselect__content-wrapper ul.multiselect__content li.multiselect__element .multiselect__option span.option__title
 {width: 65%; float: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
