@@ -5313,6 +5313,32 @@ div#mainDivProp .dropdown-menu button em.fa.fa-times{position: relative;}
 
 /*****From Lalit PC*******/
 
+/*****From Lalit PC - Company Setup - User, 29July2024*******/
+.new_accordians_des .card-header.heading-border h5 {
+    font-size: 1.25rem;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+.new_accordians_des .card-header.heading-border h5 span {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.new_accordians_des .md-accordion .card {
+    border: none;
+}
+
+.new_accordians_des .md-accordion .card .card-header.heading-border {
+    padding: 0;
+}
+
+.new_accordians_des .left-filter .form-group {
+    margin-bottom: 1rem;
+}
+/*****From Lalit PC - Company Setup - User, 29July2024*******/
+
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
