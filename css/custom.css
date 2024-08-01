@@ -6743,6 +6743,74 @@ li.active li { margin: 25px 0 0 0; }
 /****Silent App****/
 
 
+.tt_addcategory_ddl.multiselect-dropdown {position: relative; display: inline-block; border: 1px solid #ced4da;
+    padding: 2px 5px;
+    background-color: white;
+    cursor: pointer;
+    width: 764px;
+    padding: 5px;
+    color: #303030;
+
+
+}
+
+.tt_addcategory_ddl.multiselect-dropdown .optext {
+    background-color:#41b883; color: #fff; padding: 1px 0.75em; margin-right: 0.5em;
+    margin-bottom: 2px; display: inline-block; border-radius: 8px;
+}
+
+.tt_addcategory_ddl.multiselect-dropdown .optdel {
+    font-size: 0.7em;
+    margin-left: 0.5em;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.tt_addcategory_ddl.multiselect-dropdown .placeholder {font-size: 14px; background-image: none; border:none;}
+
+.tt_addcategory_ddl .multiselect-dropdown-list-wrapper {
+    position: absolute;  top: 100%;
+    left: 0;
+    right: 0;
+    background: white; 
+    z-index: 100;
+   
+}
+
+.tt_addcategory_ddl .multiselect-dropdown-search {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;  border: 1px solid #ced4da;
+}
+
+.tt_addcategory_ddl .multiselect-dropdown-list {max-height: 15rem; overflow-y: auto; padding: 2px; border-left: 1px solid #ced4da; 
+    border-right: 1px solid #ced4da; overflow-x: hidden;
+}
+
+.tt_addcategory_ddl .multiselect-dropdown-list input {
+    margin-right: 0.35em;
+}
+
+.tt_addcategory_ddl .multiselect-dropdown-list div:hover {
+    background-color: #41b883; color:#fff;
+}
+
+.tt_addcategory_ddl .multiselect-dropdown-all-selector {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px;
+}
+
+.tt_addcategory_ddl .multiselect-dropdown-single-selector {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px;   
+}
+
+.tt_addcategory_ddl .ttddl_clearall{float: right;
+    color: #fff;
+    padding: 3px 10px;}
+
+
+
 /******Silent App - Time Track Dashboard - for Ezaj Ahmed**********/
 .newddlist .dropdown input[type="text"]{border:1px solid #abb5bf;}
 .dropdown-content{position: absolute;width: 100%;border: 1px solid #adadad;background: #fff; z-index:9; max-height: 200px; overflow-y: auto;}
