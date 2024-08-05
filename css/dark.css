@@ -1269,6 +1269,11 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     /***********KnowledgeBase Articles - 2024*****************************/
 
 
-    .livemonitoring .table-bordered thead.thead-bg tr th{background: #2c3136;}
+.livemonitoring .table-bordered thead.thead-bg tr th{background: #2c3136!important; border-top: 1px solid #0f0f0f !important;
+      border-bottom: 1px solid #0f0f0f !important;}
+
+.livemonitoring .table-bordered thead.thead-bg tr th:first-child{border-left: 1px solid #0f0f0f !important;}
+.livemonitoring .table-bordered thead.thead-bg tr th:last-child{border-left: 1px solid #0f0f0f !important;}
+
 
 
