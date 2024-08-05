@@ -1273,7 +1273,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
       border-bottom: 1px solid #0f0f0f !important;}
 
 .livemonitoring .table-bordered thead.thead-bg tr th:first-child{border-left: 1px solid #0f0f0f !important;}
-.livemonitoring .table-bordered thead.thead-bg tr th:last-child{border-left: 1px solid #0f0f0f !important;}
+.livemonitoring .table-bordered thead.thead-bg tr th:last-child{border-right: 1px solid #0f0f0f !important;}
 
 
 .livemonitoring .table-bordered tbody tr td:first-child{border-left: 1px solid #0f0f0f !important;}
