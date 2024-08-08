@@ -1270,6 +1270,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 ul.filetree.treeview{background-color: #2c3136;}
 .dz-clickable{background-color: #2c3136;}
+.vue-dropzone:hover {background-color: #4c5359!important;}
 
 .livemonitoring .table-bordered thead.thead-bg tr th{background: #2c3136!important; border-top: 1px solid #0f0f0f !important;
       border-bottom: 1px solid #0f0f0f !important;}
