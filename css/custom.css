@@ -7040,6 +7040,14 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .livemonitoring .ticketsmallfix{display: none;}
 .livemonitoring .table-bordered tbody tr td a span{border-radius: 30px!important; padding:5px; min-width: 130px;}
 /****Live monitoring - widgets and listing new des****/
+
+@media (max-width: 991px) {
+.livescreen_leftbase, .livescreen_rightbase{width: 100% !important; max-width: 100% !important;}
+
+.livescreen_rightbase .cont_btns{text-align: center; margin: 0 auto;}
+.livescreen_rightbase .cont_btns .smallbtns {max-width: 260px; margin: 0 auto;}
+
+}
 /***Live screen - Anuj - HArjit 24June2024***/
 
 @media (max-width: 1024px) {
