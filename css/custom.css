@@ -3723,7 +3723,7 @@ span.cke_button_icon.cke_button__cleareditor_icon{display:none;}
 @media (max-width:1400px) {
 .dashbord-widget li { padding: 25px 10px 17px 10px;position:relative; }
   
- .dashbord-widget li h3 {max-width: 82%; }
+ .dashbord-widget li h3 {max-width: 78%; }
  .dashbord-widget em { font-size: 25px;position: absolute;right: 10px;}
 }
 
