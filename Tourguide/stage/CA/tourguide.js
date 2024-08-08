@@ -3396,14 +3396,9 @@ touritem["Ticketing/add"] = {
       selector: ".ancsavedraftticket",
       step: 1,
       title: "Save as Draft",
-      content: "SaveAsDraft",
+      content: "SaveAsDraftOrSubmit",
     },
-    {
-      selector: ".ancsaveuserticket",
-      step: 1,
-      title: "Submit",
-      content: "SubmitTicket",
-    },
+    
   ],
 };
 
