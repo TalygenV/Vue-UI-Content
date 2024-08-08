@@ -7046,6 +7046,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 .livescreen_rightbase .cont_btns{text-align: center; margin: 0 auto;}
 .livescreen_rightbase .cont_btns .smallbtns {max-width: 260px; margin: 0 auto;}
+.livescreen_rightbase .cont_btns .smallbtns a.btn-blue{margin: 0 auto!important;}
 
 }
 /***Live screen - Anuj - HArjit 24June2024***/
