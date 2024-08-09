@@ -6758,15 +6758,7 @@ li.active li { margin: 25px 0 0 0; }
 .tt_addcategory_ddl .ttddl_clearall{float: right; color: #fff; padding: 3px 10px;}
 
 .getstartedstepsbase.col-md-8 .getstarted ul li span{max-width: 190px;}
-
-
 .getstartedstepsbase.col-md-8 .maxwidth400{max-width: 330px;}
-
-/* @media (max-width:1240px) {
-  .getstartedstepsbase.col-md-8 {max-width: 100%!important; -ms-flex: 0 0 100%; flex: 0 0 100%;}
-  #divfreetrailupgrade.col-md-4.bodleftwhite{max-width: 100%!important; -ms-flex: 0 0 100%; flex: 0 0 100%;}
-} */
-
 .getstarted h2 { font-size: 20px; font-weight: 400;}
 .getstarted ul { padding: 0px; margin: 0px; display: flex; flex-wrap: wrap;}
 .getstarted ul li { padding: 0px; margin: 0px; list-style: none; width: 30%;float: left; line-height: 18px;
@@ -6789,7 +6781,6 @@ li.active li { margin: 25px 0 0 0; }
   background-image: url('https://talygenv.github.io/Vue-UI-Content/images/sl_dbicons.png'); background-position: -351px 0px;}
 
 .maxwidth400{max-width: 410px!important;}
-
 
 @media (max-width:1819px) {
     .getstartedstepsbase.col-md-8 .getstarted ul li{width: 45%; border-right: 2px solid #fff; margin-right: 20px; margin-bottom: 10px;}
