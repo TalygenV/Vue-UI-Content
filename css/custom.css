@@ -3735,7 +3735,7 @@ span.cke_button_icon.cke_button__cleareditor_icon{display:none;}
 .containerLegend100.custom-chart-legends div.legend span{ padding:5px; position: absolute; left: 0px; margin-left: 0px; top: 5px;}/*650344-top:0px -Harjit on Thakur's PC old top: 5px;*/
 .raph-widget-content .custom-chart-div{display: flex; flex-wrap: nowrap; flex-direction: row !important; align-content: center; align-items: center;}
 
-#divFilelistwithclaimId .attchament-container{margin-top:41px;}
+#divFilelistwithclaimId .attchament-container{margin-top:41px;}   
 #divFilelistwithclaimId .dd-btn {font-size: 18px; margin-right: 10px;}
 .generalAttachments .card-heading{background: #f1f1f1;padding: 10px;font-size: 16px;font-weight: 400;color: #000;position: absolute;top: 0px; z-index:99;}
 .generalAttachments .mCSB_inside > .mCSB_container{margin-right:0px;}
