@@ -733,7 +733,10 @@ color: #303030!important;
 ::-ms-input-placeholder { /* Microsoft Edge */
 color: #303030!important;
 }
-.user-guide{font-size:13px; font-weight:normal; background:url('../images/user-guide-img.png'); background-repeat:no-repeat; background-position:0 2px;min-height:17px;display:inline-block;}
+/* .user-guide{font-size:13px; font-weight:normal; background:url('../images/user-guide-img.png'); background-repeat:no-repeat; background-position:0 2px;
+    min-height:17px;display:inline-block;} */
+.user-guide{font-size:13px; font-weight:normal; background:url('../images/user-guide-img-white.png'); background-repeat:no-repeat; background-position:4px 17px;
+        min-height:17px;display:inline-block;}
 .user-guide a { padding-left: 20px; }
 .btn{font-size:14px; padding:.4rem .75rem; border-radius:0 !important;-webkit-border-radius:0 !important;-khtml-border-radius:0 !important;}
 
