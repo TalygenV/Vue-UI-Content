@@ -6848,6 +6848,23 @@ li.active li { margin: 25px 0 0 0; }
     .getstartedstepsbase .mtadjust{margin-top: 15px!important;}
     }
 
+    .silentappdb.app-dialog-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+    
+    .silentappdb .app-dialog {background: white; padding: 20px; border-radius: 8px; width: 300px; text-align: center; z-index: 1001;}
+    .silentappdb .app-dialog-actions {margin-top: 20px;}
+    .silentappdb .app-dialog-actions button {margin: 0 10px;}
+    .silentappdb .app-dialog-actions {display: flex; gap: 10px;}
 /******Silent App - Time Track Dashboard - for Ezaj Ahmed**********/
 .newddlist .dropdown input[type="text"]{border:1px solid #abb5bf;}
 .dropdown-content{position: absolute;width: 100%;border: 1px solid #adadad;background: #fff; z-index:9; max-height: 200px; overflow-y: auto;}
