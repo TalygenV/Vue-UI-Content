@@ -408,7 +408,7 @@ label.switch.w70{min-width: 70px;}
 .dashboard-boxes .boxes-header a{color: #fff; font-size: 22px; line-height: 24px; padding-left: 15px; transition: all 0.3s; -webkit-transition: all 0.3s; -moz-transition: all 0.3s;}
 .dashboard-boxes .boxes-header a:hover{opacity:.8;}
 .dashboard-boxes .boxes-content{width:100%; padding:.5rem; min-height: 300px; max-height: 300px; overflow-y:auto; }
-.menu-left-wrapper .sidebaricon em{display:block;}
+.menu-left-wrapper .sidebaricon em{display:inline-block;}
 .sidebaricon em{display:none;}
 .bookmark, .socialize{display:none;}
 .sidebar-toggle{display:none; }
