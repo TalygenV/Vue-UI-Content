@@ -4,7 +4,8 @@ body{color:#353535; background: #f3f3f3; font-weight: 400 !important;}
 .theme_text-color{color:#353535;}
 .theme_body{background:#fff;}
 .navbar-dark.bg-dark {	border-bottom: 1px solid #ececec;}
-.juda-menu-container{background:#fff; }
+/* .juda-menu-container{background:#fff; } */
+.juda-menu-container{background:#f4f4f4; border: 1px solid #777;}
 .juda-menu-container .menu-box div.heading { color: #353535; }
 .juda-header-bg{background: #4f4f4f;}
 .juda-body-bg{background: #454545;}
@@ -288,7 +289,8 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .left-filter .card-header h5{font-weight:400!important} 
 
 .left-filter .card-header h5 .rotate-icon{color:#585858;}
-.main-container{border-top:2px solid #fff;}
+/* .main-container{border-top:2px solid #fff;} */
+.main-container{border-top:1px solid #454545;}
 .table-bordered tr.high-profile-bar > td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#de0303;  display: block; position:absolute; left:0px; top:3px; }
 .table-bordered tr.critical-bar > td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#f06f07;  display: block; position:absolute; left:0px; top:3px; }
 .table-bordered tr.high-bar > td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#fbc648;  display: block; position:absolute; left:0px; top:3px; }
@@ -532,7 +534,8 @@ input:checked + .toggle {  background: #448ee4;  color: #fff;}
 .left-filter .card-header span a{color:#fff;}
 .listing .table thead th::after {	background: #ececec;}
 .custom-select{border-color:#cccccc;}
-.juda-btn, .juda-btn:hover{background:#fdfdfd; color:#353535;}/***color:#353535;- 9May2022******/
+/**.juda-btn, .juda-btn:hover{background:#fdfdfd; color:#353535;} **/ /***color:#353535;- 9May2022******/
+.juda-btn, .juda-btn:hover{background:#4F4F4F; color:#fff;}/***color:#353535;- 9May2022******/
 .expand-list .expand-list-btn {	background: #929292;}
 .right-content .expand-list-btn i.text-white{color:#fff !important;}
 .text-info{color:#24a5ff !important;}
