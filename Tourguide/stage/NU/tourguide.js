@@ -1,3 +1,4 @@
+var tourData = [];
 var touritem = {};
 
 touritem["User/Dashboard"] = {
