@@ -521,7 +521,7 @@ input:checked + .toggle {  background: #448ee4;  color: #fff;}
 .text-white{color:#fff !important;}
 .partition-full .text-white {	color: #353535 !important;}
 .p-name{font-weight:400;}
-.partition .text-white{color:#353535 !important;}/*color:#353535 !important; 9May2022*/
+.partition .text-white{color:#353535 !important;}/*color:#353535 !important; 9May2022*/   
 .text-dark, .nav-heading span i.text-dark{color:#353535 !important;}  
 .nav-heading .back a{color:#353535;}
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{color:#545454;}
@@ -538,7 +538,7 @@ input:checked + .toggle {  background: #448ee4;  color: #fff;}
 .juda-btn, .juda-btn:hover{background:#4F4F4F; color:#fff;}/***color:#353535;- 9May2022******/
 .expand-list .expand-list-btn {	background: #929292;}
 .right-content .expand-list-btn i.text-white{color:#fff !important;}
-.text-info{color:#24a5ff !important;}
+.text-info{color:#24a5ff !important;}   
 .table thead th{background:#f7f7f7 !important; color:#353535 !important;}
 .listing .table th:hover .ui-resizable-e{background:#c7c6c6;}
 .input-group > .input-group-append > .group-span-filestyle.input-group-text {	background: #e5e6e6 !important;}
