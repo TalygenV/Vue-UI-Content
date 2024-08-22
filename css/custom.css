@@ -1653,7 +1653,7 @@ span.text-lmenu{display:none;}
 .menu-left-wrapper .navbar-nav .left-menu-link .nav-link{display:flex;flex-direction:column;align-items:center;width:100%;}
 .menu-left-wrapper .l-menu-footer{position:absolute;bottom:0;background: black;width:100%;left:0;padding:5px 10px;}
 .menu-left-wrapper .l-menu-footer a{color:white;}
-.wrapper-shrink footer{padding-left:60px;transition:all .15s}
+.wrapper-shrink footer{transition:all .15s}/***padding-left:60px;**/
 .wrapper-shrink .switch-menu{min-width:60px;max-width:60px;transition:all .15s}
 .wrapper-shrink #content{padding-left:60px;transition:all .15s}
 .wrapper-shrink .navbar-nav span{display:none;}
