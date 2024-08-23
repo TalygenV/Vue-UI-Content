@@ -5251,7 +5251,8 @@ div#mainDivProp .dropdown-menu button em.fa.fa-times{position: relative;}
     padding: 0px 12px;
     line-height: 46px;
   }
-  #page-2-container{min-height: calc(100vh - 118px);}
+  /* #page-2-container{min-height: calc(100vh - 118px);} */
+  #page-2-container{min-height: calc(100vh - 73px);}
 
 /*******From Lalit PC - Graph for Dynamic Reporting***********/
 
