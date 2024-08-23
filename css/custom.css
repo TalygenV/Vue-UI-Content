@@ -3663,7 +3663,8 @@ transform: rotate(0deg) !important;}
 .left-menu-tab h5 a.tab-Search-btn{ position: absolute; right: 29px; top: -1px; display: none;}
 /*.left-menu-tab h5:hover a.tab-Search-btn{ display: block !important;}*/
 /*********Left Panel - collapsed  tapping issue - Harjit Singh*****************/
-#navbarResponsive ul li.nav-item a.nav-link em{margin-right:5px;}
+/* #navbarResponsive ul li.nav-item a.nav-link em{margin-right:5px;} */
+#navbarResponsive ul li.nav-item a.nav-link em{min-width: 24px !important; font-size: 20px; text-align: left; padding: 0px; margin: 0px 4px 0px 0px !important;}
 
 /***Ticket Add - FCK-Editer Delete icon Fix - Harjit Singh******/
 span.cke_button_icon.cke_button__cleareditor_icon{display:none;}
