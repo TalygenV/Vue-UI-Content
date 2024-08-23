@@ -1541,7 +1541,7 @@ box-sizing: border-box;font-size:10pt;}
 /*form action icons*/ 
 /*customization for boostrap root classes overwriting*/
 .bg-dark{background-color: #333335 !important;}
-.navbar-dark .navbar-nav .nav-link{color: rgba(255,255,255,1); padding: 0px 10px; margin: 0px 3px;}
+.navbar-dark .navbar-nav .nav-link{color: rgba(255,255,255,1); padding: 0px 12px; margin: 0px 3px;}
 /*customization for boostrap root classes overwriting*/
 
 /*for data tables*/
