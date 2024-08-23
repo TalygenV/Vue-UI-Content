@@ -5877,6 +5877,10 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 
 .modal-dialog.modal-dialog-centered.initialpopupbase.menuwidgets.non_ca {max-width: 417px !important;}
 
+@media (min-width:992px) { 
+    .menu-left-wrapper.wrapper-shrink #navbarResponsive ul.navbar-nav li .my-popups .modal-content{max-height: 200px;}
+}
+
 @media (max-width:991px) {  
 .modal-dialog.modal-dialog-centered.initialpopupbase.menuwidgets {position: absolute; top: 50px!important; right: 14%; display: block!important;}
 }
