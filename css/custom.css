@@ -5870,6 +5870,9 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 #TemplateList .conversation-box-con .conversation-box .name-circle i{margin-top: 17px;}
 
 /***Nav top widget menu ****/
+.menu-left-wrapper .modal-dialog.modal-dialog-centered.initialpopupbase.menuwidgets{ left: 190px!important; right: unset!important;}
+.menu-left-wrapper.wrapper-shrink .modal-dialog.modal-dialog-centered.initialpopupbase.menuwidgets{ left: 60px!important; right: unset!important;}
+
 .modal-dialog.modal-dialog-centered.initialpopupbase.menuwidgets {position: absolute; top: 0; right: 14%;}
 
 .modal-dialog.modal-dialog-centered.initialpopupbase.menuwidgets.non_ca {max-width: 417px !important;}
