@@ -3669,6 +3669,7 @@ transform: rotate(0deg) !important;}
 #navbarResponsive ul li.nav-item a.nav-link span.my-image {margin-top: 5px !important;margin-right: 5px !important;}
 .dark-full-screen, .light-full-screen{padding-left: 3px;}
 #btnFullscreen em.zoom-screen{margin-right: 7px !important;}
+#navbarResponsive ul li.nav-item a.nav-link em.zoom-screen{margin-right: 12px !important;}
 /***Ticket Add - FCK-Editer Delete icon Fix - Harjit Singh******/
 span.cke_button_icon.cke_button__cleareditor_icon{display:none;}
 /***Ticket Add - FCK-Editer Delete icon Fix - Harjit Singh******/
