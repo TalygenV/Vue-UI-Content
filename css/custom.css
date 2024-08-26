@@ -7191,6 +7191,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .newswitch_toggle .slider{background-color: #2873b5!important;}
 .newswitch_toggle.switch.disabled input:checked + .slider{background-color: #ccc!important;}
 
+.newswitch_toggle_singledisabled.switch.disabled input:checked + .slider{background-color: #ccc!important;}
 
 
 
