@@ -582,7 +582,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 
 .livemonitoring .dashbord-widget li h3 span{color: #6d767d;}
 
-
+.newswitch_toggle .slider{background-color: #2873b5;}
+.newswitch_toggle .slider.disabled{background-color: #ccc;}
 
 
 

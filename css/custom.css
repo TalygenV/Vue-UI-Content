@@ -7113,7 +7113,6 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .livemonitoring .table-bordered tbody tr td a span.bodbtn_grey{ border: 1px solid #c0c0c0; color: #c0c0c0; background-color: #fff; border-radius: 10px !important; font-weight: 400; cursor:text!important;}
 .livemonitoring .table-bordered tbody tr td a span.bodbtn_yellow{ border: 1px solid #fcae18; color:#fcae18; background-color: #fff; border-radius: 10px !important; font-weight: 400; cursor:text!important;}
 
-
 .livemonitoring .table-bordered tbody tr td a span.btn-warning { color: #fff; background-color: #fcae18; border-color: #fcae18; cursor:text!important;}
 .livemonitoring .table-bordered tbody tr td a span.btn-primary { color: #fff; background-color: #3967d1; border-color: #3967d1; cursor:text!important;}
 .livemonitoring .table-bordered tbody tr td a span.btn-danger{ color: #fff; background-color: #f44336; border-color: #f44336; cursor:text!important;}
@@ -7172,12 +7171,10 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 @media (max-width: 991px) {
 .livescreen_leftbase, .livescreen_rightbase{width: 100% !important; max-width: 100% !important;}
-
 .livescreen_rightbase .cont_btns{text-align: center; margin: 0 auto;}
 .livescreen_rightbase .cont_btns .smallbtns {max-width: 260px; margin: 0 auto;}
 .livescreen_rightbase .cont_btns .smallbtns a.btn-blue{margin: 0 auto!important;}
 .livescreen_rightbase .cont_btns .smallbtns a{margin-bottom: 0px!important;}
-
 }
 /***Live screen - Anuj - HArjit 24June2024***/
 
@@ -7185,12 +7182,10 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 #manageChannelModal.modal.right.fade .modal-body{padding-bottom: 70px;}
 #manageChannelModal .modal-footer.fixed-bottom{background: #fff;}
 }
-
 @media (max-width: 768px) {
 #manageChannelModal.modal.right.fade .modal-body{padding-bottom: 160px;}
 #manageChannelModal.modal.right.fade .modal-body ul#divChannelTypes.shortcuts-menu li{width: 100%;}
 }
-
 #manageChannelModal.modal.right.fade .modal-body ul#divChannelTypes.shortcuts-menu li:hover .short-item-name{color: #000 !important;}
 
 

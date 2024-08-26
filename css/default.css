@@ -789,6 +789,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .left-filter .helpartilceslistcontrol .card{margin-bottom: 10px;}
   /***********KnowledgeBase Articles - 2024*****************************/
 
-
+  .newswitch_toggle .slider{background-color: #2873b5;}
+  .newswitch_toggle .slider.disabled{background-color: #ccc;}
 
 

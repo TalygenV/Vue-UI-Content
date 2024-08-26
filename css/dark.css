@@ -1284,3 +1284,6 @@ ul.filetree.treeview{background-color: #2c3136;}
 
 
 .livemonitoring .dashbord-widget li h3 span{color: #353535;}
+
+.newswitch_toggle .slider{background-color: #2873b5;}
+.newswitch_toggle .slider.disabled{background-color: #ccc;}
