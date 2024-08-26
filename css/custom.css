@@ -7193,6 +7193,6 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 .newswitch_toggle_singledisabled.switch.disabled input:checked + .slider{background-color: #ccc!important;}
 
-
+.cardtopbod .card:first-child{border: 1px solid rgba(0,0,0,.125);}
 
 
