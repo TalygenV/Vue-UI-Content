@@ -970,5 +970,3 @@ a.b-light-green:hover{ background-color: #9acb3e!important; color: #fff!importan
 .disabled {color: #8e9894 !important; cursor: not-allowed !important; pointer-events: none;}
 .partition .text-white.disabled {color: #8e9894 !important; cursor: not-allowed !important; pointer-events: none;}
 
-.newswitch_toggle .slider{background-color: #2873b5;}
-.newswitch_toggle .slider.disabled{background-color: #ccc;}
