@@ -7189,7 +7189,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 #manageChannelModal.modal.right.fade .modal-body ul#divChannelTypes.shortcuts-menu li:hover .short-item-name{color: #000 !important;}
 
 .newswitch_toggle .slider{background-color: #2873b5!important;}
-.newswitch_toggle .slider.disabled{background-color: #ccc!important;}
+.newswitch_toggle.switch.disabled input:checked + .slider{background-color: #ccc!important;}
 
 
 
