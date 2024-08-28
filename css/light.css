@@ -122,7 +122,7 @@ button.close:hover{color:#353535 !important;}
 .tab-style .nav-link {background: #fff; color: #353535; border:1px solid #ececec; border-bottom:none;}
 .tab-style .nav-tabs {border-bottom: 3px solid #414c50; position:relative;}
 .tab .tab-content{position:relative;}
-.tab-style .nav-link.active{background: #414c50 !important; color:#fff;}
+.tab-style .nav-link.active{background: #414c50 !important; color:#fff!important;}
 .tab-style .nav-link.active::after{border-top:9px solid #414c50;}
 .bottom_filter_button a {background: #fff;color: #000000;}
 .bottom_filter_button a:hover{background:#3f4a58 !important; color:#fff !important;}
