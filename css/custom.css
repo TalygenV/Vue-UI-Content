@@ -4162,6 +4162,8 @@ a.todoprojname{float:left; padding:0px;width:95%; font-size:15px;font-weight:500
 .accordian-btn span { font-size: 16px !important; }
 .accordian-btn:hover, .accordian-btn:focus { background: #d3d3d3 !important; }
 .line-height { line-height: 0px; }
+.lineheightnormal { line-height:normal;}
+
 
 .bg-draw .card{border-radius:0px !important;}
 .flowsharp button, .flowsharp button:hover{ background: none !important; width: 100%; color: #303030;}
