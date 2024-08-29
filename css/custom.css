@@ -1678,7 +1678,7 @@ span.text-lmenu{display:none;}
 .myprof_newlogobase{display:flex; background:#29282d; width:100%; text-align:center; justify-content:center;}
 .menu-left-wrapper .myprof_newlogobase .navbar-brand{display:block; min-width: 170px;}
 .menu-left-wrapper.wrapper-shrink .myprof_newlogobase .navbar-brand{display:none;}
-.menu-left-wrapper .myprof_newlogobase .leftmenu_collapse{background-image:url('/images/leftmenu_collapse.png'); background-repeat:no-repeat; height: 20px; width: 20px; }
+.menu-left-wrapper .myprof_newlogobase .leftmenu_collapse{background-image:url('/Vue-UI-Content/images/leftmenu_collapse.png'); background-repeat:no-repeat; height: 20px; width: 20px; }
 .menu-left-wrapper.wrapper-shrink .myprof_newlogobase .leftmenu_collapse{display:none!important;}
 
 ul.header-menu-for-left li.show #navbarDropdownPortfolio.nav-link.sidebaricon {background: #262628 !important; border-radius:8px 8px 0px 0px;}
