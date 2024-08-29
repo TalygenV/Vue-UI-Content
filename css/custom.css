@@ -1725,7 +1725,7 @@ ul.header-menu-for-left li.nav-item{margin-bottom:5px;}
 .wrapper-shrink .navbar-nav .nav-heading span {display: block;}
 
 .wrapper-shrink .my-image{display:flex !important;border: 4px solid rgba(255,255,255,.1);width:60px;height:60px;}
-.wrapper-shrink #navbarResponsive .navbar-nav{max-width:60px;align-items:center;transition:all .15s}
+.wrapper-shrink #navbarResponsive .navbar-nav{max-width:99px;align-items:center;transition:all .15s}
 .wrapper-shrink #navbarResponsive  .dropdown-toggle::after{display:none;transition:all .15s}
 .wrapper-shrink .navbar-nav em{transition:all .15s} /*gaurav dhiman for issue number  #589635*/
 .wrapper-shrink .l-menu-footer{position:absolute;display:flex;align-items:center;justify-content:center;}
