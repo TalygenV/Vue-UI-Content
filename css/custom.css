@@ -456,7 +456,7 @@ footer ul li a:hover{opacity:1; text-decoration:none;}
 #sidebar.active .sidebar-toggle { transition:all 0.3s; text-decoration:none; display:block; position:absolute; left:95px; top:13%; color: #fff; font-size: 25px; width: 26px; height: 60px; border-radius: 0px 100% 100% 0px !important; text-align: center; vertical-align: middle; line-height: 60px;} 
 #sidebar.active .sidebar-toggle em{ transform: rotate(181deg);   margin-top: 18px;}
 #content { padding:5px 0px 0px; transition: all 0.3s; width:100%;}
-.menu-left-wrapper .navbar-expand-lg .navbar-nav .dropdown-menu.dropdown-menu-right {position: absolute;top: 300px;left: 190px !important;border:1px solid #222121;}
+.menu-left-wrapper .navbar-expand-lg .navbar-nav .dropdown-menu.dropdown-menu-right {position: absolute;top: 77px;left: 245px !important;border:1px solid #222121;}
 .wrapper-shrink .navbar-expand-lg .navbar-nav .dropdown-menu.dropdown-menu-right {left: 60px !important;}
 .wrapper-shrink .navbar-nav span#spnMenuType,.wrapper-shrink .navbar-nav span#spnTheme {display: initial;}
 .wrapper-shrink .dropdown-toggle #spnMenuType::after,.wrapper-shrink .dropdown-toggle #spnTheme::after {
