@@ -1638,12 +1638,12 @@ span.text-lmenu{display:none;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account {background: #1f1e23; width: auto; margin:0px 10px !important; max-height: 386px; overflow-y:auto;position:initial!important;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li {display:flex;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li a{width:100%; font-size:15px; padding: 8px 0px 8px 20px; border-bottom:none;}
-.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li i{float:right; margin-right:0px;}
+.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li em{float:right; margin-right:0px;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li.active {background: #4d4c51;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu{ position: absolute; left: 245px; top:277px; background: #2a2a2c; z-index: 999; display: flex; flex-wrap: wrap; border-radius:0px 10px 10px 0px; max-height:275px; padding: 5px 0px 5px 0px;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li{margin:0px;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li a{width:100%; font-size:14px; padding: 7px 0px 7px 15px; border-bottom: 0px; margin:0px;}
-.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li i{float:left; margin-right:10px; font-size: 9px; margin-top: 4px;}
+.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li em{float:left; margin-right:10px; font-size: 9px; margin-top: 4px;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-1) i {color:#1474d8;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-2) i {color:#8a7fcb;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-3) i {color:#dc9b47;}
@@ -1660,7 +1660,7 @@ span.text-lmenu{display:none;}
 .menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account li.active{display:block!important; }
 
 .menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account li a{display:block; border-bottom: none;}
-.menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account li.active ul li i{margin-top:5px;}
+.menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account li.active ul li em{margin-top:5px;}
 .menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account li.active {background: #1f1e23;}
 /****Sub menu - Shrink***/
 
@@ -1672,9 +1672,9 @@ span.text-lmenu{display:none;}
 .menu-left-wrapper .fullmenu-scroll::-webkit-scrollbar-thumb { background-color: #000000;}
 /*****SubMenu*****/
 
-#navbarResponsive ul.header-menu-for-top li.nav-item a.nav-link i{min-width:unset!important;}
+#navbarResponsive ul.header-menu-for-top li.nav-item a.nav-link em{min-width:unset!important;}
 .navbar-dark .header-menu-for-left .navbar-nav .nav-link { color: rgba(255,255,255,1); padding: 0px 20px !important; margin: 0px 7px;}
-#navbarResponsive ul.header-menu-for-left li.nav-item a.nav-link i{min-width: 24px !important; font-size: 15px; text-align: left; padding: 0px; margin: 0px 4px 0px 0px !important;}
+#navbarResponsive ul.header-menu-for-left li.nav-item a.nav-link em{min-width: 24px !important; font-size: 15px; text-align: left; padding: 0px; margin: 0px 4px 0px 0px !important;}
 #navbarResponsive ul.header-menu-for-left li.nav-item a.nav-link span {margin: 0px !important;font-size: 15px;}
 
 .myprof_newlogobase{display:flex; background:#29282d; width:100%; text-align:center; justify-content:center;}
