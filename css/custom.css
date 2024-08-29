@@ -1651,6 +1651,8 @@ span.text-lmenu{display:none;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-5) i {color:#9ea474;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li{ width:100%;}
 
+.navbar-dark .navbar-nav.header-menu-for-left .nav-link{padding: 0px 20px!important; margin: 0px 10px;}
+
 /****Sub menu - Shrink***/
 .menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account{width: 280px; left: 89px; top:216px; position:absolute!important;  border-radius:0px 10px 10px 0px;}
 .menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account li{position:relative; }
