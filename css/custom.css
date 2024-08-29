@@ -457,7 +457,7 @@ footer ul li a:hover{opacity:1; text-decoration:none;}
 #sidebar.active .sidebar-toggle em{ transform: rotate(181deg);   margin-top: 18px;}
 #content { padding:5px 0px 0px; transition: all 0.3s; width:100%;}
 .menu-left-wrapper .navbar-expand-lg .navbar-nav .dropdown-menu.dropdown-menu-right {position: absolute;top: 77px;left: 245px !important;border:1px solid #222121;}
-.wrapper-shrink .navbar-expand-lg .navbar-nav .dropdown-menu.dropdown-menu-right {left: 60px !important;}
+.wrapper-shrink .navbar-expand-lg .navbar-nav .dropdown-menu.dropdown-menu-right {left: 99px !important; top:74px!important;}
 .wrapper-shrink .navbar-nav span#spnMenuType,.wrapper-shrink .navbar-nav span#spnTheme {display: initial;}
 .wrapper-shrink .dropdown-toggle #spnMenuType::after,.wrapper-shrink .dropdown-toggle #spnTheme::after {
 display: inline-block; width: 0; height: 0; margin-left: .255em; vertical-align: .255em; content: "";
