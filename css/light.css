@@ -976,7 +976,7 @@ a.b-light-green:hover{ background-color: #9acb3e!important; color: #fff!importan
 .menu-left-wrapper.wrapper-shrink ul li.myprof_newlogobase {border-right: 2px solid #a4a4a4;}
 
 .myprof_newlogobase{background: #f5f5f5;}
-.menu-left-wrapper .sidebar-toggle{background-color: #999;}
+.menu-left-wrapper .sidebar-toggle{background-color: #fff;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu{background: #f6f6f6; border-top: 2px solid #fff;  border-right: 2px solid #fff;  border-bottom: 2px solid #fff;}
 .menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account li.active {background: #fff;}
 
@@ -1004,3 +1004,5 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
 .menu-left-wrapper .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
 	background-color: #d9d9d9 !important;
 }
+
+.menu-left-wrapper .myprof_newlogobase .leftmenu_collapse{background-image:url('/Vue-UI-Content/images/leftmenu_collapse_black.png');}
