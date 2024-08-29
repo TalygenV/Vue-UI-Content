@@ -3725,7 +3725,7 @@ transform: rotate(0deg) !important;}
 /*.left-menu-tab h5:hover a.tab-Search-btn{ display: block !important;}*/
 /*********Left Panel - collapsed  tapping issue - Harjit Singh*****************/
 /* #navbarResponsive ul li.nav-item a.nav-link em{margin-right:5px;} */
-#navbarResponsive ul li.nav-item a.nav-link em{min-width: 24px !important; font-size: 20px; text-align: left; padding: 0px; margin: 0px 4px 0px 0px !important;}
+#navbarResponsive ul li.nav-item a.nav-link em{min-width: 24px !important; font-size: 15px; text-align: left; padding: 0px; margin: 0px 4px 0px 0px !important;}
 #navbarResponsive ul li.nav-item a.nav-link span {margin: 0px !important;}
 #navbarResponsive ul li.nav-item a.nav-link span.my-image {margin-top: 5px !important;margin-right: 5px !important;}
 .dark-full-screen, .light-full-screen{padding-left: 3px;}
