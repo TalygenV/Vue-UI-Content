@@ -981,8 +981,9 @@ a.b-light-green:hover{ background-color: #9acb3e!important; color: #fff!importan
 .menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account li.active {background: #fff;}
 
 ul.header-menu-for-left li.show #navbarDropdownPortfolio.nav-link.sidebaricon{background: #e4e4e4!important; color: #000;}
-
 ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{background: #e4e4e4!important; color: #000;}
+
+.menu-left-wrapper .my-image{border:1px solid #dadada;}
 
 /* Styling the scrollbar in Firefox  */
 .menu-left-wrapper .fullmenu-scroll {
