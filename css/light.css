@@ -106,7 +106,7 @@ footer ul li a:hover { opacity: .8;}
 .dropdown-menu.my-account {	background: #ececec;}
 .dropdown-menu.my-account a {	color: #353535;	border-bottom: 2px solid rgb(255, 255, 255);}
 .dropdown-menu-right > li .dropdown-menu {	background: #ececec;}
-.show ul.dropdown-menu.my-account a {	color: #353535;	border-bottom: 2px solid rgb(255, 255, 255); background: #ececec;}
+.show ul.dropdown-menu.my-account a {	color: #353535;	border-bottom: 2px solid rgb(255, 255, 255); background: #f6f6f6;}/*background: #ececec;*/
 .dropdown-menu.my-account a:hover, .dropdown-menu.my-account a:focus {	background: rgb(62, 74, 88) !important;	color: #fff !important;}
 .popover {	border-radius: 0;}
 
@@ -970,3 +970,37 @@ a.b-light-green:hover{ background-color: #9acb3e!important; color: #fff!importan
 .disabled {color: #8e9894 !important; cursor: not-allowed !important; pointer-events: none;}
 .partition .text-white.disabled {color: #8e9894 !important; cursor: not-allowed !important; pointer-events: none;}
 
+/****2024 - New left menu - Harjit Singh*****/
+
+.menu-left-wrapper .navbar-dark.bg-dark {border-right: 2px solid #a4a4a4;}
+.menu-left-wrapper.wrapper-shrink ul li.myprof_newlogobase {border-right: 2px solid #a4a4a4;}
+
+.myprof_newlogobase{background: #f5f5f5;}
+.menu-left-wrapper .sidebar-toggle{background-color: #999;}
+.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu{background: #f6f6f6; border-top: 2px solid #fff;  border-right: 2px solid #fff;  border-bottom: 2px solid #fff;}
+.menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account li.active {background: #fff;}
+
+ul.header-menu-for-left li.show #navbarDropdownPortfolio.nav-link.sidebaricon{background: #e4e4e4!important; color: #000;}
+
+ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{background: #e4e4e4!important; color: #000;}
+
+/* Styling the scrollbar in Firefox  */
+.menu-left-wrapper .fullmenu-scroll {
+    scrollbar-color: #d9d9d9 #f0f0f0;
+    scrollbar-width: thin;
+}
+
+.menu-left-wrapper .fullmenu-scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #f0f0f0;
+}
+.menu-left-wrapper .fullmenu-scroll::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f0f0f0;
+}
+.menu-left-wrapper .fullmenu-scroll::-webkit-scrollbar-thumb {
+    background-color: #d9d9d9;
+}
+.menu-left-wrapper .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background-color: #d9d9d9 !important;
+}
