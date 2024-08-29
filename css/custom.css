@@ -1645,11 +1645,11 @@ span.text-lmenu{display:none;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li{margin:0px;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li a{width:100%; font-size:14px; padding: 7px 0px 7px 15px; border-bottom: 0px; margin:0px;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li em{float:left; margin-right:10px; font-size: 9px; margin-top: 4px;}
-.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-1) i {color:#1474d8;}
-.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-2) i {color:#8a7fcb;}
-.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-3) i {color:#dc9b47;}
-.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-4) i {color:#e14e2d;}
-.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-5) i {color:#9ea474;}
+.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-1) em {color:#1474d8;}
+.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-2) em {color:#8a7fcb;}
+.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-3) em {color:#dc9b47;}
+.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-4) em {color:#e14e2d;}
+.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li:nth-child(5n-5) em {color:#9ea474;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li{ width:100%;}
 
 .navbar-dark .navbar-nav.header-menu-for-left .nav-link{padding: 0px 20px!important; margin: 0px 10px;}
