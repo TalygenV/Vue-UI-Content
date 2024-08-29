@@ -1683,7 +1683,7 @@ span.text-lmenu{display:none;}
 
 ul.header-menu-for-left li.show #navbarDropdownPortfolio.nav-link.sidebaricon {background: #262628 !important; border-radius:8px 8px 0px 0px;}
 ul.header-menu-for-left .nav-link.sidebaricon.active {background: #4d4c51 !important; border-radius: 8px;}
-ul.header-menu-for-left .nav-link.sidebaricon:hover {background: #4d4c51 !important; color:#fff;}
+ul.header-menu-for-left .nav-link.sidebaricon:hover {background: #4d4c51 !important; color:#fff; border-radius: 8px;}
 
 ul.header-menu-for-left li.nav-item{margin-bottom:5px;}
 #navbarResponsive ul li.nav-item a.nav-link span.myprof_new{margin-top: 20px !important;}
