@@ -972,8 +972,8 @@ a.b-light-green:hover{ background-color: #9acb3e!important; color: #fff!importan
 
 /****2024 - New left menu - Harjit Singh*****/
 
-.menu-left-wrapper .navbar-dark.bg-dark {border-right: 2px solid #a4a4a4;}
-.menu-left-wrapper.wrapper-shrink ul li.myprof_newlogobase {border-right: 2px solid #a4a4a4;}
+.menu-left-wrapper .navbar-dark.bg-dark {border-right: 6px solid #a4a4a4;}
+.menu-left-wrapper.wrapper-shrink ul li.myprof_newlogobase {border-right: 6px solid #a4a4a4;}
 
 .myprof_newlogobase{background: #f5f5f5;}
 .menu-left-wrapper .sidebar-toggle{background-color: #fff;}
@@ -983,7 +983,7 @@ a.b-light-green:hover{ background-color: #9acb3e!important; color: #fff!importan
 ul.header-menu-for-left li.show #navbarDropdownPortfolio.nav-link.sidebaricon{background: #e4e4e4!important; color: #000;}
 ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{background: #e4e4e4!important; color: #000;}
 
-.menu-left-wrapper .my-image{border:1px solid #dadada;}
+.menu-left-wrapper .my-image{border:4px solid #dadada;}
 
 /* Styling the scrollbar in Firefox  */
 .menu-left-wrapper .fullmenu-scroll {
@@ -1007,3 +1007,11 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
 }
 
 .menu-left-wrapper .myprof_newlogobase .leftmenu_collapse{background-image:url('/Vue-UI-Content/images/leftmenu_collapse_black.png');}
+
+/****2024 - New left menu - Harjit Singh*****/
+
+/****2024 - New left menu - Harjit Singh*****/
+.menu-left-wrapper .navbar-dark.bg-dark {border-right: 6px solid #29282d;}
+.menu-left-wrapper.wrapper-shrink ul li.myprof_newlogobase {border-right: 6px solid #29282d;}
+
+/****2024 - New left menu - Harjit Singh*****/
