@@ -1288,5 +1288,7 @@ ul.filetree.treeview{background-color: #2c3136;}
 /****2024 - New left menu - Harjit Singh*****/
 .menu-left-wrapper .navbar-dark.bg-dark {border-right: 6px solid #29282d;}
 .menu-left-wrapper.wrapper-shrink ul li.myprof_newlogobase {border-right: 6px solid #29282d;}
-
+.menu-left-wrapper .navbar-dark .navbar-nav #navbarDropdownMenuLink.nav-link:focus, .navbar-dark .navbar-nav #navbarDropdownMenuLink.nav-link:hover {
+	background: none !important;
+}
 /****2024 - New left menu - Harjit Singh*****/
