@@ -1695,7 +1695,7 @@ ul.header-menu-for-left li.nav-item{margin-bottom:5px;}
 .myprof_new{line-height: 17px; text-align: left; font-size: 18px!important;}
 
 .menu-left-wrapper .navbar-dark .navbar-nav #navbarDropdownMenuLink.nav-link:focus, .navbar-dark .navbar-nav #navbarDropdownMenuLink.nav-link:hover {
-    background:none!important;color: unset !important;
+    background:none!important;
 }
 
 /****2024- left menu - Full Menu*****/
