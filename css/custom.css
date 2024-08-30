@@ -1694,6 +1694,10 @@ ul.header-menu-for-left li.nav-item{margin-bottom:5px;}
 #navbarResponsive ul li.nav-item a.nav-link span.myprof_new{margin-top: 20px !important;}
 .myprof_new{line-height: 17px; text-align: left; font-size: 18px!important;}
 
+.menu-left-wrapper .navbar-dark .navbar-nav #navbarDropdownMenuLink.nav-link:focus, .navbar-dark .navbar-nav #navbarDropdownMenuLink.nav-link:hover {
+    background:none!important;color: unset !important;
+}
+
 /****2024- left menu - Full Menu*****/
 
 @media (min-width:768px){
