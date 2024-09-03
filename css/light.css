@@ -359,45 +359,45 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 /**********************New Menu***********************/
 .navigation-panel{background:#f2f2f2;}
 .navigation-panel ul li:not(.itemhover):nth-child(2n){background:#e6e5e5;}
-.navigation-panel ul:first-child li:nth-child(5n+1) a i{color:#216bca;}
-.navigation-panel ul:first-child li:nth-child(5n+2) a i{color:#cc7d38;}
-.navigation-panel ul:first-child li:nth-child(5n+3) a i{color:#63983e;}
-.navigation-panel ul:first-child li:nth-child(5n+4) a i{color:#575b6f;}
-.navigation-panel ul:first-child li:nth-child(5n+5) a i{color:#43a38a;}
+.navigation-panel ul:first-child li:nth-child(5n+1) a em{color:#216bca;}
+.navigation-panel ul:first-child li:nth-child(5n+2) a em{color:#cc7d38;}
+.navigation-panel ul:first-child li:nth-child(5n+3) a em{color:#63983e;}
+.navigation-panel ul:first-child li:nth-child(5n+4) a em{color:#575b6f;}
+.navigation-panel ul:first-child li:nth-child(5n+5) a em{color:#43a38a;}
 
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+1) a i{color:#cc7d38;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+2) a i{color:#735da5;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+3) a i{color:#7e6c5e;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+4) a i{color:#e3644b;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+5) a i{color:#dcad3a;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+1) a em{color:#cc7d38;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+2) a em{color:#735da5;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+3) a em{color:#7e6c5e;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+4) a em{color:#e3644b;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+5) a em{color:#dcad3a;}
 
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+1) a i{color:#4581d0;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+2) a i{color:#216bca;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+3) a i{color:#63983e;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+4) a i{color:#575b6f;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+5) a i{color:#43a38a;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+1) a em{color:#4581d0;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+2) a em{color:#216bca;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+3) a em{color:#63983e;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+4) a em{color:#575b6f;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+5) a em{color:#43a38a;}
 .navigation-panel ul li a{color:#353535;}
 .navigation-panel ul li a:hover { background-color:#3f4a58 !important ; color:#fff  !important ; }
 .navigation-panel ul li:hover a{ background-color:#3f4a58 !important ; }
 .navigation-panel ul li:hover .gotosub { color: #fff; background: #344151 !important; }
 
-.navigation-panel ul:first-child li:nth-child(5n+1) a:hover i, .navigation-panel ul:first-child li:nth-child(5n+1) a:hover{color:#216bca;}
-.navigation-panel ul:first-child li:nth-child(5n+2) a:hover i, .navigation-panel ul:first-child li:nth-child(5n+2) a:hover{color:#cc7d38;}
-.navigation-panel ul:first-child li:nth-child(5n+3) a:hover i, .navigation-panel ul:first-child li:nth-child(5n+3) a:hover{color:#63983e;}
-.navigation-panel ul:first-child li:nth-child(5n+4) a:hover i, .navigation-panel ul:first-child li:nth-child(5n+4) a:hover{color:#575b6f;}
-.navigation-panel ul:first-child li:nth-child(5n+5) a:hover i, .navigation-panel ul:first-child li:nth-child(5n+5) a:hover{color:#43a38a;}
+.navigation-panel ul:first-child li:nth-child(5n+1) a:hover em, .navigation-panel ul:first-child li:nth-child(5n+1) a:hover{color:#216bca;}
+.navigation-panel ul:first-child li:nth-child(5n+2) a:hover em, .navigation-panel ul:first-child li:nth-child(5n+2) a:hover{color:#cc7d38;}
+.navigation-panel ul:first-child li:nth-child(5n+3) a:hover em, .navigation-panel ul:first-child li:nth-child(5n+3) a:hover{color:#63983e;}
+.navigation-panel ul:first-child li:nth-child(5n+4) a:hover em, .navigation-panel ul:first-child li:nth-child(5n+4) a:hover{color:#575b6f;}
+.navigation-panel ul:first-child li:nth-child(5n+5) a:hover em, .navigation-panel ul:first-child li:nth-child(5n+5) a:hover{color:#43a38a;}
 
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+1) a:hover i, .navigation-panel ul:nth-child(2n) li:nth-child(5n+1) a:hover{color:#cc7d38;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+2) a:hover i, .navigation-panel ul:nth-child(2n) li:nth-child(5n+2) a:hover{color:#735da5;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+3) a:hover i, .navigation-panel ul:nth-child(2n) li:nth-child(5n+3) a:hover{color:#7e6c5e;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+4) a:hover i, .navigation-panel ul:nth-child(2n) li:nth-child(5n+4) a:hover{color:#e3644b;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+5) a:hover i, .navigation-panel ul:nth-child(2n) li:nth-child(5n+5) a:hover{color:#dcad3a;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+1) a:hover em, .navigation-panel ul:nth-child(2n) li:nth-child(5n+1) a:hover{color:#cc7d38;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+2) a:hover em, .navigation-panel ul:nth-child(2n) li:nth-child(5n+2) a:hover{color:#735da5;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+3) a:hover em, .navigation-panel ul:nth-child(2n) li:nth-child(5n+3) a:hover{color:#7e6c5e;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+4) a:hover em, .navigation-panel ul:nth-child(2n) li:nth-child(5n+4) a:hover{color:#e3644b;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+5) a:hover em, .navigation-panel ul:nth-child(2n) li:nth-child(5n+5) a:hover{color:#dcad3a;}
 
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+1) a:hover i, .navigation-panel ul:nth-child(3n) li:nth-child(5n+1) a:hover{color:#4581d0;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+2) a:hover i, .navigation-panel ul:nth-child(3n) li:nth-child(5n+2) a:hover{color:#216bca;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+3) a:hover i, .navigation-panel ul:nth-child(3n) li:nth-child(5n+3) a:hover{color:#63983e;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+4) a:hover i, .navigation-panel ul:nth-child(3n) li:nth-child(5n+4) a:hover{color:#575b6f;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+5) a:hover i, .navigation-panel ul:nth-child(3n) li:nth-child(5n+5) a:hover{color:#43a38a;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+1) a:hover em, .navigation-panel ul:nth-child(3n) li:nth-child(5n+1) a:hover{color:#4581d0;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+2) a:hover em, .navigation-panel ul:nth-child(3n) li:nth-child(5n+2) a:hover{color:#216bca;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+3) a:hover em, .navigation-panel ul:nth-child(3n) li:nth-child(5n+3) a:hover{color:#63983e;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+4) a:hover em, .navigation-panel ul:nth-child(3n) li:nth-child(5n+4) a:hover{color:#575b6f;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+5) a:hover em, .navigation-panel ul:nth-child(3n) li:nth-child(5n+5) a:hover{color:#43a38a;}
 .navigation-panel ul li.itemhover{color:#636363!important;}
 .navigation-panel ul li .popover{background-color:#d7d7d7;}
 
@@ -410,15 +410,15 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 
 .short-menu-item {  background-color: #f2f2f2; border: 1px solid #cfcfcf; color:#353535;}
 .left-icon-m {  background-color: #e6e5e5; }
-.shortcuts-menu li:nth-child(10n+1) a .left-icon-m i{color:#216bca;}
-.shortcuts-menu li:nth-child(10n+2) a .left-icon-m i{color:#63983e;}
-.shortcuts-menu li:nth-child(10n+3) a .left-icon-m i{color:#575b6f;}
-.shortcuts-menu li:nth-child(10n+4) a .left-icon-m i{color:#43a38a;}
-.shortcuts-menu li:nth-child(10n+5) a .left-icon-m i{color:#cc7d38;}
-.shortcuts-menu li:nth-child(10n+6) a .left-icon-m i{color:#735da5;}
-.shortcuts-menu li:nth-child(10n+7) a .left-icon-m i{color:#7e6c5e;}
-.shortcuts-menu li:nth-child(10n+8) a .left-icon-m i{color:#e3644b;}
-.shortcuts-menu li:nth-child(10n+9) a .left-icon-m i{color:#dcad3a;}
+.shortcuts-menu li:nth-child(10n+1) a .left-icon-m em{color:#216bca;}
+.shortcuts-menu li:nth-child(10n+2) a .left-icon-m em{color:#63983e;}
+.shortcuts-menu li:nth-child(10n+3) a .left-icon-m em{color:#575b6f;}
+.shortcuts-menu li:nth-child(10n+4) a .left-icon-m em{color:#43a38a;}
+.shortcuts-menu li:nth-child(10n+5) a .left-icon-m em{color:#cc7d38;}
+.shortcuts-menu li:nth-child(10n+6) a .left-icon-m em{color:#735da5;}
+.shortcuts-menu li:nth-child(10n+7) a .left-icon-m em{color:#7e6c5e;}
+.shortcuts-menu li:nth-child(10n+8) a .left-icon-m em{color:#e3644b;}
+.shortcuts-menu li:nth-child(10n+9) a .left-icon-m em{color:#dcad3a;}
 
 .shortcuts-menu li:nth-child(10n+1):hover .short-item-name{color:#216bca;}
 .shortcuts-menu li:nth-child(10n+2):hover .short-item-name{color:#63983e;}

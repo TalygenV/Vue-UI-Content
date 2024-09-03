@@ -305,21 +305,21 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .page-menu .menu-box:nth-child(5n+5) a {background: #92ced9;}
 /**********************New Menu***********************/
 .navigation-panel ul li:not(.itemhover):nth-child(2n){background:#e6e6e6;}
-.navigation-panel ul:first-child li:nth-child(5n+1) a i{color:#09519b;}
-.navigation-panel ul:first-child li:nth-child(5n+2) a i{color:#da9c49;}
-.navigation-panel ul:first-child li:nth-child(5n+3) a i{color:#e44d2e;}
-.navigation-panel ul:first-child li:nth-child(5n+4) a i{color:#446a7f;}
-.navigation-panel ul:first-child li:nth-child(5n+5) a i{color:#cbb00b;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+1) a i{color:#6a925d;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+2) a i{color:#756caf;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+3) a i{color:#9ea476;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+4) a i{color:#7d6a59;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+5) a i{color:#756bb2;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+1) a i{color:#dda628;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+2) a i{color:#29b0ce;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+3) a i{color:#2d7fb9;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+4) a i{color:#da9c49;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+5) a i{color:#4aaab8;}
+.navigation-panel ul:first-child li:nth-child(5n+1) a em{color:#09519b;}
+.navigation-panel ul:first-child li:nth-child(5n+2) a em{color:#da9c49;}
+.navigation-panel ul:first-child li:nth-child(5n+3) a em{color:#e44d2e;}
+.navigation-panel ul:first-child li:nth-child(5n+4) a em{color:#446a7f;}
+.navigation-panel ul:first-child li:nth-child(5n+5) a em{color:#cbb00b;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+1) a em{color:#6a925d;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+2) a em{color:#756caf;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+3) a em{color:#9ea476;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+4) a em{color:#7d6a59;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+5) a em{color:#756bb2;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+1) a em{color:#dda628;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+2) a em{color:#29b0ce;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+3) a em{color:#2d7fb9;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+4) a em{color:#da9c49;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+5) a em{color:#4aaab8;}
 .navigation-panel ul li a:hover i{color:#fff !important;}
 .navigation-panel ul li.itemhover{color:#fff!important;}
 .navigation-panel ul li .popover{background-color:#525f65;}
@@ -487,7 +487,7 @@ background-image: linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 2
 background-size: 1rem 1rem;}
 .position-unset .full-menu-new .collps:hover{background: #000 !important; outline:none;color:#303030 !important;opacity: 1;}
 /*gaurav dhiman doc icons*/
-.left-menu-tab h5 a.tab-Search-btn i {color:#28a745 !important}
+.left-menu-tab h5 a.tab-Search-btn em {color:#28a745 !important}
 /*******12-7-2020********/
 .reportstabbase {width: 100%;}
 .table-bordered thead tr.btop{border-top: 1px solid #c6cace;}
