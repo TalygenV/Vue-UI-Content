@@ -431,21 +431,21 @@ li.parentli ul li div.mainlinebase {	border-left: 1px dashed #454748;	border-bot
 .navigation-panel ul {	border-right: 3px solid #3a3f43;}
 .navigation-panel ul li a {	color: #bcbcbc;}
 .navigation-panel ul li:not(.itemhover):nth-child(2n) {	background: #31363a;}
-.navigation-panel ul:first-child li:nth-child(5n+1) a i{color:#09519b;}
-.navigation-panel ul:first-child li:nth-child(5n+2) a i{color:#da9c49;}
-.navigation-panel ul:first-child li:nth-child(5n+3) a i{color:#e44d2e;}
-.navigation-panel ul:first-child li:nth-child(5n+4) a i{color:#446a7f;}
-.navigation-panel ul:first-child li:nth-child(5n+5) a i{color:#cbb00b;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+1) a i{color:#6a925d;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+2) a i{color:#756caf;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+3) a i{color:#9ea476;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+4) a i{color:#7d6a59;}
-.navigation-panel ul:nth-child(2n) li:nth-child(5n+5) a i{color:#756bb2;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+1) a i{color:#dda628;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+2) a i{color:#29b0ce;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+3) a i{color:#2d7fb9;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+4) a i{color:#da9c49;}
-.navigation-panel ul:nth-child(3n) li:nth-child(5n+5) a i{color:#4aaab8;}
+.navigation-panel ul:first-child li:nth-child(5n+1) a em{color:#09519b;}
+.navigation-panel ul:first-child li:nth-child(5n+2) a em{color:#da9c49;}
+.navigation-panel ul:first-child li:nth-child(5n+3) a em{color:#e44d2e;}
+.navigation-panel ul:first-child li:nth-child(5n+4) a em{color:#446a7f;}
+.navigation-panel ul:first-child li:nth-child(5n+5) a em{color:#cbb00b;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+1) a em{color:#6a925d;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+2) a em{color:#756caf;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+3) a em{color:#9ea476;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+4) a em{color:#7d6a59;}
+.navigation-panel ul:nth-child(2n) li:nth-child(5n+5) a em{color:#756bb2;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+1) a em{color:#dda628;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+2) a em{color:#29b0ce;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+3) a em{color:#2d7fb9;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+4) a em{color:#da9c49;}
+.navigation-panel ul:nth-child(3n) li:nth-child(5n+5) a em{color:#4aaab8;}
 .navigation-panel ul li a:hover {	background: #181a1c !important;	}
 .navigation-panel ul li a:hover i{color:#fff !important;}
 .navigation-panel ul li.itemhover{color:#fff!important;}
@@ -461,15 +461,15 @@ li.parentli ul li div.mainlinebase {	border-left: 1px dashed #454748;	border-bot
 .short-menu-item {	background-color: #2c3135;	border: 1px solid #2c3135;	color: #ddd;}
 .left-icon-m {	background-color: #32373b;}
 
-.shortcuts-menu li:nth-child(9n+1) .left-icon-m i{color:#5395d9;}
-.shortcuts-menu li:nth-child(9n+2) .left-icon-m i{color:#74a665;}
-.shortcuts-menu li:nth-child(9n+3) .left-icon-m i{color:#ddb14a;}
-.shortcuts-menu li:nth-child(9n+4) .left-icon-m i{color:#e28d5a;}
-.shortcuts-menu li:nth-child(9n+5) .left-icon-m i{color:#7d6dd8;}
-.shortcuts-menu li:nth-child(9n+6) .left-icon-m i{color:#57b4ca;}
-.shortcuts-menu li:nth-child(9n+7) .left-icon-m i{color:#a7ae7c;}
-.shortcuts-menu li:nth-child(9n+8) .left-icon-m i{color:#57a9b3;}
-.shortcuts-menu li:nth-child(9n+9) .left-icon-m i{color:#c46753;}
+.shortcuts-menu li:nth-child(9n+1) .left-icon-m em{color:#5395d9;}
+.shortcuts-menu li:nth-child(9n+2) .left-icon-m em{color:#74a665;}
+.shortcuts-menu li:nth-child(9n+3) .left-icon-m em{color:#ddb14a;}
+.shortcuts-menu li:nth-child(9n+4) .left-icon-m em{color:#e28d5a;}
+.shortcuts-menu li:nth-child(9n+5) .left-icon-m em{color:#7d6dd8;}
+.shortcuts-menu li:nth-child(9n+6) .left-icon-m em{color:#57b4ca;}
+.shortcuts-menu li:nth-child(9n+7) .left-icon-m em{color:#a7ae7c;}
+.shortcuts-menu li:nth-child(9n+8) .left-icon-m em{color:#57a9b3;}
+.shortcuts-menu li:nth-child(9n+9) .left-icon-m em{color:#c46753;}
 .shortcuts-menu li:hover .short-menu-item {color:#fff;}
 /*****************eta-setting----------------*/
 .eta-setting {  background-color: rgb(28, 31, 34) none repeat scroll 0% 0%;  border: 1px solid #2196f3;  }
