@@ -329,7 +329,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .short-menu-item {  background-color: #f7f7f7;border: 1px solid #cfcfcf; color:#333335;}
 .short-menu-item:hover{ color:#333335;}
 .left-icon-m {  background-color: #eaeaea; }
-.left-icon-m i{color:#fff!important;}
+.left-icon-m em{color:#fff!important;}
 .shortcuts-menu li:nth-child(9n+1) .short-menu-item {  background-color: #bfdbff;}
 .shortcuts-menu li:nth-child(9n+2) .short-menu-item {  background-color: #d8ded2;}
 .shortcuts-menu li:nth-child(9n+3) .short-menu-item {  background-color: #cacdd4;}
