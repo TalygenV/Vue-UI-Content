@@ -4572,7 +4572,7 @@ ul.defaultrating li{color:#cccccc;}
  
 .wizardnew img{	max-width: 32px; display: block; float:left}
 #choosewizards .modal-title {	padding-left: 0;}
-#choosewizards .modal-header button {position:relative; top: -15px; right: -15px;}
+/* #choosewizards .modal-header button {position:relative; top: -15px; right: -15px;} 10Sept Harjit, Avtar, Karan commented - Custom Layout screen */
 #choosewizards .tab-style .nav-tabs.cust li {	flex: 0 0 20%;}
 #choosewizards .shortcuts-menu {	max-height: 300px;	overflow: auto;}
 #choosewizards .shortcuts-menu li {	max-width: 33.3%;	padding: 10px;}
