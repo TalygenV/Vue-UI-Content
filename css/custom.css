@@ -7268,8 +7268,6 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 .cardtopbod .card:first-child{border: 1px solid rgba(0,0,0,.125);}
 
+input:checked + .slider.toggle_left40::before {left: 40px;}
 
 
-input:checked + .slider.toggle_left40::before {
-    left: 40px;  
-  }
