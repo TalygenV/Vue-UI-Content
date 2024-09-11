@@ -809,7 +809,7 @@ footer .ipaddnone a img {	padding: 0px 4px 0 0;}
 .usermain .bg-light {    background-color: #f3f3f3 !important;}
 .licdetail {    border: 1px solid #ccc !important;}
 .bg-lblue {    background-color: #edf7ff;}
-.theme-primary.round-icon-small {    color: #7c7c83; background: #ececec;}
+.theme-primary.round-icon-small { color:#ececec; background:#7c7c83;}
 .panelcoming.paneltax.panelfix.bg-white {    border: 1px solid #d1d1d1 !important;    background: #f2f2f2;}
 .panelcoming.paneltax.panelfix.bg-white .table-responsive{ border: 1px solid #d1d1d1 !important;   background: #f2f2f2 !important;}
 .dashbord-widget {    background: #ececec;}
