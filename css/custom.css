@@ -7270,6 +7270,6 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 
 
 
-.toggle_left40 input:checked + .slider::before {
+input:checked + .slider.toggle_left40::before {
     left: 40px;  
   }
