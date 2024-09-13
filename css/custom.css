@@ -5858,12 +5858,8 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 {
 .control_helpguide .col-md-4{ flex: 0 0 100%; max-width: 100%;}
 }
-
 .justhover .border:hover{ background: #f1f1f1;}
-
-.help-and-guide .innerminheight .border {
-    min-height: 130px;
-}
+.help-and-guide .innerminheight .border { min-height: 130px;}
 /***Help & Guide - Video Article - Mohit***/
 
 /****Help & Guide - Initial Setup Header - Mohit***********/
@@ -5872,12 +5868,12 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .widget_panel li {flex: 0 0 19%; margin-right: 1%; margin-bottom: 15px; max-width: 120px; min-width:120px;}    
 .widget_panel .card-detail-main.detail_bx {display: flex; flex-wrap: wrap; padding: 10px 8px; margin-top:10px; margin-bottom:10px;
      overflow: hidden; max-height: initial; float: left; width: 100%; line-height: 18px;}
-.initialpopupbase{vertical-align: top!important; margin-top: 46px !important; max-width: 520px!important;}  
+
+.initialpopupbase{vertical-align: top!important; margin-top: 46px !important; max-width: 392px!important;}/*520px****/  
+.widget_panel.bijlee li { margin: 4px;}
 
 .widget_panel.bijlee .time_clk{line-height:12px;font-size: 11px!important;}
-
 .widget_panel li a.card-box {color: #303030;}
-
 .widget_panel .card-detail-main.detail_bx em.fa-user{color:#62983d;}
 .widget_panel .card-detail-main.detail_bx em.fa-book{color:#4aaab8;}
 .widget_panel .card-detail-main.detail_bx em.fa-download{color:#8892d0;}
@@ -5886,17 +5882,10 @@ justwraper .close.close-action{ float: none !important; vertical-align: top;}
 .widget_panel .card-detail-main.detail_bx em.fa-star{color:#ffd000;}
 .widget_panel .card-detail-main.detail_bx em.fa-comments{color:#059be1;}
 
-section.help-and-guide .card-footer.bg-white.border-0 {
-  margin-bottom: 40px;
-}
-
+section.help-and-guide .card-footer.bg-white.border-0 { margin-bottom: 40px;}
 section.help-and-guide .innerminheight .col-md-4.mb-4 a{color:#303030; float: left; width: 100%;}
 section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f1;}
-
 .mandatoryblue{border-color: #80cbff !important; box-shadow: none; background: #e8f5ff!important;}
-
-
-
 /****Help & Guide - Initial Setup Header - Mohit***********/
 
 .disabledaction {color: #8e9894 !important; cursor: not-allowed !important; pointer-events: none;}
