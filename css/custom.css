@@ -6233,7 +6233,7 @@ li.active li { margin: 25px 0 0 0; }
 
     .newtimertabsbase{background: #f4f4f4;}
 
-    @media (min-width:1100px)
+    @media (min-width:1101px)
     {
     .newtimertabsbase .leftstatus .text-center.text-danger{margin-top: 150px; float: left; width: 100%;}
     }
