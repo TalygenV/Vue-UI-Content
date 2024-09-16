@@ -7294,3 +7294,5 @@ input:checked + .slider.toggle_left40::before {left: 40px;}
             height: auto;
           }
 
+          .dynamiccontent_base .tableoverflowshow .table-responsive{overflow:visible!important;}
+          .dynamiccontent_base .tableoverflowshow .listing .table-responsive table td{overflow:visible!important;}   
