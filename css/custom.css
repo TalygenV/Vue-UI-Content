@@ -7295,4 +7295,4 @@ input:checked + .slider.toggle_left40::before {left: 40px;}
           }
 
           .dynamiccontent_base .tableoverflowshow .table-responsive{overflow:visible!important;}
-          .dynamiccontent_base .tableoverflowshow .listing .table-responsive table td{overflow:visible!important;}   
+          .dynamiccontent_base .tableoverflowshow .listing .table-responsive table tbody tr td:not(.overflow-visible):not(.mobile-action):not(.details-control){overflow:visible!important;} 
