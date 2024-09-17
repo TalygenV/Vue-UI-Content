@@ -1152,6 +1152,8 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .apexcharts-legend-text{color:#ddd!important;}
 .apexcharts-text tspan{color:#ddd!important;}
 
+.apexcharts-title-text{color:#ddd!important;}
+
 .border.light-blue-border { border:1px solid #008ff5 !important;}
 .border.border-warning { border:1px solid #ffc107 !important;}
 .border.border-success { border:1px solid #28a745 !important;}
