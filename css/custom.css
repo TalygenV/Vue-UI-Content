@@ -6807,14 +6807,13 @@ li.active li { margin: 25px 0 0 0; }
 
 @media (max-width:991px)
 {
-  .col-4.border.productive-box.p-0.mb-4{max-width: 100% !important;}/**17Sept2024***TimeTracking/DepartmentViewDasboard***/
+  .col-4.border.productive-box.p-0.mb-4{max-width: 100% !important; width: 100% !important;  flex: 0 0 100%;}/**17Sept2024***TimeTracking/DepartmentViewDasboard***/
+
   .cardboxesbasenew li{max-width: 49%; margin-bottom: 20px;}
   .col-control-left{ max-width: 100%; width: 100%;}
   .col-control-right{ max-width: 100%; width: 100%; padding:0; margin:10px 0px}
-
   .col-control-left .col_1inn{max-width: 100%; width: 100%; padding: 0px !important;}
   .col-control-left .col_2inn{max-width: 100%; width: 100%;}
-
   .col-control-left{display: block!important; float: left; margin-bottom: 10px;}
   .col-control-left .col_2inn{margin-left: 0px!important; margin-top: 10px; margin-bottom: 10px;}
   .timetrackdb_pb .productive-box{max-width: 100%!important; width: 100%!important; flex: 0 0 100%;}
