@@ -3185,6 +3185,11 @@ ul.canvan-view-list { display: flex; flex-wrap: wrap; }
 span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 .month_day li:nth-child(2n) .lightblue.darkyellow{background:#cdac37}
 .lightblue.lightyellow{background:#dbc36f}
+
+
+
+
+
 .trackinfo ul{list-style-type:none}
 .trackinfo li{font-size:18px;border-bottom:1px solid #cbcbcb;padding-bottom:6px;line-height:25px;margin-bottom:5px}
 .trackinfo li:last-child{margin-bottom:0;padding-bottom:0; border-bottom:0;}
@@ -3217,6 +3222,8 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
     .trackinfo{width:100%!important;}
     .track-hours-chart{width:100%!important;}
     .infotrack.eqcol {display: block;}
+    .lightblue.lb_hs2 h6{font-size: 11px;}
+    .darkyellow.lb_hs2 p{font-size: 11px;}
 }
 
 .tablelist_icos{background-image: url('https://talygenv.github.io/Vue-UI-Content/images/timersprite.png'); height: 22px; width: 35px; float: left; background-repeat: no-repeat;}
