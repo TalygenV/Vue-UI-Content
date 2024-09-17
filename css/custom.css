@@ -7282,7 +7282,7 @@ input:checked + .slider.toggle_left40::before {left: 40px;}
     border-radius: .3rem;
     outline: 0;}
 
-    .mod_head{background: #ebebeb;display: -ms-flexbox;
+.mod_head{background: #ebebeb;display: -ms-flexbox;
         display: flex;
         -ms-flex-align: start;
         align-items: flex-start;
@@ -7293,13 +7293,9 @@ input:checked + .slider.toggle_left40::before {left: 40px;}
         border-top-left-radius: calc(.3rem - 1px);
         border-top-right-radius: calc(.3rem - 1px);}
 
-        .mod-body {
-            position: relative;
-            -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
-            padding: 1rem;
-            height: auto;
-          }
+.mod-body { position: relative; -ms-flex: 1 1 auto; flex: 1 1 auto; padding: 1rem; height: auto;}
 
-          
-          .dynamiccontent_base .tableoverflowshow .listing .table-responsive table tbody tr td:not(.overflow-visible):not(.mobile-action):not(.details-control){overflow:visible!important;} 
+.dynamiccontent_base .tableoverflowshow .listing .table-responsive table tbody tr td:not(.overflow-visible):not(.mobile-action):not(.details-control){overflow:visible!important;} 
+
+#modulelist .accordion.md-accordion.left-filter .border.p-3.bg-light{padding: 10px!important;}
+#modulelist .accordion.md-accordion.left-filter .border.p-3.bg-light .card{padding: 20px!important;}
