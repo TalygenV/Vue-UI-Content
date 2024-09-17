@@ -1151,8 +1151,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 /****2024 - Department View Dashboard - Harjit { developer - Ejaz }*****/
 .apexcharts-legend-text{color:#ddd!important;}
 .apexcharts-text tspan{color:#ddd!important;}
-
-.apexcharts-title-text{color:#ddd!important;}
+.apexcharts-canvas.apexcharts-theme-light{background: #000!important;}
 
 .border.light-blue-border { border:1px solid #008ff5 !important;}
 .border.border-warning { border:1px solid #ffc107 !important;}
@@ -1163,7 +1162,6 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .border.b-secondery-blue{border: 1px solid #2085ff !important;}
 .border.b-turquoise{border: 1px solid #2dc8ba!important;}
 
-.productive-box{}
 /****2024 - Department View Dashboard - Harjit { developer - Ejaz }*****/
 
 .initialsetup_newtab_mainbase .right-content{border-left: 1px solid #535353; background: #212528;}
