@@ -1016,3 +1016,7 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
 	color: unset !important;
 }
 /****2024 - New left menu - Harjit Singh*****/
+
+.light-blue-border {border-color: #008ff5 !important;}
+.dark-blue-border {border-color: #3967d1 !important;}
+.red-orange-border {border-color: #f86245 !important;}
