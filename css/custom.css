@@ -3186,10 +3186,6 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 .month_day li:nth-child(2n) .lightblue.darkyellow{background:#cdac37}
 .lightblue.lightyellow{background:#dbc36f}
 
-
-
-
-
 .trackinfo ul{list-style-type:none}
 .trackinfo li{font-size:18px;border-bottom:1px solid #cbcbcb;padding-bottom:6px;line-height:25px;margin-bottom:5px}
 .trackinfo li:last-child{margin-bottom:0;padding-bottom:0; border-bottom:0;}
@@ -3215,7 +3211,6 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 {
 .track-hours-chart .apexcharts-canvas { position: absolute; left:-29px;}
 }
-
 
 @media (max-width:768px)
 {
@@ -6795,9 +6790,14 @@ li.active li { margin: 25px 0 0 0; }
 .col-control-left{ max-width: 60%;}
 .timetrackdb_pb .productive-box { max-width: 24%!important; }
 
+.col-4.border.productive-box.p-0.mb-4{max-width: 32.5% !important;}/**17Sept2024***TimeTracking/DepartmentViewDasboard***/
+
+
+
 @media (max-width:1600px)
 {
 .timetrackdb_pb .productive-box{max-width: 49%!important; width: 49%!important; flex: 0 0 49%;}
+.col-4.border.productive-box.p-0.mb-4{max-width: 49% !important; width: 49%!important; flex: 0 0 49%;}/**17Sept2024***TimeTracking/DepartmentViewDasboard***/
 }
 @media (max-width:1400px)
 {
@@ -6807,6 +6807,7 @@ li.active li { margin: 25px 0 0 0; }
 
 @media (max-width:991px)
 {
+  .col-4.border.productive-box.p-0.mb-4{max-width: 100% !important;}/**17Sept2024***TimeTracking/DepartmentViewDasboard***/
   .cardboxesbasenew li{max-width: 49%; margin-bottom: 20px;}
   .col-control-left{ max-width: 100%; width: 100%;}
   .col-control-right{ max-width: 100%; width: 100%; padding:0; margin:10px 0px}
