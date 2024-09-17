@@ -1168,6 +1168,11 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 /****2024 - Department View Dashboard - Harjit { developer - Ejaz }*****/
 
 .tt_addcategory_ddl.multiselect-dropdown{color:#fff; background: #191d20; border: 1px solid #3c3f43;}
+.tt_addcategory_ddl.multiselect-dropdown .placeholder{background: none; padding: 0px; }
+.tt_addcategory_ddl .multiselect-dropdown-list-wrapper{background: #191d20;}
+.tt_addcategory_ddl .multiselect-dropdown-search{border: 1px solid #646464; background: #393e42 !important;}
+.tt_addcategory_ddl .multiselect-dropdown-list{border-left: 1px solid #646464;border-right: 1px solid #646464;}
+
 
 .initialsetup_newtab_mainbase .right-content{border-left: 1px solid #535353; background: #212528;}
 .initialsetup_newtab_design.left-tab li {
