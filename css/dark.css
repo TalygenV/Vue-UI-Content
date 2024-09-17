@@ -1266,7 +1266,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
   .nav-pills .title.overflow_hid h3 {font-size: 1.4rem; color: #ddd; font-weight: 400; margin: 0px 0px 10px 0px;}
   section.help-and-guide .innerminheight .col-md-4.mb-4 a{color: unset;}
 
-    /***********KnowledgeBase Articles - 2024*****************************/
+/***********KnowledgeBase Articles - 2024*****************************/
 
 ul.filetree.treeview{background-color: #2c3136;}
 .dz-clickable{background-color: #2c3136;}
@@ -1292,3 +1292,7 @@ ul.filetree.treeview{background-color: #2c3136;}
 	background: none !important;
 }
 /****2024 - New left menu - Harjit Singh*****/
+
+#Changeview select#dropdownMenu2 option.text-dark{color: #343a40 !important;}
+
+
