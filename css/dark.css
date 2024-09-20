@@ -1307,3 +1307,5 @@ ul.filetree.treeview{background-color: #2c3136;}
 #Changeview select#dropdownMenu2 option.text-dark{color: #343a40 !important;}
 
 .user_type_choice.coloredicons label{background: #191d20; color: #fff; border: 1px solid #454748;}
+#teamview.p-action-btn{border-left: 2px solid #ececec!important; background-color: #fff!important;}
+#teamview.p-action-btn:hover{background: #dfdfdf!important;}
