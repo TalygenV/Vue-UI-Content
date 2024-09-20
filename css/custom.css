@@ -4031,7 +4031,7 @@ ul.canvan-view-list.kvlistview li div.card:hover{cursor:move;}
 /***.menu-left-wrapper .circle.pause{margin-right:4px;}
 .menu-left-wrapper .circle.stop{margin-right:4px;}****24May2022****/
 
-.menu-left-wrapper .timer_wrap .circle{margin:0px 5px; float:left; line-height:40px;}
+.menu-left-wrapper .timer_wrap .circle{margin:0px 5px; float:left; line-height:40px; margin-left: 25px;}
 .menu-left-wrapper .timer_wrap.show{display:block; float:left; width:96%!important;}
 
 .wrapper-shrink .navbar-nav .menuitemsover em {opacity: unset;} /*Harjit on Shilpa's PC'*/
