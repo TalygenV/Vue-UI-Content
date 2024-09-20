@@ -1025,3 +1025,6 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
 .border-warning {border-color: #ffc107 !important;}
 .border-success {border-color: #28a745 !important;}
 .border-success {border-color: #28a745 !important;}
+
+#teamview.p-action-btn{border-left: 2px solid #ececec!important; background-color: #fff!important;}
+#teamview.p-action-btn:hover{background: #dfdfdf!important;}
