@@ -1009,7 +1009,8 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
 .menu-left-wrapper .myprof_newlogobase .leftmenu_collapse{background-image:url('/Vue-UI-Content/images/leftmenu_collapse_black.png');}
 
 .menu-left-wrapper.wrapper-shrink ul li.myprof_newlogobase {border-right: 6px solid #a4a4a4;}
-.menu-left-wrapper .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {color: #fff!important;}
+/* .menu-left-wrapper .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {color: #fff!important;} */
+.menu-left-wrapper .navbar-dark .navbar-nav .nav-link:hover {color: #fff!important;}
 
 .menu-left-wrapper .navbar-dark .navbar-nav #navbarDropdownMenuLink.nav-link:focus, .navbar-dark .navbar-nav #navbarDropdownMenuLink.nav-link:hover {
 	background: none !important;
