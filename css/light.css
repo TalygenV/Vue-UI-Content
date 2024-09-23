@@ -166,7 +166,7 @@ button.close:hover{color:#353535 !important;}
 .btn-bg-dark:hover{color: #fff; background-color:#23272b; border-color:#23272b;}
 .my-popups .modal-confirm-header {	background: #3f4a58 !important}
 
-.progress {	background-color: #fff;}
+/* .progress {	background-color: #fff;} */
 .tab-pane .border.float-left {	background: #fff;	border-top-color: #bcbcbc !important;}
 .form-content-new {	border: 1px solid #ccc;}
 ul.ullocation li {	background: #fff;}
