@@ -556,6 +556,8 @@ input:checked + .toggle {  background: #448ee4;  color: #fff;}
 .listing.p-3 .table-responsive{    border: 1px solid #ececec; }
 .placeholder{ background:#fff; border:1px solid #ececec!important; background-image: url(/Content/images/placeholder-bg.png);}/*****border:none; Harjit - border was not visible in reports*****/
 
+.bgdark_blkbar{background-color: #ececec;}
+
 .listing .table-responsive table th{color:#353535 !important; background: #f7f7f7 !important;}/*color:#555 !important; 9May2022*/
 .tab-content > .tab-pane{ background:#fff;  border:none; border-top:1px solid #bdbdbd;}/*12-8-20*/
 #frmProfile .tab-content > .tab-pane{background:#fff;}
