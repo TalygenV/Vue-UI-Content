@@ -619,26 +619,7 @@ content: "\2606";
 }
 /*star rating gaurav dhiman*/
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*-----------------For Legends---------------------*/
-
-
-
-
-
-
-
 
 /*****Harjit Singh - todolist***********/
 .lg-timesheet{background:#3ebe0b;}
@@ -649,6 +630,7 @@ content: "\2606";
 .lg-approved{background:#7c868f;}
 .lg-pausedresumed{background:#3a3a3d;}
 .lg-flaggedentry{background:#93604d;}
+.lg-orange{background:#fd7a1a;}
 
 .table-bordered tr.lgtr-timesheet td:first-child::after {background: #3ebe0b;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
 .table-bordered tr.lgtr-addedmanually td:first-child::after {background: #cca51d;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
