@@ -7205,7 +7205,7 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
     @-webkit-keyframes blink-animation {to {visibility: hidden;}}
 
 /****Live monitoring - widgets and listing new des****/
-.livemonitoring .dashbord-widget li { border: 1px solid; border-radius: 10px; padding: 23px 12px;}
+.livemonitoring .dashbord-widget li { border: 1px solid; border-radius: 10px; padding: 23px 12px; display: flex;}
 .livemonitoring .dashbord-widget i{float:left; margin-top: 10px; font-size: 40px;}
 .livemonitoring .dashbord-widget li h3{float: left;font-weight: 500; font-size: 30px; margin-left: 25px;}
 .livemonitoring .dashbord-widget li h3 span{font-size: 14px;}
@@ -7242,6 +7242,13 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .livemonitoring .ticketsmallfix{display: none;}
 .livemonitoring .table-bordered tbody tr td a span{border-radius: 30px!important; padding:5px; min-width: 130px;}
 /****Live monitoring - widgets and listing new des****/
+
+
+@media (max-width: 1500px) {
+    .livemonitoring .dashbord-widget li h3{margin-left: 10px;}
+
+}
+
 
 @media (max-width: 991px) {
 .livescreen_leftbase, .livescreen_rightbase{width: 100% !important; max-width: 100% !important;}
