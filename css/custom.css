@@ -4020,7 +4020,7 @@ ul.canvan-view-list.kvlistview li div.card:hover{cursor:move;}
 .menu-left-wrapper .start-timer.cust_timer .modal-dialog{left:190px!important; right:unset; z-index:999!important;}
 .menu-left-wrapper.wrapper-shrink .start-timer.cust_timer .modal-dialog{left:60px!important; right:unset; z-index:999!important;}
 
-.menu-left-wrapper .timer_wrap{padding:0px 3px 0px 7px;}
+.menu-left-wrapper .timer_wrap{padding:0px 3px 0px 7px; min-height: 90px;}
 .menu-left-wrapper .timer_desc{margin-right:0px;}
 
 
