@@ -7307,3 +7307,13 @@ input:checked + .slider.toggle_left40::before {left: 40px;}
 
 #modulelist .accordion.md-accordion.left-filter .border.p-3.bg-light{padding:10px!important;}
 #modulelist .accordion.md-accordion.left-filter .border.p-3.bg-light .card{padding:10px 15px!important;}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+.initialsetuptabsbase .dynamiccontent_base .row .col-sm-12.col-md-12.float-left.col-lg-3.col-xl-3{-ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 33.333333%;}
+}
+
+@media (min-width: 992x) and (max-width: 1279px) {
+.initialsetuptabsbase .dynamiccontent_base .row .col-sm-12.col-md-12.float-left.col-lg-3.col-xl-3{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
+}
+
+
