@@ -1318,4 +1318,7 @@ ul.filetree.treeview{background-color: #2c3136;}
 .livemonitoring .table-bordered tbody tr td a span.bodbtn_yellow{ background-color: #2c3136; }
 .livescreen_rightbase{background: #3f4348;}
 
+.multiselect__tags{border: 1px solid #3c3f43 !important; background: #191d20 !important;}
+.multiselect__placeholder{color: #ddd !important;}
+
 
