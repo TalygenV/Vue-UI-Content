@@ -6791,7 +6791,7 @@ li.active li { margin: 25px 0 0 0; }
 .timetrackdb_pb .productive-box { max-width: 24%!important; }
 
 .col-4.border.productive-box.p-0.mb-4{max-width: 32.8% !important;}/**17Sept2024***TimeTracking/DepartmentViewDasboard***/
-.col-4.border.productive-box.p-0.mb-4 .dotted-border .col-3{-ms-flex: 0 0 20%; flex: 0 0 20%; max-width: 20%;}
+.col-4.border.productive-box.p-0.mb-4 .dotted-border .col-3{-ms-flex: 0 0 20%; flex: 0 0 20%; max-width: 20%; padding: 0px;}
 
 @media (max-width:1600px)
 {
