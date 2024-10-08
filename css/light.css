@@ -321,7 +321,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .user-guide a{color:#353535 ;}
 .user-guide a:hover{color:#454545;}
 
-/* .p-actions .user-guide , .p-actions .user-guide a:hover {background-position: 6px 17px !important; background-color: unset; background: url('../images/user-guide-img.png')!important; background-repeat: no-repeat !important;} */
+.p-actions .user-guide , .p-actions .user-guide a:hover { background: url('../images/user-guide-img.png')!important;}
 
 .add-custom .list-group-item:hover, .add-custom .list-group-item.selected{background:#f1f1f1;}
 .add-column a{background:#f1f1f1;}
