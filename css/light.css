@@ -320,6 +320,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .user-guide{color:#353535 ;}
 .user-guide a{color:#353535 ;}
 .user-guide a:hover{color:#454545;}
+.user-guide {background: url('../images/user-guide-img.png')!important; background-repeat: no-repeat !important; background-position: 4px 17px !important;}
 
 .add-custom .list-group-item:hover, .add-custom .list-group-item.selected{background:#f1f1f1;}
 .add-column a{background:#f1f1f1;}
