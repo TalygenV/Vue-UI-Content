@@ -6790,7 +6790,7 @@ li.active li { margin: 25px 0 0 0; }
 .cardboxesbasenew li div.cardbase{ display: flex; width: 100%;}
 
 .col-control-left{ max-width: 60%;}
-.timetrackdb_pb .productive-box { max-width: 49%!important; }
+.timetrackdb_pb .productive-box { max-width: 49%!important; -ms-flex: 0 0 49%; flex: 0 0 49%;}
 
 .col-4.border.productive-box.p-0.mb-4{max-width: 32.8% !important;}/**17Sept2024***TimeTracking/DepartmentViewDasboard***/
 .col-4.border.productive-box.p-0.mb-4 .dotted-border .col-3{-ms-flex: 0 0 20%; flex: 0 0 20%; max-width: 20%; padding: 0px;}
