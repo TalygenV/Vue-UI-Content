@@ -862,26 +862,26 @@ touritem["UserAvailability/Add"] = {
     },
   ],
 };
-touritem["Review/Main"] = {
-  ModuleDisplayName: "Performance Review",
-  ModuleName: "Review",
-  displayName: "Review Listing",
-  items: [
-    {
-      selector: ".responivecustomtab",
-      step: 1,
-      title: "PerformanceManagement",
-      content: "SetupSkillsAndAddNotesForEmployeesFromSingleScreen",
-    },
-    {
-      selector: "#amyteam",
-      step: 3,
-      title: "UserSelection",
-      content:
-        "AddNotesCheckTheSkillsSelectingTheUserFromYourTeamAsPerYourRequirement",
-    },
-  ],
-};
+// touritem["Review/Main"] = {
+//   ModuleDisplayName: "Performance Review",
+//   ModuleName: "Review",
+//   displayName: "Review Listing",
+//   items: [
+//     {
+//       selector: ".responivecustomtab",
+//       step: 1,
+//       title: "PerformanceManagement",
+//       content: "SetupSkillsAndAddNotesForEmployeesFromSingleScreen",
+//     },
+//     {
+//       selector: "#amyteam",
+//       step: 3,
+//       title: "UserSelection",
+//       content:
+//         "AddNotesCheckTheSkillsSelectingTheUserFromYourTeamAsPerYourRequirement",
+//     },
+//   ],
+// };
 touritem["Review/ReviewListingForReviewer"] = {
   ModuleDisplayName: "Performance Review",
   ModuleName: "Review",

@@ -1104,19 +1104,19 @@ touritem["UserAvailability/Add"] = {
     },
   ],
 };
-touritem["Review/Main"] = {
-  ModuleDisplayName: "Performance Review",
-  ModuleName: "Review",
-  displayName: "Review Listing",
-  items: [
-    {
-      selector: ".responivecustomtab",
-      step: 1,
-      title: "PerformanceManagement",
-      content: "SetupSkillsAndAddNotesForEmployeesFromSingleScreen",
-    },
-  ],
-};
+// touritem["Review/Main"] = {
+//   ModuleDisplayName: "Performance Review",
+//   ModuleName: "Review",
+//   displayName: "Review Listing",
+//   items: [
+//     {
+//       selector: ".responivecustomtab",
+//       step: 1,
+//       title: "PerformanceManagement",
+//       content: "SetupSkillsAndAddNotesForEmployeesFromSingleScreen",
+//     },
+//   ],
+// };
 touritem["Review/Index"] = {
   ModuleDisplayName: "Performance Review",
   ModuleName: "Review",
