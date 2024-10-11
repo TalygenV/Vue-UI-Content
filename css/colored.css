@@ -21,7 +21,7 @@ body{color:#303030;}
 .left-menu.active{background: #525f65 !important; color:#fff !important;}
 .left-menu:hover{background: #525f65; color:#fff !important;}
 .dashbord-widget h3{color: #fff !important;}
-.one_wid {	background: #ffffff !important;	border-color: #00b297 !important;}
+.one_wid {	background:#edf7ff!important;	border-color: #00b297 !important;}
 /* .one_wid {	background: #00b297 !important;	border-color: #00b297 !important;} */
 .two_wid{background: #e67d21 !important; border-color: #e67d21 !important;}
 .three_wid{background: #0866c6 !important; border-color: #0866c6 !important;}
