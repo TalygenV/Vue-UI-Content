@@ -6840,6 +6840,10 @@ li.active li { margin: 25px 0 0 0; }
 .silentappbase a.text-white{text-decoration: underline!important;}
 .silentappbase .close-button{cursor: pointer; z-index: 999; position: absolute; right: -12px;  top: -12px; border-radius: 50%;  opacity: 1; width: 25px; height: 25px; line-height: 21px; text-align: center; padding: 0px; font-size: 12px; background: #f0f0f0;  border: 1px solid #6e6e6e;  font-weight: bold;}
 
+.menu-left-wrapper .silentappbase .bodleftwhite{-ms-flex: 0 0 25%; flex: 0 0 25%; max-width: 25%;}
+.menu-left-wrapper .silentappbase .getstartedstepsbase{-ms-flex: 0 0 75%; flex: 0 0 75%; max-width: 75%;}
+.menu-left-wrapper .getstartedstepsbase.col-md-8 .getstarted ul li{width: 45%;}
+
 /****Silent App****/
 
 .tt_addcategory_ddl.multiselect-dropdown {position: relative; display: inline-block; border: 1px solid #ced4da;
