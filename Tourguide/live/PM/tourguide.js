@@ -64,43 +64,43 @@ touritem["User/Dashboard"] = {
   ],
 };
 
-touritem["User/Home"] = {
-  ModuleDisplayName: "Company Setup",
-  ModuleName: "User",
-  displayName: "Home",
-  items: [
-    {
-      selector: "#headingOne1",
-      step: 1,
-      title: "Inbox",
-      content: "InboxContent",
-    },
-    {
-      selector: "#headingTwo2",
-      step: 2,
-      title: "Activities",
-      content: "ActivitiesContent",
-    },
-    {
-      selector: "#headingThree2",
-      step: 3,
-      title: "Bookmarks",
-      content: "Bookmarks",
-    },
-    {
-      selector: "#divInboxSibling",
-      step: 4,
-      title: "Reports",
-      content: "ReportsContent",
-    },
-    {
-      selector: "#hlkAddMoreReports",
-      step: 5,
-      title: "AddMore",
-      content: "AddMoreContent",
-    },
-  ],
-};
+// touritem["User/Home"] = {
+//   ModuleDisplayName: "Company Setup",
+//   ModuleName: "User",
+//   displayName: "Home",
+//   items: [
+//     {
+//       selector: "#headingOne1",
+//       step: 1,
+//       title: "Inbox",
+//       content: "InboxContent",
+//     },
+//     {
+//       selector: "#headingTwo2",
+//       step: 2,
+//       title: "Activities",
+//       content: "ActivitiesContent",
+//     },
+//     {
+//       selector: "#headingThree2",
+//       step: 3,
+//       title: "Bookmarks",
+//       content: "Bookmarks",
+//     },
+//     {
+//       selector: "#divInboxSibling",
+//       step: 4,
+//       title: "Reports",
+//       content: "ReportsContent",
+//     },
+//     {
+//       selector: "#hlkAddMoreReports",
+//       step: 5,
+//       title: "AddMore",
+//       content: "AddMoreContent",
+//     },
+//   ],
+// };
 touritem["Project/Index"] = {
   ModuleDisplayName: "Project Management",
   ModuleName: "Project",
@@ -1104,19 +1104,19 @@ touritem["UserAvailability/Add"] = {
     },
   ],
 };
-touritem["Review/Main"] = {
-  ModuleDisplayName: "Performance Review",
-  ModuleName: "Review",
-  displayName: "Review Listing",
-  items: [
-    {
-      selector: ".responivecustomtab",
-      step: 1,
-      title: "PerformanceManagement",
-      content: "SetupSkillsAndAddNotesForEmployeesFromSingleScreen",
-    },
-  ],
-};
+// touritem["Review/Main"] = {
+//   ModuleDisplayName: "Performance Review",
+//   ModuleName: "Review",
+//   displayName: "Review Listing",
+//   items: [
+//     {
+//       selector: ".responivecustomtab",
+//       step: 1,
+//       title: "PerformanceManagement",
+//       content: "SetupSkillsAndAddNotesForEmployeesFromSingleScreen",
+//     },
+//   ],
+// };
 touritem["Review/Index"] = {
   ModuleDisplayName: "Performance Review",
   ModuleName: "Review",
