@@ -6842,7 +6842,8 @@ li.active li { margin: 25px 0 0 0; }
 
 .menu-left-wrapper .silentappbase .bodleftwhite{-ms-flex: 0 0 25%; flex: 0 0 25%; max-width: 25%;}
 .menu-left-wrapper .silentappbase .getstartedstepsbase{-ms-flex: 0 0 75%; flex: 0 0 75%; max-width: 75%;}
-.menu-left-wrapper .getstartedstepsbase.col-md-8 .getstarted ul li{width: 45%;}
+
+.menu-left-wrapper .getstartedstepsbase.col-md-8 .getstarted ul li span{max-width: 168px;}
 
 /****Silent App****/
 
