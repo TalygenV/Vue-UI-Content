@@ -6911,6 +6911,8 @@ li.active li { margin: 25px 0 0 0; }
   .getstartedstepsbase.col-md-8 .getstarted ul li{width: 30%; border-right: 2px solid #fff!important;}
   .getstartedstepsbase.col-md-8 .getstarted ul li:last-child{border-right: none!important; margin-right:0px;}
   .getstartedstepsbase.col-md-8 .getstarted ul li:nth-child(3) {border-right: none!important; margin-right:0px;}
+
+  .menu-left-wrapper .silentappbase .getstartedstepsbase{max-width: 100% !important; -ms-flex: 0 0 100%!important; flex: 0 0 100%!important;}
   
   }
   
