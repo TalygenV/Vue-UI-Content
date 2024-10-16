@@ -6261,13 +6261,13 @@ li.active li { margin: 25px 0 0 0; }
 
     table.newtimertable tbody tr:last-child{border-bottom:none;}
    
-    @media (min-width:769px)
+    @media (min-width:992px)
     {
         .mobilelistview.newtimertable{display: none;}
         .weblistviewtimer{display: block;}
     }
     
-    @media (max-width:768px)
+    @media (max-width:991px)
     {
         .mobilelistview.newtimertable{display: block;}
         .weblistviewtimer{display: none;}
