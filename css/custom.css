@@ -6488,6 +6488,12 @@ li.active li { margin: 25px 0 0 0; }
     .newtimertable.tdsize tbody div tr td:nth-child(3){width:320px;}
 }
 
+@media (max-width:1200px)
+{
+    .newtimertable.tdsize tbody tr td:nth-child(3){width:220px;}
+    .newtimertable.tdsize tbody div tr td:nth-child(3){width:220px;}
+}
+
 
 .exceededcup{position: absolute;
     left: 10px;
