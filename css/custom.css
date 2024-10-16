@@ -6484,8 +6484,8 @@ li.active li { margin: 25px 0 0 0; }
 
 @media (max-width:1440px)
 {
-    .newtimertable.tdsize tbody tr td:nth-child(3){width:370px;}
-    .newtimertable.tdsize tbody div tr td:nth-child(3){width:370px;}
+    .newtimertable.tdsize tbody tr td:nth-child(3){width:320px;}
+    .newtimertable.tdsize tbody div tr td:nth-child(3){width:320px;}
 }
 
 
