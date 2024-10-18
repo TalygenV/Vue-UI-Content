@@ -1046,6 +1046,10 @@ a.timer-icon{border-left:none!important; border-right:none!important;}
 .mCSB_inside > .mCSB_container{margin:0px 20px 0px 0px!important;}/*****Harjit - #420706*****/
 .mCSB_draggerContainer{right:-9px;}
 span.text-lmenu{display:contents!important;}
+
+.col-md-12.col-sm-12.p-0.float-left.mainChart .row-12 .border.rounded.p-2.my-3{overflow-x: scroll;}
+.col-md-12.col-sm-12.p-0.float-left.mainChart .row-12 .border.rounded.p-2.my-3 div{min-width: 1000px;}
+
 }
 @media (max-width: 861px) {
 .collapse_map{width:33%!important; float:right!important;}
