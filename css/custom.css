@@ -1048,7 +1048,7 @@ a.timer-icon{border-left:none!important; border-right:none!important;}
 span.text-lmenu{display:contents!important;}
 
 .col-md-12.col-sm-12.p-0.float-left.mainChart .row-12 .border.rounded.p-2.my-3{overflow-x: scroll;}
-.col-md-12.col-sm-12.p-0.float-left.mainChart .row-12 .border.rounded.p-2.my-3 div.apexcharts-canvas{min-width: 1000px;}
+.col-md-12.col-sm-12.p-0.float-left.mainChart .row-12 .border.rounded.p-2.my-3 div.width_control{min-width: 1000px;}
 
 }
 @media (max-width: 861px) {
