@@ -21,7 +21,7 @@ body{color:#353535; background: #f3f3f3; font-weight: 400 !important;}
 .juda-menu-container .menu-box:nth-child(5n+4) ul li a:hover {background: #567d62;}
 .juda-menu-container .menu-box:nth-child(5n+5) ul li a:hover {background: #427e89;}
 
-.p-action-btn{border-left: 2px solid #ececec;}
+.p-action-btn{border-left: 2px solid #ececec!important;background-color: #fff!important;}
 
 .p-action-btn:hover {	background: #dfdfdf;}
 .left-tab li a{	color: #353535;}
