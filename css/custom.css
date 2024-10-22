@@ -7350,8 +7350,11 @@ input:checked + .slider.toggle_left40::before {left: 40px;}
 .initialsetuptabsbase .dynamiccontent_base .row .col-sm-12.col-md-12.float-left.col-lg-3.col-xl-3{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
 }
 
-
 .forms-for-billing-plandetails .form-control{padding: .275rem .75rem; min-height: calc(1.5em + .45rem + 0px) !important;}
 .forms-for-billing-plandetails select.form-control:not([size]):not([multiple]) { min-height:  calc(1.75em + .45rem + 0px) !important; height:  calc(1.75em + .45rem + 0px) !important;}
 .forms-for-billing-plandetails .card .card-header a.collapsed .conversation-date:before { content: "\f078"; color:#525f65; float: left; padding-right: 15px;}
 .forms-for-billing-plandetails .card .card-header a .conversation-date:before { font-family: 'FontAwesome'; content: "\f077"; float: right; color: #525f65; float: left; padding-right: 15px;}
+
+.DivUnProductivity .row.col-12 .col-2.col-sm-3.ml-4{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
+.DivUnProductivity .row.col-12 .col-1.col-sm-3.ml-4{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
+
