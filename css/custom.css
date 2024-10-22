@@ -3640,11 +3640,11 @@ p:nth-child(even) { background:blue;}*/
 .DivProductivity.col-sm-12.col-md-12.col-lg-12.col-xl-12.float-left.p-0 .col-12 .row.col-12 .col-2.col-sm-3.ml-4{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
 .DivProductivity.col-sm-12.col-md-12.col-lg-12.col-xl-12.float-left.p-0 .col-12 .row.col-12 .col-1.col-sm-2.mt-4{-ms-flex: 0 0 40%; flex: 0 0 40%; max-width: 40%;}
 
-.DivUnProductivity .col-sm-12.col-md-12.col-lg-12.col-xl-12.float-left.p-0 .col-12 .row.col-12 .col-2.col-sm-3.ml-4{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
-.DivUnProductivity .col-sm-12.col-md-12.col-lg-12.col-xl-12.float-left.p-0 .col-12 .row.col-12 .col-1.col-sm-2.mt-4{-ms-flex: 0 0 40%; flex: 0 0 40%; max-width: 40%;}
+.DivUnProductivity.col-sm-12.col-md-12.col-lg-12.col-xl-12.float-left.p-0 .col-12 .row.col-12 .col-2.col-sm-3.ml-4{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
+.DivUnProductivity.col-sm-12.col-md-12.col-lg-12.col-xl-12.float-left.p-0 .col-12 .row.col-12 .col-1.col-sm-2.mt-4{-ms-flex: 0 0 40%; flex: 0 0 40%; max-width: 40%;}
 
-.DivNeutral .col-sm-12.col-md-12.col-lg-12.col-xl-12.float-left.p-0 .col-12 .row.col-12 .col-2.col-sm-3.ml-4{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
-.DivNeutral .col-sm-12.col-md-12.col-lg-12.col-xl-12.float-left.p-0 .col-12 .row.col-12 .col-1.col-sm-2.mt-4{-ms-flex: 0 0 40%; flex: 0 0 40%; max-width: 40%;}
+.DivNeutral.col-sm-12.col-md-12.col-lg-12.col-xl-12.float-left.p-0 .col-12 .row.col-12 .col-2.col-sm-3.ml-4{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
+.DivNeutral.col-sm-12.col-md-12.col-lg-12.col-xl-12.float-left.p-0 .col-12 .row.col-12 .col-1.col-sm-2.mt-4{-ms-flex: 0 0 40%; flex: 0 0 40%; max-width: 40%;}
 
 
 /*Time track page css 28-10-20 */
