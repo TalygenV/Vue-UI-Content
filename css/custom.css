@@ -7366,7 +7366,10 @@ input:checked + .slider.toggle_left40::before {left: 40px;}
 .forms-for-billing-plandetails .card .card-header a.collapsed .conversation-date:before { content: "\f078"; color:#525f65; float: left; padding-right: 15px;}
 .forms-for-billing-plandetails .card .card-header a .conversation-date:before { font-family: 'FontAwesome'; content: "\f077"; float: right; color: #525f65; float: left; padding-right: 15px;}
 
+#reportstabsdata .right-content .col-md-12.p-0 .theme-primary.partition.p-actions-expand.d-flex.row{margin: 0px;}
 
 @media (max-width: 768px) {
 .customCol button.btn.btn-secondary{background: #3d464a;}
 }
+
+
