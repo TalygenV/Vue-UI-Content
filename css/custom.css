@@ -3636,6 +3636,11 @@ p:nth-child(even) { background:blue;}*/
 [data-toggle^="collapse"].workingdaysCE.collapsed em.fa-plus:before { content: "\f067"; }
 [data-toggle^="collapse"].workingdaysCE em.fa-minus:before { content: "\f068";}
 
+
+.DivUnProductivity .col-12 .row.col-12 .col-2.col-sm-3.ml-4{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
+.DivUnProductivity .col-12 .row.col-12 .col-1.col-sm-2.mt-4{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
+
+
 /*Time track page css 28-10-20 */
 .spbx-tb{min-height:495px;display:flex;align-items:center;justify-content:center}
 .greybg{background:#ededed;border-radius:0}
@@ -7355,6 +7360,5 @@ input:checked + .slider.toggle_left40::before {left: 40px;}
 .forms-for-billing-plandetails .card .card-header a.collapsed .conversation-date:before { content: "\f078"; color:#525f65; float: left; padding-right: 15px;}
 .forms-for-billing-plandetails .card .card-header a .conversation-date:before { font-family: 'FontAwesome'; content: "\f077"; float: right; color: #525f65; float: left; padding-right: 15px;}
 
-.DivUnProductivity .row.col-12 .col-2.col-sm-3.ml-4{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
-.DivUnProductivity .row.col-12 .col-1.col-sm-2.mt-4{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
+
 
