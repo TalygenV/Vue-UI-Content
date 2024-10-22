@@ -7367,4 +7367,6 @@ input:checked + .slider.toggle_left40::before {left: 40px;}
 .forms-for-billing-plandetails .card .card-header a .conversation-date:before { font-family: 'FontAwesome'; content: "\f077"; float: right; color: #525f65; float: left; padding-right: 15px;}
 
 
-
+@media (max-width: 768px) {
+.customCol button.btn.btn-secondary{background: #3d464a;}
+}
