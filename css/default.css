@@ -454,6 +454,10 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 #multiCollapse ul.shortcuts-menu li:nth-child(2) a.short-menu-item{background: rgba(0, 141, 224, 0.275)!important;}
 #multiCollapse ul.shortcuts-menu li:nth-child(2) a.short-menu-item span.left-icon-m{background:rgba(0, 141, 224, 0.79)!important;}
 
+#multiCollapse ul.shortcuts-menu li:nth-child(1) a.short-menu-item span.short-item-name:hover{color:#000;}
+#multiCollapse ul.shortcuts-menu li:nth-child(2) a.short-menu-item span.short-item-name:hover{color:#000;}
+
+
 
 .short-menu-item {  background-color: #f7f7f7;border: 1px solid #cfcfcf; color:#333335;}
 .left-icon-m {  background-color: #eaeaea; }
