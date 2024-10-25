@@ -2059,7 +2059,7 @@ footer .copyright {font-size: 11px;}
 .w-75 .clsdashboardgroup .short-menu-item{flex-direction:column;}
 .w-75 .clsdashboardgroup .short-menu-item .left-icon-m{width:100%;margin:auto;margin-top: 0;margin-bottom: 0;}
 .w-75 .clsdashboardgroup .short-menu-item .left-icon-m em{font-size:40px;}
-.w-75 .clsdashboardgroup .short-menu-item  .short-item-name{text-align:center;font-size:16px;padding:5px 0px;}
+.w-75 .clsdashboardgroup .short-menu-item .short-item-name{text-align:center;font-size:16px;padding:5px 0px;}
 .popover-custom{display:flex;flex-wrap:nowrap;max-width:unset;}/*#403756*/
 .flat-slider .slider:before{display:none;}
 .slider.ui-slider span{display:block !important;}
