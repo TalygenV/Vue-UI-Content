@@ -642,6 +642,7 @@ border-top: .3em solid; border-right: .3em solid transparent; border-bottom: 0; 
 
 @media (max-width:991px) {
 #quickViewData p.col-6 { max-width: 100%; flex: 0 0 100%; -ms-flex: 0 0 100%;}
+#quickViewData #accordionExample.accordion.custom-accr.m-3{margin: 0px!important;}
 }
 
 .Response-t {display: inline-block;	font-size:14px;	font-weight:normal; margin:5px 0px 0px 0px;}
