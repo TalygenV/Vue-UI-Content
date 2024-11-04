@@ -3052,6 +3052,9 @@ ul.ks-cboxtags li input[type="checkbox"] + label::after, ul.ks-cboxtags li input
 
 
 ul.ks-cboxtags li input[type="checkbox"] { position: absolute; opacity: 0;display: absolute; }
+ul.ks-cboxtags li input.newroundchkbox { position: absolute; opacity: 0;display: absolute; }
+
+
 
 .modal.-confirm .modal-header{display:none;}
 .left-menu-tab .mCSB_scrollTools {width: 7px !important;}/*For adjusting the scrol on the left menu search section*/
