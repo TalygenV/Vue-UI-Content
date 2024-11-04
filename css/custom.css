@@ -3053,9 +3053,9 @@ ul.ks-cboxtags li input[type="checkbox"] + label::after, ul.ks-cboxtags li input
 
 ul.ks-cboxtags li input[type="checkbox"] { position: absolute; opacity: 0;display: absolute; }
 
-ul.ks-cboxtags li input.newroundchkbox:checked + label {  background-color: #12bbd4; color: #fff; transition: all .2s; }
+/* ul.ks-cboxtags li input.newroundchkbox:checked + label {  background-color: #12bbd4; color: #fff; transition: all .2s; }
 ul.ks-cboxtags li input.newroundchkbox + label::after, ul.ks-cboxtags li input.newroundchkbox + label::before{display:none;}
-ul.ks-cboxtags li input.newroundchkbox { position: absolute; opacity: 0;display: absolute; }
+ul.ks-cboxtags li input.newroundchkbox { position: absolute; opacity: 0;display: absolute; } saini 4nov2024 */
 
 
 
