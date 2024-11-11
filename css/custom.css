@@ -4543,6 +4543,8 @@ ul.defaultrating li{color:#cccccc;}
 #divPopNotificationData.themecontrol{background:#fff; width:380px; max-width:380px; z-index: 99;}/***z-index added, as in left menu, full menu overlapping notifications - Harjit Singh 15Nov2021**********/
 #divPopNotificationData .inbox_list{padding: 10px 0px 0px 0px;}
 
+#divPopNotificationData .inbox_list.notify-list-new{padding:10px 10px 0 10px;}
+
 @media only screen and (max-width:500px) {
 #divPopNotificationData.themecontrol{width:auto; max-width:unset;}
 }
