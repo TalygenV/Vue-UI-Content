@@ -4545,6 +4545,8 @@ ul.defaultrating li{color:#cccccc;}
 
 #divPopNotificationData .inbox_list.notify-list-new{padding:10px 10px 0 10px; width: 100%;}
 
+.groupfileds .modal-header.ui-draggable-handle{min-height: auto;}
+
 @media only screen and (max-width:500px) {
 #divPopNotificationData.themecontrol{width:auto; max-width:unset;}
 }
