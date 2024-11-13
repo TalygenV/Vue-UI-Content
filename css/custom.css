@@ -1681,13 +1681,13 @@ span.text-lmenu{display:none;}
 .menu-left-wrapper .fullmenu-scroll::-webkit-scrollbar-thumb { background-color: #000000;}
 /*****SubMenu*****/
 
-/* #navbarResponsive ul.header-menu-for-top li.nav-item a.nav-link em{min-width:unset!important;} */
+#navbarResponsive ul.header-menu-for-top li.nav-item a.nav-link em{min-width:unset!important;}
 
-#navbarResponsive ul.header-menu-for-top li.nav-item a.nav-link em {
+/* #navbarResponsive ul.header-menu-for-top li.nav-item a.nav-link em {
     min-width: 25px !important;
     margin-right: 0px !important;
     text-align: center;
-  }
+  } */
 
 .navbar-dark .header-menu-for-left .navbar-nav .nav-link { color: rgba(255,255,255,1); padding: 0px 20px !important; margin: 0px 7px;}
 #navbarResponsive ul.header-menu-for-left li.nav-item a.nav-link em{min-width: 24px !important; font-size: 15px; text-align: left; padding: 0px; margin: 0px 4px 0px 0px !important;}
