@@ -645,6 +645,10 @@ border-top: .3em solid; border-right: .3em solid transparent; border-bottom: 0; 
 #quickViewData #accordionExample.accordion.custom-accr.m-3{margin: 0px!important;}
 }
 
+@media (max-width:767px) {
+#quickViewData #accordionExample.accordion.custom-accr.m-3 .card a.accordian-header-button.btn.btn-success{width: 130px !important;}
+}
+
 .Response-t {display: inline-block;	font-size:14px;	font-weight:normal; margin:5px 0px 0px 0px;}
 .Resolve-t {display: inline-block;	font-size:14px;	font-weight:normal; margin:5px 0px 0px 0px;}
 .Response-t span{font-family: 'Orbitron', sans-serif;}
