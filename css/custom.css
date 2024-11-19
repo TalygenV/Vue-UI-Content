@@ -7400,4 +7400,4 @@ input:checked + .slider.toggle_left40::before {left: 40px;}
 .customCol button.btn.btn-secondary{background: #3d464a;}
 }
 
-.dynamicstatus{width: 250px; border-radius:5px;}
+.dynamicstatus{width: 250px; border-radius:5px; float:left;}
