@@ -411,6 +411,15 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 
 /**********************New Menu***********************/
 
+#multiCollapse ul.shortcuts-menu li:nth-child(1) a.short-menu-item{background: rgba(24, 0, 224, 0.275)!important;}
+#multiCollapse ul.shortcuts-menu li:nth-child(1) a.short-menu-item span.left-icon-m{background:rgba(24, 0, 224, 0.44)!important;}
+
+#multiCollapse ul.shortcuts-menu li:nth-child(2) a.short-menu-item{background: rgba(0, 141, 224, 0.275)!important;}
+#multiCollapse ul.shortcuts-menu li:nth-child(2) a.short-menu-item span.left-icon-m{background:rgba(0, 141, 224, 0.79)!important;}
+
+#multiCollapse ul.shortcuts-menu li:nth-child(1) a.short-menu-item span.short-item-name:hover{color:#000;}
+#multiCollapse ul.shortcuts-menu li:nth-child(2) a.short-menu-item span.short-item-name:hover{color:#000;}
+
 .short-menu-item {  background-color: #f2f2f2; border: 1px solid #cfcfcf; color:#353535;}
 .left-icon-m {  background-color: #e6e5e5; }
 .shortcuts-menu li:nth-child(10n+1) a .left-icon-m em{color:#216bca;}
