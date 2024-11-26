@@ -1902,6 +1902,9 @@ li.nav-item:first-child::before, li.nav-item:last-child::after { display: none}
 li.nav-item.stepper .text { float: left;display: inline-block;font-size: 15px;width: 100%;color: #212529;margin-top: 0px;margin-bottom: 10px}
 /*Deal stage Wizard Gaurav Dhiman*/
 /*********************** Integration ********************/
+
+.integration-container.docstorage{min-height:auto!important;}
+
 .integration-container{min-height:600px;}
 .integration-container h6{ width: 100%; font-size: 18px; font-weight: 400; color: #4f4f4f; margin-bottom: 15px;} 
 .integration-container .integrationwith{background: #f1f1f1; min-height: 190px; display: flex; align-content: center; align-items: center; justify-content: center; margin: 5px 0px; padding: 30px;} 
