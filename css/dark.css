@@ -1323,4 +1323,4 @@ ul.filetree.treeview{background-color: #2c3136;}
 
 .apexcharts-tooltip.apexcharts-theme-light{color:#303030;}
 
-#manageChannelModal.modal.right.fade .modal-body ul#divChannelTypes.shortcuts-menu li:hover .short-item-name{color: #fff;}
+#manageChannelModal.modal.right.fade .modal-body ul#divChannelTypes.shortcuts-menu li:hover .short-item-name{color: #fff!important;}
