@@ -866,7 +866,7 @@ div[rel='scrollcontent1'] { width:100%; height:320px;}
     #divChannelTypes_HS.shortcuts-menu li {max-width:100%;}
   }
 
-
+.multi-collapse.multiCollapse_HS{padding: 0px!important; max-width: 100%!important;}
 
 
 /***************Location dropdown**********************/
