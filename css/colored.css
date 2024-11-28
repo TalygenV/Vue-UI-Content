@@ -21,16 +21,16 @@ body{color:#303030;}
 .left-menu.active{background: #525f65 !important; color:#fff !important;}
 .left-menu:hover{background: #525f65; color:#fff !important;}
 .dashbord-widget h3{color: #fff !important;}
-.one_wid {	background:#edf7ff!important;	border-color: #00b297 !important;}
-/* .one_wid {	background: #00b297 !important;	border-color: #00b297 !important;} */
+/* .one_wid {	background:#edf7ff!important;	border-color: #00b297 !important;} */
+.one_wid {	background: #00b297 !important;	border-color: #00b297 !important;}
 .two_wid{background: #e67d21 !important; border-color: #e67d21 !important;}
 .three_wid{background: #0866c6 !important; border-color: #0866c6 !important;}
 .four_wid{background: #1d2939 !important; border-color: #1d2939 !important;}
 .five_wid{background: #17a2b8 !important; border-color: #17a2b8 !important;}
 .six_wid {background: #57aea6 !important;border-color: #57aea6 !important;}
 .dashbord-widget li h3 span{	color: #fff; opacity: .8;}
-/* .dashbord-widget i {color: #fff !important;	opacity: .8;} */
-.dashbord-widget i {color: #8b9197!important;}
+.dashbord-widget i {color: #fff !important;	opacity: .8;}
+/* .dashbord-widget i {color: #8b9197!important;} *//** commented for Ticketing Index**/
 footer .contri_translate {background-color: #252525; color:#fff; border-right: 1px solid #797777;}
 footer {background: #424242;}
 footer .copyright {color: #fff;}
