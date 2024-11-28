@@ -741,7 +741,11 @@ color: #303030!important;
 }
 /* .user-guide{font-size:13px; font-weight:normal; background:url('../images/user-guide-img.png'); background-repeat:no-repeat; background-position:0 2px;
     min-height:17px;display:inline-block;} */
-.user-guide{font-size:13px; font-weight:normal; background:url('../images/user-guide-img-white.png'); background-repeat:no-repeat; background-position:4px 17px;  min-height:17px;display:inline-block;}
+.user-guide{font-size:13px; font-weight:normal; min-height:17px;display:inline-block;}
+
+ /* .user-guide{font-size:13px; font-weight:normal; background:url('../images/user-guide-img-white.png'); background-repeat:no-repeat; background-position:4px 17px; 
+ min-height:17px;display:inline-block;} ***28Nov 2024 Ticketing Update HS***/
+
 /* .user-guide a:hover{ background-image:url('../images/user-guide-img-white.png'); background-repeat:no-repeat; background-position:4px 17px; padding-left: 22px;} */
 
 .p-actions .user-guide , .p-actions .user-guide a:hover {background-position: 8px 17px !important; background-color: unset; }
