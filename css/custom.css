@@ -7416,10 +7416,17 @@ input:checked + .slider.toggle_left40::before {left: 40px;}
 
 #reportstabsdata .right-content .col-md-12.p-0 .theme-primary.partition.p-actions-expand.d-flex.row{margin: 0px; padding-right: 15px;}
 
-
-
 @media (max-width: 768px) {
 .customCol button.btn.btn-secondary{background: #3d464a;}
 }
 
 .dynamicstatus{width: 250px; border-radius:5px; float:left;}
+
+@media (max-width: 991px) {
+#ReportContainer ul.dashbord-widget{display: block!important;}
+#ReportContainer ul.dashbord-widget li{width: 50%!important;}
+}
+
+
+
+
