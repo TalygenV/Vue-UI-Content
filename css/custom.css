@@ -7584,10 +7584,10 @@ input:focus + .slider {  box-shadow: 0 0 1px #ccc;}
 input:checked + .slider:before {  -webkit-transform: translateX(26px);  -ms-transform: translateX(26px);  transform: translateX(26px);}
 .slider.round {  border-radius: 22px;}
 .slider.round:before {  border-radius: 50%;}
-.tab { overflow: hidden;	background-color: #f1f1f1;	max-width: 280px;	margin: auto;	border-radius: 15px; }
+/* .tab { overflow: hidden;	background-color: #f1f1f1;	max-width: 280px;	margin: auto;	border-radius: 15px; }
 .tab button {  background-color: #ececec;  float: left;  border: none;  outline: none;  cursor: pointer;  padding: 12px 15px;  transition: 0.3s;  font-size: 17px; width: 50%; text-transform: uppercase; color:#6b6b6b;}
 .tab button:hover { background-color: #ddd;}
-.tab button.active { background:none; height:auto; background-color: #128fe4; color:#fff;}
+.tab button.active { background:none; height:auto; background-color: #128fe4; color:#fff;} */
 .subscription-container .tabcontent {  display: flex;   flex-wrap:wrap;}
 .pro-footer { background: #fff;	color: #666;	padding: 8px;	position: relative;	min-height: 320px;	max-height: 320px;	overflow-y: auto;}
 .pro-footer p {	font-size: 22px; font-weight: 600;	margin: 20px 0px; color:#303030;}
