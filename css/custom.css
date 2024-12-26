@@ -7753,14 +7753,15 @@ input:checked + .slider:before {  -webkit-transform: translateX(26px);  -ms-tran
 }
 
 .pckg_desc ul li {
-    
+    background-image: url('../images/check-green.png');
+  background-repeat: no-repeat;
+  background-position: left 8px;
     line-height: 26px;
     display: block;
     font-size: 14px;
     color: #404040;
-    padding: 1px 0 5px 0px;
-    margin-left: 15px;
-    list-style-type: disc;
+    padding: 1px 0 5px 10px;
+    
   }
 /******Store Front - Pricing & Sign Up css*************/
 
