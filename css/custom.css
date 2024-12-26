@@ -7729,6 +7729,12 @@ input:checked + .slider:before {  -webkit-transform: translateX(26px);  -ms-tran
 .viewd-btn { background: #fff; color: #494949 !important; }
 .prev-btn{ background: #3498db;}
 
+.pack-add-count .input-group-btn {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
 /******Store Front - Pricing & Sign Up css*************/
 
 
