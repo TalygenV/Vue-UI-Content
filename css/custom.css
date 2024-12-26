@@ -7486,7 +7486,7 @@ strong { font-weight: bold; }
 .sub-package.selectedpack::before{ content: ""; position: absolute; top: -12px; left: -12px; width: calc(100% + 24px); height: calc(100% + 24px); box-sizing: border-box; border-radius: 5px; } 
 .imgofpck  { position:relative; overflow: hidden; border-radius: 0; border-top: 1px solid #ccc; }
 .imgofpck img {	width: 100%;	vertical-align: top; margin-top:-1px; }
-.pro-headr {	position:relative; display: inline-block; width: 100%; padding: 10px 0px; min-height:160px;}
+.pro-headr {	position:relative; display: inline-block; width: 100%; padding: 10px 0px; min-height:130px;}
 .pro-headr h2 {	margin-top: 10px; color: #fff; padding: 0 8px; font-size: 22px; text-overflow: ellipsis; overflow: hidden;  margin-bottom: 5px; line-height: 30px;}/**white-space: nowrap;**/
 .sub-package:nth-child(8n+1){ background: #128fe4; }
 .sub-package:nth-child(8n+1) .subs-package-hdr .input-group input[type="text"]{ background: #eef8ff; }
@@ -7588,16 +7588,16 @@ input:checked + .slider:before {  -webkit-transform: translateX(26px);  -ms-tran
 .tab button {  background-color: #ececec;  float: left;  border: none;  outline: none;  cursor: pointer;  padding: 12px 15px;  transition: 0.3s;  font-size: 17px; width: 50%; text-transform: uppercase; color:#6b6b6b;}
 .tab button:hover { background-color: #ddd;}
 .tab button.active { background:none; height:auto; background-color: #128fe4; color:#fff;} */
-/* .subscription-container .tabcontent {  display: flex;   flex-wrap:wrap;}
+.subscription-container .tabcontent {  display: flex;   flex-wrap:wrap;}
 .pro-footer { background: #fff;	color: #666;	padding: 8px;	position: relative;	min-height: 320px;	max-height: 320px;	overflow-y: auto;}
-.pro-footer p {	font-size: 22px; font-weight: 600;	margin: 20px 0px; color:#303030;}
+.pro-footer p {	font-size: 22px; font-weight: 600;	margin: 0px 0px 5px 0px; color:#303030;}
 .sub-includes {	width: 100%; position: relative;	display: inline-block;	line-height: 25px;	padding-left: 22px;	font-size: 14px; position:relative; color: #303030;}
 .sub-includes::before {	content:"\f00c"; font: normal normal normal 14px/1 FontAwesome; position:absolute; left: 0px; top: 6px; opacity: 1; color: #808080; }
 .sub-includes i { float: right;	border: 1px solid #ccc;	text-align: center;	width: 17px; height: 17px;	border-radius: 50%;	 color: #9d9d9d;	font-size: 14px;	padding-top: 1px; position:relative;}
 .sub-includes i .infotooltip{ position: absolute; right: 0px; background: #fff; border: 1px solid; min-width: 200px; top: 20px; padding: 5px; display:none;z-index:1;max-height:200px;overflow-y:auto;}
 .sub-includes i:hover .infotooltip{display:block;}
 .sub-includes li{ position:relative; }
-.sub-includes li::before { content:"\f00c"; font: normal normal normal 14px/1 FontAwesome; position:absolute; left: -22px; top: 6px; opacity: 1; color: #808080;} */
+.sub-includes li::before { content:"\f00c"; font: normal normal normal 14px/1 FontAwesome; position:absolute; left: -22px; top: 6px; opacity: 1; color: #808080;}
 /*.sub-includes li {list-style: disc; margin-left:10px;}*/
 
 
