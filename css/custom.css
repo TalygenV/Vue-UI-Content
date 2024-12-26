@@ -7486,7 +7486,7 @@ strong { font-weight: bold; }
 .sub-package.selectedpack::before{ content: ""; position: absolute; top: -12px; left: -12px; width: calc(100% + 24px); height: calc(100% + 24px); box-sizing: border-box; border-radius: 5px; } 
 .imgofpck  { position:relative; overflow: hidden; border-radius: 4px; border-top: 1px solid #ccc; }
 .imgofpck img {	width: 100%;	vertical-align: top; margin-top:-1px; }
-.pro-headr { position:relative; display: inline-block; width: 100%; padding: 10px 0px 0px 0px; min-height:80px;}
+.pro-headr { position:relative; display: inline-block; width: 100%; padding: 10px 0px 0px 0px; min-height:80px; background: #525f65;}
 .pro-headr h2 {	margin-top: 10px; color: #fff; padding: 0 8px; font-size: 22px; text-overflow: ellipsis; overflow: hidden; margin-top: 0px; margin-bottom: 5px; line-height: 30px;}/**white-space: nowrap;**/
 
 /* .sub-package:nth-child(8n+1){ background: #128fe4; } */
@@ -7579,7 +7579,7 @@ strong { font-weight: bold; }
 .sub-package:nth-child(8n+8).selectedpack .pro-footer .sub-includes i{ color: #34495e; border-color: #34495e; }
 
 .price-sub { color: #fff; font-size: 16px; font-weight: 500; padding: 0 8px; margin: 0px; text-align:left; position: relative;display:table;width:100%;}
-.price-sub .spnPackageCost{	font-size: 18px;	font-weight: 600;}
+.price-sub .spnPackageCost{	font-size: 17px;	font-weight: 500;}
 .price-sub.randomrow{ background: rgba(0,0,0,.1); padding: 5px 8px;}
 .price-sub .price-data{	width: 95%;font-size: 12px;display: inline-block;}
 .price-sub span.usrtype {background: rgba(0,0,0,.3); padding: 2px 5px; width: 34px; display: inline-block; border-radius: 2px; position:relative; margin-right: 8px;display: table-cell;vertical-align: middle;}
