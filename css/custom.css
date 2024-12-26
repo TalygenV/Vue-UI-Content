@@ -7760,7 +7760,7 @@ input:checked + .slider:before {  -webkit-transform: translateX(26px);  -ms-tran
     display: block;
     font-size: 14px;
     color: #404040;
-    padding: 1px 0 5px 10px;
+    padding: 1px 0px 5px 20px;
     
   }
 /******Store Front - Pricing & Sign Up css*************/
