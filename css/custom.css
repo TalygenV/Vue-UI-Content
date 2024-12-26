@@ -7470,7 +7470,7 @@ input:checked + .slider.toggle_left40::before {left: 40px;}
 .pack-add-count .input-group {	width: 100%; display:flex;	text-align: center; flex-wrap: wrap;	}
 .pack-add-count .input-group input[type="text"] {	text-align: center;	border-top: none;	border-bottom: none;	font-size: 22px;	padding: 5px !important; width: 38.3%; height:38px; background:#f1f1f1; border:none; border-radius:0px;}
 .pack-add-count .glyphicon { color: #128fe4; }
-.pack-add-count .input-group-btn { display: flex; width: 28.3%; vertical-align: middle; text-align: center; height: 38px; }
+.pack-add-count .input-group-btn { display: flex; width: 28.3%; vertical-align: middle; text-align: center; height: 48px; }
 .pack-add-count .btn.btn-default { background: transparent;	border: none; cursor: pointer;margin:0;padding:0; }
 .pack-add-count .btn .fa{ height:100%; font-size:18px; }
 strong { font-weight: bold; }
