@@ -7735,6 +7735,14 @@ input:checked + .slider:before {  -webkit-transform: translateX(26px);  -ms-tran
     align-items: center;
 }
 
+.pckg_desc ul li {
+    
+    line-height: 26px;
+    display: block;
+    font-size: 14px;
+    color: #404040;
+    padding: 1px 0 5px 20px;
+  }
 /******Store Front - Pricing & Sign Up css*************/
 
 
