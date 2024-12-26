@@ -7612,7 +7612,7 @@ input:checked + .slider:before {  -webkit-transform: translateX(26px);  -ms-tran
 .subs-button .fa{ width: auto;height: auto;	top: 0;	margin:0 5px; }
 .bill-bar{ background:rgba(91, 103, 109, .98); color:#fff; padding:10px; position:fixed; bottom:0px; width:100% !important; z-index:11; left: 0; }
 .bill-conteiner{ width: 90%; max-width: 1440px; padding:5px 15px;text-align: right; margin: auto; } /*width: 100%;Harjit 24Dec2021*/ 
-.bill-conteiner ul { display:inline-block; margin-right: 80px; }
+.bill-conteiner ul { display:inline-block; margin-right: 80px!important;list-style: none; }
 .bill-conteiner li { font-size: 22px;	font-weight: 600; }
 .bill-conteiner li.net-t-items { font-size: 22px; font-weight: 600; }
 .bill-conteiner .subs-button { margin-top: 10px; vertical-align: top;  font-size:22px; }
