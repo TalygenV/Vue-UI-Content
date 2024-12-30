@@ -7606,7 +7606,7 @@ input:checked + .slider:before {  -webkit-transform: translateX(26px);  -ms-tran
 .tab button:hover { background-color: #ddd;}
 .tab button.active { background:none; height:auto; background-color: #128fe4; color:#fff;} */
 .subscription-container .tabcontent {  display: flex;   flex-wrap:wrap;}
-.pro-footer { background: #fff;	color: #666;	padding: 8px;	position: relative;	min-height: 150px;	max-height: 150px;	overflow-y: auto;}
+.pro-footer { background: #fff;	color: #666; padding: 8px;	position: relative;	min-height: 142px; max-height: 142px; overflow-y: auto;}
 .pro-footer p {	font-size: 22px; font-weight: 600;	margin: 0px 0px 5px 0px; color:#303030;}
 .sub-includes {	width: 100%; position: relative;	display: inline-block;	line-height: 25px;	padding-left: 22px;	font-size: 14px; position:relative; color: #303030;}
 .sub-includes::before {	content:"\f00c"; font: normal normal normal 14px/1 FontAwesome; position:absolute; left: 0px; top: 6px; opacity: 1; color: #808080; }
@@ -7755,13 +7755,13 @@ input:checked + .slider:before {  -webkit-transform: translateX(26px);  -ms-tran
 
 .pckg_desc ul li {
     background-image: url('../images/check-green.png');
-  background-repeat: no-repeat;
-  background-position: left 8px;
+    background-repeat: no-repeat;
+    background-position: left 8px;
     line-height: 26px;
     display: block;
     font-size: 14px;
     color: #404040;
-    padding: 1px 0px 5px 20px; border-top: 1px solid #f2f2f2;
+    padding: 1px 0px 1px 20px; border-top: 1px solid #f2f2f2;
 }
 .pckg_desc ul li:last-child{border-bottom: 1px solid #f2f2f2}
 /******Store Front - Pricing & Sign Up css*************/
