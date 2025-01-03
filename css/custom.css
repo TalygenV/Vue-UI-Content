@@ -7768,4 +7768,16 @@ input:checked + .slider:before {  -webkit-transform: translateX(26px);  -ms-tran
 
 .nav.nav-pills.flex-column.left-tab.responivecustomtab.lefttabiconfix{ float: left; width: 100%;}
 
+/*******Company Setup - Plans Tab*************/
+.Planlisting .stepwizard-d span { border: 1px solid #ccc; width: 36px; margin: 0 15px;}
+.Planlisting .step-1, .Planlisting .step-2 { width: 30px; height: 30px; align-items: center; display: flex; justify-content: center;}
+.listing .table-responsive table.planstable th{ font-size: 20px;}
+.listing .table-responsive table.planstable td{ font-size: 16px;}
+.listing .table-responsive table.planstable td:last-child{padding-right: 50px!important;}
+button.btn.btn-default.licdown {border: 1px solid #d4d4d4; background: #f4f4f4; border-radius:7px 0px 0px 7px!important;}
+button.btn.btn-default.licup   {border: 1px solid #d4d4d4; background: #f4f4f4; border-radius:0px 7px 7px 0px!important;}
+/*******Company Setup - Plans Tab*************/
+
+
+
 
