@@ -1300,6 +1300,7 @@ line-height: 12px; font-size: 25px; cursor: pointer;overflow: hidden;}
 .card-exp .sideicon{position:absolute;right:10px;color:#bcbcbc;font-size:21px;}
 .open-green select{-webkit-appearance: none; border: 0; padding:2px 30px 2px 2px; width:100%;}
 .noti-circle{min-width:20px; min-height:20px; border-radius:100%; display:inline-block; line-height:20px; font-size:12px; vertical-align:top; margin-top:-2px; margin-left:-7px;text-align:center;padding:1px;box-sizing:border-box;}/*margin-top:-9px;*/
+.noti-clients{border-radius: 6px;padding: 0px 5px;}
 .circle-icon{width: 55px; height: 55px; line-height:55px; text-align: center; border-radius:100%; font-size: 24px; color: #fff; display:inline-block;}
 .popup-conversation .conversation-box-con{width:100%;}
 .popup-conversation .conversation-box{border-bottom:1px solid #dee2e6; border-top:0; border-left:0; border-right:0; padding:10px 15px 15px 65px;}
