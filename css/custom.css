@@ -7486,7 +7486,7 @@ strong { font-weight: bold; }
 .subs-package-hdr .checkboxlbl .check::after { left: 10px; top: 4px; width: 6px; height: 12px; border: solid #000; border-width: 0 4px 4px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
 .sub-package.selectedpack::before{ content: ""; position: absolute; top: -12px; left: -12px; width: calc(100% + 24px); height: calc(100% + 24px); box-sizing: border-box; border-radius: 5px; } 
 .imgofpck  { position:relative; overflow: hidden; border-radius: 4px; border-top: 1px solid #ccc; }
-.imgofpck img {	width: 100%;	vertical-align: top; margin-top:-1px; }
+.imgofpck img {	width: 100%;	vertical-align: top; margin-top:-1px; max-height: 165px; }
 .pro-headr { position:relative; display: inline-block; width: 100%; padding: 5px 0px 0px 0px;  background: #525f65;}
 .pro-headr h2 {	margin-top: 10px; color: #fff; padding: 0 8px; font-size: 20px; text-overflow: ellipsis; overflow: hidden; margin-top: 0px; margin-bottom: 0px; line-height: 30px;}/**white-space: nowrap;**/
 
