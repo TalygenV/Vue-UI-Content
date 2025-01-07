@@ -7820,5 +7820,12 @@ border-radius: 15px; float: initial; height: auto; background: #fff; color: #303
 .msgfoot .msgleft {display: flex;}
 .dev_divFilesMessageComment .msgrightt a{color: #aaa; font-size: 17px; margin: auto 3px;}
 
+.message-bx:first-child .msg-actions {top: -6px !important;}
+.message-data:hover .msg-actions {display: block;}
+.msg-actions { background: #fff; border: 1px solid #cdcdcd; padding: 1px 5px; position: absolute; right: 10px;
+    top: -15px; display: none;}
+.msg-actions ul li { list-style: none; display: inline-block; padding: 4px 2px;}
+.msg-actions ul li a { color: #626262; padding: 5px; position: relative;}    
+
 /***Project Messages******/
 
