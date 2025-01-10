@@ -7802,6 +7802,12 @@ border-radius: 15px; float: initial; height: auto; background: #fff; color: #303
 
 /*******Company Setup - Plans Tab*************/
 
+/******Add Plans - Rates Tab******/
+
+.plan-rate-detail .switch{width: 70px!important;}
+
+/******Add Plans - Rates Tab******/
+
 
 /***Project Messages******/
 .message-bx {display: flex; margin-bottom: 20px; padding: 5px; transition: all .3s ease; border: 1px solid transparent;}
