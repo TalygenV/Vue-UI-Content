@@ -331,6 +331,7 @@ label.switch.w70{min-width: 70px;}
 /***Silent App Time Track DB***/
 .col-control-right label.switch input:checked + .slider::before{left: 60px;}
 
+.col-control-right label.switch{width: 112px;}
 /***Silent App Time Track DB***/
 
 
