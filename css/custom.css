@@ -7842,3 +7842,7 @@ border-radius: 15px; float: initial; height: auto; background: #fff; color: #303
 .text-brown{color: #7d695a;}
 .text-orange{color: #e67932;}
 .text-darkorange{color: #cc7a41;}
+
+.newaddprojects .left-icon-m em {
+    font-size: 35px;
+}
