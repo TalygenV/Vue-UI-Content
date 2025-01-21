@@ -7838,11 +7838,11 @@ border-radius: 15px; float: initial; height: auto; background: #fff; color: #303
 
 #dayAndnightShift .switch{width:112px;}
 
-.text-purple{color: #746caf;}
-.text-brown{color: #7d695a;}
-.text-orange{color: #e67932;}
-.text-darkorange{color: #cc7a41;}
+.text-purple{color: #746caf!important;}
+.text-brown{color: #7d695a!important;}
+.text-orange{color: #e67932!important;}
+.text-darkorange{color: #cc7a41!important;}
 
 .newaddprojects .left-icon-m em {
-    font-size: 35px;
+    font-size: 35px!important;
 }
