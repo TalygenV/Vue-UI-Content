@@ -7846,3 +7846,5 @@ border-radius: 15px; float: initial; height: auto; background: #fff; color: #303
 .newaddprojects .left-icon-m em {
     font-size: 35px!important;
 }
+
+.stepwizard-step .rounded-circle{width: 25px; text-align: center;}
