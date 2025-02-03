@@ -7848,3 +7848,27 @@ border-radius: 15px; float: initial; height: auto; background: #fff; color: #303
 }
 
 .stepwizard-step .rounded-circle{width: 25px; text-align: center;}
+
+
+/**** Project Mgmt - Detail Tabs Colored Icons****3Feb25 Trent Sir Approved *****/
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(1) .listing span em {color: #65451f;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(2) .listing span em {color: #4d4c7d;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(3) .listing span em {color: #3a9188;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(4) .listing span em {color: #1b6ca8;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(5) .listing span em {color: #d5ab9c;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(6) .listing span em {color: #cd5555;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(7) .listing span em {color: #1cc5dc;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(8) .listing span em {color: #859f3d;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(9) .listing span em {color: #765827;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(10) .listing span em {color: #882042;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(11) .listing span em {color: #9973e2;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(12) .listing span em {color: #db6b97;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(13) .listing span em {color: #333146;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(14) .listing span em {color: #385b66;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(15) .listing span em {color: #757575;}
+
+/**** Project Mgmt - Detail Tabs Colored Icons****3Feb25 Trent Sir Approved *****/
+
+
+
+
