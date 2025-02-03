@@ -7852,7 +7852,8 @@ border-radius: 15px; float: initial; height: auto; background: #fff; color: #303
 
 /**** Project Mgmt - Detail Tabs Colored Icons****3Feb25 Trent Sir Approved *****/
 ul.responsivecustomtab.lefttabiconfix li.menu-item a.active .listing span em {color: #fff;}
-ul.responsivecustomtab.lefttabiconfix li.menu-item:hover .listing span em {color: #fff;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:hover .listing span em {color: #fff!important;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:hover .listing{color: #fff!important;}
 
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(1) .listing span em {color: #65451f;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(2) .listing span em {color: #C37857;}
