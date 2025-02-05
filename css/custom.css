@@ -7770,6 +7770,8 @@ input:checked + .slider:before {  -webkit-transform: translateX(26px);  -ms-tran
 
 .nav.nav-pills.flex-column.left-tab.responivecustomtab.lefttabiconfix{ float: left; width: 100%;}
 
+#reportstabsdata .left-menu-tab.new_tab ul.nav.nav-pills.flex-column.left-tab.responivecustomtab { float: left; width: 100%;}
+
 /*******Company Setup - Plans Tab*************/
 .Planlisting .stepwizard-d span { border: 1px solid #ccc; width: 36px; margin: 0 15px;}
 .Planlisting .step-1, .Planlisting .step-2 { width: 30px; height: 30px; align-items: center; display: flex; justify-content: center;}
@@ -7890,7 +7892,7 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(9) .listing span em
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(10) .listing span em {color: #cc5e82;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(11) .listing span em {color: #9973e2;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(12) .listing span em {color: #00909E;}
-ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(13) .listing span em {color: #db6b97;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(13) .listing span em {color: #A59D84;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(14) .listing span em {color: #757575;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(15) .listing span em {color: #e98b50;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span em {color: #385b66;}
