@@ -7897,6 +7897,18 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span e
 
 /**** Project Mgmt - Detail Tabs Colored Icons****3Feb25 Trent Sir Approved *****/
 
+.vue-lightbox-close {
+    background: #464646 !important;
+    border-radius: 100%;
+    left: 10px;
+    padding: 6px !important;
+    height: 30px !important;
+    width: 30px !important;
+    line-height: 17px;
+    margin-top: 20px;
+    z-index: 9;
+  }
+
 
 
 
