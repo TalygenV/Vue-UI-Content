@@ -7851,15 +7851,8 @@ border-radius: 15px; float: initial; height: auto; background: #fff; color: #303
 
 
 /**** Project Mgmt - Detail Tabs Colored Icons****3Feb25 Trent Sir Approved *****/
-ul.responsivecustomtab.lefttabiconfix li.menu-item a.active .listing span em {color: #fff;}
-ul.responsivecustomtab.lefttabiconfix li.menu-item:hover .listing span em {color: #fff!important;}
-ul.responsivecustomtab.lefttabiconfix li.menu-item:hover .listing{color: #fff!important; background: #525f65;}
 
-ul.responsivecustomtab.lefttabiconfix li.menu-item a.nav-link.left-menu{padding: 0px;}
-ul.responsivecustomtab.lefttabiconfix li.menu-item .listing {padding: 8px 5px;}
-
-
-ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(1) .listing span em {color: #65451f;}
+/* ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(1) .listing span em {color: #65451f;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(2) .listing span em {color: #C37857;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(3) .listing span em {color: #3a9188;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(4) .listing span em {color: #1b6ca8;}
@@ -7869,6 +7862,32 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(7) .listing span em
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(8) .listing span em {color: #5ad721;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(9) .listing span em {color: #765827;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(10) .listing span em {color: #882042;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(11) .listing span em {color: #9973e2;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(12) .listing span em {color: #00909E;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(13) .listing span em {color: #db6b97;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(14) .listing span em {color: #757575;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(15) .listing span em {color: #e98b50;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span em {color: #385b66;} */
+
+
+ul.responsivecustomtab.lefttabiconfix li.menu-item a.active .listing span em {color: #fff;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:hover .listing span em {color: #fff!important;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:hover .listing{color: #fff!important; background: #525f65;}
+
+ul.responsivecustomtab.lefttabiconfix li.menu-item a.nav-link.left-menu{padding: 0px;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item .listing {padding: 8px 5px;}
+
+
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(1) .listing span em {color: #65451f;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(2) .listing span em {color: #FB7C44;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(3) .listing span em {color: #17c8b6;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(4) .listing span em {color: #23a5fd;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(5) .listing span em {color: #8c8a99;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(6) .listing span em {color: #FF5C5C;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(7) .listing span em {color: #00bfd9;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(8) .listing span em {color: #54d21a;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(9) .listing span em {color: #aa8547;}
+ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(10) .listing span em {color: #cc5e82;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(11) .listing span em {color: #9973e2;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(12) .listing span em {color: #00909E;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(13) .listing span em {color: #db6b97;}
