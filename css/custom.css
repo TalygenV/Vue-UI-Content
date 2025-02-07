@@ -3193,7 +3193,7 @@ ul.canvan-view-list { display: flex; flex-wrap: wrap; }
 .timeline>li:last-child .timeline-badge:before{height:46%}/***height:51%***/
 .timeline>li.timeline-inverted>.timeline-panel{float:right;width:90%;border-radius:2px;padding:5px 5px;position:relative;box-sizing:border-box}
 .timeline-panel ul{list-style-type:none;display:flex; flex-wrap:wrap;}
-.timeline-panel li{flex: 0 0 19%; margin-right: 1%; margin-bottom: 15px; max-width: 230px; min-width: 230px;}/* Min Width and Max width by Harjit 23 Dec 2020 */
+.timeline-panel li{flex: 0 0 19%; margin-right: 1%; margin-bottom: 15px; max-width: 170px; min-width: 170px;}/* Min Width and Max width 230px to 170px by Harjit 23 Dec 2020 */
 /*.timeline-panel li:nth-child(6n){display:none;}*/
 .timeline-panel li:nth-child(6n){display:block;}
 .timeline-check{right:0;position:absolute;top:39%}
