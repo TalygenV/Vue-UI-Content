@@ -1463,7 +1463,7 @@ box-sizing: border-box;font-size:10pt;}
 .page-item .previous,.page-item  .next{background-color:#f0f0f0 !important} .page-item .previous:hover,.page-item  .next:hover{background:#525f65 !important;color:white !important;}
 @media (max-width:1199px)
 {.nu-paging .paging-count{justify-content: flex-start;}}
-@media (max-width:991px) { /*.nu-paging .choose-page {display: none !important;}*/ }
+@media (max-width:991px) { .full_100{ width: 100%;} /*.nu-paging .choose-page {display: none !important;}*/ }
 @media (max-width:414px){
 .nu-paging .choose-page{justify-content:center;display:flex;}
 .nu-paging .paging-count{justify-content:center;margin:10px auto !important;display:flex;}
