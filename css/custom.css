@@ -6022,6 +6022,11 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 
     .menu-left-wrapper #navbarResponsive ul.navbar-nav li #divPopNotificationData .my-popups.modal.right .modal-header{padding: 2px 0px 2px 60px;}
     .menu-left-wrapper #navbarResponsive ul.navbar-nav li #divPopNotificationData .my-popups.modal.right .modal-header .modal-title{line-height: 45px!important;}
+
+    .menu-left-wrapper #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationData .nav-link{padding: 10px!important; margin: 0px;}
+
+
+
 }
 
 @media (max-width:991px) {  
