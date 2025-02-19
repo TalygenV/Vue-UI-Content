@@ -6025,6 +6025,8 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 
     .menu-left-wrapper #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationData .nav-link{padding: 10px!important; margin: 0px;}
 
+    .menu-left-wrapper.wrapper-shrink #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationData span{display: block!important;}
+
 
 
 }
