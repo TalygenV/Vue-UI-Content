@@ -1666,6 +1666,7 @@ span.text-lmenu{display:none;}
 .menu-left-wrapper span.text-lmenu{display:inline-block;}
 
 /****2024- left menu - Full Menu*****/
+.menu-left-wrapper a#navbarDropdownPortfolio.dropdown-toggle::after{margin-left: 8px;}
 .unsetflex{flex-direction:unset!important;}
 /* .menu-left-wrapper .navbar-dark .navbar-nav .nav-link.unsetflex {padding:0px 10px!important;} */
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account {background: #1f1e23; width: auto; margin:0px 10px !important; max-height: 386px; overflow-y:auto;position:initial!important;}
