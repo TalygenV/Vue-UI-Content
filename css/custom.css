@@ -7929,7 +7929,7 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span e
     margin-top: 20px;
     z-index: 9;
   }
-
+  #modalAddTeam .multiselect{z-index:unset!important;}    /**Harjit 24 Feb 25**/
 
 
 
