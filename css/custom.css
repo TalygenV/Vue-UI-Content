@@ -7940,4 +7940,7 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span e
   .detail.cstm-width p {line-height: 22px !important;}
   #divPopNotificationData .list_rw.list-view-more{ padding-left: 10px; border-bottom: none; padding-top: 20px!important;  padding-bottom: 20px!important;}
  .lineht_24{line-height: 24px;}
+ #divPopNotificationData .inbox_list.notify-list-new{height: 400px;}
+ .navbar #divPopNotificationData div{line-height:normal!important;}
+
  /******Notification popup - Ridham PC**********/
