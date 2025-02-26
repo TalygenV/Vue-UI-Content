@@ -7934,5 +7934,10 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span e
   }
   #modalAddTeam .multiselect{z-index:unset!important;}    /**Harjit 24 Feb 25**/
 
-
-
+/******Notification popup - Ridham PC**********/
+  li .mobile-action.more-action-set .actions.mobileaction{width:27px;}
+  li .mobile-action.more-action-set .actions.mobileaction .action-list-box{position: absolute; width: 0px; display: inline-block;}
+  .detail.cstm-width p {line-height: 22px !important;}
+  #divPopNotificationData .list_rw.list-view-more{ padding-left: 10px; border-bottom: none; padding-top: 20px!important;  padding-bottom: 20px!important;}
+ .lineht_24{line-height: 24px;}
+ /******Notification popup - Ridham PC**********/
