@@ -307,6 +307,9 @@ input[type=checkbox] + .slider span.slider-no{display: inline-block; padding-rig
 
 input[type=checkbox] + .slider span.slider-yes { padding-right: 5px !important; margin-left: 0px; line-height: 20px;}
 
+.newswitch_toggle.switch {width: 87px;} 
+
+
    input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:21px;}/**left:40px HS 24jun24***/
 /* input:checked + .slider:before {-webkit-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); left:auto; right: 23px!important;} */
 
