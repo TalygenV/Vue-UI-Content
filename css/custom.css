@@ -7955,6 +7955,8 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span e
 .menu-left-wrapper #notificationButtons #MarkAllRead{line-height: 45px;}
 
 
+.menu-left-wrapper .navbar-nav #divPopNotificationData em{padding-right:unset;}
+
 
  /******Notification popup - Ridham PC**********/
  .module-l-grey-clr.div-click-event{padding: 0px!important;}
