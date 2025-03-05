@@ -7942,10 +7942,10 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span e
   #modalAddTeam .multiselect{z-index:unset!important;}    /**Harjit 24 Feb 25**/
 
 /******Notification popup - Ridham PC**********/
-  li .mobile-action.more-action-set .actions.mobileaction{width:27px;}
-  li .mobile-action.more-action-set .actions.mobileaction .action-list-box{position: absolute; width: 0px; display: inline-block;}
-  .detail.cstm-width p {line-height: 22px !important;}
-  #divPopNotificationData .list_rw.list-view-more{ padding-left: 10px; border-bottom: none; padding-top: 20px!important;  padding-bottom: 20px!important;}
+ li .mobile-action.more-action-set .actions.mobileaction{width:27px;}
+ li .mobile-action.more-action-set .actions.mobileaction .action-list-box{position: absolute; width: 0px; display: inline-block;}
+ .detail.cstm-width p {line-height: 22px !important;}
+ #divPopNotificationData .list_rw.list-view-more{ padding-left: 10px; border-bottom: none; padding-top: 20px!important;  padding-bottom: 20px!important;}
  .lineht_24{line-height: 24px;}
  #divPopNotificationData .inbox_list.notify-list-new{height: 400px;}
  .navbar #divPopNotificationData div{line-height:normal!important;}
@@ -7953,10 +7953,7 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span e
 .navbar #divPopNotificationData .inbox_list.notify-list-new .listing_notify .notify-container .list_rw .detail p{text-wrap: auto!important;}
 
 .menu-left-wrapper #notificationButtons #MarkAllRead{line-height: 45px;}
-
-
 .menu-left-wrapper .navbar-nav #divPopNotificationData em{padding-right:unset;}
-
 
  /******Notification popup - Ridham PC**********/
  .module-l-grey-clr.div-click-event{padding: 0px!important;}
