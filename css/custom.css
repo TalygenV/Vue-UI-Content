@@ -6032,7 +6032,9 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
     .menu-left-wrapper #navbarResponsive ul.navbar-nav li #divPopNotificationData .my-popups.modal.right .modal-header{padding: 2px 0px 2px 60px;}
     .menu-left-wrapper #navbarResponsive ul.navbar-nav li #divPopNotificationData .my-popups.modal.right .modal-header .modal-title{line-height: 45px!important;}
 
-    .menu-left-wrapper #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationData .nav-link{padding: 10px!important; margin: 0px;}
+    .menu-left-wrapper #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationData .nav-link{padding: 10px!important; margin: 0px;border-radius: 0px;}
+
+    .menu-left-wrapper #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationData .responsive-tabs li.nav-item{margin-bottom: -1px;}
 
     .menu-left-wrapper.wrapper-shrink #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationData span{display: inline!important;}
     .menu-left-wrapper.wrapper-shrink #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationData span.input-group {display: flex !important;}
