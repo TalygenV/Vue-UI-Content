@@ -456,7 +456,7 @@ input:checked + .toggle {  background: #448ee4;  color: #fff;}
 /*-----------------eta-setting****************/
 
 
-
+#AddManually.addman{background-color: #17a2b8; border-color: #17a2b8;}
 
 
 
@@ -1027,3 +1027,4 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
 
 #teamview.p-action-btn{border-left: 2px solid #ececec!important; background-color: #fff!important;}
 #teamview.p-action-btn:hover{background: #dfdfdf!important;}
+
