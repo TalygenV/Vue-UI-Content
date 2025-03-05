@@ -456,7 +456,7 @@ input:checked + .toggle {  background: #448ee4;  color: #fff;}
 /*-----------------eta-setting****************/
 
 
-#AddManually.addman{background-color: #17a2b8; border-color: #17a2b8;}
+#AddManually.addman{background-color: #17a2b8!important; border-color: #17a2b8;}
 
 
 
