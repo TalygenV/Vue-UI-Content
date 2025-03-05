@@ -4582,46 +4582,46 @@ ul.defaultrating li{color:#cccccc;}
 }
 /*******HR Candidate Profile - Harjit Singh 09Oct2021************************/
 
-.menu-left-wrapper #divPopNotificationData .list-rw-detail{line-height: 18px; float: left; white-space: initial; word-break: break-word;}
+.menu-left-wrapper #divPopNotificationDataOuter .list-rw-detail{line-height: 18px; float: left; white-space: initial; word-break: break-word;}
 
 .menu-left-wrapper #popNotificationCount{left:15px!important; top:-14px!important;}
 
-.menu-left-wrapper #divPopNotificationData{left: 245px; top:400px;}
-.menu-left-wrapper.wrapper-shrink #divPopNotificationData{left: 100px; top:400px;}
+.menu-left-wrapper #divPopNotificationDataOuter{left: 245px; top:400px;}
+.menu-left-wrapper.wrapper-shrink #divPopNotificationDataOuter{left: 100px; top:400px;}
 
-#divPopNotificationData.themecontrol{background:#fff; width:380px; max-width:380px; z-index: 99;}/***z-index added, as in left menu, full menu overlapping notifications - Harjit Singh 15Nov2021**********/
+#divPopNotificationDataOuter.themecontrol{background:#fff; width:380px; max-width:380px; z-index: 99;}/***z-index added, as in left menu, full menu overlapping notifications - Harjit Singh 15Nov2021**********/
 /* #divPopNotificationData .inbox_list{padding: 10px 0px 0px 0px;} */
-#divPopNotificationData .inbox_list{padding: 10px 10px 0 10px !important;}
+#divPopNotificationDataOuter .inbox_list{padding: 10px 10px 0 10px !important;}
 
-#divPopNotificationData .inbox_list.notify-list-new{padding:10px 10px 0 10px; width: 100%;}
+#divPopNotificationDataOuter .inbox_list.notify-list-new{padding:10px 10px 0 10px; width: 100%;}
 
 @media only screen and (max-width:500px) {
-#divPopNotificationData.themecontrol{width:auto; max-width:unset;}
+#divPopNotificationDataOuter.themecontrol{width:auto; max-width:unset;}
 }
 
-#divPopNotificationData .mCSB_scrollTools .mCSB_draggerContainer{right:-10px;}
-#divPopNotificationData .mCSB_inside > .mCSB_container{margin-right:5px;}
-#divPopNotificationData .mCSB_draggerContainer{width:5px;}
-#divPopNotificationData .mCSB_scrollTools{width:6px;}
+#divPopNotificationDataOuter .mCSB_scrollTools .mCSB_draggerContainer{right:-10px;}
+#divPopNotificationDataOuter .mCSB_inside > .mCSB_container{margin-right:5px;}
+#divPopNotificationDataOuter .mCSB_draggerContainer{width:5px;}
+#divPopNotificationDataOuter .mCSB_scrollTools{width:6px;}
 
 /* #divPopNotificationData .list_rw .detail p.timer{line-height:23px} */
-#divPopNotificationData .list_rw .detail p.timer_notification{line-height:23px}
-#divPopNotificationData .list_rw{padding: 5px 5px 0px 5px!important; margin:0px;}
-#divPopNotificationData .list_rw .icon{border:1px solid #fff;}
-#divPopNotificationData .list_rw:nth-child(odd) { background:#e6e6e6;}
-#divPopNotificationData .list_rw:nth-child(even) { background:#f4f2f2;}
-#divPopNotificationData .list_rw:nth-child(odd):hover {background:#525f65;color:#fff;}
-#divPopNotificationData .list_rw:nth-child(even):hover{background:#525f65;color:#fff;}
-#divPopNotificationData .list_rw:nth-child(odd):hover .detail p a{color:#fff!important;}
-#divPopNotificationData .list_rw:nth-child(even):hover .detail p a{color:#fff!important;}
-#divPopNotificationData .list_rw:nth-child(odd):hover .detail p.unread a{color:#fff!important;}
-#divPopNotificationData .list_rw:nth-child(even):hover .detail p.unread a{color:#fff!important;}
-#divPopNotificationData .list_rw:nth-child(odd):hover .detail p.timer {color:#fff!important;}
-#divPopNotificationData .list_rw:nth-child(even):hover .detail p.timer {color:#fff!important;}
+#divPopNotificationDataOuter .list_rw .detail p.timer_notification{line-height:23px}
+#divPopNotificationDataOuter .list_rw{padding: 5px 5px 0px 5px!important; margin:0px;}
+#divPopNotificationDataOuter .list_rw .icon{border:1px solid #fff;}
+#divPopNotificationDataOuter .list_rw:nth-child(odd) { background:#e6e6e6;}
+#divPopNotificationDataOuter .list_rw:nth-child(even) { background:#f4f2f2;}
+#divPopNotificationDataOuter .list_rw:nth-child(odd):hover {background:#525f65;color:#fff;}
+#divPopNotificationDataOuter .list_rw:nth-child(even):hover{background:#525f65;color:#fff;}
+#divPopNotificationDataOuter .list_rw:nth-child(odd):hover .detail p a{color:#fff!important;}
+#divPopNotificationDataOuter .list_rw:nth-child(even):hover .detail p a{color:#fff!important;}
+#divPopNotificationDataOuter .list_rw:nth-child(odd):hover .detail p.unread a{color:#fff!important;}
+#divPopNotificationDataOuter .list_rw:nth-child(even):hover .detail p.unread a{color:#fff!important;}
+#divPopNotificationDataOuter .list_rw:nth-child(odd):hover .detail p.timer {color:#fff!important;}
+#divPopNotificationDataOuter .list_rw:nth-child(even):hover .detail p.timer {color:#fff!important;}
 
-#divPopNotificationData .list_rw:nth-child(odd):hover a.inboxarrowdowncnt{color:#fff;}
-#divPopNotificationData .list_rw:nth-child(even):hover a.inboxarrowdowncnt{color:#fff;}
-#divPopNotificationData a.inboxarrowdowncnt {color:#212529;}
+#divPopNotificationDataOuter .list_rw:nth-child(odd):hover a.inboxarrowdowncnt{color:#fff;}
+#divPopNotificationDataOuter .list_rw:nth-child(even):hover a.inboxarrowdowncnt{color:#fff;}
+#divPopNotificationDataOuter a.inboxarrowdowncnt {color:#212529;}
 
 .header-msg-date{line-height:25px;}
 .crossicon{right: -7px;top: -8px;position: absolute;font-size: 29px;height: 30px;width: 36px;z-index: 99;}
@@ -6027,17 +6027,17 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
     .menu-left-wrapper #navbarResponsive ul.navbar-nav li .my-popups .modal-content{max-height: 200px;}
     .menu-left-wrapper #navbarResponsive ul.navbar-nav li #choosewizards.my-popups .modal-content{max-height: unset;}
 
-    .menu-left-wrapper #navbarResponsive ul.navbar-nav li #divPopNotificationData .my-popups .modal-content{max-height: unset;}
+    .menu-left-wrapper #navbarResponsive ul.navbar-nav li #divPopNotificationDataOuter .my-popups .modal-content{max-height: unset;}
 
-    .menu-left-wrapper #navbarResponsive ul.navbar-nav li #divPopNotificationData .my-popups.modal.right .modal-header{padding: 2px 0px 2px 60px;}
-    .menu-left-wrapper #navbarResponsive ul.navbar-nav li #divPopNotificationData .my-popups.modal.right .modal-header .modal-title{line-height: 45px!important;}
+    .menu-left-wrapper #navbarResponsive ul.navbar-nav li #divPopNotificationDataOuter .my-popups.modal.right .modal-header{padding: 2px 0px 2px 60px;}
+    .menu-left-wrapper #navbarResponsive ul.navbar-nav li #divPopNotificationDataOuter .my-popups.modal.right .modal-header .modal-title{line-height: 45px!important;}
 
-    .menu-left-wrapper #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationData .nav-link{padding: 10px!important; margin: 0px;border-radius: 0px;}
+    .menu-left-wrapper #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationDataOuter .nav-link{padding: 10px!important; margin: 0px;border-radius: 0px;}
 
-    .menu-left-wrapper #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationData .responsive-tabs li.nav-item{margin-bottom: -1px;}
+    .menu-left-wrapper #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationDataOuter .responsive-tabs li.nav-item{margin-bottom: -1px;}
 
-    .menu-left-wrapper.wrapper-shrink #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationData span{display: inline!important;}
-    .menu-left-wrapper.wrapper-shrink #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationData span.input-group {display: flex !important;}
+    .menu-left-wrapper.wrapper-shrink #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationDataOuter span{display: inline!important;}
+    .menu-left-wrapper.wrapper-shrink #navbarResponsive ul.navbar-nav.header-menu-for-left li #divPopNotificationDataOuter span.input-group {display: flex !important;}
 
 
 }
