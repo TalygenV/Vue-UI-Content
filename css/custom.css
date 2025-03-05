@@ -3543,7 +3543,8 @@ ul.canvan-view-list {display: flex; flex-wrap: wrap;	min-width: 1200px;}
 .list_rw .detail p{margin-bottom:0}
 .list_rw .detail p a{margin-bottom:0;font-weight:300;font-size:14px;line-height:17px;color:#333;display:block}
 .list_rw .detail p a:hover{color:#007bff}
-.list_rw .detail p.timer{font-size:13px;color:#737373;font-weight:400}
+/* .list_rw .detail p.timer{font-size:13px;color:#737373;font-weight:400} */
+.list_rw .detail p.timer_notofocation{font-size:13px;color:#737373;font-weight:400}
 .list_rw:last-child{border-bottom:0}
 a.text-red{color:#dc3545}
 .list-rw-detail {  padding: 8px; padding-left: 40px; width: 100%; font-size: 13px; }
@@ -4603,7 +4604,8 @@ ul.defaultrating li{color:#cccccc;}
 #divPopNotificationData .mCSB_draggerContainer{width:5px;}
 #divPopNotificationData .mCSB_scrollTools{width:6px;}
 
-#divPopNotificationData .list_rw .detail p.timer{line-height:23px}
+/* #divPopNotificationData .list_rw .detail p.timer{line-height:23px} */
+#divPopNotificationData .list_rw .detail p.timer_notification{line-height:23px}
 #divPopNotificationData .list_rw{padding: 5px 5px 0px 5px!important; margin:0px;}
 #divPopNotificationData .list_rw .icon{border:1px solid #fff;}
 #divPopNotificationData .list_rw:nth-child(odd) { background:#e6e6e6;}
