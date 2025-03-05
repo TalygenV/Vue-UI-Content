@@ -7950,7 +7950,7 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span e
  #divPopNotificationData .inbox_list.notify-list-new{height: 400px;}
  .navbar #divPopNotificationData div{line-height:normal!important;}
 
- .navbar #divPopNotificationData .inbox_list.notify-list-new .listing_notify.detail.cstm-width p{text-wrap: auto;}
+ .navbar #divPopNotificationData .inbox_list.notify-list-new .listing_notify .detail.cstm-width p{text-wrap: auto;}
 
  /******Notification popup - Ridham PC**********/
  .module-l-grey-clr.div-click-event{padding: 0px!important;}
