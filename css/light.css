@@ -968,8 +968,8 @@ a.b-light-green:hover{ background-color: #9acb3e!important; color: #fff!importan
 
 /****2024 - New left menu - Harjit Singh*****/
 
-.navbar #divPopNotificationData div.theme-primary.text-white{color:#303030;}
-.navbar #divPopNotificationData div.theme-primary.text-white a.text-white{color:#303030;}
+.navbar #divPopNotificationData div.theme-primary.text-white{color:#303030!important;}
+.navbar #divPopNotificationData div.theme-primary.text-white a.text-white{color:#303030!important;}
 
 .menu-left-wrapper .navbar-dark.bg-dark {border-right: 6px solid #a4a4a4;}
 .menu-left-wrapper.wrapper-shrink ul li.myprof_newlogobase {border-right: 6px solid #a4a4a4;}
