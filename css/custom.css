@@ -6024,10 +6024,10 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 
 @media (min-width:992px) { 
     .menu-left-wrapper.wrapper-shrink #navbarResponsive ul.navbar-nav li .my-popups .modal-content{max-height: 200px;}
-    /* .menu-left-wrapper #navbarResponsive ul.navbar-nav li .my-popups .modal-content{max-height: 200px;} */
+    .menu-left-wrapper #navbarResponsive ul.navbar-nav li .my-popups .modal-content{max-height: 200px;}
     .menu-left-wrapper #navbarResponsive ul.navbar-nav li #choosewizards.my-popups .modal-content{max-height: unset;}
 
-    .menu-left-wrapper #navbarResponsive ul.navbar-nav li .my-popups .initialpopupbase.menuwidgets .modal-content.height200fix{max-height: 200px;}
+    /* .menu-left-wrapper #navbarResponsive ul.navbar-nav li .my-popups .initialpopupbase.menuwidgets .modal-content.height200fix{max-height: 200px;} */
   
     .menu-left-wrapper #navbarResponsive ul.navbar-nav li #divPopNotificationData .my-popups .modal-content{max-height: unset;}
 
