@@ -1691,6 +1691,11 @@ span.text-lmenu{display:none;}
 
 .navbar-dark .navbar-nav.header-menu-for-left .nav-link{padding: 0px 20px!important; margin: 0px 10px;}
 
+@media (max-width:1023px)
+{
+    .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu{top:47px!important;}
+}
+
 /****Sub menu - Shrink***/
 .menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account{width: 280px; left: 89px; top:216px; position:absolute!important;  border-radius:0px 10px 10px 0px;}
 .menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account li{position:relative; }
