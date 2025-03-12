@@ -6029,7 +6029,7 @@ section.help-and-guide .innerminheight .col-md-4.mb-4 a:hover{background: #f1f1f
 
 .menu-left-wrapper .my-popups .modal-content .modal-header .theme-primary .p-name{ padding-left: 0px;}
 
-.menu-left-wrapper .my-popups .modal-content .modal-header .theme-primary .close em {padding: 0px;}
+/* .menu-left-wrapper .my-popups .modal-content .modal-header .theme-primary .close em {padding: 0px;} */
 
 @media (min-width:992px) { 
     .menu-left-wrapper.wrapper-shrink #navbarResponsive ul.navbar-nav li .my-popups .modal-content{max-height: 200px;}
