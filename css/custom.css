@@ -4601,7 +4601,8 @@ ul.defaultrating li{color:#cccccc;}
 #divPopNotificationData .inbox_list.notify-list-new{padding:10px 10px 0 10px; width: 100%;}
 
 @media only screen and (max-width:500px) {
-#divPopNotificationData.themecontrol{width:auto; max-width:unset;}
+#divPopNotificationData.themecontrol{width: 90% !important; max-width: 90% !important; right: unset !important;}
+/* #divPopNotificationData.themecontrol{width:auto; max-width:unset;} */
 }
 
 #divPopNotificationData .mCSB_scrollTools .mCSB_draggerContainer{right:-10px;}
