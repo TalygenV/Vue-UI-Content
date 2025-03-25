@@ -7964,9 +7964,10 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span e
 
 .navbar #divPopNotificationData .inbox_list.notify-list-new .listing_notify .notify-container .list_rw .detail p{text-wrap: auto!important;}
 
-.menu-left-wrapper #notificationButtons #MarkAllRead{line-height: 45px;}
+/* .menu-left-wrapper #notificationButtons #MarkAllRead{line-height: 45px;} *****/
 .menu-left-wrapper .navbar-nav #divPopNotificationData em{padding-right:unset;}
 
+.modal-content.modal_inmenu .modal-header{line-height: normal; padding: 12px 12px 12px 60px;}
 
  /******Notification popup - Ridham PC**********/
  .module-l-grey-clr.div-click-event{padding: 0px!important;}
