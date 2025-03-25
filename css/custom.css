@@ -7971,5 +7971,8 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span e
 .modal-content.modal_inmenu .modal-header{line-height: normal; padding: 12px 12px 12px 60px;} 
 .modal_inmenu label, .modal_inmenu div {line-height: normal;}
 
+.navbar-dark .navbar-nav.header-menu-for-left .modal_inmenu .nav-link{padding: unset; margin: unset;}
+
+
  /******Notification popup - Ridham PC**********/
  .module-l-grey-clr.div-click-event{padding: 0px!important;}
