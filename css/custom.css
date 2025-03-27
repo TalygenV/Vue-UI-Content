@@ -7979,3 +7979,5 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 
  /******Notification popup - Ridham PC**********/
  .module-l-grey-clr.div-click-event{padding: 0px!important;}
+
+ .list-actions .form-group label {line-height: 1.5;} /**Mohit Add report - folder popup***/
