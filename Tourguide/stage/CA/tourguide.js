@@ -58,43 +58,43 @@ touritem["User/Dashboard"] = {
   ],
 };
 
-// touritem["User/Home"] = {
-//   ModuleDisplayName: "Company Setup",
-//   ModuleName: "User",
-//   displayName: "Home",
-//   items: [
-//     {
-//       selector: "#headingOne1",
-//       step: 1,
-//       title: "Inbox",
-//       content: "InboxContent",
-//     },
-//     {
-//       selector: "#headingTwo2",
-//       step: 2,
-//       title: "Activities",
-//       content: "ActivitiesContent",
-//     },
-//     {
-//       selector: "#headingThree2",
-//       step: 3,
-//       title: "Bookmarks",
-//       content: "Bookmarks",
-//     },
-//     {
-//       selector: "#divInboxSibling",
-//       step: 4,
-//       title: "Reports",
-//       content: "ReportsContent",
-//     },
-//     {
-//       selector: "#hlkAddMoreReports",
-//       step: 5,
-//       title: "AddMore",
-//       content: "AddMoreContent",
-//     },
-//   ],
-// };
+touritem["User/Home"] = {
+  ModuleDisplayName: "Company Setup",
+  ModuleName: "User",
+  displayName: "Home",
+  items: [
+    {
+      selector: "#headingOne1",
+      step: 1,
+      title: "Inbox",
+      content: "InboxContent",
+    },
+    {
+      selector: "#headingTwo2",
+      step: 2,
+      title: "Activities",
+      content: "ActivitiesContent",
+    },
+    {
+      selector: "#headingThree2",
+      step: 3,
+      title: "Bookmarks",
+      content: "Bookmarks",
+    },
+    {
+      selector: "#divInboxSibling",
+      step: 4,
+      title: "Reports",
+      content: "ReportsContent",
+    },
+    {
+      selector: "#hlkAddMoreReports",
+      step: 5,
+      title: "AddMore",
+      content: "AddMoreContent",
+    },
+  ],
+};
 touritem["Project/Index"] = {
   ModuleDisplayName: "Project Management",
   MouseEvent: "Project",
@@ -604,9 +604,9 @@ touritem["Client/Index"] = {
   displayName: "Client",
   items: [
     {
-      selector: "#accordionEx .left-filter",
+      selector: "#accordionEx",
       step: 1,
-      title: "SearchRule",
+      title: "SearchFilters",
       content: "SearchAccountUsingPredefinedSearchFilters",
     },
     {
@@ -763,37 +763,6 @@ touritem["CRM/ManageLead"] = {
     },
   ],
 };
-touritem["CRM/DealListing"] = {
-  ModuleDisplayName: "CRM Management",
-  ModuleName: "CRM",
-  displayName: "Deal Listing",
-  items: [
-    {
-      selector: ".SearchFilters_div",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchDealFilterContent",
-    },
-    {
-      selector: "#crmdeals_status",
-      step: 2,
-      title: "Status" + " " + "Update",
-      content: "UpdateDealStatusContent",
-    },
-    {
-      selector: "#AddDealContent_a",
-      step: 3,
-      title: "Add" + " " + "Deal",
-      content: "AddDealContent",
-    },
-    {
-      selector: "#ViewDealDetailContent_a",
-      step: 4,
-      title: "ViewDetail",
-      content: "ViewDealDetailContent",
-    },
-  ],
-};
 touritem["ApprovalChain/Index"] = {
   ModuleDisplayName: "Approval",
   ModuleName: "ApprovalChain",
@@ -840,7 +809,7 @@ touritem["CRM/ManageAccount"] = {
     {
       selector: ".formbtn",
       step: 1,
-      title: "AddAccount",
+      title: "EnterAccountDetails",
       content: "AddAccountDetailContent",
     },
   ],
@@ -977,7 +946,35 @@ touritem["CRM/PurchaseOrderListing"] = {
     },
   ],
 };
-
+touritem["CRM/InvoiceListing"] = {
+  displayName: "Invoice List",
+  items: [
+    {
+      selector: "#crmleftsearch",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchInvoiceFilterContent",
+    },
+    {
+      selector: "#crmlistingStatus_span",
+      step: 2,
+      title: "Status" + " " + "Update",
+      content: "UpdateInvoiceStatusContent",
+    },
+    {
+      selector: "#addInvoice_a",
+      step: 3,
+      title: "AddInvoice",
+      content: "AddInvoiceContent",
+    },
+    {
+      selector: "#viewLeadeContent_a",
+      step: 4,
+      title: "ViewDetail",
+      content: "ViewInvoiceContent",
+    },
+  ],
+};
 touritem["CRM/ItemListing"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
@@ -1066,13 +1063,13 @@ touritem["CRM/Accounts"] = {
   displayName: "Accounts",
   items: [
     {
-      selector: ".account_widget",
+      selector: "#viewLeadeContent_a",
       step: 1,
       title: "Widgets",
       content: "SearchAccountFilterContent",
     },
     {
-      selector: ".account_tour",
+      selector: "#accordionEx",
       step: 2,
       title: "SearchFilters",
       content: "SearchAccountFilter1Content",
@@ -1091,66 +1088,22 @@ touritem["CRM/Accounts"] = {
     },
   ],
 };
-touritem["CRM/CampaignListing"] = {
-  ModuleDisplayName: "CRM Management",
-  ModuleName: "CRM",
-  displayName: "Campaign Listing",
-  items: [
-    {
-      selector: ".divMainCampaignData_a",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchCampaignFilterContent",
-    },
-    {
-      selector: ".addCampaign_a",
-      step: 2,
-      title: "AddCampaign",
-      content: "AddCampaignContent",
-    },
-  ],
-};
 touritem["CRM/ContactListing"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
   displayName: "Contact Listing",
   items: [
     {
-      selector: ".divContactData_a",
+      selector: "#accordionEx",
       step: 1,
       title: "SearchFilters",
       content: "SearchContactFilterContent",
     },
     {
-      selector: ".addcontact_a",
+      selector: "#addContact_a",
       step: 2,
       title: "AddContact",
       content: "AddContactContent",
-    },
-  ],
-};
-touritem["CRM/ContractListing"] = {
-  ModuleDisplayName: "CRM Management",
-  ModuleName: "CRM",
-  displayName: "Contract Listing",
-  items: [
-    {
-      selector: ".divContactData_a",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchContractFilterContent",
-    },
-    {
-      selector: ".addcontact_a",
-      step: 2,
-      title: "AddContract",
-      content: "AddContractContent",
-    },
-    {
-      selector: "#action-list",
-      step: 3,
-      title: "AddContract",
-      content: "AddContractContent",
     },
   ],
 };
@@ -1934,43 +1887,43 @@ touritem["User/Dashboard"] = {
   ],
 };
 
-// touritem["User/Home"] = {
-//   ModuleDisplayName: "Company Setup",
-//   ModuleName: "User",
-//   displayName: "Home",
-//   items: [
-//     {
-//       selector: "#headingOne1",
-//       step: 1,
-//       title: "Inbox",
-//       content: "InboxContent",
-//     },
-//     {
-//       selector: "#headingTwo2",
-//       step: 2,
-//       title: "Activities",
-//       content: "ActivitiesContent",
-//     },
-//     {
-//       selector: "#headingThree2",
-//       step: 3,
-//       title: "Bookmarks",
-//       content: "Bookmarks",
-//     },
-//     {
-//       selector: "#divInboxSibling",
-//       step: 4,
-//       title: "Reports",
-//       content: "ReportsContent",
-//     },
-//     {
-//       selector: "#hlkAddMoreReports",
-//       step: 5,
-//       title: "AddMore",
-//       content: "AddMoreContent",
-//     },
-//   ],
-// };
+touritem["User/Home"] = {
+  ModuleDisplayName: "Company Setup",
+  ModuleName: "User",
+  displayName: "Home",
+  items: [
+    {
+      selector: "#headingOne1",
+      step: 1,
+      title: "Inbox",
+      content: "InboxContent",
+    },
+    {
+      selector: "#headingTwo2",
+      step: 2,
+      title: "Activities",
+      content: "ActivitiesContent",
+    },
+    {
+      selector: "#headingThree2",
+      step: 3,
+      title: "Bookmarks",
+      content: "Bookmarks",
+    },
+    {
+      selector: "#divInboxSibling",
+      step: 4,
+      title: "Reports",
+      content: "ReportsContent",
+    },
+    {
+      selector: "#hlkAddMoreReports",
+      step: 5,
+      title: "AddMore",
+      content: "AddMoreContent",
+    },
+  ],
+};
 touritem["Project/Index"] = {
   ModuleDisplayName: "Project Management",
   ModuleName: "Project",
@@ -2300,7 +2253,7 @@ touritem["LeaveApproval/Index"] = {
     //}
   ],
 };
-touritem["CRM/ManageLead"] = {
+touritem["CRM/ManageLeadAdd"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
   displayName: "Manage Lead",
@@ -2308,8 +2261,21 @@ touritem["CRM/ManageLead"] = {
     {
       selector: ".AddLeadDetail_a",
       step: 1,
-      title: "enter" + " " + "LeadDetail",
+      title: "enter" + " " + "Lead Detail",
       content: "AddLeadDetailContent",
+    },
+  ],
+};
+touritem["CRM/ManageLeadEdit"] = {
+  ModuleDisplayName: "CRM Management",
+  ModuleName: "CRM",
+  displayName: "Manage Lead",
+  items: [
+    {
+      selector: ".AddLeadDetail_a",
+      step: 1,
+      title: "enter" + " " + "Lead Detail",
+      content: "UpdateLeadDetailContent",
     },
   ],
 };
@@ -2325,19 +2291,19 @@ touritem["CRM/DealListing"] = {
       content: "DefaultViewContent",
     },
     {
-      selector: ".defaultedit",
+      selector: "#example",
       step: 2,
       title: "MangeView",
       content: "ManageviewContent",
     },
     {
-      selector: "#AddNewView",
+      selector: ".modal-dialog .float-right a:first-of-type",
       step: 3,
-      title: "AddNew",
-      content: "AddNewViewContent",
+      title: "AddContract",
+      content: "AddNewContent",
     },
     {
-      selector: "#Filters",
+      selector: "#Deal_Filter",
       step: 4,
       title: "Filters",
       content: "DealFiltersContent",
@@ -2355,7 +2321,7 @@ touritem["CRM/DealListing"] = {
       content: "AdditionalOwnerContent",
     },
     {
-      selector: "#action-list",
+      selector: ".action-list-box .list-actions",
       step: 7,
       title: "actionButton",
       content: "actionButtonContent",
@@ -2519,7 +2485,35 @@ touritem["CRM/QuotationListing"] = {
     },
   ],
 };
-
+touritem["CRM/InvoiceListing"] = {
+  displayName: "Invoice List",
+  items: [
+    {
+      selector: "#crmleftsearch",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchInvoiceFilterContent",
+    },
+    {
+      selector: "#crmlistingStatus_span",
+      step: 2,
+      title: "Status" + " " + "Update",
+      content: "UpdateInvoiceStatusContent",
+    },
+    {
+      selector: "#addInvoice_a",
+      step: 3,
+      title: "AddInvoice",
+      content: "AddInvoiceContent",
+    },
+    {
+      selector: "#viewLeadeContent_a",
+      step: 4,
+      title: "ViewDetail",
+      content: "ViewInvoiceContent",
+    },
+  ],
+};
 touritem["CRM/ItemListing"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
@@ -2627,22 +2621,22 @@ touritem["CRM/StageListing"] = {
       content: "DefaultViewContent",
     },
     {
-      selector: ".defaultedit",
+      selector: "#example",
       step: 2,
       title: "MangeView",
       content: "ManageviewContent",
     },
     {
-      selector: "#AddNewView",
+      selector: ".modal-dialog .float-right a:first-of-type",
       step: 3,
       title: "AddNew",
-      content: "AddNewViewContent",
+      content: "AddNewContent",
     },
     {
-      selector: "#Filters",
+      selector: "#StageFilters",
       step: 4,
       title: "Filters",
-      content: "FiltersContent",
+      content: "FilterStageContent",
     },
   ],
 };
@@ -2653,13 +2647,13 @@ touritem["CRM/Accounts"] = {
   displayName: "Accounts",
   items: [
     {
-      selector: ".account_widget",
+      selector: "#viewLeadeContent_a",
       step: 1,
       title: "Widgets",
       content: "SearchAccountFilterContent",
     },
     {
-      selector: ".account_tour",
+      selector: "#accordionEx",
       step: 2,
       title: "SearchFilters",
       content: "SearchAccountFilter1Content",
@@ -2690,25 +2684,25 @@ touritem["CRM/CampaignListing"] = {
       content: "DefaultViewContent",
     },
     {
-      selector: ".defaultedit",
+      selector: "#example",
       step: 2,
       title: "MangeView",
       content: "ManageviewContent",
     },
     {
-      selector: "#AddNewView",
+      selector: ".modal-dialog .float-right a:first-of-type",
       step: 3,
-      title: "AddNew",
-      content: "AddNewViewContent",
+      title: "AddContract",
+      content: "AddNewContent",
     },
     {
-      selector: "#Filters",
+      selector: "#CampaignFilter",
       step: 4,
       title: "Filters",
       content: "CampaignFiltersContent",
     },
     {
-      selector: "#action-list",
+      selector: ".action-list-box .list-actions",
       step: 5,
       title: "actionButton",
       content: "actionButtonContent",
@@ -2819,13 +2813,13 @@ touritem["CRM/ContactListing"] = {
   displayName: "Contact Listing",
   items: [
     {
-      selector: ".divContactData_a",
+      selector: "#accordionEx",
       step: 1,
       title: "SearchFilters",
       content: "SearchContactFilterContent",
     },
     {
-      selector: ".addcontact_a",
+      selector: "#addContact_a",
       step: 2,
       title: "AddContact",
       content: "AddContactContent",
@@ -2844,25 +2838,25 @@ touritem["CRM/ContractListing"] = {
       content: "DefaultViewContent",
     },
     {
-      selector: ".defaultedit",
+      selector: "#example",
       step: 2,
       title: "MangeView",
       content: "ManageviewContent",
     },
     {
-      selector: "#AddNewView",
+      selector: ".modal-dialog .float-right a:first-of-type",
       step: 3,
-      title: "AddNew",
-      content: "AddNewViewContent",
+      title: "AddContract",
+      content: "AddNewContent",
     },
     {
-      selector: "#Filters",
+      selector: "#Contract_Filter",
       step: 4,
       title: "Filters",
       content: "ContractFiltersContent",
     },
     {
-      selector: "#action-list",
+      selector: ".action-list-box .list-actions",
       step: 5,
       title: "actionButton",
       content: "actionButtonContent",
@@ -3069,7 +3063,7 @@ touritem["Client/Index"] = {
   displayName: "Client",
   items: [
     {
-      selector: "#accordionEx .left-filter",
+      selector: "#accordionEx",
       step: 1,
       title: "SearchRule",
       content: "SearchAccountUsingPredefinedSearchFilters ",
@@ -3159,26 +3153,26 @@ touritem["UserAvailability/Add"] = {
     },
   ],
 };
-// touritem["Review/Main"] = {
-//   ModuleDisplayName: "Performance Review",
-//   ModuleName: "Review",
-//   displayName: "Review Listing",
-//   items: [
-//     {
-//       selector: ".responivecustomtab",
-//       step: 1,
-//       title: "PerformanceManagement",
-//       content: "SetupSkillsAndAddNotesForEmployeesFromSingleScreen",
-//     },
-//     {
-//       selector: "#amyteam",
-//       step: 3,
-//       title: "UserSelection",
-//       content:
-//         "AddNotesCheckTheSkillsSelectingTheUserFromYourTeamAsPerYourRequirement",
-//     },
-//   ],
-// };
+touritem["Review/Main"] = {
+  ModuleDisplayName: "Performance Review",
+  ModuleName: "Review",
+  displayName: "Review Listing",
+  items: [
+    {
+      selector: ".responivecustomtab",
+      step: 1,
+      title: "PerformanceManagement",
+      content: "SetupSkillsAndAddNotesForEmployeesFromSingleScreen",
+    },
+    {
+      selector: "#amyteam",
+      step: 3,
+      title: "UserSelection",
+      content:
+        "AddNotesCheckTheSkillsSelectingTheUserFromYourTeamAsPerYourRequirement",
+    },
+  ],
+};
 touritem["Review/ReviewListingForReviewer"] = {
   ModuleDisplayName: "Performance Review",
   ModuleName: "Review",
@@ -3249,11 +3243,17 @@ touritem["Ticketing/add"] = {
   displayName: "Add Ticket",
   items: [
     {
-      selector: ".ancsavedraftticket",
+      selector: ".saveTicket",
       step: 1,
       title: "Save as Draft or Submit",
-      content: "SaveAsDraftOrSubmit",
-    },    
+      content: "SaveasDraftorSubmit",
+    },
+    {
+      selector: ".submit",
+      step: 1,
+      title: "Save as Draft or Submit",
+      content: "SaveasDraftorSubmit",
+    },
   ],
 };
 
