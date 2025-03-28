@@ -7937,9 +7937,7 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(13) .listing span e
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(14) .listing span em {color: #757575;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(15) .listing span em {color: #e98b50;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span em {color: #385b66;}
-
 /**** Project Mgmt - Detail Tabs Colored Icons****3Feb25 Trent Sir Approved *****/
-
 .vue-lightbox-close {
     background: #464646 !important;
     border-radius: 100%;
@@ -7951,8 +7949,7 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span e
     margin-top: 20px;
     z-index: 9;
   }
-  #modalAddTeam .multiselect{z-index:unset!important;}    /**Harjit 24 Feb 25**/
-
+#modalAddTeam .multiselect{z-index:unset!important;}    /**Harjit 24 Feb 25**/
 /******Notification popup - Ridham PC**********/
  li .mobile-action.more-action-set .actions.mobileaction{width:27px;}
  li .mobile-action.more-action-set .actions.mobileaction .action-list-box{position: absolute; width: 0px; display: inline-block;}
@@ -7961,23 +7958,20 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span e
  .lineht_24{line-height: 24px;}
  #divPopNotificationData .inbox_list.notify-list-new{height: 400px;}
  .navbar #divPopNotificationData div{line-height:normal!important;}
-
 .navbar #divPopNotificationData .inbox_list.notify-list-new .listing_notify .notify-container .list_rw .detail p{text-wrap: auto!important;}
-
 /* .menu-left-wrapper #notificationButtons #MarkAllRead{line-height: 45px;} *****/
 .menu-left-wrapper .navbar-nav #divPopNotificationData em{padding-right:unset;}
-
-
 .modal-content.modal_inmenu .modal-header{line-height: normal; padding: 12px 12px 12px 60px;} 
 .modal_inmenu label, .modal_inmenu div {line-height: normal;}
-
 .navbar-dark .navbar-nav.header-menu-for-left .modal_inmenu .nav-link{padding: 10px!important; border-radius: 0px;}
 ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -1px;}
-
-
 .menu-left-wrapper .navbar-nav .modal_inmenu em{padding-right: 0px;}
-
  /******Notification popup - Ridham PC**********/
  .module-l-grey-clr.div-click-event{padding: 0px!important;}
-
  .list-actions .form-group label {line-height: 1.5;} /**Mohit Add report - folder popup***/
+
+
+
+
+
+
