@@ -463,7 +463,7 @@ touritem["CRM/DealListing"] = {
     {
       selector: ".modal-dialog .float-right a:first-of-type",
       step: 3,
-      title: "AddContract",
+      title: "Add" + " " + "Content",
       content: "AddNewContent",
     },
     {
@@ -792,7 +792,7 @@ touritem["CRM/CampaignListing"] = {
     {
       selector: ".modal-dialog .float-right a:first-of-type",
       step: 3,
-      title: "AddContract",
+      title: "Add" + " " + "Content",
       content: "AddNewContent",
     },
     {
@@ -846,7 +846,7 @@ touritem["CRM/ContractListing"] = {
     {
       selector: ".modal-dialog .float-right a:first-of-type",
       step: 3,
-      title: "AddContract",
+      title: "Add" + " " + "Content",
       content: "AddNewContent",
     },
     {
