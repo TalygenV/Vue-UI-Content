@@ -7973,5 +7973,6 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 
  .vc-container .vc-time-icon{margin-top: 20px;}
 
-
+#ViolationTimeReminder .col-lg-12.listing{overflow: auto;}
+#ViolationTimeReminder .col-lg-12.listing .table-responsive.tableborder{min-width: 720px;}
 
