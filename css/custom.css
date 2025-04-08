@@ -7982,6 +7982,7 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .multiplechoice .dvMultioptions span.input-group-text.p-0.px-2{ width: 32px;}
 .multiplechoice .dvMultioptions span.input-group-text.p-0.px-2 input{ margin-left: 0px!important;}
 
-
+#divGlobalTaskList table#tableGlobalTaskList td a.round-icon-small{float:none;}
+#divGlobalTaskList table#tableGlobalTaskList #row_undefined td{vertical-align: top;}
 
 
