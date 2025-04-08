@@ -7979,8 +7979,8 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 #ViolationTimeReminder .col-lg-12.listing .table-responsive.tableborder{min-width: 720px;}
  }
 
-.multiplechoice .dvMultioptions span.input-group-text{ width: 32px;}
-.multiplechoice .dvMultioptions span.input-group-text input{ margin-left: 0px!important;}
+.multiplechoice .dvMultioptions span.input-group-text.p-0.px-2{ width: 32px;}
+.multiplechoice .dvMultioptions span.input-group-text.p-0.px-2 input{ margin-left: 0px!important;}
 
 
 
