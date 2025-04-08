@@ -3523,7 +3523,7 @@ ul.canvan-view-list {display: flex; flex-wrap: wrap;	min-width: 1200px;}
 .team-member-offline { margin: 0 12px; width: 15px; height: 15px; background-color: #ccc;  box-shadow: #AFAFAF 0 0px 1px 1px, inset #ddd 0 -1px 1px, #7D0 0 1px 0px; border: 2px solid #fff; }
 
 /* inbox page css 28-9-20 */
-.inbox_list{padding:10px 10px 0 10px;overflow-y:auto;height:289px}
+.inbox_list{padding:10px 10px 0 10px;overflow-y:auto;height:590px}/***height:289px***/
 .inbox_head{background:#ebebeb;display:flex;justify-content:space-between;padding:10px;border-bottom:1px solid #e3e0e1}
 .inbox_head a{font-size:14px}
 .left-filter.mail_bx .card-header.active{background:#525f65}
