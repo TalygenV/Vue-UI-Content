@@ -2526,7 +2526,7 @@ table.table-bordered.dataTable th.sort span{cursor:pointer;}
 .right-content-expand .filter-selected{background-color:#dc3545 !important;}
 .my-popups .modal-confirm-header{background:#856404 !important}
 .my-popups .modal-confirm-footer{background:#fff3cd !important;border-top:1px solid #856404;}
-.my-popups.modal { position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0, 0, 0, 0.8);z-index:99999;overflow-y:auto;}
+.my-popups.modal { position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0, 0, 0, 0.8);z-index:99999;overflow-y:auto;}/**background-color: rgba(0, 0, 0, 0.5)**/
 .hidden {display: none !important;}
 .clstargetdata_main { width: 100%; float: left; overflow-y: hidden; overflow-x: auto;}
 .borderbababa { border: 1px solid #bababa !important;}
