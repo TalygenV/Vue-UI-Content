@@ -3524,7 +3524,7 @@ ul.canvan-view-list {display: flex; flex-wrap: wrap;	min-width: 1200px;}
 
 /* inbox page css 28-9-20 */
 .inbox_list{padding:10px 10px 0 10px;overflow-y:auto;height:289px}
-.inbox_list.notify-list-new{height:590px!important;}
+.inbox_list.notify-list-new{max-height:590px!important;}
 .inbox_head{background:#ebebeb;display:flex;justify-content:space-between;padding:10px;border-bottom:1px solid #e3e0e1}
 .inbox_head a{font-size:14px}
 .left-filter.mail_bx .card-header.active{background:#525f65}
