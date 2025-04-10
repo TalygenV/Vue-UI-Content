@@ -676,7 +676,7 @@ pre { white-space: pre-wrap;  /* css-3 */ white-space: -moz-pre-wrap;  /* Mozill
 .mobile-action{position:-webkit-sticky !important;position:sticky !important; right:0; z-index:99;}/*****Z-index added by Harjit, as other cloumn text was overlapping, radhay comment this on 25 dec 2020 dont uncoment it*********/
 .actions {box-shadow: 0px 0px 0px 3px #fff; width:27px;  height: 27px;border-radius: 50%; text-align:center; line-height:27px; font-size:18px; cursor:pointer;position:relative; display: block !important; transition: all 0.1s ease; -webkit-transition: all 0.1s ease; -moz-transition: all 0.1s ease;z-index:99;float:right;top:-2px;}
 .actions .action_icon{width: 100%;position: absolute;left: 0;top: 0px;padding-top: 6px;}
-.card-box{padding:8px 8px 0px 8px; float:left; width:100%; height:100%; position:relative; padding-bottom:67px;}
+.card-box{padding:8px 8px 0px 8px; float:left; width:100%; height:100%; position:relative; padding-bottom:92px;}/***padding-bottom:67px;***/
 .card-number{background:none!important; padding:0; font-weight:500; margin-bottom:5px; float:left; width:100%;}
 .card-box .custom-control {width: auto; float: left;line-height: 27px;}
 .card-heading{font-size:18px; padding:0; line-height:22px; font-weight: 500; float:left; width:100%;}
