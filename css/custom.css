@@ -6539,7 +6539,7 @@ li.active li { margin: 25px 0 0 0; }
 
 /***New Timer 2Nov 2023****/
 
-#divManageSearchCriteria > span {float: left;}
+#divManageSearchCriteria > span {float: left; width: 100%;}
 .v-date-picker-header {display: none;}
 .vc-container.vc-blue {border: none;  margin-top: 15px;}
 .timepickercontrol .vue__time-picker{width: 60px; margin-right: 10px; border-radius: 2px;}
