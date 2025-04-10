@@ -1479,5 +1479,24 @@ touritem["WorkDiary/Index"] = {
     },
   ],
 };
+touritem["Ticketing/add"] = {
+  ModuleDisplayName: "Ticketing",
+  ModuleName: "Ticketing",
+  displayName: "Add Ticket",
+  items: [
+    {
+      selector: ".ancsavedraftticket",
+      step: 1,
+      title: "Save as Draft",
+      content: "SaveAsDraft",
+    },
+    {
+      selector: ".ancsaveuserticket",
+      step: 2,
+      title: "Submit",
+      content: "SubmitTicket",
+    },
+  ],
+};  
 tourData.push(touritem);
 export { tourData };

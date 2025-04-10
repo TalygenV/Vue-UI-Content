@@ -3250,7 +3250,7 @@ touritem["Ticketing/add"] = {
     },
     {
       selector: ".ancsaveuserticket",
-      step: 1,
+      step: 2,
       title: "Submit",
       content: "SubmitTicket",
     },
