@@ -3255,7 +3255,7 @@ touritem["Ticketing/add"] = {
       content: "SubmitTicket",
     },
   ],
-};
+};    
 
 touritem["Ticketing/Manage"] = {
   ModuleDisplayName: "Ticketing",
