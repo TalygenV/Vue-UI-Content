@@ -3237,7 +3237,7 @@ touritem["Ticketing/Index"] = {
     },
   ],
 };
-touritem["Ticketing/add"] = {
+touritem["Ticketing/add"] = { 
   ModuleDisplayName: "Ticketing",
   ModuleName: "Ticketing",
   displayName: "Add Ticket",
@@ -3245,17 +3245,17 @@ touritem["Ticketing/add"] = {
     {
       selector: ".ancsavedraftticket",
       step: 1,
-      title: "Save as Draft or Submit",
+      title: "Click here to Draft ticket",
       content: "SaveasDraftorSubmit",
     },
     {
       selector: ".ancsaveuserticket",
       step: 2,
-      title: "Save as Draft or Submit",
-      content: "SaveasDraftorSubmit",
+      title: "Click here to Submit ticket",
+      content: "ClickHereSubmitTicket",
     },
   ],
-};   
+};  
 
 touritem["Ticketing/Manage"] = {
   ModuleDisplayName: "Ticketing",
