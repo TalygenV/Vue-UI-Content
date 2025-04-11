@@ -7464,7 +7464,7 @@ input:checked + .slider.toggle_left40::before {left: 40px;}
 
 @media (max-width: 991px) {
 #ReportContainer ul.dashbord-widget{display: block!important;}
-#ReportContainer ul.dashbord-widget li{width: 48% !important;
+#ReportContainer ul.dashbord-widget li{width: 100% !important;
     float: left;
     margin-bottom: 15px;}
 }
