@@ -8005,7 +8005,7 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .dynamic-multiselect .multiselect__strong{margin-bottom:4px; margin-top:4px;}
 
 .dynamic-multiselect .multiselect.multiselect--disabled .multiselect__select{background:none;}
-.dynamic-multiselect .multiselect.multiselect--disabled .multiselect__tags{background:#d9d9d9;}
+.dynamic-multiselect .multiselect.multiselect--disabled .multiselect__tags{background:#d9d9d9!important;}
 .dynamic-multiselect .multiselect.multiselect--disabled .multiselect__tags span.multiselect__tag{background:#249d67;}
 .dynamic-multiselect .multiselect.multiselect--disabled .multiselect__tags span.multiselect__tag .multiselect__tag-icon::after {color:#000;}
 
