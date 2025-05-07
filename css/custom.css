@@ -7997,8 +7997,8 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
     border: 1px solid #ccc;
   }
   .pac-logo:after{display: none;}
-  .pac-container.pac-logo{z-index: 99999 !important;
-    display: block !important;    border-top: none;}
+  /* .pac-container.pac-logo{z-index: 99999 !important;
+    display: block !important;    border-top: none;} */
 /****Location/Index Ridham 29April2025****/
 
 /****AssetAssignment/Add - Ajay Mandayal****/
