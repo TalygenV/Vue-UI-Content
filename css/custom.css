@@ -1115,7 +1115,7 @@ span.text-lmenu{display:contents!important;}
 .detailtxt{display:block;}
 .theme-primary.partition span {width: 100%;}
 
-.ticketsmallfix .p-action-btn.dash{width: 33.333%!important;}
+.ticketsmallfix a.p-action-btn.dash{width: 33.333%!important;}
 .p-action-btn.dash{width:50%; float:left;}
 .dashbord-widget li{width:100%; margin-bottom:10px; margin-right: 0;}
 .dashbord-widget{flex-direction:column}
