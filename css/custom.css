@@ -8015,8 +8015,8 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 #reportstabsdata #avatar .fileFieldAttachment .col-12.mb-2.mt-2{padding:0px;}
 
 
-.ticketsmallfix .action-list-box-ddl #closeaction{position:absolute; left:-11px; top:-13px; opacity:0.9; cursor: pointer;}
-
+.ticketsmallfix .action-list-box-ddl #closeaction{position:absolute; right:-1px; top:-10px; opacity:0.9; cursor: pointer;}
+.ticketsmallfix .action-list-box-ddl{top: 58px!important; overflow: visible!important;}
 
 
 
