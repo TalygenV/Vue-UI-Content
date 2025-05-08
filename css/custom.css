@@ -4616,7 +4616,7 @@ ul.defaultrating li{color:#cccccc;}
 #divPopNotificationData .mCSB_scrollTools{width:6px;}
 
 /* #divPopNotificationData .list_rw .detail p.timer{line-height:23px} */
-#divPopNotificationData .list_rw .detail p.timer_notification{line-height:23px}
+#divPopNotificationData .list_rw .detail p.timer_notification{line-height:28px; font-size: 14px;} 
 #divPopNotificationData .list_rw{padding: 5px 5px 0px 5px!important; margin:0px;}
 #divPopNotificationData .list_rw .icon{border:1px solid #fff;}
 #divPopNotificationData .list_rw:nth-child(odd) { background:#e6e6e6;}
