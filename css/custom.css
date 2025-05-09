@@ -3550,7 +3550,7 @@ ul.canvan-view-list {display: flex; flex-wrap: wrap;	min-width: 1200px;}
 .list_rw .icon.purple{background:#e4e9ff;color:#8892d0}
 .list_rw em{margin-top:5px}
 .list_rw .detail{flex:1;padding-right:10px}
-.list_rw .detail p{margin-bottom:0; text-wrap: wrap!important;}
+.list_rw .detail p{margin-bottom:0; text-wrap: wrap!important; word-break: break-all;}
 .list_rw .detail p a{margin-bottom:0;font-weight:300;font-size:14px;line-height:17px;color:#333;display:block}
 .list_rw .detail p a:hover{color:#007bff}
 /* .list_rw .detail p.timer{font-size:13px;color:#737373;font-weight:400} */
