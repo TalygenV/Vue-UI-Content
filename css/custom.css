@@ -7848,18 +7848,13 @@ border-radius: 15px; float: initial; height: auto; background: #fff; color: #303
 .discounted-price {padding: 0 12px; font-size: 18px; font-weight: bold;}
 .price-sub .spnPackageCost {font-size: 16px; font-weight: normal;}
 .sub-package {margin: 15px;}
-
 .showDiscountType {line-height: 20px; padding-top: 20px;}
 .btn-space {border-radius: 30px 0px 0px 30px !important; padding: 10px 15px 10px 25px;}
-
 /*******Company Setup - Plans Tab*************/
 
 /******Add Plans - Rates Tab******/
-
 .plan-rate-detail .switch{width: 70px!important;}
-
 /******Add Plans - Rates Tab******/
-
 
 /***Project Messages******/
 .message-bx {display: flex; margin-bottom: 20px; padding: 5px; transition: all .3s ease; border: 1px solid transparent;}
@@ -7877,30 +7872,20 @@ border-radius: 15px; float: initial; height: auto; background: #fff; color: #303
 .msgfoot {background: #fff; display: flex; justify-content: space-between; padding: 0 9px;}
 .msgfoot .msgleft {display: flex;}
 .dev_divFilesMessageComment .msgrightt a{color: #aaa; font-size: 17px; margin: auto 3px;}
-
 .message-bx:first-child .msg-actions {top: -6px !important;}
 .message-data:hover .msg-actions {display: block;}
 .msg-actions { background: #fff; border: 1px solid #cdcdcd; padding: 1px 5px; position: absolute; right: 10px;
     top: -15px; display: none;}
 .msg-actions ul li { list-style: none; display: inline-block; padding: 4px 2px;}
 .msg-actions ul li a { color: #626262; padding: 5px; position: relative;}
-
 /***Project Messages******/
-
 #dayAndnightShift .switch{width:112px;}
-
 .text-purple{color: #746caf!important;}
 .text-brown{color: #7d695a!important;}
 .text-orange{color: #e67932!important;}
 .text-darkorange{color: #cc7a41!important;}
-
-.newaddprojects .left-icon-m em {
-    font-size: 35px!important;
-}
-
+.newaddprojects .left-icon-m em { font-size: 35px!important;}
 .stepwizard-step .rounded-circle{width: 25px; text-align: center;}
-
-
 /**** Project Mgmt - Detail Tabs Colored Icons****3Feb25 Trent Sir Approved *****/
 
 /* ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(1) .listing span em {color: #65451f;}
@@ -7920,14 +7905,11 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(14) .listing span e
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(15) .listing span em {color: #e98b50;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span em {color: #385b66;} */
 
-
 ul.responsivecustomtab.lefttabiconfix li.menu-item a.active .listing span em {color: #fff;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:hover .listing span em {color: #fff!important;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:hover .listing{color: #fff!important; background: #525f65;}
-
 ul.responsivecustomtab.lefttabiconfix li.menu-item a.nav-link.left-menu{padding: 0px;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item .listing {padding: 8px 5px;}
-
 
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(1) .listing span em {color: #65451f;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(2) .listing span em {color: #FB7C44;}
@@ -7946,17 +7928,8 @@ ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(14) .listing span e
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(15) .listing span em {color: #e98b50;}
 ul.responsivecustomtab.lefttabiconfix li.menu-item:nth-child(16) .listing span em {color: #385b66;}
 /**** Project Mgmt - Detail Tabs Colored Icons****3Feb25 Trent Sir Approved *****/
-.vue-lightbox-close {
-    background: #464646 !important;
-    border-radius: 100%;
-    left: 10px;
-    padding: 6px !important;
-    height: 30px !important;
-    width: 30px !important;
-    line-height: 17px;
-    margin-top: 20px;
-    z-index: 9;
-  }
+.vue-lightbox-close { background: #464646 !important; border-radius: 100%; left: 10px; padding: 6px !important; height: 30px !important;
+    width: 30px !important; line-height: 17px; margin-top: 20px; z-index: 9; }
 #modalAddTeam .multiselect{z-index:unset!important;}    /**Harjit 24 Feb 25**/
 /******Notification popup - Ridham PC**********/
  li .mobile-action.more-action-set .actions.mobileaction{width:27px;}
@@ -7977,8 +7950,6 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
  /******Notification popup - Ridham PC**********/
  .module-l-grey-clr.div-click-event{padding: 0px!important;}
  .list-actions .form-group label {line-height: 1.5;} /**Mohit Add report - folder popup***/
-
-
  .vc-container .vc-time-icon{margin-top: 20px;}
 
  @media (max-width: 768px) {
@@ -7988,20 +7959,14 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 
 .multiplechoice .dvMultioptions span.input-group-text.p-0.px-2{ width: 32px;}
 .multiplechoice .dvMultioptions span.input-group-text.p-0.px-2 input{ margin-left: 0px!important;}
-
 #divGlobalTaskList table#tableGlobalTaskList td a.round-icon-small{float:none;}
 #divGlobalTaskList table#tableGlobalTaskList #row_0 td{vertical-align: top;}
 #divGlobalTaskList table#tableGlobalTaskList thead span.text-danger{display: contents;}
-
 /****Location/Index Ridham 29April2025****/
-#map.map-container {
-    height: 250px; width: 100%;
-    border: 1px solid #ccc;
-  }
-  .pac-logo:after{display: none;}
-  .pac-container.pac-logo{z-index: 99999 !important;
-      border-top: none;}
-        /* display: block !important; */
+#map.map-container { height: 250px; width: 100%; border: 1px solid #ccc;}
+.pac-logo:after{display: none;}
+.pac-container.pac-logo{z-index: 99999 !important; border-top: none;}
+/* display: block !important; */
 /****Location/Index Ridham 29April2025****/
 
 /****AssetAssignment/Add - Ajay Mandayal****/
@@ -8017,10 +7982,21 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 #reportstabsdata #avatar {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
 #reportstabsdata #avatar .fileFieldAttachment .col-12.mb-2.mt-2{padding:0px;}
 
-
 .ticketsmallfix .action-list-box-ddl #closeaction{position:absolute; right:-1px; top:-10px; opacity:0.9; cursor: pointer;}
 .ticketsmallfix .action-list-box-ddl{top: 58px!important; overflow: visible!important;}
 
 #itemsearch .location .form-group{float:left; width: 100%;}
 
+/**** Add Custom Report - Mohit 15May2025*****/
+.view-button {margin-top: auto; border: none; color: white; padding: 2px 12px; font-size: 12px; border-radius: 12px;
+    cursor: pointer; user-select: none; width: 140px; align-self: center; position: absolute;
+    bottom: 10px; left: 33px;
+}
 
+.show_hide_folder {position: absolute; right: 30px; z-index: 999; top: 5px;}
+.close-folder-popup { margin-top: -14px; margin-right: -11px;}
+
+#modulelist .md-accordion .card {border: none;}
+
+
+/**** Add Custom Report - Mohit 15May2025*****/
