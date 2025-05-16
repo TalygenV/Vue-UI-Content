@@ -7998,5 +7998,11 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 
 #modulelist .md-accordion .card {border: none;}
 
+.des_acr .card-header.heading-border h5 { font-size: 1.25rem; line-height: 40px; text-transform: capitalize;}
+.des_acr .card-header.heading-border h5 span { padding-bottom: 0; margin-bottom: 0;}
+.des_acr .md-accordion .card .card-header.heading-border { padding: 0;}
+.des_acr .custom-reports-icons { min-width: inherit; height: 104px; width: 33%;}
+.des_acr .verticle-action.lft25 { right: 2px; top: 39px;}
+
 
 /**** Add Custom Report - Mohit 15May2025*****/
