@@ -8016,6 +8016,7 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
  @media (max-width: 768px) {
     .des_acr .custom-reports-icons{ width: 50%;}
     .view-button{ position: unset; margin-top: 10px; width: 80%;}
+    .fields-list{grid-template-columns: repeat(2, minmax(0, 1fr));}
  }
 
 
