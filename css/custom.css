@@ -8018,6 +8018,13 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
     .view-button{ position: unset; margin-top: 10px; width: 80%;}
     .fields-list{grid-template-columns: repeat(2, minmax(0, 1fr));}
  }
-
-
 /**** Add Custom Report - Mohit 15May2025*****/
+
+/**********Attendance/UserTrack - View Attendence Detail popup Rahul Bhandari*************/
+#tblAttendDetail tr td { overflow: visible !important;}
+.table_1400 table{min-width: 1400px;}
+.table_1400 table tr td:nth-child(2){ min-width: 130px;}
+.table_1400 table tr td:nth-child(3){ min-width: 130px;}
+
+
+/**********Attendance/UserTrack - View Attendence Detail popup Rahul Bhandari*************/
