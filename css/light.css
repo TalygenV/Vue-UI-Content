@@ -970,47 +970,26 @@ a.b-light-green:hover{ background-color: #9acb3e!important; color: #fff!importan
 
 .navbar #divPopNotificationData div.theme-primary.text-white{color:#303030!important;}
 .navbar #divPopNotificationData div.theme-primary.text-white a.text-white{color:#303030!important;}
-
 .menu-left-wrapper .navbar-dark.bg-dark {border-right: 6px solid #a4a4a4;}
 .menu-left-wrapper.wrapper-shrink ul li.myprof_newlogobase {border-right: 6px solid #a4a4a4;}
-
 .myprof_newlogobase{background: #f5f5f5;}
 .menu-left-wrapper .sidebar-toggle{background-color: #fff;}
 .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu{background: #f6f6f6; border-top: 2px solid #fff;  border-right: 2px solid #fff;  border-bottom: 2px solid #fff;}
 .menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account li.active {background: #fff;}
-
 ul.header-menu-for-left li.show #navbarDropdownPortfolio.nav-link.sidebaricon{background: #e4e4e4!important; color: #000!important;}
 ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{background: #e4e4e4!important; color: #000!important;}
-
 .menu-left-wrapper .my-image{border:4px solid #dadada;}
 
 /* Styling the scrollbar in Firefox  */
-.menu-left-wrapper .fullmenu-scroll {
-    scrollbar-color: #d9d9d9 #f0f0f0;
-    scrollbar-width: thin;
-}
-
-.menu-left-wrapper .fullmenu-scroll::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    background-color: #f0f0f0;
-}
-.menu-left-wrapper .fullmenu-scroll::-webkit-scrollbar {
-    width: 6px;
-    background-color: #f0f0f0;
-}
-.menu-left-wrapper .fullmenu-scroll::-webkit-scrollbar-thumb {
-    background-color: #d9d9d9;
-}
-.menu-left-wrapper .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-	background-color: #d9d9d9 !important;
-}
-
+.menu-left-wrapper .fullmenu-scroll { scrollbar-color: #d9d9d9 #f0f0f0; scrollbar-width: thin;}
+.menu-left-wrapper .fullmenu-scroll::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); background-color: #f0f0f0;}
+.menu-left-wrapper .fullmenu-scroll::-webkit-scrollbar { width: 6px; background-color: #f0f0f0;}
+.menu-left-wrapper .fullmenu-scroll::-webkit-scrollbar-thumb { background-color: #d9d9d9;}
+.menu-left-wrapper .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color: #d9d9d9 !important;}
 .menu-left-wrapper .myprof_newlogobase .leftmenu_collapse{background-image:url('/Vue-UI-Content/images/leftmenu_collapse_black.png');}
-
 .menu-left-wrapper.wrapper-shrink ul li.myprof_newlogobase {border-right: 6px solid #a4a4a4;}
 /* .menu-left-wrapper .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {color: #fff!important;} */
 .menu-left-wrapper .navbar-dark .navbar-nav .nav-link:hover {color: #fff!important;}
-
 .menu-left-wrapper .navbar-dark .navbar-nav #navbarDropdownMenuLink.nav-link:focus, .navbar-dark .navbar-nav #navbarDropdownMenuLink.nav-link:hover {
 	background: none !important;
 	color: unset !important;
@@ -1020,13 +999,17 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
 .light-blue-border {border-color: #008ff5 !important;}
 .dark-blue-border {border-color: #3967d1 !important;}  
 .red-orange-border {border-color: #f86245 !important;}
-
 .border-warning {border-color: #ffc107 !important;}
 .border-success {border-color: #28a745 !important;}
 .border-success {border-color: #28a745 !important;}
 
 #teamview.p-action-btn{border-left: 2px solid #ececec!important; background-color: #fff!important;}
 #teamview.p-action-btn:hover{background: #dfdfdf!important;}
+
+/********** HR/ShiftRoster - Rahul Kumar 20 May 2025*******************/
+
+.rostershiftsright{background: #fff;}
+.e-schedule .e-timeline-view .e-date-header-wrap table tbody td, .e-schedule .e-timeline-month-view .e-date-header-wrap table tbody td{background: #e1e1e1 !important;}
 
 
 
