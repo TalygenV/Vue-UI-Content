@@ -8130,10 +8130,13 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .schedule-vue-sample .e-schedule.schedule-drag-drop .specialist-designation {font-size: 11px; font-weight:500; color:#727272;}
 .schedule-vue-sample .e-schedule.schedule-drag-drop .specialist-image {width: 45px; height: 45px; float: left; border-radius: 50%; margin-right: 10px; background-repeat: no-repeat; background-size: 45px;}
 
+@media (max-width: 768px) {
+.treeview-container{ width: 300px;}
+}
 @media (max-width: 550px) {
     .schedule-vue-sample .schedule-container {padding-bottom: 10px;}
     .schedule-vue-sample .treeview-external-drag.e-treeview,
-    .e-bigger .schedule-vue-sample .treeview-external-drag.e-treeview { width: 250px; }
+    .e-bigger .schedule-vue-sample .treeview-external-drag.e-treeview { width: 100%; }
     .e-bigger .schedule-vue-sample .treeview-external-drag.e-treeview.e-drag-item { position: relative !important; }
     .schedule-vue-sample .drag-sample-wrapper {display: block;}
 }
