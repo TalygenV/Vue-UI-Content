@@ -1011,7 +1011,7 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
 .rostershiftsright{background: #fff;}
 .e-schedule .e-timeline-view .e-date-header-wrap table tbody td, .e-schedule .e-timeline-month-view .e-date-header-wrap table tbody td{background: #e1e1e1 !important;}
 .e-toolbar .e-toolbar-items{background: #c6d8f7 !important;}
-.e-toolbar .e-toolbar-item .e-tbar-btn{background: #8799b9 !important;}
-.e-schedule .e-schedule-toolbar .e-toolbar-items.e-tbar-pos > div {background: #8799b9;}
+.e-toolbar .e-toolbar-item .e-tbar-btn{background: #a2b2ce!important;}
+.e-schedule .e-schedule-toolbar .e-toolbar-items.e-tbar-pos > div {background: #a2b2ce;}
 
 
