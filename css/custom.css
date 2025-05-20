@@ -8077,7 +8077,7 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .schedule-vue-sample .treeview-external-drag.e-rtl .e-list-text,
 .e-bigger .schedule-vue-sample .treeview-external-drag .e-list-text,
 .e-bigger .schedule-vue-sample .treeview-external-drag.e-rtl .e-list-text {
-    border: 0.5px solid #E1E7EC; height: 50px; line-height: 12px !important; padding: 5px; width: 100%; background:#f0f0f0; font-weight:500;}
+    border: 0.5px solid #E1E7EC; height: 50px; line-height: 20px !important; padding: 5px; width: 100%; background:#f0f0f0; font-weight:500;}
 
 .schedule-vue-sample .treeview-external-drag .e-list-parent,
 .schedule-vue-sample .treeview-external-drag.e-rtl .e-list-parent,
@@ -8087,11 +8087,11 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 }
 .schedule-vue-sample .treeview-external-drag .e-list-item,
 .e-bigger .schedule-vue-sample .treeview-external-drag .e-list-item {
-    height: 100%; padding: 0 0 5px 0;
+    height: 100%; padding: 0 0 5px 0; position: relative;
 }
 .schedule-vue-sample .treeview-external-drag .e-fullrow,
 .e-bigger .schedule-vue-sample .treeview-external-drag .e-fullrow {
-    height: 55px;
+    height: 55px;top:32px;
 }
 .schedule-vue-sample .treeview-external-drag .e-list-item.e-hover>.e-fullrow,
 .schedule-vue-sample .treeview-external-drag .e-list-item.e-active>.e-fullrow,
