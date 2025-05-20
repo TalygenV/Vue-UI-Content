@@ -8025,6 +8025,46 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .table_1400 table{min-width: 1400px;}
 .table_1400 table tr td:nth-child(2){ min-width: 130px;}
 .table_1400 table tr td:nth-child(3){ min-width: 130px;}
-
-
 /**********Attendance/UserTrack - View Attendence Detail popup Rahul Bhandari*************/
+
+
+/********** HR/ShiftRoster - Rahul Kumar 20 May 2025*******************/
+.expand-list_rr {position: absolute; right: -1px; top: 40%;  display: inline-block; z-index: 98;}
+.expand-list_rr .expand-list-btn {position: relative; display: flex; height: 45px; width: 30px; background: #424f55;}
+.treeview-container.collapsed { width: 0 !important;  visibility: hidden; overflow: hidden; transition: 1s!important;}
+.schedule-container.expand { width: 100% !important; transition: 1s; padding-right: 0px!important;}
+.e-toolbar-item.e-views.e-active-view button{background: #536789!important;}
+.schedule-container.expand .expand-list_rr {right:0px;}
+.schedule-container.expand .expand-list_rr em{transform: rotate(180deg);}
+.e-toolbar-right .e-toolbar-item.e-today{display: none;}
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item.e-separator{display: none;}
+.e-toolbar .e-toolbar-item:not(.e-separator):not(.e-spacer){padding: 0px;}
+.e-toolbar .e-toolbar-items{background: #94afde !important;}
+.e-schedule .e-schedule-toolbar .e-toolbar-items.e-tbar-pos>div { background: #728ab3;}
+.e-toolbar .e-toolbar-item .e-tbar-btn .e-tbar-btn-text{color:#fff!important; padding: 7px 8px 8px 8px!important;}
+.e-toolbar .e-toolbar-item .e-tbar-btn{background:#728ab3!important; color:#fff!important;}
+.e-toolbar .e-toolbar-item .e-tbar-btn:hover{background: #536789!important;}
+.e-toolbar .e-toolbar-item .e-tbar-btn:hover .e-tbar-btn-text{color:#fff!important; }
+.e-toolbar .e-toolbar-item .e-tbar-btn .e-icons{color:#fff!important;}
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-left .e-tbar-btn.e-icon-btn{ border-radius:0px!important; background: rgba(0,0,0,.10);}
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-left .e-tbar-btn.e-icon-btn:focus,
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-left .e-tbar-btn.e-icon-btn:hover{ border-radius:0px!important;}
+.e-schedule .e-timeline-view .e-appointment .e-appointment-details, .e-schedule .e-timeline-month-view .e-appointment .e-appointment-details{ margin-left: 4px;}
+.e-schedule .e-event-resize.e-left-handler{ background: #51b1f2; width: 3px!important;}
+.e-schedule .e-timeline-view .e-date-header-wrap table td.e-current-day, .e-schedule .e-timeline-month-view .e-date-header-wrap table td.e-current-day {
+    color: #fff; font-weight: normal; background: #c0c0c0!important;}
+.e-schedule .e-timeline-view .e-date-header-wrap table tbody td, .e-schedule .e-timeline-month-view .e-date-header-wrap table tbody td{ background: #f0f0f0!important;}
+.e-schedule .e-timeline-view .e-appointment .e-subject, .e-schedule .e-timeline-month-view .e-appointment .e-subject{font-weight:600!important;}
+.e-schedule .e-timeline-view .e-appointment .e-time, .e-schedule .e-timeline-month-view .e-appointment .e-time{font-weight:500!important;}
+
+.rostershiftsright{max-height:604px; overflow-y:auto; min-height: 604px;}
+.e-schedule .e-timeline-view .e-appointment, .e-schedule .e-timeline-month-view .e-appointment {color: #303030!important; margin-top:9px;}
+.e-resource-tree-icon{display: none;}
+
+
+
+
+
+/********** HR/ShiftRoster - Rahul Kumar 20 May 2025*******************/
+
+
