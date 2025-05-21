@@ -8029,7 +8029,7 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 
 
 /********** HR/ShiftRoster - Rahul Kumar 20 May 2025*******************/
-.expand-list_rr {position: absolute; right: -1px; top: 40%;  display: inline-block; z-index: 98;}
+.expand-list_rr {position: absolute; right: -10px; top: 50%;  display: inline-block; z-index: 98;}
 .expand-list_rr .expand-list-btn {position: relative; display: flex; height: 45px; width: 30px; background: #424f55;}
 .treeview-container.collapsed { width: 0 !important;  visibility: hidden; overflow: hidden; transition: 1s!important;}
 .schedule-container.expand { width: 100% !important; transition: 1s; padding-right: 0px!important;}
