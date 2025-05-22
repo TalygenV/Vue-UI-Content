@@ -1307,22 +1307,30 @@ ul.filetree.treeview{background-color: #2c3136;}
 /****2024 - New left menu - Harjit Singh*****/
 
 #Changeview select#dropdownMenu2 option.text-dark{color: #343a40 !important;}
-
 .user_type_choice.coloredicons label{background: #191d20; color: #fff; border: 1px solid #454748;}
-
 .docstorage_leftaccordian .font-12.font-weight-400.text-secondary{color:#d5d5d5!important;}
 #rightMenuTree .heading-border span.disabled{color: #fff !important; opacity: .7;}
-
 .livemonitoring .table-bordered tbody tr td a span.bodbtn_green{background-color: #2c3136; }
 .livemonitoring .table-bordered tbody tr td a span.bodbtn_grey{background-color: #2c3136;  }
 .livemonitoring .table-bordered tbody tr td a span.bodbtn_yellow{ background-color: #2c3136; }
 .livescreen_rightbase{background: #3f4348;}
-
 .multiselect__tags{border: 1px solid #3c3f43 !important; background: #191d20 !important;}
 .multiselect__placeholder{color: #ddd !important;}
-
 .apexcharts-tooltip.apexcharts-theme-light{color:#303030;}
-
 #manageChannelModal.modal.right.fade .modal-body ul#divChannelTypes.shortcuts-menu li:hover .short-item-name{color: #fff!important;}
-
 #divPopNotificationData.themecontrol{background:#2f3439;}
+
+/********** HR/ShiftRoster - Rahul Kumar 22 May 2025*******************/
+.rostershiftsright {background: #33383e;}
+
+.schedule-vue-sample .treeview-external-drag .e-list-text, 
+.schedule-vue-sample .treeview-external-drag.e-rtl .e-list-text, 
+.e-bigger .schedule-vue-sample .treeview-external-drag .e-list-text, 
+.e-bigger .schedule-vue-sample .treeview-external-drag.e-rtl .e-list-text{
+  color: #ddd; border: 0.5px solid #1C1F22; background: #1c1f22;
+}
+
+.e-treeview .e-list-item.e-hover > .e-text-content .e-list-text, .e-treeview .e-list-item.e-node-focus > .e-text-content .e-list-text{color:#fff;}
+
+
+/********** HR/ShiftRoster - Rahul Kumar 22 May 2025*******************/
