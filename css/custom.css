@@ -7764,7 +7764,7 @@ input:checked + .slider:before {  -webkit-transform: translateX(26px);  -ms-tran
 .colm-100 {	padding: 7px 15px;	width: 100%;	max-width: 100%;	text-align: left;	float: left;	}
 .max-50 {	width: 100%;	max-width:50%;	text-align: left;	float: left;}
 .max-50:last-child {max-width: calc(50% - 20px);	margin-left: 20px;}
-.w-100{width: 100%;	text-align: left;	float: left; }
+/* .w-100{width: 100%;	text-align: left;	float: left; } time track right panel start btn effecting - HS 22May2025***********/
 .lblue-subs {	background: #ebf5fb;	float: left;	margin: 15px;	padding: 10px 0; width: calc(100% - 30px);}
 .sub-headbill {	text-align: left;	padding: 0 15px;	font-size: 20px;	color: #303030;}
 .radio-subs p {	color: #303030;	display: inline-block;	padding-right: 10px;}
