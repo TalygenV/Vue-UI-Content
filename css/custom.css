@@ -7993,6 +7993,8 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
     bottom: 10px; left: 33px;
 }
 
+.user_type_choice label.btn.btn_cstm.active .view-button.btn-info{color: #00b298; background-color: #fff;}
+
 .show_hide_folder {position: absolute; right: 30px; z-index: 999; top: 5px;}
 .close-folder-popup { margin-top: -14px; margin-right: -11px;}
 
