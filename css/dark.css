@@ -1333,6 +1333,9 @@ ul.filetree.treeview{background-color: #2c3136;}
 .e-treeview .e-list-item.e-hover > .e-text-content .e-list-text, .e-treeview .e-list-item.e-node-focus > .e-text-content .e-list-text{color:#fff!important;}
 .e-resource-cells .top-left-button-container a {color: #fff !important;}
 
+.e-toolbar .e-toolbar-items {background: #2c3136!important;}
+.e-schedule .e-schedule-toolbar .e-toolbar-items.e-tbar-pos > div {background: #1c1f22;}
+.e-toolbar .e-toolbar-item .e-tbar-btn { background: #1c1f22 !important; color: #fff !important;}
 
 
 
