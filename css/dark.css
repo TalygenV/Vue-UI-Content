@@ -1330,7 +1330,10 @@ ul.filetree.treeview{background-color: #2c3136;}
   color: #ddd; border: 0.5px solid #1C1F22; background: #1c1f22;
 }
 
-.e-treeview .e-list-item.e-hover > .e-text-content .e-list-text, .e-treeview .e-list-item.e-node-focus > .e-text-content .e-list-text{color:#fff;}
+.e-treeview .e-list-item.e-hover > .e-text-content .e-list-text, .e-treeview .e-list-item.e-node-focus > .e-text-content .e-list-text{color:#fff!important;}
+.e-resource-cells .top-left-button-container a {color: #fff !important;}
+
+
 
 
 /********** HR/ShiftRoster - Rahul Kumar 22 May 2025*******************/
