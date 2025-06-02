@@ -1338,8 +1338,12 @@ ul.filetree.treeview{background-color: #2c3136;}
 .e-toolbar .e-toolbar-item .e-tbar-btn { background: #1c1f22 !important; color: #fff !important;}
 .e-schedule { background: #33383e; border: 1px solid #4a4a4a;}
 
-/* .e-schedule .e-timeline-view .e-work-days, .e-schedule .e-timeline-month-view .e-work-days {background: #33383e!important;}
-.e-schedule .e-timeline-view .e-work-cells, .e-schedule .e-timeline-month-view .e-work-cells {background: #1c1f22!important;}
+ .e-schedule .e-timeline-view .e-work-days, .e-schedule .e-timeline-month-view .e-work-days {background:#33383e; color:#fff;}
+
+.e-schedule .e-timeline-view .e-work-cells, .e-schedule .e-timeline-month-view .e-work-cells{background:#1c1f22;}
+.e-schedule .e-timeline-view .e-resource-group-cells, .e-schedule .e-timeline-month-view .e-resource-group-cells{background:#1c1f22;}
+
+/*.e-schedule .e-timeline-view .e-work-cells, .e-schedule .e-timeline-month-view .e-work-cells {background: #1c1f22!important;}
 .e-schedule .e-timeline-view .e-resource-group-cells, .e-schedule .e-timeline-month-view .e-resource-group-cells { background: #1c1f22!important;}
 
 .e-schedule .e-timeline-view .e-work-cells:hover:not(.e-resource-group-cells), 
