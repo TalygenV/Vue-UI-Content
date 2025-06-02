@@ -1337,9 +1337,9 @@ ul.filetree.treeview{background-color: #2c3136;}
 .e-schedule .e-schedule-toolbar .e-toolbar-items.e-tbar-pos > div {background: #1c1f22;}
 .e-toolbar .e-toolbar-item .e-tbar-btn { background: #1c1f22 !important; color: #fff !important;}
 
-.e-schedule { background: #33383e!important; border: 1px solid #4a4a4a!important;}
-.e-schedule .e-timeline-view .e-resource-left-td, .e-schedule .e-timeline-month-view .e-resource-left-td{background: #33383e;}
-.e-schedule .e-timeline-view .e-resource-cells, .e-schedule .e-timeline-month-view .e-resource-cells{background: #2c3136;}
+.e-schedule { background: #16181a!important; border: 1px solid #4a4a4a!important;}
+.e-schedule .e-timeline-view .e-resource-left-td, .e-schedule .e-timeline-month-view .e-resource-left-td{background: #33383e!important;}
+.e-schedule .e-timeline-view .e-resource-cells, .e-schedule .e-timeline-month-view .e-resource-cells{background: #2c3136!important;}
 .e-schedule .e-timeline-view .e-child-node, .e-schedule .e-timeline-month-view .e-child-node{background: #1c1f22;}
 
 .schedule-vue-sample .e-schedule.schedule-drag-drop .e-resource-cells.e-child-node .specialist-category, 
