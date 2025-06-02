@@ -1336,7 +1336,8 @@ ul.filetree.treeview{background-color: #2c3136;}
 .e-toolbar .e-toolbar-items {background: #2c3136!important;}
 .e-schedule .e-schedule-toolbar .e-toolbar-items.e-tbar-pos > div {background: #1c1f22;}
 .e-toolbar .e-toolbar-item .e-tbar-btn { background: #1c1f22 !important; color: #fff !important;}
-.e-schedule { background: #33383e; border: 1px solid #4a4a4a;}
+
+.e-schedule { background: #33383e!important; border: 1px solid #4a4a4a!important;}
 
 
 .e-schedule .e-timeline-view .e-work-days, .e-schedule .e-timeline-month-view .e-work-days {background:#33383e; color:#fff;}
