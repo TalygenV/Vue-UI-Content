@@ -2431,7 +2431,8 @@ button{outline:0 !important;}
 .AssetDatePopUp tr td.daterangetd {width: 50% !important; display: block; float: left; box-sizing: border-box; background-color: #fff !important;}
 .AssetDatePopUp ul.date_select {list-style: none !important; padding-left: 0px; font-size: 12px;}
 .AssetDatePopUp ul.date_select li {list-style: none !important; padding-left: 0px; font-size: 14px; line-height: 22px;}
-.AssetDatePopUp ul.date_select li a { color: #068DD3 !important; font-size: 12px; padding-left: 5px !important; float: none !important; border-right: none !important; border-left: none;}
+/* .AssetDatePopUp ul.date_select li a { color: #068DD3 !important; font-size: 12px; padding-left: 5px !important; float: none !important; border-right: none !important; border-left: none;} */
+.AssetDatePopUp ul.date_select li a { color: #068DD3 !important; font-size: 13px; font-weight: 500; padding-left: 5px !important; float: none !important; border-right: none !important; border-left: none;}
 .AssetDatePopUp ul.date_select li a:hover {color: #17a2b8 !important; cursor: pointer;}
 .AssetDatePopUp .btn {margin-top: 1.4rem!important;}
 
