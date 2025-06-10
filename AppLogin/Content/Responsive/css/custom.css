@@ -357,7 +357,7 @@ table{border-collapse:collapse!important;}
 .modal{background-color: rgba(0, 0, 0, 0.7);}
 
 footer{width:100%;float:left; background:#424242; font-size:13px;}
-footer .contri_translate { background-image: url(/Content/Responsive/images/translation.png); background-repeat: no-repeat; background-color: #252525; background-position: left; width: 243px; float: left; padding:  1rem 10px 1rem 44px; margin-top: 0px; border-right: 1px solid #797777; font-size: 13px; color: #fff; } 
+footer .contri_translate { background-image: url(https://talygenv.github.io/Vue-UI-Content/AppLogin/Content/Responsive/images/translation.png); background-repeat: no-repeat; background-color: #252525; background-position: left; width: 243px; float: left; padding:  1rem 10px 1rem 44px; margin-top: 0px; border-right: 1px solid #797777; font-size: 13px; color: #fff; } 
 footer .copyright{padding:  1rem 10px 1rem 10px; margin:0px; color:#fff;}
 footer ul{list-style:none; margin:0px; padding:1rem 10px 1rem 10px}
 footer ul li{display:inline-block; padding:0px .25rem; }
@@ -1078,9 +1078,9 @@ footer ul { padding: .2rem .5rem 1rem .5rem; }
 .conclusion-ticket .conclusion-ticket-header span{font-weight:bold; text-transform:uppercase; }
 .conclusion-ticket .conclusion-ticket-content{width:100%; background: #fadbcc;float:left; margin:0px; padding:10px;  box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; }
 .conclusion-ticket .conclusion-ticket-content a{ color:#2350c0;}
-.table-responsive thead tr .tb_headerSortUp {background-image: url("/Content/Responsive/images/caret_up_white.png");}
-.table-responsive thead tr .tb_headerSortDown {background-image: url("/Content/Responsive/images/caret_down_white.png");}
-.sort {background-image: url("/Content/Responsive/images/caret_up.png");background-repeat:no-repeat;background-position:right center;padding-right: 34px;cursor: pointer;display: inline;display: block;}
+.table-responsive thead tr .tb_headerSortUp {background-image: url("https://talygenv.github.io/Vue-UI-Content/AppLogin/Content/Responsive/images/caret_up_white.png");}
+.table-responsive thead tr .tb_headerSortDown {background-image: url("https://talygenv.github.io/Vue-UI-Content/AppLogin/Content/Responsive/images/caret_down_white.png");}
+.sort {background-image: url("https://talygenv.github.io/Vue-UI-Content/AppLogin/Content/Responsive/images/caret_up.png");background-repeat:no-repeat;background-position:right center;padding-right: 34px;cursor: pointer;display: inline;display: block;}
 /*Gaurav ticketing addnote*/
 .header-ticket .actionbtn a{float:left; border-left: none;}
 .header-ticket  .userguide-box .userguide-btn{background: rgba(0,0,0,.2);padding: .2rem;float: left;position: relative;color: #fff;font-size: 20px;text-transform: uppercase;text-decoration: none !important;width: 100%;display: block;} 
@@ -4849,7 +4849,7 @@ display: flex;}
 /******Harjit - 13Jan 2020**********/
 
 select {-webkit-appearance: none;-moz-appearance: none;appearance: none;
-background-image:url(/Content/Responsive/images/drop-down-arrow.png);content:'';background-repeat:no-repeat;background-position:98%;background-size:10px;
+background-image:url(https://talygenv.github.io/Vue-UI-Content/AppLogin/Content/Responsive/images/drop-down-arrow.png);content:'';background-repeat:no-repeat;background-position:98%;background-size:10px;
 }
 
 .t-dash{}
