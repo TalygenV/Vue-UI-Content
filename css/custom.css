@@ -1005,6 +1005,9 @@ table.dataTable > tbody > tr.child ul.dtr-details .sort::after{display:none;}
 .right-content .dashbord-widget{flex-direction:column;}
 .right-content .dashbord-widget li{margin-bottom:10px; width:100%;}
 }
+@media (max-width:991px) {
+nav .collapse.show{height: 88vh;}
+}
 
 @media (max-width:1023px) {
 .navbar-brand img { height: 40px;}
