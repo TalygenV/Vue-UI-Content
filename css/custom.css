@@ -1725,6 +1725,12 @@ span.text-lmenu{display:none;}
     min-width: 25px !important;
     margin-right: 0px !important;
     text-align: center;
+  } 
+
+  #navbarResponsive ul.header-menu-for-top.onlymobile li.nav-item a.nav-link em {
+    min-width: 25px !important;
+    margin-right: 14px !important;
+    text-align: center; font-size: 20px;
   }
 
 .navbar-dark .header-menu-for-left .navbar-nav .nav-link { color: rgba(255,255,255,1); padding: 0px 20px !important; margin: 0px 7px;}
