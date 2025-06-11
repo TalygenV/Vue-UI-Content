@@ -830,7 +830,7 @@ div[rel='scrollcontent1'] { width:100%; height:320px;}
 .shortcuts-menu {  width: 100%;  float: left;  position: relative;display: flex;flex-wrap: wrap;}
 .shortcuts-menu li{  width: 100%;  max-width: 20%;  padding: 15px;  float: left;  display: flex; transition: all .4s;}
 .short-menu-item { display: flex; align-content: center; align-items: center; width: 100%; border: 1px solid #cfcfcf; font-size: 18px; font-weight: 400;}
-.left-icon-m {   display: inline-block;  text-align: center;margin-right: 15px; padding: 20px 15px; width: 82px;}
+.left-icon-m {   display: inline-block;  text-align: center;margin-right: 15px; padding: 20px 10px; width: 110px;}/**padding: 20px 15px; width: 82px; ***/
 .left-icon-m em {  font-size: 45px; }
 .short-item-name {  display: inline-block;  vertical-align: super;}
 .shortcuts-menu li:hover {  transform: scale(1.05);}
