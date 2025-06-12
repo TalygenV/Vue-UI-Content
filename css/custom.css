@@ -8178,5 +8178,5 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
     #action-list.list-actions{max-width: 250px;}
     #action-list.list-actions .actions-onclick{width: 100% !important; float: left !important; text-align: left; margin-bottom: 5px; margin-top: 5px; border-bottom: 1px solid #e4e4e4;}
     #action-list.list-actions .actions-onclick em {float: left; margin-right: 10px;}
-
+    #action-list.list-actions em.close-action{right: 5px; position: absolute; top: -3px;}
 }
