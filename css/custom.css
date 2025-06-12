@@ -1179,7 +1179,7 @@ span.text-lmenu{display:contents!important;}
 .legends_topbar span { padding: 0px 8px 10px; width: 33.333%; box-sizing: border-box; float: left; height: auto !important; text-align: center; line-height: 18px !important;}
 .legends_topbar span em{text-align:center; margin: 0px 33%; margin-bottom: 5px;}
 .p-action-map span{padding: 0; width: auto;}
-.breadcrumb-item{width: 70px; }
+/****.breadcrumb-item{width: 70px; }*****//****12June2025 HS*****/
 }
 
 @media (max-width:480px){
