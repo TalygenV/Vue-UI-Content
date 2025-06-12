@@ -29,8 +29,8 @@ body{color:#303030;}
 .five_wid{background: #17a2b8 !important; border-color: #17a2b8 !important;}
 .six_wid {background: #57aea6 !important;border-color: #57aea6 !important;}
 .dashbord-widget li h3 span{	color: #fff; opacity: .8;}
-.dashbord-widget i {color: #fff !important;	opacity: .8;}
-/* .dashbord-widget i {color: #8b9197!important;} *//** commented for Ticketing Index**/
+/* .dashbord-widget i {color: #fff !important;	opacity: .8;}*//** commented for Ticketing Index**/
+.dashbord-widget i {color: #8b9197!important;} 
 footer .contri_translate {background-color: #252525; color:#fff; border-right: 1px solid #797777;}
 footer {background: #424242;}
 footer .copyright {color: #fff;}
