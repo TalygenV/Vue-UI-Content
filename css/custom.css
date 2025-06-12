@@ -1186,7 +1186,7 @@ span.text-lmenu{display:contents!important;}
 .modal.right.fade .modal-dialog {max-width: 320px;}
 .cont_right .bar label {font-size: 10px; right: 6px;}
 .cont_right .bar {min-width: 100%; width: 100%;}
-.breadcrumb-item { width: 180px;}/**70px**/
+/***.breadcrumb-item { width: 180px;}*70px**//****12June2025 HS*****/
 }
 #example_wrapper{width:100%;}
 #example_wrapper .row{width:100%; display:block;}
