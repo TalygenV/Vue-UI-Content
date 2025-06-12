@@ -1737,7 +1737,7 @@ span.text-lmenu{display:none;}
   }
 
 @media (max-width:991px){
-#navbarResponsive ul.header-menu-for-top.onlymobile li.nav-item .dark-full-screen{padding-left:0px;}
+#navbarResponsive ul.header-menu-for-top.onlymobile li.nav-item img.dark-full-screen{padding-left:0px;}
 }
 
 .navbar-dark .header-menu-for-left .navbar-nav .nav-link { color: rgba(255,255,255,1); padding: 0px 20px !important; margin: 0px 7px;}
