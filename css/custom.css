@@ -4905,7 +4905,7 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
 }
 
 @media (max-width:600px) {
-    .my-popups .modal-header .modal-title{width:65%!important;}
+    .my-popups .modal-header .modal-title{width:60%!important;}
     .my-popups .modal-body .user-guide{right: 9px!important; top: -35px!important;}
 }
 
