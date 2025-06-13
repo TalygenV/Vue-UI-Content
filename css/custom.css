@@ -8045,8 +8045,8 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 
 
 /********** HR/ShiftRoster - Rahul Kumar 20 May 2025*******************/
-.blackalerts{position: absolute; top: -12px; right: 134px;min-width: 740px;}
-.alert-black{color: #ffffff; background-color: #000000; border-color: #299bec; padding: 20px; z-index: 9; border-radius: 15px;
+.blackalerts{position: absolute; top: -1px; right: 137px;min-width: 740px;}
+.alert-black{color: #ffffff; background-color: #000000; border-color: #299bec; padding: 14px; z-index: 9; border-radius: 15px;
  box-shadow: -1px 4px 8px 3px rgba(0,0,0,0.67);
 -webkit-box-shadow: -1px 4px 8px 3px rgba(0,0,0,0.67);
 -moz-box-shadow: -1px 4px 8px 3px rgba(0,0,0,0.67);
