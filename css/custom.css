@@ -1731,10 +1731,10 @@ span.text-lmenu{display:none;}
   } 
 
 @media (max-width:991px){
-#navbarResponsive.navbar-collapse.show ul.header-menu-for-top li.nav-item a.nav-link em {
+#navbarResponsive.navbar-collapse ul.header-menu-for-top li.nav-item a.nav-link em {
    min-width: 25px !important; margin-right: 14px !important; text-align: center; font-size: 20px;
  }
-#navbarResponsive.navbar-collapse.show ul.header-menu-for-top li.nav-item img.dark-full-screen{padding-left:0px;}
+#navbarResponsive.navbar-collapse ul.header-menu-for-top li.nav-item img.dark-full-screen{padding-left:0px;}
 }
 
 .navbar-dark .header-menu-for-left .navbar-nav .nav-link { color: rgba(255,255,255,1); padding: 0px 20px !important; margin: 0px 7px;}
