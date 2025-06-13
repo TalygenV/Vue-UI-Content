@@ -2114,6 +2114,8 @@ footer .copyright {font-size: 11px;}
 .modal{text-align: center!important;}
 .modal-dialog{text-align: left!important;}
 
+.nu-paging .choose-page span.mr-2, .nu-paging .choose-page span.ms-2{ padding-top: 7px; }
+
 }
 .margin-top-none{margin-top:auto !important;}
 .w-75 .clsdashboardgroup .short-menu-item{flex-direction:column;}
