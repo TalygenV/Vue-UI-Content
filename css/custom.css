@@ -4909,6 +4909,10 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
     .my-popups .modal-body .user-guide{right: 9px!important; top: -35px!important;}
 }
 
+@media (max-width:767px) {
+    #formCheckOut .col-sm-12 .form-group.p-4{padding: 0px;}
+}
+
 /*****ToDo list pin-unpin view - Harjit Singh 20 April2022****/
 .pinmyview {color: #fff; background-color: #17a2b8; border-color: #17a2b8;}
 .pinmyview:hover { color: #fff; background-color: #138496; border-color: #117a8b;}
