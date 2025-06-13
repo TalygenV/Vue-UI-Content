@@ -1729,7 +1729,7 @@ span.text-lmenu{display:none;}
     margin-right: 0px !important;
     text-align: center;
   } 
-
+/***HS mobile view Top Nav*****/
 @media (max-width:991px){
 #navbarResponsive.navbar-collapse ul.header-menu-for-top li.nav-item a.nav-link em {
    min-width: 25px !important; margin-right: 14px !important; text-align: center; font-size: 20px;
