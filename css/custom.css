@@ -8045,11 +8045,11 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 
 
 /********** HR/ShiftRoster - Rahul Kumar 20 May 2025*******************/
-.blackalerts{position: absolute; top: -1px; right: 137px;min-width: 740px;}
-.alert-black{color: #ffffff; background-color: #000000; border-color: #299bec; padding: 14px; z-index: 9; border-radius: 15px;
- box-shadow: -1px 4px 8px 3px rgba(0,0,0,0.67);
--webkit-box-shadow: -1px 4px 8px 3px rgba(0,0,0,0.67);
--moz-box-shadow: -1px 4px 8px 3px rgba(0,0,0,0.67);
+.blackalerts{position: absolute; top: -1px; right: 137px;min-width: 650px; text-align: center;}
+.alert-black{color: #ffffff; background-color: #000000; border-color: #299bec; padding: 14px; z-index: 9; border-radius: 15px; font-size:14px;
+        box-shadow: 0px 5px 8px 4px rgba(0,0,0,0.67);
+-webkit-box-shadow: 0px 5px 8px 4px rgba(0,0,0,0.67);
+   -moz-box-shadow: 0px 5px 8px 4px rgba(0,0,0,0.67);
 }
 .blackalerts em{position: absolute; right: -8px; top: 14px; font-size: 24px; color: #299bec; z-index: 99;}
 
