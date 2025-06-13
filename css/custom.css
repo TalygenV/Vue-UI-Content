@@ -4910,7 +4910,7 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
 }
 
 @media (max-width:767px) {
-    #formCheckOut .col-sm-12 .form-group.p-4{padding: 0px;}
+    #formCheckOut .col-sm-12 .form-group.p-4{padding: 0px!important;}
 }
 
 /*****ToDo list pin-unpin view - Harjit Singh 20 April2022****/
