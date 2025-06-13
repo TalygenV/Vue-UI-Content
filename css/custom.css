@@ -1066,7 +1066,7 @@ a.timer-icon{border-left:none!important; border-right:none!important;}
 .conversation-box .name-circle{display:none;}
 .tab .tab-content::before{display:none;}
 .conversation-box::before{display:none;}
-.user-guide a {  display: block;  text-indent: 999px;   font-size: 0px; width: 30px; height: 20px; padding-left: 0;}
+/* .user-guide a {  display: block;  text-indent: 999px;   font-size: 0px; width: 30px; height: 20px; padding-left: 0;} */
 .divancuserguide::before{ right: 5px; }
 .manage-color .mng-btn{display: flex; justify-content: space-between;}
 .manage-color .mng-btn .btn{width:49%;}
