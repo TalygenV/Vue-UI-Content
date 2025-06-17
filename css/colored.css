@@ -427,7 +427,7 @@ input:checked + .toggle { background: #448ee4;  color: #fff;}
 /********************expense***************************/
 @media (max-width:1023px)
 {
-.user-guide{background-color:#e1e1e1;}
+/* .user-guide{background-color:#e1e1e1;} */
 nav .collapse.show{background: #272727;}
 .table-heading-wb .actionbtn a{border-right: 1px solid #262626;}	
 }
