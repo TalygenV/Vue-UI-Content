@@ -8163,7 +8163,6 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 
 @media (max-width: 768px) {
 .treeview-container{ width: 300px;}
-.vue-grid-item.cssTransforms { width: 100% !important;}
 }
 @media (max-width: 550px) {
     .expand-list_rr{display:none;}
@@ -8197,6 +8196,9 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .vue-grid-layout {height: auto !important;float: left; padding: 15px;}
 .vue-grid-item.cssTransforms { width: 49% !important; float: left; position: unset !important; margin: 5px 0.5%; transform: none !important;}
 
+}
+@media (max-width: 768px) {
+.vue-grid-item.cssTransforms { width: 100% !important;}
 }
 
 
