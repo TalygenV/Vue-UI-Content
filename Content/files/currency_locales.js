@@ -223,7 +223,7 @@ var CURRENCY_DETAIL = {
       "symbol": "₵"
     }
   },
-  "pt-PT": {
+  "pt": {
     "currency": {
       "style": "currency",
       "currency": "EUR",
