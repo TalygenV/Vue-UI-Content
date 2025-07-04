@@ -297,5 +297,3 @@ function getLocaleByCurrency(currencyCode){
   });
   return currencyCode
 }
-
-export {CURRENCY_DETAIL, getLocaleByCurrency};
