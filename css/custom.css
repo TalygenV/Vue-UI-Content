@@ -5293,6 +5293,10 @@ ul.graphinfo li:last-child{border: none;}
 .jslider .jslider-label { top:-25px!important; left: 85%!important;}
 }
 
+@media (max-width: 570px) {
+.jslider .jslider-label { top:-25px!important; left: 78%!important;}
+}
+
 
 /*Parameter-sliders 16-02-2023*/
 
