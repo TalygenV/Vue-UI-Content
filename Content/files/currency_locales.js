@@ -295,5 +295,5 @@ function getLocaleByCurrency(currencyCode){
       returnValue = key;
     }
   });
-  return currencyCode
+  return returnValue;
 }
