@@ -1367,4 +1367,7 @@ ul.filetree.treeview{background-color: #2c3136;}
 .vc-pane-container{border: none!important;}
 
 .custom-calendar.vc-container .vc-pane-container .vc-weeks .vc-weekday{background-color: #3e4957!important; color: #fff!important;}
+.custom-calendar.vc-container .vc-pane-container .vc-weeks .vc-day{background-color: #2c3135!important; color: #fff!important;}
+
+
 
