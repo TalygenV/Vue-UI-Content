@@ -1363,4 +1363,6 @@ ul.filetree.treeview{background-color: #2c3136;}
 /********** HR/ShiftRoster - Rahul Kumar 22 May 2025*******************/
 
 .custom-calendar.vc-container .vc-pane-container .vc-header{background-color:#283644 !important;}
+.custom-calendar.vc-container .vc-arrows-container .vc-arrow:hover{background: #4d4d4d!important;}
 .vc-pane-container{border: none!important;}
+
