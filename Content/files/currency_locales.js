@@ -76,9 +76,11 @@ var CURRENCY_DETAIL = {
   },
   "de": {
     "currency": {
-      "style": "currency",
-      "currency": "EUR",
-      "symbol": "€"
+      "currency": {
+        "style": "currency",
+        "currency": "EUR",
+        "symbol": "€"
+      }
     },
     "dateFormat": {
       "short": {
@@ -99,9 +101,11 @@ var CURRENCY_DETAIL = {
   },
   "fr": {
     "currency": {
-      "style": "currency",
-      "currency": "EUR",
-      "symbol": "€"
+      "currency": {
+        "style": "currency",
+        "currency": "EUR",
+        "symbol": "€"
+      }
     },
     "dateFormat": {
       "short": {
@@ -122,9 +126,11 @@ var CURRENCY_DETAIL = {
   },
   "es": {
     "currency": {
-      "style": "currency",
-      "currency": "EUR",
-      "symbol": "€"
+      "currency": {
+        "style": "currency",
+        "currency": "EUR",
+        "symbol": "€"
+      }
     },
     "dateFormat": {
       "short": {
@@ -145,9 +151,11 @@ var CURRENCY_DETAIL = {
   },
   "ja": {
     "currency": {
-      "style": "currency",
-      "currency": "JPY",
-      "symbol": "¥"
+      "currency": {
+        "style": "currency",
+        "currency": "JPY",
+        "symbol": "¥"
+      }
     },
     "dateFormat": {
       "short": {
@@ -168,9 +176,11 @@ var CURRENCY_DETAIL = {
   },
   "zh": {
     "currency": {
-      "style": "currency",
-      "currency": "CNY",
-      "symbol": "¥"
+      "currency": {
+        "style": "currency",
+        "currency": "CNY",
+        "symbol": "¥"
+      }
     },
     "dateFormat": {
       "short": {
@@ -191,9 +201,11 @@ var CURRENCY_DETAIL = {
   },
   "ru": {
     "currency": {
-      "style": "currency",
-      "currency": "RUB",
-      "symbol": "₽"
+      "currency": {
+        "style": "currency",
+        "currency": "RUB",
+        "symbol": "₽"
+      }
     },
     "dateFormat": {
       "short": {
@@ -214,9 +226,11 @@ var CURRENCY_DETAIL = {
   },
   "ko": {
     "currency": {
-      "style": "currency",
-      "currency": "KRW",
-      "symbol": "₩"
+      "currency": {
+        "style": "currency",
+        "currency": "KRW",
+        "symbol": "₩"
+      }
     },
     "dateFormat": {
       "short": {
@@ -237,9 +251,11 @@ var CURRENCY_DETAIL = {
   },
   "ar": {
     "currency": {
-      "style": "currency",
-      "currency": "SAR",
-      "symbol": "ر.س"
+      "currency": {
+        "style": "currency",
+        "currency": "SAR",
+        "symbol": "ر.س"
+      }
     },
     "dateFormat": {
       "short": {
@@ -260,9 +276,11 @@ var CURRENCY_DETAIL = {
   },
   "pt-BR": {
     "currency": {
-      "style": "currency",
-      "currency": "BRL",
-      "symbol": "R$"
+      "currency": {
+        "style": "currency",
+        "currency": "BRL",
+        "symbol": "R$"
+      }
     },
     "dateFormat": {
       "short": {
@@ -283,9 +301,11 @@ var CURRENCY_DETAIL = {
   },
   "it": {
     "currency": {
-      "style": "currency",
-      "currency": "EUR",
-      "symbol": "€"
+      "currency": {
+        "style": "currency",
+        "currency": "EUR",
+        "symbol": "€"
+      }
     },
     "dateFormat": {
       "short": {
@@ -306,9 +326,11 @@ var CURRENCY_DETAIL = {
   },
   "nl": {
     "currency": {
-      "style": "currency",
-      "currency": "EUR",
-      "symbol": "€"
+      "currency": {
+        "style": "currency",
+        "currency": "EUR",
+        "symbol": "€"
+      }
     },
     "dateFormat": {
       "short": {
@@ -329,9 +351,11 @@ var CURRENCY_DETAIL = {
   },
   "tr": {
     "currency": {
-      "style": "currency",
-      "currency": "TRY",
-      "symbol": "₺"
+      "currency": {
+        "style": "currency",
+        "currency": "TRY",
+        "symbol": "₺"
+      }
     },
     "dateFormat": {
       "short": {
@@ -352,9 +376,11 @@ var CURRENCY_DETAIL = {
   },
   "pl": {
     "currency": {
-      "style": "currency",
-      "currency": "PLN",
-      "symbol": "zł"
+      "currency": {
+        "style": "currency",
+        "currency": "PLN",
+        "symbol": "zł"
+      }
     },
     "dateFormat": {
       "short": {
@@ -375,9 +401,11 @@ var CURRENCY_DETAIL = {
   },
   "sv": {
     "currency": {
-      "style": "currency",
-      "currency": "SEK",
-      "symbol": "kr"
+      "currency": {
+        "style": "currency",
+        "currency": "SEK",
+        "symbol": "kr"
+      }
     },
     "dateFormat": {
       "short": {
@@ -398,9 +426,11 @@ var CURRENCY_DETAIL = {
   },
   "no": {
     "currency": {
-      "style": "currency",
-      "currency": "NOK",
-      "symbol": "kr"
+      "currency": {
+        "style": "currency",
+        "currency": "NOK",
+        "symbol": "kr"
+      }
     },
     "dateFormat": {
       "short": {
@@ -421,9 +451,11 @@ var CURRENCY_DETAIL = {
   },
   "da": {
     "currency": {
-      "style": "currency",
-      "currency": "DKK",
-      "symbol": "kr"
+      "currency": {
+        "style": "currency",
+        "currency": "DKK",
+        "symbol": "kr"
+      }
     },
     "dateFormat": {
       "short": {
@@ -444,9 +476,11 @@ var CURRENCY_DETAIL = {
   },
   "cs": {
     "currency": {
-      "style": "currency",
-      "currency": "CZK",
-      "symbol": "Kč"
+      "currency": {
+        "style": "currency",
+        "currency": "CZK",
+        "symbol": "Kč"
+      }
     },
     "dateFormat": {
       "short": {
@@ -467,9 +501,11 @@ var CURRENCY_DETAIL = {
   },
   "hu": {
     "currency": {
-      "style": "currency",
-      "currency": "HUF",
-      "symbol": "Ft"
+      "currency": {
+        "style": "currency",
+        "currency": "HUF",
+        "symbol": "Ft"
+      }
     },
     "dateFormat": {
       "short": {
@@ -490,9 +526,11 @@ var CURRENCY_DETAIL = {
   },
   "th": {
     "currency": {
-      "style": "currency",
-      "currency": "THB",
-      "symbol": "฿"
+      "currency": {
+        "style": "currency",
+        "currency": "THB",
+        "symbol": "฿"
+      }
     },
     "dateFormat": {
       "short": {
@@ -513,9 +551,11 @@ var CURRENCY_DETAIL = {
   },
   "id": {
     "currency": {
-      "style": "currency",
-      "currency": "IDR",
-      "symbol": "Rp"
+      "currency": {
+        "style": "currency",
+        "currency": "IDR",
+        "symbol": "Rp"
+      }
     },
     "dateFormat": {
       "short": {
@@ -536,9 +576,11 @@ var CURRENCY_DETAIL = {
   },
   "ur-PK": {
     "currency": {
-      "style": "currency",
-      "currency": "PKR",
-      "symbol": "₨"
+      "currency": {
+        "style": "currency",
+        "currency": "PKR",
+        "symbol": "₨"
+      }
     },
     "dateFormat": {
       "short": {
@@ -559,9 +601,11 @@ var CURRENCY_DETAIL = {
   },
   "bn-BD": {
     "currency": {
-      "style": "currency",
-      "currency": "BDT",
-      "symbol": "৳"
+      "currency": {
+        "style": "currency",
+        "currency": "BDT",
+        "symbol": "৳"
+      }
     },
     "dateFormat": {
       "short": {
@@ -582,9 +626,11 @@ var CURRENCY_DETAIL = {
   },
   "af-ZA": {
     "currency": {
-      "style": "currency",
-      "currency": "ZAR",
-      "symbol": "R"
+      "currency": {
+        "style": "currency",
+        "currency": "ZAR",
+        "symbol": "R"
+      }
     },
     "dateFormat": {
       "short": {
@@ -605,9 +651,11 @@ var CURRENCY_DETAIL = {
   },
   "sw-KE": {
     "currency": {
-      "style": "currency",
-      "currency": "KES",
-      "symbol": "KSh"
+      "currency": {
+        "style": "currency",
+        "currency": "KES",
+        "symbol": "KSh"
+      }
     },
     "dateFormat": {
       "short": {
@@ -628,9 +676,11 @@ var CURRENCY_DETAIL = {
   },
   "am-ET": {
     "currency": {
-      "style": "currency",
-      "currency": "ETB",
-      "symbol": "Br"
+      "currency": {
+        "style": "currency",
+        "currency": "ETB",
+        "symbol": "Br"
+      }
     },
     "dateFormat": {
       "short": {
@@ -651,9 +701,11 @@ var CURRENCY_DETAIL = {
   },
   "ha-NG": {
     "currency": {
-      "style": "currency",
-      "currency": "NGN",
-      "symbol": "₦"
+      "currency": {
+        "style": "currency",
+        "currency": "NGN",
+        "symbol": "₦"
+      }
     },
     "dateFormat": {
       "short": {
@@ -674,9 +726,11 @@ var CURRENCY_DETAIL = {
   },
   "en-NG": {
     "currency": {
-      "style": "currency",
-      "currency": "NGN",
-      "symbol": "₦"
+      "currency": {
+        "style": "currency",
+        "currency": "NGN",
+        "symbol": "₦"
+      }
     },
     "dateFormat": {
       "short": {
@@ -697,9 +751,11 @@ var CURRENCY_DETAIL = {
   },
   "en-ZA": {
     "currency": {
-      "style": "currency",
-      "currency": "ZAR",
-      "symbol": "R"
+      "currency": {
+        "style": "currency",
+        "currency": "ZAR",
+        "symbol": "R"
+      }
     },
     "dateFormat": {
       "short": {
@@ -720,9 +776,11 @@ var CURRENCY_DETAIL = {
   },
   "en-GH": {
     "currency": {
-      "style": "currency",
-      "currency": "GHS",
-      "symbol": "₵"
+      "currency": {
+        "style": "currency",
+        "currency": "GHS",
+        "symbol": "₵"
+      }
     },
     "dateFormat": {
       "short": {
@@ -743,9 +801,11 @@ var CURRENCY_DETAIL = {
   },
   "pt": {
     "currency": {
-      "style": "currency",
-      "currency": "EUR",
-      "symbol": "€"
+      "currency": {
+        "style": "currency",
+        "currency": "EUR",
+        "symbol": "€"
+      }
     },
     "dateFormat": {
       "short": {
@@ -766,9 +826,11 @@ var CURRENCY_DETAIL = {
   },
   "es-MX": {
     "currency": {
-      "style": "currency",
-      "currency": "MXN",
-      "symbol": "$"
+      "currency": {
+        "style": "currency",
+        "currency": "MXN",
+        "symbol": "$"
+      }
     },
     "dateFormat": {
       "short": {
@@ -789,9 +851,11 @@ var CURRENCY_DETAIL = {
   },
   "es-AR": {
     "currency": {
-      "style": "currency",
-      "currency": "ARS",
-      "symbol": "$"
+      "currency": {
+        "style": "currency",
+        "currency": "ARS",
+        "symbol": "$"
+      }
     },
     "dateFormat": {
       "short": {
@@ -812,9 +876,11 @@ var CURRENCY_DETAIL = {
   },
   "es-CL": {
     "currency": {
-      "style": "currency",
-      "currency": "CLP",
-      "symbol": "$"
+      "currency": {
+        "style": "currency",
+        "currency": "CLP",
+        "symbol": "$"
+      }
     },
     "dateFormat": {
       "short": {
@@ -835,9 +901,11 @@ var CURRENCY_DETAIL = {
   },
   "es-CO": {
     "currency": {
-      "style": "currency",
-      "currency": "COP",
-      "symbol": "$"
+      "currency": {
+        "style": "currency",
+        "currency": "COP",
+        "symbol": "$"
+      }
     },
     "dateFormat": {
       "short": {
@@ -858,9 +926,11 @@ var CURRENCY_DETAIL = {
   },
   "es-PE": {
     "currency": {
-      "style": "currency",
-      "currency": "PEN",
-      "symbol": "S/."
+      "currency": {
+        "style": "currency",
+        "currency": "PEN",
+        "symbol": "S/."
+      }
     },
     "dateFormat": {
       "short": {
@@ -881,9 +951,11 @@ var CURRENCY_DETAIL = {
   },
   "en-PH": {
     "currency": {
-      "style": "currency",
-      "currency": "PHP",
-      "symbol": "₱"
+      "currency": {
+        "style": "currency",
+        "currency": "PHP",
+        "symbol": "₱"
+      }
     },
     "dateFormat": {
       "short": {
@@ -904,9 +976,11 @@ var CURRENCY_DETAIL = {
   },
   "vi-VN": {
     "currency": {
-      "style": "currency",
-      "currency": "VND",
-      "symbol": "₫"
+      "currency": {
+        "style": "currency",
+        "currency": "VND",
+        "symbol": "₫"
+      }
     },
     "dateFormat": {
       "short": {
@@ -927,9 +1001,11 @@ var CURRENCY_DETAIL = {
   },
   "ms-MY": {
     "currency": {
-      "style": "currency",
-      "currency": "MYR",
-      "symbol": "RM"
+      "currency": {
+        "style": "currency",
+        "currency": "MYR",
+        "symbol": "RM"
+      }
     },
     "dateFormat": {
       "short": {
