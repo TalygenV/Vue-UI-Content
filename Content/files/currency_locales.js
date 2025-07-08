@@ -1,23 +1,77 @@
 var CURRENCY_DETAIL = {
   "en": {
     "currency": {
-      "style": "currency",
-      "currency": "USD",
-      "symbol": "$"
+      "currency": {
+        "style": "currency",
+        "currency": "USD",
+        "symbol": "$"
+      }
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "en-GB": {
     "currency": {
-      "style": "currency",
-      "currency": "GBP",
-      "symbol": "£"
+      "currency": {
+        "style": "currency",
+        "currency": "GBP",
+        "symbol": "£"
+      }
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "en-IN": {
     "currency": {
-      "style": "currency",
-      "currency": "INR",
-      "symbol": "₹"
+      "currency": {
+        "style": "currency",
+        "currency": "INR",
+        "symbol": "₹"
+      }
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "de": {
@@ -25,6 +79,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "EUR",
       "symbol": "€"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "fr": {
@@ -32,6 +102,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "EUR",
       "symbol": "€"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "es": {
@@ -39,6 +125,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "EUR",
       "symbol": "€"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "ja": {
@@ -46,6 +148,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "JPY",
       "symbol": "¥"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "zh": {
@@ -53,6 +171,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "CNY",
       "symbol": "¥"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "ru": {
@@ -60,6 +194,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "RUB",
       "symbol": "₽"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "ko": {
@@ -67,6 +217,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "KRW",
       "symbol": "₩"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "ar": {
@@ -74,6 +240,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "SAR",
       "symbol": "ر.س"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "pt-BR": {
@@ -81,6 +263,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "BRL",
       "symbol": "R$"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "it": {
@@ -88,6 +286,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "EUR",
       "symbol": "€"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "nl": {
@@ -95,6 +309,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "EUR",
       "symbol": "€"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "tr": {
@@ -102,6 +332,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "TRY",
       "symbol": "₺"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "pl": {
@@ -109,6 +355,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "PLN",
       "symbol": "zł"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "sv": {
@@ -116,6 +378,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "SEK",
       "symbol": "kr"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "no": {
@@ -123,6 +401,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "NOK",
       "symbol": "kr"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "da": {
@@ -130,6 +424,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "DKK",
       "symbol": "kr"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "cs": {
@@ -137,6 +447,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "CZK",
       "symbol": "Kč"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "hu": {
@@ -144,6 +470,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "HUF",
       "symbol": "Ft"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "th": {
@@ -151,6 +493,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "THB",
       "symbol": "฿"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "id": {
@@ -158,6 +516,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "IDR",
       "symbol": "Rp"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "ur-PK": {
@@ -165,6 +539,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "PKR",
       "symbol": "₨"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "bn-BD": {
@@ -172,6 +562,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "BDT",
       "symbol": "৳"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "af-ZA": {
@@ -179,6 +585,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "ZAR",
       "symbol": "R"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "sw-KE": {
@@ -186,6 +608,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "KES",
       "symbol": "KSh"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "am-ET": {
@@ -193,6 +631,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "ETB",
       "symbol": "Br"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "ha-NG": {
@@ -200,6 +654,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "NGN",
       "symbol": "₦"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "en-NG": {
@@ -207,6 +677,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "NGN",
       "symbol": "₦"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "en-ZA": {
@@ -214,6 +700,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "ZAR",
       "symbol": "R"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "en-GH": {
@@ -221,6 +723,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "GHS",
       "symbol": "₵"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "pt": {
@@ -228,6 +746,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "EUR",
       "symbol": "€"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "es-MX": {
@@ -235,6 +769,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "MXN",
       "symbol": "$"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "es-AR": {
@@ -242,6 +792,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "ARS",
       "symbol": "$"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "es-CL": {
@@ -249,6 +815,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "CLP",
       "symbol": "$"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "es-CO": {
@@ -256,6 +838,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "COP",
       "symbol": "$"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "es-PE": {
@@ -263,6 +861,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "PEN",
       "symbol": "S/."
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "en-PH": {
@@ -270,6 +884,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "PHP",
       "symbol": "₱"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   },
   "vi-VN": {
@@ -277,6 +907,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "VND",
       "symbol": "₫"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": false
+      }
     }
   },
   "ms-MY": {
@@ -284,6 +930,22 @@ var CURRENCY_DETAIL = {
       "style": "currency",
       "currency": "MYR",
       "symbol": "RM"
+    },
+    "dateFormat": {
+      "short": {
+        "year": "numeric",
+        "month": "2-digit",
+        "day": "2-digit"
+      },
+      "long": {
+        "weekday": "short",
+        "year": "numeric",
+        "month": "long",
+        "day": "2-digit",
+        "hour": "2-digit",
+        "minute": "2-digit",
+        "hour12": true
+      }
     }
   }
 }
