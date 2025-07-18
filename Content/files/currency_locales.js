@@ -49,7 +49,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "en-IN": {
+  "en-in": {
     "currency": {
       "currency": {
         "style": "currency",
