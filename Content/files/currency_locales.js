@@ -1029,7 +1029,7 @@ var CURRENCY_DETAIL = {
 function getLocaleByCurrency(currencyCode){
   var returnValue = '';
   Object.entries(CURRENCY_DETAIL).forEach(([key, value]) => {
-    if(value.currency.currency == currencyCode) {
+    if(value.currency.currency.currency == currencyCode) {
       returnValue = key;
     }
   });
