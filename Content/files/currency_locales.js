@@ -24,7 +24,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "en-GB": {
+  "en-gb": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -49,7 +49,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "en-IN": {
+  "en-in": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -274,7 +274,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "pt-BR": {
+  "pt-br": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -574,7 +574,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "ur-PK": {
+  "ur-pk": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -599,7 +599,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "bn-BD": {
+  "bn-bd": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -624,7 +624,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "af-ZA": {
+  "af-za": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -649,7 +649,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "sw-KE": {
+  "sw-ke": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -674,7 +674,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "am-ET": {
+  "am-et": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -699,7 +699,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "ha-NG": {
+  "ha-ng": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -724,7 +724,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "en-NG": {
+  "en-ng": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -749,7 +749,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "en-ZA": {
+  "en-za": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -774,7 +774,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "en-GH": {
+  "en-gh": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -824,7 +824,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "es-MX": {
+  "es-mx": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -849,7 +849,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "es-AR": {
+  "es-ar": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -874,7 +874,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "es-CL": {
+  "es-cl": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -899,7 +899,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "es-CO": {
+  "es-co": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -924,7 +924,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "es-PE": {
+  "es-pe": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -949,7 +949,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "en-PH": {
+  "en-ph": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -974,7 +974,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "vi-VN": {
+  "vi-vn": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -999,7 +999,7 @@ var CURRENCY_DETAIL = {
       }
     }
   },
-  "ms-MY": {
+  "ms-my": {
     "currency": {
       "currency": {
         "style": "currency",
@@ -1029,7 +1029,7 @@ var CURRENCY_DETAIL = {
 function getLocaleByCurrency(currencyCode){
   var returnValue = '';
   Object.entries(CURRENCY_DETAIL).forEach(([key, value]) => {
-    if(value.currency.currency == currencyCode) {
+    if(value.currency.currency.currency == currencyCode) {
       returnValue = key;
     }
   });
