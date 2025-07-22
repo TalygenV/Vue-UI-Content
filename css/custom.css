@@ -41,6 +41,7 @@ p{margin-bottom:10px;}
 /* .fixed-top{z-index: 99999;} Harjit */
 .fixed-top{z-index: 99998;}
 .wrapper { display:flex; align-items:stretch;}
+.font-6{font-size: 6px!important;}
 .font-10{font-size:10px!important;}
 .font-12{font-size:12px!important;}
 .font-13{font-size:13px!important;}
@@ -8227,10 +8228,75 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .listing .table-responsive table.tdtop td{vertical-align: top;}
 
 
+/********Client - New Design Shubham Saini************/
 
+.clientnewdes .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--medium-gray);
+}
+.clientnewdes .customer-header {
+  display: flex;
+  align-items: center;
+}
+.clientnewdes .customer-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 3px solid var(--primary-color);
+}
 
+.clientnewdes .customer-headersmall {
+  display: flex;
+  align-items: center;
+}
+.clientnewdes .customer-headersmall .customer-avatar {
+  width: 40px;
+  height:40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 3px solid var(--primary-color);
+}
 
+.clientnewdes .customer-headersmall .customer-info h1 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
 
+.clientnewdes .customer-info h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+.clientnewdes .customer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  color: var(--dark-gray);
+  font-size: 14px;
+}
+.clientnewdes .customer-meta span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.clientnewdes .action-buttons {
+  display: flex;
+  gap: 10px;
+}
+.clientnewdes .btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
 
+/********Client - New Design Shubham Saini************/
 
 
