@@ -8229,74 +8229,30 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 
 
 /********Client - New Design Shubham Saini************/
-
-.clientnewdes .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid var(--medium-gray);
-}
-.clientnewdes .customer-header {
-  display: flex;
-  align-items: center;
-}
-.clientnewdes .customer-avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 20px;
-  border: 3px solid var(--primary-color);
-}
-
-.clientnewdes .customer-headersmall {
-  display: flex;
-  align-items: center;
-}
-.clientnewdes .customer-headersmall .customer-avatar {
-  width: 40px;
-  height:40px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 20px;
-  border: 3px solid var(--primary-color);
-}
-
-.clientnewdes .customer-headersmall .customer-info h1 {
-  font-size: 16px;
-  margin-bottom: 5px;
-  color: #2c3e50;
-}
-
-.clientnewdes .customer-info h1 {
-  font-size: 24px;
-  margin-bottom: 5px;
-  color: #2c3e50;
-}
-.clientnewdes .customer-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  color: var(--dark-gray);
-  font-size: 14px;
-}
-.clientnewdes .customer-meta span {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-.clientnewdes .action-buttons {
-  display: flex;
-  gap: 10px;
-}
-.clientnewdes .btn-outline {
-  background-color: transparent;
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
-}
-
+.gd_mainbase .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid var(--medium-gray);}
+.gd_mainbase .customer-header { display: flex; align-items: center;}
+.gd_mainbase .customer-avatar { width: 80px;  height: 80px;  border-radius: 50%; object-fit: cover;  margin-right: 20px; border: 3px solid var(--primary-color);}
+.gd_mainbase .profileicon{width: 40px; height: 40px; border-radius: 50%; margin-right: 20px; background: #f2f2f2; text-align: center; line-height:40px;}
+.gd_mainbase .customer-headersmall { display: flex; align-items: center;}
+.gd_mainbase .customer-headersmall .customer-avatar { width: 40px; height: 40px; border-radius: 50%;  object-fit: cover; margin-right: 20px; border: 3px solid var(--primary-color);}
+.gd_mainbase .customer-headersmall .customer-info h1 {font-size: 16px; margin-bottom: 5px; color: #2c3e50;}
+.gd_mainbase .customer-info h1 { font-size: 24px; margin-bottom: 5px; color: #2c3e50;}
+.gd_mainbase .customer-meta { display: flex; flex-wrap: wrap; gap: 15px; color: var(--dark-gray); font-size: 14px;}
+.gd_mainbase .customer-meta span { display: flex; align-items: center; gap: 5px;}
+.gd_mainbase .action-buttons { display: flex; gap: 10px;}
+.gd_mainbase .btn-outline {background-color: transparent; border: 1px solid var(--primary-color); color: var(--primary-color);}
+.gd_mainbase .font-6 { font-size: 6px;}
+.gd_mainbase .social-link {width: 32px;height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white;  text-decoration: none;}
+.gd_mainbase .social-links { display: flex; gap: 10px; margin-top: 10px; float: left; margin-right: 6px;}
+.gd_mainbase .facebook {background-color: #3b5998;}
+.gd_mainbase .twitter {background-color: #1da1f2;}
+.gd_mainbase .instagram {background-color: #e1306c;}
+.gd_mainbase .linkedin {background-color: #0077b5;}
+.gd_mainbase .whatsapp { background-color: #25d366;}
+.gd_mainbase .yahoo { background-color: #5f01d3;}
+.gd_mainbase .fax { background-color: #292929;}
+.gd_mainbase .email { background-color: #f84437;}
+.gd_mainbase .skype { background-color: #02aaec;}
 /********Client - New Design Shubham Saini************/
 
 
