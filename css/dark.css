@@ -683,7 +683,7 @@ select.form-control {	background-image: url(/Content/Responsive/images/drop-down
 .fc_subchild li p.shape_oval { background: #fbf3d2 !important;}
 
 .fc_parentchild li p.shape_oval{ border-radius: 20px;}
-.fc_parentchild li.arrowdown { background-image:url(https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/FlowChart_DownArrow.png) !important;}
+.fc_parentchild li.arrowdown { background-image:url(https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/FlowChart_DownArrow.png); }
 
 
 
