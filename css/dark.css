@@ -675,12 +675,12 @@ select.form-control {	background-image: url(/Content/Responsive/images/drop-down
 .fc_subchild li {	background-image: url(https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/FlowChart_RightArrow.png) !important;}
 /* .fc_parentchild li.arrowdown {	background-image: url(/Content/OrganizationChart/dark-images/FlowChart_DownArrow_90.png) !important;	background-repeat: no-repeat !important;	background-position: 129px bottom !important;} */
 /* .fc_parentchild li p.shape_oval {	background-image: url(/Content/OrganizationChart/dark-images/round_purple.png) !important;} */
-.fc_parentchild li p.shape_polygan {background-color: #959595 !important;	background-image: url(https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/fc_diamond.png) !important;}
+.fc_parentchild li p.shape_polygan {background-color: #badefc !important;	background-image: url(https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/fc_diamond.png) !important;}
 .fc_parentchild li p.shape_polygan span.delete {	background-image: url(/https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/billing_sprite.png) !important;}
 .fc_parentchild li p.shape_polygan span { color: #212528 !important}
 .fc_subchild li a.resulteditlink{background-image: url(https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/billing_sprite.png) !important;}
 .fc_subchild li p.hoctagon {background-image:url(https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/hoctagen.png) !important; }
-.fc_subchild li p.shape_oval { background: #fbf3d2 !important;}
+.fc_subchild li p.shape_oval { background:#ffe0a4!important;}
 
 .fc_parentchild li p.shape_oval{ border-radius: 20px;}
 .fc_parentchild li.arrowdown { background-image:url(https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/FlowChart_DownArrow.png); }
