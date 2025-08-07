@@ -31,7 +31,8 @@ var CURRENCY_DETAIL = {
         "style": "currency",
         "currency": "GBP",
         "symbol": "£"
-      }
+      },
+      "minimumFractionDigits": 2,
     },
     "dateFormat": {
       "short": {
