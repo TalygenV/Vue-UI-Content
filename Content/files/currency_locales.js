@@ -4,9 +4,13 @@ var CURRENCY_DETAIL = {
       "currency": {
         "style": "currency",
         "currency": "USD",
-        "symbol": "$"
+        "symbol": "$",
+        "minimumFractionDigits": 2,
       },
-      "minimumFractionDigits": 2,
+      decimal2: {
+        style: 'decimal',
+        minimumFractionDigits: 2
+      },
     },
     "dateFormat": {
       "short": {
@@ -30,9 +34,13 @@ var CURRENCY_DETAIL = {
       "currency": {
         "style": "currency",
         "currency": "GBP",
-        "symbol": "£"
+        "symbol": "£",
+        "minimumFractionDigits": 2,
       },
-      "minimumFractionDigits": 2,
+      decimal2: {
+        style: 'decimal',
+        minimumFractionDigits: 2
+      }
     },
     "dateFormat": {
       "short": {
@@ -56,9 +64,13 @@ var CURRENCY_DETAIL = {
       "currency": {
         "style": "currency",
         "currency": "INR",
-        "symbol": "₹"
+        "symbol": "₹",
+        "minimumFractionDigits": 2,
       },
-      "minimumFractionDigits": 2,
+      decimal2: {
+        style: 'decimal',
+        minimumFractionDigits: 2
+      }
     },
     "dateFormat": {
       "short": {
@@ -582,7 +594,12 @@ var CURRENCY_DETAIL = {
       "currency": {
         "style": "currency",
         "currency": "PKR",
-        "symbol": "₨"
+        "symbol": "₨",
+        "minimumFractionDigits": 2,
+      },
+      decimal2: {
+        style: 'decimal',
+        minimumFractionDigits: 2
       }
     },
     "dateFormat": {
