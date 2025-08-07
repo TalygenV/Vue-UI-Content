@@ -4,7 +4,8 @@ var CURRENCY_DETAIL = {
       "currency": {
         "style": "currency",
         "currency": "USD",
-        "symbol": "$"
+        "symbol": "$",
+        "minimumFractionDigits": 2,
       }
     },
     "dateFormat": {
@@ -54,7 +55,8 @@ var CURRENCY_DETAIL = {
       "currency": {
         "style": "currency",
         "currency": "INR",
-        "symbol": "₹"
+        "symbol": "₹",
+        "minimumFractionDigits": 2,
       }
     },
     "dateFormat": {
