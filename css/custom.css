@@ -8260,6 +8260,21 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 
 .gd_mainbase .msn {background-color: #ffffff; border: 1px solid #d5d5d5;}
 .gd_mainbase .msn img {width: 100%;}
+
+.gd_mainbase .customer-avatarname{
+  width: 90px;
+  height: 80px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 3px solid var(--primary-color);
+  font-size: 32px;
+  text-align: center;
+  background: #f2f2f2;
+  padding-top: 14px;
+  font-family: sans-serif;
+}
 /********Client - New Design Shubham Saini************/
 
 
