@@ -8220,13 +8220,8 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
     font-size: 25px;
 }
 
-.billingmainblock {
-    background: #f7f7f7;
-    border: 1px solid #e9e9e9;
-}
-    
+.billingmainblock { background: #f7f7f7; border: 1px solid #e9e9e9;}
 .listing .table-responsive table.tdtop td{vertical-align: top;}
-
 
 /********Client - New Design Shubham Saini************/
 .gd_mainbase .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid var(--medium-gray);}
@@ -8237,7 +8232,6 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .customer-info {float: right; width: calc(100% - 60px) !important; margin-bottom: 20px;}
 .gd_mainbase .customer-headersmall {float:left; width: 100%;}
 /* .gd_mainbase .customer-headersmall { display: flex; align-items: center;} */
-
 .gd_mainbase .customer-headersmall .customer-avatar { width: 40px; height: 40px; border-radius: 50%;  object-fit: cover; margin-right: 20px; border: 3px solid var(--primary-color);}
 .gd_mainbase .customer-headersmall .customer-info h1 {font-size: 16px; margin-bottom: 5px; color: #2c3e50;}
 .gd_mainbase .customer-info h1 { font-size: 24px; margin-bottom: 5px; color: #2c3e50;}
@@ -8257,7 +8251,6 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .gd_mainbase .fax { background-color: #292929;}
 .gd_mainbase .email { background-color: #f84437;}
 .gd_mainbase .skype { background-color: #02aaec;}
-
 .gd_mainbase .msn {background-color: #ffffff; border: 1px solid #d5d5d5;}
 .gd_mainbase .msn img {width: 100%;}
 .gd_mainbase .customer-headersmall.notespanel{align-items: start;}
@@ -8267,7 +8260,6 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 /********Client - New Design Shubham Saini************/
 
 /*****22Aug2025 Project New Design********/
-
 .ai_base{ background: #f8f8f8;}
 .ai_base .spinner-grow{width:10px!important; height: 10px!important;margin: 5px;}
 .ai_base .analysis-results{border-left: 3px solid #4261ef; float:left;}
@@ -8276,6 +8268,18 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .ai_base .analysis-content{ font-size: 14px;float:left; width: 100%;}
 .ai_base .whitespace-pre-wrap{float:left; width: 100%;}
 .ai_base .whitespace-pre-wrap .recommendation{background: #fff; border-radius: 15px; padding: 10px; border-left: 4px solid #54ccf1; margin-bottom: 10px;}
+
+
+.gd_mainbase .customer-headersmall .profileicon.proj{ margin-right: 5px; position: relative;}
+.gd_mainbase .profileicon.proj{ width: 40px; height: 40px; border-radius: 50%; background: #f2f2f2; text-align: center; line-height: 40px; float: left;}
+.gd_mainbase .customer-headersmall .profileicon.proj em.status { font-size: 11px; position: absolute; bottom: 0; right: 0px; border: 1px solid #fff; border-radius: 100%;}
+.gd_mainbase .customer-headersmall .profileiconbase span { margin-top: 8px; font-size: 13px; font-weight: 400;}
+.customer-infoloader {float: left; width: calc(100% - 250px) !important; margin-top: 10px; margin-left: 10px;}
+.customer-infoloader.progress { height: 0.7rem;}
+.customer-info_mid{float: left; width: calc(50% - 60px) !important; margin-bottom: 20px; margin-left: 15px;}
+.gd_mainbase .customer-headersmall .customer-info_mid h1 {font-size: 16px; margin-bottom: 5px; color: #2c3e50;}
+.customer-info_right{float: right; width: calc(50% - 60px) !important; margin-bottom: 20px; margin-left: 15px;}
+
 
 /*****22Aug2025 Project New Design********/
 
