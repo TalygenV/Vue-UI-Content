@@ -8260,23 +8260,23 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 
 .gd_mainbase .msn {background-color: #ffffff; border: 1px solid #d5d5d5;}
 .gd_mainbase .msn img {width: 100%;}
-
 .gd_mainbase .customer-headersmall.notespanel{align-items: start;}
+.gd_mainbase .customer-avatarname{ width: 90px; height: 80px; border-radius: 50%; -o-object-fit: cover; object-fit: cover;  margin-right: 20px;  border: 3px solid var(--primary-color);
+  font-size: 32px; text-align: center; background: #f2f2f2; padding-top: 14px; font-family: sans-serif;}
 
-.gd_mainbase .customer-avatarname{
-  width: 90px;
-  height: 80px;
-  border-radius: 50%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  margin-right: 20px;
-  border: 3px solid var(--primary-color);
-  font-size: 32px;
-  text-align: center;
-  background: #f2f2f2;
-  padding-top: 14px;
-  font-family: sans-serif;
-}
 /********Client - New Design Shubham Saini************/
+
+/*****22Aug2025 Project New Design********/
+
+.ai_base{ background: #f8f8f8;}
+.ai_base .spinner-grow{width:10px!important; height: 10px!important;margin: 5px;}
+.ai_base .analysis-results{border-left: 3px solid #4261ef; float:left;}
+.ai_base .analysis-results .em_base {width: 27px; height:27px; border-radius:100%; background: #4261ef; text-align: center; font-size: 12px; color:#fff; float:left; margin-right:10px;line-height: 26px;}
+.ai_base .text-ai{color:#4261ef;}
+.ai_base .analysis-content{ font-size: 14px;float:left; width: 100%;}
+.ai_base .whitespace-pre-wrap{float:left; width: 100%;}
+.ai_base .whitespace-pre-wrap .recommendation{background: #fff; border-radius: 15px; padding: 10px; border-left: 4px solid #54ccf1; margin-bottom: 10px;}
+
+/*****22Aug2025 Project New Design********/
 
 
