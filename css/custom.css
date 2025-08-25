@@ -8283,7 +8283,17 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 
 /*****22Aug2025 Project New Design********/
 
+div#divDialogDetails .arrow-left.arrow_lft {
+    position: absolute;
+    right: -30%;
+    top: 250px;
+}
 
+div#divDialogDetails .arrow-right.arrow_rt {
+    position: absolute;
+    left: -30%;
+    top: 250px;
+}
 
 @media (max-width: 991px) {
  .workdairy_rightbase { padding: 15px !important; }
