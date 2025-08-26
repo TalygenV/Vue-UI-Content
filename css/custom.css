@@ -8229,8 +8229,8 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .gd_mainbase .customer-avatar { width: 80px;  height: 80px;  border-radius: 50%; object-fit: cover;  margin-right: 20px; border: 3px solid var(--primary-color);}
 .gd_mainbase .profileicon{width: 40px; height: 40px; border-radius: 50%; background: #f2f2f2; text-align: center; line-height:40px;   float: left;}
 /* .gd_mainbase .profileicon{width: 40px; height: 40px; border-radius: 50%; margin-right: 20px; background: #f2f2f2; text-align: center; line-height:40px;} */
-.customer-info {float: right; width: calc(100% - 60px) !important; margin-bottom: 20px;}
-.gd_mainbase .customer-headersmall {float:left; width: 100%;}
+.customer-info {float: right; width: calc(100% - 60px) !important; margin-bottom: 10px;}
+.gd_mainbase .customer-headersmall {float:left; width: 100%; border-bottom: 1px solid #e3e3e3; margin-bottom: 10px;}
 /* .gd_mainbase .customer-headersmall { display: flex; align-items: center;} */
 .gd_mainbase .customer-headersmall .customer-avatar { width: 40px; height: 40px; border-radius: 50%;  object-fit: cover; margin-right: 20px; border: 3px solid var(--primary-color);}
 .gd_mainbase .customer-headersmall .customer-info h1 {font-size: 16px; margin-bottom: 5px; color: #2c3e50;}
