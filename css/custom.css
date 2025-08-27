@@ -8230,13 +8230,13 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .gd_mainbase .profileicon{width: 40px; height: 40px; border-radius: 50%; background: #f2f2f2; text-align: center; line-height:40px;   float: left;}
 /* .gd_mainbase .profileicon{width: 40px; height: 40px; border-radius: 50%; margin-right: 20px; background: #f2f2f2; text-align: center; line-height:40px;} */
 .customer-info {float: right; width: calc(100% - 60px) !important; margin-bottom: 10px;}
-.gd_mainbase .customer-headersmall {float:left; width: 100%; border-bottom: 1px solid #e3e3e3; margin-bottom: 10px;}
+.gd_mainbase .customer-headersmall {float:left; width: 100%; border-bottom: 1px solid #c2c2c2; margin-bottom: 10px;}
 /* .gd_mainbase .customer-headersmall { display: flex; align-items: center;} */
 .gd_mainbase .customer-headersmall .customer-avatar { width: 40px; height: 40px; border-radius: 50%;  object-fit: cover; margin-right: 20px; border: 3px solid var(--primary-color);}
-.gd_mainbase .customer-headersmall .customer-info h1 {font-size: 16px; margin-bottom: 5px; color: #2c3e50;}
+.gd_mainbase .customer-headersmall .customer-info h1 {font-size: 16px; margin-bottom: 0px; color: #2c3e50;}
 .gd_mainbase .customer-info h1 { font-size: 24px; margin-bottom: 5px; color: #2c3e50;}
 .gd_mainbase .customer-meta { display: flex; flex-wrap: wrap; gap: 15px; color: var(--dark-gray); font-size: 14px;}
-.gd_mainbase .customer-meta span { display: flex; align-items: center; gap: 5px;}
+.gd_mainbase .customer-meta span { display: flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 400;}
 .gd_mainbase .action-buttons { display: flex; gap: 10px;}
 .gd_mainbase .btn-outline {background-color: transparent; border: 1px solid var(--primary-color); color: var(--primary-color);}
 .gd_mainbase .font-6 { font-size: 6px;}
