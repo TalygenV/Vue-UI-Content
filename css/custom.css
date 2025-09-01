@@ -6134,6 +6134,9 @@ select#dropdownMenu2.btn.dropdown-toggle{width:auto;}
 .table-bordered tr.sample-bar justwraper td.single-action:first-child::before {display: none;}
 
 
+
+
+
 .samplebar_card .card-body {padding: 10px; background-image: url(/Vue-UI-Content/images/sample_png.png); background-repeat: no-repeat;background-size: auto; background-position: center center;}
 .samplebar_card { padding: 10px; background-image: url(/Vue-UI-Content/images/sample_png.png) !important; background-repeat: no-repeat !important; background-size: auto !important; background-position: center center !important;}
 .samplebar_card_hs::before { background-image: url(/Vue-UI-Content/images/sample_png.png) !important; background-repeat: no-repeat !important; background-size: auto !important;
