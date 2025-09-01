@@ -4551,4 +4551,42 @@ touritem["TimeTracking/DepartmentViewDasboard"] = {
   ],
 };
 
+touritem["Dashboard/Home"] = {
+  ModuleDisplayName: "General",
+  ModuleName: "General",
+  displayName: "Dynamic Dashboard",
+  items: [
+    {
+      selector: "#DashboardNames",
+      step: 1,
+      title: "Dashbaord",
+      content: "DashbaordContent",
+    },
+     {
+      selector: "#AddDashboard",
+      step: 2,
+      title: "AddDashbaord",
+      content: "AddDashbaordContent",
+    },
+    {
+      selector: "#FilterDashboard",
+      step: 3,
+      title: "FilterDashboard",
+      content: "FilterDashboardContent",
+    },
+    {
+      selector: "#NumericDashboard",
+      step: 4,
+      title: "NumericDashboard",
+      content: "NumericWidgetContent",
+    },
+    {
+      selector: "#GridWidget",
+      step: 5,
+      title: "GridWidget",
+      content: "GridWidgetContent",
+    }
+  ],
+};
+
 tourData.push(touritem);
