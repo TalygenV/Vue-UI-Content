@@ -949,7 +949,7 @@ div[rel='scrollcontent1'] { width:100%; height:320px;}
 }
 
 @media only screen and (min-width:1025px) and (max-width:1200px){
-.custom-box-width .col-xl-2{flex: 0 0 50%; max-width: 50%;}
+.custom-box-width .col-xl-2{flex: 0 0 33.333333%; max-width: 33.333333%;}
 }
 
 /* @media only screen and (min-width:1550px) and (max-width:1920px){
