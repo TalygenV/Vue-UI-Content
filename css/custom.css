@@ -8351,3 +8351,17 @@ div#divDialogDetails .arrow-right.arrow_rt {position: absolute; left: -30%; top:
 /* .listing a { background: unset; color: #007bff !important;} */
 /********* Doc Storage Kand by developer - to Overwrite Inline style HS 3Sept2025 *********/
 
+.shortcuts-menu_temp {width: 100%;float: left;position: relative;display: flex;flex-wrap: wrap;}
+.shortcuts-menu_temp li {max-width: 25% !important;width: 100%;padding: 15px;float: left;display: flex;transition: all .4s;}
+.shortcuts-menu_temp li .basser {width: 100%;background-color: #f7f7f7;border: 1px solid #cfcfcf;color: #333335; border-radius: 5px;}
+.shortcuts-menu_temp li .basser .smallhead1{background:#f2f2f2; padding: 10px; font-weight: 500;  border-radius: 5px 5px 0px 0px;}
+.shortcuts-menu_temp li .basser .smallhead01{background:#fff; padding:3px 10px; font-size:10px; font-weight:600;}
+.shortcuts-menu_temp li .basser .imgbase1{background:#fff;}
+.shortcuts-menu_temp li .basser .imgbase1 img{ width:100%; max-height: 180px;}
+.shortcuts-menu_temp li .basser .smallhead2{background:#f2f2f2; padding: 10px; border-radius: 0px 0px 5px 5px;}
+.shortcuts-menu_temp li .basser.gen-templateadded{border: 1px dashed #6fc1a4;}
+.gen-templateadded .smallhead1 {background: #e3f0fb!important;}
+.gen-templateadded .smallhead2 {background: #e3f0fb!important;}
+.modal-mask{z-index: 99999;}
+.vue-lightbox-thumbnail-wrapper{bottom:120px!important;}
+ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
