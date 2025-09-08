@@ -4774,8 +4774,9 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
 .navbar #divMainProjectAddWizard .container-fluid {display:block;}
 
 /* Expense card view and kanban view */
+/* .card-box.expense-card.text-center .expense-card-header .expense-card .custom-control{ position: absolute; top: 2px; left: -3px; } */
 
-.card-box.expense-card.text-center .expense-card-header .expense-card .custom-control{ position: absolute; top: 2px; left: -3px; }
+.expense-card .custom-control{ position: absolute; top: 2px; left: -3px; }
 .expense-card-header{width:100%; margin:0px; padding:10px 0px 0px 0px;}
 .expense-icon{ width: 50px; height: 50px; border-radius: 100%; border: 2px solid #ccc; display: inline-block; line-height: 44px; }
 .expense-card .expense-title{ color: #000; font-size: 16px; text-align: center; width: 100%; font-weight: 500; padding: 5px 0px; text-transform: capitalize;}
