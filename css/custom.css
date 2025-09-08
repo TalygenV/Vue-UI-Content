@@ -687,7 +687,7 @@ pre { white-space: pre-wrap;  /* css-3 */ white-space: -moz-pre-wrap;  /* Mozill
 .card-detail p{float:left; width:100%;}
 .card-detail em{width:20px; padding-right:6px; float:left; padding-top:4px;}
 .bottom-action{background:#fff; float:left; width:calc(100% - 16px); padding-top:10px; padding-bottom:10px; justify-content: space-between; display:flex; align-items:center; flex-wrap:wrap; position:absolute; left:8px; right:8px; bottom:0;}
-.card-detail-main{float:left; width:100%; max-height:360px; overflow:auto;}/**** max-height:222px;****/
+.card-detail-main{float:left; width:100%; max-height:360px; overflow:auto;}/**** max-height:222px;****/   
 .card-date{font-size:14px; float:left; margin-bottom:5px;}
 .card-action{float:right; width:auto; padding:0; margin-bottom:5px;}
 .card-detail span{font-size:15px; float:left; width: calc(100% - 38px); }
