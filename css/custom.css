@@ -4774,7 +4774,7 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
 .navbar #divMainProjectAddWizard .container-fluid {display:block;}
 
 /* Expense card view and kanban view */
- .fsmaddresscontrol .card-box.expense-card.text-center.pb-2 .expense-card-header .expense-card .custom-control.custom-checkbox{ position: absolute; top: 2px; left: 4px; } 
+ .fsmaddresscontrol .card-box.expense-card.text-center.pb-2 .expense-card-header .custom-control.custom-checkbox{ position: absolute; top: 2px; left: 4px; } 
   
 /* .expense-card .custom-control{ position: absolute; top: 2px; left: -3px; } */
 .expense-card-header{width:100%; margin:0px; padding:10px 0px 0px 0px;}
