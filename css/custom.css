@@ -329,6 +329,8 @@ input[type=checkbox] + .slider span.slider-yes { padding-right: 5px !important; 
 
 label.switch.w70{min-width: 70px;}
 
+label.switch.w100{min-width: 100px;}
+
 .switch.medium{ width:90px; }
 .switch.medium input:checked + .slider::before{ left: 40px; }
 .switch.large{ width:110px; }
