@@ -8289,7 +8289,7 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .gd_mainbase .customer-headersmall .customer-info_mid h1 {font-size: 16px; margin-bottom: 5px; color: #2c3e50;}
 .customer-info_right{float: right; width: calc(50% - 60px) !important; margin-bottom: 20px; margin-left: 15px;}
 
-.detailsfix .badge{ background: #e3f2fd; color:#017cff;display: inline-block;
+.detailsfix .badge{ background: #e3f2fd; color:#fff;display: inline-block;
   padding: 6px 10px;
   border-radius: 6px;
   font-size: 13px;
