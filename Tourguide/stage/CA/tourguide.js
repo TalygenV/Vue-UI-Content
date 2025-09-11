@@ -95,62 +95,7 @@ touritem["User/Home"] = {
     },
   ],
 };
-touritem["Project/Index"] = {
-  ModuleDisplayName: "Project Management",
-  MouseEvent: "Project",
-  ModuleName: "Project",
-  displayName: "Project",
-  items: [
-    {
-      selector: ".WalkHRLeaveWidgetContent_ul",
-      step: 1,
-      title: "Widgets",
-      content: "SummaryWidgets",
-    },
-    {
-      selector: "#accordionEx",
-      step: 2,
-      title: "Filters",
-      content: "SearchMultipleFiltersProject",
-    },
-    {
-      selector: "#PAdd",
-      step: 3,
-      title: "AddNewProject",
-      content: "SummaryWidgetsContent",
-    },
-    {
-      selector: "#temp_0",
-      step: 4,
-      title: "PleaseSelectTemplate",
-      content: "SummaryTemplateContent",
-    },
-    {
-      selector: "#btnNext",
-      step: 5,
-      title: "Next",
-      content: "SummaryTemplateNextContent",
-    },
-    {
-      selector: "#SProjectDetailTitleSpan",
-      step: 6,
-      title: "SummaryProjectDetailTitle",
-      content: "SummaryProjectDetailContent",
-    },
-    {
-      selector: "a#aAddUser",
-      step: 7,
-      title: "AddTeamMembers",
-      content: "AddTeamMembersContent",
-    },
-    {
-      selector: "#SummaryProjectSaveContent_a",
-      step: 8,
-      title: "FinishSetup",
-      content: "FinishSetupContent",
-    },
-  ],
-};
+
 touritem["CRM/Index"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
@@ -1924,25 +1869,7 @@ touritem["User/Home"] = {
     },
   ],
 };
-touritem["Project/Index"] = {
-  ModuleDisplayName: "Project Management",
-  ModuleName: "Project",
-  displayName: "Project",
-  items: [
-    //{
-    //    selector: "li.three_wid",
-    //    step: 1,
-    //    title: "Widgets",
-    //    content: "SummaryWidgets"
-    //},
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "Filters",
-      content: "SearchMultipleFiltersProject",
-    },
-  ],
-};
+
 touritem["CRM/Index"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
@@ -4823,44 +4750,8 @@ touritem["Project/GanttChart"] = {
     },
   ],
 };
-touritem["GlobalTask/Index"] = {
-  ModuleDisplayName: "Project Management",
-  ModuleName: "Project",
-  displayName: "Global Task",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchGlobalTasksUsingSearchFilters",
-    },
-    {
-      selector: ".ddlupdatestatus ",
-      step: 2,
-      title: "StatusUpdate",
-      content: "ChangeGlobalTaskStatusListingScreen",
-    },
-    {
-      selector: ".text-white",
-      step: 3,
-      title: "AddGlobalTask",
-      content: "CreateNewBillableNonbillableGlobalTask",
-    },
-  ],
-};
-touritem["GlobalTask/Add"] = {
-  ModuleDisplayName: "Project Management",
-  ModuleName: "Project",
-  displayName: "Add GlobalTask",
-  items: [
-    {
-      selector: "#btnsave",
-      step: 1,
-      title: "EnterTaskDetails",
-      content: "CongratsYouHaveCreatedFirstGlobalTaskSuccessfully",
-    },
-  ],
-};
+
+
 touritem["Quotation/Index"] = {
   ModuleDisplayName: "Project Management",
   ModuleName: "Project",
@@ -4924,6 +4815,80 @@ touritem["Quotation/DisplayQuotation"] = {
     },
   ],
 };
+
+
+touritem["Dashboard/Home"] = {
+  ModuleDisplayName: "General",
+  ModuleName: "General",
+  displayName: "Dynamic Dashboard",
+  items: [
+    {
+      selector: "#DashboardNames",
+      step: 1,
+      title: "Dashbaord",
+      content: "DashbaordContent",
+    },
+     {
+      selector: "#AddDashboard",
+      step: 2,
+      title: "AddDashbaord",
+      content: "AddDashbaordContent",
+    },
+    {
+      selector: "#FilterDashboard",
+      step: 3,
+      title: "FilterDashboard",
+      content: "FilterDashboardContent",
+    },
+    {
+      selector: "#NumericDashboard",
+      step: 4,
+      title: "NumericDashboard",
+      content: "NumericWidgetContent",
+    },
+    {
+      selector: "#GridWidget",
+      step: 5,
+      title: "GridWidget",
+      content: "GridWidgetContent",
+    }
+  ],
+};
+
+
+touritem["GlobalTask/Index"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
+  displayName: "Global Task",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchGlobalTasksUsingSearchFilters",
+    },
+    {
+      selector: "#crmlistingStatus_span",
+      step: 2,
+      title: "StatusUpdate",
+      content: "ChangeGlobalTaskStatusListingScreen",
+    },
+    {
+      selector: "#Add",
+      step: 3,
+      title: "AddGlobalTask",
+      content: "CreateNewBillableNonbillableGlobalTask",
+    },
+    {
+      selector: "#TaskName",
+       step: 4,
+      title: "EnterTaskDetails",
+      content: "CongratsYouHaveCreatedFirstGlobalTaskSuccessfully",
+    },
+  ],
+};
+
+
 touritem["Project/RequestTimeList"] = {
   ModuleDisplayName: "Project Management",
   ModuleName: "Project",
@@ -4948,7 +4913,7 @@ touritem["Project/RequestTimeList"] = {
       content: "MakeRequestedRequiredAndApproveTimeRequest",
     },
     {
-      selector: ".formbtn .fa-times",
+     selector: ".fa.fa-times.pr-2.text-danger.action-icon",
       step: 4,
       title: "RejectTimeRequests",
       content: "RejectRequestCommentDownReason",
@@ -4967,19 +4932,19 @@ touritem["Task/Index"] = {
       content: "SearchTasksSearchFilters",
     },
     {
-      selector: ".p-action-btn",
+      selector: "#ddlUserCurrentStatus",
       step: 2,
       title: "MultipleViews",
       content: "ChooseDesiredViewKanbanCardListView",
     },
     {
-      selector: ".fa-pencil",
+      selector: "#progress-text",
       step: 3,
       title: "UpdateProgress",
       content: "UpdateProgressYourTask",
     },
     {
-      selector: ".w-100",
+      selector: "#crmlistingStatus_span",
       step: 4,
       title: "StatusUpdate",
       content: "ChangeStatusDirectlyListingScreen",
@@ -5027,44 +4992,66 @@ touritem["ProjectRequest/Index"] = {
     //    title: "StartTimer",
     //    content: "StartTrackingTimeAssignedTask"
     //}
+    
   ],
+  
 };
-
-touritem["Dashboard/Home"] = {
-  ModuleDisplayName: "General",
-  ModuleName: "General",
-  displayName: "Dynamic Dashboard",
+touritem["Project/Index"] = {
+  ModuleDisplayName: "Project Management",
+   MouseEvent: "Project",
+  ModuleName: "Project",
+  displayName: "Project",
   items: [
     {
-      selector: "#DashboardNames",
+      selector: ".dashbord-widget.WalkHRLeaveWidgetContent_ul",
       step: 1,
-      title: "Dashbaord",
-      content: "DashbaordContent",
+      title: "Widgets",
+      content: "SummaryWidgets",
+    },
+    {
+      selector: "#accordionEx",
+      step: 2,
+      title: "Filters",
+      content: "SearchMultipleFiltersProject",
+    },
+    {
+      selector: "#Add",
+      step: 3,
+      title: "AddNewProject",
+      content: "SummaryWidgetsContent",
     },
      {
-      selector: "#AddDashboard",
-      step: 2,
-      title: "AddDashbaord",
-      content: "AddDashbaordContent",
-    },
-    {
-      selector: "#FilterDashboard",
-      step: 3,
-      title: "FilterDashboard",
-      content: "FilterDashboardContent",
-    },
-    {
-      selector: "#NumericDashboard",
+      selector: "#chooseindustype",
       step: 4,
-      title: "NumericDashboard",
-      content: "NumericWidgetContent",
+      title: "PleaseSelectTemplate",
+      content: "SummaryTemplateContent",
     },
     {
-      selector: "#GridWidget",
+      selector: "#btnNext",
       step: 5,
-      title: "GridWidget",
-      content: "GridWidgetContent",
-    }
+      title: "Next",
+      content: "SummaryTemplateNextContent",
+    },
+    
+    {
+      selector: "#general",
+      step: 6,
+      title: "SummaryProjectDetailTitle",
+      content: "SummaryProjectDetailContent",
+    },
+    
+    {
+      selector: "#TeamTypeUser",
+      step: 7,
+      title: "AddTeamMembers",
+      content: "AddTeamMembersContent",
+    },
+    {
+      selector: "#SummaryProjectSaveContent_a",
+      step: 8,
+      title: "FinishSetup",
+      content: "FinishSetupContent",
+    },
   ],
 };
 tourData.push(touritem);

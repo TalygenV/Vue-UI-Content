@@ -96,59 +96,8 @@ touritem["User/Home"] = {
     },
   ],
 };
-touritem["Project/Index"] = {
-  displayName: "Project",
-  items: [
-    {
-      selector: "li.three_wid",
-      step: 1,
-      title: "Widgets",
-      content: "SummaryWidgets",
-    },
-    {
-      selector: "#accordionEx",
-      step: 2,
-      title: "Filters",
-      content: "SearchMultipleFiltersProject",
-    },
-    {
-      selector: "#PAdd",
-      step: 3,
-      title: "AddNewProject",
-      content: "SummaryWidgetsContent",
-    },
-    {
-      selector: "#temp_0",
-      step: 4,
-      title: "AddNewProject",
-      content: "SummaryTemplateContent",
-    },
-    {
-      selector: "#btnNext",
-      step: 5,
-      title: "Next",
-      content: "SummaryTemplateNextContent",
-    },
-    {
-      selector: "#SProjectDetailTitleSpan",
-      step: 6,
-      title: "SummaryProjectDetailTitle",
-      content: "SummaryProjectDetailContent",
-    },
-    {
-      selector: "a#aAddUser",
-      step: 7,
-      title: "AddTeamMembers",
-      content: "AddTeamMembersContent",
-    },
-    {
-      selector: "#SummaryProjectSaveContent_a",
-      step: 8,
-      title: "FinishSetup",
-      content: "FinishSetupContent",
-    },
-  ],
-};
+
+
 touritem["CRM/Index"] = {
   displayName: "CRM",
   items: [
@@ -1476,6 +1425,205 @@ touritem["WorkDiary/Index"] = {
       step: 3,
       title: "ApplicationTime",
       content: "ApplicationTimeWorkdairy",
+    },
+  ],
+};
+
+touritem["GlobalTask/Index"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
+  displayName: "Global Task",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchGlobalTasksUsingSearchFilters",
+    },
+    {
+      selector: "#crmlistingStatus_span",
+      step: 2,
+      title: "StatusUpdate",
+      content: "ChangeGlobalTaskStatusListingScreen",
+    },
+    {
+      selector: "#Add",
+      step: 3,
+      title: "AddGlobalTask",
+      content: "CreateNewBillableNonbillableGlobalTask",
+    },
+    {
+      selector: "#TaskName",
+       step: 4,
+      title: "EnterTaskDetails",
+      content: "CongratsYouHaveCreatedFirstGlobalTaskSuccessfully",
+    },
+  ],
+};
+
+
+touritem["Project/RequestTimeList"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
+  displayName: "Request TimeList",
+  items: [
+    {
+      selector: ".dashbord-widget",
+      step: 1,
+      title: "Widgets",
+      content: "GetStatusWiseOverviewTimeRequests",
+    },
+    {
+      selector: "#accordionEx",
+      step: 2,
+      title: "SearchFilters",
+      content: "SearchTimeRequestsUsingSearchFilters",
+    },
+    {
+      selector: ".fa-check",
+      step: 3,
+      title: "ApproveTimeRequests",
+      content: "MakeRequestedRequiredAndApproveTimeRequest",
+    },
+    {
+     selector: ".fa.fa-times.pr-2.text-danger.action-icon",
+      step: 4,
+      title: "RejectTimeRequests",
+      content: "RejectRequestCommentDownReason",
+    },
+  ],
+};
+touritem["Task/Index"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
+  displayName: "Task",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchTasksSearchFilters",
+    },
+    {
+      selector: "#ddlUserCurrentStatus",
+      step: 2,
+      title: "MultipleViews",
+      content: "ChooseDesiredViewKanbanCardListView",
+    },
+    {
+      selector: "#progress-text",
+      step: 3,
+      title: "UpdateProgress",
+      content: "UpdateProgressYourTask",
+    },
+    {
+      selector: "#crmlistingStatus_span",
+      step: 4,
+      title: "StatusUpdate",
+      content: "ChangeStatusDirectlyListingScreen",
+    },
+    {
+      selector: "#StartTimer",
+      step: 5,
+      title: "StartTimer",
+      content: "StartTrackingTimeAssignedTask",
+    },
+  ],
+};
+touritem["ProjectRequest/Index"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
+  displayName: "Project Request",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchProjectRequestsSearchFilters",
+    },
+    {
+      selector: "#aAddProjectRequestOwner",
+      step: 2,
+      title: "AddOwnerProjectRequest",
+      content: "SetupProjectRequestOwner",
+    },
+    {
+      selector: "#aAcceptMultipleProjectRequest",
+      step: 3,
+      title: "AcceptProjectRequest",
+      content: "ApproveMultipleProjectRequestsRaisedClientInOneGo",
+    },
+    {
+      selector: "#aRejectMultipleProjectRequest",
+      step: 4,
+      title: "RejectProjectRequest",
+      content: "RejectMultipleProjectRequestsRaisedClientInOneGo",
+    },
+    //{
+    //    selector: "#StartTimer",
+    //    step: 5,
+    //    title: "StartTimer",
+    //    content: "StartTrackingTimeAssignedTask"
+    //}
+    
+  ],
+  
+};
+touritem["Project/Index"] = {
+  ModuleDisplayName: "Project Management",
+   MouseEvent: "Project",
+  ModuleName: "Project",
+  displayName: "Project",
+  items: [
+    {
+      selector: ".dashbord-widget.WalkHRLeaveWidgetContent_ul",
+      step: 1,
+      title: "Widgets",
+      content: "SummaryWidgets",
+    },
+    {
+      selector: "#accordionEx",
+      step: 2,
+      title: "Filters",
+      content: "SearchMultipleFiltersProject",
+    },
+    {
+      selector: "#Add",
+      step: 3,
+      title: "AddNewProject",
+      content: "SummaryWidgetsContent",
+    },
+     {
+      selector: "#chooseindustype",
+      step: 4,
+      title: "PleaseSelectTemplate",
+      content: "SummaryTemplateContent",
+    },
+    {
+      selector: "#btnNext",
+      step: 5,
+      title: "Next",
+      content: "SummaryTemplateNextContent",
+    },
+    
+    {
+      selector: "#general",
+      step: 6,
+      title: "SummaryProjectDetailTitle",
+      content: "SummaryProjectDetailContent",
+    },
+    
+    {
+      selector: "#TeamTypeUser",
+      step: 7,
+      title: "AddTeamMembers",
+      content: "AddTeamMembersContent",
+    },
+    {
+      selector: "#SummaryProjectSaveContent_a",
+      step: 8,
+      title: "FinishSetup",
+      content: "FinishSetupContent",
     },
   ],
 };

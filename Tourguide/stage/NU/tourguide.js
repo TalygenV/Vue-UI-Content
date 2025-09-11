@@ -96,59 +96,7 @@ touritem["User/Home"] = {
     },
   ],
 };
-touritem["Project/Index"] = {
-  displayName: "Project",
-  items: [
-    {
-      selector: "li.three_wid",
-      step: 1,
-      title: "Widgets",
-      content: "SummaryWidgets",
-    },
-    {
-      selector: "#accordionEx",
-      step: 2,
-      title: "Filters",
-      content: "SearchMultipleFiltersProject",
-    },
-    {
-      selector: "#PAdd",
-      step: 3,
-      title: "AddNewProject",
-      content: "SummaryWidgetsContent",
-    },
-    {
-      selector: "#temp_0",
-      step: 4,
-      title: "AddNewProject",
-      content: "SummaryTemplateContent",
-    },
-    {
-      selector: "#btnNext",
-      step: 5,
-      title: "Next",
-      content: "SummaryTemplateNextContent",
-    },
-    {
-      selector: "#SProjectDetailTitleSpan",
-      step: 6,
-      title: "SummaryProjectDetailTitle",
-      content: "SummaryProjectDetailContent",
-    },
-    {
-      selector: "a#aAddUser",
-      step: 7,
-      title: "AddTeamMembers",
-      content: "AddTeamMembersContent",
-    },
-    {
-      selector: "#SummaryProjectSaveContent_a",
-      step: 8,
-      title: "FinishSetup",
-      content: "FinishSetupContent",
-    },
-  ],
-};
+
 touritem["CRM/Index"] = {
   displayName: "CRM",
   items: [
@@ -1574,6 +1522,64 @@ touritem["WorkDiary/Index"] = {
       step: 3,
       title: "ApplicationTime",
       content: "ApplicationTimeWorkdairy",
+    },
+  ],
+};
+
+
+touritem["GlobalTask/Index"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
+  displayName: "Global Task",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchGlobalTasksUsingSearchFilters",
+    },
+    {
+      selector: "#crmlistingStatus_span",
+      step: 2,
+      title: "StatusUpdate",
+      content: "ChangeGlobalTaskStatusListingScreen",
+    },
+    {
+      selector: "#Add",
+      step: 3,
+      title: "AddGlobalTask",
+      content: "CreateNewBillableNonbillableGlobalTask",
+    },
+  ],
+};
+touritem["Project/RequestTimeList"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
+  displayName: "Request TimeList",
+  items: [
+    {
+      selector: ".dashbord-widget",
+      step: 1,
+      title: "Widgets",
+      content: "GetStatusWiseOverviewTimeRequests",
+    },
+    {
+      selector: "#accordionEx",
+      step: 2,
+      title: "SearchFilters",
+      content: "SearchTimeRequestsUsingSearchFilters",
+    },
+    {
+      selector: ".fa-check",
+      step: 3,
+      title: "ApproveTimeRequests",
+      content: "MakeRequestedRequiredAndApproveTimeRequest",
+    },
+    {
+     selector: ".fa.fa-times.pr-2.text-danger.action-icon",
+      step: 4,
+      title: "RejectTimeRequests",
+      content: "RejectRequestCommentDownReason",
     },
   ],
 };
