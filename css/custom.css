@@ -8369,3 +8369,51 @@ div#divDialogDetails .arrow-right.arrow_rt {position: absolute; left: -30%; top:
 .modal-mask{z-index: 99999;}
 .vue-lightbox-thumbnail-wrapper{bottom:120px!important;}
 ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
+
+
+/***Task Detail Screen - Rohit*****/
+.task-info { max-height: 200px; overflow-y: auto; overflow-x: hidden;}
+
+.no-blue:before { border-right: 0px solid rgb(36, 165, 255) !important;}
+
+.conversation-box-con .nobluebod.public-note:before {
+    border-right: none !important;
+}
+
+.task-slider {
+    position: fixed;
+    top: 0;
+    right: -600px;
+    /* Increased from 450px */
+    width: 600px;
+    /* Increased from 450px */
+    height: 100vh;
+    background: white;
+    box-shadow: -2px 0 15px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-slider.open {
+    right: 0;
+}
+.task-header {
+    padding: 20px;
+    border-bottom: 1px solid var(--gray-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-title { font-size: 22px; font-weight: 600;  max-width: 80%;}
+.close-slider { background: none; border: none; cursor: pointer; font-size: 24px;
+    /* Slightly larger */ color: var(--gray);
+}
+.task-content { flex: 1; overflow-y: auto; padding: 20px;}
+.task-detail-section { margin-bottom: 25px;}
+
+
+
+
+
