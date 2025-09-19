@@ -8413,7 +8413,49 @@ ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
 .task-content { flex: 1; overflow-y: auto; padding: 20px;}
 .task-detail-section { margin-bottom: 25px;}
 
+/***Task Detail Screen - Rohit*****/
 
+
+/**Project Detail Board Tab**/
+
+.board-view { overflow-x: hidden !important; min-height: 280px; max-height: calc(100vh - 280px);}
+.board-view .canvan-view-list.vuejs li {width: 32.6% !important; max-width: inherit;}
+.sprintprogress {border-radius: 0px; height: 8px;}
+.sprintprogress .progress-bar { background: #1c99ee;}
+.kvfixhead.proj_kv .element-panel{flex-wrap:nowrap!important;}
+.kvfixhead.proj_kv{min-width:1500px!important; max-width:100%; width:100%; flex-wrap:nowrap!important;}
+.kvlistview.proj_kv{min-width:1500px!important; max-width:100%; width:100%; flex-wrap:nowrap!important;}
+.canvan-view-list.kvfixhead.proj_kv li{width: 500px!important; max-width:500px;min-width: 500px;}
+.canvan-view-list.kvlistview.proj_kv li{width: 500px!important; max-width:500px;min-width: 500px;}
+.onlyd-view.ht_630{min-height: 630px!important;}
+
+.newdes_kvlist div.list-group{border-radius:20px; padding:20px; border:1px solid #ccc; background:#f1f4f9;}
+.newdes_kvlist div.list-group .card-box { border: 1px solid #dfdfdf; border-radius: 20px; padding: 20px; background: #fff ;}
+.tasknames_newdes span{font-size: 20px;}
+.tasknames_newdes a{font-size: 20px;padding:4px;}
+.tasknames_newdes .count_des{ font-size: 14px; margin-top: 0px; margin-right: 20px; border: 1px solid #ababab; border-radius: 20px; padding: 5px 15px; background: #e4e8ef;}
+.tasknames_newdes .roundball_des{ border-radius: 100%; width: 8px; height: 8px; float: left; margin-top: 8px; margin-right: 10px;}
+.taskadd_newdes{color:#fff; font-size:16px; background: #5244eb;border-radius: 30px; text-align:center; padding:7px; }
+.taskpriority_newdes span{ color: #fff; font-size: 13px; background: #0c8a16; border-radius: 40px; text-align: center; padding: 1px 15px; float: left; font-weight: 400;}
+
+.newdes_kvlist div.list-group{border-radius:20px; padding:20px; border:1px solid #ccc; background:#f1f4f9;}
+.newdes_kvlist div.list-group .card-box { border: 1px solid #dfdfdf; border-radius: 20px; padding: 20px; background: #fff ;}
+.tasknames_newdes span{font-size: 20px;}
+.tasknames_newdes a{font-size: 20px;padding:4px;}
+
+.tasknames_newdes .count_des{ font-size: 14px; margin-top: 0px; margin-right: 20px; border: 1px solid #ababab; border-radius: 20px; padding: 5px 15px; background: #e4e8ef;}
+.tasknames_newdes .roundball_des{ border-radius: 100%; width: 8px; height: 8px; float: left; margin-top: 8px; margin-right: 10px;}
+.taskadd_newdes{color:#fff; font-size:16px; background: #5244eb;border-radius: 30px; text-align:center; padding:7px;  cursor: pointer;}
+.taskpriority_newdes span{ color: #fff; font-size: 13px; background: #0c8a16; border-radius: 40px;  text-align: center;  padding: 1px 15px; float: left; font-weight: 400; }
+.taskphoto_newdes .profileicon.proj {width: 30px; height: 30px;  border-radius: 50%; background: #f2f2f2; text-align: center; line-height: 30px; float: left; font-size: 12px; font-weight: 400;}
+.taskphoto_newdes{position: relative;}
+.taskphoto_newdes .profileicon.proj img{ width: 100%; border-radius:100%;height:100%;}
+.taskphoto_newdes .profileicon.proj:first-child{margin-left:0px;}
+.taskphoto_newdes .profileicon.proj{margin-left:-10px; border:1px solid #fff; line-height:normal;}
+.newdescolor{border-color:#ced4da!important;}
+
+
+/**Project Detail Board Tab**/
 
 
 
