@@ -1405,8 +1405,10 @@ ul.filetree.treeview{background-color: #2c3136;}
 
 .resource-list .resource-item{border-bottom: 1px solid #191d20;}
 .add-checklist-btn{background: #7eb5e8; color: #fff;}
-
+.comment-textarea{background-color: #191d20 !important;}
  
+.comment-avatar{background: #191d20;}
+.decoration{background: #191d20;}
 /**Project Detail Board Tab**/    
 
    
