@@ -1402,13 +1402,13 @@ ul.filetree.treeview{background-color: #2c3136;}
 .collapsible-header{background:#2c3136;}
 .collapsible-section{border:1px solid #2c3136;}
 .resource-avatar{background: #2c3136;}
-
+.collapsible-content.darkfix{background:#191d20;}
 .resource-list .resource-item{border-bottom: 1px solid #191d20;}
 .add-checklist-btn{background: #7eb5e8; color: #fff;}
-.comment-textarea{background-color: #191d20 !important;}
- 
+.comment-textarea{background-color: #41484f!important; border:none;}
+
 .comment-avatar{background: #191d20;}
-.decoration{background: #191d20; border: none;}
+.decoration{background: #41484f; border: none;}
 /**Project Detail Board Tab**/    
 
    
