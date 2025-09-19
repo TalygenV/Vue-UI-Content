@@ -8510,7 +8510,13 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .comment-user { font-weight: 600; font-size: 15px; /* Slightly larger */ margin-right: 10px; /* Slightly more spacing */}
 .comment-time { font-size: 13px; color: var(--gray);}
 .comment-text {line-height: 1.6; /* Better readability */ font-size: 15px; /* Slightly larger */ float: left; width: 100%;}
-
+.decoration{width: calc(100% - 70px)!important;
+    box-sizing: border-box;
+    margin-left: 45px;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fafafa;}
 
 
 
