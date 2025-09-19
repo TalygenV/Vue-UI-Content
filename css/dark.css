@@ -1408,7 +1408,7 @@ ul.filetree.treeview{background-color: #2c3136;}
 .comment-textarea{background-color: #191d20 !important;}
  
 .comment-avatar{background: #191d20;}
-.decoration{background: #191d20;}
+.decoration{background: #191d20; border: none;}
 /**Project Detail Board Tab**/    
 
    
