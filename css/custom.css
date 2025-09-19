@@ -8435,7 +8435,7 @@ ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
 .tasknames_newdes a{font-size: 20px;padding:4px;}
 .tasknames_newdes .count_des{ font-size: 14px; margin-top: 0px; margin-right: 20px; border: 1px solid #ababab; border-radius: 20px; padding: 5px 15px; background: #e4e8ef;}
 .tasknames_newdes .roundball_des{ border-radius: 100%; width: 8px; height: 8px; float: left; margin-top: 8px; margin-right: 10px;}
-.taskadd_newdes{color:#fff; font-size:16px; background: #5244eb;border-radius: 30px; text-align:center; padding:7px; }
+.taskadd_newdes{color:#fff; font-size:16px; background: #5244eb;border-radius: 30px; text-align:center; padding:7px; cursor: pointer;}
 .taskpriority_newdes span{ color: #fff; font-size: 13px; background: #0c8a16; border-radius: 40px; text-align: center; padding: 1px 15px; float: left; font-weight: 400;}
 
 .newdes_kvlist div.list-group{border-radius:20px; padding:20px; border:1px solid #ccc; background:#f1f4f9;}
@@ -8443,10 +8443,10 @@ ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
 .tasknames_newdes span{font-size: 20px;}
 .tasknames_newdes a{font-size: 20px;padding:4px;}
 
-.tasknames_newdes .count_des{ font-size: 14px; margin-top: 0px; margin-right: 20px; border: 1px solid #ababab; border-radius: 20px; padding: 5px 15px; background: #e4e8ef;}
-.tasknames_newdes .roundball_des{ border-radius: 100%; width: 8px; height: 8px; float: left; margin-top: 8px; margin-right: 10px;}
-.taskadd_newdes{color:#fff; font-size:16px; background: #5244eb;border-radius: 30px; text-align:center; padding:7px;  cursor: pointer;}
-.taskpriority_newdes span{ color: #fff; font-size: 13px; background: #0c8a16; border-radius: 40px;  text-align: center;  padding: 1px 15px; float: left; font-weight: 400; }
+/*.tasknames_newdes .count_des{ font-size: 14px; margin-top: 0px; margin-right: 20px; border: 1px solid #ababab; border-radius: 20px; padding: 5px 15px; background: #e4e8ef;}
+.tasknames_newdes .roundball_des{ border-radius: 100%; width: 8px; height: 8px; float: left; margin-top: 8px; margin-right: 10px;} */
+/*.taskadd_newdes{color:#fff; font-size:16px; background: #5244eb;border-radius: 30px; text-align:center; padding:7px;  cursor: pointer;} */
+/*.taskpriority_newdes span{ color: #fff; font-size: 13px; background: #0c8a16; border-radius: 40px;  text-align: center;  padding: 1px 15px; float: left; font-weight: 400; } */
 .taskphoto_newdes .profileicon.proj {width: 30px; height: 30px;  border-radius: 50%; background: #f2f2f2; text-align: center; line-height: 30px; float: left; font-size: 12px; font-weight: 400;}
 .taskphoto_newdes{position: relative;}
 .taskphoto_newdes .profileicon.proj img{ width: 100%; border-radius:100%;height:100%;}
