@@ -1388,5 +1388,16 @@ ul.filetree.treeview{background-color: #2c3136;}
 .custom-calendar.vc-container .vc-pane-container .vc-weeks .vc-day{background-color: #2c3135!important; color: #fff!important; border-right-color: #000 !important;
   border-bottom-color: #000 !important;}
 
+/**Project Detail Board Tab**/
+
+.newdes_kvlist div.list-group{border: 1px solid #2c3136; background: #2c3136;}
+.tasknames_newdes .count_des {background: #1c1f22; border: 1px solid #1e2124;}
+.newdes_kvlist div.list-group .card-box{background: #1c1f22; border: 1px solid #1e2124;}
+.canvan-view-list.newdes_kvlist .add-backlog-btn{background-color: #1c1f22 !important;}
+
+.newdescolor {border-color:#3c3f43!important;}
+
+/**Project Detail Board Tab**/
+
    
 
