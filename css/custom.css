@@ -8427,6 +8427,7 @@ ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
 .kvlistview.proj_kv{min-width:1500px!important; max-width:100%; width:100%; flex-wrap:nowrap!important;}
 .canvan-view-list.kvfixhead.proj_kv li{width: 500px!important; max-width:500px;min-width: 500px;}
 .canvan-view-list.kvlistview.proj_kv li{width: 500px!important; max-width:500px;min-width: 500px;}
+.canvan-view-list.newdes_kvlist .add-backlog-btn{background-color: #fff!important; border-radius: 20px;}
 .onlyd-view.ht_630{min-height: 630px!important;}
 
 .newdes_kvlist div.list-group{border-radius:20px; padding:20px; border:1px solid #ccc; background:#f1f4f9;}
