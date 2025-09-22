@@ -1425,9 +1425,12 @@ ul.filetree.treeview{background-color: #2c3136;}
 .gd_mainbase .profileicon{background: #2c3136;}
 
 .dark_bgcontrol .collapse.show{background: transparent;}
+.multiselect__content-wrapper{background: #191d20; border: 1px solid #373c42; color: #fff;}
+
 
 
 /**Project Detail Board Tab**/    
+
 
    
 
