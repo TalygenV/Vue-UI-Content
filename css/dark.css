@@ -1412,6 +1412,14 @@ ul.filetree.treeview{background-color: #2c3136;}
 .decoration{background: #41484f; border: none;}
 
 .taskphoto_newdes .profileicon.proj{border: 1px solid #606060;}
+.resource-role {color: #eaecee;}
+
+.ck.ck-editor__main > .ck-editor__editable{background: #1a1a1a; border: 1px solid #515151 !important;}
+.ck.ck-toolbar{background: #1a1a1a;}
+.ck-reset_all :not(.ck-reset_all-excluded *){color: #fff;}
+
+
+
 /**Project Detail Board Tab**/    
 
    
