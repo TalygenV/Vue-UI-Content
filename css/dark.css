@@ -269,7 +269,7 @@ tbody.bg-light {	background-color: #2c3136 !important;}
 .tab-no{background:#424c4e;}
 .tab-style .nav-link.active .tab-no{background:#fff; color:#414c50;}
 
-.heading-border span {	border-color: #454748;}
+.heading-border span {	border-color: #454748; color:#fff;}
 .heading-border:after{background: #454748;}
 .lds-ring div{border-color: #ffaa24 transparent transparent transparent;}
 .lds-dual-ring:after{border-color: #ffaa24 transparent #ffaa24 transparent;}
@@ -1418,10 +1418,11 @@ ul.filetree.treeview{background-color: #2c3136;}
 .ck.ck-toolbar{background: #1a1a1a;}
 .ck-reset_all :not(.ck-reset_all-excluded *){color: #fff;}
 
-
 .ai_base {background: #171717;}
 .gd_mainbase .customer-headersmall .customer-info h1{color: #ccc;}
 .gd_mainbase .profileicon{background: #2c3136;}
+
+.dark_bgcontrol .collapse.show{background: transparent;}
 
 /**Project Detail Board Tab**/    
 
