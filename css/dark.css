@@ -1427,7 +1427,7 @@ ul.filetree.treeview{background-color: #2c3136;}
 .dark_bgcontrol .collapse.show{background: transparent;}
 .multiselect__content-wrapper{background: #191d20; border: 1px solid #373c42; color: #fff;}
 
-
+.add-backlog-btn{background-color: #2c3136 !important;}
 
 /**Project Detail Board Tab**/    
 
