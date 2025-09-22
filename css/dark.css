@@ -1418,11 +1418,14 @@ ul.filetree.treeview{background-color: #2c3136;}
 .ck.ck-toolbar{background: #1a1a1a;}
 .ck-reset_all :not(.ck-reset_all-excluded *){color: #fff;}
 
+.ck-rounded-corners .ck.ck-button{color: #fff;}
+
 .ai_base {background: #171717;}
 .gd_mainbase .customer-headersmall .customer-info h1{color: #ccc;}
 .gd_mainbase .profileicon{background: #2c3136;}
 
 .dark_bgcontrol .collapse.show{background: transparent;}
+
 
 /**Project Detail Board Tab**/    
 
