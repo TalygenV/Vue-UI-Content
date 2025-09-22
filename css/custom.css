@@ -2688,6 +2688,8 @@ tr.expandedtr-rowbase{display:none;}
 .modal-open .modal{z-index:99999!important;}
 .modal-open .modal.plusmodal{z-index:999999!important;}
 
+.modal-open .modal-mask{z-index:99999!important;}
+
 
 .scrollmoverdiv .mCSB_scrollTools .mCSB_draggerContainer{left:10px;}
 .unique_dynamicdatalist { float: left; margin-bottom: 10px; border: 1px solid #c7c7c7/**454545***/; position: absolute; width: 100%; box-sizing: border-box;  max-height: 155px; overflow-y: auto; z-index: 9999;top: 35px;}
@@ -8522,6 +8524,5 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 
 /**Project Detail Board Tab**/
-
 
 
