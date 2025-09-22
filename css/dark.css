@@ -1405,10 +1405,13 @@ ul.filetree.treeview{background-color: #2c3136;}
 .collapsible-content.darkfix{background:#191d20;}
 .resource-list .resource-item{border-bottom: 1px solid #191d20;}
 .add-checklist-btn{background: #7eb5e8; color: #fff;}
-.comment-textarea{background-color: #41484f!important; border:none;}
+.add-checklist-btn:hover{background: #5e9fdb; color: #fff;}
+.comment-textarea{background-color: #41484f!important; border:none; color: #fff;}
 
 .comment-avatar{background: #41484f;}
 .decoration{background: #41484f; border: none;}
+
+.taskphoto_newdes .profileicon.proj{border: 1px solid #606060;}
 /**Project Detail Board Tab**/    
 
    
