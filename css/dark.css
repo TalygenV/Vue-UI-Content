@@ -1416,6 +1416,8 @@ ul.filetree.treeview{background-color: #2c3136;}
 .ck-reset_all :not(.ck-reset_all-excluded *){color: #fff;}
 .ck-rounded-corners .ck.ck-button{color: #fff;}
 .ai_base {background: #171717;}
+
+.gd_mainbase .customer-headersmall{border-bottom: 1px solid #4f4f4f;}
 .gd_mainbase .customer-headersmall .customer-info h1{color: #ccc;}
 .gd_mainbase .profileicon{background: #2c3136;}
 .dark_bgcontrol .collapse.show{background: transparent;}
