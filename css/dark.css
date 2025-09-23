@@ -794,7 +794,7 @@ li.active ~ li span.round-tab {    background: #1c1f22;}
 .alert-secondary {	color: #ddd;	background-color: #444;	border-color: #444;}
 .taskEditRow.rowSelected td, .taskEditRow.rowSelected th, .taskEditRow.rowSelected input {	background-color: #2c3136;	color: #ddd;}
 .gdfCell {	background-color: #2c3136; border-bottom: 1px solid #454748 }
-/* .table.table-bordered tr td, .gdfTable th {	border-bottom: 1px solid #454748 !important;} */
+.table.table-bordered tr td, .gdfTable th {	border-bottom: 1px solid #454748 !important;}
 .listing .table thead th {	border-bottom: 1px solid #454748 !important; box-shadow: 0px 1px 0px 0px #454748;}
 .mover-panel-box tr:hover .my-handle::before {    color: #fff;    opacity: .5;}
 /*For to do list*/
