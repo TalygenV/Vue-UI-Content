@@ -8287,7 +8287,7 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 
 .gd_mainbase .customer-headersmall .profileicon.proj{ margin-right: 5px; position: relative;}
 .gd_mainbase .profileicon.proj{ width: 40px; height: 40px; border-radius: 50%; background: #f2f2f2; text-align: center; line-height: 40px; float: left; font-size: 12px; font-weight: 400;}
-.gd_mainbase .customer-headersmall .profileicon.proj em.status { font-size: 11px; position: absolute; bottom: 0; right: 0px; border: 1px solid #fff; border-radius: 100%;}
+.gd_mainbase .customer-headersmall .profileicon.proj em.status { font-size: 11px; position: absolute; bottom: 0; right: 0px; border: 1px solid #fff; border-radius: 100%; width: 14px; height: 14px;}
 .gd_mainbase .customer-headersmall .profileiconbase span { margin-top: 8px; font-size: 13px; font-weight: 400;}
 .customer-infoloader {float: left; width: calc(100% - 250px) !important; margin-top: 10px; margin-left: 10px;}
 .customer-infoloader.progress { height: 0.7rem;}
