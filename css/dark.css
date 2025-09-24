@@ -276,7 +276,9 @@ tbody.bg-light {	background-color: #2c3136 !important;}
 .slider{background-color: #ccc;}
 input:checked + .slider{background-color: #67a7e4;}
 
-.table-responsive {	border: 1px solid #2c3136;	background: #2c3136;}
+/* .table-responsive {	border: 1px solid #2c3136;	background: #2c3136;} */
+.table-responsive {border: 1px solid #454748; background: #2c3136;}
+
 .dashboard-boxes{border-color:#313131;}
 .dashboard-boxes .boxes-header{background:#313131;}
 .dashboard-boxes .boxes-content{background:#fff;}
