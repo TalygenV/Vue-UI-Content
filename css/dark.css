@@ -1433,10 +1433,13 @@ ul.filetree.treeview{background-color: #2c3136;}
 .vue-treeselect__placeholder {color: #fff !important;}   
 
 .tox .tox-menubar{background: #1a1a1a;}
-.tox .tox-mbtn{color: #fff;}
+.tox .tox-mbtn, .mce-content-body{color: #fff;}
 
 .tox .tox-toolbar, .tox .tox-toolbar__overflow, .tox .tox-toolbar__primary{background: #1a1a1a;}
 .tox .tox-tbtn svg{fill: #fff;}
+
+.tox .tox-edit-area__iframe{background-color: #212528;}
+
 
 /**Project Detail Board Tab**/    
 
