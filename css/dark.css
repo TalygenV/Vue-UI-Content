@@ -1438,8 +1438,11 @@ ul.filetree.treeview{background-color: #2c3136;}
 .tox .tox-toolbar, .tox .tox-toolbar__overflow, .tox .tox-toolbar__primary{background: #1a1a1a;}
 .tox .tox-tbtn svg{fill: #fff;}
 
+.tox .tox-menubar + .tox-toolbar, .tox .tox-menubar + .tox-toolbar-overlord .tox-toolbar__primary{border-top: 1px solid #535353; border-bottom: 1px solid #535353;}
+.tox:not([dir="rtl"]) .tox-toolbar__group:not(:last-of-type){border-right: 1px solid #535353;}
 .tox .tox-edit-area__iframe{background-color: #212528;}
 
+.tox-tinymce{border: 1px solid #535353;}
 
 /**Project Detail Board Tab**/    
 
