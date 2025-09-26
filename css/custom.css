@@ -8525,9 +8525,20 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 /**Project Detail Board Tab**/
 
+/**Project Detail Timeline Tab**/
 .initials.user-img-con{ line-height: 34px;text-align: center; font-size: 12px; font-weight: 400; background: rgba(195, 207, 213, 0.84);}
 .customer-headersmall .name-circle .initials{line-height: 34px; text-align: center; font-size: 12px; font-weight: 400; background: rgba(195, 207, 213, 0.84);}
 .customer-headersmall .conversation-header{width: calc(100% - 50px); margin-left: 45px; margin-top: 5px;}
-   
+
+.gantt-elastic__main-container-wrapper, .gantt-elastic__main-container, .gantt-elastic__task-list-container{min-height:473px;}
+.gantt-elastic__task-list-header-column{background:rgb(82, 95, 101) !important; color: #fff;}
+.gantt-elastic__calendar-row-rect-child.gantt-elastic__calendar-row-rect-child--day{background:rgb(48, 56, 60) !important; color: #fff;}
+.gantt-elastic__calendar-row-text{text-shadow: none; color: #fff!important; padding-top: 6px;}
+.view-toggle-btn{border-width: 1px!important;}
+.gantt-view-filter{background: #3e3e3e!important;}
+.view-toggle-btn.active{background: #667eea!important; color: #fff!important; border-color: #c6d0fd !important;}
+.gantt-elastic__main-view-container, .gantt-elastic__main-view-main-container{border-radius:0px!important;}
+/**Project Detail Timeline Tab**/
+
 
 
