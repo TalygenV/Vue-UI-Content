@@ -1018,7 +1018,7 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
 
 /**Project Detail Timeline Tab**/
 .gantt-view-filter { background: #fff !important;}
-.view-toggle-btn{background: hsla(0, 0%, 32.5%, 0.1); color: #353535;}
+.view-toggle-btn{background: hsla(0, 0%, 32.5%, 0.1)!important; color: #353535!important;}
 .gantt-elastic__task-list-header-column{background: rgb(234, 234, 234) !important; color: #333;}
 .gantt-elastic__task-list-header-resizer-dot { background: #000 !important;}
 .gantt-elastic__calendar-row-rect-child.gantt-elastic__calendar-row-rect-child--day {background: rgb(206, 206, 206) !important;}
