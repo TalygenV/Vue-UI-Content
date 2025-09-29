@@ -8532,7 +8532,12 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 .gantt-elastic__main-container-wrapper, .gantt-elastic__main-container, .gantt-elastic__task-list-container{min-height:473px;}
 .gantt-elastic__task-list-header-column{background:rgb(82, 95, 101) !important; color: #fff;}
+
 .gantt-elastic__calendar-row-rect-child.gantt-elastic__calendar-row-rect-child--day{background:rgb(48, 56, 60) !important; color: #fff;}
+.gantt-elastic__calendar-row-text.gantt-elastic__calendar-row-text--week{background:rgb(48, 56, 60) !important; color: #fff;padding-top: 0px !important;}
+.gantt-elastic__calendar-row-text.gantt-elastic__calendar-row-text--month{background:rgb(48, 56, 60) !important; color: #fff;padding-top: 0px !important;}
+.gantt-elastic__calendar-row-text.gantt-elastic__calendar-row-text--quarter{background:rgb(48, 56, 60) !important; color: #fff;padding-top: 0px !important;}
+
 .gantt-elastic__calendar-row-text{text-shadow: none; color: #fff!important; padding-top: 6px;}
 .view-toggle-btn{border-width: 1px!important;}
 .gantt-view-filter{background: #3e3e3e!important;}
