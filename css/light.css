@@ -1030,5 +1030,6 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
 
 /**Project Detail Timeline Tab**/
 
+.table-responsive table th span.font-weight-500{font-weight: 500 !important;}
 
 
