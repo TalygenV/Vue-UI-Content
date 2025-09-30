@@ -1440,16 +1440,18 @@ ul.filetree.treeview{background-color: #2c3136;}
 
 /**Project Detail Board Tab**/    
 
+.gantt-view-filter {background: #2c3136 !important;} 
 .gantt-elastic__main-view-container, .gantt-elastic__main-view-main-container{background: #1e1e1e;}
 .gantt-elastic__chart {background: #000;}
 .gantt-elastic__task-list-container{background:#393939;}
 .gantt-elastic__chart-row-text { background:#eff2ff!important;}
 .gantt-elastic__main-view { background:#000!important;}
-
 .gantt-elastic__main-container-wrapper { border-top-color: #131313 !important; border-bottom-color: #131313 !important;}
 .gantt-elastic__task-list-header { border-bottom-color: #131313 !important;  border-left-color: #131313 !important;}
-
 .gantt-elastic__task-list-item-value { background: #1e1e1e !important;color: #fff !important;}
+
+.gantt-elastic__task-list-item-column { border-color: #000 !important; background: #1e1e1e;}
+
 
 
 
