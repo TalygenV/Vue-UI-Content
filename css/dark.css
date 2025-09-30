@@ -1456,7 +1456,7 @@ ul.filetree.treeview{background-color: #2c3136;}
 .gantt-elastic__chart-days-highlight-rect{fill: #30383c !important;}
 
 
-.ai_base .whitespace-pre-wrap .recommendation{background: #000; border-left: 4px solid #54ccf1 !important; border: 1px solid #293b40;}
+.ai_base .whitespace-pre-wrap .recommendation{background: #000!important; border-left: 4px solid #54ccf1!important; border: 1px solid #293b40!important;}
 
 
 
