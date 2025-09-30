@@ -8282,7 +8282,7 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .ai_base .text-ai{color:#4261ef;}
 .ai_base .analysis-content{ font-size: 14px;float:left; width: 100%;}
 .ai_base .whitespace-pre-wrap{float:left; width: 100%;}
-.ai_base .whitespace-pre-wrap .recommendation{background: #fff; border-radius: 15px; padding: 10px; border-left: 4px solid #54ccf1; margin-bottom: 10px;}
+.ai_base .whitespace-pre-wrap .recommendation{background: #fff; border-radius: 15px; padding: 10px; border-left: 4px solid #54ccf1!important; margin-bottom: 10px;}
 
 
 .gd_mainbase .customer-headersmall .profileicon.proj{ margin-right: 5px; position: relative;}
