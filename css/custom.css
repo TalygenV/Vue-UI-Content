@@ -8545,5 +8545,5 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .gantt-elastic__main-view-container, .gantt-elastic__main-view-main-container{border-radius:0px!important;}
 /**Project Detail Timeline Tab**/
 
-
+.table-responsive table th span.font-weight-500{font-weight: 500 !important;}
 
