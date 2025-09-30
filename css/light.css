@@ -306,7 +306,8 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .bottom-action{border-top:1px solid #cbcbcb;}
 .card-date{color:#555;}
 .conversation-main:before{background: #353535;}
-.conversation-time span:after{background:#fff;}
+.conversation-time span:after{background:#fff; border-radius: 100%;}
+.conversation-time span{background: none;}
 .conversation-box:before{border-right: 10px solid #dee2e6;}
 .conversation-box{border:1px solid #dee2e6;}
 .conversation-box .name-circle{border:3px solid #fff;}
@@ -320,6 +321,8 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .user-guide{color:#353535 ;}
 .user-guide a{color:#353535 ;}
 .user-guide a:hover{color:#454545;}
+
+.conversation-box-con{background: #fff!important;}
 
 .p-actions .user-guide { background: url('../images/user-guide-img.png')!important;background-position: 8px 17px !important;
     background-color: unset!important; background-repeat: no-repeat !important;}   
