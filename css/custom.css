@@ -3109,6 +3109,7 @@ textarea.form-control { white-space: normal; }
 .navbar .defuse-navbar{line-height:normal!important}
 
 /*******Add Task Listing without table - Harjit **********/
+a.short-menu-item.gen-templateadded {border: 1px dashed #6fc1a4;}
 .gen-templateadded{background:#edf7ff; border:1px dashed #6fc1a4;}
 .timer-icon{font-size: 20px; border-left: 2px solid #dee2e6 !important; border-right: 2px solid #dee2e6 !important; padding: 0px 12px; }
 .menu-left-wrapper .switch-menu .timer-icon{font-size: 1rem; border-left: none !important; border-right: none !important; padding: 0px 12px; }
@@ -8546,4 +8547,6 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 /**Project Detail Timeline Tab**/
 
 .table-responsive table th span.font-weight-500{font-weight: 500 !important;}
+
+
 
