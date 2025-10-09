@@ -1470,6 +1470,20 @@ ul.filetree.treeview{background-color: #2c3136;}
   border-color: #000;
   color: #fff;
 }
+.listhovereffect {
+  padding: 8px 3px !important;
+  background: #2c3136 !important;
+}
+.listhovereffect .fw-semibold {
+  font-size: 13px;
+  color: #fff;
+}
+.listhovereffect.border-primary {
+  background-color: #2b3f4d !important;
+  border-color: #527b95 !important;
+}
+
+
 /****Project Detail - Message Tab - 2025****/
 
 
