@@ -1470,6 +1470,10 @@ ul.filetree.treeview{background-color: #2c3136;}
   border-color: #000;
   color: #fff;
 }
+
+.btn-light.lighten:hover .badge.bg-secondary-new{background: #000!important;}
+
+
 .listhovereffect {
   background: #2c3136 !important;
 }
