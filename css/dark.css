@@ -263,7 +263,7 @@ tbody.bg-light {	background-color: #2c3136 !important;}
 .w-75 .clsdashboardgroup .heading-border::after {	display: none;}
 .form-control:focus {	color: #ddd;	background-color: #191d20;	border-color: #6f6f6f;	box-shadow: none;}
 .clsdashboardgroup input.border-bottom-0:focus {	border-bottom: 1px solid #fff !important;}
-.input-group > .input-group-append > .input-group-text {	border-color: #3c3f43;	background: #3c3f43;	color: #ddd;}
+.input-group > .input-group-append > .input-group-text {	border-color: #3c3f43;	background: #3c3f43!important;	color: #ddd;}
 .input-group:focus > .input-group-append > .input-group-text {	border-color: #ddd !important;}
 .custom-file-label::after{background:#f0f0f0;}
 .tab-no{background:#424c4e;}
@@ -1458,8 +1458,19 @@ ul.filetree.treeview{background-color: #2c3136;}
 
 .ai_base .whitespace-pre-wrap .recommendation{background: #000!important;  border: 1px solid #293b40; border-left: 4px solid #54ccf1!important;}
 
+/****Project Detail - Message Tab - 2025****/
 
-
+.btn-light.lighten {
+  background: #3c3f43;
+  border-color: #3c3f43;
+  color: #fff;
+}
+.btn-light.lighten:hover {
+  background:#000;
+  border-color: #000;
+  color: #fff;
+}
+/****Project Detail - Message Tab - 2025****/
 
 
 
