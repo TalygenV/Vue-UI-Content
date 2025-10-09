@@ -1471,8 +1471,6 @@ ul.filetree.treeview{background-color: #2c3136;}
   color: #fff;
 }
 
-.mess_newdes_left .btn-light.lighten:hover .badge.bg-secondary-new{background: #000!important;}
-
 .mess_newdes_left .listhovereffect {background: #212529 !important;}
 .mess_newdes_left .listhovereffect .fw-semibold {font-size: 13px; color: #fff;}
 .mess_newdes_left .listhovereffect.border-primary {background-color: #2b3f4d !important; border-color: #527b95 !important;}
@@ -1494,6 +1492,10 @@ ul.filetree.treeview{background-color: #2c3136;}
 .border-top {
   border-top: 1px solid #3d4146 !important;
 }
+
+.mess_newdes_right .btn-light.lighten:hover .badge.bg-secondary-new{background: #000!important;}
+
+
 
 /****Project Detail - Message Tab - 2025****/
 
