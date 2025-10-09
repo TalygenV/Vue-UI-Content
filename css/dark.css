@@ -1494,6 +1494,7 @@ ul.filetree.treeview{background-color: #2c3136;}
 }
 
 .mess_newdes_right .btn-light.lighten:hover .badge.bg-secondary-new{background: #000!important;}
+.mess_newdes_right .textareamsg {border: 1px solid #2b3f4d;}
 
 
 
