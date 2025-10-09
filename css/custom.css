@@ -8551,3 +8551,50 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 
 
+/*****Project Detail Messages - 2025************/
+.mess_newdes .chat-sidebar { width: 430px; border-right: 1px solid #dee2e6;}
+.mess_newdes .chat-avatar {width: 40px;  height: 40px;min-width: 40px; max-height: 40px; border-radius: 50%;  display: flex;  align-items: center;  justify-content: center;  font-weight: 500;  color: #fff;  margin-right: 10px;}
+.mess_newdes .roundpills .btn.rounded-pill {border-radius: 15px !important; padding: 3px 10px; background: #d4ebff; border: 1px solid #7db9fb;}
+.mess_newdes .listhovereffect.border-primary {background-color: #e8f5ff!important; border-color: #8bc4f0!important; border-radius: 7px!important;border-left: 5px solid #25a5ff !important;}
+
+/* Filter styles */
+.mess_newdes .input-group-sm .form-control {font-size: 0.875rem;}
+.mess_newdes .bg-secondary-new { --bs-bg-opacity: 1; background-color: #d3d3d3 !important;}
+.mess_newdes .btn-primary:focus{box-shadow: none;}
+.mess_newdes .listhovereffect:hover{background: #f2f8fd;}
+.mess_newdes .listhovereffect{padding:8px 3px!important;}
+.mess_newdes .fw-semibold{font-size: 13px;}
+.mess_newdes .roundbadge{border-radius: 100%!important; width:25px; height:25px; line-height:24px; background: #dc3545; color: #fff; font-size: 12px;}
+.mess_newdes .statuss{float: left; width: 35px; height: 35px; color: #fff; background:#6c757d; border-radius: 100%; font-size: 13px; line-height:35px; margin-right:10px;}
+.mess_newdes .hashtag{float: left;width: 25px; height: 35px; padding-top: 10px; text-align: left;}
+.mess_newdes .hashtag em{font-size: 14px; color:#aeaeae; }
+.mess_newdes .btn:focus, .form-control:focus{box-shadow: none!important;}
+.mess_newdes .textareamsg:focus{box-shadow: 0 0 0 1px #2196f3;}
+.mess_newdes .textareamsg{border-radius: 10px;padding:10px;border: 1px solid #d5d5d5;}
+.mess_newdes .textareamsg textarea{border:none}
+
+.mess_newdes .sendbutton:disabled{ background: none!important;  color: #cecece;}
+.mess_newdes .sendbutton{width: 50px; text-align: center; height: 50px;  padding-top: 10px; border:none; background: #2196f3; color: #fff; border-radius: 10px; margin-left: 20px;}
+.mess_newdes .sendbutton em{font-size: 25px;}
+.mess_newdes .btn-light.lighten{background: #f0f0f0; border-color: #f0f0f0;}
+.mess_newdes .panesdivider{border-bottom: 1px solid #e6e6e6; padding-bottom: 15px;}
+.mess_newdes .p-3.mb-3.rounded.bg-light {border-bottom: 1px solid #e6e6e6; background:#fbfcfd!important;}
+.mess_newdes .chatpanes{position: relative;}
+.mess_newdes .chatpanes:hover .chatpanes_acts{display: block;}
+.mess_newdes .chatpanes_acts{display:none; background: #fff; color: #6c757d; position: absolute; right: 10px; top: 10px; border-radius: 10px; border: 1px solid #e8e8e8;}
+.mess_newdes .chatpanes_acts a{padding: 6px 12px;line-height: 36px;color: #535353;}
+.mess_newdes .chatpanes_acts a:hover{background: #f5f4f4; border-radius: 9px; color: #3f3f3f;}
+
+.mess_newdes.vh-90 {height: 90vh !important;}
+.mess_newdes .replybase .textareamsg input {border: none;}
+.mess_newdes .replybase .sendbuttons:disabled{ background: none!important;  color: #cecece;}
+.mess_newdes .replybase .sendbuttons{width: 50px; text-align: center; border:none; background:none; color: #2196f3; border-radius: 10px; margin-left: 10px;}
+.mess_newdes .replybase .sendbuttons em{font-size: 25px;}
+.mess_newdes .replybase .clearbuttons:disabled{ background: none!important;  color: #cecece;}
+.mess_newdes .replybase .clearbuttons{width: 50px; text-align: center; border:none; background:none; color: #686868; border-radius: 10px; margin-left: 10px;}
+.mess_newdes .replybase .clearbuttons em{font-size: 25px;}
+.mess_newdes .replythreadbase {border-left: 2px solid #c1c1c1; padding-left: 10px;}
+.mess_newdes .replythreadbase .chat-avatar{background:#7791f7!important; font-size: 12px; width: 30px;height: 30px; min-width: 30px; max-height: 30px;}
+
+/*****Project Detail Messages - 2025************/
+
