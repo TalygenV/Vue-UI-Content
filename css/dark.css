@@ -1480,6 +1480,9 @@ ul.filetree.treeview{background-color: #2c3136;}
 
 .mess_newdes_left .listhovereffect:hover .badge.bg-secondary-new{background: #7d7d7d!important;}
 
+.mess_newdes_left .panesdivider {border-bottom: 1px solid #404040;}
+
+
 .themetextfix{color: #fff;}
 
 .p-3.mb-3.rounded.bg-light {
@@ -1507,6 +1510,7 @@ ul.filetree.treeview{background-color: #2c3136;}
 .mess_newdes_right .chatpanes_acts{background:#212529; border: 1px solid #2b3f4d;}
 .mess_newdes_right .chatpanes_acts a{color: #ccc;}
 .mess_newdes_right .chatpanes_acts a:hover {background:  #191d20;  color: #25a5ff;}
+
 /****Project Detail - Message Tab - 2025****/
 
 
