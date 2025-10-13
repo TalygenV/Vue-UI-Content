@@ -8559,7 +8559,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 /* Filter styles */
 .mess_newdes .input-group-sm .form-control {font-size: 0.875rem;}
-.mess_newdes .bg-secondary-new { --bs-bg-opacity: 1; background-color: #d3d3d3 !important;}
+.mess_newdes .bg-secondary-new { --bs-bg-opacity: 1; background-color: #d3d3d3 !important; font-weight: 500;}
 .mess_newdes .btn-primary:focus{box-shadow: none;}
 .mess_newdes .listhovereffect:hover{background: #f2f8fd;}
 .mess_newdes .listhovereffect{padding:8px 3px!important;}
