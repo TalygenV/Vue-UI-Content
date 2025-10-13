@@ -8596,5 +8596,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .mess_newdes .replythreadbase {border-left: 2px solid #c1c1c1; padding-left: 10px;}
 .mess_newdes .replythreadbase .chat-avatar{background:#7791f7!important; font-size: 12px; width: 30px;height: 30px; min-width: 30px; max-height: 30px;}
 
+.mess_newdes .mess_newdes_right .btn.btn-sm.rounded-pill.mr-2.btn-outline-primary:hover{color: #1777df;}
+
 /*****Project Detail Messages - 2025************/
 
