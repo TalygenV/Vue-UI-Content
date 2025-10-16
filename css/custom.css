@@ -8663,7 +8663,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 .csscontrol_popup .custom-control-input { z-index: 15 !important;}
 .csscontrol_popup .popup {position: unset; top: 30px; left: 0; background: white; border: 1px solid #ccc; padding: 8px; z-index: 100; width: 160px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);}
-.csscontrol_popup .popup-header {display: flex;justify-content: space-between;font-weight: bold; margin-bottom: 8px;}
+.csscontrol_popup .popup-header {display: flex;justify-content: space-between;font-weight: 500; margin-bottom: 8px;}
 .csscontrol_popup .flag-icon {cursor: pointer; font-size: 20px;}
 .csscontrol_popup .flags {display: flex; justify-content: space-around;}
 .csscontrol_popup .flag-icon { height: 16px; border-radius: 50%; margin-right: 8px; flex-shrink: 0;}
