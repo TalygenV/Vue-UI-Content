@@ -8673,9 +8673,17 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .csscontrol_popup .flag-icon.grey-flag { background-color: #6c757d;}
 .csscontrol_popup .flag-option span { font-size: 14px; font-weight: 500; color: inherit;}
 .csscontrol_popup .flag-option.selected span {color: white;}
+
 .csscontrol_popup .flag-selector {position: relative; display: inline-block;}
 .csscontrol_popup .flag-selector .popup { position: absolute; top: 28px; left: 0; background: #ffffff;border: 1px solid #d1d5db; border-radius: 6px; padding: 12px 14px; z-index: 1000; min-width: 200px; box-shadow: 0 6px 14px rgba(0,0,0,0.10);}
 .csscontrol_popup .flag-selector .close-btn { border: none; background: none; cursor: pointer; color: #6b7280; font-size: 18px; line-height: 1;}
+.csscontrol_popup .flag-selector .flags {display: flex; gap: 16px; align-items: center;}
+.csscontrol_popup .flag-selector .flag-option { cursor: pointer; font-size: 24px; padding: 0; line-height: 1;}
+.csscontrol_popup .flag-selector .popup-header { display: flex; justify-content: space-between; align-items: center; font-weight: 800; color: #1f2937; margin-bottom: 10px; font-size: 18px;}
+
+
+
+
 .csscontrol_popup .close-btn {border: none; background: none; cursor: pointer;} 
 .csscontrol_popup .multiselect__content-wrapper { max-height: 160px !important;}
 .csscontrol_popup .multiselect__element span span { word-break: break-word; text-wrap: wrap;}
@@ -8687,7 +8695,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .csscontrol_popup .condition-block {border: 1px solid #e9ecef;border-radius: 8px; padding:10px 15px; margin-bottom: 0px; background-color: #ffffff;}
 .csscontrol_popup .block-header h6 {color: #495057; font-weight: 600; margin: 0;}
 .csscontrol_popup .condition-row {background-color: #f8f9fa; padding: 10px; border-radius: 6px; margin-bottom: 10px; border: 1px solid #e9ecef;}
-.csscontrol_popup .condition-builder {display: flex; flex-direction: column;  gap: 12px; background-color: #f3f4f6; /* light grey backdrop */ padding: 10px; border-radius: 10px;}
+.csscontrol_popup .condition-builder {display: flex; flex-direction: column;  gap: 12px; background-color: #f3f4f6;  padding: 10px; border-radius: 10px;}
 .csscontrol_popup .or-separator { display: flex; align-items: center; justify-content: center; gap: 12px; margin: 12px 0 4px 0;}
 .csscontrol_popup .or-separator::before,
 .csscontrol_popup .or-separator::after {content: ''; height: 1px; background: #e5e7eb; flex: 1 1 auto;}
@@ -8701,4 +8709,5 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 /**** Billing Rules 2025 ****/
 
 
-
+.impact { margin-top: 10px; padding: 15px; background-color: #e9ecef; border-left: 4px solid #007bff;}
+.impact ul { padding-left: 30px;}
