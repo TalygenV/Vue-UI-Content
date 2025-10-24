@@ -95,62 +95,7 @@ touritem["User/Home"] = {
     },
   ],
 };
-touritem["Project/Index"] = {
-  ModuleDisplayName: "Project Management",
-  MouseEvent: "Project",
-  ModuleName: "Project",
-  displayName: "Project",
-  items: [
-    {
-      selector: ".WalkHRLeaveWidgetContent_ul",
-      step: 1,
-      title: "Widgets",
-      content: "SummaryWidgets",
-    },
-    {
-      selector: "#accordionEx",
-      step: 2,
-      title: "Filters",
-      content: "SearchMultipleFiltersProject",
-    },
-    {
-      selector: "#PAdd",
-      step: 3,
-      title: "AddNewProject",
-      content: "SummaryWidgetsContent",
-    },
-    {
-      selector: "#temp_0",
-      step: 4,
-      title: "PleaseSelectTemplate",
-      content: "SummaryTemplateContent",
-    },
-    {
-      selector: "#btnNext",
-      step: 5,
-      title: "Next",
-      content: "SummaryTemplateNextContent",
-    },
-    {
-      selector: "#SProjectDetailTitleSpan",
-      step: 6,
-      title: "SummaryProjectDetailTitle",
-      content: "SummaryProjectDetailContent",
-    },
-    {
-      selector: "a#aAddUser",
-      step: 7,
-      title: "AddTeamMembers",
-      content: "AddTeamMembersContent",
-    },
-    {
-      selector: "#SummaryProjectSaveContent_a",
-      step: 8,
-      title: "FinishSetup",
-      content: "FinishSetupContent",
-    },
-  ],
-};
+
 touritem["CRM/Index"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
@@ -2020,21 +1965,58 @@ touritem["User/Home"] = {
   ],
 };
 touritem["Project/Index"] = {
-  ModuleDisplayName: "Project Management",
+ ModuleDisplayName: "Project Management",
+  MouseEvent: "Project",
   ModuleName: "Project",
   displayName: "Project",
   items: [
-    //{
-    //    selector: "li.three_wid",
-    //    step: 1,
-    //    title: "Widgets",
-    //    content: "SummaryWidgets"
-    //},
+    {
+      selector: ".WalkHRLeaveWidgetContent_ul",
+      step: 1,
+      title: "Widgets",
+      content: "SummaryWidgets",
+    },
     {
       selector: "#accordionEx",
-      step: 1,
+      step: 2,
       title: "Filters",
       content: "SearchMultipleFiltersProject",
+    },
+    {
+      selector: "#PAdd",
+      step: 3,
+      title: "AddNewProject",
+      content: "SummaryWidgetsContent",
+    },
+    {
+      selector: "#temp_0",
+      step: 4,
+      title: "PleaseSelectTemplate",
+      content: "SummaryTemplateContent",
+    },
+    {
+      selector: "#btnNext",
+      step: 5,
+      title: "Next",
+      content: "SummaryTemplateNextContent",
+    },
+    {
+      selector: "#SProjectDetailTitleSpan",
+      step: 6,
+      title: "SummaryProjectDetailTitle",
+      content: "SummaryProjectDetailContent",
+    },
+    {
+      selector: "a#aAddUser",
+      step: 7,
+      title: "AddTeamMembers",
+      content: "AddTeamMembersContent",
+    },
+    {
+      selector: "#SummaryProjectSaveContent_a",
+      step: 8,
+      title: "FinishSetup",
+      content: "FinishSetupContent",
     },
   ],
 };
