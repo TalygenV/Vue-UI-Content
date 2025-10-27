@@ -8711,3 +8711,23 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 .impact { margin-top: 10px; padding: 15px; background-color: #e9ecef; border-left: 4px solid #007bff;}
 .impact ul { padding-left: 30px;}
+
+
+/**Client Detail - Meter Tab Rahul Kumar 2025***/
+#SerialNumber .multiselect.multiselect--disabled{opacity:9;}
+#SerialNumber .multiselect.multiselect--disabled .multiselect__select{height:34px!important;}
+#SerialNumber .multiselect.multiselect--disabled .multiselect__tags .multiselect__single {
+  background: #e0e0e0 !important;
+  color: #000;
+}
+#SerialNumber .multiselect.multiselect--disabled .multiselect__tags {
+  background: #e0e0e0 !important;
+  color: #000;
+}
+#SerialNumber .multiselect--disabled .multiselect__select{background: #e0e0e0 !important; color: #000;} 
+/**Client Detail - Meter Tab Rahul Kumar 2025***/
+
+
+
+
+
