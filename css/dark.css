@@ -1187,11 +1187,7 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .border.b-secondery-blue{border: 1px solid #2085ff !important;}
 .border.b-turquoise{border: 1px solid #2dc8ba!important;}
 
-
-
-
 /****2024 - Department View Dashboard - Harjit { developer - Ejaz }*****/
-
 .tt_addcategory_ddl.multiselect-dropdown{color:#fff; background: #191d20; border: 1px solid #3c3f43;}
 .tt_addcategory_ddl.multiselect-dropdown .placeholder{background: none; padding: 0px; }
 .tt_addcategory_ddl .multiselect-dropdown-list-wrapper{background: #191d20;}
@@ -1199,42 +1195,15 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .tt_addcategory_ddl .multiselect-dropdown-list{border-left: 1px solid #646464;border-right: 1px solid #646464;}
 .tt_addcategory_ddl .multiselect-dropdown-all-selector, .tt_addcategory_ddl .multiselect-dropdown-single-selector { border-bottom: 1px solid #3c3f43;}
 
-
 .initialsetup_newtab_mainbase .right-content{border-left: 1px solid #535353; background: #212528;}
-.initialsetup_newtab_design.left-tab li {
-    background: #2c3136!important;
-    border-top: none !important;
-    border-left: 1px solid #000 !important;
-    border-right: 1px solid #000 !important;
-    border-bottom: 1px solid #000 !important;
-    height: auto;
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  .initialsetup_newtab_design.left-tab li:hover {
-    background:#3a4753!important;
-    cursor:pointer;
- }
-  .initialsetup_newtab_design.left-tab li a.digits_num {   
-    border-right: 1px solid #000 !important;   
-    color: #fff !important;
-  }
-  .initialsetup_newtab_design.left-tab li a {
-      color: #fff !important;
-  }
-
-  .initialsetup_newtab_design.left-tab li.initialsetup_completed {
-    background: #2c362d !important;
-  }
-  .initialsetup_newtab_design.left-tab li:first-child {
-    border-top: 1px solid #000 !important;
-  }
-
-.initialsetup_newtab_design.left-tab li.active {
-    background: #6795bf !important;
-    color: #fff!important; border-right: 1px solid #c9d9e5!important;
-}
-
+.initialsetup_newtab_design.left-tab li { background: #2c3136!important;border-top: none !important; border-left: 1px solid #000 !important;
+    border-right: 1px solid #000 !important; border-bottom: 1px solid #000 !important; height: auto; display: flex; flex-wrap: nowrap;}
+.initialsetup_newtab_design.left-tab li:hover {background:#3a4753!important; cursor:pointer;}
+.initialsetup_newtab_design.left-tab li a.digits_num { border-right: 1px solid #000 !important; color: #fff !important;}
+.initialsetup_newtab_design.left-tab li a { color: #fff !important;}
+.initialsetup_newtab_design.left-tab li.initialsetup_completed { background: #2c362d !important;}
+.initialsetup_newtab_design.left-tab li:first-child { border-top: 1px solid #000 !important;}
+.initialsetup_newtab_design.left-tab li.active {background: #6795bf !important; color: #fff!important; border-right: 1px solid #c9d9e5!important;}
 .initialsetup_newtab_design.left-tab li.active a i {color:#fff!important;}
 .initialsetup_newtab_design.left-tab li.active:hover{background: #6795bf!important; color: #fff!important;}
 .initialsetup_newtab_design.left-tab li.active:hover a i { color:#fff!important;}
@@ -1251,7 +1220,6 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .newtabsdes_configuration li a{background: #2c3136!important ; border-radius: 0!important; color: #fff !important;}
 .newtabsdes_configuration li a.active{background: #6795bf !important; color: #fff !important;}
 .newtabsdes_configuration li a.active i{color: #fff !important;}
-  
 /****2024 - New Css added *****/
 
 /***********KnowledgeBase Articles - 2024*****************************/
