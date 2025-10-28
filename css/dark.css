@@ -743,7 +743,7 @@ ul.teamstructurebase li {	border-bottom: 1px solid #151617;}
 .v-select .dropdown-toggle {	border-color: #454748 !important;}
 .v-select.disabled .dropdown-toggle, .v-select.disabled .dropdown-toggle input, .v-select.disabled .open-indicator, .v-select.disabled .selected-tag .close {	background-color: #272b2f !important;}
 .integration-container .integrationwith {	background: #2c3136;}
-.bg-light.brdrbtm{background-color: #2c3136 !important;}
+.bg-light.brdrbtm{background-color: #2c3136 !important; border-top: 1px solid #1c1f22;}
 .tree li span {	background: #2c3136 !important;}
 .multiselect-filter-search {	background: #2c3135 !important;}
 .evemgmt_details {	background: #2c3136;}
