@@ -1417,10 +1417,8 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .gd_mainbase .customer-avatarname{background: #2c3136;}
 
 .conditionbg{background-color: #272b2f; border: 1px solid #3c3f43; border-radius: 4px; padding: 12px; min-height: 60px; color: #bbb;}
-.csscontrol_popup .condition-builder{background-color: #272b2f; border: 1px solid #3c3f43;}
-
+.csscontrol_popup .condition-builder{background-color: #272b2f; border: 1px solid #3c3f43!important;}
 .csscontrol_popup .condition-block {background-color: #1c1f22; border: 1px solid #1c1f22;}
-
 .csscontrol_popup .condition-row{background-color: #272b2f; border: 1px solid #3c3f43;}
 
 
