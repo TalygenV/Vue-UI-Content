@@ -919,7 +919,7 @@ div[rel='scrollcontent1'] { width:100%; height:320px;}
 .p-actions-expand .p-name.text-white { display: none;}
 /*.listing .table-responsive table th:last-child { display: block !important; height: 42px; }*/
 .listing .table td.text-center.mobile-action{position: absolute !important;}
-.responsive-tabs-container.accordion-sm .nav-tabs.display991 { display: flex;}  
+.responsive-tabs-container.accordion-sm .nav-tabs.display991 { display: flex;}     
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
