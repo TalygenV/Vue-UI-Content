@@ -923,7 +923,7 @@ div[rel='scrollcontent1'] { width:100%; height:320px;}
 @media (min-width: 768px) and (max-width: 991px) {
 .responsive-tabs-container.accordion-sm .nav-tabs { display: none; }
 
-.responsive-tabs-container.accordion-sm .nav-tabs.display991 { display: block;}
+.responsive-tabs-container.accordion-sm .nav-tabs.display991 { display: flex;}
 
 .responsive-tabs-container.accordion-sm .accordion-link { display: block; }
 .modal.right.fade .modal-dialog {max-width: 600px;}
