@@ -547,10 +547,10 @@ body.rs-ultra-light .rsmain::before{ background: #f3f3f3; }
 body.rs-ultra-light .rsmain::after{ background: #f3f3f3;  } 
 
 
-.resource_schedule_rw {
+/* .resource_schedule_rw {
   overflow-y: auto!important;
   max-height: 600px!important;
   min-height: 600px!important;
-}
+} */
 
 
