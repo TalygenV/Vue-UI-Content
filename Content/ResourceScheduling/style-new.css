@@ -273,8 +273,6 @@ body.menu-left-wrapper section.collapsewidget #calendar.daily section header.top
 
 body.menu-left-wrapper.wrapper-shrink section.collapsewidget #calendar.daily section header.topMarginCollapse{top: 95px!important; left:310px!important;}
 
-
-
 body.wrapper-shrink #calendar.daily section{margin-left: 250px !important; padding-top:0px!important;}
 body.wrapper-shrink #calendar.daily section header.topMargin{top: 215px!important;left:310px!important;}
 body.wrapper-shrink #calendar.daily section header{top: 11px!important;}
@@ -297,12 +295,7 @@ body.menu-left-wrapper .res-widget{margin-right: 40px;}
 body.menu-left-wrapper header.topMargin #time-periods{margin-left:190px;}
 
 
-
-
-
-
 body.menu-left-wrapper section.collapsewidget header nav.date-controls{}
-
 
  
 /***If Left menu - Harjit Singh*********/ 
@@ -554,6 +547,10 @@ body.rs-ultra-light .rsmain::before{ background: #f3f3f3; }
 body.rs-ultra-light .rsmain::after{ background: #f3f3f3;  } 
 
 
-
+.resource_schedule_rw {
+  overflow-y: auto!important;
+  max-height: 600px!important;
+  min-height: 600px!important;
+}
 
 
