@@ -1433,6 +1433,9 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .resources--cal-unit:hover {background-color: #262626 !important;}
 .resources--cal-unit .utilisation{background: #1c1c1c;}
 
+.resources--cal-unit.unavailable.week-end {background: #202020 !important;}
+.resources--cal-unit .utilisation.week-end { background: #000 !important;}
+
 
 /****Git hub css - Harjit Singh 11/11/2025*****/
 
