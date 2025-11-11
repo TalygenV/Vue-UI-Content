@@ -563,12 +563,6 @@ body.rs-ultra-light .rsmain::after{ background: #f3f3f3;  }
   background: #fff!important;
 }
 
-.resource_schedule_rw {
-  overflow-y: auto!important;
-  max-height: 600px!important;
-  min-height: 600px!important;
-}
-
 #calendar.daily aside {
   position: absolute!important;
   top: 0!important;
@@ -576,9 +570,72 @@ body.rs-ultra-light .rsmain::after{ background: #f3f3f3;  }
   padding-top: 0px!important;
 }
 
+.resource_schedule_rw {
+  overflow-y: auto!important;
+  max-height: 600px!important;
+  min-height: 600px!important;
+}
 
+#calendar.daily section #time-periods {
+  font-size: 0!important;
+  margin-left: 250px!important;
+}
 
+.header_onscroll {
+  position: fixed !important;
+  left: 17px !important;
+  top: 290px !important;
+}
 
+.mobile-action .expand {
+  right: 40px!important;
+}
+
+div#resources {
+  position: absolute!important;
+  left: 250px!important;
+  top: 0!important;
+}
+
+.resources--cal-unit .utilisation .unit span.hours {
+  width: 39.1px!important;
+}
+
+#calendar.daily aside .resource .initialsbase {
+  float: left!important;
+  height: 50px!important;
+  margin-right: 10px!important;
+  border-radius: 100%!important;
+  margin-top: 10px!important;
+  margin-left: 5px!important;
+  width: 50px!important;
+  background: #75797a!important;
+  text-align: center!important;
+  font-size: 16px!important;
+  color: #fff!important;
+  line-height: 52px!important;
+}
+ .dynamictasks .resources--cal-unit {
+  padding-bottom: 30px!important;
+}
+
+ .resources--cal-unit {
+  padding-bottom: 8px!important;  width: 40.3px !important;
+}
+
+.resource_schedule_rw aside .resource:first-child .mobile-action .expand {
+  top: 0px !important;
+  right: 33px!important;
+}
+.resources--cal-unit .utilisation .unit span {
+    background: none;
+}
+#calendar.daily section #time-periods .unit-group .units .cal-unit:first-child{border-left: 1px dashed rgba(230, 226, 226, 0.6)!important;}
+
+#calendar.daily section #time-periods .unit-group .units{display:flex;}
+#calendar.detailed .resources--cal-unit {
+    width: 160px!important;
+}
 
 
 /****Git hub css - Harjit Singh 11/11/2025*****/
