@@ -827,7 +827,7 @@ li.active ~ li span.round-tab {    background: #1c1f22;}
 .form-group .bg-light {	background-color: #272b2f !important; }
 .legend-milestone {	background: rgb(37, 165, 255);}
 .rs-widget-container {	background: #1c1f22;}
-#calendar.daily aside {	color: #ddd;	background: #2c3136;}
+#calendar.daily aside {	color: #ddd!important;	background: #2c3136;}
 .legends_profile{background:#df5966;}
 .legends_Critical{background:#ef8934;}
 .legends_high{background:#fbc648;}
