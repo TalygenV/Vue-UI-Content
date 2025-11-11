@@ -1422,4 +1422,15 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .csscontrol_popup .condition-row{background-color: #272b2f; border: 1px solid #3c3f43;}
 
 
+/****Git hub css - Harjit Singh 11/11/2025*****/
+
+#calendar.daily section header nav.date-controls{background: #2c3136 !important; border-right: 1px solid #414e5e; border-bottom: 1px solid #414e5e;}
+
+#calendar.daily .hs tr.border-top {border-top: 1px solid #414e5e !important;}
+
+#calendar.daily .hs td a.btn.next, #calendar.daily .hs td a.btn.previous { background: #0d0d0d;}
+
+
+
+/****Git hub css - Harjit Singh 11/11/2025*****/
 
