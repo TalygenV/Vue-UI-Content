@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Economica'), local('Economica-Regular'), url(https://fonts.gstatic.com/s/economica/v4/jObgDQiPUtmACAaaK3pMG1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/economica/v4/jObgDQiPUtmACAaaK3pMGz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Economica Bold'), local('Economica-Bold'), url(https://fonts.gstatic.com/s/economica/v4/UK4l2VEpwjv3gdcwbwXE9Ogdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/economica/v4/UK4l2VEpwjv3gdcwbwXE9HhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v8/ATKpv8nLYAKUYexo8iqqrg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/ptsans/v8/LKf8nhXsWg5ybwEGXk8UBQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v8/0XxGQsSc1g4rdRdjJKZrNPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(https://fonts.gstatic.com/s/ptsans/v8/0XxGQsSc1g4rdRdjJKZrNBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('PT Sans Italic'), local('PTSans-Italic'), url(https://fonts.gstatic.com/s/ptsans/v8/PIPMHY90P7jtyjpXuZ2cLFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/ptsans/v8/PIPMHY90P7jtyjpXuZ2cLD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Caption'), local('PTSans-Caption'), url(https://fonts.gstatic.com/s/ptsanscaption/v9/OXYTDOzBcXU8MTNBvBHeSVu3pQpJXC1E_Hw7zMp8vJM.woff2) format('woff2'), url(https://fonts.gstatic.com/s/ptsanscaption/v9/OXYTDOzBcXU8MTNBvBHeSQRW432DtwGNER78eOJ0i0s.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Caption Bold'), local('PTSans-CaptionBold'), url(https://fonts.gstatic.com/s/ptsanscaption/v9/Q-gJrFokeE7JydPpxASt2-AG5JKECrpbRn4WyrgqwBM.woff2) format('woff2'), url(https://fonts.gstatic.com/s/ptsanscaption/v9/Q-gJrFokeE7JydPpxASt2w9wu1CdFtjuMIsaFqyYbWg.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Narrow'), local('PTSans-Narrow'), url(https://fonts.gstatic.com/s/ptsansnarrow/v7/UyYrYy3ltEffJV9QueSi4UU-p1xzoRgkupcXIqgYFBc.woff2) format('woff2'), url(https://fonts.gstatic.com/s/ptsansnarrow/v7/UyYrYy3ltEffJV9QueSi4RdbPw3QSf9R-kE0EsQUn2A.woff) format('woff');
+}
