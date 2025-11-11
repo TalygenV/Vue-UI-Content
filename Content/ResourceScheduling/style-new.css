@@ -549,6 +549,12 @@ body.rs-ultra-light .rsmain::after{ background: #f3f3f3;  }
 
 /****Git hub css - Harjit Singh 11/11/2025*****/
 
+#divjuda_menu {
+  display: none;
+}
+/* #talygenfooter {
+  display: none;
+} */
 
 #calendar.daily section header nav.date-controls {
   position: absolute!important;
