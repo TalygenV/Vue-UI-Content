@@ -636,6 +636,8 @@ div#resources {
 #calendar.detailed .resources--cal-unit {
     width: 160px!important;
 }
+.res_sch_control .userguide-img .divs {margin-top: 20px;}
+.res_sch_control .userguide-img a.userguide-nav{margin-top: 260px;}
 
 
 /****Git hub css - Harjit Singh 11/11/2025*****/
