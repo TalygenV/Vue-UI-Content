@@ -8806,3 +8806,4 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .invoice-header-right p span .fa {height: auto; width: auto; top: 0; padding-right: 5px;}
 .invoice-to .invoice-email .fa, .invoice-to .invoice-phone .fa {height: auto; width: auto; top: 0; padding-right: 5px; color: #333;}
 /***Billing Index Invoice Template Harjit with Thakur ji*****/
+.newdes_kvlist div.list-group.addsection {padding-top: 14px; max-height: 60px; font-size:20px; font-weight: 500; color: #5a5a5a;}
