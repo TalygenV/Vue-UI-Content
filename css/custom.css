@@ -8374,9 +8374,9 @@ div#divDialogDetails .arrow-right.arrow_rt {position: absolute; left: -30%; top:
 .shortcuts-menu_temp li .basser .imgbase1{background:#fff;}
 .shortcuts-menu_temp li .basser .imgbase1 img{ width:100%; max-height: 180px;}
 .shortcuts-menu_temp li .basser .smallhead2{background:#f2f2f2; padding: 10px; border-radius: 0px 0px 5px 5px;}
-.shortcuts-menu_temp li .basser.gen-templateadded{border: 1px dashed #6fc1a4;}
-.gen-templateadded .smallhead1 {background: #e3f0fb!important;}
-.gen-templateadded .smallhead2 {background: #e3f0fb!important;}
+.shortcuts-menu_temp li .basser.gen-templateadded{border: 1px dashed #6981a6;}
+.gen-templateadded .smallhead1 {background: #bfd8ff!important;}
+.gen-templateadded .smallhead2 {background: #bfd8ff!important;}
 .modal-mask{z-index: 99999;}
 .vue-lightbox-thumbnail-wrapper{bottom:120px!important;}
 ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
