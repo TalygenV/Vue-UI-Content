@@ -8437,8 +8437,8 @@ ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
 .kvfixhead.proj_kv .element-panel{flex-wrap:nowrap!important;}
 .kvfixhead.proj_kv{min-width:1500px!important; max-width:100%; width:100%; flex-wrap:nowrap!important;}
 .kvlistview.proj_kv{min-width:1500px!important; max-width:100%; width:100%; flex-wrap:nowrap!important;}
-.canvan-view-list.kvfixhead.proj_kv li {width: 375px!important; max-width:375px;min-width:375px;}
-.canvan-view-list.kvlistview.proj_kv li{width: 375px!important; max-width:375px;min-width:375px;}
+.canvan-view-list.kvfixhead.proj_kv li {width: 374px!important; max-width:374px;min-width:374px;}
+.canvan-view-list.kvlistview.proj_kv li{width: 374px!important; max-width:374px;min-width:374px;}
 .canvan-view-list.newdes_kvlist .add-backlog-btn{background-color: #fff!important; border-radius: 0px;}
 .onlyd-view.ht_630{min-height: 630px!important;}
 
