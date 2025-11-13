@@ -8437,12 +8437,12 @@ ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
 .kvfixhead.proj_kv .element-panel{flex-wrap:nowrap!important;}
 .kvfixhead.proj_kv{min-width:1500px!important; max-width:100%; width:100%; flex-wrap:nowrap!important;}
 .kvlistview.proj_kv{min-width:1500px!important; max-width:100%; width:100%; flex-wrap:nowrap!important;}
-.canvan-view-list.kvfixhead.proj_kv li{width: 500px!important; max-width:500px;min-width: 500px;}
-.canvan-view-list.kvlistview.proj_kv li{width: 500px!important; max-width:500px;min-width: 500px;}
+.canvan-view-list.kvfixhead.proj_kv li {width: 375px!important; max-width:375px;min-width:375px;}
+.canvan-view-list.kvlistview.proj_kv li{width: 375px!important; max-width:375px;min-width:375px;}
 .canvan-view-list.newdes_kvlist .add-backlog-btn{background-color: #fff!important; border-radius: 0px;}
 .onlyd-view.ht_630{min-height: 630px!important;}
 
-.newdes_kvlist div.list-group{border-radius:0px; padding:20px; border:1px solid #ccc; background:#f1f4f9;}
+.newdes_kvlist div.list-group{border-radius:0px; padding:15px; border:1px solid #ccc; background:#f1f4f9;}
 .newdes_kvlist div.list-group .card-box { border: 1px solid #dfdfdf; border-radius: 0px; padding: 15px; background: #fff ;}   
 .tasknames_newdes span{font-size: 20px;}
 .tasknames_newdes a{font-size: 20px;padding:4px;}
