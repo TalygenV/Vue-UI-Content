@@ -8552,6 +8552,9 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .gantt-elastic__calendar-row-text.gantt-elastic__calendar-row-text--quarter{background:rgb(48, 56, 60) !important; color: #fff;padding-top: 0px !important;}
 
 .gantt-elastic__calendar-row-text{text-shadow: none; color: #fff!important; padding-top: 6px;}
+
+.view-toggle-btn{padding: 4px 20px!important;}
+
 .view-toggle-btn{border-width: 1px!important;}
 .gantt-view-filter{background: #3e3e3e!important;}
 .view-toggle-btn.active{background: #667eea!important; color: #fff!important; border-color: #c6d0fd !important;box-shadow: none !important;}
