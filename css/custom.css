@@ -8561,7 +8561,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .gantt-elastic__main-view-container, .gantt-elastic__main-view-main-container{border-radius:0px!important;}
 /**Project Detail Timeline Tab**/
 
-.gantt-elastic .gantt-view-filter .view-toggle-group button.view-toggle-btn {border-width: 1px !important; padding: 15px 10px !important; border: 0px;}
+.gantt-elastic .gantt-view-filter .view-toggle-group button.view-toggle-btn {border-width: 1px !important; padding: 15px 10px !important; border: 0px; border-radius: 0px; transform: none;}
 
 .table-responsive table th span.font-weight-500{font-weight: 500 !important;}
 
