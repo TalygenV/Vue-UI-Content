@@ -380,10 +380,10 @@ ul.ks-cboxtags li label {
 strong {
     font-weight: normal !important;
 }
-
+/* 
 .booking .rmtooltipdata {
     display: none !important;
-}
+} */
 
 .popover-body .rmtooltipinner {
     display: block !important;
