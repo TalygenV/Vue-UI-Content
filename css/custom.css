@@ -7724,7 +7724,7 @@ input:checked + .slider:before {  -webkit-transform: translateX(26px);  -ms-tran
 .subsc-total{ background:rgba(0,0,0, .1);  bottom:0px; width:100%; padding:50px 0; margin-top:50px;clear:both; }
 .subsc-total-container{ width: 100%; max-width: 1396px; padding: 15px; text-align: right; margin: auto; }
 .subs-package-items { float: right;	width: 100%;	max-width: 500px;	padding: 0;	margin: 0; }
-.subs-package-items li { width: 100%; text-align: right; border: 1px solid #fff; background: #ebf5fb; color: #303030; font-size: 17px; padding: 8px 15px;	font-weight: 600;}
+.subs-package-items li { width: 100%; text-align: right; border: 1px solid #fff; background: #ebf5fb; color: #303030; font-size: 17px; padding: 8px 15px; font-weight: 600; list-style: none;}
 .subs-package-items li.net-t-items { border: 0px solid #fff; background: #fbf3d2; margin-top: 5px; margin-bottom:10px; }
 .subs-button { padding: 10px 40px;	color: #fff; background: #ccc; font-size: 18px;text-align: center;	margin-top: 20px; display: inline-block; transition: all .4s;}
 .nxt-btn { background: #48b361; }
