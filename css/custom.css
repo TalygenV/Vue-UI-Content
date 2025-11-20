@@ -8926,4 +8926,13 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .rt_descontrol .sub-includes { width: 100%; position: relative; display: inline-block; line-height: 25px; padding-left: 22px; font-size: 14px; position: relative; color: #303030;}
 .rt_descontrol .pro-headr { position: relative; display: inline-block; width: 100%; padding: 10px 0; min-height: 160px; background: none;}
 .rt_descontrol .pro-headr h2 { margin-top: 10px; color: #fff;  padding: 0 8px; font-size: 22px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; margin-bottom: 5px; line-height: 30px;}
+
+.rt_descontrol .buttonsposition {text-align: right; position: absolute; top: 0; right: 16px;}
+.rt_descontrol .includedicon {color: #1abc9c; position: absolute; right: 10px; top: 18px;}
+.rt_descontrol .duenow {color: #fff !important;background: linear-gradient(to right, #ebf5fb, #128fe4)!important;}
+.rt_descontrol .subsc-total-container{max-width: 1870px;}
+
+
+
+
 /****Manage Subscription Harjit with Thakur ji 20Nov2025*****/    
