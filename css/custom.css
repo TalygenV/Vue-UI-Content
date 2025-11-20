@@ -8938,4 +8938,28 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 
 
+.rt_descontrol .subs-adds-list.less270{width: calc(100% - 270px);}
+.rt_descontrol .tabcontent.less270{width: calc(100% - 270px);}
+
+.rt_descontrol .less270 .storag-adds{max-width:26%;}
+
+@media (max-width:991px) {
+    .rt_descontrol .tabcontent.less270{width: 100%!important; margin-bottom: 20px!important;}
+    .rt_descontrol .sub-package{max-width: unset!important;margin: 15px!important;}
+    .rt_descontrol .addpackage_btnbase{margin-bottom: 30px!important; position: unset!important; padding-top: 0px!important; float: left!important; min-height: auto!important;width:100%;}
+    .rt_descontrol .addpackage_btn{height:auto!important;}
+    .rt_descontrol .addpackage_btn i{margin-top:auto!important;}
+    .rt_descontrol .subs-adds-list.less270 {width: 100%; margin: 0;padding: 0;}
+    .rt_descontrol .storag-adds{max-width: 48%!important;}
+}
+
+@media (max-width:768px) {
+    .rt_descontrol .storag-adds{max-width: 100%!important;}
+}
+@media (max-width:1400px) {
+   .rt_descontrol .storag-adds{max-width: 32%;}
+   .rt_descontrol .less270 .storag-adds{max-width:32%;}
+}
+
+
 /****Manage Subscription Harjit with Thakur ji 20Nov2025*****/    
