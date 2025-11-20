@@ -8934,7 +8934,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 
 .rt_descontrol .price-sub .spnPackageCost {font-size: 35px; font-weight: 600;}
-.rt_descontrol .addpackage_btnbase {float: left; min-height: 350px; padding-top: 250px; position: absolute; right: 60px; top: 0px; z-index: 999;}
+.rt_descontrol .addpackage_btnbase {float: left; min-height: 350px; padding-top: 250px; position: absolute; right: 60px; top: 0px; z-index: 9;}/**z-index: 999;**/
 
 
 
