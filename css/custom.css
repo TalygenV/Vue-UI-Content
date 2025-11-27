@@ -8980,6 +8980,24 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 }
 
 
+.plans_billing_des .font-27 {font-size: 27px;}
+.plans_billing_des .seagreenicon {color: #1abdac;}
+.plans_billing_des .bodbase {min-height: 250px;}
 
+.plans_billing_des .subscp_detail .headbase{background:#bf4753; color:#fff;}
+.plans_billing_des .subscp_detail .bodbase{border:1px solid #bf4753; background:#ececec;}
+.plans_billing_des .subscp_detail.newsubscp .headbase{background:#27a643; color:#fff;}
+.plans_billing_des .subscp_detail.newsubscp .bodbase{border:1px solid #27a643; background:#fff;}
+.plans_billing_des .txt-orange{color:#ff7f10;}
+.plans_billing_des .font-27{font-size:27px;}
+.plans_billing_des table.subscp_detailtble{width:100%;}
+.plans_billing_des table.subscp_detailtble thead tr{border-top:1px solid #b0b0b0;border-bottom:1px solid #b0b0b0;}
+.plans_billing_des table.subscp_detailtble tr td{padding:8px 8px !important;}
+
+.plans_billing_des .cardpicsbox{width: 100%; float: left; margin: 1px 0px; height: auto; position: relative; min-height: 85px; padding: 15px 15px 15px 80px;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;}
+.plans_billing_des .cardpics{width: 80px !important; height: 61px; line-height: 41px; text-align: center; font-size: 24px; color: #494949; float:left;}
+.plans_billing_des .cardpics img{width:100%;}
+.plans_billing_des .carddetails{width:calc(100% - 85px); margin: 0 0 3px 0;  padding: 0; height: auto; float:left; font-size:14px;}
+.plans_billing_des .listing-rw i { color: #17a2b8;}
 
 /****Manage Subscription Harjit with Thakur ji 20Nov2025*****/    
