@@ -8581,7 +8581,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .mess_newdes .bg-secondary-new { --bs-bg-opacity: 1; background-color: #d3d3d3 !important; font-weight: 500;}
 .mess_newdes .btn-primary:focus{box-shadow: none;}
 .mess_newdes .listhovereffect:hover{background: #f2f8fd;}
-.mess_newdes .listhovereffect{padding:8px 3px!important;}
+.mess_newdes .listhovereffect{padding:4px 3px!important;}
 .mess_newdes .fw-semibold{font-size: 13px;}
 .mess_newdes .roundbadge{border-radius: 100%!important; width:25px; height:25px; line-height:24px; background: #dc3545; color: #fff; font-size: 12px;}
 .mess_newdes .statuss{float: left; width: 35px; height: 35px; color: #fff; background:#6c757d; border-radius: 100%; font-size: 13px; line-height:35px; margin-right:10px;}
@@ -8596,7 +8596,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .mess_newdes .sendbutton{width: 50px; text-align: center; height: 50px;  padding-top: 10px; border:none; background: #2196f3; color: #fff; border-radius: 10px; margin-left: 20px;}
 .mess_newdes .sendbutton em{font-size: 25px;}
 .mess_newdes .btn-light.lighten{background: #f0f0f0; border-color: #f0f0f0;}
-.mess_newdes .panesdivider{border-bottom: 1px solid #e6e6e6; padding-bottom: 15px;}
+.mess_newdes .panesdivider{border-bottom: 1px solid #e6e6e6; padding-bottom: 10px;}
 .mess_newdes .p-3.mb-3.rounded.bg-light {border-bottom: 1px solid #e6e6e6; background:#fbfcfd!important;}
 .mess_newdes .chatpanes{position: relative;}
 .mess_newdes .chatpanes:hover .chatpanes_acts{display: block;}
