@@ -8935,7 +8935,6 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .rt_descontrol .duenow {color: #fff !important;background: linear-gradient(to right, #ebf5fb, #128fe4)!important;}
 .rt_descontrol .subsc-total-container{max-width: 1870px;}
 
-
 .rt_descontrol .price-sub .spnPackageCost {font-size: 35px; font-weight: 600;}
 .rt_descontrol .addpackage_btnbase {float: left; min-height: 350px; padding-top: 250px; position: absolute; right: 60px; top: 0px; z-index: 9;}/**z-index: 999;**/
 
@@ -8943,8 +8942,23 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 .rt_descontrol .subs-adds-list.less270{width: calc(100% - 270px);}
 .rt_descontrol .tabcontent.less270{width: calc(100% - 270px);}
-
 .rt_descontrol .less270 .storag-adds{max-width:26%;}
+
+
+.rt_descontrol .addon-wrapper {width: 100%;}
+.rt_descontrol .addpackage_btn { background: #fafafa; display: block; height: 200px; min-width: 200px; text-align: center; border: 1px solid #e1e1e1; border-radius: 15px;}  
+.rt_descontrol .addpackage_btn i { font-size: 40px; color: #dee0e4; margin-top: 78px;}
+.rt_descontrol .pro-headr h2{  font-size: 16px;}
+.rt_descontrol .addpackage_btnbase.singlealone {position: unset; min-height: 250px !important; padding-top: 40px !important;  margin: 0 auto;  text-align: center; float: unset;  width: 100%;}
+.rt_descontrol .addpackage_btnbase.singlealone .norecmsgs { display: block !important; margin-bottom: 30px;  font-size: 25px;}
+.rt_descontrol .addpackage_btnbase.singlealone a.addpackage_btn {width: 350px; margin: 0 auto;}
+.rt_descontrol .sbs-free-trial::after{top: 6px; border-right: 15px solid #ff5858; border-left: 15px solid #ff5858;}
+.rt_descontrol .sbs-free-trial{background: #ff5858;}
+.rt_descontrol .sbs-free-trial::before{border-right: 10px solid #ff5858;}
+
+.rt_descontrol .storag-adds .removeAddon { position: absolute;  right: 10px;  top: 6px;}
+.rt_descontrol .storag-adds{background: #fff;}
+
 
 @media (max-width:991px) {
     .rt_descontrol .tabcontent.less270{width: 100%!important; margin-bottom: 20px!important;}
@@ -8963,6 +8977,8 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
    .rt_descontrol .storag-adds{max-width: 32%;}
    .rt_descontrol .less270 .storag-adds{max-width:32%;}
 }
+
+
 
 
 /****Manage Subscription Harjit with Thakur ji 20Nov2025*****/    
