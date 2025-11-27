@@ -8557,11 +8557,13 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 .view-toggle-btn{border-width: 1px!important;}
 .gantt-view-filter{background: #3e3e3e!important; padding: 6px 20px!important;}
-.view-toggle-btn.active{background: #667eea!important; color: #fff!important; border-color: #c6d0fd !important;box-shadow: none !important;}
+/* .view-toggle-btn.active{background: #667eea!important; color: #fff!important; border-color: #c6d0fd !important;box-shadow: none !important;} */
+.view-toggle-btn.active{background: #fff!important; color: #000!important; border-color: #c6d0fd !important;box-shadow: none !important;}
 .gantt-elastic__main-view-container, .gantt-elastic__main-view-main-container{border-radius:0px!important;}
 /**Project Detail Timeline Tab**/
 
-.gantt-elastic .gantt-view-filter .view-toggle-group button.view-toggle-btn {border-width: 1px !important; padding: 15px 20px !important; border: 0px; border-radius: 0px; transform: none;}
+.gantt-elastic .gantt-view-filter .view-toggle-group button.view-toggle-btn {background: #000!important; color: #fff!important;
+    border-width: 1px !important; padding: 15px 20px !important; border: 0px; border-radius: 0px; transform: none;}
 .gantt-elastic .gantt-view-filter .view-toggle-group button.view-toggle-btn .view-label{font-weight: normal;}
 
 .gantt-elastic .gantt-view-filter .view-toggle-group button.view-toggle-btn .view-icon{display: none;}
