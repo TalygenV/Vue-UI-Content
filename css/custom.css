@@ -8654,7 +8654,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
     font-size: 14px; color: #303030;}
 .rightmodalcssfixs .comment-form { margin-bottom: 20px;}
 .rightmodalcssfixs .comment-textarea {width: 100%; padding: 12px; border: 1px solid var(--gray-light); border-radius: 4px; min-height: 100px; margin-bottom: 12px; resize: vertical; font-size: 14px;}
-.rightmodalcssfixs .comment-submit { padding: 10px 18px; background: #4361ee; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px;}
+.rightmodalcssfixs .comment-submit { padding: 10px 18px; background: #4361ee; color: white; border: none; border-radius: 0px; cursor: pointer; font-size: 14px;}
 .rightmodalcssfixs ul.comment-list {list-style: none; float: left;width: 100%;}
 .rightmodalcssfixs .comment-item { padding: 18px 0; border-bottom: 1px solid var(--gray-light); float: left; width: 100%;}
 .rightmodalcssfixs .comment-header {display: flex; align-items: center; margin-bottom: 10px;}
