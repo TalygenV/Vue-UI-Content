@@ -8604,7 +8604,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .mess_newdes .chatpanes_acts a{padding: 6px 12px;line-height: 36px;color: #535353;}
 .mess_newdes .chatpanes_acts a:hover{background: #f5f4f4; border-radius: 9px; color: #3f3f3f;}
 
-.mess_newdes.vh-90 {height: 90vh !important;}
+.mess_newdes.vh-90 {height: 80vh !important;}
 .mess_newdes .replybase .textareamsg input {border: none;}
 .mess_newdes .replybase .sendbuttons:disabled{ background: none!important;  color: #cecece;}
 .mess_newdes .replybase .sendbuttons{width: 50px; text-align: center; border:none; background:none; color: #2196f3; border-radius: 10px; margin-left: 10px;}
