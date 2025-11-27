@@ -328,16 +328,18 @@ header nav.date-controls table td.bodnone{ border:0px!important;}
 #phase { border-bottom: 1px solid lightgrey;  float: left;   margin-top: 4px;  padding: 3px 4px 5px;  text-align: center;  min-width: 100%;  width:auto; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
 #phase ul {display: inline;   list-style: outside none none;}
 #phase ul li {display: inline;}
-#phase ul li a { background:#17a2b8; width:13%; color: #fff;   display: block;   float: left;   font-size: 20px;   height: 52px;    margin: 0 10px 0 0;    padding: 13px 40px 0 57px;    position: relative;   text-align: center;   text-decoration: none;}/*background: #3498db ;*/
-#phase ul li a::after {  border-bottom: 26px solid transparent;   border-left: 26px solid #17a2b8;   border-top: 26px solid transparent;    content: "";    position: absolute;    right: -26px;    top: 0;    z-index: 1;}/*border-left: 26px solid #3498db;*/
-#phase ul li a::before {   border-bottom: 26px solid transparent;    border-left: 26px solid #fff;    border-top: 26px solid transparent;    content: "";    left: 0;    position: absolute;    top: 0;}
+#phase ul li a { background:#17a2b8; width:13%; color: #fff; display: block; float: left; font-size: 20px; height: 52px; margin: 0 10px 0 0; padding: 13px 40px 0 57px;    position: relative;   text-align: center;   text-decoration: none;}/*background: #3498db ;*/
+#phase ul li a::after { border-bottom: 26px solid transparent; border-left: 26px solid #17a2b8; border-top: 26px solid transparent; content: ""; position: absolute; right: -26px;    top: 0;    z-index: 1;}/*border-left: 26px solid #3498db;*/
+#phase ul li a::before {border-bottom: 26px solid transparent; border-left: 26px solid #fff; border-top: 26px solid transparent; content: ""; left: 0; position: absolute;    top: 0;}
 #phase ul li a:hover { background: #71b7e6 ;}
 #phase ul li a:hover::after { border-left-color: #71b7e6;}
 .RpadMap_milestone { background: #fff;border: 2px solid #25a5ff; height: 20px; left: 9px; position: absolute; top: -10px;-ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg); width: 20px;z-index: 10;} 
 .RpadMap_milestone.filled{background:#25a5ff;}
 .dcontr {  display:table-cell; vertical-align:top;}
 
-#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking{background:#9ad5ff; border-radius:0px; border:1px solid #9ad5ff; }/*background:#9ad5ff;border:1px solid #5da863;*/
+/* #calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking{background:#9ad5ff; border-radius:0px; border:1px solid #9ad5ff; } */
+/*background:#9ad5ff;border:1px solid #5da863;*/
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking{background:#74bef2; border-radius:0px; border:1px solid #6ca8d2;}/*background:#9ad5ff;border:1px solid #5da863;*/
 #calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .label{color:#313131; font-size:15px; font-weight:normal !important; text-align:center; overflow:visible; }
 #calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.tasks{background:#d6a6e4; border:1px solid #ae7bbe; border-radius:0px; }
 #calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .ri-task{background:#8ce68c ; border-radius:0px; border:1px solid #8ce68c ; }
