@@ -8556,7 +8556,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .view-toggle-btn{padding: 4px 20px!important;}
 
 .view-toggle-btn{border-width: 1px!important;}
-.gantt-view-filter{background: #3e3e3e!important; padding: 6px 20px!important;}
+.gantt-view-filter{background: #3e3e3e!important; padding: 8px 20px!important;}
 /* .view-toggle-btn.active{background: #667eea!important; color: #fff!important; border-color: #c6d0fd !important;box-shadow: none !important;} */
 .view-toggle-btn.active{background: #fff!important; color: #000!important; border-color: #c6d0fd !important;box-shadow: none !important;}
 .gantt-elastic__main-view-container, .gantt-elastic__main-view-main-container{border-radius:0px!important;}
