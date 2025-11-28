@@ -9000,4 +9000,12 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .plans_billing_des .carddetails{width:calc(100% - 85px); margin: 0 0 3px 0;  padding: 0; height: auto; float:left; font-size:14px;}
 .plans_billing_des .listing-rw i { color: #17a2b8;}
 
+.payment-form_hsbase .stripe-input { width: 100%; float: left;}
+.payment-form_hsbase .stripe-input { border: 1px solid #ccc; padding: 10px 12px;  border-radius: 6px;  background-color: #fff; margin-bottom: 12px; transition: border-color 0.2s ease;}
+.payment-form_hsbase .payment-form_hs { padding: 20px; margin: 10px 0px !important; background: #f6f5f8; border: 1px solid #d0d0d0;}
+.payment-form_hsbase label { color: #626262;  float: left; font-size: 15px; font-weight: bold; line-height: 18px; padding: 5px; width: 100%; display: block;  text-align: left; float: left;}
+.payment-form_hsbase .pack_margtop_bot { margin-top: 5px !important; margin-bottom: 5px !important;}
+.payment-form_hsbase .form_fields { margin: 20px 0; overflow: hidden;}
+.payment-form_hsbase .stripe-error{color: #de3545;}
+
 /****Manage Subscription Harjit with Thakur ji 20Nov2025*****/    
