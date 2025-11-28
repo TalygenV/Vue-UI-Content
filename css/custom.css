@@ -9008,4 +9008,11 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .payment-form_hsbase .form_fields { margin: 20px 0; overflow: hidden;}
 .payment-form_hsbase .stripe-error{color: #de3545;}
 
+.valu {font-weight: 600; }
+.cci_base .valu {background: #E0E0E0; border:1px solid #abb5bf;}
+.cci_base .field-validation-error {color: #a94442!important; margin-top: 6px;}
+.cci_base .total_disable_class_bg { opacity: 0.6; pointer-events: none;}
+.cci_base .heading-border h5 { margin: 0; }
+
+
 /****Manage Subscription Harjit with Thakur ji 20Nov2025*****/    
