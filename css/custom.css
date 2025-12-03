@@ -9035,7 +9035,37 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .recharge_payment .form-control{ border-radius: 6px!important; padding:12px; background: #fafafa;}
 .recharge_payment select.form-control:not([size]):not([multiple]){height: 3rem !important;}
 
+.modalfixcss .utility-card{padding: 10px 25px;}
+.modalfixcss .utility-title {font-size: 17px; font-weight: 500;}
+.modalfixcss .utilities-grid{margin-top: 15px;}
+.modalfixcss .avatar img {border-radius: 100%;}
 
+.modalfixcss .detailsfix .badge.active{background:#28a745;}
+
+.modalfixcss .section-title {font-size: 18px; font-weight: 600; color: #2b3a67; margin: 25px 0 10px; }
+.modalfixcss .card-grid {display: grid;  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 15px;}
+.modalfixcss .card { background: #fff; border-radius: 10px; padding: 15px 20px; box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08); transition: 0.2s ease;}
+.modalfixcss .card h4 { margin: 0 0 5px; color: #2b3a67; font-size: 16px;}
+.modalfixcss .card p { margin: 2px 0; font-size: 14px;  color: #555;}
+.modalfixcss .info-box, .account-box, .quick-box { background: #fff;  border-radius: 10px;  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08); padding: 15px 20px; }
+.modalfixcss .info-box p, .account-box p { margin: 8px 0; font-size: 15px; color: #444;}
+
+.modalfixcss .quick-actions { display: flex; gap: 15px; flex-wrap: wrap; justify-content: space-between; margin-top: 10px;}
+
+.modalfixcss .quick-btn {flex: 1; min-width: 180px; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 10px;  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      padding: 15px; font-size: 15px; color: #1e40af; cursor: pointer; display: flex; align-items: center;justify-content: center;
+      gap: 8px; transition: 0.25s;font-weight: 600;}
+.modalfixcss .quick-btn:hover { background: #2563eb; color: #fff; border-color: #2563eb; transform: translateY(-2px);}
+.modalfixcss .quick-btn i { font-size: 18px; }
+.modalfixcss .credit {color: #16a34a; font-weight: 600;}
+.modalfixcss .debit {color: #dc2626; font-weight: 600;}
+
+.modalfixcss .view-history button { background: #0ea5e9; color: #fff; border: none; border-radius: 2px; padding: 5px 20px; font-size: 14px; cursor: pointer;
+      transition: 0.2s; position:absolute; right: 0; top: -5px;}
+.modalfixcss .view-history button:hover { background: #0284c7;}
+    @media (max-width: 600px) {
+      .quick-actions {flex-direction: column;}
+    }
 
 
 
