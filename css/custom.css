@@ -9025,13 +9025,20 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .clientwalletsprite button:focus{box-shadow: none;}
 .clientwalletsprite button:hover{opacity: 9;}
 .clientwalletsprite button.active{opacity: 9;}
-.clientwalletsprite .Stripe{background-position: 22px 10px; background-color: #635bff;}
+.clientwalletsprite .Stripe{background-position: center 10px; background-color: #635bff;}
+.clientwalletsprite .Authorize.Dot.Net{background-position: center -80px; background-color: #1c3142;}
+.clientwalletsprite .PayU{background-position: center -168px; background-color: #a6c307;}
+.clientwalletsprite .Razorpay{background-position: center -263px; background-color: #383d4f;}
+.clientwalletsprite .Pay.pal{background-position: center -563px; background-color: #f3f9ff;}
+.clientwalletsprite .Intuit{background-position: center -358px; background-color: #246cff;}
+.clientwalletsprite .Pay.Fast{background-position: center -460px; background-color: #e8262e;}
+/* .clientwalletsprite .Stripe{background-position: 22px 10px; background-color: #635bff;}
 .clientwalletsprite .Authorize.Dot.Net{background-position: 22px -80px; background-color: #1c3142;}
 .clientwalletsprite .PayU{background-position: 22px -168px; background-color: #a6c307;}
 .clientwalletsprite .Razorpay{background-position: 22px -263px; background-color: #383d4f;}
 .clientwalletsprite .Pay.pal{background-position: 22px -563px; background-color: #f3f9ff;}
 .clientwalletsprite .Intuit{background-position: 22px -358px; background-color: #246cff;}
-.clientwalletsprite .Pay.Fast{background-position: 28px -460px; background-color: #e8262e;}
+.clientwalletsprite .Pay.Fast{background-position: 28px -460px; background-color: #e8262e;} */
 .recharge_payment .form-control{ border-radius: 6px!important; padding:12px; background: #fafafa;}
 .recharge_payment select.form-control:not([size]):not([multiple]){height: 3rem !important;}
 
