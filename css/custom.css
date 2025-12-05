@@ -9079,4 +9079,51 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
     }
 
 
+/* Client Wallet */
+.clientwallet .profile-card { background: #fff; padding: 25px; border-radius: 0px!important; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); display: flex; gap: 15px; margin-bottom: 25px;}
+.clientwallet .profile-card .profile-infoo h2 {font-size: 22px;}
+.clientwallet .fa-wallet {font-size: 40px; color: #5cabee;}
+.clientwallet .avatar { width: 100px; height: 100px; background: #ffffff; border-radius: 50%;font-size: 30px; display: flex; justify-content: center; align-items: center; border: 1px solid #eee;}
+.clientwallet .avatar img{ border-radius: 100%;}
+.clientwallet .active-badge { background: #28a745; color: #fff; padding: 2px 12px; border-radius: 5px; font-size: 14px; font-weight: 400;}
+.clientwallet .utilities-grid { margin-top: 28px; display: grid; gap: 25px; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));}
+.clientwallet .utility-card { background: #ffffff; border-radius: 0px; padding: 25px; border: 1px solid #e4e4e4;}
+.clientwallet .electricity { border-top: 2px solid #ffe46f;}
+.clientwallet .water {border-top: 2px solid #aad8ff;}
+.clientwallet .gas { border-top: 2px solid #ffd2b1;}
+.clientwallet .utility-title { font-size: 22px; font-weight: 700; margin-bottom: 8px; display: flex; align-items: center; gap: 8px;}
+.clientwallet .inner-title { font-size: 13px;  color: #6c7a8a; font-weight: 600;}
+.clientwallet .inner-value { font-size: 22px; font-weight: bold; margin-top: 4px;}
+.clientwallet .green {color: #1aa81a;}
+.clientwallet .red-t { color: #d63432;}
+.clientwallet .usage-link { text-decoration: none; color: #316bff; font-weight: 600; display: inline-block; margin-top: 10px;}
+.clientwallet .wallet-balance { font-size: 26px; font-weight: bold; margin-top: 15px;}
+.clientwallet .status-badge { background: #dcfce7; color: #16a34a; padding: 3px 10px; border-radius: 10px; font-size: 13px; display: inline-block;}
+.clientwallet .recharge input { width: 100%; padding: 10px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 16px; margin-top: 10px; margin-bottom: 10px;}
+.clientwallet .quick-select { display: flex; gap: 10px; margin-bottom: 15px;}
+.clientwallet .quick-select button {flex: 1; padding: 10px; background: #f3f4f6; border: 1px solid #e2e8f0; border-radius: 8px; cursor: pointer; font-weight: 500; transition: 0.2s;}
+.clientwallet .quick-select button:hover { background: #2563eb; color: white;}
+.clientwallet .recharge-btn { width: 100%; background: #22c55e; color: white; border: none; padding: 12px; border-radius: 8px; cursor: pointer; font-size: 16px; font-weight: 600; transition: 0.2s;}
+.clientwallet .recharge-btn:hover {background: #16a34a;}
+.clientwallet .note { margin-top: 10px;  background: #f0f9ff; padding: 10px; border-radius: 6px; font-size: 13px; color: #2563eb;}
+.clientwallet .content { display: flex; gap: 20px; flex-wrap: wrap;}
+.clientwallet .infogrid_base {width: 100%; float: left; margin-bottom: 20px;}
+.clientwallet .info-grid { display: flex; gap: 15px; margin-bottom: 10px;}
+.clientwallet .inner-box { flex: 1; background: white; border-radius: 0px; border: 1px solid #e6e6e6; padding: 12px; text-align: left; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); background: #f8f8f8;}
+.clientwallet .container { max-width: 960px; margin: auto;}
+.clientwallet .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06); margin-top: 20px;}
+.clientwallet .recharge_popup .card{box-shadow: none; padding: 0px; border: none;}
+.clientwallet h2 { margin: 0 0 5px 0; font-size: 24px;}
+.clientwallet .sub {color: #777; font-size: 14px; margin-bottom: 20px;}
+.clientwallet .stats {display: flex; gap: 60px; margin-top: 20px;}
+.clientwallet .stat-item {font-size: 14px;}
+.clientwallet .stat-value { font-size: 24px; font-weight: bold;  margin-top: 5px; color: #c5911a;}
+.clientwallet .stat-value.red { color: #d93333;}
+.clientwallet .badge { display: inline-block; background: #fcf7c4; color: #8f7a00; padding: 4px 10px; border-radius: 20px; font-size: 13px; font-weight: bold;}
+.clientwallet .quick-select button {padding: 10px 20px;border-radius: 6px; border: 1px solid #ccc; background: #fff; cursor: pointer; transition: 0.2s ease;}
+.clientwallet .quick-select button.active {background: #4CAF50; color: white; border-color: #3a8a3f; transform: scale(1.05);}
+/* Client Wallet */
+
+
+
 
