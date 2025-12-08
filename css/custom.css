@@ -2549,6 +2549,8 @@ table.table-bordered.dataTable th.sort span{cursor:pointer;}
 .mnw-120{min-width:120px!important;}
 .mnw-140{min-width:140px!important;}
 .mnw-250{min-width:250px!important;}
+.mnw-1000{min-width:1000px!important;}
+
 .mw-500{max-width:500px !important;}
 .mw-600{max-width:600px !important;}
 .mw-700{max-width:700px !important;}
