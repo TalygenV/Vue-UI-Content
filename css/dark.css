@@ -1412,30 +1412,30 @@ ul.filetree.treeview{background-color: #2c3136;}
 ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 
 /******Plan - Manage - 2025****/
-
 .gd_mainbase .customer-info h1{color: #6dadec;}
 .gd_mainbase .customer-avatarname{background: #2c3136;}
-
 .conditionbg{background-color: #272b2f; border: 1px solid #3c3f43; border-radius: 4px; padding: 12px; min-height: 60px; color: #bbb;}
 .csscontrol_popup .condition-builder{background-color: #272b2f; border: 1px solid #3c3f43!important;}
 .csscontrol_popup .condition-block {background-color: #1c1f22; border: 1px solid #1c1f22;}
 .csscontrol_popup .condition-row{background-color: #272b2f; border: 1px solid #3c3f43;}
 
-
 /****Git hub css - Harjit Singh 11/11/2025*****/
-
 .resource_schedule_rw #calendar.daily section header nav.date-controls{background: #2c3136 !important; border-right: 1px solid #414e5e; border-bottom: 1px solid #414e5e;}
 .resource_schedule_rw #calendar.daily .hs tr.border-top {border-top: 1px solid #414e5e !important;}
 .resource_schedule_rw #calendar.daily .hs td a.btn.next, #calendar.daily .hs td a.btn.previous { background: #0d0d0d;}
 .downindicator{color: #606060!important;}
-
 .resources--cal-unit{background: #3c3c3c!important;}
 .resources--cal-unit:hover {background-color: #262626 !important;}
 .resources--cal-unit .utilisation{background: #1c1c1c!important;}
-
 .resources--cal-unit.unavailable.week-end {background: #202020 !important;}
 .resources--cal-unit .utilisation.week-end { background: #000 !important;}
-
-
 /****Git hub css - Harjit Singh 11/11/2025*****/
+
+/* Client Wallet */
+.clientwallet .profile-card.ai_base {background: rgb(44, 49, 53); border: 1px solid rgb(51, 56, 62) !important;}
+.clientwallet .avatar {background: #1c1f22; border: 1px solid #33383e;}
+.clientwallet .utility-card {background: #2c3135; border: 1px solid #33383e;}
+.clientwallet .inner-box {border: 1px solid #454748; background: #1c1f22;}
+/* Client Wallet */
+
 

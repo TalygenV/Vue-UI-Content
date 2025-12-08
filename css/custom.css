@@ -9082,6 +9082,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 
 /* Client Wallet */
+.clientwallet .profile-card.ai_base{background: rgb(239, 246, 255); border: 1px solid rgb(190, 219, 255) !important;}
 .clientwallet .profile-card { background: #fff; padding: 25px; border-radius: 0px!important; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); display: flex; gap: 15px; margin-bottom: 25px;}
 .clientwallet .profile-card .profile-infoo h2 {font-size: 22px;}
 .clientwallet .fa-wallet {font-size: 40px; color: #5cabee;}
