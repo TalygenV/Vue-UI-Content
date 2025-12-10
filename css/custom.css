@@ -9022,7 +9022,8 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .recharge_payment{padding:0px!important;}
 .card.probx.recharge_payment .card-header{ background:#eee;}
 .ElementsApp input{line-height: normal!important;}
-.clientwalletsprite button{background-image: url(https://talygenv.github.io/Vue-UI-Content/images/clientwalletsprite.png); background-repeat: no-repeat;
+
+/* .clientwalletsprite button{background-image: url(https://talygenv.github.io/Vue-UI-Content/images/clientwalletsprite.png); background-repeat: no-repeat;
     height: 60px; border: 1px solid #f2f2f2; border-radius:10px!important; opacity: 0.25; transition: all 0.4s ease; -webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease;}
 .clientwalletsprite button:focus{box-shadow: none;}
 .clientwalletsprite button:hover{opacity: 9;}
@@ -9034,9 +9035,31 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .clientwalletsprite .Pay.pal{background-position: center -563px; background-color: #f3f9ff;}
 .clientwalletsprite .Intuit{background-position: center -358px; background-color: #246cff;}
 .clientwalletsprite .Pay.Fast{background-position: center -460px; background-color: #e8262e;}
-.clientwalletsprite .Wallet {background-position: center -656px; background-color: #03aed8;}
+.clientwalletsprite .Wallet {background-position: center -656px; background-color: #03aed8;} */
 
   
+#ProcessPayment .clientwalletsprite {float: left; width: 100%; max-width: 300px; border: 1px solid #d0dbc7; padding: 4px;}
+.right-forms{float: right; width: calc(100% - 320px);}
+
+#ProcessPayment .clientwalletsprite button{background-image: url(https://talygenv.github.io/Vue-UI-Content/images/clientwalletsprite_green.png); background-repeat: no-repeat;
+    height: 60px; border: 1px solid #f2f2f2; border-radius:0px!important; opacity: 0.35; margin-bottom: 3px;  background-color:#bfcab6;
+    transition: all 0.4s ease; -webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; background-size: 170px;}
+
+#ProcessPayment .clientwalletsprite button:focus{box-shadow: none;}
+#ProcessPayment .clientwalletsprite button:hover{opacity: 9; background-color:  #d4dfcc;}
+#ProcessPayment .clientwalletsprite button.active{opacity: 9;  background-color:  #bfcab6;}
+#ProcessPayment .clientwalletsprite .Stripe{           background-position: 40px 14px; }
+#ProcessPayment .clientwalletsprite .Authorize.Dot.Net{background-position: 40px -60px;  }
+#ProcessPayment .clientwalletsprite .PayU{             background-position: 40px -133px; }
+#ProcessPayment .clientwalletsprite .Razorpay{         background-position: 40px -207px; }
+
+#ProcessPayment .clientwalletsprite .Pay.pal{          background-position: 40px -520px; }
+#ProcessPayment .clientwalletsprite .Intuit{           background-position: 40px -285px; }
+#ProcessPayment .clientwalletsprite .Pay.Fast{         background-position: 40px -362px; }
+#ProcessPayment .clientwalletsprite .Wallet {          background-position: 40px -439px; }
+
+
+
 
 /* .clientwalletsprite .Stripe{background-position: 22px 10px; background-color: #635bff;}
 .clientwalletsprite .Authorize.Dot.Net{background-position: 22px -80px; background-color: #1c3142;}
