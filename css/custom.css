@@ -9150,6 +9150,8 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .clientwallet .quick-select button.active {background: #4CAF50; color: white; border-color: #3a8a3f; transform: scale(1.05);}
 /* Client Wallet */
 
-
+.cl_us_history .stat-item { font-size: 14px; width: 100%; background: #f7f7f7; padding:10px 15px; font-weight: 400;}
+.cl_us_history .stat-value { font-size: 24px; font-weight: 600;  margin-top: 5px; color: #303030;}
+.cl_us_history .stat-value.red { color: #d93333;}
 
 
