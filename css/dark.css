@@ -1438,4 +1438,7 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .clientwallet .inner-box {border: 1px solid #454748; background: #1c1f22;}
 /* Client Wallet */
 
+.cl_us_history .stat-item{background: #2c3135;}
+.cl_us_history .stat-value{color: #ccc;}
+
 
