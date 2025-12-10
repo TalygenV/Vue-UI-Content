@@ -1440,5 +1440,11 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 
 .cl_us_history .stat-item{background: #2c3135;}
 .cl_us_history .stat-value{color: #ccc;}
+.card.probx.recharge_payment .card-header {background: #2c3136;}
+#ProcessPayment .clientwalletsprite{border: 1px solid #3b4146;}
+
+#ProcessPayment .clientwalletsprite button.active{background-color: #8fd5ff;}
+#ProcessPayment .clientwalletsprite button{border: 1px solid #8fd5ff; background-color: #7ea6bd;}
+#ProcessPayment .clientwalletsprite button:hover{ background-color: #7ea6bd;}
 
 
