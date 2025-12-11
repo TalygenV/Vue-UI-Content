@@ -9165,7 +9165,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 /******Company Wallet - Dashboard************/
 
 .receipt-card {max-width: 900px;}
-.receipt-card .info-box {background: #f8f9fa; padding: 12px 15px; border-radius: 6px; display: flex; justify-content: space-between; font-size: 15px;}
+.receipt-card .info-box {background: #f8f9fa; padding: 12px 15px; border-radius: 6px; display: flex; font-size: 15px;}
 .receipt-card .info-box strong {margin-right: 8px;}
 .receipt-card .amount-box .font-24 { font-size: 24px !important;}
 .receipt-card .row.g-3 { margin-bottom: 5px;}
