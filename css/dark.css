@@ -1441,15 +1441,24 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .cl_us_history .stat-item{background: #2c3135;}
 .cl_us_history .stat-value{color: #ccc;}
 .card.probx.recharge_payment .card-header {background: #2c3136;}
-#ProcessPayment .clientwalletsprite{border: 1px solid #3b4146;}
 
+#ProcessPayment .clientwalletsprite{border: 1px solid #3b4146;}
 #ProcessPayment .clientwalletsprite button.active{background-color: #8fd5ff;}
 #ProcessPayment .clientwalletsprite button{border: 1px solid #8fd5ff; background-color: #7ea6bd;}
 #ProcessPayment .clientwalletsprite button:hover{ background-color: #9acfee;}
-
 #ProcessPayment .clientwalletsprite button.active em{color: #222 !important;}
 
-.wallet-dashboard {background-color: #1c1f22;}
+/*.wallet-dashboard {background-color: #1c1f22;} */
+
+.companywallet_db .utility-card { background: #2c3135!important; border: 1px solid #33383e!important;}
+.companywallet_db .electricity{border-top: 2px solid #ffe46f!important;}
+.companywallet_db .water {border-top: 2px solid #aad8ff!important;}
+.companywallet_db .gas{border-top:2px solid #ffd2b1!important;}
+.companywallet_db .profile-card.ai_base {background: rgb(44, 49, 53); border: 1px solid rgb(51, 56, 62) !important;}
+.companywallet_db .avatar {background: #1c1f22!important; border: 1px solid #33383e!important;}
+
+
+
 
 
 
