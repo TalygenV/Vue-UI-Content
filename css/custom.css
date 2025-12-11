@@ -9058,6 +9058,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .clientwalletsprite .Pay.pal{background-position: 22px -563px; background-color: #f3f9ff;}
 .clientwalletsprite .Intuit{background-position: 22px -358px; background-color: #246cff;}
 .clientwalletsprite .Pay.Fast{background-position: 28px -460px; background-color: #e8262e;} */
+ .clientwallet .detailsfix .badge { color: #fff; display: inline-block; padding: 6px 10px; border-radius: 6px; font-size: 13px; font-weight: 500;}
 .recharge_payment .form-control{ border-radius: 6px!important; padding:12px; background: #fafafa;}
 .recharge_payment select.form-control:not([size]):not([multiple]){height: 3rem !important;}
 .modalfixcss .utility-card{padding: 10px 25px;}
