@@ -9164,3 +9164,9 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .companywallet_db .lowbalance{background: rgb(255, 248, 248); border: 1px solid rgb(234, 200, 200) !important;}
 /******Company Wallet - Dashboard************/
 
+.receipt-card {max-width: 900px;}
+.receipt-card .info-box {background: #f8f9fa; padding: 12px 15px; border-radius: 6px; display: flex; justify-content: space-between; font-size: 15px;}
+.receipt-card .info-box strong {margin-right: 8px;}
+.receipt-card .amount-box .font-24 { font-size: 24px !important;}
+.receipt-card .row.g-3 { margin-bottom: 5px;}
+
