@@ -8982,11 +8982,9 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
    .rt_descontrol .less270 .storag-adds{max-width:32%;}
 }
 
-
 .plans_billing_des .font-27 {font-size: 27px;}
 .plans_billing_des .seagreenicon {color: #1abdac;}
 .plans_billing_des .bodbase {min-height: 250px;}
-
 .plans_billing_des .subscp_detail .headbase{background:#bf4753; color:#fff;}
 .plans_billing_des .subscp_detail .bodbase{border:1px solid #bf4753; background:#ececec;}
 .plans_billing_des .subscp_detail.newsubscp .headbase{background:#27a643; color:#fff;}
@@ -8996,13 +8994,11 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .plans_billing_des table.subscp_detailtble{width:100%;}
 .plans_billing_des table.subscp_detailtble thead tr{border-top:1px solid #b0b0b0;border-bottom:1px solid #b0b0b0;}
 .plans_billing_des table.subscp_detailtble tr td{padding:8px 8px !important;}
-
 .plans_billing_des .cardpicsbox{width: 100%; float: left; margin: 1px 0px; height: auto; position: relative; min-height: 85px; padding: 15px 15px 15px 80px;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;}
 .plans_billing_des .cardpics{width: 80px !important; height: 61px; line-height: 41px; text-align: center; font-size: 24px; color: #494949; float:left;}
 .plans_billing_des .cardpics img{width:100%;}
 .plans_billing_des .carddetails{width:calc(100% - 85px); margin: 0 0 3px 0;  padding: 0; height: auto; float:left; font-size:14px;}
 .plans_billing_des .listing-rw i { color: #17a2b8;}
-
 .payment-form_hsbase .stripe-input { width: 100%; float: left;}
 .payment-form_hsbase .stripe-input { border: 1px solid #ccc; padding: 10px 12px;  border-radius: 6px;  background-color: #fff; margin-bottom: 12px; transition: border-color 0.2s ease;}
 .payment-form_hsbase .payment-form_hs { padding: 20px; margin: 10px 0px !important; background: #f6f5f8; border: 1px solid #d0d0d0;}
@@ -9018,8 +9014,6 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .cci_base .heading-border h5 { margin: 0; }
 
 /****Manage Subscription Harjit with Thakur ji 20Nov2025*****/    
-
-
 .recharge_payment{padding:0px!important;}
 .card.probx.recharge_payment .card-header{ background:#eee;}
 .ElementsApp input{line-height: normal!important;}
@@ -9037,7 +9031,6 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .clientwalletsprite .Intuit{background-position: center -358px; background-color: #246cff;}
 .clientwalletsprite .Pay.Fast{background-position: center -460px; background-color: #e8262e;}
 .clientwalletsprite .Wallet {background-position: center -656px; background-color: #03aed8;} */
-
   
 #ProcessPayment .clientwalletsprite {float: left; width: 100%; max-width: 300px; border: 1px solid #d0dbc7; padding: 4px;}
 .right-forms{float: right; width: calc(100% - 320px);}
@@ -9053,14 +9046,10 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 #ProcessPayment .clientwalletsprite .Authorize.Dot.Net{background-position: 40px -60px;  }
 #ProcessPayment .clientwalletsprite .PayU{             background-position: 40px -133px; }
 #ProcessPayment .clientwalletsprite .Razorpay{         background-position: 40px -207px; }
-
 #ProcessPayment .clientwalletsprite .Pay.pal{          background-position: 40px -520px; }
 #ProcessPayment .clientwalletsprite .Intuit{           background-position: 40px -285px; }
 #ProcessPayment .clientwalletsprite .Pay.Fast{         background-position: 40px -362px; }
 #ProcessPayment .clientwalletsprite .Wallet {          background-position: 40px -439px; }
-
-
-
 
 /* .clientwalletsprite .Stripe{background-position: 22px 10px; background-color: #635bff;}
 .clientwalletsprite .Authorize.Dot.Net{background-position: 22px -80px; background-color: #1c3142;}
@@ -9071,14 +9060,11 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .clientwalletsprite .Pay.Fast{background-position: 28px -460px; background-color: #e8262e;} */
 .recharge_payment .form-control{ border-radius: 6px!important; padding:12px; background: #fafafa;}
 .recharge_payment select.form-control:not([size]):not([multiple]){height: 3rem !important;}
-
 .modalfixcss .utility-card{padding: 10px 25px;}
 .modalfixcss .utility-title {font-size: 17px; font-weight: 500;}
 .modalfixcss .utilities-grid{margin-top: 15px;}
 .modalfixcss .avatar img {border-radius: 100%;}
-
 .modalfixcss .detailsfix .badge.active{background:#28a745;}
-
 .modalfixcss .section-title {font-size: 18px; font-weight: 600; color: #2b3a67; margin: 25px 0 10px; }
 .modalfixcss .card-grid {display: grid;  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 15px;}
 .modalfixcss .card { background: #fff; border-radius: 10px; padding: 15px 20px; box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08); transition: 0.2s ease;}
@@ -9086,9 +9072,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .modalfixcss .card p { margin: 2px 0; font-size: 14px;  color: #555;}
 .modalfixcss .info-box, .account-box, .quick-box { background: #fff;  border-radius: 10px;  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08); padding: 15px 20px; }
 .modalfixcss .info-box p, .account-box p { margin: 8px 0; font-size: 15px; color: #444;}
-
 .modalfixcss .quick-actions { display: flex; gap: 15px; flex-wrap: wrap; justify-content: space-between; margin-top: 10px;}
-
 .modalfixcss .quick-btn {flex: 1; min-width: 180px; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 10px;  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
       padding: 15px; font-size: 15px; color: #1e40af; cursor: pointer; display: flex; align-items: center;justify-content: center;
       gap: 8px; transition: 0.25s;font-weight: 600;}
@@ -9096,14 +9080,11 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .modalfixcss .quick-btn i { font-size: 18px; }
 .modalfixcss .credit {color: #16a34a; font-weight: 600;}
 .modalfixcss .debit {color: #dc2626; font-weight: 600;}
-
-.modalfixcss .view-history button { background: #0ea5e9; color: #fff; border: none; border-radius: 2px; padding: 5px 20px; font-size: 14px; cursor: pointer;
-      transition: 0.2s; position:absolute; right: 0; top: -5px;}
+.modalfixcss .view-history button { background: #0ea5e9; color: #fff; border: none; border-radius: 2px; padding: 5px 20px; font-size: 14px; cursor: pointer; transition: 0.2s; position:absolute; right: 0; top: -5px;}
 .modalfixcss .view-history button:hover { background: #0284c7;}
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
       .quick-actions {flex-direction: column;}
     }
-
 
 /* Client Wallet */
 .clientwallet .profile-card.ai_base{background: rgb(239, 246, 255); border: 1px solid rgb(190, 219, 255) !important;}
@@ -9155,4 +9136,31 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .cl_us_history .stat-value { font-size: 24px; font-weight: 600;  margin-top: 5px; color: #303030;}
 .cl_us_history .stat-value.red { color: #d93333;}
 
+/******Company Wallet - Dashboard************/
+.companywallet_db .avatar {width: 100px; height: 100px; background: #ffffff; border-radius: 50%; font-size: 30px; display: flex; justify-content: center;  align-items: center; border: 1px solid #eee;}
+.companywallet_db .profile-card { background: #fff; padding: 25px; border-radius: 0px!important; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); display: flex; gap: 15px; margin-bottom: 25px;}
+.companywallet_db .profile-card .profile-infoo h2 {font-size: 18px;}
+.companywallet_db .fa-wallet {font-size: 40px; color: #5cabee;}
+.companywallet_db .active-badge {background: #28a745; color: #fff; padding: 2px 12px; border-radius: 5px; font-size: 14px; font-weight: 400;}
+.companywallet_db .stats-cards .card {border-radius: 0px!important; border: 1px solid #ddd; transition:all 0.3s ease; background: #f7f7f7;}
+.companywallet_db .stats-cards .card:hover {box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1); border-color: #00bfff; box-shadow: 0 0 10px rgba(0, 191, 255, 0.3); transform: translateY(-2px);}
+.companywallet_db .card-body h3 {font-size: 1.75rem;}
+.companywallet_db .search-box input {background-color: #f8fafc; border-radius: 8px; border: 1px solid #e2edf0; padding: 14px 16px;}
+.companywallet_db .ticketsmallfix.theme-primary.partition.p-actions-expand{ display: none !important;}
+.companywallet_db .utilities-grid {margin-top: 28px; display: grid; gap: 25px; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));}
+.companywallet_db .utility-card {background: #ffffff; border-radius: 0px; padding:30px 25px; border:1px solid #e4e4e4;}
+.companywallet_db .electricity {border-top: 2px solid #ffe46f; background: rgb(255, 250, 239);}
+.companywallet_db .water {border-top: 2px solid #aad8ff; background: #f4faff;}
+.companywallet_db .gas {border-top: 2px solid #ffd2b1; background: #fff8f3;}
+.companywallet_db .utility-title { font-size: 22px; font-weight: 700; margin-bottom: 8px; display: flex; align-items: center; gap: 8px;}
+.companywallet_db .inner-title {font-size: 13px; color: #6c7a8a; font-weight: 600;}
+.companywallet_db .inner-value {font-size: 22px; font-weight: bold; margin-top: 4px;}
+.companywallet_db .green {color: #1aa81a;}
+.companywallet_db .red-t {color: #d63432;}
+.companywallet_db .usage-link { text-decoration: none; color: #316bff; font-weight: 600; display: inline-block; margin-top: 10px;}
+.companywallet_db .wallet-balance {font-size: 26px; font-weight: bold; margin-top: 15px;}
+.companywallet_db .totalactive{background: rgb(236, 253, 241); border: 1px solid rgb(179, 228, 198) !important;}
+.companywallet_db .totalbalance{background: rgb(239, 246, 255); border: 1px solid rgb(190, 219, 255) !important;}
+.companywallet_db .lowbalance{background: rgb(255, 248, 248); border: 1px solid rgb(234, 200, 200) !important;}
+/******Company Wallet - Dashboard************/
 
