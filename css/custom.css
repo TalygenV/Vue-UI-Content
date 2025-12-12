@@ -9224,7 +9224,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 }
 
 .autocomplete-chips-container {
-  min-height: 45px!important;
+  /* min-height: 45px!important; */
   padding: 0.375rem 0.75rem;
   display: flex;
   flex-wrap: wrap;
