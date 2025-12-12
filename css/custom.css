@@ -9208,7 +9208,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .autocomplete-chip-close:hover { background: none !important; opacity: 1;}
 /* Action buttons styles */
 .autocomplete-actions {background-color: #f8f9fa;}
-.autocomplete-actions .btn {font-size: 0.75rem; padding: 0.25rem 0.5rem; margin-right: 0.25rem; margin-bottom: 0.25rem;}
+.autocomplete-actions .btn {font-size: 0.75rem; padding: 0.25rem 0.35rem; margin-right: 0.25rem; margin-bottom: 0.25rem;}
 .autocomplete-actions .btn.active { background-color: #007bff; border-color: #007bff; color: white;}
 .autocomplete-actions .gap-1 { gap: 0.25rem;}
 .is-disabled {opacity: 0.6; pointer-events: none;}
@@ -9235,5 +9235,5 @@ ul.list-group.list-group-flush { padding: 5px;}
 
 .autocomplete-wrapper ul.list-group.list-group-flush .font-weight-400{font-size: 14px; color: #303030;}
 
-
+.autocomplete-wrapper button i.fa-chevron-down{font-size: 10px;}
 
