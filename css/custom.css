@@ -9191,8 +9191,8 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 .autocomplete-item:last-child { border-bottom: none;}
 .autocomplete-chips-container {/* min-height: 45px!important; */ padding: 0.375rem 0.75rem; display: flex; flex-wrap: wrap; align-items: center;}
-.autocomplete-input-inline {border: none; outline: none; flex: 1; min-width: 120px; padding: 0; background: transparent;}
-.autocomplete-chip { display: inline-flex; align-items: center; padding: 0.15rem 0.4rem; font-size: 12px; border-radius: 8px; background-color: #3998ff; color: white; transition: all 0.2s ease; max-width: 150px; font-weight: normal; line-height: 1.2; height: 22px;}
+.autocomplete-input-inline {border: none; outline: none; flex: 1;/* min-width: 120px;*/min-width: 2px; padding: 0; background: transparent;}
+.autocomplete-chip { display: inline-flex; align-items: center; padding: 0.15rem 0.4rem; font-size: 12px; border-radius: 8px; background-color: #3998ff; color: white; transition: all 0.2s ease; max-width: 80px; font-weight: normal; line-height: 1.2; height: 22px;}
 .autocomplete-chip-more { background-color: #6c757d; cursor: default;}
 .autocomplete-wrapper .dropdown-toggle::after{display: none;}
 .autocomplete-wrapper .input-group .input-group-append button{border:none}
