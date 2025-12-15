@@ -9239,7 +9239,20 @@ ul.list-group.list-group-flush { padding: 2px;}
 .autocomplete-wrapper button i.fa-times{font-size: 12px;}
 
 
-.autocomplete-group:hover .autocomplete-group-header {
+.autocomplete-wrapper .autocomplete-group:hover .autocomplete-group-header {
     background: #a6d3ff;
     border-left: 4px solid #59aaff;
 }
+
+.autocomplete-wrapper .autocomplete-menu .autocomplete-grouped .autocomplete-group .autocomplete-group-header .d-flex.flex-column .font-weight-bold.font-14{font-weight: 500!important; color: #303030;}
+
+.autocomplete-wrapper ul li.list-group-item.autocomplete-item::before {content: "\f0da"; width: 10px; height: 10px; font-family: fontawesome;  position: absolute;
+    left: 6px; font-weight: 700; color: #afafaf;}
+
+.autocomplete-wrapper ul li.list-group-item.autocomplete-item::after { position: absolute;  width: 1px;  height: -moz-calc(100% - 18px); height: -webkit-calc(100% - 18px); height: calc(100% - 18px);
+    content: ""; left: 3px;  top: 0; border-left: 1px dashed #afafaf;}
+
+.autocomplete-wrapper ul li.list-group-item.active.autocomplete-item::before {color: #469ef9;}
+.autocomplete-wrapper ul li.list-group-item.active.autocomplete-item::after { border-left: 1px dashed #469ef9;}
+
+
