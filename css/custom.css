@@ -9239,6 +9239,6 @@ ul.list-group.list-group-flush { padding: 2px;}
 .autocomplete-wrapper button i.fa-times{font-size: 12px;}
 
 .autocomplete-group:hover .autocomplete-group-header {
-    background: #c5e2ff;
+    background: #c5e2ff;  border-left: 4px solid #7ebdff;
 }
 
