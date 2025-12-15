@@ -9198,7 +9198,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .autocomplete-wrapper .input-group .input-group-append button{border:none}
 .autocomplete-wrapper{border:1px solid #abb5bf;}
 .autocomplete-wrapper .form-control{border:none}
-.autocomplete-wrapper .list-group-item.active{border-bottom:1px solid #b2d8ff; border-top:1px solid #dee2e6; border-left: 2px solid #9dccfd;}
+.autocomplete-wrapper .list-group-item.active{border-bottom:1px solid #b2d8ff; border-top:1px solid #dee2e6; border-left: 0px solid #9dccfd;}
 .autocomplete-wrapper .list-group-item.active:first-child{border-top:0px}
 .autocomplete-wrapper .list-group-item.active:last-child{border-bottom:1px solid #9dccfd; border-top:1px solid #dee2e6;}
 .autocomplete-wrapper .list-group-item:last-child{border-bottom:1px solid #dee2e6;}
