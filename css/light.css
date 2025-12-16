@@ -1018,7 +1018,6 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
 .custom-calendar.vc-container .vc-arrows-container .vc-arrow:hover{background: #4d4d4d!important;}
 /* .vc-pane-container {border: 1px solid #5e5e5e!important;}     */
 
-
 /**Project Detail Timeline Tab**/
 .gantt-view-filter { background: #fff !important;}
 .view-toggle-btn{background: hsla(0, 0%, 32.5%, 0.1)!important; color: #353535!important;}
@@ -1030,24 +1029,16 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
 .gantt-elastic__calendar-row-text.gantt-elastic__calendar-row-text--quarter{background:rgb(206, 206, 206) !important; }
 .gantt-elastic__calendar-row-text{color: #444 !important;}
 
-
 /**Project Detail Timeline Tab**/
-
 .view-toggle-btn.active{border:none;}
-
 /****Project Detail - Message Tab - 2025****/
-
 .mess_newdes .mess_newdes_left .panesdivider .onlychild2.btn-primary{background: #4eb2f9;}
-
 .mess_newdes .mess_newdes_right .chat-avatar{background-color: #98d4ff !important;}
 .mess_newdes .mess_newdes_right .replythreadbase .chat-avatar{background: #a7b9fd !important;}
-
 .mess_newdes .bg-secondary-new{background-color:#e1e1e1!important; color:#5c5c5c;}
-
-
-
 /****Project Detail - Message Tab - 2025****/
 
-
-
+/********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
+.autocomplete-wrapper ul.list-group.list-group-flush .font-weight-400{color: #303030;}
+/********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
 
