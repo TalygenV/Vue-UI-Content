@@ -1469,6 +1469,12 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .clientwallet .recharge input{border: 1px solid #484848; background: #272b2f !important; color: #fff;}
 .clientwallet .quick-select button{ background: #25a5ff;color: #fff; border-color:#54b8ff;}
 
+/* Add Work Crew popup */
+.form-group.filterscroll.overflow-sauto.bg-light.p-2.border {
+  background-color: #2c3136 !important;
+  border: 1px solid #454748 !important;
+}
+/* Add Work Crew popup */
 
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
 
