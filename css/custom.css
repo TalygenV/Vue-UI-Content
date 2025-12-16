@@ -9183,7 +9183,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .autocomplete-item { cursor: pointer; padding: 0.35rem 1rem; border: none; border-bottom: 1px solid #dee2e6; transition: background-color 0.2s ease, color 0.2s ease;}
 .autocomplete-item:hover,
 .autocomplete-item.active { background-color: #e7f3ff; color: #0056b3;}
-.autocomplete-item.selected { background-color: #e7f3ff; border-left: 3px solid #3998ff; color:#000; padding-left:15px;}
+.autocomplete-item.selected { background-color: #e7f3ff;  color:#000; padding-left:15px;}/***border-left: 3px solid #3998ff;***/
 .autocomplete-item.selected:hover,
 .autocomplete-item.selected.active {background-color: #e7f3ff;border-bottom:1px solid #b2d8ff;}
 .autocomplete-item:last-child { border-bottom: none;}
