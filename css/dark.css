@@ -1456,7 +1456,6 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .companywallet_db .gas{border-top:2px solid #ffd2b1!important;}
 .companywallet_db .profile-card.ai_base {background: rgb(44, 49, 53); border: 1px solid rgb(51, 56, 62) !important;}
 .companywallet_db .avatar {background: #1c1f22!important; border: 1px solid #33383e!important;}
-
 .companywallet_db .search-box input{background-color: #272b2f!important; border: 1px solid #484848;}
 
 .receipt-card { background:#2c3135;}
@@ -1470,4 +1469,6 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
 .autocomplete-wrapper ul.list-group.list-group-flush .font-weight-400{}
+.autocomplete-wrapper .autocomplete-menu .autocomplete-grouped .autocomplete-group .autocomplete-group-header .d-flex.flex-column .font-weight-bold.font-14{color: #fff;}
+.autocomplete-group-header{ background-color: #2c3136; color: #fff;}
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
