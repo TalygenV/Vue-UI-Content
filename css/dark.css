@@ -1465,10 +1465,19 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 
 .clientwallet .card{background: #1c1f22;}
 .clientwallet .recharge input{border: 1px solid #484848; background: #272b2f !important; color: #fff;}
-.clientwallet .quick-select button{    background: #25a5ff;color: #fff; border-color:#54b8ff;}
+.clientwallet .quick-select button{ background: #25a5ff;color: #fff; border-color:#54b8ff;}
+
 
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
 .autocomplete-wrapper ul.list-group.list-group-flush .font-weight-400{}
 .autocomplete-wrapper .autocomplete-menu .autocomplete-grouped .autocomplete-group .autocomplete-group-header .d-flex.flex-column .font-weight-bold.font-14{color: #fff;}
-.autocomplete-group-header{ background-color: #2c3136; color: #fff;}
+.autocomplete-group-header{ background-color: #2c3136; color: #fff; border-bottom: 1px solid #3c3f43;  border-top: 1px solid #3c3f43;}
+.autocomplete-menu{background: #212528;}
+
+.autocomplete-wrapper .list-group-item:last-child {border-bottom: 1px solid #3c3f43;}
+
+
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
+
+
+
