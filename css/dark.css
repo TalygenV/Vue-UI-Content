@@ -1476,10 +1476,7 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 }
 /* Add Work Crew popup */
 
-.multiselect__option--selected {
-  background: #353535;
-  color: #ccc;
-}
+.multiselect__option--selected { background: #353535!important; color: #ccc!important;}
 
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
 
