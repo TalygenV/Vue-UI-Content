@@ -1499,5 +1499,11 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
 
+.highlight-phase, .highlight-stage {
+    background-color: #ffffcc !important;
+    border: 2px solid #ffbc43 !important;
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);color: #000 !important;
+}
+
 
 

@@ -613,3 +613,10 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
 .autocomplete-wrapper ul.list-group.list-group-flush .font-weight-400{color: #303030;}
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
+
+
+.highlight-phase, .highlight-stage {
+    background-color: #ffffcc !important;
+    border: 2px solid #ffa500 !important;
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
+}
