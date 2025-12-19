@@ -595,7 +595,7 @@ border-top: .3em solid; border-right: .3em solid transparent; border-bottom: 0; 
 .modal.right.fade.show .modal-dialog {right: 0;}
 .modal.right.fade .modal-body { padding: 20px; overflow-y: auto;}
 .modal.right.fade .modal-body .tab-content { background: #fff; }
-.my-popups .tab-style .nav-tabs.cust li {flex: 0 0 25%;}
+.my-popups .tab-style .nav-tabs.cust li {flex: 0 0 24%;}/**25%**/
 .my-popups .tab-style .nav-tabs.cust li a .numb {background: #414c50;border-radius: 50%;width: 20px;height: 20px;display: inline-block;vertical-align: baseline;line-height: 20px;color: #fff;margin-right: 5px;font-size: 13px;}
 .my-popups .tab-style .nav-tabs.cust li a.active .numb {background: #fff;color: #414c50;}
 .save-btn, .delete-btn{border-radius:0; min-width:95px;}
