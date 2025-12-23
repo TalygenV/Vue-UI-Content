@@ -1426,7 +1426,7 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .resource_schedule_rw #calendar.daily .hs tr.border-top {border-top: 1px solid #414e5e !important;}
 .resource_schedule_rw #calendar.daily .hs td a.btn.next, #calendar.daily .hs td a.btn.previous { background: #0d0d0d;}
 .downindicator{color: #606060!important;}
-.resources--cal-unit{background: #3c3c3c!important;}
+.resources--cal-unit{background: #3c3c3c!important; border-right: 1px solid #000;}
 .resources--cal-unit:hover {background-color: #262626 !important;}
 .resources--cal-unit .utilisation{background: #1c1c1c!important;}
 .resources--cal-unit.unavailable.week-end {background: #202020 !important;}
