@@ -1432,7 +1432,7 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .resources--cal-unit.unavailable.week-end {background: #202020 !important;}
 .resources--cal-unit .utilisation.week-end { background: #000 !important;}
 
-.resources--cal-unit.unavailable{background: #686254 !important;}
+.resource-line.project-resource-line .resources--cal-unit.unavailable{background: #686254 !important;}
 /****Git hub css - Harjit Singh 11/11/2025*****/
 
 /* Client Wallet */
