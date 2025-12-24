@@ -8445,7 +8445,7 @@ ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
 .canvan-view-list.newdes_kvlist .add-backlog-btn{background-color: #fff!important; border-radius: 0px;}
 .onlyd-view.ht_630{min-height: 630px!important;}
 
-.newdes_kvlist div.list-group{border-radius:0px; padding:15px; border:1px solid #ccc; background:#f1f4f9;}
+.newdes_kvlist div.list-group{border-radius:0px; padding:15px 10px; border:1px solid #ccc; background:#f1f4f9;}
 .newdes_kvlist div.list-group .card-box { border: 1px solid #dfdfdf; border-radius: 0px; padding: 15px; background: #fff ;}   
 .tasknames_newdes span{font-size: 20px;}
 .tasknames_newdes a{font-size: 20px;padding:0px 4px;}
