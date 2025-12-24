@@ -9280,15 +9280,15 @@ ul.list-group.list-group-flush { padding: 2px;}
     .sticky-action-column {
         position: sticky !important;
         right: 0 !important;
-        z-index: 10 !important;
-        background-color: inherit;
+         z-index: 999 !important;
+        background-color: #d3d3d3!important;
     }
     /* Make the last td in each row sticky when actions are shown */
     tbody tr td:last-child {
         position: sticky !important;
         right: 0 !important;
-        z-index: 999 !important;
-        background-color: #d3d3d3;
+        z-index: 10 !important;
+        background-color: inherit;
     }
     /* Ensure background color matches for header */
     thead.thead-bg .sticky-action-column {
