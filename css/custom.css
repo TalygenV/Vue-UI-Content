@@ -9252,3 +9252,56 @@ ul.list-group.list-group-flush { padding: 2px;}
   color: #fff !important;
   opacity: 0.5 !important;
 }
+/*by harris sir for tg list*/
+.resizable-column {
+        position: relative;
+    }
+    .resize-handle {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 5px;
+        height: 100%;
+        cursor: col-resize;
+        background: transparent;
+        z-index: 1;
+        user-select: none;
+    }
+    .resize-handle:hover {
+        background: rgba(0, 123, 255, 0.3);
+    }
+    .resize-handle:active {
+        background: rgba(0, 123, 255, 0.5);
+    }
+    thead th {
+        position: relative;
+    }
+    /* Sticky Action Column Styles */
+    .sticky-action-column {
+        position: sticky !important;
+        right: 0 !important;
+        z-index: 10 !important;
+        background-color: inherit;
+    }
+    /* Make the last td in each row sticky when actions are shown */
+    tbody tr td:last-child {
+        position: sticky !important;
+        right: 0 !important;
+        z-index: 10 !important;
+        background-color: inherit;
+    }
+    /* Ensure background color matches for header */
+    thead.thead-bg .sticky-action-column {
+        background-color: inherit;
+    }
+    /* Match background for even/odd rows if they have different colors */
+    tbody tr:nth-child(even) td:last-child {
+        background-color: inherit;
+    }
+    tbody tr:nth-child(odd) td:last-child {
+        background-color: inherit;
+    }
+    /* Ensure sticky columns have proper background on hover */
+    tbody tr:hover td:last-child {
+        background-color: inherit;
+    }
