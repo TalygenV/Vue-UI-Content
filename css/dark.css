@@ -1433,6 +1433,12 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .resources--cal-unit .utilisation.week-end { background: #000!important;}
 
 .resource-line .resources--cal-unit.unavailable{background: #2d2c2c!important;}
+
+.booking-anchor .rmtooltipdata .arrow::before{ border-top-color: #0b4e7e !important;}
+.booking-anchor .rmtooltipdata .arrow::after{ border-top-color:#111e27!important;}
+.booking-anchor .rmtooltipinner { background: #111e27; border: 1px solid #0b4e7e;}
+.booking-anchor .RMcontentdt{ color: #ffffff!important;}
+
 /****Git hub css - Harjit Singh 11/11/2025*****/
 
 /* Client Wallet */
