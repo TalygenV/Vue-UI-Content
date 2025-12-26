@@ -9271,8 +9271,10 @@ thead.thead-bg .sticky-action-column {background-color: inherit; }
 .table-responsive tbody tr:nth-child(odd) td:last-child { background-color: inherit;}
 
 .table-responsive tbody tr:hover td:last-child { background-color: inherit;}
+.table-responsive .sticky-action-column { position: sticky !important; right: 0 !important; z-index: 999 !important; background-color: #e8e8e8!important;}
 
-/* .table-responsive .sticky-action-column { position: sticky !important; right: 0 !important; z-index: 999 !important; background-color: #e8e8e8!important;}
+
+/* 
 .table-responsive tbody tr td:last-child { position: sticky !important; right: 0 !important; z-index: 99 !important;  min-width: 100px;} */
 
 /**background-color: #fff!important;***/
