@@ -9269,6 +9269,9 @@ thead.thead-bg .sticky-action-column {background-color: inherit; }
 
 .table-responsive thead th.sticky-action-column { position: sticky !important; right: 0 !important; z-index: 999 !important; background-color: #e8e8e8!important;}
 
+.table-responsive tbody tr td.single-action.only-for-action-col{position: sticky !important; right: 0 !important; z-index: 99 !important;  min-width: 100px; background-color: #e8e8e8!important;}
+
+
 /*.table-responsive tbody tr:nth-child(even) td:last-child { background-color: inherit;}
 .table-responsive tbody tr:nth-child(odd) td:last-child { background-color: inherit;}
 .table-responsive tbody tr:hover td:last-child { background-color: inherit;} */
