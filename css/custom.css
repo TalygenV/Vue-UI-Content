@@ -9256,7 +9256,7 @@ ul.list-group.list-group-flush { padding: 2px;}
 
 /*by harris sir for tg list*/
 .resizable-column {   position: relative; }
-    .resize-handle {
+.resize-handle {
         position: absolute;
         top: 0;
         right: 0;
@@ -9267,47 +9267,29 @@ ul.list-group.list-group-flush { padding: 2px;}
         z-index: 1;
         user-select: none;
     }
-    .resize-handle:hover {
+    /* .resize-handle:hover {
         background: rgba(0, 123, 255, 0.3);
-    }
-    .resize-handle:active {
-        background: rgba(0, 123, 255, 0.5);
-    }
-    thead th {
-        position: relative;
-    }
-    /* Sticky Action Column Styles */
-    .sticky-action-column {
-        position: sticky !important;
-        right: 0 !important;
-         z-index: 999 !important;
-        background-color: #d3d3d3!important;
-    }
-    /* Make the last td in each row sticky when actions are shown */
-     tbody tr td:last-child {
-        position: sticky !important;
-        right: 0 !important;
-         z-index: 999 !important;
-        background-color: #fff!important;
-    }
-    /* tbody tr td:last-child {
-        position: sticky !important;
-        right: 0 !important;
-        z-index: 10 !important;
-        background-color: inherit;
     } */
-    /* Ensure background color matches for header */
-    thead.thead-bg .sticky-action-column {
-        background-color: inherit;
-    }
+
+   .resize-handle em {display: none;}
+   .resize-handle:hover em { display: block;}
+   .resize-handle:hover {background: rgba(103, 174, 251, 0.3); font-size: 10px; padding-top: 12px; color: #626262; padding-left: 1px;}
+
+    .resize-handle:active { background: rgba(0, 123, 255, 0.5);}
+    thead th { position: relative;}
+
+  
+   .table-responsive th.resizable-column:hover::after{padding: 11px 0px 0 0px; font-size: 15px;content: '\2807'; width: 6px;}
+
+    thead.thead-bg .sticky-action-column {background-color: inherit; }
+
     /* Match background for even/odd rows if they have different colors */
-    tbody tr:nth-child(even) td:last-child {
-        background-color: inherit;
-    }
-    tbody tr:nth-child(odd) td:last-child {
-        background-color: inherit;
-    }
+
+    tbody tr:nth-child(even) td:last-child { background-color: inherit;}
+    tbody tr:nth-child(odd) td:last-child { background-color: inherit;}
     /* Ensure sticky columns have proper background on hover */
-    tbody tr:hover td:last-child {
-        background-color: inherit;
-    }
+
+    tbody tr:hover td:last-child { background-color: inherit;}
+    .sticky-action-column { position: sticky !important; right: 0 !important; z-index: 999 !important; background-color: #f5f5f5!important;}
+    tbody tr td:last-child { position: sticky !important; right: 0 !important; z-index: 999 !important;  background-color: #fff!important;min-width: 100px;}
+    /* tbody tr td:last-child { position: sticky !important; right: 0 !important; z-index: 10 !important;  background-color: inherit;} */
