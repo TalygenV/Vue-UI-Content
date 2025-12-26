@@ -9255,7 +9255,7 @@ ul.list-group.list-group-flush { padding: 2px;}
    
 
 /*by harris sir for tg list*/
-.table-responsive .resizable-column {   position: relative; }
+/* .table-responsive .resizable-column {   position: relative; }
 .table-responsive .resize-handle { position: absolute; top: 0; right: 0; width: 5px; height: 100%; cursor: col-resize; background: transparent; z-index: 1; user-select: none; }
 
 .table-responsive .resize-handle em {display: none;}
@@ -9266,11 +9266,16 @@ ul.list-group.list-group-flush { padding: 2px;}
 .table-responsive th.resizable-column:hover::after{padding: 11px 0px 0 0px; font-size: 15px;content: '\2807'; width: 6px;}
 
 thead.thead-bg .sticky-action-column {background-color: inherit; }
- /* Match background for even/odd rows if they have different colors */
+
 .table-responsive tbody tr:nth-child(even) td:last-child { background-color: inherit;}
 .table-responsive tbody tr:nth-child(odd) td:last-child { background-color: inherit;}
- /* Ensure sticky columns have proper background on hover */
+
+
+
 .table-responsive tbody tr:hover td:last-child { background-color: inherit;}
 .table-responsive .sticky-action-column { position: sticky !important; right: 0 !important; z-index: 999 !important; background-color: #e8e8e8!important;}
-.table-responsive tbody tr td:last-child { position: sticky !important; right: 0 !important; z-index: 99 !important;  min-width: 100px;}/**background-color: #fff!important;***/
+.table-responsive tbody tr td:last-child { position: sticky !important; right: 0 !important; z-index: 99 !important;  min-width: 100px;} */
+
+
+/**background-color: #fff!important;***/
  /* tbody tr td:last-child { position: sticky !important; right: 0 !important; z-index: 10 !important;  background-color: inherit;} */
