@@ -9301,3 +9301,7 @@ thead.thead-bg .sticky-action-column {background-color: inherit; }
 
 /**background-color: #fff!important;***/
  /* tbody tr td:last-child { position: sticky !important; right: 0 !important; z-index: 10 !important;  background-color: inherit;} */
+
+ body:has(.modal.d-block) {
+    overflow: hidden;
+}
