@@ -9306,3 +9306,9 @@ thead.thead-bg .sticky-action-column {background-color: inherit; }
  body:has(.modal.d-block) {
     overflow: hidden;
 }
+
+@media (max-width: 767px) {
+  .downloadsamplefilenew .h5 small {
+    margin-top: 0px;
+   }
+}
