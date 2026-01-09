@@ -1441,22 +1441,94 @@ touritem["GlobalTask/Index"] = {
       content: "SearchGlobalTasksUsingSearchFilters",
     },
     {
-      selector: "#crmlistingStatus_span",
+      selector: "#crmlistingStatus_span ",
       step: 2,
       title: "StatusUpdate",
       content: "ChangeGlobalTaskStatusListingScreen",
     },
     {
-      selector: "#Add",
+      selector: "#AddGlobalTask",
       step: 3,
       title: "AddGlobalTask",
       content: "CreateNewBillableNonbillableGlobalTask",
     },
+  ],
+};
+touritem["GlobalTask/Add"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
+  displayName: "Add GlobalTask",
+  items: [
     {
-      selector: "#TaskName",
-       step: 4,
+      selector: "#btnsave",
+      step: 1,
       title: "EnterTaskDetails",
       content: "CongratsYouHaveCreatedFirstGlobalTaskSuccessfully",
+    },
+  ],
+};
+
+touritem["Quotation/Index"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
+  displayName: "Quotation",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchYourQuotesSearchFilters",
+    },
+    {
+      selector: "#AddQuotes",
+      step: 2,
+      title: "Add_Quotes",
+      content: "CreateNewQuotesSpecificProjectClient",
+    },
+    {
+      selector: "#ancEditQuotation",
+      step: 3,
+      title: "EditQuotes",
+      content: "FlexibilityMakeChangesUnsentQuotes",
+    }
+    // ,
+    // {
+    //   selector: "#ancEditQuotation",
+    //   step: 4,
+    //   title: "SendToClient",
+    //   content: "EaseSendingQuotesClient",
+    // },
+    // {
+    //   selector: ".fa-eye",
+    //   step: 5,
+    //   title: "ViewDetails",
+    //   content: "HaveDetailedInsightQuote",
+    // },
+  ],
+};
+touritem["Quotation/Create"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
+  displayName: "Create Quotation",
+  items: [
+    {
+      selector: "#btnSaveQuotation",
+      step: 1,
+      title: "EnterQuotesDetails",
+      content: "CongratsYouHaveCreatedFirstQuoteSuccessfully",
+    },
+  ],
+};
+touritem["Quotation/DisplayQuotation"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
+  displayName: "Display Quotation",
+  items: [
+    {
+      selector: "#aSend",
+      step: 1,
+      title: "SendViaEmail",
+      content: "SendQuoteYourClientEmail",
     },
   ],
 };
@@ -1486,7 +1558,7 @@ touritem["Project/RequestTimeList"] = {
       content: "MakeRequestedRequiredAndApproveTimeRequest",
     },
     {
-     selector: ".fa.fa-times.pr-2.text-danger.action-icon",
+      selector: ".newreject",
       step: 4,
       title: "RejectTimeRequests",
       content: "RejectRequestCommentDownReason",
@@ -1509,22 +1581,16 @@ touritem["Task/Index"] = {
       step: 2,
       title: "MultipleViews",
       content: "ChooseDesiredViewKanbanCardListView",
-    },
-    {
-      selector: "#progress-text",
-      step: 3,
-      title: "UpdateProgress",
-      content: "UpdateProgressYourTask",
-    },
+    },   
     {
       selector: "#crmlistingStatus_span",
-      step: 4,
+      step: 3,
       title: "StatusUpdate",
       content: "ChangeStatusDirectlyListingScreen",
     },
     {
       selector: "#StartTimer",
-      step: 5,
+      step: 4,
       title: "StartTimer",
       content: "StartTrackingTimeAssignedTask",
     },
@@ -1548,13 +1614,19 @@ touritem["ProjectRequest/Index"] = {
       content: "SetupProjectRequestOwner",
     },
     {
-      selector: "#aAcceptMultipleProjectRequest",
+      selector: "#AddProjectRequest",
       step: 3,
+      title: "AddProjectRequestOwner",
+      content: "AddProjectRequestOwner",
+    },
+    {
+      selector: "#Accept",
+      step: 4,
       title: "AcceptProjectRequest",
       content: "ApproveMultipleProjectRequestsRaisedClientInOneGo",
     },
     {
-      selector: "#aRejectMultipleProjectRequest",
+      selector: "#Reject",
       step: 4,
       title: "RejectProjectRequest",
       content: "RejectMultipleProjectRequestsRaisedClientInOneGo",
@@ -1565,18 +1637,14 @@ touritem["ProjectRequest/Index"] = {
     //    title: "StartTimer",
     //    content: "StartTrackingTimeAssignedTask"
     //}
-    
   ],
-  
 };
+
 touritem["Project/Index"] = {
-  ModuleDisplayName: "Project Management",
-   MouseEvent: "Project",
-  ModuleName: "Project",
   displayName: "Project",
   items: [
     {
-      selector: ".dashbord-widget.WalkHRLeaveWidgetContent_ul",
+      selector: ".WalkHRLeaveWidgetContent_ul",
       step: 1,
       title: "Widgets",
       content: "SummaryWidgets",
@@ -1593,39 +1661,125 @@ touritem["Project/Index"] = {
       title: "AddNewProject",
       content: "SummaryWidgetsContent",
     },
-     {
-      selector: "#chooseindustype",
+    {
+      selector: "#selectindustype",
       step: 4,
-      title: "PleaseSelectTemplate",
-      content: "SummaryTemplateContent",
+      title: "ChooseIndustryType",
+      content: "SummaryIndustryTypeContent",
     },
     {
-      selector: "#btnNext",
+      selector: "#PleaseSelectTemplate",
       step: 5,
-      title: "Next",
+      title: "PleaseSelectTemplate",
       content: "SummaryTemplateNextContent",
     },
-    
     {
       selector: "#general",
       step: 6,
       title: "SummaryProjectDetailTitle",
-      content: "SummaryProjectDetailContent",
+      content: "SummarygeneralContent",
     },
-    
     {
-      selector: "#TeamTypeUser",
+      selector: "#setp2btn",
       step: 7,
+      title: "Next",
+      content: "SummarynextstepContent",
+    }, 
+    {
+      selector: "#nextviewtab",
+      step: 8,
+      title: "SummaryViewtabsTitle",
+      content: "SummaryViewtabsContent",
+    },
+    {
+      selector: "#chk_ids",
+      step: 9,
       title: "AddTeamMembers",
       content: "AddTeamMembersContent",
     },
     {
       selector: "#SummaryProjectSaveContent_a",
-      step: 8,
+      step: 10,
       title: "FinishSetup",
       content: "FinishSetupContent",
     },
   ],
 };
+touritem["Project/GanttChart"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
+  displayName: "Gantt Chart",
+  items: [
+    {
+      selector: ".splitElement",
+      step: 1,
+      title: "ProjectDetail",
+      content: "ViewProjectTaskInformation",
+    },
+    {
+      selector: ".teamworkIcon",
+      step: 2,
+      title: "EditProjectDetails",
+      content: "MakeDesiredChangesProjectInformation",
+    },
+    {
+      selector: ".dropdown-toggle",
+      step: 3,
+      title: "ManageView",
+      content: "SelectDesiredViewDisplayProjectInformation",
+    },
+    {
+      selector: ".ganttToday",
+      step: 4,
+      title: "ProjectRelatedInformation",
+      content: "ViewProjectInformationTheirProgressDetailsTimelineDormat",
+    },
+    {
+      selector: ".ganttToday",
+      step: 5,
+      title: "DownloadInformation",
+      content: "DownloadCompleteProjectInformation",
+    },
+  ],
+};
+touritem["Project/GanttChart"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
+  displayName: "GanttChart",
+  items: [
+    {
+      selector: ".border",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchProjectInformationProjectNameProjectDate",
+    },
+    {
+      selector: ".p-action-btn",
+      step: 2,
+      title: "MultiView",
+      content: "ViewProjectInformationDailyWeeklyMonthlyYearlyFormat",
+    },
+    {
+      selector: ".showRM_Setting",
+      step: 3,
+      title: "ProjectSettings",
+      content: "SelectVisibilityInformationDisplayedRoadMap",
+    },
+    {
+      selector: ".projectEditUpdate",
+      step: 4,
+      title: "EditYourProject",
+      content: "MakeChangesProjectRightRoadMapScreen",
+    },
+    {
+      selector: ".booking",
+      step: 5,
+      title: "ProjectDetail",
+      content: "ViewProjectTimeline",
+    },
+  ],
+};
+
+
 tourData.push(touritem);
 export { tourData };

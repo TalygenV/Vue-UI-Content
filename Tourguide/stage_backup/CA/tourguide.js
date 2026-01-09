@@ -4752,7 +4752,6 @@ touritem["Project/GanttChart"] = {
 };
 
 
-
 touritem["Quotation/Index"] = {
   ModuleDisplayName: "Project Management",
   ModuleName: "Project",
@@ -4765,7 +4764,7 @@ touritem["Quotation/Index"] = {
       content: "SearchYourQuotesSearchFilters",
     },
     {
-      selector: "#AddQuotes",
+      selector: "#ancAddQuotation",
       step: 2,
       title: "Add_Quotes",
       content: "CreateNewQuotesSpecificProjectClient",
@@ -4775,20 +4774,19 @@ touritem["Quotation/Index"] = {
       step: 3,
       title: "EditQuotes",
       content: "FlexibilityMakeChangesUnsentQuotes",
-    }
-    // ,
-    // {
-    //   selector: "#ancEditQuotation",
-    //   step: 4,
-    //   title: "SendToClient",
-    //   content: "EaseSendingQuotesClient",
-    // },
-    // {
-    //   selector: ".fa-eye",
-    //   step: 5,
-    //   title: "ViewDetails",
-    //   content: "HaveDetailedInsightQuote",
-    // },
+    },
+    {
+      selector: "#ancEditQuotation",
+      step: 4,
+      title: "SendToClient",
+      content: "EaseSendingQuotesClient",
+    },
+    {
+      selector: ".fa-eye",
+      step: 5,
+      title: "ViewDetails",
+      content: "HaveDetailedInsightQuote",
+    },
   ],
 };
 touritem["Quotation/Create"] = {
@@ -4870,27 +4868,20 @@ touritem["GlobalTask/Index"] = {
       content: "SearchGlobalTasksUsingSearchFilters",
     },
     {
-      selector: "#crmlistingStatus_span ",
+      selector: "#crmlistingStatus_span",
       step: 2,
       title: "StatusUpdate",
       content: "ChangeGlobalTaskStatusListingScreen",
     },
     {
-      selector: "#AddGlobalTask",
+      selector: "#Add",
       step: 3,
       title: "AddGlobalTask",
       content: "CreateNewBillableNonbillableGlobalTask",
     },
-  ],
-};
-touritem["GlobalTask/Add"] = {
-  ModuleDisplayName: "Project Management",
-  ModuleName: "Project",
-  displayName: "Add GlobalTask",
-  items: [
     {
-      selector: "#btnsave",
-      step: 1,
+      selector: "#TaskName",
+       step: 4,
       title: "EnterTaskDetails",
       content: "CongratsYouHaveCreatedFirstGlobalTaskSuccessfully",
     },
@@ -4922,7 +4913,7 @@ touritem["Project/RequestTimeList"] = {
       content: "MakeRequestedRequiredAndApproveTimeRequest",
     },
     {
-      selector: ".newreject",
+     selector: ".fa.fa-times.pr-2.text-danger.action-icon",
       step: 4,
       title: "RejectTimeRequests",
       content: "RejectRequestCommentDownReason",
@@ -4945,16 +4936,22 @@ touritem["Task/Index"] = {
       step: 2,
       title: "MultipleViews",
       content: "ChooseDesiredViewKanbanCardListView",
-    },   
+    },
+    {
+      selector: "#progress-text",
+      step: 3,
+      title: "UpdateProgress",
+      content: "UpdateProgressYourTask",
+    },
     {
       selector: "#crmlistingStatus_span",
-      step: 3,
+      step: 4,
       title: "StatusUpdate",
       content: "ChangeStatusDirectlyListingScreen",
     },
     {
       selector: "#StartTimer",
-      step: 4,
+      step: 5,
       title: "StartTimer",
       content: "StartTrackingTimeAssignedTask",
     },
@@ -4978,19 +4975,13 @@ touritem["ProjectRequest/Index"] = {
       content: "SetupProjectRequestOwner",
     },
     {
-      selector: "#AddProjectRequest",
+      selector: "#aAcceptMultipleProjectRequest",
       step: 3,
-      title: "AddProjectRequestOwner",
-      content: "AddProjectRequestOwner",
-    },
-    {
-      selector: "#Accept",
-      step: 4,
       title: "AcceptProjectRequest",
       content: "ApproveMultipleProjectRequestsRaisedClientInOneGo",
     },
     {
-      selector: "#Reject",
+      selector: "#aRejectMultipleProjectRequest",
       step: 4,
       title: "RejectProjectRequest",
       content: "RejectMultipleProjectRequestsRaisedClientInOneGo",
@@ -5001,14 +4992,18 @@ touritem["ProjectRequest/Index"] = {
     //    title: "StartTimer",
     //    content: "StartTrackingTimeAssignedTask"
     //}
+    
   ],
+  
 };
-
 touritem["Project/Index"] = {
+  ModuleDisplayName: "Project Management",
+   MouseEvent: "Project",
+  ModuleName: "Project",
   displayName: "Project",
   items: [
     {
-      selector: ".WalkHRLeaveWidgetContent_ul",
+      selector: ".dashbord-widget.WalkHRLeaveWidgetContent_ul",
       step: 1,
       title: "Widgets",
       content: "SummaryWidgets",
@@ -5025,45 +5020,35 @@ touritem["Project/Index"] = {
       title: "AddNewProject",
       content: "SummaryWidgetsContent",
     },
-    {
-      selector: "#selectindustype",
+     {
+      selector: "#chooseindustype",
       step: 4,
-      title: "ChooseIndustryType",
-      content: "SummaryIndustryTypeContent",
+      title: "PleaseSelectTemplate",
+      content: "SummaryTemplateContent",
     },
     {
-      selector: "#PleaseSelectTemplate",
+      selector: "#btnNext",
       step: 5,
-      title: "PleaseSelectTemplate",
+      title: "Next",
       content: "SummaryTemplateNextContent",
     },
+    
     {
       selector: "#general",
       step: 6,
       title: "SummaryProjectDetailTitle",
-      content: "SummarygeneralContent",
+      content: "SummaryProjectDetailContent",
     },
+    
     {
-      selector: "#setp2btn",
+      selector: "#TeamTypeUser",
       step: 7,
-      title: "Next",
-      content: "SummarynextstepContent",
-    }, 
-    {
-      selector: "#nextviewtab",
-      step: 8,
-      title: "SummaryViewtabsTitle",
-      content: "SummaryViewtabsContent",
-    },
-    {
-      selector: "#chk_ids",
-      step: 9,
       title: "AddTeamMembers",
       content: "AddTeamMembersContent",
     },
     {
       selector: "#SummaryProjectSaveContent_a",
-      step: 10,
+      step: 8,
       title: "FinishSetup",
       content: "FinishSetupContent",
     },

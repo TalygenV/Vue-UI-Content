@@ -1527,34 +1527,28 @@ touritem["WorkDiary/Index"] = {
 };
 
 
-touritem["Task/Index"] = {
+touritem["GlobalTask/Index"] = {
   ModuleDisplayName: "Project Management",
   ModuleName: "Project",
-  displayName: "Task",
+  displayName: "Global Task",
   items: [
     {
       selector: "#accordionEx",
       step: 1,
       title: "SearchFilters",
-      content: "SearchTasksSearchFilters",
+      content: "SearchGlobalTasksUsingSearchFilters",
     },
-    {
-      selector: "#ddlUserCurrentStatus",
-      step: 2,
-      title: "MultipleViews",
-      content: "ChooseDesiredViewKanbanCardListView",
-    },   
     {
       selector: "#crmlistingStatus_span",
-      step: 3,
+      step: 2,
       title: "StatusUpdate",
-      content: "ChangeStatusDirectlyListingScreen",
+      content: "ChangeGlobalTaskStatusListingScreen",
     },
     {
-      selector: "#StartTimer",
-      step: 4,
-      title: "StartTimer",
-      content: "StartTrackingTimeAssignedTask",
+      selector: "#Add",
+      step: 3,
+      title: "AddGlobalTask",
+      content: "CreateNewBillableNonbillableGlobalTask",
     },
   ],
 };
@@ -1574,137 +1568,19 @@ touritem["Project/RequestTimeList"] = {
       step: 2,
       title: "SearchFilters",
       content: "SearchTimeRequestsUsingSearchFilters",
-    }
-  ],
-};
-touritem["Project/Index"] = {
-  displayName: "Project",
-  items: [
-    {
-      selector: ".WalkHRLeaveWidgetContent_ul",
-      step: 1,
-      title: "Widgets",
-      content: "SummaryWidgets",
     },
     {
-      selector: "#accordionEx",
-      step: 2,
-      title: "Filters",
-      content: "SearchMultipleFiltersProject",
-    }
-  ],
-};
-touritem["Project/GanttChart"] = {
-  ModuleDisplayName: "Project Management",
-  ModuleName: "Project",
-  displayName: "Gantt Chart",
-  items: [
-    {
-      selector: ".splitElement",
-      step: 1,
-      title: "ProjectDetail",
-      content: "ViewProjectTaskInformation",
-    },
-    {
-      selector: ".teamworkIcon",
-      step: 2,
-      title: "EditProjectDetails",
-      content: "MakeDesiredChangesProjectInformation",
-    },
-    {
-      selector: ".dropdown-toggle",
+      selector: ".fa-check",
       step: 3,
-      title: "ManageView",
-      content: "SelectDesiredViewDisplayProjectInformation",
+      title: "ApproveTimeRequests",
+      content: "MakeRequestedRequiredAndApproveTimeRequest",
     },
     {
-      selector: ".ganttToday",
+     selector: ".fa.fa-times.pr-2.text-danger.action-icon",
       step: 4,
-      title: "ProjectRelatedInformation",
-      content: "ViewProjectInformationTheirProgressDetailsTimelineDormat",
+      title: "RejectTimeRequests",
+      content: "RejectRequestCommentDownReason",
     },
-    {
-      selector: ".ganttToday",
-      step: 5,
-      title: "DownloadInformation",
-      content: "DownloadCompleteProjectInformation",
-    },
-  ],
-};
-touritem["Quotation/Index"] = {
-  ModuleDisplayName: "Project Management",
-  ModuleName: "Project",
-  displayName: "Quotation",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchYourQuotesSearchFilters",
-    }   
-  ],
-};
-touritem["Quotation/Create"] = {
-  ModuleDisplayName: "Project Management",
-  ModuleName: "Project",
-  displayName: "Create Quotation",
-  items: [
-    {
-      selector: "#btnSaveQuotation",
-      step: 1,
-      title: "EnterQuotesDetails",
-      content: "CongratsYouHaveCreatedFirstQuoteSuccessfully",
-    },
-  ],
-};
-touritem["Quotation/DisplayQuotation"] = {
-  ModuleDisplayName: "Project Management",
-  ModuleName: "Project",
-  displayName: "Display Quotation",
-  items: [
-    {
-      selector: "#aSend",
-      step: 1,
-      title: "SendViaEmail",
-      content: "SendQuoteYourClientEmail",
-    },
-  ],
-};
-touritem["ProjectRequest/Index"] = {
-  ModuleDisplayName: "Project Management",
-  ModuleName: "Project",
-  displayName: "Project Request",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchProjectRequestsSearchFilters",
-    },
-    {
-      selector: "#aAddProjectRequestOwner",
-      step: 2,
-      title: "AddOwnerProjectRequest",
-      content: "SetupProjectRequestOwner",
-    },
-    {
-      selector: "#AddProjectRequest",
-      step: 3,
-      title: "AddProjectRequestOwner",
-      content: "AddProjectRequestOwner",
-    },
-    {
-      selector: "#Accept",
-      step: 4,
-      title: "AcceptProjectRequest",
-      content: "ApproveMultipleProjectRequestsRaisedClientInOneGo",
-    },
-    {
-      selector: "#Reject",
-      step: 4,
-      title: "RejectProjectRequest",
-      content: "RejectMultipleProjectRequestsRaisedClientInOneGo",
-    },   
   ],
 };
 tourData.push(touritem);
