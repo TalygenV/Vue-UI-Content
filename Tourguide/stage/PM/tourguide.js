@@ -1641,6 +1641,8 @@ touritem["ProjectRequest/Index"] = {
 };
 
 touritem["Project/Index"] = {
+  ModuleDisplayName: "Project Management",
+  ModuleName: "Project",
   displayName: "Project",
   items: [
     {
