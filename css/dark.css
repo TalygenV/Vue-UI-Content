@@ -1499,3 +1499,9 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 
 /****Table Listing Last Action Column ****/
 
+.custom-accr.newdesi .card-header {
+ color: #fff;
+}
+.custom-accr.newdesi .card-header:hover {
+  color: #ccc;
+}
