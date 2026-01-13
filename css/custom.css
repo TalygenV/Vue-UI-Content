@@ -9337,5 +9337,5 @@ thead.thead-bg .sticky-action-column {background-color: inherit; }
 .custom-accr.newdesi .card-header:hover {
   color: #fff;
 }
-.noneditablefield{background-color: #272b2f; border: 1px solid #3c3f43; color: #ccc;}
+.noneditablefield{background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 4px; padding: 12px; min-height: 60px; color: #495057;}
 
