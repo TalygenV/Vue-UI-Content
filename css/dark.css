@@ -1431,35 +1431,27 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .resources--cal-unit .utilisation{background: #1c1c1c!important;}
 .resources--cal-unit.unavailable.week-end {background: #202020!important;}
 .resources--cal-unit .utilisation.week-end { background: #000!important;}
-
 .resource-line .resources--cal-unit.unavailable{background: #2d2c2c!important;}
-
 .booking-anchor .rmtooltipdata .arrow::before{ border-top-color: #0b4e7e !important;}
 .booking-anchor .rmtooltipdata .arrow::after{ border-top-color:#111e27!important;}
 .booking-anchor .rmtooltipinner { background: #111e27; border: 1px solid #0b4e7e;}
 .booking-anchor .RMcontentdt{ color: #ffffff!important;}
-
 /****Git hub css - Harjit Singh 11/11/2025*****/
-
 /* Client Wallet */
 .clientwallet .profile-card.ai_base {background: rgb(44, 49, 53); border: 1px solid rgb(51, 56, 62) !important;}
 .clientwallet .avatar {background: #1c1f22; border: 1px solid #33383e;}
 .clientwallet .utility-card {background: #2c3135; border: 1px solid #33383e;}
 .clientwallet .inner-box {border: 1px solid #454748; background: #1c1f22;}
 /* Client Wallet */
-
 .cl_us_history .stat-item{background: #2c3135;}
 .cl_us_history .stat-value{color: #ccc;}
 .card.probx.recharge_payment .card-header {background: #2c3136;}
-
 #ProcessPayment .clientwalletsprite{border: 1px solid #3b4146;}
 #ProcessPayment .clientwalletsprite button.active{background-color: #8fd5ff;}
 #ProcessPayment .clientwalletsprite button{border: 1px solid #8fd5ff; background-color: #7ea6bd;}
 #ProcessPayment .clientwalletsprite button:hover{ background-color: #9acfee;}
 #ProcessPayment .clientwalletsprite button.active em{color: #222 !important;}
-
 /*.wallet-dashboard {background-color: #1c1f22;} */
-
 .companywallet_db .utility-card { background: #2c3135!important; border: 1px solid #33383e!important;}
 .companywallet_db .electricity{border-top: 2px solid #ffe46f!important;}
 .companywallet_db .water {border-top: 2px solid #aad8ff!important;}
@@ -1467,27 +1459,21 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .companywallet_db .profile-card.ai_base {background: rgb(44, 49, 53); border: 1px solid rgb(51, 56, 62) !important;}
 .companywallet_db .avatar {background: #1c1f22!important; border: 1px solid #33383e!important;}
 .companywallet_db .search-box input{background-color: #272b2f!important; border: 1px solid #484848;}
-
 .receipt-card { background:#2c3135;}
 .receipt-card .info-box {background-color: #272b2f !important; border: 1px solid #484848; color: #fff;}
 .receipt-card .text-secondary{color: #ddd!important;}
 .receipt-card .amount-box {background-color: #272b2f !important; border: 1px solid #484848; color: #fff;}
-
 .clientwallet .card{background: #1c1f22;}
 .clientwallet .recharge input{border: 1px solid #484848; background: #272b2f !important; color: #fff;}
 .clientwallet .quick-select button{ background: #25a5ff;color: #fff; border-color:#54b8ff;}
-
 /* Add Work Crew popup */
 .form-group.filterscroll.overflow-sauto.bg-light.p-2.border {
   background-color: #2c3136 !important;
   border: 1px solid #454748 !important;
 }
 /* Add Work Crew popup */
-
 .multiselect__option--selected { background: #353535!important; color: #ccc!important;}
-
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
-
 .autocomplete-wrapper { border: 1px solid #3c3f43;}
 .autocomplete-wrapper .autocomplete-menu .autocomplete-grouped .autocomplete-group .autocomplete-group-header .d-flex.flex-column .font-weight-bold.font-14{color: #fff;}
 .autocomplete-group-header{ background-color: #2c3136; color: #fff; border-bottom: 1px solid #3c3f43;  border-top: 1px solid #3c3f43;}
@@ -1499,19 +1485,17 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .autocomplete-wrapper .autocomplete-grouped ul li.list-group-item.active.autocomplete-item::after { border-left: 1px dashed #ffffff;}
 .autocomplete-wrapper .list-group-item.active:last-child {border-bottom: 1px solid #3f658d; border-top: 1px solid #3f658d;}
 .autocomplete-wrapper .list-group-item.active {border-bottom: 1px solid #3f658d; border-top: 1px solid #3f658d;}
-
 .autocomplete-item.selected{color: #ffffff;}
 .autocomplete-actions { background-color: #1b1b1b;}
-
-
-
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
-
 .highlight-phase, .highlight-stage {
     background-color: #ffffcc !important;
     border: 2px solid #ffbc43 !important;
     box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);color: #000 !important;
 }
 
+/****Table Listing Last Action Column ****/
+.table-responsive thead th.sticky-action-column {background-color: #353e43 !important;}
 
+/****Table Listing Last Action Column ****/
 
