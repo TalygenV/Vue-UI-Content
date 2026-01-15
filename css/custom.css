@@ -9340,8 +9340,8 @@ thead.thead-bg .sticky-action-column {background-color: inherit; }
 .noneditablefield{background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 4px; padding: 12px; min-height: 60px; color: #495057;}
 
 /******/
-ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon-m{background-color: #ffece4 !important;}
-ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy{background-color: #fff6f0 !important; border: 1px solid #ffc4c1 !important;}
+ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon-m{background-color: #ffe6e0 !important;}
+ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy{background-color: #fff6f3 !important; border: 1px solid #ffb59e !important; cursor: not-allowed !important;}
 
-ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy2 span.left-icon-m{background-color: #dbf0cb!important;}
-ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy2{background-color: #ebf5e4 !important; border: 1px solid #a5c88d !important;}
+ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy2 span.left-icon-m{background-color: #e2ecdb !important;}
+ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy2{background-color: #f4fbf0 !important; border: 1px solid #9dc87f !important; cursor: not-allowed !important;}
