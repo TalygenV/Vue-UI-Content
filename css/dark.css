@@ -314,6 +314,8 @@ td a {	color: #40a6ff !important;}
 .legend-yellow{background:#1b232b;}
 .table-bordered tr.legend-yellow {background: #fff9e4 !important;}
 
+tr.legend-yellow td { color: #303030;}
+
 .legend-valid{background:#24a5ff;}
 .legend-expenselimit{background:#fdc107;}
 .legend-totalexpenselimit{background:#d00b05;}
@@ -1503,5 +1505,6 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .custom-accr.newdesi .card-header {color: #fff;}
 .custom-accr.newdesi .card-header:hover {color: #ccc;}
 .noneditablefield{background-color: #272b2f; border: 1px solid #3c3f43; color: #ccc;}
+
 
 
