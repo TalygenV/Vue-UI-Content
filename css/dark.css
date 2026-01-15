@@ -1497,6 +1497,7 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 /****Table Listing Last Action Column ****/
 .table-responsive thead th.sticky-action-column {background-color: #353e43 !important;}
 .table-responsive tbody tr td.single-action.only-for-action-col{background-color: #353e43 !important;}
+.table-responsive .action-without-ellipse{background-color: #353e43 !important;}
 /****Table Listing Last Action Column ****/
 
 .custom-accr.newdesi .card-header {color: #fff;}
