@@ -120,6 +120,18 @@ footer ul li a:hover {	color: #FCB322; opacity: .8;}
 .list-actions a:nth-child(10n+9) i{ color:#28a0f2 }
 .list-actions a:nth-child(10n+10) i{ color:#63a45d }
 
+
+.list-actions a:nth-child(10n+1) em{ color:#027fb7 }
+.list-actions a:nth-child(10n+2) em{ color:#e35316 }
+.list-actions a:nth-child(10n+3) em{ color:#00ae69 }
+.list-actions a:nth-child(10n+4) em{ color:#d1372d }
+.list-actions a:nth-child(10n+5) em{ color:#67a3bd }
+.list-actions a:nth-child(10n+6) em{ color:#e4ad15 }
+.list-actions a:nth-child(10n+7) em{ color:#52aebb }
+.list-actions a:nth-child(10n+8) em{ color:#8d83e3 }
+.list-actions a:nth-child(10n+9) em{ color:#28a0f2 }
+.list-actions a:nth-child(10n+10) em{ color:#63a45d }
+
 .modal-footer {	border-top: 1px solid #2c2f32;}  /*#1c1f22*/
 
 .bottom_add_button a{background:#29a744; color:#edf7ff;}

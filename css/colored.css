@@ -77,6 +77,16 @@ footer ul li a:hover {color: #FCB322; opacity: .8;}
 .actions-onclick {color:#303030;}
 .close {background:#525252;}
 .close:hover {color:#fff;}
+.list-actions a:nth-child(9n+1) i{ color:#027fb7 }
+.list-actions a:nth-child(9n+2) i{ color:#e35316 }
+.list-actions a:nth-child(9n+3) i{ color:#00ae69 }
+.list-actions a:nth-child(9n+4) i{ color:#d1372d }
+.list-actions a:nth-child(9n+5) i{ color:#67a3bd }
+.list-actions a:nth-child(9n+6) i{ color:#e4ad15 }
+.list-actions a:nth-child(9n+7) i{ color:#52aebb }
+.list-actions a:nth-child(9n+8) i{ color:#8d83e3 }
+.list-actions a:nth-child(9n+9) i{ color:#28a0f2 }
+
 .list-actions a:nth-child(9n+1) em{ color:#027fb7 }
 .list-actions a:nth-child(9n+2) em{ color:#e35316 }
 .list-actions a:nth-child(9n+3) em{ color:#00ae69 }
@@ -86,6 +96,7 @@ footer ul li a:hover {color: #FCB322; opacity: .8;}
 .list-actions a:nth-child(9n+7) em{ color:#52aebb }
 .list-actions a:nth-child(9n+8) em{ color:#8d83e3 }
 .list-actions a:nth-child(9n+9) em{ color:#28a0f2 }
+
 .bottom_add_button a{background:#29a744; color:#edf7ff;}
 .bottom_add_button.refresh a{background:#dc3545; color:#edf7ff;}
 .graph-widget-heading{color:#2f2f2f; background:#fafafa; border-bottom:1px solid #cccccc;}

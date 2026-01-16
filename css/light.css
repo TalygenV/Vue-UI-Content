@@ -103,6 +103,17 @@ footer ul li a:hover { opacity: .8;}
 .list-actions a:nth-child(10n+9) i{ color:#28a0f2 }
 .list-actions a:nth-child(10n+10) i{ color:#63a45d }
 
+.list-actions a:nth-child(10n+1) em{ color:#027fb7 }
+.list-actions a:nth-child(10n+2) em{ color:#e35316 }
+.list-actions a:nth-child(10n+3) em{ color:#00ae69 }
+.list-actions a:nth-child(10n+4) em{ color:#d1372d }
+.list-actions a:nth-child(10n+5) em{ color:#67a3bd }
+.list-actions a:nth-child(10n+6) em{ color:#e4ad15 }
+.list-actions a:nth-child(10n+7) em{ color:#52aebb }
+.list-actions a:nth-child(10n+8) em{ color:#8d83e3 }
+.list-actions a:nth-child(10n+9) em{ color:#28a0f2 }
+.list-actions a:nth-child(10n+10) em{ color:#63a45d }
+
 .dropdown-menu.my-account {	background: #ececec;}
 .dropdown-menu.my-account a {	color: #353535;	border-bottom: 2px solid rgb(255, 255, 255);}
 .dropdown-menu-right > li .dropdown-menu {	background: #ececec;}
