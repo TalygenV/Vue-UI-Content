@@ -1403,18 +1403,14 @@ ul.filetree.treeview{background-color: #2c3136;}
 .mess_newdes .mess_newdes_left .listhovereffect.border-primary {background-color: #2b3f4d !important; border-color: #527b95 !important; border-left: 5px solid #25a5ff !important;}
 .mess_newdes .mess_newdes_left .listhovereffect:hover .badge.bg-secondary-new{background: #7d7d7d!important;}
 .mess_newdes .mess_newdes_left .panesdivider {border-bottom: 1px solid #404040;}
-
 .mess_newdes .mess_newdes_left .panesdivider .text-muted.bg-light{background: #3c3f43 !important;}
 .mess_newdes .mess_newdes_left .panesdivider button.darkbuttonbase{ background: #25a5ff !important; color: #fff!important;}
 .mess_newdes .mess_newdes_left .panesdivider button.darkbuttonbase span.text-muted{color:#fff!important;}
-
 .mess_newdes .themetextfix{color: #fff;}
-
 .mess_newdes .p-3.mb-3.rounded.bg-light { border-bottom: 1px solid #2b3f4d; background: #212529 !important;}
 .mess_newdes .roundpills .btn.rounded-pill { background: #2b3742; border: 1px solid #3f5671;}
 .mess_newdes .chat-sidebar { border-right: 1px solid #3d4146;}
 .mess_newdes .border-top {border-top: 1px solid #3d4146 !important;}
-
 .mess_newdes .mess_newdes_right .textareamsg {border: 1px solid #2b3f4d; background: #212529;}
 .mess_newdes .mess_newdes_right .textareamsg textarea{background-color: #212529 !important;}
 .mess_newdes .mess_newdes_right .chatpanes_acts{background:#212529; border: 1px solid #2b3f4d;}
@@ -1481,10 +1477,7 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .clientwallet .recharge input{border: 1px solid #484848; background: #272b2f !important; color: #fff;}
 .clientwallet .quick-select button{ background: #25a5ff;color: #fff; border-color:#54b8ff;}
 /* Add Work Crew popup */
-.form-group.filterscroll.overflow-sauto.bg-light.p-2.border {
-  background-color: #2c3136 !important;
-  border: 1px solid #454748 !important;
-}
+.form-group.filterscroll.overflow-sauto.bg-light.p-2.border {background-color: #2c3136 !important;border: 1px solid #454748 !important;}
 /* Add Work Crew popup */
 .multiselect__option--selected { background: #353535!important; color: #ccc!important;}
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
@@ -1502,10 +1495,7 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .autocomplete-item.selected{color: #ffffff;}
 .autocomplete-actions { background-color: #1b1b1b;}
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
-.highlight-phase, .highlight-stage {
-    background-color: #ffffcc !important;
-    border: 2px solid #ffbc43 !important;
-    box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);color: #000 !important;
+.highlight-phase, .highlight-stage { background-color: #ffffcc !important;  border: 2px solid #ffbc43 !important;  box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);color: #000 !important;
 }
 
 /****Table Listing Last Action Column ****/
@@ -1518,5 +1508,7 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .custom-accr.newdesi .card-header:hover {color: #ccc;}
 .noneditablefield{background-color: #272b2f; border: 1px solid #3c3f43; color: #ccc;}
 
-
+.darkthemebase{border: 1px solid #454748!important;}
+.darkthemebase .invoice-container{background: #2c3136; border: 1px solid #454748;}
+.darkthemebase .invoice-container table th { background: #2c3136;}
 
