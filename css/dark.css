@@ -706,16 +706,6 @@ select.form-control {	background-image: url(/Content/Responsive/images/drop-down
 .fc_parentchild li p.shape_oval{ border-radius: 20px;}
 .fc_parentchild li.arrowdown { background-image:url(https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/FlowChart_DownArrow.png); }
 
-
-
-
-
-
-
-
-
-
-
 .timepicker-picker .btn{ color: #ddd;}
 .custom-accr .card-header a {	color: #ddd;}
 .btn:hover {	color: #fff;}
@@ -730,7 +720,9 @@ select.form-control {	background-image: url(/Content/Responsive/images/drop-down
 .resourceschedule {	background: #1c1f22;	border-bottom: 1px solid #2c3136;}
 .btn-warning {	background-color: #bfa841;	border-color: #bfa841; color: #fff !important;}
 .btn-warning:hover {	background-color: #ae9833;	border-color: #ae9833;}
-.user-guide {	background: url('../images/user-guide-img-white.png'); background-repeat: no-repeat !important;background-position: 0px 0px !important; color:#ddd;}
+.user-guide { background-repeat: no-repeat !important;background-position: 0px 0px !important; color:#ddd;}
+/* background: url('../images/user-guide-img-white.png'); */
+
 .tree li span.grandparent::after, .tree li span::after {	color: #ddd !important;}
 .select-custom li {	background: #2c3135 !important; border-bottom: 1px solid #1c1f22 !important;}
 .select-custom li label {	color: #ddd !important;	}
