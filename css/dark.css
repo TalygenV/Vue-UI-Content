@@ -213,7 +213,7 @@ button.close:hover{color:#303030 !important;}
 .bg-border .blue-bg-light {	border: none;	border-top: 5px solid #1886c8;	background: #2c3136;}
 .bg-border .red-bg-light{border: none;  border-top: 5px solid #de0303; background: #2c3136;}
 
-.no-bg .green-bg-light{border: none; border-top: 5px solid #3aaa7a; background: #1c1f22;}
+.no-bg .green-bg-light{border: none; border-top: 5px solid #3aaa7a; background: #2c3136;}/*** background: #1c1f22; HS - 22Jan2026***/
 .no-bg .orange-bg-light{border: none; border-top: 5px solid #f06f07; background: #2c3136;}
 .no-bg .yellow-bg-light{border: none;  border-top: 5px solid #ffbd20; background: #2c3136;}
 .no-bg .blue-bg-light{ border: none;  border-top:5px solid #1886c8; background: #2c3136;}
