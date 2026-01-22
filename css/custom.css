@@ -778,8 +778,12 @@ color: #303030!important;
 div[rel='scrollcontent1'] { width:100%; height:320px;}
 .scrollcontent1-bar { width:6px; background: #dddee2; border-radius:0; box-shadow: inset 0px 0px 5px #444444; overflow: hidden; }
 .scrollcontent1-drag { background: #525f65; border-radius: 4px; cursor: pointer;}
-.my-popups .modal-body .user-guide{ position: absolute; right: 40px; top: -37px; background-color: transparent !important; background-image:url('../images/user-guide-img-white.png');  background-repeat:no-repeat;}
-.my-popups .mheader-user .user-guide{ background-image:url('../images/user-guide-img-white.png'); background-repeat: no-repeat; }
+
+/***HS - Commented 22Jan2026 - Ticketing/Index Notes popup double icon was coming****/
+/* .my-popups .modal-body .user-guide{ position: absolute; right: 40px; top: -37px; background-color: transparent !important; background-image:url('../images/user-guide-img-white.png');  background-repeat:no-repeat;}
+.my-popups .mheader-user .user-guide{ background-image:url('../images/user-guide-img-white.png'); background-repeat: no-repeat; } */
+/***HS - Commented 22Jan2026 - Ticketing/Index Notes popup double icon was coming****/
+
 .my-popups .modal-body .user-guide a, .my-popups .mheader-user .user-guide a{color:#fff;}
 /******************************************************newcss************************************************************************/
 .add-custom .list-group-item:hover, .add-custom .list-group-item.selected{cursor:pointer;}
