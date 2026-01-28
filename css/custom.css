@@ -9215,7 +9215,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy3{background-co
 
 /*****Analytics Dashboard - HS - Mohit 28Jan2026***/
 .db_analytic .widget-card { display: flex; flex-direction: column;}
-.db_analytic .widget-title {display: flex; align-items: center; gap: 8px;}
+.db_analytic .widget-title {display: flex; align-items: center; gap: 8px; flex-wrap: wrap;}
 .db_analytic .widget-title em {color: #006666;}
 .db_analytic .chart-container {flex: 1; min-height: 280px;}
 .db_analytic .loading {text-align: center; padding: 40px; color: #7f8c8d;}
