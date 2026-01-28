@@ -8245,13 +8245,7 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .vue-grid-item.cssTransforms { width: 100% !important;}
 }
 
-.deleteblock {
-    position: absolute;
-    right: 5px;
-    top: -4px;
-    font-size: 25px;
-}
-
+.deleteblock {position: absolute; right: 5px; top: -4px; font-size: 25px;}
 .billingmainblock { background: #f7f7f7; border: 1px solid #e9e9e9;}
 .listing .table-responsive table.tdtop td{vertical-align: top;}
 
@@ -8301,7 +8295,6 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .ai_base .whitespace-pre-wrap{float:left; width: 100%;}
 .ai_base .whitespace-pre-wrap .recommendation{background: #fff; border-radius: 15px; padding: 10px; border-left: 4px solid #54ccf1!important; margin-bottom: 10px;}
 
-
 .gd_mainbase .customer-headersmall .profileicon.proj{ margin-right: 5px; position: relative;}
 .gd_mainbase .profileicon.proj{ width: 40px; height: 40px; border-radius: 50%; background: #f2f2f2; text-align: center; line-height: 40px; float: left; font-size: 12px; font-weight: 400;}
 .gd_mainbase .customer-headersmall .profileicon.proj em.status { font-size: 11px; position: absolute; bottom: 0; right: 0px; border: 1px solid #fff; background-color: #fff; border-radius: 100%; width: 14px; height: 14px;}
@@ -8312,11 +8305,7 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .gd_mainbase .customer-headersmall .customer-info_mid h1 {font-size: 16px; margin-bottom: 5px; color: #2c3e50;}
 .customer-info_right{float: right; width: calc(50% - 60px) !important; margin-bottom: 20px; margin-left: 15px;}
 
-.detailsfix .badge{ background: #e3f2fd; color:#fff;display: inline-block;
-  padding: 6px 10px;
-  border-radius: 6px;
-  font-size: 13px;
-  font-weight: 500;}
+.detailsfix .badge{ background: #e3f2fd; color:#fff;display: inline-block; padding: 6px 10px; border-radius: 6px; font-size: 13px; font-weight: 500;}
 
 @media (min-width:1100px) and (max-width: 1400px) {
 
@@ -8331,17 +8320,13 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
     max-width: 50%!important;}
 }
 @media (max-width: 1099px) {
-.detailsfix{-ms-flex: 0 0 50%!important;
-    flex: 0 0 50%!important;
-    max-width: 50%!important;}
+.detailsfix{-ms-flex: 0 0 50%!important; flex: 0 0 50%!important; max-width: 50%!important;}
 }
 .task.clockposition{float:left; width: 92%;}
-
 /*****22Aug2025 Project New Design********/
 
 
 /******25Aug2025 Work Dairy New Multiple Screenshots Functionality - Ridham ***************/
-
 div#divDialogDetails .arrow-left.arrow_lft {position: absolute; right: -30%; top: 250px;}
 div#divDialogDetails .arrow-right.arrow_rt {position: absolute; left: -30%; top: 250px;}
 
@@ -8390,43 +8375,13 @@ div#divDialogDetails .arrow-right.arrow_rt {position: absolute; left: -30%; top:
 .vue-lightbox-thumbnail-wrapper{bottom:120px!important;}
 ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
 
-
-
 /***Task Detail Screen - Rohit*****/
 .task-info { max-height: 200px; overflow-y: auto; overflow-x: hidden;}
-
 .no-blue:before { border-right: 0px solid rgb(36, 165, 255) !important;}
-
-.conversation-box-con .nobluebod.public-note:before {
-    border-right: none !important;
-}
-
-.task-slider {
-    position: fixed;
-    top: 0;
-    right: -600px;
-    /* Increased from 450px */
-    width: 600px;
-    /* Increased from 450px */
-    height: 100vh;
-    background: white;
-    box-shadow: -2px 0 15px rgba(0, 0, 0, 0.1);
-    transition: right 0.3s ease;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-}
-
-.task-slider.open {
-    right: 0;
-}
-.task-header {
-    padding: 20px;
-    border-bottom: 1px solid var(--gray-light);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+.conversation-box-con .nobluebod.public-note:before { border-right: none !important;}
+.task-slider { position: fixed; top: 0;right: -600px; width: 600px; height: 100vh; background: white; box-shadow: -2px 0 15px rgba(0, 0, 0, 0.1); transition: right 0.3s ease; z-index: 1000; display: flex; flex-direction: column;}
+.task-slider.open { right: 0;}
+.task-header { padding: 20px; border-bottom: 1px solid var(--gray-light); display: flex; justify-content: space-between; align-items: center;}
 .task-title { font-size: 22px; font-weight: 600;  max-width: 80%;}
 .close-slider { background: none; border: none; cursor: pointer; font-size: 24px;
     /* Slightly larger */ color: var(--gray);
@@ -8436,9 +8391,7 @@ ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
 
 /***Task Detail Screen - Rohit*****/
 
-
 /**Project Detail Board Tab**/
-
 .board-view { overflow-x: hidden !important; min-height: 280px; max-height: calc(100vh - 280px);}
 .board-view .canvan-view-list.vuejs li {width: 32.6% !important; max-width: inherit;}
 .sprintprogress {border-radius: 0px; height: 8px;}
@@ -8455,11 +8408,8 @@ ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
 .newdes_kvlist div.list-group .card-box { border: 1px solid #dfdfdf; border-radius: 0px; padding: 15px; background: #fff ;}   
 .tasknames_newdes span{font-size: 20px;}
 .tasknames_newdes a{font-size: 20px;padding:0px 4px;}
-
 .tasknames_newdes{margin-bottom: 10px;}
-
 .tasknames_newdes .count_des{ font-size: 12px; margin-top: 1px; margin-right: 20px; border: 1px solid #ababab; border-radius: 6px; padding: 3px 12px; background: #e4e8ef; margin-left: 15px;  }   
-
 .tasknames_newdes .roundball_des{ border-radius: 100%; width: 8px; height: 8px; float: left; margin-top: 8px; margin-right: 7px;}
 .taskadd_newdes{color:#fff; font-size:16px; background: #5244eb;border-radius: 0px; text-align:center; padding:7px; cursor: pointer;}
 .taskpriority_newdes span{ color: #fff; font-size: 13px; background: #0c8a16; border-radius:5px; text-align: center; padding: 1px 15px; float: left; font-weight: 400;}
@@ -8468,7 +8418,6 @@ ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
 .newdes_kvlist div.list-group .card-box { border: 1px solid #dfdfdf; border-radius: 0px; padding: 20px; background: #fff ;}
 .tasknames_newdes span{font-size: 20px;}
 .tasknames_newdes a{font-size: 20px;padding:4px;} */
-
 /*.tasknames_newdes .count_des{ font-size: 14px; margin-top: 0px; margin-right: 20px; border: 1px solid #ababab; border-radius: 20px; padding: 5px 15px; background: #e4e8ef;}
 .tasknames_newdes .roundball_des{ border-radius: 100%; width: 8px; height: 8px; float: left; margin-top: 8px; margin-right: 10px;} */
 /*.taskadd_newdes{color:#fff; font-size:16px; background: #5244eb;border-radius: 30px; text-align:center; padding:7px;  cursor: pointer;} */
@@ -8496,7 +8445,6 @@ ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
 .hours-bar { height: 8px; background: var(--gray-light); border-radius: 4px; overflow: hidden; margin-bottom: 5px;}
 .hours-progress { height: 100%; background: var(--primary);}
 .hours-stats { display: flex; justify-content: space-between; font-size: 12px; font-weight: 400;}
-
 /* Team section */
 .resource-list {list-style: none;}
 .resource-item {display: flex; align-items: center; padding: 10px; border-bottom: 1px solid var(--gray-light);}
@@ -8535,35 +8483,22 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .comment-user { font-weight: 600; font-size: 15px; /* Slightly larger */ margin-right: 10px; /* Slightly more spacing */}
 .comment-time { font-size: 13px; color: var(--gray);}
 .comment-text {line-height: 1.6; /* Better readability */ font-size: 15px; /* Slightly larger */ float: left; width: 100%;}
-.decoration{width: calc(100% - 70px)!important;
-    box-sizing: border-box;
-    margin-left: 45px;
-    border: 1px solid #e1e1e1;
-    padding: 10px;
-    border-radius: 10px;
-    background: #fafafa;}
-
-
-
+.decoration{width: calc(100% - 70px)!important; box-sizing: border-box;  margin-left: 45px; border: 1px solid #e1e1e1; padding: 10px;
+    border-radius: 10px; background: #fafafa;}
 /**Project Detail Board Tab**/
 
 /**Project Detail Timeline Tab**/
 .initials.user-img-con{ line-height: 34px;text-align: center; font-size: 12px; font-weight: 400; background: rgba(195, 207, 213, 0.84);}
 .customer-headersmall .name-circle .initials{line-height: 34px; text-align: center; font-size: 12px; font-weight: 400; background: rgba(195, 207, 213, 0.84);}
 .customer-headersmall .conversation-header{width: calc(100% - 50px); margin-left: 45px; margin-top: 5px;}
-
 .gantt-elastic__main-container-wrapper, .gantt-elastic__main-container, .gantt-elastic__task-list-container{min-height:473px;}
 .gantt-elastic__task-list-header-column{background:rgb(82, 95, 101) !important; color: #fff;}
-
 .gantt-elastic__calendar-row-rect-child.gantt-elastic__calendar-row-rect-child--day{background:rgb(48, 56, 60) !important; color: #fff;}
 .gantt-elastic__calendar-row-text.gantt-elastic__calendar-row-text--week{background:rgb(48, 56, 60) !important; color: #fff;padding-top: 0px !important;}
 .gantt-elastic__calendar-row-text.gantt-elastic__calendar-row-text--month{background:rgb(48, 56, 60) !important; color: #fff;padding-top: 0px !important;}
 .gantt-elastic__calendar-row-text.gantt-elastic__calendar-row-text--quarter{background:rgb(48, 56, 60) !important; color: #fff;padding-top: 0px !important;}
-
 .gantt-elastic__calendar-row-text{text-shadow: none; color: #fff!important; padding-top: 6px;}
-
 .view-toggle-btn{padding: 4px 20px!important;}
-
 .view-toggle-btn{border-width: 1px!important;}
 .gantt-view-filter{background: #3e3e3e!important; padding: 8px 20px!important;}
 /* .view-toggle-btn.active{background: #667eea!important; color: #fff!important; border-color: #c6d0fd !important;box-shadow: none !important;} */
@@ -8571,15 +8506,10 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .gantt-elastic__main-view-container, .gantt-elastic__main-view-main-container{border-radius:0px!important;}
 /**Project Detail Timeline Tab**/
 
-.gantt-elastic .gantt-view-filter .view-toggle-group button.view-toggle-btn {background: #000; color: #fff; margin-left: 4px;
-    border-width: 1px !important; padding: 10px 20px !important; border: 0px; border-radius: 6px; transform: none; }
+.gantt-elastic .gantt-view-filter .view-toggle-group button.view-toggle-btn {background: #000; color: #fff; margin-left: 4px; border-width: 1px !important; padding: 10px 20px !important; border: 0px; border-radius: 6px; transform: none; }
 .gantt-elastic .gantt-view-filter .view-toggle-group button.view-toggle-btn .view-label{font-weight: 500;}
-
-
 .gantt-elastic .gantt-view-filter .view-toggle-group button.view-toggle-btn .view-icon{display: none;}
-
 .view-toggle-group{gap: 2px!important;}
-
 .table-responsive table th span.font-weight-500{font-weight: 500 !important;}
 
 /*****Project Detail Messages - 2025************/
@@ -8603,7 +8533,6 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .mess_newdes .textareamsg:focus{box-shadow: 0 0 0 1px #2196f3;}
 .mess_newdes .textareamsg{border-radius: 10px;padding:5px;border: 1px solid #d5d5d5;}
 .mess_newdes .textareamsg textarea{border:none}
-
 .mess_newdes .sendbutton:disabled{ background: none!important;  color: #cecece;}
 .mess_newdes .sendbutton{width: 50px; text-align: center; height: 50px;  padding-top: 5px; border:none; background: #2196f3; color: #fff; border-radius: 10px; margin-left: 20px;padding-left: 3px;}
 .mess_newdes .sendbutton em{font-size: 22px;}
@@ -8615,7 +8544,6 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .mess_newdes .chatpanes_acts{display:none; background: #fff; color: #6c757d; position: absolute; right: 10px; top: 10px; border-radius: 10px; border: 1px solid #e8e8e8;}
 .mess_newdes .chatpanes_acts a{padding: 6px 12px;line-height: 26px;color: #535353;}
 .mess_newdes .chatpanes_acts a:hover{background: #f5f4f4; border-radius: 9px; color: #3f3f3f;}
-
 .mess_newdes.vh-90 {height: 80vh !important;}
 .mess_newdes .replybase .textareamsg input {border: none;}
 .mess_newdes .replybase .sendbuttons:disabled{ background: none!important;  color: #cecece;}
@@ -8626,9 +8554,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .mess_newdes .replybase .clearbuttons em{font-size: 20px;}
 .mess_newdes .replythreadbase {border-left: 2px solid #c1c1c1; padding-left: 10px;}
 .mess_newdes .replythreadbase .chat-avatar{background:#7791f7!important; font-size: 12px; width: 30px;height: 30px; min-width: 30px; max-height: 30px;}
-
 .mess_newdes .mess_newdes_right .btn.btn-sm.rounded-pill.mr-2.btn-outline-primary:hover{color: #1777df; background: #fff;}
-
 /*****Project Detail Messages - 2025************/
 
 /***Project Detail - Task Tab 2025****/
@@ -8688,10 +8614,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .rightmodalcssfixs .accordion-content {background: #f6f9fd; margin-bottom: 2px; padding-left: 30px;}
 .rightmodalcssfixs .decoration { width: calc(100% - 70px); box-sizing: border-box; margin-left: 45px; border: 1px solid #e1e1e1; padding: 10px; border-radius: 10px; background: #fafafa;}
 /***Project Detail - Task Tab  2025****/
-
-
 /**** Billing Rules 2025 ****/
-
 .csscontrol_popup .custom-control-input { z-index: 15 !important;}
 .csscontrol_popup .popup {position: unset; top: 30px; left: 0; background: white; border: 1px solid #ccc; padding: 8px; z-index: 100; width: 160px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);}
 .csscontrol_popup .popup-header {display: flex;justify-content: space-between;font-weight: 500; margin-bottom: 8px;}
@@ -8711,9 +8634,6 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .csscontrol_popup .flag-selector .flags {display: flex; gap: 16px; align-items: center;}
 .csscontrol_popup .flag-selector .flag-option { cursor: pointer; font-size: 24px; padding: 0; line-height: 1;}
 .csscontrol_popup .flag-selector .popup-header { display: flex; justify-content: space-between; align-items: center; font-weight: 800; color: #1f2937; margin-bottom: 10px; font-size: 18px;}
-
-
-
 
 .csscontrol_popup .close-btn {border: none; background: none; cursor: pointer;} 
 .csscontrol_popup .multiselect__content-wrapper { max-height: 160px !important;}
@@ -8739,28 +8659,18 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 
 /**** Billing Rules 2025 ****/
 
-
 .impact { margin-top: 10px; padding: 15px; background-color: #e9ecef; border-left: 4px solid #007bff;}
 .impact ul { padding-left: 30px;}
-
 
 /**Client Detail - Meter Tab Rahul Kumar 2025***/
 #SerialNumber .multiselect.multiselect--disabled{opacity:9;}
 #SerialNumber .multiselect.multiselect--disabled .multiselect__select{height:34px!important;}
 #SerialNumber .multiselect.multiselect--disabled .multiselect__tags .multiselect__single {
-  background: #e0e0e0 !important;
-  color: #000;
-}
-#SerialNumber .multiselect.multiselect--disabled .multiselect__tags {
-  background: #e0e0e0 !important;
-  color: #000;
-}
+  background: #e0e0e0 !important; color: #000;}
+#SerialNumber .multiselect.multiselect--disabled .multiselect__tags { background: #e0e0e0 !important; color: #000;}
 #SerialNumber .multiselect--disabled .multiselect__select{background: #e0e0e0 !important; color: #000;} 
 /**Client Detail - Meter Tab Rahul Kumar 2025***/
-
-
 .conditionbg{background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 4px; padding: 12px; min-height: 60px; color: #495057;}
-
 /***Billing Index Invoice Template Harjit with Thakur ji*****/
 .invoice-action-btns a.download:hover {background: #1395ed;}
 .invoice-action-btns a.download {background: #23a5fd;}
@@ -8824,9 +8734,6 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .invoice-to .invoice-email .fa, .invoice-to .invoice-phone .fa {height: auto; width: auto; top: 0; padding-right: 5px; color: #333;}
 /***Billing Index Invoice Template Harjit with Thakur ji*****/
 .newdes_kvlist div.list-group.addsection {padding-top: 14px; max-height: 60px; font-size:20px; font-weight: 500; color: #5a5a5a;}
-
-
-
 
 /****Manage Subscription Harjit with Thakur ji 20Nov2025*****/
 .rt_descontrol .pack-add-count { margin-bottom: 0px;	margin-top: 0px;	z-index: 1;	position: relative;}
@@ -8938,22 +8845,16 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .rt_descontrol .sub-includes { width: 100%; position: relative; display: inline-block; line-height: 25px; padding-left: 22px; font-size: 14px; position: relative; color: #303030;}
 .rt_descontrol .pro-headr { position: relative; display: inline-block; width: 100%; padding: 10px 0; min-height: 160px; background: none;}
 .rt_descontrol .pro-headr h2 { margin-top: 10px; color: #fff;  padding: 0 8px; font-size: 22px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; margin-bottom: 5px; line-height: 30px;}
-
 .rt_descontrol .buttonsposition {text-align: right; position: absolute; top: 0; right: 16px;}
 .rt_descontrol .includedicon {color: #1abc9c; position: absolute; right: 10px; top: 18px;}
 .rt_descontrol .duenow {color: #fff !important;background: linear-gradient(to right, #ebf5fb, #128fe4)!important;}
 .rt_descontrol .subsc-total-container{max-width: 1870px;}
-
 .rt_descontrol .price-sub .spnPackageCost {font-size: 35px; font-weight: 600;}
 .rt_descontrol .addpackage_btnbase {float: left; min-height: 350px; padding-top: 250px; position: absolute; right: 60px; top: 0px; z-index: 9;}/**z-index: 999;**/
-
 .rt_descontrol .bill-bar.newhs .bill-conteiner { max-width: 1600px;}
-
 .rt_descontrol .subs-adds-list.less270{width: calc(100% - 270px);}
 .rt_descontrol .tabcontent.less270{width: calc(100% - 270px);}
 .rt_descontrol .less270 .storag-adds{max-width:26%;}
-
-
 .rt_descontrol .addon-wrapper {width: 100%;}
 .rt_descontrol .addpackage_btn { background: #fafafa; display: block; height: 200px; min-width: 200px; text-align: center; border: 1px solid #e1e1e1; border-radius: 15px;}  
 .rt_descontrol .addpackage_btn i { font-size: 40px; color: #5e696f; margin-top: 78px;}
@@ -8964,11 +8865,8 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .rt_descontrol .sbs-free-trial::after{top: 6px; border-right: 15px solid #ff5858; border-left: 15px solid #ff5858;}
 .rt_descontrol .sbs-free-trial{background: #ff5858;}
 .rt_descontrol .sbs-free-trial::before{border-right: 10px solid #ff5858;}
-
 .rt_descontrol .storag-adds .removeAddon { position: absolute;  right: 10px;  top: 6px;}
 .rt_descontrol .storag-adds{background: #fff;}
-
-
 
 @media (max-width:991px) {
     .rt_descontrol .tabcontent.less270{width: 100%!important; margin-bottom: 20px!important;}
@@ -9138,11 +9036,9 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .clientwallet .quick-select button {padding: 10px 20px;border-radius: 6px; border: 1px solid #ccc; background: #fff; cursor: pointer; transition: 0.2s ease;}
 .clientwallet .quick-select button.active {background: #4CAF50; color: white; border-color: #3a8a3f; transform: scale(1.05);}
 /* Client Wallet */
-
 .cl_us_history .stat-item { font-size: 14px; width: 100%; background: #f7f7f7; padding:10px 15px; font-weight: 400;}
 .cl_us_history .stat-value { font-size: 24px; font-weight: 600;  margin-top: 5px; color: #303030;}
 .cl_us_history .stat-value.red { color: #d93333;}
-
 /******Company Wallet - Dashboard************/
 .companywallet_db .avatar {width: 100px; height: 100px; background: #ffffff; border-radius: 50%; font-size: 30px; display: flex; justify-content: center;  align-items: center; border: 1px solid #eee;}
 .companywallet_db .profile-card { background: #fff; padding: 25px; border-radius: 0px!important; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); display: flex; gap: 15px; margin-bottom: 25px;}
@@ -9170,15 +9066,11 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .companywallet_db .totalbalance{background: rgb(239, 246, 255); border: 1px solid rgb(190, 219, 255) !important;}
 .companywallet_db .lowbalance{background: rgb(255, 248, 248); border: 1px solid rgb(234, 200, 200) !important;}
 /******Company Wallet - Dashboard************/
-
 .receipt-card {max-width: 900px;}
 .receipt-card .info-box {background: #f8f9fa; padding: 12px 15px; border-radius: 6px; display: flex; font-size: 15px;}
 .receipt-card .info-box strong {margin-right: 8px;}
 .receipt-card .amount-box .font-24 { font-size: 24px !important;}
 .receipt-card .row.g-3 { margin-bottom: 5px;}
-
-
-
 
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
 .custom-autocomplete {position: relative; width: 100%;}
@@ -9237,37 +9129,21 @@ ul.list-group.list-group-flush { padding: 2px;}
 .autocomplete-wrapper button i.fa-times{font-size: 12px;}
 .autocomplete-wrapper .autocomplete-group:hover .autocomplete-group-header {background: #a6d3ff; border-left: 4px solid #59aaff;}
 .autocomplete-wrapper .autocomplete-menu .autocomplete-grouped .autocomplete-group .autocomplete-group-header .d-flex.flex-column .font-weight-bold.font-14{font-weight: 500!important; color: #303030;}
-
 .autocomplete-wrapper .autocomplete-grouped ul li.list-group-item.autocomplete-item::before {content: "\f0da"; width: 10px; height: 10px; font-family: fontawesome;  position: absolute; left: 6px; font-weight: 700; color: #afafaf;}
 .autocomplete-wrapper .autocomplete-grouped ul li.list-group-item.autocomplete-item::after { position: absolute;  width: 1px;  height: -moz-calc(100% - 18px); height: -webkit-calc(100% - 18px); height: calc(100% - 18px); content: ""; left: 3px;  top: 0; border-left: 1px dashed #afafaf;}
 .autocomplete-wrapper .autocomplete-grouped ul li.list-group-item.active.autocomplete-item::before {color: #469ef9;}
 .autocomplete-wrapper .autocomplete-grouped ul li.list-group-item.active.autocomplete-item::after { border-left: 1px dashed #469ef9;}
 .autocomplete-wrapper .autocomplete-grouped ul li.list-group-item.autocomplete-item.selected{background-color: #e7ffea;}
-
 .autocomplete-wrapper .autocomplete-grouped ul li.list-group-item.autocomplete-item.selected{background-color: #e7ffea; border-left: none;}
 .autocomplete-wrapper .autocomplete-grouped ul li.list-group-item.autocomplete-item.selected::before{content: "\f0da"; width: 10px; height: 10px; font-family: fontawesome;  position: absolute; left: 6px; font-weight: 700; color: #259f41;}
 .autocomplete-wrapper .autocomplete-grouped ul li.list-group-item.autocomplete-item.selected::after{position: absolute;  width: 1px;  height: -moz-calc(100% - 18px); height: -webkit-calc(100% - 18px); height: calc(100% - 18px); content: ""; left: 3px;  top: 0; border-left: 1px dashed#259f41;}
-
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
 
-.add-subtask .btn.btn-success.disabled {
-  color: #fff !important;
-  opacity: 0.5 !important;
-}
-.comment-form .comment-submit.float-right.disabled {
-  color: #fff !important;
-  opacity: 0.5 !important;
-}
-   
-
-
+.add-subtask .btn.btn-success.disabled {color: #fff !important;  opacity: 0.5 !important;}
+.comment-form .comment-submit.float-right.disabled { color: #fff !important; opacity: 0.5 !important;}   
 .table-responsive tbody td .bg-warning {background-color:#e4aa00 !important;}
 
-
 /*by harris sir for tg list*/
-
-
-
 .table-responsive .resizable-column { position: relative; min-width: 150px;}
 .table-responsive .resize-handle { position: absolute; top: 0; right: 0; width: 5px; height: 100%; cursor: col-resize; background: transparent; z-index: 1; user-select: none; }
 .table-responsive .resize-handle em {display: none;}
@@ -9318,41 +9194,16 @@ thead.thead-bg .sticky-action-column {background-color: inherit; }
    }
 }
 
-
 .ddl_versions{right:0; top:-13px; position:absolute;}
-.ddl_versions select{width: 160px;
-  height: 25px !important;
-  padding: 4px 8px;
-  font-size: 14px;
-  font-weight: 600;
-  color: rgb(51, 51, 51);
-  border: 1px solid rgb(204, 204, 204);
-  border-radius: 5px;}
-
-.custom-accr.newdesi .card-header {
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 8px 10px;
-  cursor: pointer;
-  height: 46px;
-  color: #4a4a4a;
-}
-.custom-accr.newdesi .card-header:hover {
-  color: #fff;
-}
+.ddl_versions select{width: 160px;height: 25px !important;padding: 4px 8px; font-size: 14px; font-weight: 600;  color: rgb(51, 51, 51);  border: 1px solid rgb(204, 204, 204); border-radius: 5px;}
+.custom-accr.newdesi .card-header {font-size: 18px; display: flex; align-items: center; width: 100%; padding: 8px 10px;cursor: pointer; height: 46px; color: #4a4a4a;}
+.custom-accr.newdesi .card-header:hover {color: #fff;}
 .noneditablefield{background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 4px; padding: 12px; min-height: 60px; color: #495057;}
-
 /******/
 
 /***Calendar - current date will be selected ***/
-.vc-day-box-center-center.is-today {
-    border: 1px solid #9bccfd;
-    border-radius: 32px;
-}
+.vc-day-box-center-center.is-today { border: 1px solid #9bccfd; border-radius: 32px;}
 /***Calendar - current date will be selected ***/
-
 ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon-m{background-color: #ffe6e0 !important;}
 ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy{background-color: #fff6f3 !important; border: 1px solid #ffb59e !important; cursor: not-allowed !important;}
 
@@ -9361,3 +9212,19 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy2{background-co
 
 ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy3 span.left-icon-m{background-color: #ffeddd !important;}
 ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy3{background-color: #fff8f1 !important; border: 1px solid #e1b48c !important;cursor: not-allowed !important;}
+
+/*****Analytics Dashboard - HS - Mohit 28Jan2026***/
+.db_analytic .widget-card { display: flex; flex-direction: column;}
+.db_analytic .widget-title {display: flex; align-items: center; gap: 8px;}
+.db_analytic .widget-title em {color: #006666;}
+.db_analytic .chart-container {flex: 1; min-height: 280px;}
+.db_analytic .loading {text-align: center; padding: 40px; color: #7f8c8d;}
+.db_analytic .mini-stats {display: flex; gap: 15px; margin-top: 15px; padding: 5px;}
+.db_analytic .mini-stat {flex: 1; text-align: center; padding: 10px; background: #f8fafc;}
+.db_analytic .mini-stat-value {font-size: 16px; font-weight: 600; color: #006666; }
+.db_analytic .mini-stat-label {font-size: 12px; color: #5a6566;}
+
+/*****Analytics Dashboard - HS - Mohit 28Jan2026***/
+
+
+
