@@ -9226,5 +9226,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy3{background-co
 
 /*****Analytics Dashboard - HS - Mohit 28Jan2026***/
 
-
+ul.nodechld li div.modal-header {
+    line-height: normal;
+}
 
