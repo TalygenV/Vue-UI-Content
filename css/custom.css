@@ -9230,5 +9230,5 @@ ul.nodechld li div.modal-header {
     line-height: normal;
 }
 
-.vc-day.is-not-in-month {opacity: 0.5!important;}
+.vc-day.is-not-in-month .vc-day-content{opacity: 0.5!important;}
 
