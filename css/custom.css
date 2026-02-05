@@ -9124,6 +9124,7 @@ ul.list-group.list-group-flush { padding: 2px;}
 .autocomplete-check-icon { position: absolute; left: 0; top: 0; width: 20px; height: 20px; background-color: #007bff; border: 2px solid #007bff; border-radius: 3px; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.75rem; pointer-events: none; transition: all 0.2s ease;}
 .autocomplete-checkbox:not(:checked) ~ .autocomplete-check-icon { background-color: white; border-color: #ced4da; color: transparent;}
 .autocomplete-checkbox:checked ~ .autocomplete-check-icon { background-color: #e7f3ff; border-color: #e7f3ff; color: #007bff; font-size:16px;}
+.autocomplete-item.selected .autocomplete-check-icon { background-color: #e7f3ff; border-color: #e7f3ff; color: #007bff; font-size: 16px;} /**Avtar Sir added - on Signal 5Feb2026****/
 .autocomplete-wrapper ul.list-group.list-group-flush .font-weight-400{font-size: 14px;}
 .autocomplete-wrapper button i.fa-chevron-down{font-size: 10px;}
 .autocomplete-wrapper button i.fa-times{font-size: 12px;}
