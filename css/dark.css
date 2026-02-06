@@ -675,7 +675,7 @@ background-size: 1rem 1rem;
 .custom-accr #divdashboadicondata {	margin-top: 15px;}
 .left-menu-tab h5 a.tab-Search-btn i {color:#28a745 !important}
 
-select.form-control {	background-image: url(/Content/Responsive/images/drop-down-arrow-dark.png);}
+select.form-control {	background-image: url(https://talygenv.github.io/Vue-UI-Content/Content/Responsive/images/drop-down-arrow-dark.png);}
 .datepicker .table {	color: #ddd;}
 .notfound .notfound-404.UnAuthorized h1 > span {	text-shadow: -3px 0px 0px #1c1f22;	color: #ddd;}
 .v-select .open-indicator::before {	border-top: 5px solid #e1e1e1 !important;}
