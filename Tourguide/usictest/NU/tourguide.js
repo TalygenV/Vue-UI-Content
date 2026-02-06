@@ -2758,4 +2758,29 @@ touritem["CRM/VendorListing"] = {
     }    
   ]
 };
+touritem["ClientBill/Index"] = {
+  ModuleDisplayName: "Invoice",
+  ModuleName: "Billing",
+  displayName: "Invoice",
+  items: [
+    {
+      selector: "#crmleftsearch",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchFilterInvoiceContent",
+    },
+    {
+      selector: "#manualBillButton",
+      step: 2,
+      title: "Manual" + " " + "Invoice",
+      content: "ManualInvoiceContent",
+    },
+    {
+      selector: ".invaction",
+      step: 3,
+      title: "Update" + " " + "InvoiceStatus",
+      content: "InvoiceStatusContent",
+    },
+  ],
+};
 tourData.push(touritem);
