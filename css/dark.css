@@ -1500,11 +1500,11 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .custom-accr.newdesi .card-header {color: #fff;}
 .custom-accr.newdesi .card-header:hover {color: #ccc;}
 .noneditablefield{background-color: #272b2f; border: 1px solid #3c3f43; color: #ccc;}
-
 .darkthemebase{border: 1px solid #454748!important;}
 .darkthemebase .invoice-container{background: #2c3136; border: 1px solid #454748;}
 .darkthemebase .invoice-container table th { background: #2c3136;}
 
+/*****Analytics Dashboard - HS - Mohit******/
 .widgets-grid_mainsingle .controls{background: #33383e; border: 1px solid #454748;}
 .db_analytic .mini-stat{background: #2c3136;}
 .db_analytic .mini-stat-value{color: #03d7d7;}
@@ -1520,4 +1520,6 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .revenue-stat-label{color: #ccc;}
 
 .revenue-btn{background: #1c1f22; color: #ccc; border: 1px solid #3e3e3e;}
+
+/*****Analytics Dashboard - HS - Mohit******/
 
