@@ -1515,5 +1515,7 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 
 .db_analytic .widget-title em {color: #099;}
 
-
+.revenue-stat-box{background: #2c3136;border: 1px solid #393939; border-left: 4px solid #058080;}
+.revenue-stat-value{color: #03d7d7;}
+.revenue-stat-label{color: #ccc;}
 
