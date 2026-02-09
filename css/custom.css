@@ -9140,6 +9140,10 @@ ul.list-group.list-group-flush { padding: 2px;}
 .autocomplete-wrapper .autocomplete-grouped ul li.list-group-item.autocomplete-item.selected{background-color: #e7ffea; border-left: none;}
 .autocomplete-wrapper .autocomplete-grouped ul li.list-group-item.autocomplete-item.selected::before{content: "\f0da"; width: 10px; height: 10px; font-family: fontawesome;  position: absolute; left: 6px; font-weight: 700; color: #259f41;}
 .autocomplete-wrapper .autocomplete-grouped ul li.list-group-item.autocomplete-item.selected::after{position: absolute;  width: 1px;  height: -moz-calc(100% - 18px); height: -webkit-calc(100% - 18px); height: calc(100% - 18px); content: ""; left: 3px;  top: 0; border-left: 1px dashed#259f41;}
+
+.selectedcontract tbody tr.active{background-color: #d6eaff!important; font-weight: 600!important; border-left:2px solid #73b7ff;}
+.selectedcontract tbody tr:hover{background-color: #d6eaff!important; font-weight: 600!important; border-left:2px solid #73b7ff;}
+
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
 
 .add-subtask .btn.btn-success.disabled {color: #fff !important;  opacity: 0.5 !important;}
