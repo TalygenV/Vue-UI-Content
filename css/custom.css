@@ -9184,6 +9184,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy2 span.left-ico
 ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy2{background-color: #f4fbf0 !important; border: 1px solid #9dc87f !important; cursor: not-allowed !important;}
 ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy3 span.left-icon-m{background-color: #ffeddd !important;}
 ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy3{background-color: #fff8f1 !important; border: 1px solid #e1b48c !important;cursor: not-allowed !important;}
+
 /*****Analytics Dashboard - HS - Mohit 28Jan2026***/
 .db_analytic .widget-card { display: flex; flex-direction: column;}
 .db_analytic .widget-title {display: flex; align-items: center; gap: 8px; flex-wrap: wrap;}
@@ -9200,6 +9201,7 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .vc-day.is-not-in-month .vc-day-content{opacity: 0.5!important;}
 .e-reportviewer-pageviewcontainer{overflow-x: auto;}
 /*****Analytics Dashboard - HS - Mohit******/
+
 .revenue-controls { display: flex;gap: 15px; margin-top: 15px; flex-wrap: wrap;}
 .revenue-btn { padding: 8px 16px;  border: 1px solid #bdbdbd; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s;}
 .revenue-btn:hover {background: #3b82f6; color: #fff;  border-color: #3b82f6;}
@@ -9209,6 +9211,10 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .revenue-stat-box { text-align: center; padding: 15px; background: #f8fafc;  border-radius: 6px; border: 1px solid #f4f4f4;  border-left: 4px solid #006666;}
 .revenue-stat-value {font-size: 18px; font-weight: 700; color: #006666; margin-bottom: 5px;}
 .revenue-stat-label {font-size: 12px; color: #7f8c8d;}
+
+.revenue-analytics .widgets-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));  gap: 20px;}
+.revenue-analytics .widgets-grid_mainsingle { display: grid; gap: 20px;}
+
 .widgets-grid_mainsingle .controls { display: flex;  gap: 20px; margin-bottom: 2px; flex-wrap: wrap;  padding: 20px; background: #fafafa; border:1px solid #ccc;} 
 .widgets-grid_mainsingle .control-group { display: flex; flex-direction: column;  }/**gap: 8px;**/
 .widgets-grid_mainsingle .year-filter { display: flex; gap: 10px; flex-wrap: wrap;}
