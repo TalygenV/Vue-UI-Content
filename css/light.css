@@ -1058,3 +1058,11 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
     border: 2px solid #ffa500 !important;
     box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
 }
+
+/*****Analytics Dashboard - HS - Mohit******/
+.widgets-grid_mainsingle .controls{background: #fff; border: 1px solid #ccc;}
+.widgets-grid_mainsingle .year-btn.active, .revenue-btn.active{background: #6aa3ff; border-color: #5a96f9;}
+.widgets-grid_mainsingle .year-btn:hover, .revenue-btn:hover  {background: #6aa3ff; border-color: #5a96f9;}
+
+/*****Analytics Dashboard - HS - Mohit******/
+
