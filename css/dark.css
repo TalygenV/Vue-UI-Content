@@ -1542,8 +1542,8 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 
 .global-search-container .work-item.compact:hover {background-color: #171717;}
 
-
-
+.global-search-container .view-all-results-footer{background: #7eb5e8; border-top: 1px solid #478ccc;}
+.global-search-container .view-all-link{color: #FFF;}
 
 /*****Global Search********/
 
