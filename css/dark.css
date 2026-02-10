@@ -1527,5 +1527,7 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .global-search-container .recent-searches-section{border-bottom: 1px solid #404040;}
 .global-search-container .recent-searches-section .section-header{background: #2c3136;}
 
+.global-search-container .recent-searches-list .search-text{color: #ccc;}
+
 /*****Global Search********/
 
