@@ -1523,3 +1523,13 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 
 /*****Analytics Dashboard - HS - Mohit******/
 
+/*****Global Search********/
+.global-search-input, .global-search-input:focus{background: #191d20 !important; color: #ccc !important;}
+.search-overlay-content{border: 1px solid #404040; background: #212528; }
+.search-overlay-header{border-bottom: 1px solid #404040; background: #15181a;}
+.filter-dropdown{border: 1px solid #404040; background: #3c3f43;color: #ccc;}
+.recent-searches-section{border-bottom: 1px solid #404040;}
+.recent-searches-section .section-header{background: #2c3136;}
+
+/*****Global Search********/
+
