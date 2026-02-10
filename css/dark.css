@@ -1509,32 +1509,23 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .db_analytic .mini-stat{background: #2c3136;}
 .db_analytic .mini-stat-value{color: #03d7d7;}
 .db_analytic .mini-stat-label{color: #ccc;}
-
 .widgets-grid_mainsingle .year-btn{background: #1c1f22; color: #ccc; border: 1px solid #3e3e3e;}
 .revenue-btn{background: #1c1f22; color: #ccc; border: 1px solid #3e3e3e;}
-
 .db_analytic .widget-title em {color: #099;}
-
 .revenue-stat-box{background: #2c3136;border: 1px solid #393939; border-left: 4px solid #058080;}
 .revenue-stat-value{color: #03d7d7;}
 .revenue-stat-label{color: #ccc;}
-
 .revenue-btn{background: #1c1f22; color: #ccc; border: 1px solid #3e3e3e;}
-
 /*****Analytics Dashboard - HS - Mohit******/
 
 /*****Global Search********/
-.global-search-input, .global-search-input:focus{background: #191d20 !important; color: #ccc !important;}
-
-.global-search-input:hover{background: #191d20 !important; color: #ccc !important;}
-
-.search-overlay-content{border: 1px solid #404040; background: #212528; }
-.search-overlay-header{border-bottom: 1px solid #404040; background: #15181a;}
-.filter-dropdown{border: 1px solid #404040; background: #3c3f43;color: #ccc;}
-.recent-searches-section{border-bottom: 1px solid #404040;}
-.recent-searches-section .section-header{background: #2c3136;}
-
-
+.global-search-container .global-search-input, .global-search-container .global-search-input:focus{background: #191d20 !important; color: #ccc !important;}
+.global-search-container .global-search-input:hover{background: #191d20 !important; color: #ccc !important;}
+.global-search-container .search-overlay-content{border: 1px solid #404040; background: #212528; }
+.global-search-container .search-overlay-header{border-bottom: 1px solid #404040; background: #15181a;}
+.global-search-container .filter-dropdown{border: 1px solid #404040; background: #3c3f43;color: #ccc;}
+.global-search-container .recent-searches-section{border-bottom: 1px solid #404040;}
+.global-search-container .recent-searches-section .section-header{background: #2c3136;}
 
 /*****Global Search********/
 

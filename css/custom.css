@@ -9240,7 +9240,7 @@ ul.nodechld li div.modal-header { line-height: normal;}
 /*******Global search*********/
 .global-search-container {position: relative; margin-top: 6px; flex: 1; max-width: 400px; min-width: 400px;}
 .global-search-wrapper { position: relative; width: 100%;}
-.global-search-input { border-radius: 20px 0 0 20px; padding: 8px 15px; border: 1px solid #ddd; font-size: 14px;  transition: all 0.3s ease; background: white !important; color: #333 !important; opacity: 1 !important;}
+.global-search-input { border-radius:0px; padding: 8px 15px; border: 1px solid #ddd; font-size: 14px;  transition: all 0.3s ease; background: white !important; color: #333 !important; opacity: 1 !important;}
 
 .global-search-input:focus {background: white !important; color: #333 !important; opacity: 1 !important; border-color: #007bff; box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); outline: none;}
 .global-search-input:hover {background: white !important; color: #333 !important; opacity: 1 !important;}
