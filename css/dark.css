@@ -1527,12 +1527,22 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .global-search-container .recent-searches-section{border-bottom: 1px solid #404040;}
 .global-search-container .recent-searches-section .section-header{background: #2c3136;}
 
-.global-search-container .recent-searches-list .search-text{color: #ccc;}
-
 .global-search-container .recent-search-item .search-text{color: #ccc;}
-
 .global-search-container .recent-search-item:hover{background-color: #111;}
 .global-search-container .recent-search-item{border-bottom: 1px solid #4f4f4f;}
+.global-search-container .search-results-section{border-top: 1px solid #1a1a1a;}
+
+.global-search-container .section-header{background: #2f2f2f;}
+.global-search-container .section-header h5{color: #ccc;}
+
+.global-search-container .work-item.compact{border-bottom: 1px solid #464646;}
+
+.global-search-container .work-item-title{color: #969ca2;}
+.global-search-container .meta-label{color: #969ca2;}
+
+
+
+
 
 /*****Global Search********/
 
