@@ -1540,6 +1540,7 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .global-search-container .work-item-title{color: #969ca2;}
 .global-search-container .meta-label{color: #969ca2;}
 
+.global-search-container .work-item.compact:hover {background-color: #171717;}
 
 
 
