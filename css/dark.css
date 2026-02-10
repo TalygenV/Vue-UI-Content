@@ -574,7 +574,7 @@ input:checked + .toggle { background: #448ee4;  color: #fff;}
 .bg-lightgreen{background:#72d9c8!important}	
 .bg-yellow{background:#e7c52d!important}	
 .tab-content > .tab-pane{border:none;}
-.tab-content > .tab-pane.active.show {	border: 1px solid #2c3136;}
+.tab-content > .tab-pane.active.show {	border: 1px solid #2c3136!important;}
 .left-filter .custom-radio, .left-filter .custom-checkbox{color:#ddd;}
 #divApprovalType, #ListApprovalType{background:transparent;}
 .custom-control-input:disabled~.custom-control-label::before{background: #4b4f51; border: 1px solid #4b4f51;}	
