@@ -9318,6 +9318,21 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .global-search-container .view-all-link em { font-size: 11px; margin-left: 5px;}
 
 
+.global-search-container .status-value {font-weight: 600; padding: 2px 8px; border-radius: 3px; display: inline-block; border: 1px solid;}
+.global-search-container .status-value.status-active { color: #fff;  background-color: #28a745; border-color: #28a745;}
+.global-search-container .status-value.status-inactive { color: #fff; background-color: #dc3545; border-color: #dc3545;}
+.global-search-container .status-value.status-sent { color: #fff; background-color: #0062cc;  border-color: #005cbf;}
+.global-search-container .status-value.status-cancelled { color: #fff; background-color: #dc3545; border-color: #dc3545;}
+.global-search-container .status-value.status-generated { color: #fff; background-color: #d39e00; border-color: #c69500;}
+.global-search-container .status-value.status-released {  color: #fff; background-color: #1e7e34; border-color: #1c7430;}
+.global-search-container .status-value.status-failed {    color: #fff; background-color: #dc3545; border-color: #dc3545;}
+.global-search-container .status-value.status-deleted {   color: #fff; background-color: #8b0000; border-color: #8b0000;}
+.global-search-container .status-value.status-default {   color: #007bff; background-color: #d1ecf1; border-color: #bee5eb;}
+
+.global-search-container .meta-label { font-weight: 600; color: #495057; margin-right: 5px; white-space: nowrap;}
+.global-search-container .meta-value { color: #6c757d; word-break: break-word; max-width: 100%;}
+
+
 
 
 
