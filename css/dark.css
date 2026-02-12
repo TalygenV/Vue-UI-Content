@@ -1414,6 +1414,12 @@ ul.filetree.treeview{background-color: #2c3136;}
 
 .mess_newdes .mess_newdes_right .chatpanes {background: #2c3136 !important;}
 
+#EmojiPicker .emoji-picker{background: #212528 !important; border-color: #191a1c !important;}
+#Categories{background: #212528 !important;  border-bottom:1px solid #191a1c !important;}
+
+.container-search input{background: #191d20;  border-color: #191a1c !important; color:#ccc;}
+
+
 /****Project Detail - Message Tab - 2025****/
 
 /******Plan - Manage - 2025****/
