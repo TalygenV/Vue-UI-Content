@@ -1560,6 +1560,8 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .global-search-container .view-all-results-footer:hover{background:#016a9b;}
 .global-search-container .view-all-link{color: #FFF;}
 
+.search-results-page .meta-label{color: #969ca2;}
+
 /**Detail Page**/
 .search-results-page{background: #2c3136!important;}
 .search-result-item{border-bottom: 1px solid #404040!important;}
