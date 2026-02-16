@@ -1571,3 +1571,6 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 
 /*****Global Search********/
 
+.selectedcontract tbody tr:hover{background-color: #101213 !important;}
+
+
