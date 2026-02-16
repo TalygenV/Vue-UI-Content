@@ -9144,6 +9144,21 @@ ul.list-group.list-group-flush { padding: 2px;}
 .selectedcontract tbody tr.active{background-color: #d6eaff!important; font-weight: 600!important; border-left:2px solid #73b7ff;}
 .selectedcontract tbody tr:hover{background-color: #d6eaff!important; font-weight: 600!important; border-left:2px solid #73b7ff;}
 
+.newdsgn a.disabled {opacity: 0.6; color: #ffffff !important; }
+.newdsgn ul.nodechld li div { line-height: normal !important;}
+.newdsgn ul.nodechld li div.content{ line-height: 40px !important;}
+.newdsgn .badge.bg-warning{font-weight: 600; color: #8d581a !important;   background-color: #fef9c3!important;  padding: 4px 8px!important;  text-transform: uppercase;}
+.newdsgn .badge.bg-primary{font-weight: 600; color: #3b56af !important;   background-color: #dbeafe !important;  padding: 4px 8px!important;  text-transform: uppercase;}
+.newdsgn .badge.bg-primary.childd2{ color: #315ef1 !important;   background-color: #ffffff!important;  padding: 4px 8px !important;  text-transform: uppercase; border: 1px solid #dbeafe!important;} 
+.newdsgn ul li.globalbg{background-color: #fafafa!important;border-top:1px solid #e1e1e1!important;}
+.newdsgn ul li.rulebg{background-color: #ffffff!important;  border-top:1px solid #e5e5e5!important;}
+.newdsgn ul.childrule{border: 0px!important;}
+.newdsgn .parent-childrow{ background: none!important;}
+.newdsgn .parent-childrow em{ color: #525f65; font-size: 12px; margin-top: 2px;}
+.newdsgn .list-box.action-list-box{position: absolute!important; width:500px!important;}
+.newdsgn .ulnodellistdata .actions.mobileaction{margin-top: 12px!important;}
+
+
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
 
 .add-subtask .btn.btn-success.disabled {color: #fff !important;  opacity: 0.5 !important;}
