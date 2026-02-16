@@ -1562,6 +1562,8 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 
 .search-results-page .meta-label, .search-results-page .meta-value, .search-results-page .result-description{color: #969ca2!important;}
 
+.search-results-page .meta-value.status-value{color: #fff!important;}
+
 /**Detail Page**/
 .search-results-page{background: #2c3136!important;}
 .search-result-item{border-bottom: 1px solid #404040!important;}
