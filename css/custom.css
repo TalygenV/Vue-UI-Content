@@ -9388,3 +9388,9 @@ ul.nodechld li div.modal-header { line-height: normal;}
 
 
 /*******Global search*********/
+
+
+
+.tg-listv-control .input-group.is-invalid .form-control {
+    border: 1px solid #dc3545 !important;
+}
