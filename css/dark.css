@@ -1508,9 +1508,9 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 
 .selectedcontract tbody tr:hover{background-color: #101213 !important;}
 
-.newdsgn ul li.globalbg{background-color: #2c3136 !important; border-top: 1px solid #1c1f22;}
+.newdsgn ul li.globalbg{background-color: #2c3136 !important; border-top: 1px solid #1c1f22!important;}
 .newdsgn ul li.globalbg .content span.textelipsis, .newdsgn ul li.rulebg .content span.textelipsis{color: #ccc!important;}
-.newdsgn ul li.rulebg{background-color: #3a4046 !important; border-top: 1px solid #1c1f22;}
+.newdsgn ul li.rulebg{background-color: #3a4046 !important; border-top: 1px solid #1c1f22!important;}
 
 
 
