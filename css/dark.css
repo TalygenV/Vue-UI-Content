@@ -635,7 +635,6 @@ line-height: 50px;
 .lg-pausedresumed{background:#3a3a3d;}
 .lg-flaggedentry{background:#93604d;}
 .lg-orange{background:#fd7a1a;}
-
 .table-bordered tr.lgtr-timesheet td:first-child::after {background: #3ebe0b;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
 .table-bordered tr.lgtr-addedmanually td:first-child::after {background: #cca51d;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
 .table-bordered tr.lgtr-bulktime td:first-child::after {background: #43acf7;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
@@ -667,14 +666,11 @@ line-height: 50px;
 .storagegraph .progress-bar {	background-color: #20a3ff;}
 .storagegraph .progress-bar-striped {
 background-image: linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
-background-size: 1rem 1rem;
-}
+background-size: 1rem 1rem;}
 .position-unset .full-menu-new .collps:hover{background: #000 !important; outline:none;color:#303030 !important;opacity: 1;}
- 
-/*gaurav dhiman doc icons*/
+ /*gaurav dhiman doc icons*/
 .custom-accr #divdashboadicondata {	margin-top: 15px;}
 .left-menu-tab h5 a.tab-Search-btn i {color:#28a745 !important}
-
 select.form-control {	background-image: url(https://talygenv.github.io/Vue-UI-Content/Content/Responsive/images/drop-down-arrow-dark.png);}
 .datepicker .table {	color: #ddd;}
 .notfound .notfound-404.UnAuthorized h1 > span {	text-shadow: -3px 0px 0px #1c1f22;	color: #ddd;}
@@ -690,10 +686,6 @@ select.form-control {	background-image: url(https://talygenv.github.io/Vue-UI-Co
 #divTargetResultData .table {color: #ddd;}
 .colorbtn {	color: #ddd;	background: #212528;}
 .borderdddddd {	border: 1px solid #212528 !important;}
-
-
-
-
 .fc_subchild li {	background-image: url(https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/FlowChart_RightArrow.png) !important;}
 /* .fc_parentchild li.arrowdown {	background-image: url(/Content/OrganizationChart/dark-images/FlowChart_DownArrow_90.png) !important;	background-repeat: no-repeat !important;	background-position: 129px bottom !important;} */
 /* .fc_parentchild li p.shape_oval {	background-image: url(/Content/OrganizationChart/dark-images/round_purple.png) !important;} */
@@ -703,10 +695,8 @@ select.form-control {	background-image: url(https://talygenv.github.io/Vue-UI-Co
 .fc_subchild li a.resulteditlink{background-image: url(https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/billing_sprite.png) !important;}
 .fc_subchild li p.hoctagon {background-image:url(https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/hoctagen.png) !important; }
 .fc_subchild li p.shape_oval { background:#ffe0a4!important;}
-
 .fc_parentchild li p.shape_oval{ border-radius: 20px;}
 .fc_parentchild li.arrowdown { background-image:url(https://talygenv.github.io/Vue-UI-Content/images/billingRule/dark-images/FlowChart_DownArrow.png); }
-
 .timepicker-picker .btn{ color: #ddd;}
 .custom-accr .card-header a {	color: #ddd;}
 .btn:hover {	color: #fff;}
@@ -723,7 +713,6 @@ select.form-control {	background-image: url(https://talygenv.github.io/Vue-UI-Co
 .btn-warning:hover {	background-color: #ae9833;	border-color: #ae9833;}
 .user-guide { background-repeat: no-repeat !important;background-position: 0px 0px !important; color:#ddd;}
 /* background: url('../images/user-guide-img-white.png'); */
-
 .tree li span.grandparent::after, .tree li span::after {	color: #ddd !important;}
 .select-custom li {	background: #2c3135 !important; border-bottom: 1px solid #1c1f22 !important;}
 .select-custom li label {	color: #ddd !important;	}
@@ -822,7 +811,6 @@ li.active ~ li span.round-tab {    background: #1c1f22;}
 .table-bordered tr.tdl-legend-progress td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#17a2b8;  display: block; position:absolute; left:0px; top:3px; }
 .table-bordered tr.tdl-legend-completed td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#23a4ff;  display: block; position:absolute; left:0px; top:3px; }
 .table-bordered tr.tdl-legend-upcoming td:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#78909C;  display: block; position:absolute; left:0px; top:3px; }
-
 .bg-border .tdl-legend-overdue { border: 2px solid #e05f37; border-top: 5px solid #e05f37; background: none; }
 .bg-border .tdl-legend-pending { border: 2px solid #cdac37; border-top: 5px solid #cdac37; background: none; }
 .bg-border .tdl-legend-progress { border: 2px solid #17a2b8; border-top: 5px solid #17a2b8; background: none; }
@@ -843,7 +831,6 @@ li.active ~ li span.round-tab {    background: #1c1f22;}
 .legends_medium{background:#4cb4fb;}
 .legends_low{background:#4db567;}
 .legends-purple {background: #af39d0;}
-
 .legends_air-force-blue{background:#5a97a5;}
 .legends-red-damask{background:#cc6848;}
 .legends-Apple{background:#76b13d;}
@@ -956,11 +943,9 @@ table.rowhighlighter tbody tr:hover {    background:#34393e!important;}/*#454748
 #divarticlesList div.articlesList:nth-child(2n+1) {    background: #191d20;    border-bottom: 1px dashed #454748;   border-top: 1px dashed #454748;}
 .select2-dropdown {    background-color: #2c3135 !important;    border: 1px solid #3c3f43 !important;}
 .select2-container--open .select2-dropdown.select2-dropdown--below {    border-top: 1px solid #3c3f43 !important;}
-
 .list-group.srch-results li { list-style: none;}
 .user-detail .user-contactinfo { color: #ddd !important; border-top: 1px solid #454748;}
 .add-project-message {    background: #2c3136  !important;    border-left: 1px solid #2c3136  !important;}
-
 .teaminfo-header {    border-bottom: 1px solid #454748 !important;}
 .teaminfo-header h4 {    color: #ddd !important;}
 .closeRightslider {    color: #ddd !important;}
@@ -1068,11 +1053,9 @@ color:#191d20 !important;
 }
 .bootstrap-datetimepicker-widget table td i:hover {
 background: #191d20!important;
-/*color:#191d20 !important;*/
 }
 a.text-dark:focus, a.text-dark:hover{ color: #ddd !important; }
 /*email-marketing pop-up gaurav*/
-
 /*****FCK editor icons not visible in dark theme - Harjit on Radhe PC*******/
 .cke_button_icon{filter:invert(100%)!important;}
 /*body .cke_editable{color:#ddd!important;}*/
@@ -1180,22 +1163,18 @@ span.mobileaction a i.fa-ellipsis-h{color:#fff;}
 /***Customize dropdown for Project listing screen-Harjit 5May2022*****/
 select.form-control.customized_ddl {background-color: #3d484d; color:#fff; border-color:#62686a; background-image: url(/Content/Responsive/images/drop-down-arrow-dark.png);}
 /***Customize dropdown for Project listing screen-Harjit 5May2022*****/
-
 /****2024 - New Css added *****/
 /****2024 - Department View Dashboard - Harjit { developer - Ejaz }*****/
 .apexcharts-legend-text{color:#ddd!important;}
 .apexcharts-text tspan{color:#ddd!important;}
 .apexcharts-canvas.apexcharts-theme-light{background: #000!important;}
-
 .border.light-blue-border { border:1px solid #008ff5 !important;}
 .border.border-warning { border:1px solid #ffc107 !important;}
 .border.border-success { border:1px solid #28a745 !important;}
 .border.dark-blue-border { border:1px solid #3967d1 !important;}
 .border.red-orange-border { border:1px solid #f86245 !important;}
-
 .border.b-secondery-blue{border: 1px solid #2085ff !important;}
 .border.b-turquoise{border: 1px solid #2dc8ba!important;}
-
 /****2024 - Department View Dashboard - Harjit { developer - Ejaz }*****/
 .tt_addcategory_ddl.multiselect-dropdown{color:#fff; background: #191d20; border: 1px solid #3c3f43;}
 .tt_addcategory_ddl.multiselect-dropdown .placeholder{background: none; padding: 0px; }
@@ -1203,7 +1182,6 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .tt_addcategory_ddl .multiselect-dropdown-search{border: 1px solid #646464; background: #393e42 !important;}
 .tt_addcategory_ddl .multiselect-dropdown-list{border-left: 1px solid #646464;border-right: 1px solid #646464;}
 .tt_addcategory_ddl .multiselect-dropdown-all-selector, .tt_addcategory_ddl .multiselect-dropdown-single-selector { border-bottom: 1px solid #3c3f43;}
-
 .initialsetup_newtab_mainbase .right-content{border-left: 1px solid #535353; background: #212528;}
 .initialsetup_newtab_design.left-tab li { background: #2c3136!important;border-top: none !important; border-left: 1px solid #000 !important;
     border-right: 1px solid #000 !important; border-bottom: 1px solid #000 !important; height: auto; display: flex; flex-wrap: nowrap;}
@@ -1222,7 +1200,6 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .initialsetup_newtab_design.left-tab li.active.initialsetup_completed:hover a i {color: #fff !important;}
 .initialsetup_newtab_design.left-tab li.initialsetup_completed:hover { background: #2c362d!important;}
 .initialsetup_newtab_design.left-tab li.initialsetup_completed:hover a i { color: #4fb262!important;}
-
 .newtabsdes_configuration_mainbase .right-content {border-left: 1px solid #535353; background: #212528;}
 .newtabsdes_configuration li{background: #2c3136!important ; border-left: 1px solid #000 !important; border-right: 1px solid #000 !important; border-bottom: 1px solid #000 !important;}
 .newtabsdes_configuration li:first-child { border: 1px solid #000 !important;}
@@ -1230,29 +1207,23 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
 .newtabsdes_configuration li a.active{background: #6795bf !important; color: #fff !important;}
 .newtabsdes_configuration li a.active i{color: #fff !important;}
 /****2024 - New Css added *****/
-
 /***********KnowledgeBase Articles - 2024*****************************/
   ul.left-tab.helparticlesnewdesign li:first-child{border-color:#1c1f22!important;}
   .left-filter .helpartilceslistcontrol .card-header{margin: 0px !important; padding: 5px 0px !important;}
   .left-filter .helpartilceslistcontrol .card{margin-bottom: 10px;}
-
   .knowledgebasemain .knowledgebaselist h1{font-size: 1.1rem;color: #ddd; font-weight: 400; margin: 0px 0px 10px 0px; background: #191d20; padding: 10px;}
   .nav-pills .title.overflow_hid h3 {font-size: 1.4rem; color: #ddd; font-weight: 400; margin: 0px 0px 10px 0px;}
   section.help-and-guide .innerminheight .col-md-4.mb-4 a{color: unset;}
-
 /***********KnowledgeBase Articles - 2024*****************************/
-
 ul.filetree.treeview{background-color: #2c3136;}
 .dz-clickable{background-color: #2c3136;}
 .vue-dropzone:hover {background-color: #4c5359!important;}
-
 .livemonitoring .table-bordered thead.thead-bg tr th{background: #2c3136!important; border-top: 1px solid #0f0f0f !important; border-bottom: 1px solid #0f0f0f !important;}
 .livemonitoring .table-bordered thead.thead-bg tr th:first-child{border-left: 1px solid #0f0f0f !important;}
 .livemonitoring .table-bordered thead.thead-bg tr th:last-child{border-right: 1px solid #0f0f0f !important;}
 .livemonitoring .table-bordered tbody tr td:first-child{border-left: 1px solid #0f0f0f !important;}
 .livemonitoring .table-bordered tbody tr td:last-child{border-right: 1px solid #0f0f0f !important;}
 .livemonitoring .dashbord-widget li h3 span{color: #353535;}
-
 /****2024 - New left menu - Harjit Singh*****/
 .menu-left-wrapper .navbar-dark.bg-dark {border-right: 6px solid #29282d;}
 .menu-left-wrapper.wrapper-shrink ul li.myprof_newlogobase {border-right: 6px solid #29282d;}
@@ -1260,7 +1231,6 @@ ul.filetree.treeview{background-color: #2c3136;}
 	background: none !important;
 }
 /****2024 - New left menu - Harjit Singh*****/
-
 #Changeview select#dropdownMenu2 option.text-dark{color: #343a40 !important;}
 .user_type_choice.coloredicons label{background: #191d20; color: #fff; border: 1px solid #454748;}
 .docstorage_leftaccordian .font-12.font-weight-400.text-secondary{color:#d5d5d5!important;}
@@ -1274,17 +1244,12 @@ ul.filetree.treeview{background-color: #2c3136;}
 .apexcharts-tooltip.apexcharts-theme-light{color:#303030;}
 #manageChannelModal.modal.right.fade .modal-body ul#divChannelTypes.shortcuts-menu li:hover .short-item-name{color: #fff!important;}
 #divPopNotificationData.themecontrol{background:#2f3439;}
-
 /********** HR/ShiftRoster - Rahul Kumar 22 May 2025*******************/
 .rostershiftsright {background: #33383e;}
-
 .schedule-vue-sample .treeview-external-drag .e-list-text, 
 .schedule-vue-sample .treeview-external-drag.e-rtl .e-list-text, 
 .e-bigger .schedule-vue-sample .treeview-external-drag .e-list-text, 
-.e-bigger .schedule-vue-sample .treeview-external-drag.e-rtl .e-list-text{
-  color: #ddd; border: 0.5px solid #1C1F22; background: #1c1f22;
-}
-
+.e-bigger .schedule-vue-sample .treeview-external-drag.e-rtl .e-list-text{color: #ddd; border: 0.5px solid #1C1F22; background: #1c1f22;}
 .e-treeview .e-list-item.e-hover > .e-text-content .e-list-text, .e-treeview .e-list-item.e-node-focus > .e-text-content .e-list-text{color:#fff!important;}
 .e-resource-cells .top-left-button-container a {color: #fff !important;}
 .e-toolbar .e-toolbar-items {background: #2c3136!important;}
@@ -1294,7 +1259,6 @@ ul.filetree.treeview{background-color: #2c3136;}
 .e-schedule .e-timeline-view .e-resource-left-td, .e-schedule .e-timeline-month-view .e-resource-left-td{background: #33383e!important;}
 .e-schedule .e-timeline-view .e-resource-cells, .e-schedule .e-timeline-month-view .e-resource-cells{background: #2c3136!important;}
 .e-schedule .e-timeline-view .e-child-node, .e-schedule .e-timeline-month-view .e-child-node{background: #1c1f22;}
-
 .schedule-vue-sample .e-schedule.schedule-drag-drop .e-resource-cells.e-child-node .specialist-category, 
 .schedule-vue-sample .e-schedule.schedule-drag-drop .e-resource-cells.e-child-node .specialist-name{color: #fff;}
 .e-schedule .e-timeline-view .e-resource-cells:focus, .e-schedule .e-timeline-month-view .e-resource-cells:focus { background: #020202!important;}
@@ -1303,32 +1267,20 @@ ul.filetree.treeview{background-color: #2c3136;}
 .e-schedule .e-timeline-view .e-work-cells, .e-schedule .e-timeline-month-view .e-work-cells{background:#b0b0b0;}
 .e-schedule .e-timeline-view .e-resource-group-cells, .e-schedule .e-timeline-month-view .e-resource-group-cells{background:#b0b0b0!important;}
 .e-schedule .e-timeline-view .e-work-cells:hover:not(.e-resource-group-cells), .e-schedule .e-timeline-month-view .e-work-cells:hover:not(.e-resource-group-cells) {background: #575757!important; color: #fff!important;}
-
-/*.e-schedule .e-timeline-view .e-work-cells, .e-schedule .e-timeline-month-view .e-work-cells {background: #1c1f22!important;}
-.e-schedule .e-timeline-view .e-resource-group-cells, .e-schedule .e-timeline-month-view .e-resource-group-cells { background: #1c1f22!important;}
-.e-schedule .e-timeline-view .e-work-cells:hover:not(.e-resource-group-cells), 
-.e-schedule .e-timeline-month-view .e-work-cells:hover:not(.e-resource-group-cells) {
-  background: #20252b!important; color: #000!important;
-} */
 /********** HR/ShiftRoster - Rahul Kumar 22 May 2025*******************/
-
 .custom-calendar.vc-container .vc-pane-container .vc-header{background-color:#2c3136!important;}
 .custom-calendar.vc-container .vc-arrows-container .vc-arrow:hover{background: #4d4d4d!important;}
 .custom-calendar.vc-container .vc-pane-container{border: 1px solid #000!important;}
-
 .custom-calendar.vc-container .vc-pane-container .vc-weeks .vc-weekday{background-color: #212528 !important; color: #fff !important; border-top-color: #454748; border-bottom-color: #454748;}
 .custom-calendar.vc-container .vc-pane-container .vc-weeks .vc-day{background-color: #2c3135!important; color: #fff!important; border-right-color: #000 !important;
   border-bottom-color: #000 !important;}
 
 /**Project Detail Board Tab**/
-
 .newdes_kvlist div.list-group{border: 1px solid #2c3136; background: #2c3136;}
 .tasknames_newdes .count_des {background: #1c1f22; border: 1px solid #1e2124;}
 .newdes_kvlist div.list-group .card-box{background: #1c1f22; border: 1px solid #1e2124;}
 .canvan-view-list.newdes_kvlist .add-backlog-btn{background-color: #1c1f22 !important; border-radius: 20px;}
-
 .newdescolor {border-color:#3c3f43!important;}
-
 .hours-card{ background:#2c3136; border:1px solid #2c3136;}
 .collapsible-content{background:#41484f;}
 .collapsible-header{background:#2c3136;}
@@ -1369,7 +1321,6 @@ ul.filetree.treeview{background-color: #2c3136;}
 .tox-tinymce{border: 1px solid #535353;}
 
 /**Project Detail Board Tab**/    
-
 .gantt-view-filter {background: #2c3136 !important;} 
 .gantt-elastic__main-view-container, .gantt-elastic__main-view-main-container{background: #1e1e1e;}
 .gantt-elastic__chart {background: #000;}
@@ -1384,11 +1335,9 @@ ul.filetree.treeview{background-color: #2c3136;}
 .gantt-elastic__calendar-row-rect{border: none!important;}
 .gantt-elastic__calendar-row-rect-child{border-right: 1px solid rgb(0, 0, 0)!important;}
 .gantt-elastic__chart-days-highlight-rect{fill: #30383c !important;}
-
 .ai_base .whitespace-pre-wrap .recommendation{background: #000!important;  border: 1px solid #293b40; border-left: 4px solid #54ccf1!important;}
 
 /****Project Detail - Message Tab - 2025****/
-
 .mess_newdes .mess_newdes_left .btn-light.lighten { background: #3c3f43;border-color: #3c3f43; color: #fff;}
 .mess_newdes .mess_newdes_left .btn-light.lighten:hover {background:#000; border-color: #000; color: #fff;}
 .mess_newdes .mess_newdes_left .listhovereffect {background: #212529 !important;}
@@ -1403,7 +1352,6 @@ ul.filetree.treeview{background-color: #2c3136;}
 .mess_newdes .p-3.mb-3.rounded.bg-light { border-bottom: 1px solid #2b3f4d; background: #212529 !important;}
 .mess_newdes .roundpills .btn.rounded-pill { background: #2b3742; border: 1px solid #3f5671;}
 .mess_newdes .roundpills .btn.rounded-pill:hover { background:#191d20!important; border: 1px solid #3f5671;}  
-
 .mess_newdes .chat-sidebar { border-right: 1px solid #3d4146;}
 .mess_newdes .border-top {border-top: 1px solid #3d4146 !important;}
 .mess_newdes .mess_newdes_right .textareamsg {border: 1px solid #2b3f4d; background: #212529;}
@@ -1411,9 +1359,7 @@ ul.filetree.treeview{background-color: #2c3136;}
 .mess_newdes .mess_newdes_right .chatpanes_acts{background:#212529; border: 1px solid #2b3f4d;}
 .mess_newdes .mess_newdes_right .chatpanes_acts a{color: #ccc;}
 .mess_newdes .mess_newdes_right .chatpanes_acts a:hover {background:  #191d20;  color: #25a5ff;}
-
 .mess_newdes .mess_newdes_right .chatpanes {background: #2c3136 !important;}
-
 #EmojiPicker.emoji-picker{background: #212528 !important; border-color: #191a1c !important;}
 #Categories{background: #212528 !important;  border-bottom:1px solid #191a1c !important;}
 .container-search input{background: #191d20!important;  border-color: #191a1c !important; color:#ccc!important;}
@@ -1422,14 +1368,12 @@ ul.filetree.treeview{background-color: #2c3136;}
 .mess_newdes .replythreadbase{border-left: 2px solid #3e546e;}
 .tall-body .lastchild-control{border-top: 1px solid #515151!important; border-bottom: 1px solid #515151!important;}  
 .fileFieldAttachment .file-upload .file-upload__area{border: 2px dashed #8a8a8a!important;}
-
 /****Project Detail - Message Tab - 2025****/
 
 /******Plan - Manage - 2025****/
 .impact {background-color: #2c3136;}
 .billingmainblock{background: #2c3136;border: 1px solid #1c1f22;}
 ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
-
 /******Plan - Manage - 2025****/
 .gd_mainbase .customer-info h1{color: #6dadec;}
 .gd_mainbase .customer-avatarname{background: #2c3136;}
@@ -1510,7 +1454,6 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .table-responsive tbody tr td.single-action.only-for-action-col{background-color: #353e43 !important;}
 .table-responsive .action-without-ellipse{background-color: #353e43 !important;}
 /****Table Listing Last Action Column ****/
-
 .custom-accr.newdesi .card-header {color: #fff;}
 .custom-accr.newdesi .card-header:hover {color: #ccc;}
 .noneditablefield{background-color: #272b2f; border: 1px solid #3c3f43; color: #ccc;}
@@ -1540,41 +1483,35 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .global-search-container .filter-dropdown{border: 1px solid #404040; background: #3c3f43;color: #ccc;}
 .global-search-container .recent-searches-section{border-bottom: 1px solid #404040;}
 .global-search-container .recent-searches-section .section-header{background: #2c3136;}
-
 .global-search-container .recent-search-item .search-text{color: #ccc;}
 .global-search-container .recent-search-item:hover{background-color: #111;}
 .global-search-container .recent-search-item{border-bottom: 1px solid #4f4f4f;}
 .global-search-container .search-results-section{border-top: 1px solid #1a1a1a;}
-
 .global-search-container .section-header{background: #2f2f2f;}
 .global-search-container .section-header h5{color: #ccc;}
-
 .global-search-container .work-item.compact{border-bottom: 1px solid #464646;}
-
 .global-search-container .work-item-title{color: #969ca2;}
 .global-search-container .meta-label{color: #969ca2;}
-
 .global-search-container .work-item.compact:hover {background-color: #171717;}
-
 .global-search-container .view-all-results-footer{background:#099de3; border-top: 1px solid #478ccc;}
 .global-search-container .view-all-results-footer:hover{background:#016a9b;}
 .global-search-container .view-all-link{color: #FFF;}
-
 .search-results-page .meta-label, .search-results-page .meta-value, .search-results-page .result-description{color: #969ca2!important;}
-
 .search-results-page .meta-value.status-value{color: #fff!important;}
-
 /**Detail Page**/
 .search-results-page{background: #2c3136!important;}
 .search-result-item{border-bottom: 1px solid #404040!important;}
 .search-result-item:hover {background-color: #0f0f0f!important;}
-
 .search-results-page .nu-paging{border-top: 1px solid #575757; background: #1f2020; padding-left: 15px;}
-
 .search-results-page .filter-dropdown{border: 1px solid #404040!important; background: #3c3f43!important;color: #ccc!important;}
-
 /*****Global Search********/
 
 .selectedcontract tbody tr:hover{background-color: #101213 !important;}
+
+.newdsgn ul li.globalbg{background-color: #2c3136 !important; border-top: 1px solid #1c1f22;}
+.newdsgn ul li.globalbg .content span.textelipsis, .newdsgn ul li.rulebg .content span.textelipsis{color: #ccc!important;}
+.newdsgn ul li.rulebg{background-color: #3a4046 !important; border-top: 1px solid #1c1f22;}
+
+
 
 
