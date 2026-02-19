@@ -1043,7 +1043,194 @@ var CURRENCY_DETAIL = {
         "hour12": true
       }
     }
+  },
+
+  "fa-af": {
+  "currency": {
+    "currency": {
+      "style": "currency",
+      "currency": "AFN",
+      "symbol": "؋",
+      "minimumFractionDigits": 2
+    },
+    decimal2: {
+      style: 'decimal',
+      minimumFractionDigits: 2
+    }
+  },
+  "dateFormat": {
+    "short": {
+      "year": "numeric",
+      "month": "2-digit",
+      "day": "2-digit"
+    },
+    "long": {
+      "weekday": "short",
+      "year": "numeric",
+      "month": "long",
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "hour12": false
+    }
   }
+}, 
+
+"en-bz": {
+  "currency": {
+    "currency": {
+      "style": "currency",
+      "currency": "BZD",
+      "symbol": "BZ$",
+      "minimumFractionDigits": 2
+    },
+    decimal2: {
+      style: 'decimal',
+      minimumFractionDigits: 2
+    }
+  },
+  "dateFormat": {
+    "short": {
+      "year": "numeric",
+      "month": "2-digit",
+      "day": "2-digit"
+    },
+    "long": {
+      "weekday": "short",
+      "year": "numeric",
+      "month": "long",
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "hour12": true
+    }
+  }
+},
+
+"en-bs": {
+  "currency": {
+    "currency": {
+      "style": "currency",
+      "currency": "BSD",
+      "symbol": "B$",
+      "minimumFractionDigits": 2
+    },
+    decimal2: {
+      style: 'decimal',
+      minimumFractionDigits: 2
+    }
+  },
+  "dateFormat": {
+    "short": {
+      "year": "numeric",
+      "month": "2-digit",
+      "day": "2-digit"
+    },
+    "long": {
+      "weekday": "short",
+      "year": "numeric",
+      "month": "long",
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "hour12": true
+    }
+  }
+},
+
+"en-bm": {
+  "currency": {
+    "currency": {
+      "style": "currency",
+      "currency": "BMD",
+      "symbol": "BD$",
+      "minimumFractionDigits": 2
+    },
+    decimal2: {
+      style: 'decimal',
+      minimumFractionDigits: 2
+    }
+  },
+  "dateFormat": {
+    "short": {
+      "year": "numeric",
+      "month": "2-digit",
+      "day": "2-digit"
+    },
+    "long": {
+      "weekday": "short",
+      "year": "numeric",
+      "month": "long",
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "hour12": true
+    }
+  }
+}, 
+"bs-ba": {
+  "currency": {
+    "currency": {
+      "style": "currency",
+      "currency": "BAM",
+      "symbol": "KM",
+      "minimumFractionDigits": 2
+    },
+    decimal2: {
+      style: 'decimal',
+      minimumFractionDigits: 2
+    }
+  },
+  "dateFormat": {
+    "short": {
+      "year": "numeric",
+      "month": "2-digit",
+      "day": "2-digit"
+    },
+    "long": {
+      "weekday": "short",
+      "year": "numeric",
+      "month": "long",
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "hour12": false
+    }
+  }
+},
+
+"en-gm": {
+  "currency": {
+    "currency": {
+      "style": "currency",
+      "currency": "GMD",
+      "symbol": "D",
+      "minimumFractionDigits": 2
+    },
+    decimal2: {
+      style: 'decimal',
+      minimumFractionDigits: 2
+    }
+  },
+  "dateFormat": {
+    "short": {
+      "year": "numeric",
+      "month": "2-digit",
+      "day": "2-digit"
+    },
+    "long": {
+      "weekday": "short",
+      "year": "numeric",
+      "month": "long",
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "hour12": true
+    }
+  }
+}
+
+
 }
 
 function getLocaleByCurrency(currencyCode){
