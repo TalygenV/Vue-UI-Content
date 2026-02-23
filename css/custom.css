@@ -9391,6 +9391,9 @@ ul.nodechld li div.modal-header { line-height: normal;}
 
 
 
-.tg-listv-control .input-group.is-invalid .form-control {
-    border: 1px solid #dc3545 !important;
-}
+.tg-listv-control .input-group.is-invalid .form-control {border: 1px solid #dc3545 !important;}
+
+.vue-treeselect.is-invalid .vue-treeselect__control { border-color: #f44336 !important;}
+
+
+
