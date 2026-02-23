@@ -9401,6 +9401,12 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .right-content .card-body .section_pp .section-header.reddy{ background: #f5f5f5; border:1px solid #d9d9d9; border-left:5px solid #d9534f; border-radius:0px;}
 .right-content .card-body .section_pp .section-header.reddy.common{ background: #f5f5f5; border:1px solid #d9d9d9; border-left:5px solid #4261ef; border-radius:0px; font-size: 16px;} */
 
+.right-content .card-body .section_pp .section-body .customer-headersmall .barrsbase .team-row { display: flex; align-items: center; width:60%;}
+.right-content .card-body .section_pp .section-body .customer-headersmall .barrsbase .team-name { width: 100px;}
+.right-content .card-body .section_pp .section-body .customer-headersmall .barrsbase .bar {flex: 1; background: #eee; border-radius: 4px; overflow: hidden; margin-right: 10px; position: relative;}
+.right-content .card-body .section_pp .section-body .customer-headersmall .barrsbase .fill {height: 20px; background: #4080e1; display: flex; align-items: center; justify-content: center; position: relative; transition: width 0.3s ease;}
+.right-content .card-body .section_pp .section-body .customer-headersmall .barrsbase .fill .percentage-text { color: #555; font-size: 11px; font-weight: 600; white-space: nowrap; text-shadow: 0 1px 2px rgba(0,0,0,0.2);}
+.right-content .card-body .section_pp .section-body .customer-headersmall .barrsbase .count { width: 20px; font-weight: 500; font-size:13px;}
 
 
 
