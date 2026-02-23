@@ -1505,21 +1505,22 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .search-results-page .nu-paging{border-top: 1px solid #575757; background: #1f2020; padding-left: 15px;}
 .search-results-page .filter-dropdown{border: 1px solid #404040!important; background: #3c3f43!important;color: #ccc!important;}
 /*****Global Search********/
-
 .selectedcontract tbody tr:hover{background-color: #101213 !important;}
-
 .newdsgn ul li.globalbg{background-color: #2c3136 !important; border-top: 1px solid #1c1f22!important;}
 .newdsgn ul li.globalbg .content span.textelipsis, .newdsgn ul li.rulebg .content span.textelipsis{color: #ccc!important;}
 .newdsgn ul li.rulebg{background-color: #3a4046 !important; border-top: 1px solid #1c1f22!important;}
-
 .actionsbaser a em.fa-plus-circle.text-secondary{color: #a7aeb5 !important;}
-
 .newdsgn .modal-body.csscontrol_popup .custom-control.custom-checkbox.custom-control-inline.disabled input.disabled{margin-top: 6px!important; margin-left: 2px!important;}
-
 .csscontrol_popup .flag-selector .popup-header{color: #ccc;}
 .csscontrol_popup .flag-selector .popup{background: #22262a; border: 1px solid #454748;}
-/* 
-#divNodeFlowChart .tree li span{color: #ccc;} */
+/* #divNodeFlowChart .tree li span{color: #ccc;} */
 
 .section-body {color: #ccc;}
+
+.right-content .card-body .section_pp .section-header.reddy.common, 
+.right-content .card-body .section_pp .section-header.reddy{background: #171a1c; border: 1px solid #555a5e; color: #ccc;}
+
+
+
+
 
