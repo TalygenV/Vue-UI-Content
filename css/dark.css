@@ -424,7 +424,7 @@ li.parentli ul li div.mainlinebase {	border-left: 1px dashed #454748;	border-bot
 
 .custom-accr .card-header {	background: #31363a;}
 /* .custom-accr .card .card-body {	border: 1px solid #31363a;	background: #31363a;} */
-.custom-accr .card .card-body {	border: 1px solid #31363a;	background: #17181a;}
+.custom-accr .card .card-body {	border: 1px solid #31363a;	background: #17181a; color: #ccc;}/**Color added for ProjectOverview - Budget tab screen - HS 23Feb2026*****/
 .custom-accr .card .card-header a:not(.collapsed):not(.card-link){background:#31363a;}
 .dash-icon {	background: #212528 !important;	border: 1px solid #212528 !important;	color: #ddd !important;}
 .group-span-filestyle {	background: #3c3f43 !important;}
