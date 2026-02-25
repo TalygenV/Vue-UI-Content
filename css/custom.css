@@ -9501,7 +9501,7 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .cls_dashboard .requirementsbase em{color: #dfdfdf;}
 .cls_dashboard .requirementsbase .initials_big {font-size: 15px;}
 .cls_dashboard .cls_skillsbase span{border-radius: 6px!important; padding:5px 15px; font-size:13px !important; color: #0f313a; background: #eef8fa; border: 1px solid #9dc1cd; margin-right: 5px; font-weight: 400; margin-bottom: 10px;}
-.cls_dashboard .cls_educationbase div{border-bottom: 1px solid #c2c2c2; margin-bottom: 10px;padding:8px 0px; font-size: 14px;}
+.cls_dashboard .cls_educationbase div{border-bottom: 1px solid #dfdfdf; margin-bottom: 10px;padding:8px 0px; font-size: 14px;}
 
 .cls_dashboard .section_pp .section-header.reddy {background: #f5f5f5; border: 1px solid #d9d9d9; border-left-width: 1px;  border-left-style: solid;
     border-left-color: rgb(217, 217, 217); border-left: 5px solid #d9534f;border-radius: 0px;}
@@ -9513,6 +9513,69 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .cls_dashboard .cls_rightbase{-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; padding-left:0px!important;}
 }
 
+
+.cls_stagesbase .step-wrapper { position: relative; padding: 20px 0;}
+.cls_stagesbase .step-wrapper::before { content: ''; position: absolute; top: 53px;left: 75px; right:75px; height: 3px; background: #d6d6d6; transform: translateY(-50%); z-index: 0;}
+.step-item.completed::before {content: '';position: absolute; top:33px; left: 130px; right: -80px; height: 3px;  background: #44c46f; transform: translateY(-50%); z-index: 0;}
+.cls_stagesbase .step-item:last-child:before {display: none;}
+.cls_stagesbase .step-item.completed:last-child em{color: #fff!important;}
+.cls_stagesbase .step-item { position: relative; z-index: 1; text-align: center; flex: 1;}
+.cls_stagesbase .step-circle { width: 60px; height: 60px; border-radius: 50%; background: #ffffff; color: #6c757d; display: flex;
+    align-items: center; justify-content: center; margin: 0 auto; font-size: 18px; border: 3px solid #e0e0e0;
+}
+
+.cls_stagesbase .step-item.active .step-circle,
+.cls_stagesbase .step-item.completed .step-circle { background: #44c46f; border-color: #44c46f; color: #fff;}
+.cls_stagesbase .step-label { margin-top: 10px; font-size: 14px; color: #6c757d;}
+.cls_stagesbase .step-item.active .step-label,
+.cls_stagesbase .step-item.completed .step-label { color: #2d8e4e; font-weight: 400;}
+
+@media (max-width: 768px) {
+.cls_stagesbase .step-wrapper {flex-direction: column; align-items: flex-start; }
+.cls_stagesbase .step-wrapper::before {display: none;}
+.cls_stagesbase .step-item {display: flex; align-items: center; margin-bottom: 20px;}
+.cls_stagesbase .step-circle { margin: 0 15px 0 0;}
+.cls_stagesbase .step-label { margin-top: 0; text-align: left;}
+}
+
+ .cls_jd .profile-card {border: 1px solid #dcdcdc; padding:10px 20px; background-color: #f7f7f7;}
+ .cls_jd .profile-avatar {width: 90px; height: 90px; border-radius: 50%; object-fit: cover;}
+ .cls_jd .profile-name {font-size: 20px; font-weight: 400; margin-bottom: 6px; color: #333;}
+ .cls_jd .profile-info {font-size: 14px; color: #555; font-weight: 400;}
+
+ .cls_jd .resume-btn {padding: 5px 10px; font-size: 15px; border-radius: 6px!important; background: #6e9fe1; border:1px solid #5b85bf;}
+
+ .cls_jd .resume-btn:hover{background: #5b8bca;}
+
+ @media (max-width: 576px) {
+    .cls_jd .profile-name {font-size: 20px;}
+    .cls_jd .resume-btn {width: 100%; margin-top: 10px;}
+ }
+
+.cls_joblist .job-card {border: 1px solid #17a2b9; padding: 10px; background-color: #ffffff;}
+.cls_joblist .job-card h3 { font-size:18px; }
+.cls_joblist .job-card p { font-size: 14px;}
+
+.cls_joblist .status{border-radius: 15px!important; padding:5px 15px; font-size:13px !important; color: #33824e; background: #dcfce7; border: 1px solid #7cd198; 
+    margin-right: 5px; font-weight: 400; margin-bottom: 10px;}
+
+.cls_joblist .status-label {padding: 5px 10px; border-radius: 5px; color: white; font-size: 12px; font-weight: 400; margin-right: 8px;margin-bottom: 8px;}
+.cls_joblist .accepted {  background-color: #d4edda; border:1px solid #a6cfb1; color: #176227;}
+.cls_joblist .pending {   background-color: #fff3cd; border:1px solid #f1d78a; color: #76590d;}
+.cls_joblist .rejected {  background-color: #f7d7da; border:1px solid #ecb3b9; color: #84343f;}
+.cls_joblist .decision {  background-color: #e2e5ea; border:1px solid #b7c7d6; color: #313234;}
+.cls_joblist .scheduled { background-color: #d8e7ff; border:1px solid #95c8f9; color: #5073aa;}
+.cls_joblist .selected {  background-color: #d8e7ff; border:1px solid #bddfff; color: #53575f;}
+.cls_joblist .job-info {  margin-top: 15px; background: #f1f4f9; padding: 10px;}
+.cls_joblist .footicons a {font-size: 22px;}
+.cls_joblist .futter{border-top: 1px solid #bbc0c6;}
+
+@media (max-width:1366px){
+.cls_joblist .joblist-card-base{-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
+}
+@media (max-width:1100px){
+.cls_joblist .joblist-card-base{-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
+}
 /***********New Joab Board ********************/
 
 
