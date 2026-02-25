@@ -1526,8 +1526,11 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy{background-col
 
 ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon-m { background-color: #2f2320 !important;}
 
-.shortcuts-menu_temp li .basser{background-color: #000; border: 1px solid #515151;}
 .shortcuts-menu_temp li .basser .smallhead2{background: #1a1a1a;}
+.shortcuts-menu_temp li .basser .smallhead1 {background: #1a1a1a; color: #ccc!important;}
+.shortcuts-menu_temp li .basser .smallhead01{background: #313131; color: #ccc!important;}
+.shortcuts-menu_temp li .basser{background-color: #000; border: 1px solid #515151;}
+
 
 
 
