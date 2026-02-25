@@ -9516,7 +9516,7 @@ ul.nodechld li div.modal-header { line-height: normal;}
 
 .cls_stagesbase .step-wrapper { position: relative; padding: 20px 0;}
 .cls_stagesbase .step-wrapper::before { content: ''; position: absolute; top: 53px;left: 75px; right:75px; height: 3px; background: #d6d6d6; transform: translateY(-50%); z-index: 0;}
-.step-item.completed::before {content: '';position: absolute; top:33px; left: 130px; right: -80px; height: 3px;  background: #44c46f; transform: translateY(-50%); z-index: 0;}
+.step-item.completed::before {content: '';position: absolute; top:33px; left: 62%; right: -80px; height: 3px;  background: #44c46f; transform: translateY(-50%); z-index: 0;}
 .cls_stagesbase .step-item:last-child:before {display: none;}
 .cls_stagesbase .step-item.completed:last-child em{color: #fff!important;}
 .cls_stagesbase .step-item { position: relative; z-index: 1; text-align: center; flex: 1;}
