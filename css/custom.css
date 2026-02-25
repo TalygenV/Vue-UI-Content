@@ -9507,6 +9507,12 @@ ul.nodechld li div.modal-header { line-height: normal;}
     border-left-color: rgb(217, 217, 217); border-left: 5px solid #d9534f;border-radius: 0px;}
 .cls_dashboard .section_pp .section-header {padding: 10px 15px; font-weight: 400;}
 .cls_dashboard .no-record-box { height: 350px; display: flex; justify-content: center; align-items: center; text-align: center; color: #dc3545;}
+
+@media (max-width:1200px){
+.cls_dashboard .cls_leftbase {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
+.cls_dashboard .cls_rightbase{-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; padding-left:0px!important;}
+}
+
 /***********New Joab Board ********************/
 
 
