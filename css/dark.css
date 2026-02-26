@@ -1545,7 +1545,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon
 .cls_candidatelist .label-title {color: #ccc;}
 .cls_candidatelist .card-footer-custom{border-top: 1px solid #5d5d5d;}
 
-.cls_dashboard .section_pp .section-header.reddy{background: #2b3034; border: 1px solid #3a3a3a;}
+.cls_dashboard .section_pp .section-header.reddy{background: #2b3034; border: 1px solid #3a3a3a; border-left:5px solid #d9534f;}
 .cls_dashboard .section-body.border {background: #191d20;}
 .cls_dashboard .butnsbase {background: #0f1011;}
 .cls_dashboard .percentage-text{color: #ccc;}
