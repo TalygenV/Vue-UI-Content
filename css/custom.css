@@ -9580,16 +9580,8 @@ ul.nodechld li div.modal-header { line-height: normal;}
 
 
 
-.activity-badge {
-    display: inline-block;
-    font-size: 13px;
-    font-weight: 400;
-    padding: 0.2rem 0.5rem;
-    border-radius: 4px;
-    margin-bottom: 0.25rem;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-}
+.activity-badge {display: inline-block;  font-size: 13px; font-weight: 400; padding: 0.2rem 0.5rem;  border-radius: 4px;
+    margin-bottom: 0.25rem;  text-transform: uppercase; letter-spacing: 0.3px;}
 
 /* Badge color variants */
 
