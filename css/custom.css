@@ -9580,23 +9580,26 @@ ul.nodechld li div.modal-header { line-height: normal;}
 
 
 
-.activity-badge {display: inline-block;  font-size: 13px; font-weight: 400; padding: 0.2rem 0.5rem;  border-radius: 4px;
+.activity-list .activity-badge {display: inline-block;  font-size: 13px; font-weight: 400!important; padding: 0.2rem 0.5rem;  border-radius: 4px;
     margin-bottom: 0.25rem;  text-transform: uppercase; letter-spacing: 0.3px;}
 
 /* Badge color variants */
 
 .activity-list .activity-badge{color: #fff!important; }
 
-.activity-list .activity-badge.audit         { background-color: #e3f2fd;}
-.activity-list .activity-badge.transfer      { background-color: #fff3cd;}
+.activity-list .activity-badge.audit         { background-color: #4885b1;}
+.activity-list .activity-badge.transfer      { background-color: #ddb846;}
 .activity-list .activity-badge.modified      { background-color: #27a1e9;}
-.activity-list .activity-badge.assigned      { background-color: #d1e7dd;}
-.activity-list .activity-badge.unassigned    { background-color: #f8d7da;}
-.activity-list .activity-badge.uploaded      { background-color: #e2d1f0;}
-.activity-list .activity-badge.warranty      { background-color: #cff4fc;}
-.activity-list .activity-badge.maintenance   { background-color: #fff3cd;}
-.activity-list .activity-badge.software      { background-color: #d1e7dd;}
-.activity-list .activity-badge.accessory     { background-color: #e2d1f0;}
-.activity-list .activity-badge.insurance     { background-color: #f8d7da;}
-.activity-list .activity-badge.shared        { background-color: #021811;}
-.activity-list .activity-badge.shared-return { background-color: #e685b5;}
+.activity-list .activity-badge.assigned      { background-color: #439c74;}
+.activity-list .activity-badge.unassigned    { background-color: #677279;}
+
+.activity-list .activity-badge.uploaded      { background-color: #81649a;}
+.activity-list .activity-badge.warranty      { background-color: #4b6d75;}
+.activity-list .activity-badge.maintenance   { background-color: #736437;}
+
+.activity-list .activity-badge.software      { background-color: #748a80;}
+.activity-list .activity-badge.accessory     { background-color: #89719e;}
+.activity-list .activity-badge.insurance     { background-color: #9c6c70;}
+
+.activity-list .activity-badge.shared        { background-color: #756947;}
+.activity-list .activity-badge.shared-return { background-color: #755ec7;}
