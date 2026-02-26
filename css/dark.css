@@ -1514,24 +1514,36 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .csscontrol_popup .flag-selector .popup-header{color: #ccc;}
 .csscontrol_popup .flag-selector .popup{background: #22262a; border: 1px solid #454748;}
 /* #divNodeFlowChart .tree li span{color: #ccc;} */
-
 .section-body {color: #ccc;}
-
 .right-content .card-body .section_pp .section-header.reddy.common, 
 .right-content .card-body .section_pp .section-header.reddy{background: #171a1c; border: 1px solid #383b3e; color: #ccc;}
-
 .right-content .card-body .section_pp .section-body .customer-headersmall .barrsbase .bar{background: #000;}
-
 ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy{background-color: #513e37 !important;  border: 1px solid #885b4d !important;}
-
 ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon-m { background-color: #2f2320 !important;}
-
 .shortcuts-menu_temp li .basser .smallhead2{background: #1a1a1a;}
 .shortcuts-menu_temp li .basser .smallhead1 {background: #1a1a1a; color: #ccc!important;}
 .shortcuts-menu_temp li .basser .smallhead01{background: #313131; color: #ccc!important;}
 .shortcuts-menu_temp li .basser{background-color: #000; border: 1px solid #515151;}
-
 .gen-templateadded .smallhead1 {background: #0e2a55 !important;}
 .gen-templateadded .smallhead2 {background: #0e2a55 !important;}
+
+/***********New Joab Board 2026 ********************/
+.cls_activityboard .card-status{background-color: #191d20;}
+.cls_activityboard .midpanes{background: #2c3136; border: 1px solid #414141;}
+.cls_activityboard .pill-green{ background:#081a12;}
+.cls_activityboard .pill-blue{  background:#04131e;}
+.cls_activityboard .pill-orange{background:#1e170e;}
+.cls_activityboard .pill-purple{background:#10071a;}
+.cls_activityboard .badge-total{background: #000; color: #ccc; border: 1px solid #000;}
+.cls_activityboard .status-feedback {border-color: #07682a;}
+.cls_activityboard .status-scheduled { border-color: #144ca9;}
+.cls_activityboard .status-rescheduled { border-color: #825303;}
+.cls_activityboard .status-completed { border-color: #7a2cc5;}
+
+.cls_candidatelist .candidate-card{border: 1px solid #036979; background: #191d20;}
+.cls_candidatelist .info-row{border-bottom: 1px solid #474747; background: #2c3136; color: #fff;}
+.cls_candidatelist .label-title {color: #ccc;}
+.cls_candidatelist .card-footer-custom{border-top: 1px solid #5d5d5d;}
+
 
 
