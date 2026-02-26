@@ -1545,5 +1545,16 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon
 .cls_candidatelist .label-title {color: #ccc;}
 .cls_candidatelist .card-footer-custom{border-top: 1px solid #5d5d5d;}
 
+.cls_dashboard .section_pp .section-header.reddy{background: #2b3034; border: 1px solid #3a3a3a;}
+.cls_dashboard .section-body.border {background: #191d20;}
+.cls_dashboard .butnsbase {background: #0f1011;}
+.cls_dashboard .percentage-text{color: #ccc;}
+
+.cls_dashboard .progress{background-color: #2c3136;}
+.cls_dashboard .joboverviewbase .job-item{background: #2c3136;}
+.cls_dashboard .cls_educationbase div{border-bottom: 1px solid #4f4f4f;}
+
+.cls_dashboard .cls_skillsbase span{color: #2fa7c7; background: #13272b; border: 1px solid #2b5968;}
+
 
 
