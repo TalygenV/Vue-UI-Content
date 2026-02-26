@@ -9582,9 +9582,6 @@ ul.nodechld li div.modal-header { line-height: normal;}
 
 .activity-list .activity-badge {display: inline-block;  font-size: 13px; font-weight: 400!important; padding: 0.2rem 0.5rem;  border-radius: 4px;
     margin-bottom: 0.25rem;  text-transform: uppercase; letter-spacing: 0.3px;}
-
-/* Badge color variants */
-
 .activity-list .activity-badge{color: #fff!important; }
 
 .activity-list .activity-badge.audit         { background-color: #4885b1;}
