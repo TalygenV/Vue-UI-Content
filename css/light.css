@@ -572,7 +572,9 @@ input:checked + .toggle {  background: #448ee4;  color: #fff;}
 .btn-success:hover{background-color:#12a678;}
 .btn-danger{background-color:#ff7b7c; border-color:#ef5456; color:#fff !important;}
 .btn-danger:hover{background-color:#ef5456;}
-.page-action{ background:#ececec;}
+
+/* .page-action{ background:#ececec;} HS - unwnted BG is coming Billed/Unbilled Records and more 26Feb2026 */
+
 .no-left-bar .page-action{ background:#fff;}
 .my-popups .modal-confirm-footer{background:#fff !important; border-color:#bcbcbc !important; border-top: 1px solid #bcbcbc;}
 .dashbord-widget i{color:#686868;}
