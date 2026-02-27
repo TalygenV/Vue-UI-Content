@@ -9646,7 +9646,7 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .silentapp_contentbase.visibleapp .download_installation_links{color:#1e96ed;}
 .download_installation_links_base{float:left; width:100%;}
 .download_installation_links{font-size:16px; color:#ff5889; font-weight:500; width:33%; border-right:1px solid #c6c6c6; float:left; padding-left:30px;}
-.download_installation_links a{ color:#040609; text-decoration:underline;}
+.download_installation_links a{ color:#040609; text-decoration:underline!important;}
 .download_installation_links_base .download_installation_links:first-child{padding-left:0px;}
 .download_installation_links_base .download_installation_links:last-child{border-right:none;}
 .download_installation_links div{max-width:200px;}
