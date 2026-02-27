@@ -9788,6 +9788,90 @@ ul.nodechld li div.modal-header { line-height: normal;}
    .download_installation_links{padding-left: 0px; width: 99%; margin-bottom: 20px; border:none;}
    .download_installation_links div{max-width:100%;}
 }
+
+
+.initialsetuptabsbase .features.withTal {
+    position: relative;
+    border: 2px solid #d27d8c;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 50px;
+}
+.initialsetuptabsbase .feature-head {
+    padding: 50px 22px 22px 22px;
+    text-align: center;
+    min-height: 285px;
+    vertical-align: middle;
+}
+
+.initialsetuptabsbase .recomended {
+    background: #00b050;
+    border-radius: 100%;
+    color: #fff;
+    position: absolute;
+    top: -35px;
+    width: 70px;
+    left: 50%;
+    margin-left: -35px;
+    font-weight: 600;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.initialsetuptabsbase .feature-head h3 {
+    background: linear-gradient(129.25deg, #ff358a 15.07%, #fea587 89.65%);
+    background-clip: border-box;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+}
+.initialsetuptabsbase .feature-body li:nth-child(2n+1) {
+    background: #30303009;
+}
+.initialsetuptabsbase .feature-body li {
+    position: relative;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 18px;
+    min-height: 110px;
+    vertical-align: middle;
+    color: #303030;
+    display: flex;
+    align-items: center;
+}
+.initialsetuptabsbase .feature-body li i {
+    color: #00b050;
+    position: absolute;
+    left: 7px;
+    font-size: 22px;
+    top: 50%;
+    margin-top: -11px;
+}
+.initialsetuptabsbase table.silenttable tbody tr td {
+    font-weight: normal;
+    padding: 0px 30px 30px 30px;
+    vertical-align: top;
+}
+.initialsetuptabsbase .features.withTal.visibleapp {
+    border: 2px solid #3981c1;
+}
+
+.initialsetuptabsbase .visibleapp .recomended {
+    background: #2197ed;
+}
+
+.initialsetuptabsbase .visibleapp .feature-head h3 {
+    background: linear-gradient(129.25deg, #1c94ec 15.07%, #65b9f7 89.65%);
+    background-clip: border-box;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+}
+
+.initialsetuptabsbase .visibleapp .feature-body li i {
+    color: #2197ed;
+}
 /***Silent App Download page - HS 27Feb2026****/
 /* 
 .tg-listv-control .listing.tg-listv.mt-2 span.text-overflow-dynamic-container{ float:left; min-width: 80%; width: 80%} */
