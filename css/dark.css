@@ -1564,4 +1564,16 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon
 .cls_joblist .decision {background-color: #222730; border: 1px solid #4f6271; color: #aab3c5;}
 .cls_joblist .scheduled{background-color: #101929; border: 1px solid #316291; color: #4c82d6;}
 .cls_joblist .status{   background-color: #101c14; border: 1px solid #437d57; color: #3fb667;}
-.cls_joblist .futter { border-top: 1px solid #5d5d5d;}
+.cls_joblist .futter {  border-top: 1px solid #5d5d5d;}
+
+.cls_jd .cls_stagesbase.bg-light { background-color: #2c3136 !important;}
+.cls_jd .cls_stagesbase .step-wrapper::before{background: #595959;}
+.cls_jd .cls_stagesbase .step-circle{background: #1b1e21; color: #ccc; border: 3px solid #4a4a4a;}
+.cls_jd .cls_stagesbase .step-label{color: #ccc;}
+.cls_jd .cls_jd .profile-card{border: 1px solid #454748; background-color: #2c3136;}
+.cls_jd .cls_jd .profile-info{color: #ccc}
+
+.cls_jd .resume-btn{background: #528cda; border: 1px solid #6ca6f6;}
+.cls_jd .profile-name{color: #ccc;}
+
+
