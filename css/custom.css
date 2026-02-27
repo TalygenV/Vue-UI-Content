@@ -9530,12 +9530,20 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .cls_stagesbase .step-item.active .step-label,
 .cls_stagesbase .step-item.completed .step-label { color: #2d8e4e; font-weight: 400;}
 
+@media (max-width:991px){
+.cls_stagesbase .step-wrapper::before{top: 42px;}
+.cls_stagesbase .step-circle{width: 40px; height: 40px;}
+.cls_stagesbase .step-item.active .step-label, .cls_stagesbase .step-item.completed .step-label{font-weight: 500;}
+.cls_stagesbase .step-label{font-size: 13px; font-weight: 500;}
+}
+
 @media (max-width: 768px) {
 .cls_stagesbase .step-wrapper {flex-direction: column; align-items: flex-start; }
 .cls_stagesbase .step-wrapper::before {display: none;}
-.cls_stagesbase .step-item {display: flex; align-items: center; margin-bottom: 20px;}
+.cls_stagesbase .step-item {display: flex; align-items: center; margin-bottom: 5px; min-width: 90%; background: #f2f2f2; padding: 5px;}
 .cls_stagesbase .step-circle { margin: 0 15px 0 0;}
 .cls_stagesbase .step-label { margin-top: 0; text-align: left;}
+.step-item.completed::before{display: none;}
 }
 
  .cls_jd .profile-card {border: 1px solid #dcdcdc; padding:10px 20px; background-color: #f7f7f7;}
