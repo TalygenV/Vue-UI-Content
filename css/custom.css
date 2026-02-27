@@ -9621,7 +9621,7 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .silentapp_contentbase.visibleapp .app_download_button a{background: linear-gradient(129.25deg, #1c94ec 15.07%, #49c1ff 89.65%);}
 .silentappmainbase.differences{ text-align:center; font-size:38px; color:#494949; font-weight:600;}
 .silentappmainbase.differences .questionlink{ background:#f1f1f1; border:2px solid #8b5a4a; padding: 15px 105px; width: 85%; margin: 0 auto;}
-.silentappmainbase.differences a{color:#494949; text-decoration:underline; }
+.silentappmainbase.differences a{color:#494949; text-decoration:underline!important;}
 .sl_pinkfont{color:#ff388a;}
 .sl_bluefont{color:#1d95ed;}
 .dowload_cont {float: left; width: 100%; display: flex; flex-wrap: wrap; margin-top:10px;}
