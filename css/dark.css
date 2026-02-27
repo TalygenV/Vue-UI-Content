@@ -1576,4 +1576,8 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon
 .cls_jd .resume-btn{background: #528cda; border: 1px solid #6ca6f6;}
 .cls_jd .profile-name{color: #ccc;}
 
+.step-item.completed::before{background: #15883c;}
+.cls_stagesbase .step-item.active .step-circle, .cls_stagesbase .step-item.completed .step-circle{background: #15883c; border-color: #117533;}
+.cls_stagesbase .step-item.active .step-label, .cls_stagesbase .step-item.completed .step-label{color: #34ab5d;}
+
 
