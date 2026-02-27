@@ -9789,8 +9789,8 @@ ul.nodechld li div.modal-header { line-height: normal;}
    .download_installation_links div{max-width:100%;}
 }
 /***Silent App Download page - HS 27Feb2026****/
-
-.tg-listv-control .listing.tg-listv.mt-2 span.text-overflow-dynamic-container{ float:left; min-width: 80%; width: 80%}
+/* 
+.tg-listv-control .listing.tg-listv.mt-2 span.text-overflow-dynamic-container{ float:left; min-width: 80%; width: 80%} */
 
 
 
