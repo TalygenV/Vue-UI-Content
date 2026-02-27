@@ -9611,38 +9611,27 @@ ul.nodechld li div.modal-header { line-height: normal;}
 
 
 
-/***Silent App Download page - HS 18June2024****/
+/***Silent App Download page - HS 27Feb2026****/
 .silentappmainbase{margin-top:63px; width:97%;}
-/*.silentapp_contentbase h2.silenthead { background: linear-gradient(129.25deg, #ff358a 15.07%, #fea587 89.65%); background-clip: border-box; background-clip: text; -webkit-text-fill-color: transparent; font-size: 48px;font-weight: bold;}*/
 .silentappmainbase h2.silenthead{ font-size: 50px;font-weight: 600; color:#05060a; margin-bottom: 40px;}
-
 .silentapp_contentbase h3.silenthead{font-size:22px; color:#494949; font-weight:400;}
 .silentapp_contentbase h3.silenthead span{background: linear-gradient(129.25deg, #ff358a 15.07%, #fea587 89.65%); background-clip: border-box; background-clip: text; -webkit-text-fill-color: transparent;}
-
 .silentapp_contentbase.visibleapp h3.silenthead span{background: linear-gradient(129.25deg, #1c94ec 15.07%, #1c94ec 89.65%); background-clip: border-box; background-clip: text; -webkit-text-fill-color: transparent;}
 .silentapp_contentbase.visibleapp .app_download_box{ background:#e1f0fa; width: 32%;}
-
 .silentapp_contentbase.visibleapp .app_download_button a{background: linear-gradient(129.25deg, #1c94ec 15.07%, #49c1ff 89.65%);}
-
 .silentappmainbase.differences{ text-align:center; font-size:38px; color:#494949; font-weight:600;}
 .silentappmainbase.differences .questionlink{ background:#f1f1f1; border:2px solid #8b5a4a; padding: 15px 105px; width: 85%; margin: 0 auto;}
 .silentappmainbase.differences a{color:#494949; text-decoration:underline; }
 .sl_pinkfont{color:#ff388a;}
 .sl_bluefont{color:#1d95ed;}
-
 .dowload_cont {float: left; width: 100%; display: flex; flex-wrap: wrap; margin-top:10px;}
-
 .app_download_box.marginright{ margin-right:10px;}
-
 .app_blk_icon{background:#fff; padding:10px; border-radius:100%; width: 116px;  height: 116px;  position: absolute;  right: -20px;  bottom: -36px; text-align: left; padding-left: 29px;}
 .app_blk_icon img{margin-top:10px; width:50px;}
-
 .app_download_box { float: left; /**width: 365px;**/ width:47%; border: 1px solid #f8f8f8; margin: 0px; border-radius: 6px; background-color: #fdefec; 
         padding: 20px; position: relative; transition: transform .5s ease; border-radius:15px; overflow:hidden;}
 .app_type_icon {float: none; padding-right: 0px; width: 58px; margin: 0 auto;}
-
 .app_name_large {font-weight: 400; font-size: 34px; padding-bottom: 0px; text-align: left; clear: both; color:#121212;}
-
 .app_name {font-weight: 400; font-size: 24px; line-height: 53px; padding-bottom: 0px; text-align: left; clear: both;}
 .app_download_box:hover { box-shadow: 0 10px 43px 0 rgb(109 125 145 / 28%); transform: scale(1.05); transition: transform .5s ease;}
 .app_download_button { display: flex; float: none; width:207px; flex-direction: column;}
@@ -9654,22 +9643,16 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .installationbase h2{color:#494949; font-size:20px; font-weight:500;}
 .installationbase h3{color:#454545; font-size:16px;}
 .installationbase h1{color:#454545; font-size:24px; font-weight:700;}
-
 .silentapp_contentbase.visibleapp .download_installation_links{color:#1e96ed;}
-
 .download_installation_links_base{float:left; width:100%;}
 .download_installation_links{font-size:16px; color:#ff5889; font-weight:500; width:33%; border-right:1px solid #c6c6c6; float:left; padding-left:30px;}
 .download_installation_links a{ color:#040609; text-decoration:underline;}
-
 .download_installation_links_base .download_installation_links:first-child{padding-left:0px;}
 .download_installation_links_base .download_installation_links:last-child{border-right:none;}
-
 .download_installation_links div{max-width:200px;}
-
 .download_installation select { padding: 8px; border: none;float: left; font-size: 13px;}
 .download_installation a{float: left; border: 1px solid #ffb333 !important; border-radius: 0px; margin-left: 20px; padding: 5px 10px; background: #ffb333; color: #fff !important; text-decoration: none; font-weight: 400;}
 .download_user_manual a {float: left;  border: 1px solid #23a5ff !important; border-radius: 0px; padding: 5px 10px; background: #23a5ff; color: #fff !important; text-decoration: none;font-weight: 400;}
-
 .faqssection h2{ color:#000000; background: linear-gradient(129.25deg, #ff358a 15.07%, #fea587 89.65%);  background-clip: border-box; background-clip: text;   -webkit-text-fill-color: transparent; font-size: 44px; text-align:center;} 
 .faqssection {max-width: 1540px; }
 .faqssection .card{border:none;  border-top:1px solid rgba(0,0,0,.125); border-bottom:1px solid rgba(0,0,0,.125); margin-top: -2px; border-radius: 0px; background:transparent}
@@ -9679,13 +9662,10 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .faqssection .card-header .btn-link[aria-expanded="true"]{color:#ff358a;}
 .faqssection .card-header .btn-link[aria-expanded="true"] i::before { content: "\f068"; color:#ff358a;}
 .faqssection .card-body {padding: 1.25rem 0px; font-size: 16px; color: #454545; line-height: 26px; }
-
 .faqssection #accordion h4 { margin-bottom: 0; background: linear-gradient(90deg, #000 0, #fea587 100%); color: #fff; padding: 14px 15px; font-size: 20px; border-bottom: none;}
-
 .faqssection .searchbg {background: #f1f1f1; padding: 10px;}
 .faqssection .input-group .form-control { background: #fff;}
 .faqssection .searchbg #search {background: linear-gradient(90deg,#ff358a 0,#fea587 100%) !important; border: none !important;}
-
 
 @media (min-width:1550px) and (max-width:1799px) 
 {
@@ -9699,7 +9679,6 @@ ul.nodechld li div.modal-header { line-height: normal;}
  .silentappmainbase.differences .questionlink{padding: 15px 55px;}
  .faqssection h2{font-size: 40px;}
  .silentappmainbase h2.silenthead{font-size: 46px;}
-
 }
 
 @media (min-width:1380px) and (max-width:1549px) 
@@ -9715,9 +9694,7 @@ ul.nodechld li div.modal-header { line-height: normal;}
  .silentappmainbase.differences{font-size: 30px;}
  .faqssection h2{font-size: 36px;}
  .silentappmainbase h2.silenthead{font-size: 43px;}
-
 }
-
 
 @media (min-width:1024px) and (max-width:1379px) 
 {
@@ -9759,7 +9736,6 @@ ul.nodechld li div.modal-header { line-height: normal;}
    .app_download_button a{font-size: 20px}
    .app_download_box.marginright { margin-right: 15px;}
 }
-
 
 @media (min-width:769px) and (max-width:990px) 
 {
@@ -9810,8 +9786,6 @@ ul.nodechld li div.modal-header { line-height: normal;}
    .app_download_box{width: 95%; margin-bottom: 30px;}
    .silentapp_contentbase.visibleapp .app_download_box{width: 95%; margin-bottom: 30px;}
    .download_installation_links{padding-left: 0px; width: 99%; margin-bottom: 20px; border:none;}
-
    .download_installation_links div{max-width:100%;}
 }
-
-    /***Silent App Download page - HS 18June2024****/
+/***Silent App Download page - HS 27Feb2026****/
