@@ -9881,6 +9881,13 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .newdsgn ul li.rulebg .childrule {color: #dc821a;}
 
 
+@media (max-width:1499px) 
+{
+.global-search-container{max-width: 250px;min-width: 250px;}
+}
 
-
+@media (max-width:1340px) 
+{
+.global-search-container{max-width: 170px;min-width: 170px;}
+}
 
