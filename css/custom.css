@@ -9910,8 +9910,13 @@ ul.nodechld li div.modal-header { line-height: normal;}
 
 /*********New Search Clear Buttons***********/
 .background-0.text-left.form-check-inline a {display: flex; padding: .4rem .75rem !important;}
-.background-0.text-left.form-check-inline a i { padding-top: 3px; padding-right: 6px;}
-.background-0.text-left.form-check-inline a em { padding-top: 3px; padding-right: 6px;}
+
+.background-0.text-left.form-check-inline a i  { padding:3px 6px;}
+.background-0.text-left.form-check-inline a em { padding:3px 6px;}
+
+/* .background-0.text-left.form-check-inline a i  { padding-top: 3px; padding-right: 6px;} 
+.background-0.text-left.form-check-inline a em { padding-top: 3px; padding-right: 6px;} */
+
 /*********New Search Clear Buttons***********/
 
 
