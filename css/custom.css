@@ -9899,10 +9899,10 @@ ul.nodechld li div.modal-header { line-height: normal;}
 }   
 
 
-.brule_simpleglobal{color:#1b1c1c !important}
-.brule_simplerule{color:#1b1c1c !important}
-.brule_parentpurple{color:#687fc4 !important}
-.brule_childorange{color:#dc821a !important}
+.brule_simpleglobal{color:rgb(27, 28, 28) !important}
+.brule_simplerule{color:rgb(27, 28, 28) !important}
+.brule_parentpurple{color:rgb(76, 127, 239) !important}
+.brule_childorange{color:rgb(220, 130, 26) !important}
 
 @media (max-width: 1200px)
 {
