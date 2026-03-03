@@ -9904,8 +9904,10 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .brule_parentpurple{color:#687fc4 !important}
 .brule_childorange{color:#dc821a !important}
 
-
-
+@media (max-width: 1200px)
+{
+.section_pp.gd_mainbase{flex: 0 0 100% !important; max-width: 100% !important;}
+}
 
 
 /*********New Search Clear Buttons***********/
