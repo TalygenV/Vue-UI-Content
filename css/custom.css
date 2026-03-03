@@ -9906,7 +9906,7 @@ ul.nodechld li div.modal-header { line-height: normal;}
 
 @media (max-width: 1200px)
 {
-.section_pp.gd_mainbase{flex: 0 0 100% !important; max-width: 100% !important;}
+.section_pp.gd_mainbase{flex: 0 0 100% !important; max-width: 100% !important; margin-bottom: 10px;}
 }
 
 
