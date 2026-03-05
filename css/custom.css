@@ -9176,7 +9176,7 @@ ul.list-group.list-group-flush { padding: 2px;}
 .table-responsive th.resizable-column:hover::after{padding: 11px 0px 0 0px; font-size: 15px; content: '\2807'; width: 6px;}
 .table-responsive th.resizable-column:last-child::after{display: none;}/***to hide last column three dots***/
 thead.thead-bg .sticky-action-column {background-color: inherit; }
-.table-responsive thead th.sticky-action-column { position: sticky !important; right: 0 !important; z-index: 999 !important; background-color: #e8e8e8!important;}
+.table-responsive thead th.sticky-action-column { position: sticky !important; right: 0 !important; z-index: 999 !important; background-color: #e8e8e8!important; min-width: 90px !important;}
 .table-responsive tbody tr td.single-action.only-for-action-col{position: sticky !important; right: 0 !important; z-index: 99 !important;  min-width: 100px; background-color: #f4f4f4!important;}
 .table-responsive .action-without-ellipse{ background-color: #f4f4f4;}
 
