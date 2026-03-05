@@ -9921,4 +9921,15 @@ ul.nodechld li div.modal-header { line-height: normal;}
 
 /*********New Search Clear Buttons***********/
 
-
+/*******Project Overview - Notes Tabs - Card view S Saini - HS***********/
+.newcardviewdes .note-card {border-radius: 16px; padding: 18px; transition: 0.3s ease; border: 3px solid; height: 100%;}
+.newcardviewdes .note-card:hover {box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); transform: translateY(-3px);}
+.newcardviewdes .avatar-circle {width: 40px; height: 40px; background: #e9ecef; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600;}
+.newcardviewdes .public-border {border-color: #24a5ff;}
+.newcardviewdes .private-border{border-color: #227003;}
+.newcardviewdes .user-name {font-weight: 500; font-size: 15px;}
+.newcardviewdes .visibility-text {font-size: 13px; color: #6c757d;}
+.newcardviewdes .card-body {font-size: 14px;}
+.newcardviewdes .card-footer {font-size: 12px;}
+.newcardviewdes .action-icons {display: flex; gap: 12px;}
+/*******Project Overview - Notes Tabs - Card view S Saini - HS***********/
