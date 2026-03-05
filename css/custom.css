@@ -9932,4 +9932,13 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .newcardviewdes .card-body {font-size: 14px;}
 .newcardviewdes .card-footer {font-size: 12px;}
 .newcardviewdes .action-icons {display: flex; gap: 12px;}
+
+
+ul.innertabs_bases a.short-menu-item.gen-templateadded {
+  background-color: #e5efff !important;
+  border: 1px solid #578ee5 !important;
+}
+ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
+    background-color: #c9deff !important;
+}
 /*******Project Overview - Notes Tabs - Card view S Saini - HS***********/
