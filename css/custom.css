@@ -9950,7 +9950,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .talygen-card-view .modern-header { display: flex; justify-content: space-between; align-items: center; width: 100%;}
 .talygen-card-view .left-section {display: flex; align-items: center; gap: 10px;}
 .talygen-card-view .right-section{display: flex; align-items: center; gap: 15px;}
-.talygen-card-view .modern-card { background: #fff; border-radius: 16px;  padding: 18px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); transition: 0.3s; position: relative;}
+.talygen-card-view .modern-card { border-radius: 16px;  padding: 18px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); transition: 0.3s; position: relative;}
 .talygen-card-view .modern-card:hover {transform: translateY(-5px);}
 .talygen-card-view .modern-row { margin-top: 10px; display: flex; gap: 8px; font-size: 14px;}
 .talygen-card-view .modern-card.sample-card::before { background: #0667c8 !important; content: "Sample";  display: block; position: absolute; left: -295px; text-transform: uppercase; color: white;
