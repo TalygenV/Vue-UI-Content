@@ -9975,4 +9975,8 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .talygen-card-view .more-toggle { margin-top: 12px;}
 .talygen-card-view .more-toggle a { color: #2563eb; cursor: pointer;}
 
+.talygen-card-view .action-buttons { display: flex; flex-wrap: wrap; gap: 10px;}
+.talygen-card-view .action-btn { padding: 6px 12px; border-radius: 6px; color: #fff; font-size: 13px; cursor: pointer;}
+.talygen-card-view .warning { background: #f59e0b;}
+
 /*******Project List - Card View******/
