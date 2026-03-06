@@ -9979,4 +9979,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .talygen-card-view .action-btn { padding: 6px 12px; border-radius: 6px; color: #fff; font-size: 13px; cursor: pointer;}
 .talygen-card-view .warning { background: #f59e0b;}
 
+.talygen-card-view .progress-section { margin-top: 14px;}
+.talygen-card-view .expand-section { margin-top: 14px; border-top: 1px solid #e5e7eb; padding-top: 12px;}
+
 /*******Project List - Card View******/
