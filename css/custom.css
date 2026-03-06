@@ -9961,5 +9961,5 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .talygen-card-view .amount-chip  { background: #facc15; padding: 3px 8px; border-radius: 6px; margin-left: 6px; font-size: 12px; color: #000;}
 .talygen-card-view .progress-bar { height: 12px; background: #dde3e9; border-radius: 6px; margin-top: 4px; background-color: #dde3e9 !important;}
 .talygen-card-view .progress-fill {height: 100%; background: #06b545; border-radius: 6px;}
-
+.talygen-card-view .modern-row em.fa {padding-top: 3px;} 
 /*******Project List - Card View******/
