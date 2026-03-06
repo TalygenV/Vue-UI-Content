@@ -9969,5 +9969,10 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .talygen-card-view .dropdown-menu-modern a:hover { background: #f1f5f9;}
 .talygen-card-view .status-badge { padding: 4px 10px; border-radius: 6px; font-size: 12px;}
 
+.talygen-card-view .menu-icon {font-size: 16px; cursor: pointer; color: #475569;}
+.talygen-card-view .menu-wrapper {position: relative;}
+
+.talygen-card-view .more-toggle { margin-top: 12px;}
+.talygen-card-view .more-toggle a { color: #2563eb; cursor: pointer;}
 
 /*******Project List - Card View******/
