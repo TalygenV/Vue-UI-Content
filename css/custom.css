@@ -9962,4 +9962,12 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .talygen-card-view .progress-bar { height: 12px; background: #dde3e9; border-radius: 6px; margin-top: 4px; background-color: #dde3e9 !important;}
 .talygen-card-view .progress-fill {height: 100%; background: #06b545; border-radius: 6px;}
 .talygen-card-view .modern-row em.fa {padding-top: 3px;} 
+
+.talygen-card-view .dropdown-menu-modern { position: absolute; right: -18px; top: -19px; background: #fff; width: 220px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); padding: 8px 5px; z-index: 999; border: 1px solid #cbcbcb;}
+.talygen-card-view .dropdown-menu-modern a {display: block; padding: 8px 14px; font-size: 14px; cursor: pointer; border-bottom: 1px solid #bcbcbc;}
+.talygen-card-view .dropdown-menu-modern a:last-child { border-bottom: none;}
+.talygen-card-view .dropdown-menu-modern a:hover { background: #f1f5f9;}
+.talygen-card-view .status-badge { padding: 4px 10px; border-radius: 6px; font-size: 12px;}
+
+
 /*******Project List - Card View******/
