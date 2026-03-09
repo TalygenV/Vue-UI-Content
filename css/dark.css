@@ -1520,7 +1520,7 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .newdsgn ul li.rulebg{background-color: #3a4046 !important; border-top: 1px solid #1c1f22!important;}
 .newdsgn .badge.bg-primary{color: #1c2e6c !important; background-color: #71aeff !important;}
 .newdsgn .badge.bg-primary.childd2{color: #1c2e6c !important; background-color: #9db3d0 !important; border:none!important;}
-.btnaddrule.text-secondary.font-weight-400 {color: #ccc !important;}
+a.btnaddrule.text-secondary.font-weight-400 {color: #ccc !important;}  
 
 .actionsbaser a em.fa-plus-circle.text-secondary{color: #a7aeb5 !important;}
 .newdsgn .modal-body.csscontrol_popup .custom-control.custom-checkbox.custom-control-inline.disabled input.disabled{margin-top: 6px!important; margin-left: 2px!important;}
