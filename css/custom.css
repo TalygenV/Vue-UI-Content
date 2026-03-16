@@ -9349,11 +9349,10 @@ ul.nodechld li div.modal-header { line-height: normal;}
 /***Left Menu - Global Search****/
 .menu-left-wrapper .navbar-nav.header-menu-for-left .global-search-container{min-width: auto; flex: none; width: 85%; margin-left: 20px;}
 .menu-left-wrapper.wrapper-shrink .navbar-nav.header-menu-for-left .global-search-container {min-width: 30px; max-width: 45px; margin-left: 0px;}
-
 .menu-left-wrapper.wrapper-shrink .navbar-nav.header-menu-for-left .global-search-container .global-search-wrapper .input-group-append{display: none!important;}
-
 .menu-left-wrapper .navbar-nav.header-menu-for-left .global-search-container .search-overlay-content span{display: unset!important;}
 .menu-left-wrapper.wrapper-shrink .navbar-nav.header-menu-for-left .global-search-container .search-overlay-content span{display: unset!important;}
+.menu-left-wrapper.wrapper-shrink .navbar-nav.header-menu-for-left .global-search-container input.global-search-input{padding: 8px 5px!important;}
 
 .global-search-container span.work-item-id-value { text-wrap: auto;}
 
