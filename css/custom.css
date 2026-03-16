@@ -9346,7 +9346,7 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .global-search-container .meta-label { font-weight: 600; color: #495057; margin-right: 5px; white-space: nowrap;}
 .global-search-container .meta-value { color: #6c757d; word-break: break-word; max-width: 100%;}
 
-.menu-left-wrapper .navbar-nav.header-menu-for-left .global-search-container{min-width: auto;}
+.menu-left-wrapper .navbar-nav.header-menu-for-left .global-search-container{min-width: auto; flex: none;}
 .menu-left-wrapper.wrapper-shrink .navbar-nav.header-menu-for-left .global-search-container {min-width: 30px; max-width: 45px;}
 
 /* .global-search-container .search-overlay-content{} */
