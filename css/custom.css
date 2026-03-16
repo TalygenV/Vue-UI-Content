@@ -8093,7 +8093,6 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .table_1400 table tr td:nth-child(3){ min-width: 130px;}
 /**********Attendance/UserTrack - View Attendence Detail popup Rahul Bhandari*************/
 
-
 /********** HR/ShiftRoster - Rahul Kumar 20 May 2025*******************/
 .blackalerts{position: absolute; top: -1px; right: 137px;min-width: 650px; text-align: center;}
 .alert-black{color: #ffffff; background-color: #000000; border-color: #299bec; padding: 14px; z-index: 9; border-radius: 15px; font-size:14px;
@@ -8102,7 +8101,6 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
    -moz-box-shadow: 0px 5px 8px 4px rgba(0,0,0,0.67);  
 }
 .blackalerts em{position: absolute; right: -8px; top: 14px; font-size: 24px; color: #299bec; z-index: 99;}
-
 
 .expand-list_rr {position: absolute; right: -10px; top: 50%;  display: inline-block; z-index: 98;}
 .expand-list_rr .expand-list-btn {position: relative; display: flex; height: 45px; width: 30px; background: #424f55;}
@@ -8181,25 +8179,19 @@ ul.header-menu-for-left .modal-content.modal_inmenu li.nav-item{margin-bottom: -
 .fluent2-highcontrast .schedule-vue-sample .treeview-external-drag .e-list-item.e-hover>.e-text-content .e-list-text {
     color: #fff;
 }
-
 .schedule-vue-sample .treeview-external-drag .e-text-content,
 .e-bigger .schedule-vue-sample .treeview-external-drag .e-text-content,
 .schedule-vue-sample .treeview-external-drag.e-rtl .e-text-content,
 .e-bigger .schedule-vue-sample .treeview-external-drag.e-rtl .e-text-content {padding: 0; background-color: inherit;}
-
 .schedule-vue-sample .e-drag-item.e-treeview.treeview-external-drag,
 .e-bigger .schedule-vue-sample .e-drag-item.e-treeview.treeview-external-drag { padding: 0 !important;}
-
 .schedule-vue-sample .e-schedule.schedule-drag-drop .e-timeline-view .e-resource-left-td,
 .schedule-vue-sample .e-schedule.schedule-drag-drop .e-timeline-month-view .e-resource-left-td { width: 230px;}
-
 .schedule-vue-sample .e-schedule.schedule-drag-drop .e-resource-cells.e-parent-node .specialist-category {padding-left: 0px;}
 .e-schedule.schedule-drag-drop .e-resource-cells.e-parent-node .template-wrap {padding: 3px 0px;}
 .schedule-vue-sample .e-schedule.e-rtl.schedule-drag-drop .e-resource-cells.e-parent-node .specialist-category {padding-right: 30px;}
-
 .schedule-vue-sample .e-schedule.schedule-drag-drop .e-resource-cells.e-child-node .specialist-category,
 .schedule-vue-sample .e-schedule.schedule-drag-drop .e-resource-cells.e-child-node .specialist-name { padding: 5px;}
-
 .schedule-vue-sample .e-schedule.schedule-drag-drop .e-resource-cells.e-parent-node .specialist-name { padding: 0 10px; display: none;}
 .schedule-vue-sample .e-schedule.schedule-drag-drop .specialist-name { font-size: 13px; font-weight:600;}
 .schedule-vue-sample .e-schedule.schedule-drag-drop .specialist-designation {font-size: 11px; font-weight:500; color:#727272;}
@@ -8416,14 +8408,6 @@ ul.ks-cboxtags li label.active {background: #12bbd4;color: #fff;}
 .taskadd_newdes{color:#fff; font-size:16px; background: #5244eb;border-radius: 0px; text-align:center; padding:7px; cursor: pointer;}
 .taskpriority_newdes span{ color: #fff; font-size: 13px; background: #0c8a16; border-radius:5px; text-align: center; padding: 1px 15px; float: left; font-weight: 400;}
     
-/* .newdes_kvlist div.list-group{border-radius:0px; padding:20px; border:1px solid #ccc; background:#f1f4f9;}
-.newdes_kvlist div.list-group .card-box { border: 1px solid #dfdfdf; border-radius: 0px; padding: 20px; background: #fff ;}
-.tasknames_newdes span{font-size: 20px;}
-.tasknames_newdes a{font-size: 20px;padding:4px;} */
-/*.tasknames_newdes .count_des{ font-size: 14px; margin-top: 0px; margin-right: 20px; border: 1px solid #ababab; border-radius: 20px; padding: 5px 15px; background: #e4e8ef;}
-.tasknames_newdes .roundball_des{ border-radius: 100%; width: 8px; height: 8px; float: left; margin-top: 8px; margin-right: 10px;} */
-/*.taskadd_newdes{color:#fff; font-size:16px; background: #5244eb;border-radius: 30px; text-align:center; padding:7px;  cursor: pointer;} */
-/*.taskpriority_newdes span{ color: #fff; font-size: 13px; background: #0c8a16; border-radius: 40px;  text-align: center;  padding: 1px 15px; float: left; font-weight: 400; } */
 .taskphoto_newdes .profileicon.proj {width: 30px; height: 30px;  border-radius: 50%; background: #f2f2f2; text-align: center; line-height: 30px; float: left; font-size: 12px; font-weight: 400;}
 .taskphoto_newdes{position: relative;}
 .taskphoto_newdes .profileicon.proj img{ width: 100%; border-radius:100%;height:100%;}
@@ -8923,21 +8907,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 .recharge_payment{padding:0px!important;}
 .card.probx.recharge_payment .card-header{ background:#eee;}
 .ElementsApp input{line-height: normal!important;}
-
-/* .clientwalletsprite button{background-image: url(https://talygenv.github.io/Vue-UI-Content/images/clientwalletsprite.png); background-repeat: no-repeat;
-    height: 60px; border: 1px solid #f2f2f2; border-radius:10px!important; opacity: 0.25; transition: all 0.4s ease; -webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease;}
-.clientwalletsprite button:focus{box-shadow: none;}
-.clientwalletsprite button:hover{opacity: 9;}
-.clientwalletsprite button.active{opacity: 9;}
-.clientwalletsprite .Stripe{background-position: center 10px; background-color: #635bff;}
-.clientwalletsprite .Authorize.Dot.Net{background-position: center -80px; background-color: #1c3142;}
-.clientwalletsprite .PayU{background-position: center -168px; background-color: #a6c307;}
-.clientwalletsprite .Razorpay{background-position: center -263px; background-color: #383d4f;}
-.clientwalletsprite .Pay.pal{background-position: center -563px; background-color: #f3f9ff;}
-.clientwalletsprite .Intuit{background-position: center -358px; background-color: #246cff;}
-.clientwalletsprite .Pay.Fast{background-position: center -460px; background-color: #e8262e;}
-.clientwalletsprite .Wallet {background-position: center -656px; background-color: #03aed8;} */
-  
+ 
 #ProcessPayment .clientwalletsprite {float: left; width: 100%; max-width: 300px; border: 1px solid #d0dbc7; padding: 4px;}
 .right-forms{float: right; width: calc(100% - 320px);}
 
@@ -8957,14 +8927,7 @@ ul.comment-list { list-style: none; float: left; width: 100%;}
 #ProcessPayment .clientwalletsprite .Pay.Fast{         background-position: 40px -362px; }
 #ProcessPayment .clientwalletsprite .Wallet {          background-position: 40px -439px; }
 
-/* .clientwalletsprite .Stripe{background-position: 22px 10px; background-color: #635bff;}
-.clientwalletsprite .Authorize.Dot.Net{background-position: 22px -80px; background-color: #1c3142;}
-.clientwalletsprite .PayU{background-position: 22px -168px; background-color: #a6c307;}
-.clientwalletsprite .Razorpay{background-position: 22px -263px; background-color: #383d4f;}
-.clientwalletsprite .Pay.pal{background-position: 22px -563px; background-color: #f3f9ff;}
-.clientwalletsprite .Intuit{background-position: 22px -358px; background-color: #246cff;}
-.clientwalletsprite .Pay.Fast{background-position: 28px -460px; background-color: #e8262e;} */
- .clientwallet .detailsfix .badge { color: #fff; display: inline-block; padding: 6px 10px; border-radius: 6px; font-size: 13px; font-weight: 500;}
+.clientwallet .detailsfix .badge { color: #fff; display: inline-block; padding: 6px 10px; border-radius: 6px; font-size: 13px; font-weight: 500;}
 .recharge_payment .form-control{ border-radius: 6px!important; padding:12px; background: #fafafa;}
 .recharge_payment select.form-control:not([size]):not([multiple]){height: 3rem !important;}
 .modalfixcss .utility-card{padding: 10px 25px;}
@@ -9925,13 +9888,8 @@ ul.nodechld li div.modal-header { line-height: normal;}
 
 /*********New Search Clear Buttons***********/
 .background-0.text-left.form-check-inline a {display: flex; padding: .4rem .75rem !important;}
-
 .background-0.text-left.form-check-inline a i  { padding:3px 6px;}
 .background-0.text-left.form-check-inline a em { padding:3px 6px;}
-
-/* .background-0.text-left.form-check-inline a i  { padding-top: 3px; padding-right: 6px;} 
-.background-0.text-left.form-check-inline a em { padding-top: 3px; padding-right: 6px;} */
-
 /*********New Search Clear Buttons***********/
 
 /*******Project Overview - Notes Tabs - Card view S Saini - HS***********/
@@ -9945,7 +9903,6 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .newcardviewdes .card-body {font-size: 14px;}
 .newcardviewdes .card-footer {font-size: 12px;}
 .newcardviewdes .action-icons {display: flex; gap: 12px;}
-
 
 ul.innertabs_bases a.short-menu-item.gen-templateadded {
   background-color: #e5efff !important;
@@ -9975,28 +9932,21 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .talygen-card-view .progress-bar { height: 12px; background: #dde3e9; border-radius: 6px; margin-top: 4px; background-color: #dde3e9 !important;}
 .talygen-card-view .progress-fill {height: 100%; background: #06b545; border-radius: 6px;}
 .talygen-card-view .modern-row em.fa {padding-top: 3px;} 
-
 .talygen-card-view .dropdown-menu-modern { position: absolute; right: -18px; top: -19px; background: #fff; width: 220px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); padding: 8px 5px; z-index: 999; border: 1px solid #cbcbcb;}
 .talygen-card-view .dropdown-menu-modern a {display: block; padding: 8px 14px; font-size: 14px; cursor: pointer; border-bottom: 1px solid #bcbcbc;}
 .talygen-card-view .dropdown-menu-modern a:last-child { border-bottom: none;}
 .talygen-card-view .dropdown-menu-modern a:hover { background: #f1f5f9;}
 .talygen-card-view .status-badge { padding: 4px 10px; border-radius: 6px; font-size: 12px;}
-
 .talygen-card-view .menu-icon {font-size: 16px; cursor: pointer; color: #475569;}
 .talygen-card-view .menu-wrapper {position: relative;}
-
 .talygen-card-view .more-toggle { margin-top: 12px;}
 .talygen-card-view .more-toggle a { color: #2563eb; cursor: pointer;}
-
 .talygen-card-view .action-buttons { display: flex; flex-wrap: wrap; gap: 10px;}
 .talygen-card-view .action-btn { padding: 6px 12px; border-radius: 6px; color: #fff; font-size: 13px; cursor: pointer;}
 .talygen-card-view .warning { background: #f59e0b;}
-
 .talygen-card-view .progress-section { margin-top: 14px;}
 .talygen-card-view .expand-section { margin-top: 14px; border-top: 1px solid #e5e7eb; padding-top: 12px;}
-
 /*******Project List - Card View******/
-
 
 .userindexbase{float: left; min-width: 200px;}
 .userindexbase .initials{width: 38px; height: 38px !important; border-radius: 100%; border: 1px solid rgb(208 208 208) !important;
