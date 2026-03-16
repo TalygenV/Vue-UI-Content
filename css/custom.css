@@ -9353,6 +9353,8 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .menu-left-wrapper.wrapper-shrink .navbar-nav.header-menu-for-left .global-search-container .global-search-wrapper .input-group-append{display: none!important;}
 
 .menu-left-wrapper .navbar-nav.header-menu-for-left .global-search-container .search-overlay-content span{display: unset!important;}
+.menu-left-wrapper.wrapper-shrink .navbar-nav.header-menu-for-left .global-search-container .search-overlay-content span{display: unset!important;}
+
 .global-search-container span.work-item-id-value { text-wrap: auto;}
 
 /***Left Menu - Global Search****/
