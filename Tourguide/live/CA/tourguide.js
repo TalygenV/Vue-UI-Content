@@ -95,62 +95,7 @@ touritem["User/Home"] = {
     },
   ],
 };
-touritem["Project/Index"] = {
-  ModuleDisplayName: "Project Management",
-  MouseEvent: "Project",
-  ModuleName: "Project",
-  displayName: "Project",
-  items: [
-    {
-      selector: ".WalkHRLeaveWidgetContent_ul",
-      step: 1,
-      title: "Widgets",
-      content: "SummaryWidgets",
-    },
-    {
-      selector: "#accordionEx",
-      step: 2,
-      title: "Filters",
-      content: "SearchMultipleFiltersProject",
-    },
-    {
-      selector: "#PAdd",
-      step: 3,
-      title: "AddNewProject",
-      content: "SummaryWidgetsContent",
-    },
-    {
-      selector: "#temp_0",
-      step: 4,
-      title: "PleaseSelectTemplate",
-      content: "SummaryTemplateContent",
-    },
-    {
-      selector: "#btnNext",
-      step: 5,
-      title: "Next",
-      content: "SummaryTemplateNextContent",
-    },
-    {
-      selector: "#SProjectDetailTitleSpan",
-      step: 6,
-      title: "SummaryProjectDetailTitle",
-      content: "SummaryProjectDetailContent",
-    },
-    {
-      selector: "a#aAddUser",
-      step: 7,
-      title: "AddTeamMembers",
-      content: "AddTeamMembersContent",
-    },
-    {
-      selector: "#SummaryProjectSaveContent_a",
-      step: 8,
-      title: "FinishSetup",
-      content: "FinishSetupContent",
-    },
-  ],
-};
+
 touritem["CRM/Index"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
@@ -5027,6 +4972,74 @@ touritem["ProjectRequest/Index"] = {
     //    title: "StartTimer",
     //    content: "StartTrackingTimeAssignedTask"
     //}
+  ],
+};
+touritem["Project/Index"] = {
+  ModuleDisplayName: "Project Management",
+  MouseEvent: "Project",
+  ModuleName: "Project",
+  displayName: "Project",
+  items: [
+    {
+      selector: ".WalkHRLeaveWidgetContent_ul",
+      step: 1,
+      title: "Widgets",
+      content: "SummaryWidgets",
+    },
+    {
+      selector: "#accordionEx",
+      step: 2,
+      title: "Filters",
+      content: "SearchMultipleFiltersProject",
+    },
+    {
+      selector: "#Add",
+      step: 3,
+      title: "AddNewProject",
+      content: "SummaryWidgetsContent",
+    },
+    {
+      selector: "#selectindustype",
+      step: 4,
+      title: "ChooseIndustryType",
+      content: "SummaryIndustryTypeContent",
+    },
+    {
+      selector: "#PleaseSelectTemplate",
+      step: 5,
+      title: "PleaseSelectTemplate",
+      content: "SummaryTemplateNextContent",
+    },
+    {
+      selector: "#general",
+      step: 6,
+      title: "SummaryProjectDetailTitle",
+      content: "SummarygeneralContent",
+    },
+    {
+      selector: "#setp2btn",
+      step: 7,
+      title: "Next",
+      content: "SummarynextstepContent",
+    }, 
+    {
+      selector: "#nextviewtab",
+      step: 8,
+      title: "SummaryViewtabsTitle",
+      content: "SummaryViewtabsContent",
+    },
+    {
+      selector: "#chk_ids",
+      step: 9,
+      title: "AddTeamMembers",
+      content: "AddTeamMembersContent",
+    },
+    {
+      selector: "#SummaryProjectSaveContent_a",
+      step: 10,
+      title: "FinishSetup",
+      content: "FinishSetupContent",
+    },
   ],
 };
 tourData.push(touritem);
