@@ -1464,7 +1464,11 @@ ul.responivecustomtab_bod li{border-top: 1px solid #1c1f22 !important;}
 .darkthemebase .invoice-container table th { background: #2c3136;}
 
 /*****Analytics Dashboard - HS - Mohit******/
-.widgets-grid_mainsingle .controls{background: #33383e; border: 1px solid #454748;}
+.widgets-grid_mainsingle .controls{background: #33383e!important; border: 1px solid #454748;}
+.revenue-analytics .widgets-grid_mainsingle .border.p-3.bg-light {
+  background: #000 !important;
+}
+
 .db_analytic .mini-stat{background: #2c3136;}
 .db_analytic .mini-stat-value{color: #03d7d7;}
 .db_analytic .mini-stat-label{color: #ccc;}
