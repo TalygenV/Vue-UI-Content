@@ -355,6 +355,16 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .left-icon-m {  background-color: #eaeaea; }     
 .left-icon-m em{color:#fff!important;}
 
+.shortcuts-menu.newaddprojects.innertabs_bases li:nth-child(9n+1) .left-icon-m em{color:#216bca!important;}
+.shortcuts-menu.newaddprojects.innertabs_bases li:nth-child(9n+2) .left-icon-m em{color:#63983e!important;}
+.shortcuts-menu.newaddprojects.innertabs_bases li:nth-child(9n+3) .left-icon-m em{color:#575b6f!important;}
+.shortcuts-menu.newaddprojects.innertabs_bases li:nth-child(9n+4) .left-icon-m em{color:#43a38a!important;}
+.shortcuts-menu.newaddprojects.innertabs_bases li:nth-child(9n+5) .left-icon-m em{color:#cc7d38!important;}
+.shortcuts-menu.newaddprojects.innertabs_bases li:nth-child(9n+6) .left-icon-m em{color:#735da5!important;}
+.shortcuts-menu.newaddprojects.innertabs_bases li:nth-child(9n+7) .left-icon-m em{color:#7e6c5e!important;}
+.shortcuts-menu.newaddprojects.innertabs_bases li:nth-child(9n+8) .left-icon-m em{color:#e3644b!important;}
+.shortcuts-menu.newaddprojects.innertabs_bases li:nth-child(9n+9) .left-icon-m em{color:#dcad3a!important;}
+
 .shortcuts-menu li:nth-child(9n+1) .short-menu-item {  background-color: #bfdbff;}
 .shortcuts-menu li:nth-child(9n+2) .short-menu-item {  background-color: #d8ded2;}
 .shortcuts-menu li:nth-child(9n+3) .short-menu-item {  background-color: #cacdd4;}
