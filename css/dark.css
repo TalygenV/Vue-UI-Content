@@ -1591,46 +1591,35 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon
 .cls_jd .cls_stagesbase .step-label{color: #ccc;}
 .cls_jd .profile-card{border: 1px solid #454748; background-color: #2c3136;}
 .cls_jd .profile-info{color: #ccc}
-
 .cls_jd .resume-btn{background: #528cda; border: 1px solid #6ca6f6;}
 .cls_jd .profile-name{color: #ccc;}
-
 .step-item.completed::before{background: #15883c;}
 .cls_stagesbase .step-item.active .step-circle, .cls_stagesbase .step-item.completed .step-circle{background: #15883c; border-color: #117533;}
 .cls_stagesbase .step-item.active .step-label, .cls_stagesbase .step-item.completed .step-label{color: #34ab5d;}
-
 .newcardviewdes .avatar-circle{background: #2c3136;}
-
 /*******Project Overview - Notes Tabs - Card view S Saini - HS***********/
-
 ul.innertabs_bases a.short-menu-item.gen-templateadded {
   background-color: #191d20 !important;
   border: 1px solid #578ee5 !important;
 }
-
 ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
     background-color: #050607 !important;
 }
-   
+ 
 /*******Project Overview - Notes Tabs - Card view S Saini - HS***********/
-
 .talygen-card-view .progress-bar {background-color: #4a4a4a !important;}
-
-
 .rightmodalcssfixs .hours-card{background: #2c3136; border: 1px solid #414141;}
-
 .rightmodalcssfixs .collapsible-header{background: #2c3136;}
 .rightmodalcssfixs .collapsible-section{border: 1px solid #2c3136;}
 .rightmodalcssfixs .collapsible-content{background: #41484f;}
 .rightmodalcssfixs .add-checklist-btn{background: #4271a2; color: #fff;}
-
 .rightmodalcssfixs .subtask-input, .rightmodalcssfixs .comment-textarea{background: #191d20 !important; border-color: #3c3f43;}
-
 .rightmodalcssfixs .collapsible-section .collapsible-content{background: #191d20;}
-
 .fc-preview-area, .fc-icon-area{background: #2c3136!important; border:1px solid #3c3c3c!important;}
-
-
+.right-content .checklist-icon.bg-light {
+  background-color: #191d20 !important;
+  border: 1px solid #3c3f43;
+}
 
 
 
