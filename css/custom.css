@@ -9125,6 +9125,9 @@ ul.list-group.list-group-flush { padding: 2px;}
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
 
 .add-subtask .btn.btn-success.disabled {color: #fff !important;  opacity: 0.5 !important;}
+.universaldisable .btn.btn-success.disabled {color: #fff !important;  opacity: 0.5 !important;}
+
+
 .comment-form .comment-submit.float-right.disabled { color: #fff !important; opacity: 0.5 !important;}   
 .table-responsive tbody td .bg-warning {background-color:#e4aa00 !important;}
 
