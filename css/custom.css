@@ -9961,7 +9961,13 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .filesindexbases a span.contname{display: block; float: left;margin-left:10px; margin-top: 10px; width: calc(100% - 50px); text-wrap: auto;}
 
 
-
+.unides_formcontrol .section-title { font-weight: bold; font-size: 14px !important;}
+.unides_formcontrol .form-group { display: flex; align-items: center; margin-bottom: 12px; gap: 10px;}
+.unides_formcontrol .form-group label { flex: 1; font-weight: 500;}
+.unides_formcontrol .form-group select,
+.unides_formcontrol .form-group input,
+.unides_formcontrol .form-group textarea { flex: 1;  padding: 6px;}
+.unides_formcontrol .selected-box { background: #eef1f4; padding: 10px;  border-radius: 5px; font-size: 14px;}
 
 
 
