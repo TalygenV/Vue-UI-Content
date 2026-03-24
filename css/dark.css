@@ -1631,11 +1631,8 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .newdes_kvlist .kb-meta-icon{color: #ccc;}
 .newdes_kvlist .kb-task-type-badge{color: #ccc;}
 
-.board-matrix-table thead th{background: #2c3136; color: #fff;}
-
-.board-matrix-table th, .board-matrix-table td{border: 1px solid #4e4f50;}
-
-.matrix-row-head{background: #2c3136;}
-.matrix-row-label{color: #ccc;}
-
-.matrix-cell{background: #0e1011;}
+.board-matrix-view .board-matrix-table thead th{background: #2c3136; color: #fff;}
+.board-matrix-view .board-matrix-table th, .board-matrix-table td{border: 1px solid #4e4f50;}
+.board-matrix-view .matrix-row-head{background: #2c3136;}
+.board-matrix-view .matrix-row-label{color: #ccc;}
+.board-matrix-view .matrix-cell{background: #0e1011;}
