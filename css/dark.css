@@ -1616,10 +1616,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .rightmodalcssfixs .subtask-input, .rightmodalcssfixs .comment-textarea{background: #191d20 !important; border-color: #3c3f43;}
 .rightmodalcssfixs .collapsible-section .collapsible-content{background: #191d20;}
 .fc-preview-area, .fc-icon-area{background: #2c3136!important; border:1px solid #3c3c3c!important;}
-.right-content .checklist-icon.bg-light {
-  background-color: #191d20 !important;
-  border: 1px solid #3c3f43;
-}
+.right-content .checklist-icon.bg-light {background-color: #191d20 !important; border: 1px solid #3c3f43;}
 
 /*****Board - Saini - HS 24March2026*****/
 .newdes_kvlist .kb-col-header{background: #2c3136;border-bottom: 1px solid #5a6068;}
@@ -1636,3 +1633,14 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .board-matrix-view .matrix-row-head{background: #2c3136!important;}
 .board-matrix-view .matrix-row-label{color: #ccc!important;}
 .board-matrix-view .matrix-cell{background: #0e1011!important;}
+
+.board-matrix-view .matrix-head-title{color: #ccc!important;}
+
+.board-matrix-view .kb-task-card{background: #0c0d0d;border: 1px solid #454647;}
+
+.board-matrix-view .kb-card-title{color: #ccc;}
+.board-matrix-view .kb-card-dates{color: #fff;}
+.board-matrix-view .kb-meta-icon{color: #ccc;}
+.board-matrix-view .kb-task-type-badge{color: #ccc;}
+
+
