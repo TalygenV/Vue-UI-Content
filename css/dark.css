@@ -1639,6 +1639,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .board-matrix-view .matrix-head-title{color: #ccc!important;}
 
 .board-matrix-view .kb-task-card{background: #1e2125; border: 1px solid #454647;}
+.board-matrix-view .kb-task-card:hover{border: 1px solid #61647b;}
 
 .board-matrix-view .kb-card-title{color: #ccc;}
 .board-matrix-view .kb-card-dates{color: #fff;}
