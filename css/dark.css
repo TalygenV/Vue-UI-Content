@@ -1628,6 +1628,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .newdes_kvlist .kb-card-dates{color: #fff;}
 .newdes_kvlist .kb-meta-icon{color: #ccc;}
 .newdes_kvlist .kb-task-type-badge{color: #ccc;}
+.newdes_kvlist .kb-wip-info{color: #ccc; border: 1px solid #7b7d80;}
 
 .board-matrix-view .board-matrix-table thead th{background: #181b1e!important; color: #fff!important;}
 .board-matrix-view .board-matrix-table th, .board-matrix-table td{border: 1px solid #33383e!important;}
