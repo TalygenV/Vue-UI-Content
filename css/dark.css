@@ -1623,6 +1623,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .newdes_kvlist .kb-col-name{color:#ccc!important;}
 .newdes_kvlist .kb-column{background: #2c3136; border: 1px solid #33383e;}
 .newdes_kvlist .kb-task-card{background: #1e2125; border: 1px solid #454647;}
+.newdes_kvlist .kb-task-card:hover{border: 1px solid #61647b;}
 .newdes_kvlist .kb-card-title{color: #ccc;}
 .newdes_kvlist .kb-card-dates{color: #fff;}
 .newdes_kvlist .kb-meta-icon{color: #ccc;}
