@@ -9975,7 +9975,8 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .unides_formcontrol .selected-box { background: #eef1f4; padding: 10px;  border-radius: 5px; font-size: 14px;}
 .unides_formcontrol{max-height: 650px; overflow-y: auto;}
 
-      
+.vc-container .vc-time-picker svg.vc-time-icon { margin-top: -3px;}
+.vc-container .vc-time-picker .vc-date { display: none;}  
 
 
 
