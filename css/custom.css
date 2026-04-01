@@ -3679,7 +3679,8 @@ vertical-align: middle;	line-height: 14px;}
 @media only screen and (max-width: 1280px) {
 .notfound .notfound-404 h1,.notfound .notfound-404 h1 em{font-size:200px;}
 }
-@media (min-width:1280px){
+
+/* @media (min-width:1280px){
 ul.nodechld .textelipsis { width: 37%; }
 }
 
@@ -3693,6 +3694,22 @@ ul.nodechld .textelipsis { width: 47%; }
 
 @media (min-width:1640px) {
 ul.nodechld .textelipsis { width: 53%; }
+} */
+
+@media (min-width:1280px){
+ul.nodechld .textelipsis { width: 60%; }
+}
+
+@media (min-width:1440px) {
+ul.nodechld .textelipsis { width: 70%; }
+}
+
+@media (min-width:1540px) {
+ul.nodechld .textelipsis { width: 75%; }
+}
+
+@media (min-width:1640px) {
+ul.nodechld .textelipsis { width: 78%; }
 }
 
 .pr-17{padding-right:17px !important;}
