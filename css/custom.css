@@ -9858,8 +9858,8 @@ ul.nodechld li div.modal-header { line-height: normal;}
 .tg-listv-control .listing.tg-listv.mt-2 span.text-overflow-dynamic-container{ float:left; min-width: 80%; width: 80%} */
 
 
-.newdsgn ul li.rulebg .parentrule{color: #4c7fef;}
-.newdsgn ul li.rulebg .childrule {color: #dc821a;}
+/* .newdsgn ul li.rulebg .parentrule{color: #4c7fef;}
+.newdsgn ul li.rulebg .childrule {color: #dc821a;} */
 
 
 @media (min-width: 1341px) and (max-width:1499px) 
@@ -9979,7 +9979,19 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .vc-container .vc-time-picker .vc-date { display: none;}  
 
 
+@media (max-width: 1200px)
+{
+.colcontrol col{-ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;}
+}
 
+@media (max-width: 991px)
+{
+.colcontrol col{-ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;}
+}
 
 
 
