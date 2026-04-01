@@ -3710,7 +3710,7 @@ ul.nodechld .textelipsis { width: 75%; }
 
 @media (min-width:1640px) {
 ul.nodechld .textelipsis { width: 78%; }
-}
+}   
 
 .pr-17{padding-right:17px !important;}
 .task-validation{white-space: normal;width:70%;text-align: left;}
