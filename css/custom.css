@@ -9850,17 +9850,15 @@ ul.nodechld li div.modal-header { line-height: normal;}
     font-size: 38px;
 }
 
-.initialsetuptabsbase .visibleapp .feature-body li i {
-    color: #2197ed;
-}
+.initialsetuptabsbase .visibleapp .feature-body li i {color: #2197ed;}
+
 /***Silent App Download page - HS 27Feb2026****/
-/* 
-.tg-listv-control .listing.tg-listv.mt-2 span.text-overflow-dynamic-container{ float:left; min-width: 80%; width: 80%} */
+/***.tg-listv-control .listing.tg-listv.mt-2 span.text-overflow-dynamic-container{ float:left; min-width: 80%; width: 80%} */
 
-
+/****Billing Rule Node Configuration/Billing Rule Template - Commented by HS with Rahul Bhandari - 1April 2026*********/
 /* .newdsgn ul li.rulebg .parentrule{color: #4c7fef;}
-.newdsgn ul li.rulebg .childrule {color: #dc821a;} */
-
+.newdsgn ul li.rulebg .childrule {color: #dc821a;} */ 
+/****Billing Rule Node Configuration/Billing Rule Template - Commented by HS with Rahul Bhandari - 1April 2026*********/
 
 @media (min-width: 1341px) and (max-width:1499px) 
 {
@@ -9876,9 +9874,7 @@ ul.nodechld li div.modal-header { line-height: normal;}
 {
 .global-search-container{max-width: 100%; min-width: 100%;}
 .global-search-container .search-overlay-content{max-width: 95%!important; min-width: 95%!important;}
-
 }   
-
 
 .brule_simpleglobal{color:rgb(27, 28, 28) !important}
 .brule_simplerule{color:rgb(27, 28, 28) !important}
