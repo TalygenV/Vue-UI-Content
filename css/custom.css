@@ -9124,7 +9124,7 @@ ul.list-group.list-group-flush { padding: 2px;}
 .selectedcontract tbody tr.active{background-color: #d6eaff!important; font-weight: 600!important; border-left:2px solid #73b7ff;}
 .selectedcontract tbody tr:hover{background-color: #d6eaff!important; font-weight: 600!important; border-left:2px solid #73b7ff;}
 
-.newdsgn a.disabled {opacity: 0.6; color: #ffffff !important; }
+/* .newdsgn a.disabled {opacity: 0.6; color: #ffffff !important; }  2April 2026  */
 .newdsgn ul.nodechld li div { line-height: normal !important;}
 .newdsgn ul.nodechld li div.content{ line-height: 40px !important;}
 .newdsgn .badge.bg-warning{font-weight: 600; color: #8d581a !important;   background-color: #fef9c3!important;  padding: 4px 8px!important;  text-transform: uppercase;}
