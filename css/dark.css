@@ -1676,6 +1676,9 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .newstepper .tabs-grid .tab-card .tab-title{color: #fff;}
 .newstepper .tab-card.selected.locked{border: 1px solid #885b4d !important; background: #513e37 !important;}
 .newstepper .tab-card.selected.locked .tab-pill-selected{border: 1px solid #885b4d !important; background: #885b4d !important;}
+
+.newstepper .tab-card.selected.locked span.tab-icon em{color: #fff !important;}
+
 .newstepper .tab-pill-locked{border: 1px solid #885a4c; color: #fff; background: #885b4d;}
 .newstepper .team-mode-bar{background: #141618; border: 1px solid #3d3d3d;}
 .newstepper .team-mode-option{color:#ccc;}
