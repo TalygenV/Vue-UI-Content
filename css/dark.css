@@ -1661,14 +1661,15 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
   background: #141618;}
 
 .sc-panel-body{background: #1c1f22;  border-left: 1px solid #3d3d3d; border-bottom: 1px solid #3d3d3d; border-right: 1px solid #3d3d3d;}
-.select-card.industry-card {background: #212427; border-color: #505050;}
+
 .select-card.selected, .tab-card.selected{border-color: #0a73ba; background: linear-gradient(180deg, #1d2021 0%, #10171e 100%);}
 .footer-actions{border-top: 1px solid #454545;}
 .card-grid .select-card{border: 1px solid #474747; background: #212528;}
 .method-card-text .name{color: #828ba4;}
 .method-card-inner{background: #020202; color: #ccc;}
 
+.select-card.industry-card {background: #212427; border-color: #505050;}
 .select-card.industry-card:hover, .select-card.method-card:hover{border-color: #3c5668; background: #181818;}
 
-
+.method-icon-wrap{background: #373838;}
 
