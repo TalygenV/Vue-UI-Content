@@ -1664,6 +1664,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .newstepper .select-card.selected, .newstepper .tab-card.selected{border-color: #0a73ba; background: linear-gradient(180deg, #1d2021 0%, #10171e 100%);}
 .newstepper .footer-actions{border-top: 1px solid #454545;}
 .newstepper .card-grid .select-card{border: 1px solid #474747; background: #212528;}
+.newstepper .card-grid .select-card.selected{border: 1px solid #3587be; background: #0a161e;} 
 .newstepper .method-card-text .name{color: #828ba4;}
 .newstepper .method-card-inner{background: #020202; color: #ccc;}
 .newstepper .select-card.industry-card {background: #212427; border-color: #505050;}
