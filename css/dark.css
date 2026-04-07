@@ -1668,5 +1668,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .method-card-text .name{color: #828ba4;}
 .method-card-inner{background: #020202; color: #ccc;}
 
+.select-card.industry-card:hover, .select-card.method-card:hover{border-color: #3c5668; background: #181818;}
+
 
 
