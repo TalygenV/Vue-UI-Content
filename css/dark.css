@@ -1672,7 +1672,9 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .newstepper .method-icon-wrap{background: #373838!important;}
 
 .newstepper .sc-panel-selected-chip, .newstepper .sc-panel-selected-chip--method{background: #0a161e; border: 1px solid #3587be;}
-.newstepper .tabs-grid .tab-card{background-color: #0e1011 !important;  border: 1px solid #578ee5 !important;}
+.newstepper .tabs-grid .tab-card{background-color: #0e1011 !important;  border: 1px solid #475a79!important;}
+.newstepper .tabs-grid .tab-card.selected{background-color: #0e1011 !important;  border: 1px solid #578ee5!important;}
+
 .newstepper .tabs-grid .tab-card .tab-title{color: #fff;}
 .newstepper .tab-card.selected.locked{border: 1px solid #885b4d !important; background: #513e37 !important;}
 .newstepper .tab-card.selected.locked .tab-pill-selected{border: 1px solid #885b4d !important; background: #885b4d !important;}
