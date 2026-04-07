@@ -1677,6 +1677,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .newstepper .tab-card.selected.locked{border: 1px solid #885b4d !important; background: #513e37 !important;}
 .newstepper .tab-card.selected.locked .tab-pill-selected{border: 1px solid #885b4d !important; background: #885b4d !important;}
 .newstepper .tab-card.selected.locked span.tab-icon em{color: #fff !important;}
+.newstepper .locked-badge{background: #513e37; color: #fff; border: 1px solid #885b4d;}
 .newstepper .tab-pill-locked{border: 1px solid #885a4c; color: #fff; background: #885b4d;}
 .newstepper .team-mode-bar{background: #141618; border: 1px solid #3d3d3d;}
 .newstepper .team-mode-option{color:#ccc;}
@@ -1688,7 +1689,6 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .newstepper .member-chip-rich{background: #000; border: 1px solid #3e3f45; color: #426fba;}
 .newstepper .team-search-wrap .team-search-input{border-color: #4c4c4c;}
 .newstepper .team-table-pretty .row-selected td{border-bottom-color: #454748;}
-
 .newstepper .review-box-pretty .review-head{background: #212427; border-bottom: 1px solid #5f5f5f;}
 .newstepper .review-row + .review-row{border-top: 1px dashed #505050;}
 
