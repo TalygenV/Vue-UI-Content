@@ -1671,7 +1671,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .newstepper .select-card.industry-card:hover, .newstepper .select-card.method-card:hover{border-color: #3c5668; background: #181818;}
 .newstepper .method-icon-wrap{background: #373838;}
 
-
+.newstepper .sc-panel-selected-chip, .newstepper .sc-panel-selected-chip--method{background: #0a161e; border: 1px solid #3587be;}
 
 
 
