@@ -1651,25 +1651,22 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .leftyy .card-header{background: #2c3136;}
 
 /***Add Project New Design*****/
-.stepper-wrap{background: #212528;}
-.stepper-header{background: #141618; border: 1px solid #3d3d3d;}
-.sc-panel-header{
+.newstepper .stepper-wrap{background: #212528!important;}
+.newstepper .stepper-header{background: #141618; border: 1px solid #3d3d3d;}
+.newstepper .sc-panel-header{
   border-left: 3px solid #6c757d;
   border-bottom: 1px solid #3d3d3d;
   border-right: 1px solid #3d3d3d;
   border-top: 1px solid #3d3d3d;
   background: #141618;}
 
-.sc-panel-body{background: #1c1f22;  border-left: 1px solid #3d3d3d; border-bottom: 1px solid #3d3d3d; border-right: 1px solid #3d3d3d;}
-
-.select-card.selected, .tab-card.selected{border-color: #0a73ba; background: linear-gradient(180deg, #1d2021 0%, #10171e 100%);}
-.footer-actions{border-top: 1px solid #454545;}
-.card-grid .select-card{border: 1px solid #474747; background: #212528;}
-.method-card-text .name{color: #828ba4;}
-.method-card-inner{background: #020202; color: #ccc;}
-
-.select-card.industry-card {background: #212427; border-color: #505050;}
-.select-card.industry-card:hover, .select-card.method-card:hover{border-color: #3c5668; background: #181818;}
-
-.method-icon-wrap{background: #373838;}
+.newstepper .sc-panel-body{background: #1c1f22; border-left: 1px solid #3d3d3d; border-bottom: 1px solid #3d3d3d; border-right: 1px solid #3d3d3d;}
+.newstepper .select-card.selected, .newstepper .tab-card.selected{border-color: #0a73ba; background: linear-gradient(180deg, #1d2021 0%, #10171e 100%);}
+.newstepper .footer-actions{border-top: 1px solid #454545;}
+.newstepper .card-grid .select-card{border: 1px solid #474747; background: #212528;}
+.newstepper .method-card-text .name{color: #828ba4;}
+.newstepper .method-card-inner{background: #020202; color: #ccc;}
+.newstepper .select-card.industry-card {background: #212427; border-color: #505050;}
+.newstepper .select-card.industry-card:hover, .newstepper .select-card.method-card:hover{border-color: #3c5668; background: #181818;}
+.newstepper .method-icon-wrap{background: #373838;}
 
