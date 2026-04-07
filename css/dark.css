@@ -1669,11 +1669,16 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .newstepper .method-card-inner{background: #020202; color: #ccc;}
 .newstepper .select-card.industry-card {background: #212427; border-color: #505050;}
 .newstepper .select-card.industry-card:hover, .newstepper .select-card.method-card:hover{border-color: #3c5668; background: #181818;}
-.newstepper .method-icon-wrap{background: #373838;}
+.newstepper .method-icon-wrap{background: #373838!important;}
 
 .newstepper .sc-panel-selected-chip, .newstepper .sc-panel-selected-chip--method{background: #0a161e; border: 1px solid #3587be;}
+.newstepper .tabs-grid .tab-card{background-color: #0e1011 !important;  border: 1px solid #578ee5 !important;}
+.newstepper .tabs-grid .tab-card .tab-title{color: #fff;}
+.newstepper .tab-card.selected.locked{border: 1px solid #885b4d !important; background: #513e37 !important;}
+.newstepper .tab-card.selected.locked .tab-pill-selected{border: 1px solid #885b4d !important; background: #885b4d !important;}
 
-.newstepper .tabs-grid .tab-card{background-color: #191d20 !important;  border: 1px solid #578ee5 !important;}
+.newstepper .tab-pill-locked{border: 1px solid #885a4c; color: #fff; background: #885b4d;}
+
 
 
 
