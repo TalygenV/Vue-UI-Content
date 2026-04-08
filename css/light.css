@@ -1070,7 +1070,9 @@ ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{bac
 
 .gantt-elastic .text-white, .legend-label {color: #000 !important;}
 
-
+div#divNodeFlowChartNew {
+    background: #fff!important;
+}
 
 
 
