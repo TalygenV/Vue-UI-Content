@@ -10027,6 +10027,17 @@ button:focus{box-shadow: none;}
 .p-detail-row:last-child { border-bottom: none; }
 .p-detail-label {color: #8a94a6; font-weight: 400; flex-shrink: 0; margin-right: 8px;}
 .p-detail-value {color: #1a1a2e; font-weight: 500; text-align: right; word-break: break-word;}
+.p-contact-row { display: flex; justify-content: space-between; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid #f3f4f8; font-size: 13px;  margin: 0 15px;}
+.p-contact-row:last-child { border-bottom: none; }
+.p-contact-left { flex: 1; min-width: 0; }
+.p-contact-type { font-weight: 400; color: #1a1a2e;}
+.p-contact-cat { font-size: 11px; color: #8a94a6; margin-top: 1px;}
+.p-contact-value { font-weight: 500; color: #1a1a2e; font-size: 13px; text-align: right; padding-left: 10px; flex-shrink: 0;}
+.p-addr-value { font-size: 11.5px; max-width: 55%; line-height: 1.4;}
+.p-comm-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #f3f4f8; font-size: 13px; margin: 0 15px;}
+.p-comm-row:last-child { border-bottom: none; }
+.p-empty-msg { font-size: 12px; color: #adb5bd; padding: 4px 0;}
+
 
 .profile-page-bg .gs-wrapper { position: relative; }
 .profile-page-bg .gs-card { border: 1px solid #e8eaf0;  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06); overflow: hidden;}
