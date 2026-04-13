@@ -10009,8 +10009,34 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 
 button:focus{box-shadow: none;}
 
+/****My Profile - New design - HS 2026****/
+.profile-page-bg .gs-wrapper { position: relative; }
+.profile-page-bg .gs-card { border: 1px solid #e8eaf0;  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06); overflow: hidden;}
+.profile-page-bg .gs-section { padding: 5px 15px 15px 15px; }
+.profile-page-bg .gs-fields { margin-top: 10px; }
+.profile-page-bg .gs-radio-group { display: flex; align-items: center; gap: 20px; height: 36px;}
+.profile-page-bg .gs-radio-label { display: flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 400; color: #1a1a2e; margin: 0; cursor: pointer; white-space: nowrap;}
+.profile-page-bg .gs-radio-label input[type="radio"] { margin: 0; cursor: pointer; accent-color: #5a6acf;}
+.profile-page-bg .gs-locked-value { font-size: 13px; color: #6c757d; padding: 8px 0 4px;}
+.profile-page-bg .gs-checkbox-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 0; border-bottom: 1px solid #f5f6fa;}
+.profile-page-bg .gs-checkbox-item:last-child { border-bottom: none; }
+.profile-page-bg .gs-checkbox-item input[type="checkbox"] { margin-top: 3px; flex-shrink: 0; width: 15px; height: 15px; cursor: pointer; accent-color: #5a6acf;}
+.profile-page-bg .gs-checkbox-item label { margin: 0; cursor: pointer; flex: 1;}
+.profile-page-bg .gs-chk-desc { display: block; font-size: 12px; color: #8a94a6; margin-top: 1px;}
+.profile-page-bg .gs-hint { font-size: 11.5px; color: #8a94a6; margin-top: 3px; display: block;}
+.profile-page-bg .gs-password-row {display: flex; align-items: center; gap: 14px; background: #f8f9fb; border: 1px solid #e8eaf0; padding: 14px 16px; margin-top: 4px;}
+.profile-page-bg .gs-password-icon { width: 36px; height: 36px; background: #ebebeb; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #6c757d; font-size: 15px; flex-shrink: 0;}
+.profile-page-bg .gs-password-info { flex: 1; }
+.profile-page-bg .gs-password-title { font-size: 13px; font-weight: 600; color: #1a1a2e;}
+.profile-page-bg .gs-password-desc { font-size: 12px; color: #8a94a6; margin-top: 1px;}
+.profile-page-bg .input-group-append .btn { border-color: #d8dce8; font-size: 12.5px; height: 36px; margin-bottom: 0;}
 
 
+
+
+
+
+/****My Profile - New design - HS 2026****/
 
 
 
