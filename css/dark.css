@@ -1649,13 +1649,15 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 /** My Profile - AI Design ***/
 .leftyy .card-header{background: #2c3136;}
 .leftyy.leftpanepadd .p-card{border: 1px solid #363636}
-.leftyy.leftpanepadd .p-user-name{color: #fff;}
 
 .profile-page-bg .gs-card{border: 1px solid #363636;}
 .profile-page-bg .gs-checkbox-item{border-bottom: 1px solid #363636;}
-.profile-page-bg .gs-password-title{color: #fff;}
+.leftyy.rightpanepadd .p-comm-row{border-bottom: 1px solid #363636;}
+
+.profile-page-bg .gs-password-title, .profile-page-bg .gs-radio-label, .leftyy.leftpanepadd .p-user-name{color: #fff;}
 
 .profile-page-bg .input-group-append .btn{border-color: #3c3f43;}
+.profile-page-bg .gs-password-icon{background: #1c1f22;}
 
 /***Add Project New Design S Saini - HS 7April 2026*****/
 
