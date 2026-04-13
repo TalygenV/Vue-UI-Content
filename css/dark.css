@@ -1647,8 +1647,15 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .board-matrix-view .kb-task-type-badge{color: #ccc;}
 
 /** My Profile - AI Design ***/
-
 .leftyy .card-header{background: #2c3136;}
+.leftyy.leftpanepadd .p-card{border: 1px solid #363636}
+.leftyy.leftpanepadd .p-user-name{color: #fff;}
+
+.profile-page-bg .gs-card{border: 1px solid #363636;}
+.profile-page-bg .gs-checkbox-item{border-bottom: 1px solid #363636;}
+.profile-page-bg .gs-password-title{color: #fff;}
+
+.profile-page-bg .input-group-append .btn{border-color: #3c3f43;}
 
 /***Add Project New Design S Saini - HS 7April 2026*****/
 
@@ -1698,6 +1705,8 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .newstepper .sc-panel-subtitle{color: #ccc;}
 
 /***Add Project New Design S Saini - HS 7April 2026*****/
+
+
 
 
 
