@@ -5008,7 +5008,8 @@ ul.list-group.lg-control li:first-child{border-top:none!important;}
 .innertextleft .vue-simple-progress-text {text-align:left!important;font-size:11px!important;font-weight:400;padding-top:0px!important;}
 .time.innertextleft .vue-simple-progress-bar{background:#c5a430!important; height:5px!important;}
 .Task.innertextleft .vue-simple-progress-bar{height:5px!important;}
-.editcontrol.edit-lis {position:absolute; bottom:5px;right:15px;}
+/* .editcontrol.edit-lis {position:absolute; bottom:5px;right:15px;} */
+.editcontrol.edit-lis {position:absolute; bottom:12px;right:15px;}
 .editcontrolreply.edit-list {position:absolute; top:2px;right:15px;}
 .threelinks {position: absolute; right: 35px; width: 120px; top:25px;}
 .listing .table.sleekrowfix td:not(.day) {padding-top: 3px !important; padding-bottom: 3px !important;}
