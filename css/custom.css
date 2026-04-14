@@ -10220,9 +10220,91 @@ button:focus{box-shadow: none;}
 .scr-pill--muted { background: #f1f3f4; color: #5f6368;}
 .project-scrum-overview .common-dashboard-shell .section-header.scr-panel-head.reddy { padding: 14px 18px !important;}
 .project-scrum-overview .common-dashboard-shell .scr-panel-title { font-size: 14px !important; font-weight: 600 !important; color: #202124 !important;}
-
-
 /****AI Project Overview - New design - HS 2026****/
+
+/****AI Project Marketing - Project Overview - New design - HS 2026****/
+.project-content-calendar-overview { width: 100%; min-width: 0;}
+.projectoverviewbase .card{background: none!important; border:none;}
+.mcc-top-card {border: 1px solid #e8eaed; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(60, 64, 67, 0.08); background: transparent;}
+.mcc-intel-brand { gap: 10px;}
+.mcc-intel-star { color: #f4b400; font-size: 1.05rem; line-height: 1;}
+.mcc-intel-title {font-size: 1.25rem; font-weight: 700; color: #202124; letter-spacing: -0.02em;}
+.mcc-template-badge { display: inline-flex; align-items: center; padding: 0.2rem 0.65rem; margin-left: 4px; border-radius: 6px; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #1967d2; background: #e8f0fe; border: 1px solid #8eacd7; vertical-align: middle;}
+.mcc-intel-note { font-size: 12px; line-height: 1.45; max-width: 320px; text-align: right; color: #80868b;}
+.mcc-kpi-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 0.5rem;}
+.mcc-kpi-col { flex: 1 1 calc(25% - 12px); min-width: 140px; max-width: 100%;}
+.mcc-kpi-card { border-radius: 12px; padding: 16px 18px; min-height: 104px; border: 1px solid #e8eaed; box-shadow: 0 1px 3px rgba(60, 64, 67, 0.1); border-top-width: 4px; display: flex; flex-direction: column; align-items: center; text-align: center; justify-content: center;}
+.mcc-kpi-value { font-size: 1.85rem; font-weight: 800; line-height: 1.1; color: #202124; letter-spacing: -0.03em;}
+.mcc-kpi-label { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #5f6368; margin-top: 8px; line-height: 1.35;}
+.mcc-kpi-card--blue { border-top-color: #1a73e8; background: linear-gradient(180deg, #f4f8ff 0%, #ffffff 55%);}
+.mcc-kpi-card--blue .mcc-kpi-value { color: #1967d2;}
+.mcc-kpi-card--amber { border-top-color: #f9ab00; background: linear-gradient(180deg, #fffbf0 0%, #ffffff 55%);}
+.mcc-kpi-card--amber .mcc-kpi-value { color: #e37400;}
+.mcc-kpi-card--rose { border-top-color: #ea4335; background: linear-gradient(180deg, #fff8f7 0%, #ffffff 55%);}
+.mcc-kpi-card--rose .mcc-kpi-value { color: #c5221f;}
+.mcc-kpi-card--green { border-top-color: #34a853; background: linear-gradient(180deg, #f3faf5 0%, #ffffff 55%);}
+.mcc-kpi-card--green .mcc-kpi-value { color: #137333;}
+.mcc-chart-row { margin-top: 0.35rem;}
+.mcc-chart-section .section-body { min-height: 320px;}
+.mcc-chart-body { min-height: 300px; background: #fff;}
+.mcc-cal-emoji { margin-right: 6px; font-size: 1rem;}
+.mcc-publish-list-body { min-height: 300px; padding-left: 14px !important; padding-right: 14px !important;}
+.mcc-publish-list {padding-top: 4px;}
+.mcc-publish-item {display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid #f1f3f4; font-size: 0.875rem;}
+.mcc-publish-item:last-child { border-bottom: none;}
+.mcc-publish-title { font-weight: 500; color: #202124; flex: 1; min-width: 0; line-height: 1.4;}
+.mcc-publish-date {flex-shrink: 0; font-weight: 700; font-size: 0.8rem;}
+
+.mcc-publish-date--ok { color: #137333;}
+.mcc-publish-date--warn { color: #e37400;}
+.mcc-publish-date--urgent { color: #c5221f;}
+
+.mcc-no-chart {min-height: 260px; display: flex; align-items: center; justify-content: center; color: #c5221f; font-size: 14px;}
+.mcc-no-chart--compact { min-height: 220px;}
+.mcc-od-wrap { max-height: min(380px, 50vh); overflow: auto;}
+.mcc-od-table { border-collapse: separate; border-spacing: 0;}
+.mcc-od-table thead th {font-size: 14px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; white-space: nowrap; color: #80868b; background: #f8f9fa; border-bottom: 1px solid #e8eaed; padding: 12px 14px; vertical-align: middle;}
+.mcc-od-table tbody td {padding: 12px 14px;vertical-align: middle; border-bottom: 1px solid #f1f3f4; font-size: 0.875rem; color: #3c4043;}
+.mcc-od-title { font-weight: 500; color: #202124; max-width: 280px;}
+.mcc-od-days { font-weight: 700; color: #202124;}
+.mcc-stage-pill {display: inline-block; padding: 0.28rem 0.65rem; border-radius: 6px; font-size: 0.72rem; font-weight: 600; background: #fef7e0; color: #b06000; border: 1px solid #fdd663;}
+.mcc-od-row--amber { background: rgba(254, 247, 224, 0.85);}
+.mcc-od-icon {color: #e37400; font-size: 15px; margin-right: 8px;}
+.mcc-od-title-main {font-weight: 700; color: #c5221f; font-size: 15px;}
+
+.project-content-calendar-overview .common-dashboard-shell .section-header.mcc-chart-panel-head.reddy {
+  padding: 14px 18px !important;
+}
+.project-content-calendar-overview .common-dashboard-shell .mcc-chart-title {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: #202124 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+.project-content-calendar-overview .common-dashboard-shell .section-header.mcc-od-head.reddy {
+  padding: 14px 18px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+}
+.project-content-calendar-overview .common-dashboard-shell .mcc-od-title-wrap {
+  display: inline-flex !important;
+  align-items: center !important;
+}
+.project-content-calendar-overview .common-dashboard-shell .mcc-view-all-link {
+  color: #1a73e8 !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+}
+.project-content-calendar-overview .common-dashboard-shell .mcc-view-all-link:hover {
+  text-decoration: underline !important;
+  color: #1557b0 !important;
+}
+
+/****AI Project Marketing - Project Overview - New design - HS 2026****/
 
 
 
