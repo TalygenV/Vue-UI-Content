@@ -10075,6 +10075,111 @@ button:focus{box-shadow: none;}
 /****My Profile - New design - HS 2026****/
 
 
+.projectoverviewbase{background: #f7f8fa !important; border: 1px solid #c9c9c9;}
+.common-dashboard-shell { padding: 1rem 1rem 1.5rem !important;}
+.common-dashboard-shell .section_pp { margin-bottom: 0;}
+.common-dashboard-shell .section {background: #fff; border-radius: 0px; border: 1px solid #e8eaed; box-shadow: 0 1px 2px rgba(60, 64, 67, 0.12); overflow: hidden;}
+
+.common-dashboard-shell .section.cd-apex-card { overflow: visible;}
+.common-dashboard-shell .section.cd-apex-card .section-body.cd-chart-body { overflow: visible;}
+
+.common-dashboard-shell .section-header.reddy,
+.common-dashboard-shell .section-header.common {background: #fff !important; border: none !important; border-left: none !important; border-bottom: 1px solid #eef0f3 !important;
+  border-radius: 0 !important; padding: 12px 16px !important; font-weight: 600; font-size: 16px; display: flex !important; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 8px;}
+.common-dashboard-shell .cd-panel-title {display: inline-flex; align-items: center; gap: 8px;}
+.common-dashboard-shell .cd-head-icon { color: #666666; font-size: 16px; font-weight: normal;}
+
+.common-dashboard-shell .cd-head-icon.fa-file-text-o { color: #585dfa;}
+.common-dashboard-shell .cd-head-icon.fa-list-ul{color: #23a5fd;} 
+.common-dashboard-shell .cd-head-icon.fa-search {color:#28a745; } 
+.common-dashboard-shell .cd-head-icon.fa-sitemap { color: #ab804d;} 
+.common-dashboard-shell .cd-head-icon.fa-exclamation-triangle { color: #fa8a3d;} 
+.common-dashboard-shell .cd-head-icon.fa-clock-o { color: #6f72f2;} 
+.common-dashboard-shell .cd-head-icon.green { color: #14b8a6;}
+.common-dashboard-shell .cd-panel-actions { float: none !important;}
+.common-dashboard-shell .cd-link-action {font-size: 13px; font-weight: 500; color: #1a73e8 !important; text-decoration: none;}
+.common-dashboard-shell .cd-link-action:hover { text-decoration: underline;}
+.common-dashboard-shell .cd-link-ai { color: #dd8d08!important;}
+.common-dashboard-shell .section-body.border { border: none !important; border-top: 1px solid #f1f3f4 !important;}
+.common-dashboard-shell .min_ht_220 { min-height: 200px;}
+.common-dashboard-shell .cd-details-overview-row { align-items: stretch !important;}
+.common-dashboard-shell .cd-details-overview-col { display: flex; flex-direction: column;}
+.common-dashboard-shell .cd-details-overview-section.section { flex: 1 1 auto; display: flex; flex-direction: column; width: 100%; min-height: 260px;}
+.common-dashboard-shell .cd-details-overview-section > .section-body.min_ht_220,
+.common-dashboard-shell .cd-details-overview-section > .section-body.cd-overview-body {flex: 1 1 auto; display: flex; flex-direction: column; min-height: 220px;}
+.common-dashboard-shell .cd-overview-body > * { flex: 1 1 auto; display: flex; flex-direction: column; min-height: 0; min-width: 0; width: 100%;}
+.common-dashboard-shell .section-body.cd-ai-wrap { min-width: 0;}
+.common-dashboard-shell .cd-detail-status-badge { display: inline-flex !important; align-items: center; justify-content: center; padding: 4px 16px !important; font-size: 13px !important; font-weight: 400 !important;
+  line-height: 1.25 !important; color: #fff !important; border-radius: 7px !important; vertical-align: middle; white-space: nowrap; border: none !important; height: auto !important;}
+
+.common-dashboard-shell .cd-progress-wrap { height: 14px; border-radius: 6px; background: #e8eaed; overflow: hidden;}
+.common-dashboard-shell .cd-progress-bar { border-radius: 6px; font-size: 11px; line-height: 10px;}
+.common-dashboard-shell .cd-chart-body { min-height: 300px; padding-bottom: 12px;}
+.common-dashboard-shell .cd-dashboard-three-col-row { align-items: stretch !important;}
+.common-dashboard-shell .cd-dashboard-three-col-row > [class*='col-'] { display: flex;}
+.common-dashboard-shell .cd-dashboard-stretch-card { flex: 1 1 auto; display: flex; flex-direction: column; width: 100%; min-height: 0;}
+.common-dashboard-shell .cd-dashboard-stretch-card > .cd-dashboard-stretch-body {flex: 1 1 auto; display: flex; flex-direction: column; justify-content: flex-start; min-height: 0;}
+.common-dashboard-shell .cd-activity-triple-card > .cd-dashboard-stretch-body { min-height: 300px;}
+.common-dashboard-shell .cd-activity-body { min-height: 280px;}
+.common-dashboard-shell .cd-activity-text { font-size: 14px !important; font-weight: 400 !important; line-height: 1.4 !important; margin: 0 !important;}
+.common-dashboard-shell .cd-activity-meta { font-size: 12px !important; color: #535557 !important; margin-top: 4px !important;}
+.common-dashboard-shell .customer-headersmall .profileicon { border-radius: 50%;}
+.common-dashboard-shell .detailsfix label { color: #3c4043; font-size: 14px;}
+.common-dashboard-shell .norecord { border: none !important; min-height: 200px; display: flex; align-items: center; justify-content: center;}
+.common-dashboard-shell .cd-details-body { padding-left: 16px !important; padding-right: 16px !important;}
+.common-dashboard-shell .cd-details-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 28px;}
+@media (max-width:1600px) {
+  .common-dashboard-shell .cd-details-cols { display: block;}
+}
+@media (max-width: 991px) {
+  .common-dashboard-shell .cd-details-cols { grid-template-columns: 1fr;}
+}
+
+@media (max-width: 1199px) {
+ .cd-dashboard-three-col-row .section_pp, .common-dashboard-shell .section_pp {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
+}
+
+.common-dashboard-shell .cd-details-col { display: flex; flex-direction: column;}
+.common-dashboard-shell .cd-detail-pair { display: grid; grid-template-columns: minmax(132px, 38%) 1fr; gap: 8px 14px; align-items: baseline; padding: 10px 0; border-bottom: 1px solid #f1f3f4;}
+.common-dashboard-shell .cd-detail-label { font-weight: 600; font-size: 13px; line-height: 1.35;}
+.common-dashboard-shell .cd-detail-label--progress { font-size: 14px; color: #3c4043;}
+.common-dashboard-shell .cd-detail-value { font-size: 14px;line-height: 1.4; word-break: break-word;}
+.common-dashboard-shell .cd-detail-progress-pct { font-weight: 600;}
+.common-dashboard-shell .cd-activity-row { display: flex !important; flex-direction: row !important; align-items: flex-start; gap: 12px; padding: 12px 14px !important; margin: 0 !important; border-bottom: 1px solid #f1f3f4; min-height: 0;}
+.common-dashboard-shell .cd-activity-row:last-of-type { border-bottom: none;}
+.common-dashboard-shell .cd-activity-icon-wrap { flex: 0 0 40px; width: 40px; display: flex; justify-content: center; padding-top: 2px;}
+.common-dashboard-shell .cd-activity-icon { margin-top: 0 !important; width: 36px; height: 36px; min-width: 36px; display: flex; align-items: center; justify-content: center; border-radius: 50%; background: #f1f3f4; color: #5f6368; font-size: 15px;}
+.common-dashboard-shell .cd-activity-copy { flex: 1; min-width: 0;}
+.common-dashboard-shell .cd-activity-copy .customer-meta { margin-top: 4px;}
+.common-dashboard-shell .cd-team-body { padding-left: 12px !important; padding-right: 12px !important;}
+.common-dashboard-shell .cd-team-row { display: grid; grid-template-columns: 44px minmax(0, 1fr) minmax(118px, auto); align-items: center;column-gap: 12px; padding: 10px 8px !important; margin: 0 !important; border-bottom: 1px solid #f1f3f4; min-height: 56px;}
+.common-dashboard-shell .cd-team-row--resource { grid-template-columns: 44px minmax(0, 1fr);}
+.common-dashboard-shell .cd-team-row:last-child { border-bottom: none;}
+.common-dashboard-shell .cd-team-avatar-wrap {display: flex; align-items: center; justify-content: center; align-self: center;}
+.common-dashboard-shell .cd-team-avatar-circle.profileicon.proj { width: 40px !important; height: 40px !important; min-width: 40px !important; min-height: 40px !important; border-radius: 50% !important; display: flex !important; align-items: center !important; justify-content: center !important; position: relative; float: none !important; margin: 0 !important;}
+.common-dashboard-shell .cd-team-initials { font-size: 14px !important; font-weight: 400 !important;}
+.common-dashboard-shell .cd-team-initials--compact { font-size: 10px !important; letter-spacing: -0.04em;}
+.common-dashboard-shell .cd-team-avatar-circle .cd-team-member-badge {
+  position: absolute !important;bottom: -3px !important; right: -3px !important; left: auto !important; top: auto !important; width: 18px !important;
+  height: 18px !important; min-width: 18px !important; border-radius: 50% !important; background: #fff !important; border: 2px solid #fff !important;
+  box-shadow: 0 0 0 1px rgba(60, 64, 67, 0.16), 0 1px 2px rgba(60, 64, 67, 0.12); display: flex !important;
+  align-items: center !important; justify-content: center !important; font-size: 11px !important; line-height: 1 !important; padding: 0 !important; margin: 0 !important;}
+.common-dashboard-shell .cd-team-avatar-circle .cd-team-member-badge.fa-user { color: #34a853 !important;}
+.common-dashboard-shell .cd-team-avatar-circle .cd-team-member-badge.fa-users { color: #1a73e8 !important;}
+.common-dashboard-shell .cd-team-info { min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 2px;}
+.common-dashboard-shell .cd-team-name-line { font-size: 15px; font-weight: 400; line-height: 1.3; color: #202124; margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.common-dashboard-shell .cd-team-role { font-size: 13px; line-height: 1.3; color: #80868b; margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.common-dashboard-shell .cd-team-metrics { display: flex; flex-direction: row; flex-wrap: nowrap; align-items: center; justify-content: flex-end; gap: 10px; min-width: 0;}
+.common-dashboard-shell .cd-team-bar {width: 72px; min-width: 56px; height: 8px; border-radius: 4px; background: #e8eaed; overflow: hidden; flex-shrink: 0;}
+.common-dashboard-shell .cd-team-bar-fill { height: 100%; border-radius: 4px; min-width: 0; transition: width 0.2s ease;}
+.common-dashboard-shell .cd-team-stat { flex-shrink: 0; white-space: nowrap !important; font-size: 13px; font-weight: 600; color: #3c4043; font-variant-numeric: tabular-nums; line-height: 1;}
+.common-dashboard-shell .cd-team-stat-sep {margin: 0 5px; color: #9aa0a6; font-weight: 500;}
+.scr-template-badge {display: inline-flex; align-items: center; padding: 0.15rem 0.6rem; margin-left: 15px; border-radius: 3px; font-size: 13px; font-weight: 500;letter-spacing: 0.1em;
+  text-transform: uppercase; vertical-align: middle; position: relative; top: -1px; color: #fff; background: #323f45; border: 1px solid #323f45; line-height: 1.6;
+  white-space: nowrap;}
+
+
 
 .project-scrum-overview {width: 100%;min-width: 0;}
 .projectoverviewbase .card{background: none!important; border:none;}
