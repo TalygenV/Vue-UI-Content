@@ -10110,8 +10110,8 @@ button:focus{box-shadow: none;}
 .common-dashboard-shell .cd-details-overview-section > .section-body.cd-overview-body {flex: 1 1 auto; display: flex; flex-direction: column; min-height: 220px;}
 .common-dashboard-shell .cd-overview-body > * { flex: 1 1 auto; display: flex; flex-direction: column; min-height: 0; min-width: 0; width: 100%;}
 .common-dashboard-shell .section-body.cd-ai-wrap { min-width: 0;}
-.common-dashboard-shell .cd-detail-status-badge { display: inline-flex !important; align-items: center; justify-content: center; padding: 4px 16px !important; font-size: 13px !important; font-weight: 400 !important;
-  line-height: 1.25 !important; color: #fff !important; border-radius: 7px !important; vertical-align: middle; white-space: nowrap; border: none !important; height: auto !important;}
+.common-dashboard-shell .cd-detail-status-badge { display: inline-flex !important; align-items: center; justify-content: center; padding: 3px 16px !important; font-size: 13px !important; font-weight: 400 !important;
+  color: #fff !important; border-radius: 7px !important; vertical-align: middle; white-space: nowrap; border: none !important; height: auto !important;}
 
 .common-dashboard-shell .cd-progress-wrap { height: 14px; border-radius: 6px; background: #e8eaed; overflow: hidden;}
 .common-dashboard-shell .cd-progress-bar { border-radius: 6px; font-size: 11px; line-height: 10px;}
