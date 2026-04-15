@@ -10276,8 +10276,8 @@ button:focus{box-shadow: none;}
   padding: 14px 18px !important;
 }
 .project-content-calendar-overview .common-dashboard-shell .mcc-chart-title {
-  font-size: 14px !important;
-  font-weight: 600 !important;
+  font-size: 16px !important;
+  /* font-weight: 600 !important; */
   color: #202124 !important;
   display: inline-flex !important;
   align-items: center !important;
