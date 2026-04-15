@@ -10270,7 +10270,7 @@ button:focus{box-shadow: none;}
 .mcc-stage-pill {display: inline-block; padding: 0.28rem 0.65rem; border-radius: 6px; font-size: 0.72rem; font-weight: 600; background: #fef7e0; color: #b06000; border: 1px solid #fdd663;}
 .mcc-od-row--amber { background: rgba(254, 247, 224, 0.85);}
 .mcc-od-icon {color: #e37400; font-size: 15px; margin-right: 8px;}
-.mcc-od-title-main {font-weight: 700; color: #c5221f; font-size: 15px;}
+.mcc-od-title-main {font-weight: 500; color: #c5221f; font-size: 15px;}
 
 .project-content-calendar-overview .common-dashboard-shell .section-header.mcc-chart-panel-head.reddy {
   padding: 14px 18px !important;
