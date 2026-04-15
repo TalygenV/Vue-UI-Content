@@ -10219,7 +10219,7 @@ button:focus{box-shadow: none;}
 .scr-pill--active { background: #e8f0fe; color: #1967d2;}
 .scr-pill--muted { background: #f1f3f4; color: #5f6368;}
 .project-scrum-overview .common-dashboard-shell .section-header.scr-panel-head.reddy { padding: 14px 18px !important;}
-.project-scrum-overview .common-dashboard-shell .scr-panel-title { font-size: 14px !important; font-weight: 600 !important; color: #202124 !important;}
+/* .project-scrum-overview .common-dashboard-shell .scr-panel-title { font-size: 14px !important; font-weight: 600 !important; color: #202124 !important;} */
 /****AI Project Overview - New design - HS 2026****/
 
 /****AI Project Marketing - Project Overview - New design - HS 2026****/
