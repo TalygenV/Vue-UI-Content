@@ -10175,9 +10175,10 @@ button:focus{box-shadow: none;}
 .common-dashboard-shell .cd-team-bar-fill { height: 100%; border-radius: 4px; min-width: 0; transition: width 0.2s ease;}
 .common-dashboard-shell .cd-team-stat { flex-shrink: 0; white-space: nowrap !important; font-size: 13px; font-weight: 600; color: #3c4043; font-variant-numeric: tabular-nums; line-height: 1;}
 .common-dashboard-shell .cd-team-stat-sep {margin: 0 5px; color: #9aa0a6; font-weight: 500;}
-.scr-template-badge {display: inline-flex; align-items: center; padding: 0.15rem 0.6rem; margin-left: 15px; border-radius: 3px; font-size: 13px; font-weight: 500;letter-spacing: 0.1em;
-  text-transform: uppercase; vertical-align: middle; position: relative; top: -1px; color: #fff; background: #323f45; border: 1px solid #323f45; line-height: 1.6;
+.scr-template-badge {display: inline-flex; align-items: center; padding: 0.15rem 0.6rem; margin-left: 15px; border-radius: 3px; font-size: 13px; font-weight: 500;letter-spacing: 0.1em; text-transform: uppercase; vertical-align: middle; position: relative; top: -1px; color: #fff; background: #323f45; border: 1px solid #323f45; line-height: 1.6;
   white-space: nowrap;}
+
+/* .scr-template-badge { display: inline-flex; align-items: center; padding: 0.2rem 0.65rem; margin-left: 4px; border-radius: 6px; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5b21b6; background: #ede9fe; border: 1px solid #8eacd7;} */
 
 .project-scrum-overview {width: 100%;min-width: 0;}
 .projectoverviewbase .card{background: none!important; border:none;}
@@ -10185,7 +10186,7 @@ button:focus{box-shadow: none;}
 .scr-intel-brand {gap: 10px;}
 .scr-intel-star { color: #f4b400;font-size: 1.05rem;}
 .scr-intel-title { font-size: 1.25rem; font-weight: 700; color: #202124;  letter-spacing: -0.02em;}
-.scr-template-badge { display: inline-flex; align-items: center; padding: 0.2rem 0.65rem; margin-left: 4px; border-radius: 6px; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5b21b6; background: #ede9fe; border: 1px solid #8eacd7;}
+
 .scr-intel-note {font-size: 12px;max-width: 300px; text-align: right; color: #80868b;}
 .scr-kpi-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 1rem;}
 .scr-kpi-col { flex: 1 1 calc(25% - 12px); min-width: 140px;}
