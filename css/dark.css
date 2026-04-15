@@ -1715,11 +1715,12 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 
 /****AI Project Marketing - Project Overview - New design - HS 2026****/
 .projectoverviewbase{background: #1c1f22!important; border-color: #525f65!important;}
-.common-dashboard-shell .section{border: 1px solid #525f65!important;}
+.common-dashboard-shell .section{border: 1px solid #525f65!important; background: #212528!important;}
 .common-dashboard-shell .section-header.reddy, .common-dashboard-shell .section-header.common{background: #2c3136!important;border-bottom:0px!important;}
 .common-dashboard-shell .section-body.border{border-top: 1px solid #525f65 !important;}
 .common-dashboard-shell .cd-detail-pair{border-bottom: 1px solid #525f65!important;}
 .common-dashboard-shell .cd-detail-label--progress{color:#ccc!important;}
+.common-dashboard-shell .cd-team-row{border-bottom: 1px solid #525f65;}
 
 .common-dashboard-shell .cd-progress-wrap, .common-dashboard-shell .cd-team-bar{background-color: #2c3136!important;}
 .common-dashboard-shell .cd-team-name-line, .common-dashboard-shell .cd-team-stat{color:#ccc!important;}
@@ -1727,7 +1728,11 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 
 .mcc-od-table thead th{color: #fff!important; background: #232323!important; border-bottom: 1px solid #515e63!important;border-top:none!important;}
 .mcc-od-table tbody td{border-bottom: 1px solid #525f65!important;}
-.mcc-od-table tbody td:last-child { border-bottom: 0!important;}      
+.mcc-od-table tbody td:last-child { border-bottom: 0!important; border-top: 0!important;}      
+.cd-ai-intro{background: #000!important; border: 1px solid #29446c!important; color: #8bb8ff!important;}
+.common-dashboard-shell .cd-activity-icon{background: #000!important; color: #a4a7ab!important;}
+
+
 
 /****AI Project Marketing - Project Overview - New design - HS 2026****/    
 
