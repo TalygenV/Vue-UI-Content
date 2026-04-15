@@ -1730,8 +1730,8 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .project-content-calendar-overview .common-dashboard-shell .mcc-chart-title{color: #fff!important;}
 
 .mcc-od-table thead th{color: #fff!important; background: #232323!important; border-bottom: 1px solid #515e63!important;border-top:none!important;}
-.mcc-od-table tbody td{border-bottom: 1px solid #525f65!important;}
-.mcc-od-table tbody td:last-child { border-bottom: 0!important; border-top: 0!important;}      
+.mcc-od-table tbody td{border-bottom: 1px solid #525f65!important; border-top: none; color: #fff;}
+.mcc-od-table tbody tr:last-child td{ border-bottom: 0!important; border-top: 0!important;}      
 .cd-ai-intro{background: #000!important; border: 1px solid #29446c!important; color: #8bb8ff!important;}
 .common-dashboard-shell .cd-activity-icon{background: #000!important; color: #a4a7ab!important;}
 
