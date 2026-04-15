@@ -1726,6 +1726,8 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .project-content-calendar-overview .common-dashboard-shell .mcc-chart-title{color: #fff;}
 
 .mcc-od-table thead th{color: #fff; background: #232323; border-bottom: 1px solid #515e63;border-top:none;}
+.mcc-od-table tbody td{border-bottom: 1px solid #525f65;}
+.mcc-od-table tbody td:last-child { border-bottom: 0;}
 
 /****AI Project Marketing - Project Overview - New design - HS 2026****/
 
