@@ -1720,7 +1720,10 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .common-dashboard-shell .section-body.border{border-top: 1px solid #525f65 !important;}
 .common-dashboard-shell .cd-detail-pair{border-bottom: 1px solid #525f65!important;}
 .common-dashboard-shell .cd-detail-label--progress{color:#ccc!important;}
+
 .common-dashboard-shell .cd-team-row{border-bottom: 1px solid #525f65;}
+.common-dashboard-shell .cd-activity-row{border-bottom: 1px solid #525f65;}
+.common-dashboard-shell .cd-activity-meta{color:#ccc!important;}
 
 .common-dashboard-shell .cd-progress-wrap, .common-dashboard-shell .cd-team-bar{background-color: #2c3136!important;}
 .common-dashboard-shell .cd-team-name-line, .common-dashboard-shell .cd-team-stat{color:#ccc!important;}
