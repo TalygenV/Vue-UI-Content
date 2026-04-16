@@ -10273,6 +10273,8 @@ button:focus{box-shadow: none;}
 .mcc-od-icon {color: #e37400; font-size: 15px; margin-right: 8px;}
 .mcc-od-title-main {font-weight: 500; color: #c5221f; font-size: 15px;}
 
+.mcc-od-title .badge { font-weight: 500; padding: 4px 10px;}
+
 .project-content-calendar-overview .common-dashboard-shell .section-header.mcc-chart-panel-head.reddy {
   padding: 14px 18px !important;
 }
@@ -10304,6 +10306,7 @@ button:focus{box-shadow: none;}
   text-decoration: underline !important;
   color: #1557b0 !important;
 }
+
 
 /****AI Project Marketing - Project Overview - New design - HS 2026****/
 
