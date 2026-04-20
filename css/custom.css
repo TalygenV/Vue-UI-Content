@@ -10314,3 +10314,24 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 
 
 
+.tabs-grid { display: grid; grid-template-columns: repeat(4, 1fr);  gap: 14px;}
+.tabs-grid .tab-card { display: flex; align-items: center; justify-content: center; text-align: center; position: relative; min-height: 88px; font-weight: 600; padding: 12px 14px;}
+.tab-card.locked { cursor: not-allowed;}
+.tab-center-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; width: 100%;}
+.tab-icon em { font-size: 20px; color: #7b87c3;}
+.tab-card.selected .tab-icon em { color: #23a5fd;}
+.tab-pill {display: inline-flex; align-items: center;justify-content: center; width: 20px; height: 20px; border-radius: 50%; font-size: 11px;}
+.tab-pill-locked {border: 1px solid #d0d5dd; color: #98a2b3; background: #f9fafb;}
+.tab-pill-selected { background: #23a5fd; color: #fff;}
+.tab-pill-top { position: absolute; top: 8px; right: 8px;}
+.tab-pill-bottom { position: absolute; right: 8px; bottom: 8px;}
+.tab-title { margin: 0; font-weight: 500; font-size: 13px; color: #111827;} 
+
+.tab-card.selected.locked{border: 1px solid #d6ca9f!important; background:#fff8df!important; cursor: not-allowed !important;}
+.tab-card.selected.locked span.tab-icon em{color: #333335!important;}
+.tab-card.selected.locked .tab-pill-selected{border: 1px solid #dbb429  !important; background: #dbb429  !important; color: #ffffff !important;}
+.tabs-grid .tab-card {border: 1px solid #d9dde5; border-radius: 10px;padding: 12px; cursor: pointer; background: #fff; min-height: 72px;
+    position: relative; transition: all 0.2s ease; box-shadow: 0 2px 10px rgba(16, 24, 40, 0.04);}
+
+
+
