@@ -1749,5 +1749,6 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .pjt-project-name, .pjt-row-icon, .pjt-card-row, .pjt-progress-label, .pjt-progress-pct{color: #ccc!important;}
 .pjt-progress-track{background: #414447;}
 .pjt-expand-section{border-top: 1px solid #404243!important; background: #191c1e!important;}
-
+.talygen-card-view .dropdown-menu-modern{background: #1c1f22;border: 1px solid #404243;}
+.talygen-card-view .dropdown-menu-modern a{border-bottom: 1px solid #404243;}
 
