@@ -1743,10 +1743,11 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 /****AI Project Marketing - Project Overview - New design - HS 2026****/    
 
 
-.pjt-card{border: 1px solid #65686a!important;}
-.pjt-card-header{border-bottom: 1px solid #65686a!important;}
-.pjt-card-footer{border-top: 1px solid #484b4e; background: #191c1e!important;}
+.pjt-card{border: 1px solid #404243 !important; background: #2c3136!important;}
+.pjt-card-header{border-bottom: 1px solid #404243 !important;}
+.pjt-card-footer{border-top: 1px solid #404243 ; background: #191c1e!important;}
 .pjt-project-name, .pjt-row-icon, .pjt-card-row, .pjt-progress-label{color: #ccc!important;}
 
+.pjt-progress-track{background: #414447;}
 
 
