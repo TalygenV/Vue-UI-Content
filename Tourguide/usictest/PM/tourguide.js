@@ -1646,6 +1646,51 @@ touritem["Course/Index"] = {
     },
   ],
 };
+
+touritem["RateSchedule/Index"] = {
+  ModuleDisplayName: "Invoice",
+  ModuleName: "Billing",
+  displayName: "RateSchedule Listing",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filter",
+      content: "SearchFilterRateSchedule",
+    },
+    {
+      selector: "#inactiveratechedule",
+      step: 2,
+      title: "Inactive",
+      content: "InactiveRateSchedule",
+    },
+    {
+      selector: "#addrateachedule",
+      step: 3,
+      title: "Add",
+      content: "AddRateSchedule",
+    },
+    {
+      selector: "#updateratechedule",
+      step: 4,
+      title: "Update",
+      content: "UpdateRateSchedule",
+    },
+    {
+      selector: "#copyratechedule",
+      step: 5,
+      title: "Copy",
+      content: "CopyRateSchedule",
+    },
+    {
+      selector: ".ddlupdatestatus",
+      step: 6,
+      title: "StatusUpdate",
+      content: "ChangeRateScheduleStatus",
+    },
+  ],
+};
+
 touritem["BillingRule/RuleListing"] = {
   ModuleDisplayName: "Invoice",
   ModuleName: "Billing",
@@ -2006,16 +2051,10 @@ touritem["Ticketing/add"] = {
   displayName: "Add Ticket",
   items: [
     {
-      selector: ".saveTicket",
+      selector: "#saveuserticket",
       step: 1,
       title: "Save as Draft or Submit",
-      content: "SaveasDraftorSubmit",
-    },
-    {
-      selector: ".submit",
-      step: 1,
-      title: "Save as Draft or Submit",
-      content: "SaveasDraftorSubmit",
+      content: "SubmitTicket",
     },
   ],
 };

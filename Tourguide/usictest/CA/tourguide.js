@@ -3036,7 +3036,7 @@ touritem["Ticketing/add"] = {
   displayName: "Add Ticket",
   items: [
     {
-      selector: ".saveuserticket",
+      selector: "#saveuserticket",
       step: 1,
       title: "Save as Draft or Submit",
       content: "SubmitTicket",
