@@ -1770,7 +1770,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 
 .talygen-card-view .tsk-time-cell{background: #0e1114;}
 .talygen-card-view .tsk-time-label{color: #fff;}
-.talygen-card-view .tsk-time-val, .talygen-card-view .tsk-progress-label{color: #ccc;}
+.talygen-card-view .tsk-time-val, .talygen-card-view .tsk-progress-label, .talygen-card-view .tsk-progress-pct{color: #ccc;}
 .talygen-card-view .tsk-progress-track{background: #414447;}
 
 
