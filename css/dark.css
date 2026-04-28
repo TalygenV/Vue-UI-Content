@@ -1777,8 +1777,9 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .talygen-card-view .tsk-expand-progress {background: #1c1f22;}
 .talygen-card-view .tsk-native-progress progress {background: #414447; border: 0;}
 
-
-
+.talygen-card-view .tsk-circle-wrap .c100{background-color: #414447;}
+.talygen-card-view .tsk-team-chip, .talygen-card-view .tsk-timer-start{background: #1c1f22;  border: 1px solid #404243;}
+.talygen-card-view .tsk-timer-disabled { background: #474747; border: 1px solid #979797; color: #9ca3af !important;}
 
 
 
