@@ -10337,4 +10337,44 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .tabs-grid .tab-card.selected {border-color: #23a5fd; background: linear-gradient(180deg, #edf7ff 0%, #d6eefa 100%);}
 
 
+ /****** Project New Card View - May 2026 ---- HS ******/
+.talygen-card-view .pjt-card { border-radius: 8px; border: 1px solid #e2e5e9; border-top: 5px solid #17a2b8; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: box-shadow .18s, transform .18s;   display: flex;   flex-direction: column;   overflow: hidden;   position: relative;}
+.talygen-card-view .pjt-card:hover { box-shadow: 0 6px 20px rgba(0,0,0,.12); transform: translateY(-2px);}
+.talygen-card-view .pjt-sample { opacity: .75; }
+.talygen-card-view .pjt-card-header { display: flex;  align-items: center;  justify-content: space-between;  padding: 10px 12px 8px;  border-bottom: 1px solid #f1f3f5; gap: 6px;}
+.talygen-card-view .pjt-header-left { display: flex;  align-items: center;  min-width: 0;  gap: 4px; flex: 1;}
+.talygen-card-view .pjt-project-name {font-size: 13px; font-weight: 600; color: #2c3e50; text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: color .15s;}
+.talygen-card-view .pjt-project-name:hover { color: #17a2b8; text-decoration: none; }
+.talygen-card-view .pjt-header-right { display: flex; align-items: center;  gap: 6px; flex-shrink: 0;}
+.talygen-card-view .pjt-pin-icon { color: #facc15; cursor: pointer; font-size: 14px; transition: transform .15s;}
+.talygen-card-view .pjt-pin-icon:hover { transform: rotate(-20deg); }
+.talygen-card-view .pjt-menu-btn { width: 26px; height: 26px; display: inline-flex; align-items: center; justify-content: center; border-radius: 4px; color: #868e96; cursor: pointer; transition: background .15s;}
+.talygen-card-view .pjt-menu-btn:hover { background: #f1f3f5; color: #343a40; }
+.talygen-card-view .pjt-card-body { padding: 10px 14px 8px; flex: 1; }
+.talygen-card-view .pjt-card-row { display: flex;  align-items: center; flex-wrap: wrap; font-size: 12px; color: #495057;  margin-bottom: 5px; gap: 4px;}
+.talygen-card-view .pjt-status-row { margin-bottom: 8px; }
+.talygen-card-view .pjt-row-icon { color: #adb5bd; width: 14px; text-align: center; flex-shrink: 0;}
+.talygen-card-view .pjt-row-text { flex: 1; min-width: 0; }
+.talygen-card-view .pjt-status-pill { display: inline-block;  font-size: 11px; font-weight: 600; padding: 2px 10px; border-radius: 20px; text-transform: capitalize;}
+.talygen-card-view .pjt-amount-chip { font-size: 11px; font-weight: 600; background: #fff3cd; color: #856404; padding: 1px 8px; border-radius: 10px; white-space: nowrap; flex-shrink: 0;}
+.talygen-card-view .pjt-progress-block { margin-top: 8px; }
+.talygen-card-view .pjt-progress-label { display: flex; justify-content: space-between; font-size: 11px; color: #6c757d; margin-bottom: 4px;}
+.talygen-card-view .pjt-progress-pct { font-weight: 700; color: #343a40; }
+.talygen-card-view .pjt-progress-track { height: 6px; background: #e9ecef; border-radius: 3px; overflow: hidden;}
+.talygen-card-view .pjt-progress-fill { height: 100%; border-radius: 3px; background: linear-gradient(90deg, #17a2b8, #28a745); transition: width .35s ease; min-width: 2px;}
+.talygen-card-view .pjt-card-footer { display: flex; align-items: center; justify-content: flex-end; padding: 6px 14px; border-top: 1px solid #f1f3f5; background: #fafbfc;}
+.talygen-card-view .pjt-toggle-btn { font-size: 12px; color: #6c757d; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 4px; transition: background .15s, color .15s;}
+.talygen-card-view .pjt-toggle-btn:hover { background: #e9ecef; color: #343a40; text-decoration: none; }
+.talygen-card-view .pjt-expand-section { border-top: 1px solid #f1f3f5; padding: 10px 12px; background: #f8f9fa;}
+.talygen-card-view .pjt-action-row { display: flex; flex-wrap: wrap; gap: 6px;}
+.talygen-card-view .pjt-action-btn { display: inline-flex; align-items: center; font-size: 11px; font-weight: 500; padding: 4px 10px; border-radius: 4px; text-decoration: none; transition: opacity .15s, transform .1s; cursor: pointer;}
+.talygen-card-view .pjt-action-btn:hover { opacity: .88; transform: translateY(-1px); text-decoration: none; }
+.talygen-card-view .pjt-btn-edit   { background: #e3f2fd; color: #1565c0; }
+.talygen-card-view .pjt-btn-view   { background: #e8f5e9; color: #1b5e20; }
+.talygen-card-view .pjt-btn-clone  { background: #fff3e0; color: #bf360c; }
+.talygen-card-view .pjt-btn-config { background: #f3e5f5; color: #4a148c; }
+
+/****** Project New Card View - May 2026 ---- HS ******/
+
+
 
