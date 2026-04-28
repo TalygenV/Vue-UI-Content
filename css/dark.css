@@ -1739,8 +1739,9 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .mcc-od-title-main{color: #ffb2b0!important;}
 
 .scr-goal-text, .scr-goal-metric-head{color: #fff;}
- 
-/****AI Project Marketing - Project Overview - New design - HS 2026****/    
+/****AI Project Marketing - Project Overview - New design - HS 2026****/ 
+
+/****** Project New Card View - May 2026 ---- HS ******/    
 
 .talygen-card-view .pjt-card{border: 1px solid #404243 ; border-top: 5px solid #17a2b8; background: #2c3136;}
 .talygen-card-view .pjt-card-header{border-bottom: 1px solid #404243 ;}
@@ -1750,21 +1751,20 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .talygen-card-view .pjt-expand-section{border-top: 1px solid #404243!important; background: #191c1e!important;}
 .talygen-card-view .dropdown-menu-modern{background: #1c1f22;border: 1px solid #404243;}
 .talygen-card-view .dropdown-menu-modern a{border-bottom: 1px solid #404243;}
-
 .talygen-card-view .pjt-btn-edit   { background: #0c4c79; color: #a2cdff;}
 .talygen-card-view .pjt-btn-view   { background: #1b5e20; color: #e8f5e9;}
 .talygen-card-view .pjt-btn-clone  { background: #bf360c; color: #fff3e0;}
 .talygen-card-view .pjt-btn-config { background: #48316a; color: #f3e5f5;}
 .talygen-card-view .dropdown-menu-modern a:hover { background: #000;}
-
 .talygen-card-view .pjt-menu-btn:hover {background:#0d0d0d; color:#828282;}
 .talygen-card-view .pjt-toggle-btn:hover { background: #383838; color: #c3c3c3;}
-
 .talygen-card-view .pjt-amount-chip{background: #574e31; color: #b8ae90;}
+/****** Project New Card View - May 2026 ---- HS ******/
 
 
-
-
+/****** Task list - New Card View - May 2026 ---- HS ******/ 
+.talygen-card-view .tsk-card{border: 1px solid #404243 ; border-top: 5px solid #17a2b8; background: #2c3136;}
+.talygen-card-view .tsk-title{color: #ccc;}
 
 
 
