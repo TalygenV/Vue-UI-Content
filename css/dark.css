@@ -1757,5 +1757,6 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .talygen-card-view .pjt-btn-config { background: #48316a; color: #f3e5f5;}
 .talygen-card-view .dropdown-menu-modern a:hover { background: #000;}
 
-.pjt-menu-btn:hover {background:#0d0d0d; color:#828282;}
+.talygen-card-view .pjt-menu-btn:hover {background:#0d0d0d; color:#828282;}
+.talygen-card-view .pjt-toggle-btn:hover { background: #383838; color: #c3c3c3;}
 
