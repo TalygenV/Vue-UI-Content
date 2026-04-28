@@ -1742,9 +1742,9 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
  
 /****AI Project Marketing - Project Overview - New design - HS 2026****/    
 
-.talygen-card-view .pjt-card{border: 1px solid #404243 !important; border-top: 5px solid #17a2b8; background: #2c3136!important;}
-.talygen-card-view .pjt-card-header{border-bottom: 1px solid #404243 !important;}
-.talygen-card-view .pjt-card-footer{border-top: 1px solid #404243 ; background: #191c1e!important;}
+.talygen-card-view .pjt-card{border: 1px solid #404243 ; border-top: 5px solid #17a2b8; background: #2c3136;}
+.talygen-card-view .pjt-card-header{border-bottom: 1px solid #404243 ;}
+.talygen-card-view .pjt-card-footer{border-top: 1px solid #404243 ; background: #191c1e;}
 .talygen-card-view .pjt-project-name, .talygen-card-view .pjt-row-icon, .talygen-card-view .pjt-card-row, .talygen-card-view .pjt-progress-label, .talygen-card-view .pjt-progress-pct{color: #ccc!important;}
 .talygen-card-view .pjt-progress-track{background: #414447;}
 .talygen-card-view .pjt-expand-section{border-top: 1px solid #404243!important; background: #191c1e!important;}
