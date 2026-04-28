@@ -1782,6 +1782,7 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .talygen-card-view .tsk-timer-disabled { background: #474747; border: 1px solid #979797; color: #9ca3af !important;}
 
 .talygen-card-view .tsk-action-list-box{background: #1c1f22; border: 1px solid #404243;}
+.talygen-card-view .tsk-menu-btn:hover {background:#0d0d0d; color:#828282;}
 
 /****** Task list - New Card View - May 2026 ---- HS ******/ 
 
