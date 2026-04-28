@@ -1765,6 +1765,12 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 /****** Task list - New Card View - May 2026 ---- HS ******/ 
 .talygen-card-view .tsk-card{border: 1px solid #404243 ; border-top: 5px solid #17a2b8; background: #2c3136;}
 .talygen-card-view .tsk-title{color: #ccc;}
+.talygen-card-view .tsk-card-header{border-bottom: 1px solid #404243;}
+.talygen-card-view .tsk-card-row, .talygen-card-view .tsk-row-val{color: #fff;}
+
+.talygen-card-view .tsk-time-cell{background: #0e1114;}
+.talygen-card-view .tsk-time-label{color: #fff;}
+.talygen-card-view .tsk-time-val{color: #ccc;}
 
 
 
