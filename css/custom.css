@@ -10430,3 +10430,5 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .talygen-card-view .tsk-circle-label { font-size: 9px; color: #6c757d; }
 .talygen-card-view .tsk-expand-footer { padding-top: 4px; }
 /****** Task List New Card View - May 2026 ---- HS ******/
+
+.forceleftpadd_child{padding-left: 44px!important;}
