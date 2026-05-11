@@ -355,31 +355,58 @@ touritem["ExpenseApproval/Index"] = {
     },
   ],
 };
+// touritem["ClientBill/Index"] = {
+//   ModuleDisplayName: "Invoice",
+//   ModuleName: "ClientBill",
+//   displayName: "Invoice",
+//   items: [
+//     {
+//       selector: "#accordionEx",
+//       step: 1,
+//       title: "SearchFilters",
+//       content: "SearchFilterInvoiceContent",
+//     },
+//     {
+//       selector: ".manualInvoice_a",
+//       step: 2,
+//       title: "Manual" + " " + "Invoice",
+//       content: "ManualInvoiceContent",
+//     },
+//     {
+//       selector: ".InvoiceStatus_Span",
+//       step: 3,
+//       title: "Update" + " " + "InvoiceStatus",
+//       content: "InvoiceStatusContent",
+//     },
+//   ],
+// };
+
 touritem["ClientBill/Index"] = {
   ModuleDisplayName: "Invoice",
-  ModuleName: "ClientBill",
+  ModuleName: "Billing",
   displayName: "Invoice",
   items: [
     {
-      selector: "#accordionEx",
+      selector: "#crmleftsearch",
       step: 1,
       title: "SearchFilters",
       content: "SearchFilterInvoiceContent",
     },
     {
-      selector: ".manualInvoice_a",
+      selector: "#manualBillButton",
       step: 2,
       title: "Manual" + " " + "Invoice",
       content: "ManualInvoiceContent",
     },
     {
-      selector: ".InvoiceStatus_Span",
+      selector: ".invaction",
       step: 3,
       title: "Update" + " " + "InvoiceStatus",
       content: "InvoiceStatusContent",
     },
   ],
 };
+
 touritem["BillingRule/RuleListing"] = {
   ModuleDisplayName: "Invoice",
   ModuleName: "ClientBill",
