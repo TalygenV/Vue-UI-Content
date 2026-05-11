@@ -290,9 +290,10 @@ blockquote {
     margin: 0px 3px 5px 0px;
 }
 
-a[href="/Ticketing/Index"] {
+/* a[href="/Ticketing/Index"] {
     background: #cc7d38 !important;
-}
+} */
+ /**HS commented - 11May26 - Its was effecting breadcrumb*/
 
 
 #backtolist{background: none !important;}
