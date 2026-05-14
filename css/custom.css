@@ -2968,6 +2968,10 @@ ul.nodechld li div.content label{margin-bottom:4px;}
 .slider_setpercentage{width:75%;}
 .slider_setpercentagebox{width:20%;}
 }
+
+
+.multiselect__option_wrap .multiselect__option{white-space:pre-wrap;}
+
 .select-custom input[type=radio]{display:none;}
 .select-custom .multiselect-container  li {padding: 5px 10px;background-color: #e9e9e9 !important;}
 .select-custom .multiselect-container  li.multiselect-group{padding: 5px 10px;background-color: #c4c4c4 !important;}
