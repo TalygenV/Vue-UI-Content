@@ -9160,6 +9160,8 @@ ul.list-group.list-group-flush { padding: 2px;}
 .newdsgn .list-box.action-list-box{position: absolute!important; width:500px!important;}
 .newdsgn .ulnodellistdata .actions.mobileaction{margin-top: 12px!important;}
 
+.newpaggingforchild ul.pagination li ul.paging-count li.page-item { float: none !important; padding: 0px!important; width: unset !important;}
+.newpaggingforchild .nu-paging{min-height: 70px!important;}
 
 /********* USIC Billing Validation Data - FlagRecords, BulkMove, BulkMoveAdvance etc Tabs Screens******************/
 
