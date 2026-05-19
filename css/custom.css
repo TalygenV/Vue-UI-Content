@@ -10197,7 +10197,8 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .tab-pill-selected { background: #23a5fd; color: #fff;}
 .tab-pill-top { position: absolute; top: 8px; right: 8px;}
 
-.tab-pill-top.lefts { position: absolute; top: 8px; left: 8px; color:#303030;}
+.tab-pill-top.lefts { position: absolute; top: 8px; left: 8px; }
+.tab-pill-top.lefts.color30 { color:#303030;}
 
 .tab-pill-bottom { position: absolute; right: 8px; bottom: 8px;}
 .tab-title { margin: 0; font-weight: 500; font-size: 13px; color: #111827;} 
