@@ -10198,7 +10198,7 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .tab-pill-top { position: absolute; top: 8px; right: 8px;}
 
 .tab-pill-top.lefts { position: absolute; top: 8px; left: 8px; }
-.tab-pill-top.lefts.color30 { color:#303030;}
+.tab-pill-top.lefts.color30 { color:#abb5bf;}
 
 .tab-pill-bottom { position: absolute; right: 8px; bottom: 8px;}
 .tab-pill-bottom.lefts { position: absolute; left: 8px; bottom: 8px;}
