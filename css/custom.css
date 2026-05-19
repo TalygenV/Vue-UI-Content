@@ -10196,6 +10196,9 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .tab-pill-locked {border: 1px solid #d0d5dd; color: #98a2b3; background: #f9fafb;}
 .tab-pill-selected { background: #23a5fd; color: #fff;}
 .tab-pill-top { position: absolute; top: 8px; right: 8px;}
+
+.tab-pill-top.lefts { position: absolute; top: 8px; left: 8px;}
+
 .tab-pill-bottom { position: absolute; right: 8px; bottom: 8px;}
 .tab-title { margin: 0; font-weight: 500; font-size: 13px; color: #111827;} 
 .tab-card.selected.locked{border: 1px solid #d6ca9f!important; background:#fff8df!important; cursor: not-allowed !important;}
