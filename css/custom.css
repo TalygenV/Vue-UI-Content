@@ -10201,6 +10201,8 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .tab-pill-top.lefts.color30 { color:#303030;}
 
 .tab-pill-bottom { position: absolute; right: 8px; bottom: 8px;}
+.tab-pill-bottom.lefts { position: absolute; left: 8px; bottom: 8px;}
+
 .tab-title { margin: 0; font-weight: 500; font-size: 13px; color: #111827;} 
 .tab-card.selected.locked{border: 1px solid #d6ca9f!important; background:#fff8df!important; cursor: not-allowed !important;}
 .tab-card.selected.locked span.tab-icon em{color: #333335!important;}
