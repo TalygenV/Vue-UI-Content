@@ -958,10 +958,16 @@ touritem["Ticketing/add"] = {
   displayName: "Add Ticket",
   items: [
     {
-      selector: "#saveuserticket",
+      selector: ".ancsavedraftticket",
       step: 1,
-      title: "Save as Draft or Submit",
-      content: "SubmitTicket",
+      title: "Click here to Draft ticket",
+      content: "SaveasDraftorSubmit",
+    },
+    {
+      selector: ".ancsaveuserticket",
+      step: 2,
+      title: "Click here to Submit ticket",
+      content: "ClickHereSubmitTicket",
     },
   ],
 };
@@ -1502,7 +1508,7 @@ touritem["AssetCatalog/RelatedInformation"] = {
       content: "RelatedBacktoList",
     },
 
- 
+
 
   ],
 };
@@ -1533,10 +1539,10 @@ touritem["AssetCatalog/TransferItem"] = {
       title: "Product Move to List",
       content: "ProductMovetoList",
     },
-   
-   
 
- 
+
+
+
 
   ],
 };
@@ -1577,10 +1583,10 @@ touritem["AssetCatalog/ViewInTransitItems"] = {
       title: "Comment",
       content: "InTransitComment",
     },
-   
-   
-   
-   
+
+
+
+
 
   ],
 };
@@ -1696,8 +1702,8 @@ touritem["AssetRequisition/MyRequisitions"] = {
   ModuleName: "Asset",
   displayName: "Check-Out List",
   items: [
-  
-      {
+
+    {
       selector: "#accordionEx",
       step: 1,
       title: "Search Filters",
@@ -1710,15 +1716,15 @@ touritem["AssetRequisition/MyRequisitions"] = {
       title: "Reject",
       content: "RejectCheckoutProduct",
     },
-  
-     {
+
+    {
       selector: "#addCheckoutRequest",
       step: 3,
       title: "Add Check out Request",
       content: "AddCheckOutRequestAllow",
     },
 
- 
+
   ],
 };
 
@@ -1734,7 +1740,7 @@ touritem["AssetAssignment/CheckOut"] = {
       title: "Add Products",
       content: "AddProductsCheckout",
     },
- 
+
   ],
 };
 
@@ -1743,7 +1749,7 @@ touritem["AssetAssignment/CheckOut"] = {
 //   ModuleName: "Asset",
 //   displayName: "Check-Out List",
 //   items: [
-  
+
 //     {
 //       selector: "#addProduct",
 //       step: 1,
@@ -1757,7 +1763,7 @@ touritem["AssetAssignment/CheckOut"] = {
 //       title: "Search Filters",
 //       content: "SearchFilter",
 //     },
-  
+
 //   ],
 // };
 
@@ -1848,7 +1854,7 @@ touritem["AssetAssignment/Index"] = {
       content: "ActionButton",
     },
 
-  
+
 
   ],
 };
@@ -1973,7 +1979,7 @@ touritem["Asset/PendingRequest"] = {
       content: "ProductCheckOutRequests",
     },
 
-    
+
     {
       selector: "#pendignAssign",
       step: 4,
@@ -2087,7 +2093,7 @@ touritem["Asset/PendingRequest"] = {
       title: "Reservation",
       content: "ReservationStep",
     },
-  
+
     {
       selector: "#productReserve",
       step: 20,
@@ -2620,7 +2626,7 @@ touritem["CRM/DealListing"] = {
       step: 7,
       title: "actionButton",
       content: "actionButtonContent"
-    }   
+    }
   ]
 };
 touritem["CRM/ItemListing"] = {
@@ -2755,7 +2761,7 @@ touritem["CRM/VendorListing"] = {
       step: 5,
       title: "ExporttoExcel",
       content: "ExporttoExcelContent"
-    }    
+    }
   ]
 };
 touritem["ClientBill/Index"] = {

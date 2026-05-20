@@ -2120,7 +2120,7 @@ touritem["CRM/DealListing"] = {
       step: 7,
       title: "actionButton",
       content: "actionButtonContent"
-    }   
+    }
   ]
 };
 touritem["CRM/ViewDealDetails"] = {
@@ -2572,7 +2572,7 @@ touritem["CRM/VendorListing"] = {
       step: 5,
       title: "ExporttoExcel",
       content: "ExporttoExcelContent"
-    }    
+    }
   ]
 };
 
@@ -3036,10 +3036,16 @@ touritem["Ticketing/add"] = {
   displayName: "Add Ticket",
   items: [
     {
-      selector: "#saveuserticket",
+      selector: ".ancsavedraftticket",
       step: 1,
-      title: "Save as Draft or Submit",
-      content: "SubmitTicket",
+      title: "Click here to Draft ticket",
+      content: "SaveasDraftorSubmit",
+    },
+    {
+      selector: ".ancsaveuserticket",
+      step: 2,
+      title: "Click here to Submit ticket",
+      content: "ClickHereSubmitTicket",
     },
   ],
 };
@@ -3340,7 +3346,7 @@ touritem["File/Dashboard"] = {
   ModuleDisplayName: "Doc Storage",
   ModuleName: "UserStorage",
   displayName: "File",
-  items: [    
+  items: [
     {
       selector: "#leftmenutree",
       step: 1,
@@ -5047,7 +5053,7 @@ touritem["Project/Index"] = {
       step: 7,
       title: "Next",
       content: "SummarynextstepContent",
-    }, 
+    },
     {
       selector: "#nextviewtab",
       step: 8,
