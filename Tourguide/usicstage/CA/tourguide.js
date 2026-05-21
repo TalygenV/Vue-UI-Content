@@ -1602,62 +1602,62 @@ touritem["ExitPolicy/EmployeeResignationList"] = {
 var tourData = [];
 var touritem = {};
 
-touritem["User/Dashboard"] = {
-  ModuleDisplayName: "Company Setup",
-  ModuleName: "User",
-  displayName: "Dashboard",
-  items: [
-    {
-      selector: "div#fullMenuUl",
-      step: 1,
-      title: "FullMenu",
-      content: "FullMenuContent",
-    },
-    {
-      selector: "ul.my-account",
-      step: 2,
-      title: "ProflieMenu",
-      content: "ProflieMenuContent",
-    },
-    {
-      selector: "#DivTimerContent",
-      step: 3,
-      title: "TimerIcon",
-      content: "TimerIconContent",
-    },
-    {
-      selector: "li.wizardnew",
-      step: 4,
-      title: "WizardIcon",
-      content: "WizardIconContent",
-    },
-    {
-      selector: "#anceditMyDashboard",
-      step: 5,
-      title: "MyShortcuts",
-      content: "MyShortcutsContent",
-    },
-    {
-      selector: ".rightsideicon",
-      step: 6,
-      title: "MyShortcutsCustom",
-      content: "MyShortcutsContent",
-    },
-    {
-      selector: "#ancAddGroupMyDashboard",
-      step: 7,
-      title: "AddNewGroup",
-      content: "AddNewGroupContent",
-    },
-    {
-      selector: ".clsdashboardgroup ul.shortcuts-menu li:first-child",
-      step: 8,
-      title: "ShortcutLink",
-      marked: true,
-      content: "ShortcutLinkContent",
-    },
-  ],
-};
+// touritem["User/Dashboard"] = {
+//   ModuleDisplayName: "Company Setup",
+//   ModuleName: "User",
+//   displayName: "Dashboard",
+//   items: [
+//     {
+//       selector: "div#fullMenuUl",
+//       step: 1,
+//       title: "FullMenu",
+//       content: "FullMenuContent",
+//     },
+//     {
+//       selector: "ul.my-account",
+//       step: 2,
+//       title: "ProflieMenu",
+//       content: "ProflieMenuContent",
+//     },
+//     {
+//       selector: "#DivTimerContent",
+//       step: 3,
+//       title: "TimerIcon",
+//       content: "TimerIconContent",
+//     },
+//     {
+//       selector: "li.wizardnew",
+//       step: 4,
+//       title: "WizardIcon",
+//       content: "WizardIconContent",
+//     },
+//     {
+//       selector: "#anceditMyDashboard",
+//       step: 5,
+//       title: "MyShortcuts",
+//       content: "MyShortcutsContent",
+//     },
+//     {
+//       selector: ".rightsideicon",
+//       step: 6,
+//       title: "MyShortcutsCustom",
+//       content: "MyShortcutsContent",
+//     },
+//     {
+//       selector: "#ancAddGroupMyDashboard",
+//       step: 7,
+//       title: "AddNewGroup",
+//       content: "AddNewGroupContent",
+//     },
+//     {
+//       selector: ".clsdashboardgroup ul.shortcuts-menu li:first-child",
+//       step: 8,
+//       title: "ShortcutLink",
+//       marked: true,
+//       content: "ShortcutLinkContent",
+//     },
+//   ],
+// };
 
 touritem["User/Home"] = {
   ModuleDisplayName: "Company Setup",
