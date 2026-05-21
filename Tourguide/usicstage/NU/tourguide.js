@@ -7,57 +7,20 @@ touritem["User/Dashboard"] = {
   displayName: "Dashboard",
   items: [
     {
-      selector: "div#fullMenuUl",
-      step: 1,
-      title: "FullMenu",
-      content: "FullMenuContent",
-    },
-    {
-      selector: "ul.my-account",
-      step: 2,
-      title: "ProflieMenu",
-      content: "ProflieMenuContent",
-    },
-    {
-      selector: "#DivTimerContent",
-      step: 3,
-      title: "TimerIcon",
-      content: "TimerIconContent",
-    },
-    {
-      selector: "li.wizardnew",
-      step: 4,
-      title: "WizardIcon",
-      content: "WizardIconContent",
-    },
-    {
-      selector: "#anceditMyDashboard",
-      step: 5,
-      title: "MyShortcuts",
-      content: "MyShortcutsContent",
-    },
-    {
-      selector: ".rightsideicon",
-      step: 6,
-      title: "MyShortcutsCustom",
-      content: "MyShortcutsContent",
-    },
-    {
       selector: "#ancAddGroupMyDashboard",
-      step: 7,
+      step: 1,
       title: "AddNewGroup",
       content: "AddNewGroupContent",
     },
     {
       selector: ".clsdashboardgroup ul.shortcuts-menu li:first-child",
-      step: 8,
+      step: 2,
       title: "ShortcutLink",
       marked: true,
       content: "ShortcutLinkContent",
     },
   ],
 };
-
 touritem["User/Home"] = {
   ModuleDisplayName: "Company Setup",
   ModuleName: "User",
@@ -2804,6 +2767,105 @@ touritem["Project/Index"] = {
       title: "Filters",
       content: "SearchMultipleFiltersProject",
     }
+  ],
+};
+touritem["BillingRule/RuleListing"] = {
+  ModuleDisplayName: "Invoice",
+  ModuleName: "ClientBill",
+  displayName: "BillingRule",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "SearchRule",
+      content: "SearchBillingRules",
+    },
+    {
+      selector: ".ddlupdatestatus",
+      step: 2,
+      title: "StatusUpdate",
+      content: "ChangeBillingRulestatus",
+    },
+    {
+      selector: ".enable",
+      step: 3,
+      title: "ViewRule",
+      content: "ViewYourBillingRuleDetails",
+    },
+    {
+      selector: ".addBillingRule",
+      step: 4,
+      title: "AddRule",
+      content: "CreateNewBillingRule",
+    },
+  ],
+};
+touritem["BillingService/Index"] = {
+  ModuleDisplayName: "Invoice",
+  ModuleName: "Billing",
+  displayName: "BillingRule Listing",
+  items: [
+    {
+      selector: ".ddlupdatestatus",
+      step: 1,
+      title: "StatusUpdate",
+      content: "ChangeBillingServiceStatus",
+    },
+    {
+      selector: "._ancServiceUpdateHistory",
+      step: 2,
+      title: "HistoricData",
+      content: "ViewYouTheBillingServiceHistory",
+    },
+    {
+      selector: ".CloneService",
+      step: 3,
+      title: "ServiceCloning",
+      content: "CloningAllowsYouToCreateDuplicateService  ",
+    },
+    {
+      selector: ".p-action-btn .text-white",
+      step: 4,
+      title: "CreateService",
+      content: "CreateNewBillingService",
+    },
+    {
+      selector: "#btnSave",
+      step: 5,
+      title: "EnterServiceDetails",
+      content: "CongratsYouHaveCreatedBillingServiceSuccessfully",
+    },
+  ],
+};
+touritem["User/Index"] = {
+  ModuleDisplayName: "Company Setup",
+  ModuleName: "User",
+  displayName: "User Details",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filter",
+      content: "SearchUserDetails",
+    },
+    {
+      selector: "#manageProductFilter",
+      step: 2,
+      title: "Filter User Details",
+      content: "FilterUserDetails",
+    },
+    {
+      selector: "#AssignManager",
+      step: 3,
+      title: "Assign Manager",
+      content: "AssignManagerToUser",
+    },
+    {
+      selector: "#AddUser",
+      step: 4,
+      title: "Add User",
+      content: "AddNewUserToSystem",
+    },
   ],
 };
 tourData.push(touritem);

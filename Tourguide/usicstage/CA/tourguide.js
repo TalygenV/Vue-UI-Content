@@ -7,50 +7,14 @@ touritem["User/Dashboard"] = {
   displayName: "Dashboard",
   items: [
     {
-      selector: "div#fullMenuUl",
-      step: 1,
-      title: "FullMenu",
-      content: "FullMenuContent",
-    },
-    {
-      selector: "ul.my-account",
-      step: 2,
-      title: "ProflieMenu",
-      content: "ProflieMenuContent",
-    },
-    {
-      selector: "#DivTimerContent",
-      step: 3,
-      title: "TimerIcon",
-      content: "TimerIconContent",
-    },
-    {
-      selector: "li.wizardnew",
-      step: 4,
-      title: "WizardIcon",
-      content: "WizardIconContent",
-    },
-    {
-      selector: "#anceditMyDashboard",
-      step: 5,
-      title: "MyShortcuts",
-      content: "MyShortcutsContent",
-    },
-    {
-      selector: ".rightsideicon",
-      step: 6,
-      title: "MyShortcutsCustom",
-      content: "MyShortcutsContent",
-    },
-    {
       selector: "#ancAddGroupMyDashboard",
-      step: 7,
+      step: 1,
       title: "AddNewGroup",
       content: "AddNewGroupContent",
     },
     {
       selector: ".clsdashboardgroup ul.shortcuts-menu li:first-child",
-      step: 8,
+      step: 2,
       title: "ShortcutLink",
       marked: true,
       content: "ShortcutLinkContent",
@@ -428,7 +392,7 @@ touritem["BillingService/Index"] = {
   items: [
     {
       selector: ".ddlupdatestatus",
-      step: 2,
+      step: 1,
       title: "StatusUpdate",
       content: "ChangeBillingServiceStatus",
     },
@@ -528,7 +492,7 @@ touritem["Client/Index"] = {
   displayName: "Client",
   items: [
     {
-      selector: "#accordionEx .left-filter",
+      selector: "#accordionEx",
       step: 1,
       title: "SearchRule",
       content: "SearchAccountUsingPredefinedSearchFilters",
@@ -1053,31 +1017,31 @@ touritem["CRM/ContactListing"] = {
     },
   ],
 };
-touritem["CRM/ContractListing"] = {
-  ModuleDisplayName: "CRM Management",
-  ModuleName: "CRM",
-  displayName: "Contract Listing",
-  items: [
-    {
-      selector: ".divContactData_a",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchContractFilterContent",
-    },
-    {
-      selector: ".addcontact_a",
-      step: 2,
-      title: "AddContract",
-      content: "AddContractContent",
-    },
-    {
-      selector: "#action-list",
-      step: 3,
-      title: "AddContract",
-      content: "AddContractContent",
-    },
-  ],
-};
+// touritem["CRM/ContractListing"] = {
+//   ModuleDisplayName: "CRM Management",
+//   ModuleName: "CRM",
+//   displayName: "Contract Listing",
+//   items: [
+//     {
+//       selector: ".divContactData_a",
+//       step: 1,
+//       title: "SearchFilters",
+//       content: "SearchContractFilterContent",
+//     },
+//     {
+//       selector: ".addcontact_a",
+//       step: 2,
+//       title: "AddContract",
+//       content: "AddContractContent",
+//     },
+//     {
+//       selector: "#action-list",
+//       step: 3,
+//       title: "AddContract",
+//       content: "AddContractContent",
+//     },
+//   ],
+// };
 touritem["CRM/ManageCampaign"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
@@ -4981,31 +4945,31 @@ touritem["ProjectRequest/Index"] = {
   ],
 };
 
-touritem["ClientBill/Index"] = {
-  ModuleDisplayName: "Invoice",
-  ModuleName: "Billing",
-  displayName: "Invoice",
-  items: [
-    {
-      selector: "#crmleftsearch",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchFilterInvoiceContent",
-    },
-    {
-      selector: "#manualBillButton",
-      step: 2,
-      title: "Manual" + " " + "Invoice",
-      content: "ManualInvoiceContent",
-    },
-    {
-      selector: ".invaction",
-      step: 3,
-      title: "Update" + " " + "InvoiceStatus",
-      content: "InvoiceStatusContent",
-    },
-  ],
-};
+// touritem["ClientBill/Index"] = {
+//   ModuleDisplayName: "Invoice",
+//   ModuleName: "Billing",
+//   displayName: "Invoice",
+//   items: [
+//     {
+//       selector: "#crmleftsearch",
+//       step: 1,
+//       title: "SearchFilters",
+//       content: "SearchFilterInvoiceContent",
+//     },
+//     {
+//       selector: "#manualBillButton",
+//       step: 2,
+//       title: "Manual" + " " + "Invoice",
+//       content: "ManualInvoiceContent",
+//     },
+//     {
+//       selector: ".invaction",
+//       step: 3,
+//       title: "Update" + " " + "InvoiceStatus",
+//       content: "InvoiceStatusContent",
+//     },
+//   ],
+// };
 
 touritem["Project/Index"] = {
   ModuleDisplayName: "Project Management",
@@ -5071,6 +5035,144 @@ touritem["Project/Index"] = {
       step: 10,
       title: "FinishSetup",
       content: "FinishSetupContent",
+    },
+  ],
+};
+touritem["ReplyTemplate/Index"] = {
+  ModuleDisplayName: "Ticketing",
+  ModuleName: "Ticketing",
+  displayName: "Add Template",
+  items: [
+    {
+      selector: "#AddPolicy",
+      step: 1,
+      title: "Add Template",
+      content: "AddReplyTemplate",
+    },
+
+  ],
+};
+touritem["Ticketing/Unassigned"] = {
+  ModuleDisplayName: "Ticketing",
+  ModuleName: "Ticketing",
+  displayName: "Ticket Listing",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filters",
+      content: "SearchFiltersPageTour",
+    },
+    {
+      selector: ".right-content .dashbord-widget",
+      step: 2,
+      title: "Widgets",
+      content: "WidgetsPageTour",
+    },
+    {
+      selector: "#ddlUserCurrentStatus",
+      step: 3,
+      title: "User Status",
+      content: "UserStatusPageTour",
+    },
+    {
+      selector: "#Addticketing",
+      step: 4,
+      title: "Add Ticket",
+      content: "AddTicketPageTour",
+    },
+    {
+      selector: ".actions .mobileaction .viewTicket",
+      step: 5,
+      title: "View Ticket",
+      content: "ViewTicket",
+    },
+  ],
+};
+touritem["User/Index"] = {
+  ModuleDisplayName: "Company Setup",
+  ModuleName: "User",
+  displayName: "User Details",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filter",
+      content: "SearchUserDetails",
+    },
+    {
+      selector: "#manageProductFilter",
+      step: 2,
+      title: "Filter User Details",
+      content: "FilterUserDetails",
+    },
+    {
+      selector: "#AssignManager",
+      step: 3,
+      title: "Assign Manager",
+      content: "AssignManagerToUser",
+    },
+    {
+      selector: "#AddUser",
+      step: 4,
+      title: "Add User",
+      content: "AddNewUserToSystem",
+    },
+  ],
+};
+touritem["BillingRule/RuleListing"] = {
+  ModuleDisplayName: "Invoice",
+  ModuleName: "ClientBill",
+  displayName: "BillingRule",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "SearchRule",
+      content: "SearchBillingRules",
+    },
+    {
+      selector: ".ddlupdatestatus",
+      step: 2,
+      title: "StatusUpdate",
+      content: "ChangeBillingRulestatus",
+    },
+    {
+      selector: ".enable",
+      step: 3,
+      title: "ViewRule",
+      content: "ViewYourBillingRuleDetails",
+    },
+    {
+      selector: ".addBillingRule",
+      step: 4,
+      title: "AddRule",
+      content: "CreateNewBillingRule",
+    },
+  ],
+};
+touritem["ClientBill/Index"] = {
+  ModuleDisplayName: "Invoice",
+  ModuleName: "ClientBill",
+  displayName: "Invoice",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchFilterInvoiceContent",
+    },
+    {
+      selector: ".manualInvoice_a",
+      step: 2,
+      title: "Manual" + " " + "Invoice",
+      content: "ManualInvoiceContent",
+    },
+    {
+      selector: ".InvoiceStatus_Span",
+      step: 3,
+      title: "Update" + " " + "InvoiceStatus",
+      content: "InvoiceStatusContent",
     },
   ],
 };

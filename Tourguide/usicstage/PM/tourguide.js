@@ -7,56 +7,14 @@ touritem["User/Dashboard"] = {
   displayName: "Dashboard",
   items: [
     {
-      selector: "a#navbarDropdownPortfolio",
-      step: 1,
-      title: "FullMenu",
-      content: "FullMenuContent",
-    },
-    {
-      selector: "div#fullMenuUl",
-      step: 2,
-      title: "FullMenu",
-      content: "FullMenuContent",
-    },
-    {
-      selector: "ul.my-account",
-      step: 3,
-      title: "ProflieMenu",
-      content: "ProflieMenuContent",
-    },
-    {
-      selector: "#DivTimerContent",
-      step: 4,
-      title: "TimerIcon",
-      content: "TimerIconContent",
-    },
-    {
-      selector: "li.wizardnew",
-      step: 5,
-      title: "WizardIcon",
-      content: "WizardIconContent",
-    },
-    {
-      selector: "#anceditMyDashboard",
-      step: 6,
-      title: "MyShortcuts",
-      content: "MyShortcutsContent",
-    },
-    {
-      selector: ".rightsideicon",
-      step: 7,
-      title: "MyShortcuts",
-      content: "MyShortcutsContent",
-    },
-    {
       selector: "#ancAddGroupMyDashboard",
-      step: 8,
+      step: 1,
       title: "AddNewGroup",
       content: "AddNewGroupContent",
     },
     {
       selector: ".clsdashboardgroup ul.shortcuts-menu li:first-child",
-      step: 9,
+      step: 2,
       title: "ShortcutLink",
       marked: true,
       content: "ShortcutLinkContent",
@@ -1753,7 +1711,7 @@ touritem["BillingService/Index"] = {
   items: [
     {
       selector: ".ddlupdatestatus",
-      step: 2,
+      step: 1,
       title: "StatusUpdate",
       content: "ChangeBillingServiceStatus",
     },
@@ -2881,31 +2839,31 @@ touritem["CRM/VendorListing"] = {
     }
   ]
 };
-touritem["ClientBill/Index"] = {
-  ModuleDisplayName: "Invoice",
-  ModuleName: "Billing",
-  displayName: "Invoice",
-  items: [
-    {
-      selector: "#crmleftsearch",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchFilterInvoiceContent",
-    },
-    {
-      selector: "#manualBillButton",
-      step: 2,
-      title: "Manual" + " " + "Invoice",
-      content: "ManualInvoiceContent",
-    },
-    {
-      selector: ".invaction",
-      step: 3,
-      title: "Update" + " " + "InvoiceStatus",
-      content: "InvoiceStatusContent",
-    },
-  ],
-};
+// touritem["ClientBill/Index"] = {
+//   ModuleDisplayName: "Invoice",
+//   ModuleName: "Billing",
+//   displayName: "Invoice",
+//   items: [
+//     {
+//       selector: "#crmleftsearch",
+//       step: 1,
+//       title: "SearchFilters",
+//       content: "SearchFilterInvoiceContent",
+//     },
+//     {
+//       selector: "#manualBillButton",
+//       step: 2,
+//       title: "Manual" + " " + "Invoice",
+//       content: "ManualInvoiceContent",
+//     },
+//     {
+//       selector: ".invaction",
+//       step: 3,
+//       title: "Update" + " " + "InvoiceStatus",
+//       content: "InvoiceStatusContent",
+//     },
+//   ],
+// };
 touritem["Project/Index"] = {
   ModuleDisplayName: "Project Management",
   ModuleName: "Project",
@@ -2970,6 +2928,62 @@ touritem["Project/Index"] = {
       step: 10,
       title: "FinishSetup",
       content: "FinishSetupContent",
+    },
+  ],
+};
+touritem["ClientBill/Index"] = {
+  ModuleDisplayName: "Invoice",
+  ModuleName: "ClientBill",
+  displayName: "Invoice",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchFilterInvoiceContent",
+    },
+    {
+      selector: ".manualInvoice_a",
+      step: 2,
+      title: "Manual" + " " + "Invoice",
+      content: "ManualInvoiceContent",
+    },
+    {
+      selector: ".InvoiceStatus_Span",
+      step: 3,
+      title: "Update" + " " + "InvoiceStatus",
+      content: "InvoiceStatusContent",
+    },
+  ],
+};
+touritem["User/Index"] = {
+  ModuleDisplayName: "Company Setup",
+  ModuleName: "User",
+  displayName: "User Details",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filter",
+      content: "SearchUserDetails",
+    },
+    {
+      selector: "#manageProductFilter",
+      step: 2,
+      title: "Filter User Details",
+      content: "FilterUserDetails",
+    },
+    {
+      selector: "#AssignManager",
+      step: 3,
+      title: "Assign Manager",
+      content: "AssignManagerToUser",
+    },
+    {
+      selector: "#AddUser",
+      step: 4,
+      title: "Add User",
+      content: "AddNewUserToSystem",
     },
   ],
 };
