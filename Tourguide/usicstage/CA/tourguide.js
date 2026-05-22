@@ -5125,4 +5125,5 @@ touritem["ClientBill/Index"] = {
     }  
   ],
 };
+console.log(touritem);
 tourData.push(touritem);
