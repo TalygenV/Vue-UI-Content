@@ -322,38 +322,6 @@ touritem["ExpenseApproval/Index"] = {
     },
   ],
 };
-
-touritem["BillingRule/RuleListing"] = {
-  ModuleDisplayName: "Invoice",
-  ModuleName: "ClientBill",
-  displayName: "BillingRule",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchRule",
-      content: "SearchBillingRules",
-    },
-    {
-      selector: ".ddlupdatestatus",
-      step: 2,
-      title: "StatusUpdate",
-      content: "ChangeBillingRulestatus",
-    },
-    {
-      selector: ".enable",
-      step: 3,
-      title: "ViewRule",
-      content: "ViewYourBillingRuleDetails",
-    },
-    {
-      selector: ".addBillingRule",
-      step: 4,
-      title: "AddRule",
-      content: "CreateNewBillingRule",
-    },
-  ],
-};
 touritem["BillingRule/NodeConfiguration"] = {
   ModuleDisplayName: "Invoice",
   ModuleName: "ClientBill",
@@ -390,36 +358,42 @@ touritem["BillingService/Index"] = {
   ModuleName: "ClientBill",
   displayName: "Billing Services",
   items: [
-    {
-      selector: ".ddlupdatestatus",
+     {
+      selector: "#accordionEx",
       step: 1,
+      title: "Search Filter",
+      content: "SearchService",
+    },
+    {
+      selector: "#BillingServiceStatus",
+      step: 2,
       title: "StatusUpdate",
       content: "ChangeBillingServiceStatus",
-    },
+    },   
     {
-      selector: "._ancServiceUpdateHistory",
-      step: 2,
-      title: "HistoricData",
-      content: "ViewYouTheBillingServiceHistory",
-    },
-    {
-      selector: ".CloneService",
+      selector: "#addservice",
       step: 3,
-      title: "ServiceCloning",
-      content: "CloningAllowsYouToCreateDuplicateService",
-    },
-    {
-      selector: ".p-action-btn .text-white",
-      step: 4,
       title: "CreateService",
       content: "CreateNewBillingService",
     },
     {
       selector: "#btnSave",
-      step: 5,
+      step: 4,
       title: "EnterServiceDetails",
       content: "CongratsYouHaveCreatedBillingServiceSuccessfully",
-    },
+    }
+     // {
+    //   selector: "#ViewBillingServiceHistory",
+    //   step: 3,
+    //   title: "HistoricData",
+    //   content: "ViewYouTheBillingServiceHistory",
+    // },
+    // {
+    //   selector: "#CloneBillingService",
+    //   step: 4,
+    //   title: "ServiceCloning",
+    //   content: "CloningAllowsYouToCreateDuplicateService",
+    // },
   ],
 };
 touritem["ClientInvoice/CatchAll"] = {
@@ -482,32 +456,6 @@ touritem["ClientInvoice/CatchAll"] = {
       step: 1,
       title: "BulkMove",
       content: "UseBulkMoveOptionProcessBulkRecords",
-    },
-  ],
-};
-
-touritem["Client/Index"] = {
-  ModuleDisplayName: "Company Setup",
-  ModuleName: "User",
-  displayName: "Client",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchRule",
-      content: "SearchAccountUsingPredefinedSearchFilters",
-    },
-    {
-      selector: ".actions .action_icon",
-      step: 2,
-      title: "ManageConfigurations",
-      content: "SetupConfigurationTheAccount",
-    },
-    {
-      selector: ".actions .action_icon",
-      step: 3,
-      title: "EnterTheRequiredInformation",
-      content: "SelectRequiredOptionsSetupYouContractSettings",
     },
   ],
 };
@@ -1696,25 +1644,25 @@ touritem["User/Home"] = {
     },
   ],
 };
-touritem["Project/Index"] = {
-  ModuleDisplayName: "Project Management",
-  ModuleName: "Project",
-  displayName: "Project",
-  items: [
-    //{
-    //    selector: "li.three_wid",
-    //    step: 1,
-    //    title: "Widgets",
-    //    content: "SummaryWidgets"
-    //},
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "Filters",
-      content: "SearchMultipleFiltersProject",
-    },
-  ],
-};
+// touritem["Project/Index"] = {
+//   ModuleDisplayName: "Project Management",
+//   ModuleName: "Project",
+//   displayName: "Project",
+//   items: [
+//     //{
+//     //    selector: "li.three_wid",
+//     //    step: 1,
+//     //    title: "Widgets",
+//     //    content: "SummaryWidgets"
+//     //},
+//     {
+//       selector: "#accordionEx",
+//       step: 1,
+//       title: "Filters",
+//       content: "SearchMultipleFiltersProject",
+//     },
+//   ],
+// };
 touritem["CRM/Index"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
@@ -2820,10 +2768,10 @@ touritem["Client/Index"] = {
   displayName: "Client",
   items: [
     {
-      selector: "#accordionEx .left-filter",
+      selector: "#accordionEx",
       step: 1,
       title: "SearchRule",
-      content: "SearchAccountUsingPredefinedSearchFilters ",
+      content: "SearchAccountUsingPredefinedSearchFilters",
     },
     {
       selector: ".actions .action_icon",
@@ -2987,7 +2935,7 @@ touritem["Ticketing/Index"] = {
       content: "AddTicketPageTour",
     },
     {
-      selector: ".actions .mobileaction .viewTicket",
+      selector: "#TicketSubject",
       step: 5,
       title: "View Ticket",
       content: "ViewTicket",
@@ -3108,8 +3056,14 @@ touritem["Ticketing/Policy"] = {
   displayName: "Ticketing Policy",
   items: [
     {
-      selector: "#AddPolicy",
+      selector: "#accordionEx",
       step: 1,
+      title: "Search Filter",
+      content: "SearchService",
+    },
+    {
+      selector: "#AddPolicy",
+      step: 2,
       title: "Service Level Agreement",
       content: "ServiceLevelAgreement",
     },
@@ -5089,6 +5043,7 @@ touritem["Ticketing/Unassigned"] = {
     },
   ],
 };
+
 touritem["User/Index"] = {
   ModuleDisplayName: "Company Setup",
   ModuleName: "User",
@@ -5132,19 +5087,19 @@ touritem["BillingRule/RuleListing"] = {
       content: "SearchBillingRules",
     },
     {
-      selector: ".ddlupdatestatus",
+      selector: "#BillingRuleStatus",
       step: 2,
       title: "StatusUpdate",
       content: "ChangeBillingRulestatus",
     },
     {
-      selector: ".enable",
+      selector: ".BillingRuleDetails",
       step: 3,
       title: "ViewRule",
       content: "ViewYourBillingRuleDetails",
     },
     {
-      selector: ".addBillingRule",
+      selector: "#AddBillingRules",
       step: 4,
       title: "AddRule",
       content: "CreateNewBillingRule",
@@ -5163,17 +5118,11 @@ touritem["ClientBill/Index"] = {
       content: "SearchFilterInvoiceContent",
     },
     {
-      selector: ".manualInvoice_a",
+      selector: "#manualBillButton",
       step: 2,
       title: "Manual" + " " + "Invoice",
       content: "ManualInvoiceContent",
-    },
-    {
-      selector: ".InvoiceStatus_Span",
-      step: 3,
-      title: "Update" + " " + "InvoiceStatus",
-      content: "InvoiceStatusContent",
-    },
+    }  
   ],
 };
 tourData.push(touritem);

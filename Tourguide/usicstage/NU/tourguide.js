@@ -741,10 +741,10 @@ touritem["Client/Index"] = {
   displayName: "Client",
   items: [
     {
-      selector: "#accordionEx .left-filter",
+      selector: "#accordionEx",
       step: 1,
       title: "SearchRule",
-      content: "SearchAccountUsingPredefinedSearchFilters ",
+      content: "SearchAccountUsingPredefinedSearchFilters",
     },
     {
       selector: ".actions .action_icon",
@@ -908,7 +908,7 @@ touritem["Ticketing/Index"] = {
       content: "AddTicketPageTour",
     },
     {
-      selector: ".actions .mobileaction .viewTicket",
+      selector: "#TicketSubject",
       step: 5,
       title: "View Ticket",
       content: "ViewTicket",
@@ -1029,8 +1029,14 @@ touritem["Ticketing/Policy"] = {
   displayName: "Ticketing Policy",
   items: [
     {
-      selector: "#AddPolicy",
+      selector: "#accordionEx",
       step: 1,
+      title: "Search Filter",
+      content: "SearchService",
+    },
+    {
+      selector: "#AddPolicy",
+      step: 2,
       title: "Service Level Agreement",
       content: "ServiceLevelAgreement",
     },
@@ -2729,11 +2735,11 @@ touritem["CRM/VendorListing"] = {
 };
 touritem["ClientBill/Index"] = {
   ModuleDisplayName: "Invoice",
-  ModuleName: "Billing",
+  ModuleName: "ClientBill",
   displayName: "Invoice",
   items: [
     {
-      selector: "#crmleftsearch",
+      selector: "#accordionEx",
       step: 1,
       title: "SearchFilters",
       content: "SearchFilterInvoiceContent",
@@ -2743,13 +2749,7 @@ touritem["ClientBill/Index"] = {
       step: 2,
       title: "Manual" + " " + "Invoice",
       content: "ManualInvoiceContent",
-    },
-    {
-      selector: ".invaction",
-      step: 3,
-      title: "Update" + " " + "InvoiceStatus",
-      content: "InvoiceStatusContent",
-    },
+    }  
   ],
 };
 touritem["Project/Index"] = {
@@ -2781,19 +2781,19 @@ touritem["BillingRule/RuleListing"] = {
       content: "SearchBillingRules",
     },
     {
-      selector: ".ddlupdatestatus",
+      selector: "#BillingRuleStatus",
       step: 2,
       title: "StatusUpdate",
       content: "ChangeBillingRulestatus",
     },
     {
-      selector: ".enable",
+      selector: ".BillingRuleDetails",
       step: 3,
       title: "ViewRule",
       content: "ViewYourBillingRuleDetails",
     },
     {
-      selector: ".addBillingRule",
+      selector: "#AddBillingRules",
       step: 4,
       title: "AddRule",
       content: "CreateNewBillingRule",
@@ -2802,39 +2802,45 @@ touritem["BillingRule/RuleListing"] = {
 };
 touritem["BillingService/Index"] = {
   ModuleDisplayName: "Invoice",
-  ModuleName: "Billing",
-  displayName: "BillingRule Listing",
+  ModuleName: "ClientBill",
+  displayName: "Billing Services",
   items: [
-    {
-      selector: ".ddlupdatestatus",
+     {
+      selector: "#accordionEx",
       step: 1,
+      title: "Search Filter",
+      content: "SearchService",
+    },
+    {
+      selector: "#BillingServiceStatus",
+      step: 2,
       title: "StatusUpdate",
       content: "ChangeBillingServiceStatus",
-    },
+    },   
     {
-      selector: "._ancServiceUpdateHistory",
-      step: 2,
-      title: "HistoricData",
-      content: "ViewYouTheBillingServiceHistory",
-    },
-    {
-      selector: ".CloneService",
+      selector: "#addservice",
       step: 3,
-      title: "ServiceCloning",
-      content: "CloningAllowsYouToCreateDuplicateService  ",
-    },
-    {
-      selector: ".p-action-btn .text-white",
-      step: 4,
       title: "CreateService",
       content: "CreateNewBillingService",
     },
     {
       selector: "#btnSave",
-      step: 5,
+      step: 4,
       title: "EnterServiceDetails",
       content: "CongratsYouHaveCreatedBillingServiceSuccessfully",
-    },
+    }
+     // {
+    //   selector: "#ViewBillingServiceHistory",
+    //   step: 3,
+    //   title: "HistoricData",
+    //   content: "ViewYouTheBillingServiceHistory",
+    // },
+    // {
+    //   selector: "#CloneBillingService",
+    //   step: 4,
+    //   title: "ServiceCloning",
+    //   content: "CloningAllowsYouToCreateDuplicateService",
+    // },
   ],
 };
 touritem["User/Index"] = {
