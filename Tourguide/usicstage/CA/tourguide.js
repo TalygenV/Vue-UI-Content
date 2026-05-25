@@ -1547,8 +1547,8 @@ touritem["ExitPolicy/EmployeeResignationList"] = {
     },
   ],
 };
-var tourData = [];
-var touritem = {};
+// var tourData = [];
+// var touritem = {};
 
 // touritem["User/Dashboard"] = {
 //   ModuleDisplayName: "Company Setup",
@@ -4345,7 +4345,7 @@ touritem["Asset/RFIDMissingAssets"] = {
     },
   ],
 };
-tourData.push(touritem);
+//tourData.push(touritem);
 
 touritem["Timer/Index"] = {
   ModuleDisplayName: "Time Track",
@@ -5125,7 +5125,4 @@ touritem["ClientBill/Index"] = {
     }  
   ],
 };
-console.log('Dashboard Item');
-console.log(touritem["User/Dashboard"]);
-console.log(touritem);
 tourData.push(touritem);
