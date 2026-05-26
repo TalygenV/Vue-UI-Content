@@ -10429,12 +10429,12 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .ai_des_base .fc-action-btn { background: #f1f5f9; border: none;border-radius: 6px; color: #475569; cursor: pointer; font-size: 13px; padding: 5px 9px; transition: background 0.15s, color 0.15s; line-height: 1;}
 .ai_des_base .fc-action-btn:hover { background: #e2e8f0;color: #1e293b;}
 .ai_des_base .fc-action-btn.fc-action-danger:hover { background: #fde8e8; color: #dc2626;}
-.ai_des_base .ls-preview-cell { cursor: pointer; display: inline-flex; align-items: center; justify-content: center;}
-.ai_des_base .ls-thumb { width: 40px; height: 40px; object-fit: cover; border-radius: 6px; border: 1px solid #e2e8f0;}
-.ai_des_base .ls-icon-wrap { width: 40px; height: 40px; border-radius: 6px; display: flex; align-items: center; justify-content: center; border: 1px solid #e9eef4;}
-.ai_des_base .ls-title-cell { display: flex; align-items: center; gap: 8px;}
-.ai_des_base .ls-ext-dot { flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; display: inline-block;}
-.ai_des_base .ls-cell-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; max-width: 180px;}
+.ls-preview-cell { cursor: pointer; display: inline-flex; align-items: center; justify-content: center;}
+.ls-thumb { width: 40px; height: 40px; object-fit: cover; border-radius: 6px; border: 1px solid #e2e8f0;}
+.ls-icon-wrap { width: 40px; height: 40px; border-radius: 6px; display: flex; align-items: center; justify-content: center; border: 1px solid #e9eef4;}
+.ls-title-cell { display: flex; align-items: center; gap: 8px;}
+.ls-ext-dot { flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; display: inline-block;}
+.ls-cell-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; max-width: 180px;}
 .ai_des_base .file-preview-modal { position: fixed; inset: 0; z-index: 1060; background: rgba(15, 23, 42, 0.55); display: flex; align-items: center; justify-content: center; padding: 16px;}
 .ai_des_base .file-preview-dialog { width: min(1100px, 96vw); max-height: 92vh; background: #ffffff; border-radius: 10px; box-shadow: 0 18px 48px rgba(0, 0, 0, 0.25); overflow: hidden; display: flex; flex-direction: column;}
 .ai_des_base .file-preview-header { display: flex; align-items: center; justify-content: space-between;  padding: 10px 14px; border-bottom: 1px solid #e2e8f0;}
