@@ -2512,45 +2512,33 @@ touritem["CRM/ContractListing"] = {
   ModuleName: "CRM",
   displayName: "Campaign Listing",
   items: [
+     {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filter",
+      content: "SearchFilterRateSchedule",
+    },
     {
       selector: "#titleName",
-      step: 1,
+      step: 2,
       title: "DefaultView",
       content: "DefaultViewContent"
-    },
+    },    
     {
-      selector: ".defaultedit",
-      step: 2,
-      title: "MangeView",
-      content: "ManageviewContent"
-    },
-    {
-      selector: "#AddNewView",
+      selector: "#Contract_Filter",
       step: 3,
-      title: "AddNew",
-      content: "AddNewViewContent"
-    },
-    {
-      selector: "#Filters",
-      step: 4,
       title: "Filters",
       content: "ContractFiltersContent"
     },
-    {
-      selector: "#action-list",
-      step: 5,
-      title: "actionButton",
-      content: "actionButtonContent"
-    },
-    {
+        {
       selector: "#viewLeadeContent_a",
-      step: 6,
+      step: 4,
       title: "ViewDetail",
       content: "ViewContractContent"
     },
     {
       selector: "#crmlistingStatus_span",
-      step: 7,
+      step: 5,
       title: "Status" + " " + "Update",
       content: "UpdateLeadStatusContent"
     },
