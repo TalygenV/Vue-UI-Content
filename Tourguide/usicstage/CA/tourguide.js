@@ -4975,37 +4975,37 @@ touritem["Project/Index"] = {
     },
     {
       selector: "#viewtab",
-      step: 8,
+      step: 7,
       title: "Selecttabs",
       content: "SelecttabsContent",
     },
      {
       selector: "#btnNext3",
-      step: 9,
+      step: 8,
       title: "EextBtn",
       content: "EextBtnContent",
     },
     {
       selector: "#chx_0",
-      step: 10,
+      step: 9,
       title: "AddTeamMembers",
       content: "AddTeamMembersContent",
     },
     {
       selector: "#chxpm_0",
-      step: 11,
+      step: 10,
       title: "AddProjectPm",
       content: "AddProjectPmContent",
     },
     {
       selector: "#btnNext4",
-      step: 12,
+      step: 10,
       title: "GotofinishStep",
       content: "GotofinishStepContent",
     },
     {
       selector: "#createproject",
-      step: 13,
+      step: 11,
       title: "FinishSetup",
       content: "FinishSetupContent",
     }

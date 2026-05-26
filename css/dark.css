@@ -1545,7 +1545,6 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon
 .shortcuts-menu_temp li .basser{background-color: #000; border: 1px solid #515151;}
 .gen-templateadded .smallhead1 {background: #0e2a55 !important;}
 .gen-templateadded .smallhead2 {background: #0e2a55 !important;}
-
 /***********New Joab Board 2026 ********************/
 .cls_activityboard .card-status{background-color: #191d20;}
 .cls_activityboard .midpanes{background: #2c3136; border: 1px solid #414141;}
@@ -1558,12 +1557,10 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon
 .cls_activityboard .status-scheduled { border-color: #144ca9;}
 .cls_activityboard .status-rescheduled { border-color: #825303;}
 .cls_activityboard .status-completed { border-color: #7a2cc5;}
-
 .cls_candidatelist .candidate-card{border: 1px solid #036979; background: #191d20;}
 .cls_candidatelist .info-row{border-bottom: 1px solid #474747; background: #2c3136; color: #fff;}
 .cls_candidatelist .label-title {color: #ccc;}
 .cls_candidatelist .card-footer-custom{border-top: 1px solid #5d5d5d;}
-
 .cls_dashboard .section_pp .section-header.reddy{background: #2b3034; border: 1px solid #3a3a3a; border-left:5px solid #d9534f;}      
 .cls_dashboard .section-body.border {background: #191d20;}
 .cls_dashboard .butnsbase {background: #0f1011;}
@@ -1573,10 +1570,8 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon
 .cls_dashboard .cls_educationbase div{border-bottom: 1px solid #4f4f4f;}
 .cls_dashboard .cls_skillsbase span{color: #2fa7c7; background: #13272b; border: 1px solid #2b5968;}
 .cls_dashboard .joboverviewbase .priority-badge{background: #212121;}
-
 .cls_joblist .job-card{border: 1px solid #036979; background: #191d20;}
 .cls_joblist .job-info{background: #2c3136;}
-
 .cls_joblist .accepted {background-color: #0f1610; border: 1px solid #31503a; color: #1c8833;}
 .cls_joblist .pending  {background-color: #1a180f; border: 1px solid #5f5128; color: #97710f;}
 .cls_joblist .rejected {background-color: #1e1414; border: 1px solid #6a3035; color: #bc3f50;}
@@ -1584,7 +1579,6 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon
 .cls_joblist .scheduled{background-color: #101929; border: 1px solid #316291; color: #4c82d6;}
 .cls_joblist .status{   background-color: #101c14; border: 1px solid #437d57; color: #3fb667;}
 .cls_joblist .futter {  border-top: 1px solid #5d5d5d;}
-
 .cls_jd .cls_stagesbase.bg-light { background-color: #2c3136 !important;}
 .cls_jd .cls_stagesbase .step-wrapper::before{background: #595959;}
 .cls_jd .cls_stagesbase .step-circle{background: #1b1e21; color: #ccc; border: 3px solid #4a4a4a;}
@@ -1598,14 +1592,8 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded.mandatoryy span.left-icon
 .cls_stagesbase .step-item.active .step-label, .cls_stagesbase .step-item.completed .step-label{color: #34ab5d;}
 .newcardviewdes .avatar-circle{background: #2c3136;}
 /*******Project Overview - Notes Tabs - Card view S Saini - HS***********/
-ul.innertabs_bases a.short-menu-item.gen-templateadded {
-  background-color: #191d20 !important;
-  border: 1px solid #578ee5 !important;
-}
-ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
-    background-color: #050607 !important;
-}
- 
+ul.innertabs_bases a.short-menu-item.gen-templateadded {background-color: #191d20 !important; border: 1px solid #578ee5 !important;}
+ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m { background-color: #050607 !important;}
 /*******Project Overview - Notes Tabs - Card view S Saini - HS***********/
 .talygen-card-view .progress-bar {background-color: #4a4a4a !important;}
 .rightmodalcssfixs .hours-card{background: #2c3136; border: 1px solid #414141;}
@@ -1617,7 +1605,6 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .rightmodalcssfixs .collapsible-section .collapsible-content{background: #191d20;}
 .fc-preview-area, .fc-icon-area{background: #2c3136!important; border:1px solid #3c3c3c!important;}
 .right-content .checklist-icon.bg-light {background-color: #191d20 !important; border: 1px solid #3c3f43;}
-
 /*****Board - Saini - HS 24March2026*****/
 .newdes_kvlist .kb-col-header{background: #2c3136;border-bottom: 1px solid #5a6068;}
 .newdes_kvlist .kb-col-name{color:#ccc!important;}
@@ -1629,52 +1616,34 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .newdes_kvlist .kb-meta-icon{color: #ccc;}
 .newdes_kvlist .kb-task-type-badge{color: #ccc;}
 .newdes_kvlist .kb-wip-info{color: #ccc; border: 1px solid #7b7d80;}
-
 .board-matrix-view .board-matrix-table thead th{background: #181b1e!important; color: #fff!important;}
 .board-matrix-view .board-matrix-table th, .board-matrix-table td{border: 1px solid #33383e!important;}
 .board-matrix-view .matrix-row-head{background: #181b1e !important;}
 .board-matrix-view .matrix-row-label{color: #ccc!important;}
 .board-matrix-view .matrix-cell{background: #2c3136!important;}
-
 .board-matrix-view .matrix-head-title{color: #ccc!important;}
-
 .board-matrix-view .kb-task-card{background: #1e2125; border: 1px solid #454647;}
 .board-matrix-view .kb-task-card:hover{border: 1px solid #61647b;}
-
 .board-matrix-view .kb-card-title{color: #ccc;}
 .board-matrix-view .kb-card-dates{color: #fff;}
 .board-matrix-view .kb-meta-icon{color: #ccc;}
 .board-matrix-view .kb-task-type-badge{color: #ccc;}
-
 /** My Profile - AI Design ***/
 .leftyy .card-header{background: #2c3136;}
 .leftyy .card {border-color: #363636;}
 .leftyy.leftpanepadd .p-card{border: 1px solid #363636; background: #1c1f22;}
-
 .profile-page-bg .gs-card{border: 1px solid #363636;}
 .profile-page-bg .gs-checkbox-item{border-bottom: 1px solid #363636;}
 .leftyy.rightpanepadd .p-comm-row{border-bottom: 1px solid #363636;}
-
 .profile-page-bg .gs-password-title, .profile-page-bg .gs-radio-label, .leftyy.leftpanepadd .p-user-name, .p-contact-type{color: #fff;}
-
 .profile-page-bg .input-group-append .btn{border-color: #3c3f43;}
 .profile-page-bg .gs-password-icon{background: #1c1f22;}
-
 .profile-page-bg .gs-password-row{background: #2c3136; border: 1px solid #3c3f43;}
 
-
-
 /***Add Project New Design S Saini - HS 7April 2026*****/
-
 .newstepper .stepper-wrap{background: #212528!important;}
 .newstepper .stepper-header{background: #141618; border: 1px solid #3d3d3d;}
-.newstepper .sc-panel-header, .newstepper .project-page-head, .newstepper .tabs-page-head{
-  border-left: 3px solid #6c757d;
-  border-bottom: 1px solid #3d3d3d;
-  border-right: 1px solid #3d3d3d;
-  border-top: 1px solid #3d3d3d;
-  background: #141618;}
-
+.newstepper .sc-panel-header, .newstepper .project-page-head, .newstepper .tabs-page-head{ border-left: 3px solid #6c757d;border-bottom: 1px solid #3d3d3d;border-right: 1px solid #3d3d3d; border-top: 1px solid #3d3d3d;  background: #141618;}
 .newstepper .sc-panel-body{background: #1c1f22; border-left: 1px solid #3d3d3d; border-bottom: 1px solid #3d3d3d; border-right: 1px solid #3d3d3d;}
 .newstepper .select-card.selected, .newstepper .tab-card.selected{border-color: #0a73ba; background: linear-gradient(180deg, #1d2021 0%, #10171e 100%);}
 .newstepper .footer-actions{border-top: 1px solid #454545;}
@@ -1685,11 +1654,9 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .newstepper .select-card.industry-card {background: #212427; border-color: #505050;}
 .newstepper .select-card.industry-card:hover, .newstepper .select-card.method-card:hover{border-color: #3c5668; background: #181818;}
 .newstepper .method-icon-wrap{background: #373838!important;}
-
 .newstepper .sc-panel-selected-chip, .newstepper .sc-panel-selected-chip--method{background: #0a161e; border: 1px solid #3587be;}
 .newstepper .tabs-grid .tab-card{background-color: #0e1011 !important;  border: 1px solid #475a79!important;}
 .newstepper .tabs-grid .tab-card.selected{background-color: #0e1011 !important;  border: 1px solid #578ee5!important;}
-
 .newstepper .tabs-grid .tab-card .tab-title{color: #fff;}
 .newstepper .tab-card.selected.locked{border: 1px solid #885b4d !important; background: #513e37 !important;}
 .newstepper .tab-card.selected.locked .tab-pill-selected{border: 1px solid #885b4d !important; background: #885b4d !important;}
@@ -1720,29 +1687,23 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .common-dashboard-shell .section-body.border{border-top: 1px solid #525f65 !important;}
 .common-dashboard-shell .cd-detail-pair{border-bottom: 1px solid #525f65!important;}
 .common-dashboard-shell .cd-detail-label--progress{color:#ccc!important;}
-
 .common-dashboard-shell .cd-team-row{border-bottom: 1px solid #525f65;}
 .common-dashboard-shell .cd-activity-row{border-bottom: 1px solid #525f65;}
 .common-dashboard-shell .cd-activity-meta{color:#ccc!important;}
-
 .common-dashboard-shell .cd-progress-wrap, .common-dashboard-shell .cd-team-bar{background-color: #2c3136!important;}
 .common-dashboard-shell .cd-team-name-line, .common-dashboard-shell .cd-team-stat{color:#ccc!important;}
 .project-content-calendar-overview .common-dashboard-shell .mcc-chart-title{color: #fff!important;}
-
 .mcc-od-table thead th{color: #fff!important; background: #232323!important; border-bottom: 1px solid #515e63!important;border-top:none!important;}
 .mcc-od-table tbody td{border-bottom: 1px solid #525f65!important; border-top: none; color: #fff;}
 .mcc-od-table tbody tr:last-child td{ border-bottom: 0!important; border-top: 0!important;}      
 .cd-ai-intro{background: #000!important; border: 1px solid #29446c!important; color: #8bb8ff!important;}
 .common-dashboard-shell .cd-activity-icon{background: #000!important; color: #a4a7ab!important;}
-
 .mcc-no-chart{color: #ff665a !important;}
 .mcc-od-title-main{color: #ffb2b0!important;}
-
 .scr-goal-text, .scr-goal-metric-head{color: #fff;}
 /****AI Project Marketing - Project Overview - New design - HS 2026****/ 
 
 /****** Project New Card View - May 2026 ---- HS ******/    
-
 .talygen-card-view .pjt-card{border: 1px solid #404243 ; border-top: 5px solid #17a2b8; background: #2c3136;}
 .talygen-card-view .pjt-card-header{border-bottom: 1px solid #404243 ;}
 .talygen-card-view .pjt-card-footer{border-top: 1px solid #404243 ; background: #191c1e;}
@@ -1761,30 +1722,30 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m {
 .talygen-card-view .pjt-amount-chip{background: #574e31; color: #b8ae90;}
 /****** Project New Card View - May 2026 ---- HS ******/
 
-
 /****** Task list - New Card View - May 2026 ---- HS ******/ 
 .talygen-card-view .tsk-card{border: 1px solid #404243 ; border-top: 5px solid #17a2b8; background: #2c3136;}
 .talygen-card-view .tsk-title{color: #ccc;}
 .talygen-card-view .tsk-card-header{border-bottom: 1px solid #404243;}
 .talygen-card-view .tsk-card-row, .talygen-card-view .tsk-row-val{color: #fff;}
-
 .talygen-card-view .tsk-time-cell{background: #0e1114;}
 .talygen-card-view .tsk-time-label{color: #fff;}
 .talygen-card-view .tsk-time-val, .talygen-card-view .tsk-progress-label, .talygen-card-view .tsk-progress-pct{color: #ccc;}
 .talygen-card-view .tsk-progress-track{background: #414447;}
-
 .talygen-card-view .tsk-card-footer{border-top: 1px solid #404243;}
 .talygen-card-view .tsk-expand-progress {background: #1c1f22;}
 .talygen-card-view .tsk-native-progress progress {background: #414447; border: 0;}
-
 .talygen-card-view .tsk-circle-wrap .c100{background-color: #414447;}
 .talygen-card-view .tsk-team-chip, .talygen-card-view .tsk-timer-start{background: #1c1f22;  border: 1px solid #404243;}
 .talygen-card-view .tsk-timer-disabled { background: #474747; border: 1px solid #979797; color: #9ca3af !important;}
-
 .talygen-card-view .tsk-action-list-box{background: #1c1f22; border: 1px solid #404243;}
 .talygen-card-view .tsk-menu-btn:hover {background:#0d0d0d; color:#828282;}
-
 /****** Task list - New Card View - May 2026 ---- HS ******/ 
-
 .task_hist_des .atl-event-title, .task_hist_des .atl-subdesc{color:#fff;}
 
+/***Project Detail - File Listing - Card View***/
+
+.ai_des_base.fc-card{border: 1px solid #525f65;}
+.ai_des_base .fc-footer{border-top: 1px solid #525f65;}
+
+
+/***Project Detail - File Listing - Card View***/
