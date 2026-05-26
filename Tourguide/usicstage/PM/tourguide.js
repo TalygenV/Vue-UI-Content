@@ -2654,7 +2654,7 @@ touritem["CRM/CampaignListing"] = {
 touritem["CRM/ContractListing"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
-  displayName: "Campaign Listing",
+  displayName: "Contract",
   items: [
      {
       selector: "#accordionEx",
@@ -3031,6 +3031,43 @@ touritem["User/Index"] = {
       step: 4,
       title: "Add User",
       content: "AddNewUserToSystem",
+    },
+  ],
+};
+touritem["Ticketing/Unassigned"] = {
+  ModuleDisplayName: "Ticketing",
+  ModuleName: "Ticketing",
+  displayName: "Unassigned Ticket",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filters",
+      content: "SearchFiltersPageTour",
+    },
+    {
+      selector: ".right-content .dashbord-widget",
+      step: 2,
+      title: "Widgets",
+      content: "WidgetsPageTour",
+    },
+    {
+      selector: "#ddlUserCurrentStatus",
+      step: 3,
+      title: "User Status",
+      content: "UserStatusPageTour",
+    },
+    {
+      selector: "#Addticketing",
+      step: 4,
+      title: "Add Ticket",
+      content: "AddTicketPageTour",
+    },
+    {
+      selector: ".actions .mobileaction .viewTicket",
+      step: 5,
+      title: "View Ticket",
+      content: "ViewTicket",
     },
   ],
 };

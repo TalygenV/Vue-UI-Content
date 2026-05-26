@@ -2510,7 +2510,7 @@ touritem["CRM/ContactListing"] = {
 touritem["CRM/ContractListing"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
-  displayName: "Campaign Listing",
+  displayName: "Contract",
   items: [
      {
       selector: "#accordionEx",
@@ -5017,7 +5017,7 @@ touritem["ReplyTemplate/Index"] = {
 touritem["Ticketing/Unassigned"] = {
   ModuleDisplayName: "Ticketing",
   ModuleName: "Ticketing",
-  displayName: "Ticket Listing",
+  displayName: "Unassigned Ticket",
   items: [
     {
       selector: "#accordionEx",
