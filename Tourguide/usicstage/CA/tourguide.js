@@ -4927,6 +4927,7 @@ touritem["ProjectRequest/Index"] = {
 
 touritem["Project/Index"] = {
   ModuleDisplayName: "Project Management",
+  MouseEvent: "Project",
   ModuleName: "Project",
   displayName: "Project",
   items: [
@@ -4949,47 +4950,66 @@ touritem["Project/Index"] = {
       content: "SummaryWidgetsContent",
     },
     {
-      selector: "#selectindustype",
+      selector: "#selectindustype_0",
       step: 4,
-      title: "ChooseIndustryType",
-      content: "SummaryIndustryTypeContent",
+      title: "chooseindustype",
+      content: "chooseindustype",
     },
     {
-      selector: "#PleaseSelectTemplate",
+      selector: "#PleaseSelectTemplate_0",
       step: 5,
       title: "PleaseSelectTemplate",
+      content: "SummaryTemplateContent",
+    },
+    {
+      selector: "#btnNext1",
+      step: 6,
+      title: "Next",
       content: "SummaryTemplateNextContent",
     },
     {
-      selector: "#general",
-      step: 6,
-      title: "SummaryProjectDetailTitle",
-      content: "SummarygeneralContent",
-    },
-    {
-      selector: "#setp2btn",
+      selector: "#btnNext2",
       step: 7,
-      title: "Next",
-      content: "SummarynextstepContent",
+      title: "SummaryProjectDetailTitle",
+      content: "SummaryProjectDetailContent",
     },
     {
-      selector: "#nextviewtab",
+      selector: "#viewtab",
       step: 8,
-      title: "SummaryViewtabsTitle",
-      content: "SummaryViewtabsContent",
+      title: "Selecttabs",
+      content: "SelecttabsContent",
+    },
+     {
+      selector: "#btnNext3",
+      step: 9,
+      title: "EextBtn",
+      content: "EextBtnContent",
     },
     {
-      selector: "#chk_ids",
-      step: 9,
+      selector: "#chx_0",
+      step: 10,
       title: "AddTeamMembers",
       content: "AddTeamMembersContent",
     },
     {
-      selector: "#SummaryProjectSaveContent_a",
-      step: 10,
+      selector: "#chxpm_0",
+      step: 11,
+      title: "AddProjectPm",
+      content: "AddProjectPmContent",
+    },
+    {
+      selector: "#btnNext4",
+      step: 12,
+      title: "GotofinishStep",
+      content: "GotofinishStepContent",
+    },
+    {
+      selector: "#createproject",
+      step: 13,
       title: "FinishSetup",
       content: "FinishSetupContent",
-    },
+    }
+    
   ],
 };
 touritem["ReplyTemplate/Index"] = {
