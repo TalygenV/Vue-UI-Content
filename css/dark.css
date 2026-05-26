@@ -1742,6 +1742,9 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m { backgr
 /****** Task list - New Card View - May 2026 ---- HS ******/ 
 .task_hist_des .atl-event-title, .task_hist_des .atl-subdesc{color:#fff;}
 
+.tabs-grid .tab-card{border: 1px solid #3587be; background: #0a161e!important;}
+.tabs-grid .tab-title{color: #ccc;}
+
 /***Project Detail - File Listing - Card View***/
 
 .ai_des_base.fc-card{border: 1px solid #525f65;}
