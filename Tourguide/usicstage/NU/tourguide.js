@@ -730,7 +730,7 @@ touritem["RateSchedule/Index"] = {
       selector: ".ddlupdatestatus",
       step: 6,
       title: "StatusUpdate",
-      content: "ChangeRateScheduleStatus",
+      content: "ChangeRateSchedulestatus",
     },
   ],
 };
@@ -924,7 +924,7 @@ touritem["Ticketing/add"] = {
       selector: ".ancsavedraftticket",
       step: 1,
       title: "Click here to Draft ticket",
-      content: "SaveasDraftorSubmit",
+      content: "SaveAsDraftOrSubmit",
     },
     {
       selector: ".ancsaveuserticket",
