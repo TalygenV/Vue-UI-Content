@@ -10423,8 +10423,8 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .ai_des_base .fc-preview-area:hover .fc-preview-overlay { opacity: 1;}
 .ai_des_base .fc-body { padding: 10px 14px 6px;  flex: 1;  min-height: 0;}
 .ai_des_base .fc-title { font-size: 14px; font-weight: 600; margin: 0 0 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
-.ai_des_base .fc-filename { font-size: 12px;  color: #64748b; margin: 0 0 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
-.ai_des_base .fc-desc { font-size: 12px; color: #94a3b8; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.ai_des_base .fc-filename { font-size: 14px;  color: #64748b; margin: 0 0 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.ai_des_base .fc-desc { font-size: 14px; color: #94a3b8; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 .ai_des_base .fc-footer { display: flex; justify-content: flex-end; gap: 6px; padding: 8px 12px 10px; border-top: 1px solid #f1f5f9; margin-top: 4px;}
 .ai_des_base .fc-action-btn { background: #f1f5f9; border: none;border-radius: 6px; color: #475569; cursor: pointer; font-size: 13px; padding: 5px 9px; transition: background 0.15s, color 0.15s; line-height: 1;}
 .ai_des_base .fc-action-btn:hover { background: #e2e8f0;color: #1e293b;}
