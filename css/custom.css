@@ -10402,6 +10402,11 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .rmmonly.status-pill.status-syncing {background: #f0ad4e;}
 .rmmonly.status-pill.status-error {background: #dc3545;}
 .rmmonly.status-pill.status-default {background: #6c757d;}
+
+
+.rmm-summary-widgets { margin-bottom: 0.5rem;}
+.rmm-summary-widgets li.rmm-widget-active {outline: 2px solid #fff!important; box-shadow: 0px 10px 10px 0px #b3cfd8!important;}
+
 /*****RMM Mapping Listing - Rahul Kumar - HS 25May2026*******/
 
 /***Project Detail - File Listing - Card View***/
