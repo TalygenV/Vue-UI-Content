@@ -10405,7 +10405,24 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 
 
 .rmm-summary-widgets { margin-bottom: 0.5rem;}
-.rmm-summary-widgets li.rmm-widget-active {outline: 2px solid #fff!important; box-shadow: 0px 10px 10px 0px #b3cfd8!important;}
+
+
+.rmm-summary-widgets li.one_wid.rmm-widget-active {outline: 2px solid #23a5fd!important; box-shadow: 0px 10px 10px 0px #a3d3f9!important;}
+.rmm-summary-widgets li.one_wid.rmm-widget-active i.fa { color: #23a5fd; font-size: 35px;}
+
+.rmm-summary-widgets li.two_wid.rmm-widget-active {outline: 2px solid #dbb429!important; box-shadow: 0px 10px 10px 0px #f0e6c4!important;}
+.rmm-summary-widgets li.two_wid.rmm-widget-active image.fa { color: #dbb429; font-size: 35px;}
+
+.rmm-summary-widgets li.three_wid.rmm-widget-active {outline: 2px solid #37b8df!important; box-shadow: 0px 10px 10px 0px #b3cfd8!important;}
+.rmm-summary-widgets li.three_wid.rmm-widget-active i.fa { color: #37b8df; font-size: 35px;}
+
+.rmm-summary-widgets li.four_wid.rmm-widget-active {outline: 2px solid #c49e71!important; box-shadow: 0px 10px 10px 0px #f6ddc2!important;}
+.rmm-summary-widgets li.four_wid.rmm-widget-active i.fa { color: #c49e71; font-size: 35px;}
+
+.rmm-summary-widgets li.five_wid.rmm-widget-active {outline: 2px solid #8892d0!important; box-shadow: 0px 10px 10px 0px #c0c9f0!important;}
+.rmm-summary-widgets li.five_wid.rmm-widget-active i.fa { color: #8892d0; font-size: 35px;}
+
+
 
 /*****RMM Mapping Listing - Rahul Kumar - HS 25May2026*******/
 
