@@ -1752,3 +1752,13 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m { backgr
 .ai_des_base .fc-action-btn{ background: #2e2e2e; color: #ccc;}
 
 /***Project Detail - File Listing - Card View***/
+
+
+/*******RMM Batch Analysis 28May2026*********/
+.rmm-summary-widgets li.one_wid.rmm-widget-active   { outline: none; border: 1px solid!important; border-bottom: 9px solid!important;}
+.rmm-summary-widgets li.two_wid.rmm-widget-active   { outline: none; border: 1px solid!important; border-bottom: 9px solid!important;}
+.rmm-summary-widgets li.three_wid.rmm-widget-active { outline: none; border: 1px solid!important; border-bottom: 9px solid!important;}
+.rmm-summary-widgets li.four_wid.rmm-widget-active  { outline: none; border: 1px solid!important; border-bottom: 9px solid!important;}
+.rmm-summary-widgets li.five_wid.rmm-widget-active  { outline: none; border: 1px solid!important; border-bottom: 9px solid!important;}
+
+/*******RMM Batch Analysis 28May2026*********/
