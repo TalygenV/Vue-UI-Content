@@ -814,3 +814,22 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     border: 2px solid #ffa500 !important;
     box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
 }
+
+
+/*******RMM Batch Analysis 28May2026*********/
+.rmm-summary-widgets li.one_wid.rmm-widget-active {outline: 2px solid #23a5fd!important; box-shadow: 0px 10px 10px 0px #c1e4ff!important; background: #fff!important;}
+.rmm-summary-widgets li.one_wid.rmm-widget-active i.fa { color: #23a5fd;}
+
+.rmm-summary-widgets li.two_wid.rmm-widget-active {outline: 2px solid #dbb429!important; box-shadow: 0px 10px 10px 0px #f0e6c4!important; background: #fff!important}
+.rmm-summary-widgets li.two_wid.rmm-widget-active i.fa { color: #dbb429;}
+
+.rmm-summary-widgets li.three_wid.rmm-widget-active {outline: 2px solid #37b8df!important; box-shadow: 0px 10px 10px 0px #b3cfd8!important; background: #fff!important}
+.rmm-summary-widgets li.three_wid.rmm-widget-active i.fa { color: #37b8df;}
+
+.rmm-summary-widgets li.four_wid.rmm-widget-active {outline: 2px solid #c49e71!important; box-shadow: 0px 10px 10px 0px #f6ddc2!important; background: #fff!important}
+.rmm-summary-widgets li.four_wid.rmm-widget-active i.fa { color: #c49e71;}
+
+.rmm-summary-widgets li.five_wid.rmm-widget-active {outline: 2px solid #8892d0!important; box-shadow: 0px 10px 10px 0px #c0c9f0!important; background: #fff!important}
+.rmm-summary-widgets li.five_wid.rmm-widget-active i.fa { color: #8892d0;}
+/*******RMM Batch Analysis 28May2026*********/
+

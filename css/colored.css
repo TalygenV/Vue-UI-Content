@@ -644,3 +644,21 @@ select.form-control.customized_ddl {background-color: #3d484d; color:#fff; borde
     border: 2px solid #ffa500 !important;
     box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
 }
+
+/*******RMM Batch Analysis 28May2026*********/
+.rmm-summary-widgets li.one_wid.rmm-widget-active 
+{ outline: none; box-shadow: 0px 10px 10px 0px #62d2c1 !important; border-bottom: 1px solid #fff !important;}
+
+.rmm-summary-widgets li.two_wid.rmm-widget-active 
+{ outline: none; box-shadow: 0px 10px 10px 0px #f2ac6f !important; border-bottom: 1px solid #fff !important;}
+
+.rmm-summary-widgets li.three_wid.rmm-widget-active 
+{ outline: none; box-shadow: 0px 10px 10px 0px #4192e5 !important; border-bottom: 1px solid #fff !important;}
+
+.rmm-summary-widgets li.four_wid.rmm-widget-active 
+{ outline: none; box-shadow: 0px 10px 10px 0px #3a4047 !important; border-bottom: 1px solid #fff !important;}
+
+.rmm-summary-widgets li.five_wid.rmm-widget-active 
+{ outline: none; box-shadow: 0px 10px 10px 0px #4fb1c0 !important; border-bottom: 1px solid #fff !important;}
+
+/*******RMM Batch Analysis 28May2026*********/
