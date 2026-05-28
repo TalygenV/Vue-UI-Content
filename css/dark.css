@@ -1755,10 +1755,10 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m { backgr
 
 
 /*******RMM Batch Analysis 28May2026*********/
-.rmm-summary-widgets li.one_wid.rmm-widget-active   { outline: none; border: 1px solid!important; border-bottom: 9px solid!important;}
-.rmm-summary-widgets li.two_wid.rmm-widget-active   { outline: none; border: 1px solid!important; border-bottom: 9px solid!important;}
-.rmm-summary-widgets li.three_wid.rmm-widget-active { outline: none; border: 1px solid!important; border-bottom: 9px solid!important;}
-.rmm-summary-widgets li.four_wid.rmm-widget-active  { outline: none; border: 1px solid!important; border-bottom: 9px solid!important;}
-.rmm-summary-widgets li.five_wid.rmm-widget-active  { outline: none; border: 1px solid!important; border-bottom: 9px solid!important;}
+.rmm-summary-widgets li.one_wid.rmm-widget-active   { outline: none; border: 1px solid #20a3ff!important; border-bottom: 9px solid #20a3ff!important;}
+.rmm-summary-widgets li.two_wid.rmm-widget-active   { outline: none; border: 1px solid #6086b0!important; border-bottom: 9px solid #6086b0!important;}
+.rmm-summary-widgets li.three_wid.rmm-widget-active { outline: none; border: 1px solid #e7a024!important; border-bottom: 9px solid #e7a024!important;}
+.rmm-summary-widgets li.four_wid.rmm-widget-active  { outline: none; border: 1px solid #3aaa7a!important; border-bottom: 9px solid #3aaa7a!important;}
+.rmm-summary-widgets li.five_wid.rmm-widget-active  { outline: none; border: 1px solid #7a929e!important; border-bottom: 9px solid #7a929e!important;}
 
 /*******RMM Batch Analysis 28May2026*********/
