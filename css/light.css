@@ -1077,19 +1077,19 @@ div#divNodeFlowChartNew {
 
 /*******RMM Batch Analysis 28May2026*********/
 .rmm-summary-widgets li.one_wid.rmm-widget-active 
-{ outline: none; box-shadow: 0px 6px 7px 0px #8eb2fd !important; border: 1px solid #4d86fd !important;}
+{ outline: none; box-shadow: 0px 6px 7px 0px #8eb2fd !important; border: 1px solid #4d86fd !important; border-bottom: 5px solid #4d86fd !important;}
 
 .rmm-summary-widgets li.two_wid.rmm-widget-active 
-{ outline: none; box-shadow: 0px 6px 7px 0px #7dddda !important; border: 1px solid #28d7d2 !important;}
+{ outline: none; box-shadow: 0px 6px 7px 0px #7dddda !important; border: 1px solid #28d7d2 !important; border-bottom: 5px solid #28d7d2 !important;}
 
 .rmm-summary-widgets li.three_wid.rmm-widget-active 
-{ outline: none; box-shadow: 0px 6px 7px 0px #fbd9a3 !important; border: 1px solid #ffb640 !important;}
+{ outline: none; box-shadow: 0px 6px 7px 0px #fbd9a3 !important; border: 1px solid #ffb640 !important; border-bottom: 5px solid #ffb640 !important;}
 
 .rmm-summary-widgets li.four_wid.rmm-widget-active 
-{ outline: none; box-shadow: 0px 6px 7px 0px #928abe !important; border: 1px solid #6d60b0 !important;}
+{ outline: none; box-shadow: 0px 6px 7px 0px #928abe !important; border: 1px solid #6d60b0 !important; border-bottom: 5px solid #6d60b0 !important;}
 
 .rmm-summary-widgets li.five_wid.rmm-widget-active 
-{ outline: none; box-shadow: 0px 6px 7px 0px #94e2fb !important; border: 1px solid #5fd1f6 !important;}
+{ outline: none; box-shadow: 0px 6px 7px 0px #94e2fb !important; border: 1px solid #5fd1f6 !important; border-bottom: 5px solid #5fd1f6 !important;}
 
 /*******RMM Batch Analysis 28May2026*********/
 
