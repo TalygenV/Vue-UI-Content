@@ -10454,7 +10454,7 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 
 /**********Add Project - New design S Saini - HS 27May2026***************/
 
-/* .stepper-wrap { min-height: 620px; display: flex; flex-direction: column; background: #fff; padding: 15px;}
+.stepper-wrap { min-height: 620px; display: flex; flex-direction: column; background: #fff; padding: 15px;}
 .top-selection-strip { display: flex; align-items: center; flex-wrap: wrap; gap: 0; margin-bottom: 5px;  background: #434f54; padding: 15px 16px;}
 .top-strip-label { display: inline-flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 500; text-transform: uppercase; color: #ffffff; white-space: nowrap; flex-shrink: 0;}
 .top-strip-label-icon { color: #23a5fd; font-size: 12px;}
@@ -10692,7 +10692,7 @@ ul.ks-cboxtags li label.active { background: #12bbd4 !important; color: #fff !im
 #method-lightbox-portal .method-lightbox-nav:hover {background: rgba(0, 0, 0, 0.75);}
 #method-lightbox-portal .method-lightbox-prev { left: 6px;}
 #method-lightbox-portal .method-lightbox-next { right: 6px;}
-#method-lightbox-portal .method-lightbox-counter { display: none; position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); padding: 4px 12px; border-radius: 12px; background: rgba(0, 0, 0, 0.6); color: #ffffff; font-size: 13px; font-weight: 600; z-index: 2; pointer-events: none;} */
+#method-lightbox-portal .method-lightbox-counter { display: none; position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); padding: 4px 12px; border-radius: 12px; background: rgba(0, 0, 0, 0.6); color: #ffffff; font-size: 13px; font-weight: 600; z-index: 2; pointer-events: none;} 
 
 /**********Add Project - New design S Saini - HS 27May2026***************/
 
