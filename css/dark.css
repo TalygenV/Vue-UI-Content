@@ -1769,8 +1769,9 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m { backgr
 
 /*******RMM Batch Analysis 28May2026*********/
 
-
 .table-bordered tr.mainparent_highlight {background:#16181a!important;}
-
 .vue-treeselect__single-value {color: #ccc!important;}
+.rmm-legend-row-exists .form-control:disabled, .rmm-legend-row-exists .vue-treeselect--disabled .vue-treeselect__control{
+  background-color: #474747 !important;
+}
 
