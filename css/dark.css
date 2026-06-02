@@ -1774,4 +1774,14 @@ ul.innertabs_bases a.short-menu-item.gen-templateadded span.left-icon-m { backgr
 .rmm-legend-row-exists .form-control:disabled, .rmm-legend-row-exists .vue-treeselect--disabled .vue-treeselect__control{
   background-color: #474747 !important;
 }
+.total_disable_class_bg_loc_dark.vue-treeselect--disabled .vue-treeselect__control {
+  background-color: #474747 !important;
+}
+.total_disable_class_bg_loc_dark .vue-treeselect__control-arrow-container {
+  background-color: #474747 !important;
+}
+
+
+
+
 
