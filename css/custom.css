@@ -10236,19 +10236,19 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .talygen-card-view .pjt-menu-btn { width: 26px; height: 26px; display: inline-flex; align-items: center; justify-content: center; border-radius: 4px; color: #868e96; cursor: pointer; transition: background .15s;}
 .talygen-card-view .pjt-menu-btn:hover { background: #f1f3f5; color: #343a40; }
 .talygen-card-view .pjt-card-body { padding: 10px 14px 8px; flex: 1; }
-.talygen-card-view .pjt-card-row { display: flex;  align-items: center; flex-wrap: wrap; font-size: 12px; color: #495057;  margin-bottom: 5px; gap: 4px;}
+.talygen-card-view .pjt-card-row { display: flex;  align-items: center; flex-wrap: wrap; font-size: 13px; color: #303030;  margin-bottom: 5px; gap: 4px;}
 .talygen-card-view .pjt-status-row { margin-bottom: 8px; }
-.talygen-card-view .pjt-row-icon { color: #adb5bd; width: 14px; text-align: center; flex-shrink: 0;}
+.talygen-card-view .pjt-row-icon { width: 18px; text-align: center; flex-shrink: 0;}
 .talygen-card-view .pjt-row-text { flex: 1; min-width: 0; }
 .talygen-card-view .pjt-status-pill { display: inline-block;  font-size: 11px; font-weight: 600; padding: 2px 10px; border-radius: 20px; text-transform: capitalize;}
 .talygen-card-view .pjt-amount-chip { font-size: 11px; font-weight: 600; background: #fff3cd; color: #856404; padding: 1px 8px; border-radius: 10px; white-space: nowrap; flex-shrink: 0;}
 .talygen-card-view .pjt-progress-block { margin-top: 8px; }
-.talygen-card-view .pjt-progress-label { display: flex; justify-content: space-between; font-size: 11px; color: #6c757d; margin-bottom: 4px;}
+.talygen-card-view .pjt-progress-label { display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 4px;}
 .talygen-card-view .pjt-progress-pct { font-weight: 700; color: #343a40; }
 .talygen-card-view .pjt-progress-track { height: 6px; background: #e9ecef; border-radius: 3px; overflow: hidden;}
 .talygen-card-view .pjt-progress-fill { height: 100%; border-radius: 3px; background: linear-gradient(90deg, #17a2b8, #28a745); transition: width .35s ease; min-width: 2px;}
 .talygen-card-view .pjt-card-footer { display: flex; align-items: center; justify-content: flex-end; padding: 6px 14px; border-top: 1px solid #f1f3f5; background: #fafbfc;}
-.talygen-card-view .pjt-toggle-btn { font-size: 12px; color: #6c757d; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 4px; transition: background .15s, color .15s;}
+.talygen-card-view .pjt-toggle-btn { font-size: 12px; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 4px; transition: background .15s, color .15s;}
 .talygen-card-view .pjt-toggle-btn:hover { background: #e9ecef; color: #343a40; text-decoration: none; }
 .talygen-card-view .pjt-expand-section { border-top: 1px solid #f1f3f5; padding: 10px 12px; background: #f8f9fa;}
 .talygen-card-view .pjt-action-row { display: flex; flex-wrap: wrap; gap: 6px;}
