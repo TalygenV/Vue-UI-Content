@@ -1790,9 +1790,8 @@ table.table tbody tr.device-detail-row {background-color: #16181a !important;}
 
 .form-field, .wip-input{color: #ccc; background: #262626; border: 1px solid #383838;}
 
-
-
-
+.add-stage-btn{ border: 1px dashed #484747; background: #101518;}
+.add-stage-btn:hover{ border-color: #0b64a3; color: #ffffff; background: #25a5ff;}
 
 
 
