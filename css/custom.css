@@ -7395,6 +7395,10 @@ ul.helparticlesnewdesign li:last-child {border-bottom: 1px solid #dee1e6!importa
 .livescreen_leftbase .led_screen.empty div.errormsgs .innererrors span.heading{font-size: 30px;}
 .livescreen_leftbase .led_screen.empty div.errormsgs .innererrors em {font-size: 50px; color:#717171;}
 
+.livescreen_leftbase .screen-select-btns{background: #e0f2ff;border-top: 2px solid #85c8f9;}
+.livescreen_leftbase .screen-select-btns a.selected{background: #fff;border:1px solid #25a5ff; outline: none;cursor: pointer;}
+.livescreen_leftbase .screen-select-btns a.selected:hover{background:#25a5ff; color: #fff;outline: none;}
+
 .livescreen_rightbase .cont_desc{border-bottom:2px solid #85c8f9; padding:15px; width:100%; float:left;}
 .livescreen_rightbase .cont_desc:last-child{border:none;}
 .livescreen_rightbase .cont_desc h3{font-size:18px; margin: 0px; font-weight: normal; width:100%; float:left;}
