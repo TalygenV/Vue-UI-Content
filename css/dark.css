@@ -1785,13 +1785,11 @@ table.table tbody tr.device-detail-row {background-color: #16181a !important;}
 .rmm-assign-row-no-action td { background-color: #171a1c!important; color: #6c757d;}
 .rmm-assign-search .input-group-text{background-color: #3c3f43;}
 
+/**Workflow - S-Saini  HS 4June2026****/
 .cat-legend {background: #141618; border-radius: 10px;}
 .stage-chip{background: #141618; border: 1px solid #3d3d3d;}
-
 .form-field, .wip-input{color: #ccc; background: #262626; border: 1px solid #383838;}
-
 .add-stage-btn{ border: 1px dashed #484747; background: #101518;}
 .add-stage-btn:hover{ border-color: #0b64a3; color: #ffffff; background: #25a5ff;}
-
-
+/**Workflow - S-Saini  HS 4June2026****/
 
