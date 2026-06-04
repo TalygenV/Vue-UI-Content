@@ -9,6 +9,8 @@ select, select option{text-transform:capitalize !important;} /*gaurav dhiman*/
 b, strong {font-weight: bolder!important;}
 select.textnormal, select.textnormal option{text-transform:none!important;}
 
+.btn.focus, .btn:focus{box-shadow: none;}
+
 @font-face {
 font-family: 'digital7_mono';
 src: url('https://talygenv.github.io/Vue-UI-Content/fonts/digital7_mono.eot');
