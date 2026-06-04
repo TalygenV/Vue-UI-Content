@@ -1795,7 +1795,10 @@ table.table tbody tr.device-detail-row {background-color: #16181a !important;}
 button.addtransrule{ color: #4575ed; border: 1px solid #424242; background: #101518; padding: 14px 16px; font-weight:600;font-size:14px; border-radius:10px!important;}
 button.addtransrule:hover{background: #25a5ff; color: #fff;}
 
-.newstepper .step-circle{background: #434f54; border: 1px solid #7e7e7e;}
+.newstepper .step-item .step-circle{background: #434f54; border: 1px solid #7e7e7e;}
+.rule-list .rule-row{background: #141618; border: 1px solid #3d3d3d;}
+
+
 
 /**Workflow - S-Saini  HS 4June2026****/
 
