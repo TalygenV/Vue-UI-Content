@@ -10709,6 +10709,7 @@ ul.ks-cboxtags li label.active { background: #12bbd4 !important; color: #fff !im
 .legend-system {background: #0992ef;}
 .table-bordered tr.medium-system > td:first-child::after{ width: 3px; content: "";  height: calc(100% - 1px);  background: #0992ef;  display: block;  position: absolute; left: 0px; top: 1px;}
 .talygen-card-view .pjt-card.legendsystem {border-top-color: #0992ef!important;}
+button.addtransrule{ color: #4575ed; border: 1px solid #c7d7f6; background: #eef4ff; padding: 14px 16px; font-weight:600;font-size:14px; border-radius:10px!important;}
 
 /**** 3 June 2026 ****/
 
