@@ -1411,7 +1411,7 @@ line-height: 12px; font-size: 25px; cursor: pointer;overflow: hidden;}
 .left-filter .card-header span.disabled a{color: #a7aeb3 !important;}
 #map { width: 100%;position:relative;overflow:hidden;height: 500px;}
 
-.expand-list.force_top_260{top:260px!important}
+.expand-list.force_top_260{top:420px!important}
 
 @media (max-width:767px) {.expand-list {display:none;}}
 /*------------------Help Labels --------------------*/
