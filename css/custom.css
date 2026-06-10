@@ -10415,6 +10415,20 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 
 /*****RMM Mapping Listing - Rahul Kumar - HS 25May2026*******/
 
+/***** RMMBatchAnalysis 10June2026*****/
+.mannywidgetscontrol .dashbord-widget{ flex-wrap: wrap;}
+.mannywidgetscontrol .dashbord-widget li{ padding:10px 12px 8px 12px; width: 24%; margin-bottom: 20px; flex: auto;}
+.mannywidgetscontrol .dashbord-widget i{ color: #abacad; font-size: 20px;}
+.mannywidgetscontrol .dashbord-widget li h3{ font-size: 16px;}
+.mannywidgetscontrol .dashbord-widget li.rmm-widget-active h3{ font-size: 22px;}
+.mannywidgetscontrol .rmm-summary-widgets li.rmm-widget-active i.fa { font-size: 28px;}
+.mannywidgetscontrol .dashbord-widget li h3 span{font-size: 14px;}
+.mannywidgetscontrol .dashbord-widget li.rmm-widget-active h3 span{font-size: 18px;}
+/***** RMMBatchAnalysis 10June2026*****/
+
+
+
+
 /***Project Detail - File Listing - Card View***/
 .ai_des_base.fc-card { border: 1px solid #e2e8f0; border-radius: 10px; display: flex; flex-direction: column; height: 100%; overflow: hidden; transition: box-shadow 0.25s ease, transform 0.25s ease;}
 .ai_des_base .fc-card:hover { box-shadow: 0 6px 24px rgba(0, 0, 0, 0.10); transform: translateY(-2px);}
