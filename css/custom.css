@@ -10424,6 +10424,11 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .mannywidgetscontrol .rmm-summary-widgets li.rmm-widget-active i.fa { font-size: 28px;}
 .mannywidgetscontrol .dashbord-widget li h3 span{font-size: 14px;}
 .mannywidgetscontrol .dashbord-widget li.rmm-widget-active h3 span{font-size: 18px;}
+
+@media (max-width: 1279px) {
+.mannywidgetscontrol .dashbord-widget li{width: 100%;}
+}
+
 /***** RMMBatchAnalysis 10June2026*****/
 
 
