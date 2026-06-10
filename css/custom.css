@@ -10429,6 +10429,39 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .mannywidgetscontrol .dashbord-widget li{width: 100%;}
 }
 
+
+
+
+.deploy-legend-swatch-parent {
+  background-color: #d7dde3;
+  border: 1px solid #6c757d;
+  box-shadow: inset 3px 0 0 #495057;
+}
+
+.deploy-legend-swatch-child {
+  background-color: #deecfb;
+  border: 1px solid #6cb2fd;
+  box-shadow: inset 3px 0 0 #007bff;
+}
+
+.table-bordered tr.deploy-review-row-parent > td:first-child::after
+{ width: 3px; content: ""; height: calc(100% - 3px); background:#353c42;  display: block; position:absolute; left:0px; top:2px; }
+
+.table-bordered tr.deploy-review-row-child > td:first-child::after
+{ width: 3px; content: ""; height: calc(100% - 3px); background:#007bff;  display: block; position:absolute; left:0px; top:2px; }
+
+.table-bordered tr.deploy-review-row-parent > td{background:#d7dde3!important;}
+.table-bordered tr.deploy-review-row-child > td {background:#f1f8ff!important;}
+
+
+
+
+
+
+
+
+
+
 /***** RMMBatchAnalysis 10June2026*****/
 
 
