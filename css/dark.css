@@ -1804,7 +1804,9 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 
 /**Workflow - S-Saini  HS 4June2026****/
 
-
+.td_lastchildsticky {
+  background: #353e43 !important;
+}
 
 
 
