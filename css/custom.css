@@ -10410,9 +10410,7 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .rmmonly.status-pill.status-syncing {background: #f0ad4e;}
 .rmmonly.status-pill.status-error {background: #dc3545;}
 .rmmonly.status-pill.status-default {background: #6c757d;}
-
 .rmm-summary-widgets { margin-bottom: 0.5rem;}
-
 /*****RMM Mapping Listing - Rahul Kumar - HS 25May2026*******/
 
 /***** RMMBatchAnalysis 10June2026*****/
@@ -10429,31 +10427,17 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .mannywidgetscontrol .dashbord-widget li{width: 100%;}
 }
 
-
-
-
-.deploy-legend-swatch-parent {
-  background-color: #d7dde3;
-  border: 1px solid #6c757d;
-  box-shadow: inset 3px 0 0 #495057;
-}
-
-.deploy-legend-swatch-child {
-  background-color: #deecfb;
-  border: 1px solid #6cb2fd;
-  box-shadow: inset 3px 0 0 #007bff;
-}
-
+.deploy-legend-swatch-parent {background-color: #d7dde3; border: 1px solid #6c757d; box-shadow: inset 3px 0 0 #495057;}
+.deploy-legend-swatch-child { background-color: #deecfb; border: 1px solid #6cb2fd; box-shadow: inset 3px 0 0 #007bff;}
 .table-bordered tr.deploy-review-row-parent > td:first-child::after
 { width: 3px; content: ""; height: calc(100% - 3px); background:#353c42;  display: block; position:absolute; left:0px; top:2px; }
-
 .table-bordered tr.deploy-review-row-child > td:first-child::after
 { width: 3px; content: ""; height: calc(100% - 3px); background:#007bff;  display: block; position:absolute; left:0px; top:2px; }
 
+/***** RMMBatchAnalysis 10June2026*****/
 
-/* .table-bordered tr.deploy-review-row-parent > td{background:#d7dde3!important;}
-.table-bordered tr.deploy-review-row-child > td {background:#f1f8ff!important;} */
 
+/**** RMM Assign-Unassign popup ******/
 
 .rmm-assign-unassign-popup .modal-dialog { max-width: 90%; width: 100%;}
 .rmm-assign-search .input-group-text { background: #fff; border-right: 0;}
@@ -10486,6 +10470,7 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .rmm-action-badge {border-radius: 0px; font-size:14px; font-weight: 400; padding: 0.35em 0.55em;  min-width: 72px;}
 .rmm-action-badge.badge-warning{background: #fd7e14; color: #fff;}
 
+/**** RMM Assign-Unassign popup ******/
 
 
 
@@ -10493,7 +10478,6 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 
 
 
-/***** RMMBatchAnalysis 10June2026*****/
 
 
 
