@@ -10474,7 +10474,12 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 
 
 
-
+.truncate-cell {
+  max-width: 200px; /* adjust as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 
 
