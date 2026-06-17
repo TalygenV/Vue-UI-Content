@@ -1809,5 +1809,5 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 
 .table-bordered tr.deploy-review-row-parent > td:first-child::after { background: #101316;}
 
-
+.border-top { border-top: 1px solid #595959 !important;}
 
