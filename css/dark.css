@@ -1807,7 +1807,8 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .td_lastchildsticky {background: #353e43 !important;}
 .deploy-col-action.text-center.align-middle { background: #353e43 !important;}
 
-.table-bordered tr.deploy-review-row-parent > td:first-child::after { background: #101316;}
+.table-bordered tr.deploy-review-row-parent > td:first-child::after { background: #824b31;}
+.rmm-assign-unassign-popup .deploy-legend-swatch-parent{box-shadow: inset 3px 0 0 #753f25!important;}
 
 .border-top { border-top: 1px solid #595959 !important;}
 
