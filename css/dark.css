@@ -1809,11 +1809,11 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 
 .table-bordered tr.deploy-review-row-parent > td:first-child::after { background: #824b31;}
 
-.rmm-assign-unassign-popup .deploy-legend-swatch-parent{box-shadow: inset 5px 0 0 #753f25!important;}
-.rmm-assign-unassign-popup .deploy-legend-swatch-child {box-shadow: inset 5px 0 0 #007bff!important;}
+.rmm-assign-unassign-popup .deploy-legend-swatch-parent{box-shadow: inset 5px 0 0 #753f25!important; border: 1px solid #753f25;}
+.rmm-assign-unassign-popup .deploy-legend-swatch-child {box-shadow: inset 5px 0 0 #007bff!important; border: 1px solid #007bff;}
 
-.deploy-legend-swatch-parent{box-shadow: inset 5px 0 0 #753f25!important;}
-.deploy-legend-swatch-child {box-shadow: inset 5px 0 0 #007bff!important;}
+.deploy-legend-swatch-parent{box-shadow: inset 5px 0 0 #753f25!important; border: 1px solid #753f25;}
+.deploy-legend-swatch-child {box-shadow: inset 5px 0 0 #007bff!important; border: 1px solid #007bff;}
 
 .border-top { border-top: 1px solid #595959 !important;}
 
