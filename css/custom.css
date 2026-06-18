@@ -10405,7 +10405,7 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .rmm-mapping-stat-card .stat-value { font-size: 24px; font-weight: 700; line-height: 1.1;}
 .rmm-mapping-stat-card .stat-label {font-size: 13px;  color: #404447; margin-top: 4px;}
 .rmm-mapping-stat-card .stat-icon {width: 42px; height: 42px; display: flex; align-items: center; justify-content: center;font-size: 18px;}
-.rmmonly.status-pill {display: inline-block; padding: 2px 10px; border-radius: 6px; font-weight: 400; color: #fff;}
+.rmmonly.status-pill {display: inline-block; padding: 2px 10px; border-radius:0px; font-weight: 400; color: #fff;}
 .rmmonly.status-pill.status-synced {background: #28a745;}
 .rmmonly.status-pill.status-syncing {background: #f0ad4e;}
 .rmmonly.status-pill.status-error {background: #dc3545;}
