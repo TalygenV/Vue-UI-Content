@@ -10797,7 +10797,7 @@ button.addtransrule{ color: #4575ed; border: 1px solid #c7d7f6; background: #eef
 button.addtransrule{ color: #4575ed; border: 1px solid #c7d7f6; background: #eef4ff; padding: 14px 16px; font-weight:600;font-size:14px; border-radius:10px!important;}
 /**Workflow - S-Saini  HS 4June2026****/
 
-.td_lastchildsticky {background: #f2f2f2 !important;}
+.td_lastchildsticky {background: #f2f2f2 !important; position: sticky !important; right: 0 !important; z-index: 10 !important;}
 
 
 
