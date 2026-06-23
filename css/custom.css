@@ -10322,7 +10322,9 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 /****** Task List New Card View - May 2026 ---- HS ******/
 
 .forceleftpadd_child{padding-left: 44px!important;}
-.table-bordered tr.mainparent_highlight{background: #e7e7e7!important;}
+/* .table-bordered tr.mainparent_highlight{background: #e7e7e7!important;} */
+.table-bordered tr.mainparent_highlight{background: #f0f4f8!important;}
+
 
 /****Project - Project Detail >> Task Tab >> Task History popup - HS 11 May2026******/
 .task_hist_des .atl-wrapper { width: 100%; border-radius: 0 0 8px 8px;  padding: 20px 20px 12px;}
@@ -10435,6 +10437,52 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 { width: 3px; content: ""; height: calc(100% - 3px); background:#007bff;  display: block; position:absolute; left:0px; top:2px; }
 
 /***** RMMBatchAnalysis 10June2026*****/
+
+
+/*******RMM Deploy Product********/
+
+.rmm-legend-bar { gap: 0.25rem 0.5rem;}
+.rmm-legend-title {color: inherit;}
+.rmm-legend-swatch { display: inline-block; width: 17px; height: 10px; min-width: 14px; border-radius: 0px; flex-shrink: 0;}
+.rmm-legend-swatch-exists {background-color: #e9ecef; border: 1px solid #ced4da;}
+.rmm-legend-swatch-deployable { background-color: #fff; border: 1px solid #dee2e6;}
+.deploy-legend-swatch-parent {background-color: #fff; border: 1px solid #6c757d; box-shadow: inset 3px 0 0 #495057;}
+.deploy-legend-swatch-child { background-color: #f8f9fa; border: 1px solid #dee2e6;  box-shadow: inset 3px 0 0 #007bff;}
+.rmm-legend-divider { color: #adb5bd; font-weight: 300;}
+.deploy-row-parent td:first-child { border-left: 3px solid #495057;}
+.deploy-review-legend-note {flex: 1 1 100%;}
+
+@media (min-width: 992px) {
+.deploy-review-legend-note {flex: 1 1 auto; margin-left: 0.5rem;}
+}
+
+.deploy-review-row-parent td:first-child { border-left: 3px solid #495057;}
+.deploy-review-row-child td:first-child { border-left: 3px solid #007bff;}
+.deploy-review-child-indent { display: inline-block; padding-left: 28px;}
+.deploy-review-row-child { background-color: #f8f9fa !important;}
+.rmm-legend-row-exists { background-color: #f1f3f5 !important;}
+.rmm-legend-row-exists .form-control:disabled,
+.rmm-legend-row-exists .vue-treeselect--disabled .vue-treeselect__control {background-color: #e9ecef !important; cursor: not-allowed;}
+.deploy-product-page .ticketsmallfix { margin-bottom: 0;}
+.rmm-expand-toolbar { flex-shrink: 0;}
+.device-detail-row { background-color: #f8f9fa !important;}
+.device-detail-row td { padding-left: 40px; font-size: 0.9rem; vertical-align: middle; border-top: 1px solid #e9ecef;}
+.device-detail-row td:first-child { border-left: 3px solid #007bff;}
+.mainparent_highlight {background-color: #f0f4f8 !important;}
+.deploy-col-select,
+.rmm-mapping-check-cell,
+.deploy-col-action { vertical-align: middle;}
+.rmm-mapping-check-cell input {width: 16px; height: 16px; cursor: pointer;}
+.rmm-mapping-check-cell input:disabled { cursor: not-allowed;}
+.listing.rmm-deploy-listing .table td.single-action::before,
+.listing.rmm-deploy-listing .table td.rmm-mapping-check-cell::before { display: none !important;}
+.listing.rmm-deploy-listing .table td.rmm-mapping-check-cell { overflow: visible !important; position: relative; z-index: 2; }
+.listing.rmm-deploy-listing .table td.rmm-mapping-check-cell input {position: relative; z-index: 3; pointer-events: auto;}
+.deploy-col-action .btn-success:disabled { opacity: 0.55; }
+.deploy-review-modal .modal-body { max-height: 70vh; overflow-y: auto;}
+.deploy-review-table td { vertical-align: middle;}
+
+/*******RMM Deploy Product********/
 
 
 /**** RMM Assign-Unassign popup ******/
