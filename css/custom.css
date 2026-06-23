@@ -10444,8 +10444,8 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .rmm-legend-bar { gap: 0.25rem 0.5rem;}
 .rmm-legend-title {color: inherit;}
 .rmm-legend-swatch { display: inline-block; width: 17px; height: 10px; min-width: 14px; border-radius: 0px; flex-shrink: 0;}
-.rmm-legend-swatch-exists {background-color: #e9ecef; border: 1px solid #ced4da; height: 17px;}
-.rmm-legend-swatch-deployable {background-color: #fff; border: 1px solid #dee2e6; height: 17px;}
+.rmm-legend-swatch-exists { background-color: #e9ecef; border: 1px solid #afb5bb; height: 17px;}
+.rmm-legend-swatch-deployable {background-color: #fff; border: 1px solid #afb5bb; height: 17px;}
 .deploy-legend-swatch-parent {background-color: #fff; border: 1px solid #6c757d; box-shadow: inset 3px 0 0 #495057;}
 .deploy-legend-swatch-child { background-color: #f8f9fa; border: 1px solid #dee2e6;  box-shadow: inset 3px 0 0 #007bff;}
 .rmm-legend-divider { color: #adb5bd; font-weight: 300;}
