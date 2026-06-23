@@ -10208,7 +10208,7 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .tab-center-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; width: 100%;}
 .tab-icon em { font-size: 20px; color: #7b87c3;}
 .tab-card.selected .tab-icon em { color: #23a5fd;}
-.tab-pill {display: inline-flex; align-items: center;justify-content: center; width: 20px; height: 20px; border-radius: 50%; font-size: 11px;}
+.tab-pill {display: inline-flex; align-items: center;justify-content: center; width: 20px; height: 20px; border-radius: 50%; font-size: 12px;}
 .tab-pill-locked {border: 1px solid #d0d5dd; color: #98a2b3; background: #f9fafb;}
 .tab-pill-selected { background: #23a5fd; color: #fff;}
 .tab-pill-top { position: absolute; top: 8px; right: 8px;}
@@ -10228,9 +10228,9 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .tabs-grid .tab-card:hover {transform: translateY(-1px); box-shadow: 0 6px 18px rgba(16, 24, 40, 0.1);}
 .tabs-grid .tab-card.selected {border-color: #23a5fd; background: linear-gradient(180deg, #edf7ff 0%, #d6eefa 100%);}
 
-.tabs-grid.bluecolor .tab-card:hover {transform: translateY(-1px); box-shadow: 0 6px 18px rgba(16, 24, 40, 0.1);}
-.tabs-grid.bluecolor .tab-card.selected {border-color: #23a5fd; background: linear-gradient(180deg, #edf7ff 0%, #d6eefa 100%);}
-
+.tabs-grid.bluecolor .tab-card:hover {transform: translateY(-1px); box-shadow: 0 6px 18px rgba(16, 24, 40, 0.1)!important;}
+.tabs-grid.bluecolor .tab-card.selected {border-color: #23a5fd!important; background: linear-gradient(180deg, #edf7ff 0%, #d6eefa 100%)!important;}
+.tabs-grid.bluecolor .tab-card.selected.locked .tab-pill-selected{ background: #23a5fd!important; color: #fff!important; border:none!important;}
 
  /****** Project New Card View - May 2026 ---- HS ******/
 .talygen-card-view .pjt-card { border-radius: 8px; border: 1px solid #e2e5e9; border-top: 5px solid #17a2b8; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: box-shadow .18s, transform .18s;   display: flex;   flex-direction: column;   overflow: hidden;   position: relative;}
