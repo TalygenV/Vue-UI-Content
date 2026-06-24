@@ -10447,6 +10447,7 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 
 .rmm-legend-bar { gap: 0.25rem 0.5rem;}
 .rmm-legend-title {color: inherit;}
+
 .rmm-legend-swatch { display: inline-block; width: 17px; height: 10px; min-width: 14px; border-radius: 0px; flex-shrink: 0;}
 .rmm-legend-swatch-exists { background-color: #e9ecef; border: 1px solid #afb5bb; height: 17px;}
 .rmm-legend-swatch-deployable {background-color: #fff; border: 1px solid #afb5bb; height: 17px;}
@@ -10469,9 +10470,11 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .rmm-legend-row-exists .vue-treeselect--disabled .vue-treeselect__control {background-color: #e9ecef !important; cursor: not-allowed;}
 .deploy-product-page .ticketsmallfix { margin-bottom: 0;}
 .rmm-expand-toolbar { flex-shrink: 0;}
+
 .device-detail-row { background-color: #f8f9fa !important;}
 .device-detail-row td { padding-left: 40px; font-size: 0.9rem; vertical-align: middle; border-top: 1px solid #e9ecef;}
 .device-detail-row td:first-child { border-left: 3px solid #007bff;}
+
 .mainparent_highlight {background-color: #f0f4f8 !important;}
 .deploy-col-select,
 .rmm-mapping-check-cell,
@@ -10525,18 +10528,15 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 /**** RMM Assign-Unassign popup ******/
 
 
+.mannywidgetscontrol10 .dashbord-widget li { padding: 10px 12px 8px 12px; width: 10%; margin-bottom: 20px; flex: auto;}
 
-.truncate-cell {
-  max-width: 200px; /* adjust as needed */
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
+@media (max-width: 1600px) {
+  .mannywidgetscontrol10 .dashbord-widget li {width: 20%;}
+  .mannywidgetscontrol10 .dashbord-widget {flex-wrap: wrap;} 
+ }
 
 
-
-
+.truncate-cell { max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 
 
 /***Project Detail - File Listing - Card View***/
