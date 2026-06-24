@@ -10527,6 +10527,29 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 
 /**** RMM Assign-Unassign popup ******/
 
+.rmm-batch-analysis-page .rmm-legend-swatch {display: inline-block;width: 17px;height: 10px;min-width: 14px; border-radius: 0px; flex-shrink: 0;  margin-right:3px;}
+.rmm-batch-analysis-page .rmm-legend-swatch-added {background-color: #17a2b8;}
+.rmm-batch-analysis-page .rmm-legend-swatch-removed {background-color: #dc3545;}
+.rmm-batch-analysis-page .rmm-legend-swatch-same {background-color: #dee2e6;}
+.rmm-batch-analysis-page .rmm-legend-group-label {font-weight: 600; font-size: 0.875rem;}
+.rmm-batch-analysis-page .rmm-legend-row-added { box-shadow: inset 4px 0 0 #17a2b8;}
+.rmm-batch-analysis-page .rmm-legend-row-removed { box-shadow: inset 4px 0 0 #dc3545;}
+.rmm-batch-analysis-page .rmm-legend-row-updated { box-shadow: inset 4px 0 0 #ffc107;}
+.rmm-batch-analysis-page .parent-childrow { color: #6c757d; text-decoration: none;}
+.rmm-batch-analysis-page .parent-childrow:hover { color: #007bff;}
+.rmm-batch-analysis-page table.table tbody tr.device-detail-row { background-color: #f8f9fa !important;}
+.rmm-batch-analysis-page table.table tbody tr.device-detail-row td { padding-left: 40px; font-size: 0.9rem; vertical-align: middle;  border-top: 1px solid #e9ecef;}
+.rmm-batch-analysis-page table.table tbody tr.device-detail-row.rmm-legend-row-added td:first-child { box-shadow: inset 4px 0 0 #17a2b8;}
+.rmm-batch-analysis-page table.table tbody tr.device-detail-row.rmm-legend-row-removed td:first-child { box-shadow: inset 4px 0 0 #dc3545;}
+.rmm-batch-analysis-page table.table tbody tr.device-detail-row.rmm-legend-row-updated td:first-child { box-shadow: inset 4px 0 0 #ffc107;}
+.rmm-batch-analysis-page table.table tbody tr.device-detail-row.rmm-legend-row-same td:first-child { box-shadow: inset 4px 0 0 #adb5bd;}
+.rmm-batch-analysis-page .rmm-row-actions .btn {min-width: 32px;}
+.rmm-batch-analysis-page .rmm-row-actions .btn + .btn { margin-left: 0.25rem;}
+.rmm-batch-analysis-page .deploy-review-modal .modal-dialog { max-width: 1280px; width: 96%;}
+.rmm-batch-analysis-page .deploy-review-child-indent { display: inline-block; padding-left: 28px;}
+.rmm-batch-analysis-page .deploy-review-row-child { background-color: #f8f9fa !important;}
+.rmm-batch-analysis-page .btn-disabled { opacity: 0.4 !important; cursor: not-allowed !important; pointer-events: none !important; filter: grayscale(100%);}
+.rmm-batch-analysis-page .btn-disabled i { opacity: 0.5 !important;}
 
 .mannywidgetscontrol10 .dashbord-widget li { padding: 10px 12px 8px 12px; width: 10%; margin-bottom: 20px; flex: auto;}
 
