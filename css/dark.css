@@ -1846,14 +1846,14 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
   background-size: 1rem 1rem; background-color: #3498db; animation: rmm-sync-stripes 1s linear infinite;}
 
 .rmm-sync-step.is-completed .rmm-sync-bar-fill {background-color: #28a745;}
-.rmm-sync-step.is-failed .rmm-sync-bar-fill {background-color: #ef4836;}
+.rmm-sync-step.is-failed .rmm-sync-bar-fill    {background-color: #ef4836;}
 
 .rmm-sync-step { background: #0b0b0b; border: 1px solid #464646;}
 .rmm-sync-step.is-running { border-color: #3498db; background: #0e1e2b;}
 .rmm-sync-step.is-completed { border-color: #28a745;}
 .rmm-sync-step.is-failed {border-color: #ef4836;}
 
-.rmm-sync-step-icon { background: #e9ecef; color: #252525;}
+.rmm-sync-step-icon { background: #252525; color: #ccc;}
 .rmm-sync-step.is-completed .rmm-sync-step-icon { background: rgba(40, 167, 69, 0.15); color: #28a745;}
 .rmm-sync-step.is-running .rmm-sync-step-icon { background: rgba(52, 152, 219, 0.15); color: #3498db;}
 .rmm-sync-step.is-failed .rmm-sync-step-icon { background: rgba(239, 72, 54, 0.15); color: #ef4836;}
