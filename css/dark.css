@@ -1848,7 +1848,7 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .rmm-sync-step.is-completed .rmm-sync-bar-fill {background-color: #28a745;}
 .rmm-sync-step.is-failed .rmm-sync-bar-fill    {background-color: #ef4836;}
 
-.rmm-sync-step { background: #f8f9fa; border: 1px solid #505050;}
+.rmm-sync-step { background: #252525; border: 1px solid #505050;}
 .rmm-sync-step.is-running { border-color: #3498db; background: #0e1e2b;}
 .rmm-sync-step.is-completed { border-color: #28a745;}
 .rmm-sync-step.is-failed {border-color: #ef4836;}
