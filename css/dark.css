@@ -1825,7 +1825,7 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 
 /**** Sync RMM Data popup ****/
 .rmm-sync-overlay {background: rgba(0, 0, 0, 0.8); }
-.rmm-sync-panel { background: #2c3136;  color: #ccc;  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);}
+.rmm-sync-panel { background: #23272c;  color: #ccc;  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);}
 .rmm-sync-header h4 { color: #ccc; font-weight: 600;}
 .rmm-sync-elapsed { color: #ccc; font-size: 13px;}
 .rmm-sync-overall-label { color: #ccc;}
@@ -1848,7 +1848,7 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .rmm-sync-step.is-completed .rmm-sync-bar-fill {background-color: #28a745;}
 .rmm-sync-step.is-failed .rmm-sync-bar-fill    {background-color: #ef4836;}
 
-.rmm-sync-step { background: #252525; border: 1px solid #505050;}
+.rmm-sync-step { background: #0b0b0b; border: 1px solid #464646;}
 .rmm-sync-step.is-running { border-color: #3498db; background: #0e1e2b;}
 .rmm-sync-step.is-completed { border-color: #28a745;}
 .rmm-sync-step.is-failed {border-color: #ef4836;}
