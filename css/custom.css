@@ -10532,9 +10532,9 @@ table.verticletopcontent td{vertical-align: top!important;}/***To make table con
 .rmm-batch-analysis-page .rmm-legend-swatch-removed {background-color: #dc3545;}
 .rmm-batch-analysis-page .rmm-legend-swatch-same {background-color: #dee2e6;}
 .rmm-batch-analysis-page .rmm-legend-group-label {font-weight: 600; font-size: 0.875rem;}
-.rmm-batch-analysis-page .rmm-legend-row-added { box-shadow: inset 4px 0 0 #17a2b8;}
-.rmm-batch-analysis-page .rmm-legend-row-removed { box-shadow: inset 4px 0 0 #dc3545;}
-.rmm-batch-analysis-page .rmm-legend-row-updated { box-shadow: inset 4px 0 0 #ffc107;}
+.rmm-batch-analysis-page .rmm-legend-row-added { box-shadow: inset 3px 0 0 #17a2b8;}
+.rmm-batch-analysis-page .rmm-legend-row-removed { box-shadow: inset 3px 0 0 #dc3545;}
+.rmm-batch-analysis-page .rmm-legend-row-updated { box-shadow: inset 3px 0 0 #ffc107;}
 .rmm-batch-analysis-page .parent-childrow { color: #6c757d; text-decoration: none;}
 .rmm-batch-analysis-page .parent-childrow:hover { color: #007bff;}
 .rmm-batch-analysis-page table.table tbody tr.device-detail-row { background-color: #f8f9fa !important;}
