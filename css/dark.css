@@ -1853,7 +1853,7 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .rmm-sync-step.is-completed { border-color: #28a745;}
 .rmm-sync-step.is-failed {border-color: #ef4836;}
 
-.rmm-sync-step-icon { background: #e9ecef; color: #ccc;}
+.rmm-sync-step-icon { background: #e9ecef; color: #252525;}
 .rmm-sync-step.is-completed .rmm-sync-step-icon { background: rgba(40, 167, 69, 0.15); color: #28a745;}
 .rmm-sync-step.is-running .rmm-sync-step-icon { background: rgba(52, 152, 219, 0.15); color: #3498db;}
 .rmm-sync-step.is-failed .rmm-sync-step-icon { background: rgba(239, 72, 54, 0.15); color: #ef4836;}
