@@ -978,6 +978,9 @@ ul.ks-cboxtags li label {    color: #ddd;    background: #191d20;}
 .weeklystatusboxcontrol{color:#303030;}
 .custom_tproject .weeklystatusboxcontrol{color:#ddd;}
 .custom_tproject #divMainProjectData #myTabContent.tab-content {    background: #1c1f22;}
+
+.newtodolist_vue .weeklystatusboxcontrol{color:#ddd;}
+
 /***********time-track**************/
 .custom_ttimer .aAddMorePopUp i.text-dark {	color: #6c757d !important;}
 .custom_ttimer .login-vandor a {color: #ddd !Important;}
