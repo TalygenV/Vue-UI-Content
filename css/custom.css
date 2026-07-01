@@ -3327,6 +3327,8 @@ span.actions.play{background:#fff;color:#50adbe;margin-left:0;left:0}
 .track-hours-chart{width:40%; overflow: hidden; position: relative;}
 .track-hours-chart .apexcharts-canvas { position: absolute; left: -24px;}
 
+.track-hours-chart .hide-series.left0 .apexcharts-canvas { position: absolute; left:0px;}
+
 .trackinfo a{text-decoration:underline;color:#24a5ff}
 .trackinfo li span{font-size:25px}
 
