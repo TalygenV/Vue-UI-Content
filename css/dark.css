@@ -1821,9 +1821,13 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 
 .border-top { border-top: 1px solid #595959 !important;}
 
-.rmm-dropdown-menu .dropdown-item.active-menu{ background: #142232!important;}
-.rmm-dropdown-menu .dropdown-item{border-bottom: 1px solid #828282!important; color: #ccc!important;}
+.rmm-dropdown-menu .dropdown-item.active-menu{ background: #000!important;}
+.rmm-dropdown-menu .dropdown-item{border-bottom: 1px solid #828282!important; color: #ccc!important; background-color: #1c1f22!important;}
 .rmm-dropdown-menu{border: 1px solid #828282!important;}
+
+.rmm-dropdown-menu .dropdown-item:hover {
+  background: #142932!important;
+}
 
 
 
