@@ -1876,4 +1876,11 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 
 /**** Sync RMM Data popup ****/
 
+.rmm-host-detail-row > td.rmm-host-detail-cell{background: #1c1f22}
+.rmm-host-detail-table thead th{background: #2c3136;}
+.rmm-host-detail-table { background: #2c3136;}
+
+
+
+
 
