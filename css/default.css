@@ -306,25 +306,25 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::befor
 .lg-flaggedentry{background:#93604d;}
 .lg-orange{background:#fd7a1a;}
 
-.table-bordered tr.lgtr-timesheet td:first-child::after {background: #3ebe0b;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-addedmanually td:first-child::after {background: #cca51d;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-bulktime td:first-child::after {background: #43acf7;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-thirdparty td:first-child::after {background: #f46a67;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-pending td:first-child::after {background: #b76bf8;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-approved td:first-child::after {background: #7c868f;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-pausedresumed td:first-child::after {background: #3a3a3d;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-flaggedentry td:first-child::after {background: #93604d;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-timesheet td:first-child::after {background: #3ebe0b;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-addedmanually td:first-child::after {background: #cca51d;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-bulktime td:first-child::after {background: #43acf7;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-thirdparty td:first-child::after {background: #f46a67;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-pending td:first-child::after {background: #b76bf8;width: 3%; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-approved td:first-child::after {background: #7c868f;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-pausedresumed td:first-child::after {background: #3a3a3d;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-flaggedentry td:first-child::after {background: #93604d;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
 
-.table-bordered tr.lgtr-pendingred td:first-child::after {background: #df5966;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-pendingred td:first-child::after {background: #df5966;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
 
 /*****Harjit Singh - todolist***********/
 
 /*****Harjit Singh General Timesheet removed inn table bar on Mishra's PC******************/
-.table-bordered tr.gt-low-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#019704;  display: block; position:absolute; left:0px; top:3px; }
-.table-bordered tr.gt-high-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#fbc648;  display: block; position:absolute; left:0px; top:3px; }
-.table-bordered tr.gt-medium-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#4cb4fb;  display: block; position:absolute; left:0px; top:3px; }
-.table-bordered tr.gt-high-profile-bar td.tabchild:first-child::after{ width: 2px; content: ""; height: calc(100% - 6px); background:#de0303;  display: block; position:absolute; left:0px; top:3px; }
-.table-bordered tr.gt-lgtr-pausedresumed td.tabchild:first-child::after {background: #3a3a3d;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.gt-low-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#019704;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-high-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#fbc648;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-medium-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#4cb4fb;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-high-profile-bar td.tabchild:first-child::after{ width: 3px; content: ""; height: calc(100% - 6px); background:#de0303;  display: block; position:absolute; left:0px; top:3px; }
+.table-bordered tr.gt-lgtr-pausedresumed td.tabchild:first-child::after {background: #3a3a3d;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
 /*****Harjit Singh General Timesheet removed inn table bar on Mishra's PC******************/
 
 

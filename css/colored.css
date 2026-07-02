@@ -491,14 +491,14 @@ nav .collapse.show{background: #272727;}
 .lg-flaggedentry{background:#93604d;}
 .lg-orange{background:#fd7a1a;}
 
-.table-bordered tr.lgtr-timesheet td:first-child::after {background: #3ebe0b;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-addedmanually td:first-child::after {background: #cca51d;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-bulktime td:first-child::after {background: #43acf7;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-thirdparty td:first-child::after {background: #f46a67;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-pending td:first-child::after {background: #b76bf8;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-approved td:first-child::after {background: #7c868f;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-pausedresumed td:first-child::after {background: #3a3a3d;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
-.table-bordered tr.lgtr-flaggedentry td:first-child::after {background: #93604d;width: 2px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-timesheet td:first-child::after {background: #3ebe0b;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-addedmanually td:first-child::after {background: #cca51d;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-bulktime td:first-child::after {background: #43acf7;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-thirdparty td:first-child::after {background: #f46a67;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-pending td:first-child::after {background: #b76bf8;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-approved td:first-child::after {background: #7c868f;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-pausedresumed td:first-child::after {background: #3a3a3d;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
+.table-bordered tr.lgtr-flaggedentry td:first-child::after {background: #93604d;width: 3px; content: ""; height: calc(100% - 6px);  display: block; position:absolute; left:0px; top:3px;}
 /*****Harjit Singh - todolist***********/
 .feedback-box .name-circle{background: #e7e7e7;color: #494949;border-color: #fff;}
 /*gaurav dhiman doc icons*/
