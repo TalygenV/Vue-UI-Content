@@ -1894,6 +1894,8 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .newtodolist_vue .tdl-cv-toggle-btn{border: 1px solid #454748; background: #2c3136; color: #abb4bc;}
 .newtodolist_vue .tdl-cv-meta-name{color: #fff;}
 
+.newtodolist_vue .tdl-cv-footer{background: #1f2327; border-top: 1px solid #454748;}
+.newtodolist_vue .tdl-cv-top-bar{border-bottom: 1px solid #454748;}
 
 /***Project - Todo List Card View******/
 
