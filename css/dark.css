@@ -1885,6 +1885,17 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .rmm-host-detail-table { background: #2c3136!important;}
 
 
+/***Project - Todo List Card View******/
+
+.newtodolist_vue .tdl-cv-project-link{color: #ccc;}
+.newtodolist_vue .tdl-cv-task-name{color:#fff;}
+.newtodolist_vue .tdl-cv-toggle-btn{border: 1px solid #454748; background: #2c3136; color: #abb4bc;}
+
+
+
+/***Project - Todo List Card View******/
+
+
 
 
 
