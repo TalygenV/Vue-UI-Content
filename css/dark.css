@@ -1905,6 +1905,7 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .onlytodo_kb .kb-priority-default {background: #3f4142; color: #f1f3f5; border-color: #454748;}
 .onlytodo_kb .kb-card-dates{color:#ccc;}
 .onlytodo_kb .kb-card-tags{color: #ccc!important;}
+.onlytodo_kb .kb-card-hours{color: #ccc!important;}
 .onlytodo_kb .kb-meta-icon{color: #ccc;}
 
 .onlytodo_kb .kb-task-card{background: #2c3136; border: 1px solid #454748;}
