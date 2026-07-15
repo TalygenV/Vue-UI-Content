@@ -1855,17 +1855,14 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 
 .rmm-sync-step.is-completed .rmm-sync-bar-fill {background-color: #28a745;}
 .rmm-sync-step.is-failed .rmm-sync-bar-fill    {background-color: #ef4836;}
-
 .rmm-sync-step { background: #0b0b0b; border: 1px solid #464646;}
 .rmm-sync-step.is-running { border-color: #3498db; background: #0e1e2b;}
 .rmm-sync-step.is-completed { border-color: #28a745;}
 .rmm-sync-step.is-failed {border-color: #ef4836;}
-
 .rmm-sync-step-icon { background: #252525; color: #ccc;}
 .rmm-sync-step.is-completed .rmm-sync-step-icon { background: rgba(40, 167, 69, 0.15); color: #28a745;}
 .rmm-sync-step.is-running .rmm-sync-step-icon { background: rgba(52, 152, 219, 0.15); color: #3498db;}
 .rmm-sync-step.is-failed .rmm-sync-step-icon { background: rgba(239, 72, 54, 0.15); color: #ef4836;}
-
 .rmm-sync-step-title {color: #fff;}
 .rmm-sync-step-detail {color: #ccc;}
 .rmm-sync-step.is-running .rmm-sync-step-detail {color: #3498db;}
@@ -1875,18 +1872,14 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .rmm-sync-step.is-failed .rmm-sync-step-badge { color: #ef4836;}
 .rmm-sync-step-meta {margin-top: 6px; font-size: 12px; color: #ccc;}
 .rmm-sync-step-error {margin-top: 6px; font-size: 12px; color: #ef4836;}
-
 .rmm-sync-footer-error { width: 100%; padding: 10px 12px; border-radius: 6px; background: rgba(239, 72, 54, 0.1); color: #c0392b; font-size: 13px;}
-
 /**** Sync RMM Data popup ****/
 
 .rmm-host-detail-row > td.rmm-host-detail-cell{background: #1c1f22!important;}
 .rmm-host-detail-table thead th{background: #2c3136!important;}
 .rmm-host-detail-table { background: #2c3136!important;}
 
-
 /***Project - Todo List Card View******/
-
 .newtodolist_vue .tdl-cv-card{background: #2c3136; border: 1px solid #454748;}
 .newtodolist_vue .tdl-cv-project-link{color: #ccc;}
 .newtodolist_vue .tdl-cv-task-name{color:#fff;}
@@ -1897,16 +1890,23 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .newtodolist_vue .tdl-cv-circles, .newtodolist_vue .tdl-cv-timer, .newtodolist_vue .tdl-cv-collapse-row{background: #1f2327;}
 .newtodolist_vue .tdl-cv-expand{border-top: 1px solid #454748;}
 .newtodolist_vue .tdl-cv-legend-bar{color: #fff;}
-
 .newtodolist_vue .tdl-cv-s-overdue .tdl-cv-status-badge {    background: #c62828; color: #fce4ec;}
 .newtodolist_vue .tdl-cv-s-pending .tdl-cv-status-badge {    background: #bf360c; color: #fff3e0;}
 .newtodolist_vue .tdl-cv-s-inprogress .tdl-cv-status-badge { background: #006064; color: #e0f7fa;}
 .newtodolist_vue .tdl-cv-s-completed .tdl-cv-status-badge {  background: #1b5e20; color: #e8f5e9;}
 .newtodolist_vue .tdl-cv-s-upcoming .tdl-cv-status-badge {   background: #424242; color: #f5f5f5;}
-
 /***Project - Todo List Card View******/     
 
+/***Project - Todo List Kanban View******/
+.onlytodo_kb .kb-col-header {border-top: 4px solid #ccc; background: #2c3136; border-bottom: 1px solid #454748;}
+.onlytodo_kb .kb-col-name {color: #ccc;}
+.onlytodo_kb .kb-col-count {background: #495057; color: #e9ecef;}    
+.onlytodo_kb .kb-column {background: #1c1f22; border: 1px solid #454748;}
 
-    
+.onlytodo_kb .kb-priority-default {background: #3f4142; color: #f1f3f5; border-color: #454748;}
+
+
+
+
 
 
