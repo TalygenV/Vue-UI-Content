@@ -1898,6 +1898,12 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .newtodolist_vue .tdl-cv-expand{border-top: 1px solid #454748;}
 .newtodolist_vue .tdl-cv-legend-bar{color: #fff;}
 
+.newtodolist_vue .tdl-cv-s-overdue .tdl-cv-status-badge {    background: #c62828; color: #fce4ec;}
+.newtodolist_vue .tdl-cv-s-pending .tdl-cv-status-badge {    background: #bf360c; color: #fff3e0;}
+.newtodolist_vue .tdl-cv-s-inprogress .tdl-cv-status-badge { background: #006064; color: #e0f7fa;}
+.newtodolist_vue .tdl-cv-s-completed .tdl-cv-status-badge {  background: #1b5e20; color: #e8f5e9;}
+.newtodolist_vue .tdl-cv-s-upcoming .tdl-cv-status-badge {   background: #424242; color: #f5f5f5;}
+
 /***Project - Todo List Card View******/     
 
 
