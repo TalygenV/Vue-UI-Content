@@ -1911,6 +1911,6 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .onlytodo_kb .kb-progress-wrap{background: #000000;}
 
 .onlytodo_kb .kb-avatar{border: 2px solid #5e5e5e;}
-
+.kb-timer-btns button.inactive-disabled{opacity: 0.3}
    
 
