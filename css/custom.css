@@ -11108,3 +11108,6 @@ table.unsetlastcolumn tr th, table.unsetlastcolumn tr td{position: unset!importa
 
 /***Project - Todo List Kanban View******/
 
+.vuew_default{background: #e8f3ff !important;}
+.vuew_default{background: #fff8dc !important; border-left: 3px solid #ffd220 !important;}
+
