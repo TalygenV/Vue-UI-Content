@@ -1921,6 +1921,6 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .nsd-main-layout .nsd-panel-title{color: #ccc!important;}
 .nsd-main-layout .nsd-panel, .nsd-main-layout .nsd-widget-card{background-color: #212528!important; border: 1px solid #525f65!important;}
 
-.nsd-main-layout .nsd-check, .nsd-main-layout .nsd-map-legend{color: #ccc!important;}
+.nsd-main-layout .nsd-check, .nsd-main-layout .nsd-map-legend, .nsd-main-layout .nsd-log-list li{color: #ccc!important;}
 
 /** NetworkSetup/Dashboard - Rahul Kumar ***/
