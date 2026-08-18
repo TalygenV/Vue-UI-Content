@@ -1930,4 +1930,6 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .nsd-critical-item-head{color: #ccc!important;}
 .nsd-critical-item-foot, .nsd-critical-item-meta{color: #828ea0!important;}
 
+.nsd-alert-list li, .nsd-log-list li{border-bottom: 1px solid #525f65!important;}
+
 /** NetworkSetup/Dashboard - Rahul Kumar ***/
