@@ -1915,10 +1915,10 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 
 /** NetworkSetup/Dashboard - Rahul Kumar ***/
    
-.nsd-kpi-card{ background-color: #2c3135!important; border: 1px solid #444d54!important; color: #ddd;}
-.nsd-kpi-value{ color: #ddd!important; font-weight: 400!important;}
-.whiteheader{background: #2c3136 !important;}
-.nsd-panel-title{color: #ccc!important;}
-.nsd-panel{background-color: #2c3135!important; border: 1px solid #444d54!important;}
+.nsd-main-layout .nsd-kpi-card{ background-color: #2c3135!important; border: 1px solid #444d54!important; color: #ddd;}
+.nsd-main-layout .nsd-kpi-value{ color: #ddd!important; font-weight: 400!important;}
+.nsd-main-layout .whiteheader{background: #2c3136 !important;}
+.nsd-main-layout .nsd-panel-title{color: #ccc!important;}
+.nsd-main-layout .nsd-panel{background-color: #2c3135!important; border: 1px solid #444d54!important;}
 
 /** NetworkSetup/Dashboard - Rahul Kumar ***/
