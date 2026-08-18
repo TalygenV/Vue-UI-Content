@@ -1912,5 +1912,13 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 
 .onlytodo_kb .kb-avatar{border: 2px solid #5e5e5e;}
 .kb-timer-btns button.inactive-disabled{opacity: 0.3}
-   
 
+/** NetworkSetup/Dashboard - Rahul Kumar ***/
+   
+.nsd-kpi-card{ background-color: #2c3135!important; border: 1px solid #444d54!important; color: #ddd;}
+.nsd-kpi-value{ color: #ddd!important; font-weight: 400!important;}
+.whiteheader{background: #2c3136 !important;}
+.nsd-panel-title{color: #ccc!important;}
+.nsd-panel{background-color: #2c3135!important; border: 1px solid #444d54!important;}
+
+/** NetworkSetup/Dashboard - Rahul Kumar ***/
