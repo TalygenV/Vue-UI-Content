@@ -1931,6 +1931,8 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .nsd-alert-list li, .nsd-log-list li{border-bottom: 1px solid #525f65!important;}
 
 
+.nsd-main-layout .col-lg-4.full_vue .nsd-panel, .nsd-main-layout .col-lg-4.full_vue .nsd-widget-card{background-color: #131416!important; border: 1px solid #525f65!important; }
+
 
 
 
