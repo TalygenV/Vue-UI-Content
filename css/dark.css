@@ -1924,7 +1924,7 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 
 .nsd-main-layout .nsd-check, .nsd-main-layout .nsd-map-legend, .nsd-main-layout .nsd-log-list li{color: #ccc!important;}
 
-.nsd-footer{background: #212528; border: 1px solid #525f65; color: #ccc;}
+.nsd-footer{background: #212528!important; border: 1px solid #525f65!important; color: #ccc!important;}
 
 
 /** NetworkSetup/Dashboard - Rahul Kumar ***/
