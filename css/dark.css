@@ -1923,9 +1923,9 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .nsd-main-layout .nsd-check, .nsd-main-layout .nsd-map-legend, .nsd-main-layout .nsd-log-list li{color: #ccc!important;}
 .nsd-footer{background: #212528!important; border: 1px solid #525f65!important; color: #ccc!important;}
 
-.nsd-critical-sidebar{background: linear-gradient(180deg,#251d1d,#2d1616 48%)!important; border-left: 4px solid #dc2626!important;}
+.nsd-main-layout .nsd-critical-sidebar{background: linear-gradient(180deg,#251d1d,#2d1616 48%)!important; border-left: 4px solid #dc2626!important;}
 .nsd-widget-title{color: #fff!important;}
-.nsd-critical-item{border: 1px solid #525f65!important; background: #212528!important;}
+.nsd-main-layout .nsd-critical-item{border: 1px solid #525f65!important; background: #212528!important; border-left: 4px solid #dc2626!important;}
 .nsd-critical-item-head{color: #ccc!important;}
 .nsd-critical-item-foot, .nsd-critical-item-meta{color: #828ea0!important;}
 .nsd-alert-list li, .nsd-log-list li{border-bottom: 1px solid #525f65!important;}
