@@ -1919,17 +1919,18 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .nsd-kpi-grid .nsd-kpi-value{ color: #ddd!important; font-weight: 400!important;}
 .nsd-main-layout .whiteheader{background: #2c3136 !important; border-bottom: 1px solid #525f65 !important;}
 .nsd-main-layout .nsd-panel-title{color: #ccc!important;}
-.nsd-main-layout .nsd-panel, .nsd-main-layout .nsd-widget-card{background-color: #212528!important; border: 1px solid #525f65!important; border-left: 4px solid #dc2626!important;}
+.nsd-main-layout .nsd-panel, .nsd-main-layout .nsd-widget-card{background-color: #212528!important; border: 1px solid #525f65!important; }
 .nsd-main-layout .nsd-check, .nsd-main-layout .nsd-map-legend, .nsd-main-layout .nsd-log-list li{color: #ccc!important;}
 .nsd-footer{background: #212528!important; border: 1px solid #525f65!important; color: #ccc!important;}
-.nsd-critical-sidebar{background: linear-gradient(180deg,#251d1d,#2d1616 48%)!important;}
+
+.nsd-critical-sidebar{background: linear-gradient(180deg,#251d1d,#2d1616 48%)!important; border-left: 4px solid #dc2626!important;}
 .nsd-widget-title{color: #fff!important;}
 .nsd-critical-item{border: 1px solid #525f65!important; background: #212528!important;}
 .nsd-critical-item-head{color: #ccc!important;}
 .nsd-critical-item-foot, .nsd-critical-item-meta{color: #828ea0!important;}
 .nsd-alert-list li, .nsd-log-list li{border-bottom: 1px solid #525f65!important;}
 
-.full_vue{}
+
 
 
 
