@@ -1939,5 +1939,6 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .network-setup-entity-page .ad-coord-box{background-color: #131416!important; border: 1px solid #525f65!important;}
 .nsd-gauge-needle{stroke: #ccc!important;}
 .nsd-gauge-hub{ fill: #ccc!important;}
+.nsd-donut-legend{color: #ccc!important;}
 
 /** NetworkSetup/Dashboard - Rahul Kumar ***/
