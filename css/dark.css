@@ -1930,7 +1930,6 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .nsd-critical-item-foot, .nsd-critical-item-meta{color: #828ea0!important;}
 .nsd-alert-list li, .nsd-log-list li{border-bottom: 1px solid #525f65!important;}
 
-
 .nsd-main-layout .col-lg-4.full_vue .nsd-panel, .nsd-main-layout .col-lg-4.full_vue .nsd-widget-card{background-color: #131416!important; border: 1px solid #525f65!important; }
 
 .network-setup-entity-page .ad-selected-location{border: 1px solid #dc2626; background: #212528;}
@@ -1938,5 +1937,7 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .network-setup-entity-page .ad-coord-value { font-weight: 400; color: #ccc;}
 
 .network-setup-entity-page .ad-coord-box{background-color: #131416!important; border: 1px solid #525f65!important;}
+.nsd-gauge-needle{stroke: #ccc!important;}
+.nsd-gauge-hub{ fill: #ccc!important;}
 
 /** NetworkSetup/Dashboard - Rahul Kumar ***/
