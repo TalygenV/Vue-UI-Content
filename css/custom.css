@@ -11112,3 +11112,20 @@ table.unsetlastcolumn tr th, table.unsetlastcolumn tr td{position: unset!importa
 .vuew_applied{background: #fff8dc !important; border-left: 3px solid #ffd220 !important;}
 
 .mannywidgetscontrol10.popupvue .dashbord-widget li{width:20%!important; margin:0.25%!important;}
+
+
+.common-green-badge {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 16px !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+  border-radius: 7px !important;
+  vertical-align: middle;
+  white-space: nowrap;
+  border: none !important;
+  height: auto !important;
+  background-color: rgb(42, 167, 70);
+}
