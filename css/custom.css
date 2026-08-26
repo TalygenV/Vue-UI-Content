@@ -11129,3 +11129,7 @@ table.unsetlastcolumn tr th, table.unsetlastcolumn tr td{position: unset!importa
   height: auto !important;
   background-color: rgb(42, 167, 70);
 }
+
+.beforepics{position: absolute;  background: #575151;  color: #fff;  padding: 0px 10px;  margin: 2px;}
+.afterpics {position: absolute;  background: #23a5fd;  color: #fff;  padding: 0px 10px;  margin: 2px;}
+
