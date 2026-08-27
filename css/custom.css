@@ -11299,4 +11299,7 @@ table.unsetlastcolumn tr th, table.unsetlastcolumn tr td{position: unset!importa
 
 .badgesize{display: inline-block; padding: 5px 10px!important; font-size: 13px!important; font-weight: 400!important;}
 
+.gridouter .gridboxx .form-group{border-bottom: 1px solid #f1f3f4; margin-bottom: 0px; padding-bottom: 10px; margin-top: 10px;}
+
+
 /*******Network Setup Dashboard - Rahul Kumar 27Aug2026***********/
