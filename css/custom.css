@@ -11297,4 +11297,6 @@ table.unsetlastcolumn tr th, table.unsetlastcolumn tr td{position: unset!importa
         max-width: 100%;}
 }
 
+.badgesize{display: inline-block; padding: 5px 10px!important; font-size: 13px!important; font-weight: 400!important;}
+
 /*******Network Setup Dashboard - Rahul Kumar 27Aug2026***********/
