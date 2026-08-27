@@ -11159,6 +11159,7 @@ table.unsetlastcolumn tr th, table.unsetlastcolumn tr td{position: unset!importa
 .nsd-formula-bands { color: #64748b; margin-bottom: 6px; }
 .nsd-formula-live {border-top: 1px dashed #cbd5e1; padding-top: 6px; color: #475569;}
 .nsd-kpi-grid {display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px;}
+.nsd-kpi-grid.grid4 {display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px;}
 .nsd-kpi-cell { min-width: 0;}
 .nsd-kpi-card {background: #fff; border: 1px solid #cbcbcb; border-radius: 0px; padding: 14px 12px;  display: flex; align-items: center; min-height: 88px; height: 100%; box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);}
 .nsd-kpi-icon { width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 12px; color: #fff; flex-shrink: 0;}
