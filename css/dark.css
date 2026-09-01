@@ -1946,7 +1946,9 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .nsd-main-layout .nsd-loading-kpi-value { color: #fff;}
 .nsd-main-layout .nsd-loading-kpi-hint { color: #9bbff1;}
 
-
+.nsd-main-layout .nsd-loading-detail{ border: 1px solid #525f65; background: #121416;}
+.nsd-main-layout .nsd-loading-detail-title{ color: #fff;}
 
 
 /** NetworkSetup/Dashboard - Rahul Kumar ***/
+
