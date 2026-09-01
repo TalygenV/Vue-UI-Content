@@ -1941,4 +1941,12 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .nsd-gauge-hub{ fill: #ccc!important;}
 .nsd-donut-legend{color: #ccc!important;}
 
+.nsd-main-layout .nsd-loading-kpi {border: 1px solid #4d4f52; background: #2b2f32;}
+.nsd-main-layout .nsd-loading-kpi-label { color: #ccc;}
+.nsd-main-layout .nsd-loading-kpi-value { color: #fff;}
+.nsd-main-layout .nsd-loading-kpi-hint { color: #9bbff1;}
+
+
+
+
 /** NetworkSetup/Dashboard - Rahul Kumar ***/
