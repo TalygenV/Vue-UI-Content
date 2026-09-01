@@ -1952,9 +1952,9 @@ button.addtransrule:hover{background: #25a5ff; color: #fff;}
 .nsd-main-layout .nsd-loading-detail-list li{border-bottom: 1px solid #525f65;}
 
 .nsd-main-layout .nsd-customer-load-table-wrap{ border: 1px solid #525f65; background: #212528;}
-
-
-
+.nsd-main-layout .nsd-formula-box{background: #0f1112; border: 1px solid #525f65; color: #ccc;}
+.nsd-main-layout .nsd-formula-main{background: #000000; border: 1px solid #525f65;}
+.nsd-main-layout .nsd-formula-title{color: #fff;}
 
 
 /** NetworkSetup/Dashboard - Rahul Kumar ***/
