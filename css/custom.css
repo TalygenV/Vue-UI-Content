@@ -11142,7 +11142,7 @@ table.unsetlastcolumn tr th, table.unsetlastcolumn tr td{position: unset!importa
 .nsd-loading-status-badge.is-warning { background: #fffbeb; color: #b45309; }
 .nsd-loading-status-badge.is-healthy { background: #f0fdf4; color: #15803d; }
 .nsd-loading-detail-list { list-style: none; margin: 0; padding: 0; font-size: 13px; color: #334155;}
-.nsd-loading-detail-list li { padding: 4px 0; border-bottom: 1px solid #eef2f7; }
+.nsd-loading-detail-list li { padding: 4px 0; border-bottom: 1px solid #bfc5cb; }
 .nsd-customer-load-table-wrap { max-height: 240px; overflow: auto; border: 1px solid #e2e8f0; background: #fff; }
 .nsd-customer-load-table { font-size: 12px; margin-bottom: 0; }
 .nsd-customer-load-table th { background: #f1f5f9; position: sticky; top: 0; z-index: 1; }
