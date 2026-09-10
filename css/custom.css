@@ -11319,3 +11319,9 @@ ul.ullilist li{
 ul.ullilist li:nth-child(even){margin-right: 0px;}
 
 /*******Network Setup Dashboard - Rahul Kumar 27Aug2026***********/
+
+@media (max-width: 991px) {
+.client-dashboard.mannywidgetscontrol.cldb .dashbord-widget li{width: 100%;}
+}
+
+
