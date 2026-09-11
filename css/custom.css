@@ -11230,7 +11230,7 @@ table.unsetlastcolumn tr th, table.unsetlastcolumn tr td{position: unset!importa
 .nsd-search-results {  position: absolute; z-index: 1000;  left: 0;  right: 0; top: 100%;  margin: 2px 0 0;  padding: 0; list-style: none;  background: #fff; border: 1px solid #e2e8f0; border-radius: 6px; max-height: 220px; overflow-y: auto; box-shadow: 0 8px 16px rgba(15, 23, 42, 0.08);}
 .nsd-search-results li { padding: 8px 10px; font-size: 12px; border-bottom: 1px solid #f1f5f9; cursor: pointer;}
 .nsd-search-results li:hover { background: #f8fafc;}
-.nsd-map { height: 480px; border-radius: 8px; border: 1px solid #edf2f7; background: #f8fafc;}
+.nsd-map { height: 480px; border-radius: 8px; border: 1px solid #edf2f7; background: #f8fafc; margin: 20px;}
 .nsd-map-title-actions { gap: 6px;}
 .nsd-map-fullscreen {position: fixed; inset: 0; z-index: 2000; margin: 10px !important; border-radius: 0; background: #fff; display: flex; flex-direction: column; top: 37px !important;}
 .nsd-map-fullscreen .nsd-map { flex: 1 1 auto; height: auto; min-height: 0; border-radius: 6px;}
