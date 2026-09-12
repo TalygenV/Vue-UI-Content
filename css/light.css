@@ -1101,8 +1101,9 @@ div#divNodeFlowChartNew {
 .client-kpi-widgets .cardy3{ background: #f8f6ff !important; border: 1px solid #b4abef;}
 .client-kpi-widgets .cardy4{ background: #f0f7ff !important; border: 1px solid #88b1e7;}
 
+.client-dash-filter-btn{ background: #4f4f4f!important;  border: 1px solid #4f4f4f !important;}
+.client-dash-filter-btn.is-open, .client-dash-filter-btn.has-active{ background: #4f4f4f!important;  border: 1px solid #4f4f4f !important;}
 
-.client-dash-filter-btn{ background: #4f4f4f!important; color: #fff !important; border: 1px solid #4f4f4f !important;}
 /**New USIC Client Dashboard****/ 
 
 
