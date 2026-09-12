@@ -1094,7 +1094,14 @@ div#divNodeFlowChartNew {
 /*******RMM Batch Analysis 28May2026*********/
 
 
+/**New USIC Client Dashboard****/ 
 
+.client-kpi-widgets .cardy1{ background: #fcfffc !important; border: 1px solid #add7b5;}
+.client-kpi-widgets .cardy2{ background: #fffcfb !important; border: 1px solid #fbc0ab;}
+.client-kpi-widgets .cardy3{ background: #f8f6ff !important; border: 1px solid #b4abef;}
+.client-kpi-widgets .cardy4{ background: #f0f7ff !important; border: 1px solid #88b1e7;}
+
+/**New USIC Client Dashboard****/ 
 
 
 
