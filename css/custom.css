@@ -11324,7 +11324,7 @@ ul.ullilist li:nth-child(even){margin-right: 0px;}
 .client-dashboard.mannywidgetscontrol.cldb .dashbord-widget li{width: 100%;}
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
 .card.ticket-detail-card .td-card-body .td-meta-col{-ms-flex: 0 0 33%;
         flex: 0 0 33.333333%;
         max-width: 33.3333%;
