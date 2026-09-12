@@ -1998,3 +1998,13 @@ ul.ullilist li{background: #2c3136; border-bottom: 1px solid #454748; color: #cc
 
 .card-detail-main.filterscrollForCardView div.card-detail.bg-light{background: #2c3136 !important;}
 
+.ticket-detail-card .td-card-header {background-color: #2c3136!important; border-bottom: 1px solid #454748!important;}
+.ticket-detail-card .td-header-title { color: #fff!important;}
+.card.ticket-detail-card .td-subject-value{color: #fff!important;}
+.card.ticket-detail-card .td-card-body .td-meta-col{background-color: #2c3136!important;;}
+.card.ticket-detail-card .td-card-body .td-meta-row{border:none!important;}
+.card.ticket-detail-card .td-card-body .td-meta-col .td-value{color: #ccc!important;}
+
+
+
+
