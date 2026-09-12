@@ -1983,10 +1983,10 @@ ul.ullilist li{background: #2c3136; border-bottom: 1px solid #454748; color: #cc
 
 /**New USIC Client Dashboard****/ 
 
-.client-kpi-widgets .cardy1{ background: #0a1420 !important; border: 1px solid #28466e;}
+.client-kpi-widgets .cardy1{ background: #202621 !important; border: 1px solid #344638;}
 .client-kpi-widgets .cardy2{ background: #1e0d09 !important; border: 1px solid #503b33;}
 .client-kpi-widgets .cardy3{ background: #201c2e !important; border: 1px solid #484164;}
-.client-kpi-widgets .cardy4{ background: #202621 !important; border: 1px solid #344638;}
+.client-kpi-widgets .cardy4{ background: #0a1420 !important; border: 1px solid #28466e;}
 
 .client-kpi-widgets .combo-title{color: #ccc!important;}
 .client-kpi-widgets .metric-label{color: #ccc!important;font-weight: 400!important;}
