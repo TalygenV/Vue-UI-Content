@@ -11324,4 +11324,14 @@ ul.ullilist li:nth-child(even){margin-right: 0px;}
 .client-dashboard.mannywidgetscontrol.cldb .dashbord-widget li{width: 100%;}
 }
 
+@media (max-width: 1400px) {
+.card.ticket-detail-card .td-card-body .td-meta-col{-ms-flex: 0 0 33%;
+        flex: 0 0 33.333333%;
+        max-width: 33.3333%;}
+}
 
+@media (max-width: 991px) {
+.card.ticket-detail-card .td-card-body .td-meta-col{-ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;}
+}
