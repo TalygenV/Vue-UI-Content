@@ -7,50 +7,14 @@ touritem["User/Dashboard"] = {
   displayName: "Dashboard",
   items: [
     {
-      selector: "div#fullMenuUl",
-      step: 1,
-      title: "FullMenu",
-      content: "FullMenuContent",
-    },
-    {
-      selector: "ul.my-account",
-      step: 2,
-      title: "ProflieMenu",
-      content: "ProflieMenuContent",
-    },
-    {
-      selector: "#DivTimerContent",
-      step: 3,
-      title: "TimerIcon",
-      content: "TimerIconContent",
-    },
-    {
-      selector: "li.wizardnew",
-      step: 4,
-      title: "WizardIcon",
-      content: "WizardIconContent",
-    },
-    {
-      selector: "#anceditMyDashboard",
-      step: 5,
-      title: "MyShortcuts",
-      content: "MyShortcutsContent",
-    },
-    {
-      selector: ".rightsideicon",
-      step: 6,
-      title: "MyShortcutsCustom",
-      content: "MyShortcutsContent",
-    },
-    {
       selector: "#ancAddGroupMyDashboard",
-      step: 7,
+      step: 1,
       title: "AddNewGroup",
       content: "AddNewGroupContent",
     },
     {
       selector: ".clsdashboardgroup ul.shortcuts-menu li:first-child",
-      step: 8,
+      step: 2,
       title: "ShortcutLink",
       marked: true,
       content: "ShortcutLinkContent",
@@ -100,128 +64,131 @@ touritem["CRM/Index"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
   displayName: "Lead",
-  items: [
-    {
-      selector: "#titleName",
-      step: 1,
-      title: "DefaultView",
-      content: "DefaultViewContent",
-    },
-    {
-      selector: ".defaultedit",
-      step: 2,
-      title: "MangeView",
-      content: "ManageviewContent",
-    },
-    {
-      selector: "#AddNewView",
-      step: 3,
-      title: "AddNew",
-      content: "AddNewViewContent",
-    },
-    {
-      selector: "#ExportToExcel",
-      step: 4,
-      title: "ExporttoExcel",
-      content: "LeadExporttoExcelContent",
-    },
-    {
-      selector: "#ImportLeads",
-      step: 5,
-      title: "ImportLeads",
-      content: "ImportLeadsContent",
-    },
-    {
-      selector: "#ChangeOwnerId",
-      step: 6,
-      title: "ChangeLeadOwner",
-      content: "ChangeLeadOwnerContent",
-    },
-    {
-      selector: "#AdditionalOwnerId",
-      step: 7,
-      title: "AdditionalOwnerId",
-      content: "AdditionalOwnerIdContent",
-    },
-    {
-      selector: "#Sendbulkmail",
-      step: 8,
-      title: "SendEmail",
-      content: "SendEmailContent",
-    },
-    {
-      selector: "#CloseLeadId",
-      step: 9,
-      title: "CloseLeads",
-      content: "CloseLeadsContent",
-    },
-    {
-      selector: "#action-list",
-      step: 10,
-      title: "actionButton",
-      content: "actionButtonContent",
-    },
-  ],
+  items:
+    [
+      {
+        selector: "#titleName",
+        step: 1,
+        title: "DefaultView",
+        content: "DefaultViewContent"
+      },
+      {
+        selector: ".defaultedit",
+        step: 2,
+        title: "MangeView",
+        content: "ManageviewContent"
+      },
+      {
+        selector: "#AddNewView",
+        step: 3,
+        title: "AddNew",
+        content: "AddNewViewContent"
+      },
+      {
+        selector: "#ExportToExcel",
+        step: 4,
+        title: "ExporttoExcel",
+        content: "LeadExporttoExcelContent"
+      },
+      {
+        selector: "#ImportLeads",
+        step: 5,
+        title: "ImportLeads",
+        content: "ImportLeadsContent"
+      },
+      {
+        selector: "#ChangeOwnerId",
+        step: 6,
+        title: "ChangeLeadOwner",
+        content: "ChangeLeadOwnerContent"
+      },
+      {
+        selector: "#AdditionalOwnerId",
+        step: 7,
+        title: "AdditionalOwnerId",
+        content: "AdditionalOwnerIdContent"
+      },
+      {
+        selector: "#Sendbulkmail",
+        step: 8,
+        title: "SendEmail",
+        content: "SendEmailContent"
+      },
+      {
+        selector: "#CloseLeadId",
+        step: 9,
+        title: "CloseLeads",
+        content: "CloseLeadsContent"
+      },
+      {
+        selector: "#action-list",
+        step: 10,
+        title: "actionButton",
+        content: "actionButtonContent"
+      }
+    ]
 };
 touritem["CommunicationModes/Index"] = {
   ModuleDisplayName: "CRM Management",
   displayName: "CRM",
-  items: [
-    {
-      selector: "#crmleftsearch",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchCommunicationFilterContent",
-    },
-    {
-      selector: "#AddManageCommunicationModes",
-      step: 2,
-      title: "Add",
-      content: "AddManageCommunicationModes",
-    },
-    {
-      selector: "#crmlistingStatus_span",
-      step: 3,
-      title: "Status" + " " + "Update",
-      content: "UpdateAddManageCommunicationModes",
-    },
-  ],
+  items:
+    [
+      {
+        selector: "#crmleftsearch",
+        step: 1,
+        title: "SearchFilters",
+        content: "SearchCommunicationFilterContent"
+      },
+      {
+        selector: "#AddManageCommunicationModes",
+        step: 2,
+        title: "Add",
+        content: "AddManageCommunicationModes"
+      },
+      {
+        selector: "#crmlistingStatus_span",
+        step: 3,
+        title: "Status" + " " + "Update",
+        content: "UpdateAddManageCommunicationModes"
+      }
+    ]
 };
 touritem["CRM/Dashboard"] = {
   ModuleDisplayName: "CRM Management",
   displayName: "CRM",
-  items: [
-    {
-      selector: "#MyViews",
-      step: 1,
-      title: "MyView",
-      content: "MyViewContent",
-    },
-    {
-      selector: "#teamview",
-      step: 2,
-      title: "TeamView",
-      content: "TeamViewContent",
-    },
-    {
-      selector: "#ddlChangeView",
-      step: 3,
-      title: "SelectView",
-      content: "SelectViewContent",
-    },
-    {
-      selector: "#aViewPin_global",
-      step: 4,
-      title: "PinView",
-      content: "PinViewContent",
-    },
-    {
-      selector: "#aDateLable_global",
-      step: 5,
-      title: "ReportSearchFilters",
-      content: "ReportSearchFiltersContent",
-    },
-  ],
+  items:
+    [
+      {
+        selector: "#MyViews",
+        step: 1,
+        title: "MyView",
+        content: "MyViewContent"
+      },
+      {
+        selector: "#teamview",
+        step: 2,
+        title: "TeamView",
+        content: "TeamViewContent"
+      },
+      {
+        selector: "#ddlChangeView",
+        step: 3,
+        title: "SelectView",
+        content: "SelectViewContent"
+      },
+      {
+        selector: "#aViewPin_global",
+        step: 4,
+        title: "PinView",
+        content: "PinViewContent"
+      },
+      {
+        selector: "#aDateLable_global",
+        step: 5,
+        title: "ReportSearchFilters",
+        content: "ReportSearchFiltersContent"
+      }
+    ]
 };
 touritem["CRM/LeadList"] = {
   ModuleDisplayName: "CRM Management",
@@ -355,62 +322,6 @@ touritem["ExpenseApproval/Index"] = {
     },
   ],
 };
-touritem["ClientBill/Index"] = {
-  ModuleDisplayName: "Invoice",
-  ModuleName: "ClientBill",
-  displayName: "Invoice",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchFilterInvoiceContent",
-    },
-    {
-      selector: ".manualInvoice_a",
-      step: 2,
-      title: "Manual" + " " + "Invoice",
-      content: "ManualInvoiceContent",
-    },
-    {
-      selector: ".InvoiceStatus_Span",
-      step: 3,
-      title: "Update" + " " + "InvoiceStatus",
-      content: "InvoiceStatusContent",
-    },
-  ],
-};
-touritem["BillingRule/RuleListing"] = {
-  ModuleDisplayName: "Invoice",
-  ModuleName: "ClientBill",
-  displayName: "BillingRule",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchRule",
-      content: "SearchBillingRules",
-    },
-    {
-      selector: ".ddlupdatestatus",
-      step: 2,
-      title: "StatusUpdate",
-      content: "ChangeBillingRulestatus",
-    },
-    {
-      selector: ".enable",
-      step: 3,
-      title: "ViewRule",
-      content: "ViewYourBillingRuleDetails",
-    },
-    {
-      selector: ".addBillingRule",
-      step: 4,
-      title: "AddRule",
-      content: "CreateNewBillingRule",
-    },
-  ],
-};
 touritem["BillingRule/NodeConfiguration"] = {
   ModuleDisplayName: "Invoice",
   ModuleName: "ClientBill",
@@ -447,36 +358,42 @@ touritem["BillingService/Index"] = {
   ModuleName: "ClientBill",
   displayName: "Billing Services",
   items: [
+     {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filter",
+      content: "SearchService",
+    },
     {
-      selector: ".ddlupdatestatus",
+      selector: "#BillingServiceStatus",
       step: 2,
       title: "StatusUpdate",
       content: "ChangeBillingServiceStatus",
-    },
+    },   
     {
-      selector: "._ancServiceUpdateHistory",
-      step: 2,
-      title: "HistoricData",
-      content: "ViewYouTheBillingServiceHistory",
-    },
-    {
-      selector: ".CloneService",
+      selector: "#addservice",
       step: 3,
-      title: "ServiceCloning",
-      content: "CloningAllowsYouToCreateDuplicateService",
-    },
-    {
-      selector: ".p-action-btn .text-white",
-      step: 4,
       title: "CreateService",
       content: "CreateNewBillingService",
     },
     {
       selector: "#btnSave",
-      step: 5,
+      step: 4,
       title: "EnterServiceDetails",
       content: "CongratsYouHaveCreatedBillingServiceSuccessfully",
-    },
+    }
+     // {
+    //   selector: "#ViewBillingServiceHistory",
+    //   step: 3,
+    //   title: "HistoricData",
+    //   content: "ViewYouTheBillingServiceHistory",
+    // },
+    // {
+    //   selector: "#CloneBillingService",
+    //   step: 4,
+    //   title: "ServiceCloning",
+    //   content: "CloningAllowsYouToCreateDuplicateService",
+    // },
   ],
 };
 touritem["ClientInvoice/CatchAll"] = {
@@ -539,32 +456,6 @@ touritem["ClientInvoice/CatchAll"] = {
       step: 1,
       title: "BulkMove",
       content: "UseBulkMoveOptionProcessBulkRecords",
-    },
-  ],
-};
-
-touritem["Client/Index"] = {
-  ModuleDisplayName: "Company Setup",
-  ModuleName: "User",
-  displayName: "Client",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchAccountUsingPredefinedSearchFilters",
-    },
-    {
-      selector: ".actions .action_icon",
-      step: 2,
-      title: "ManageConfigurations",
-      content: "SetupConfigurationTheAccount",
-    },
-    {
-      selector: ".actions .action_icon",
-      step: 3,
-      title: "EnterTheRequiredInformation",
-      content: "SelectRequiredOptionsSetupYouContractSettings",
     },
   ],
 };
@@ -708,6 +599,37 @@ touritem["CRM/ManageLead"] = {
     },
   ],
 };
+touritem["CRM/DealListing"] = {
+  ModuleDisplayName: "CRM Management",
+  ModuleName: "CRM",
+  displayName: "Deal Listing",
+  items: [
+    {
+      selector: ".SearchFilters_div",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchDealFilterContent",
+    },
+    {
+      selector: "#crmdeals_status",
+      step: 2,
+      title: "Status" + " " + "Update",
+      content: "UpdateDealStatusContent",
+    },
+    {
+      selector: "#AddDealContent_a",
+      step: 3,
+      title: "Add" + " " + "Deal",
+      content: "AddDealContent",
+    },
+    {
+      selector: "#ViewDealDetailContent_a",
+      step: 4,
+      title: "ViewDetail",
+      content: "ViewDealDetailContent",
+    },
+  ],
+};
 touritem["ApprovalChain/Index"] = {
   ModuleDisplayName: "Approval",
   ModuleName: "ApprovalChain",
@@ -754,7 +676,7 @@ touritem["CRM/ManageAccount"] = {
     {
       selector: ".formbtn",
       step: 1,
-      title: "EnterAccountDetails",
+      title: "AddAccount",
       content: "AddAccountDetailContent",
     },
   ],
@@ -869,57 +791,29 @@ touritem["CRM/PurchaseOrderListing"] = {
       selector: "#titleName",
       step: 1,
       title: "DefaultView",
-      content: "DefaultViewContent",
+      content: "DefaultViewContent"
     },
     {
       selector: ".defaultedit",
       step: 2,
       title: "MangeView",
-      content: "ManageviewContent",
+      content: "ManageviewContent"
     },
     {
       selector: "#AddNewView",
       step: 3,
       title: "AddNew",
-      content: "AddNewViewContent",
+      content: "AddNewViewContent"
     },
     {
       selector: "#action-list",
       step: 4,
       title: "actionButton",
-      content: "actionButtonContent",
-    },
-  ],
+      content: "actionButtonContent"
+    }
+  ]
 };
-touritem["CRM/InvoiceListing"] = {
-  displayName: "Invoice List",
-  items: [
-    {
-      selector: "#crmleftsearch",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchInvoiceFilterContent",
-    },
-    {
-      selector: "#crmlistingStatus_span",
-      step: 2,
-      title: "Status" + " " + "Update",
-      content: "UpdateInvoiceStatusContent",
-    },
-    {
-      selector: "#addInvoice_a",
-      step: 3,
-      title: "AddInvoice",
-      content: "AddInvoiceContent",
-    },
-    {
-      selector: "#viewLeadeContent_a",
-      step: 4,
-      title: "ViewDetail",
-      content: "ViewInvoiceContent",
-    },
-  ],
-};
+
 touritem["CRM/ItemListing"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
@@ -1008,13 +902,13 @@ touritem["CRM/Accounts"] = {
   displayName: "Accounts",
   items: [
     {
-      selector: "#viewLeadeContent_a",
+      selector: ".account_widget",
       step: 1,
       title: "Widgets",
       content: "SearchAccountFilterContent",
     },
     {
-      selector: "#accordionEx",
+      selector: ".account_tour",
       step: 2,
       title: "SearchFilters",
       content: "SearchAccountFilter1Content",
@@ -1033,25 +927,69 @@ touritem["CRM/Accounts"] = {
     },
   ],
 };
+touritem["CRM/CampaignListing"] = {
+  ModuleDisplayName: "CRM Management",
+  ModuleName: "CRM",
+  displayName: "Campaign Listing",
+  items: [
+    {
+      selector: ".divMainCampaignData_a",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchCampaignFilterContent",
+    },
+    {
+      selector: ".addCampaign_a",
+      step: 2,
+      title: "AddCampaign",
+      content: "AddCampaignContent",
+    },
+  ],
+};
 touritem["CRM/ContactListing"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
   displayName: "Contact Listing",
   items: [
     {
-      selector: "#accordionEx",
+      selector: ".divContactData_a",
       step: 1,
       title: "SearchFilters",
       content: "SearchContactFilterContent",
     },
     {
-      selector: "#addContact_a",
+      selector: ".addcontact_a",
       step: 2,
       title: "AddContact",
       content: "AddContactContent",
     },
   ],
 };
+// touritem["CRM/ContractListing"] = {
+//   ModuleDisplayName: "CRM Management",
+//   ModuleName: "CRM",
+//   displayName: "Contract Listing",
+//   items: [
+//     {
+//       selector: ".divContactData_a",
+//       step: 1,
+//       title: "SearchFilters",
+//       content: "SearchContractFilterContent",
+//     },
+//     {
+//       selector: ".addcontact_a",
+//       step: 2,
+//       title: "AddContract",
+//       content: "AddContractContent",
+//     },
+//     {
+//       selector: "#action-list",
+//       step: 3,
+//       title: "AddContract",
+//       content: "AddContractContent",
+//     },
+//   ],
+// };
 touritem["CRM/ManageCampaign"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
@@ -1262,203 +1200,40 @@ touritem["Timer/BulkTimeEntry"] = {
     },
   ],
 };
-touritem["Asset/Dashboard"] = {
+
+
+touritem["AssetCatalog/ScheduleUpdate"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
-  displayName: "Dashboard",
+  displayName: "Schedule Update",
   items: [
     {
-      selector: "#aDateLable_global",
+      selector: "#aRelatedSearchAsset",
       step: 1,
-      title: "DateSelection",
-      content: "SelectYourDateViewReports",
+      title: "SearchProduct",
+      content: "SeeCalibrationScheduleProductWithTheFrequencyDetails",
     },
     {
-      selector: "#hlkAddMoreReports",
+      selector: ".left-menu-tab",
       step: 2,
-      title: "AddReport",
-      content: "AddMoreReports",
-    },
-  ],
-};
-// touritem["AssetCatalog/Index"] = {
-//   ModuleDisplayName: "Asset Management",
-//   ModuleName: "Asset",
-//   displayName: "Manage Catalog",
-//   items: [
-//     {
-//       selector: "#accordionEx",
-//       step: 1,
-//       title: "SearchFilters",
-//       content: "SearchYourProductsUsingFilters",
-//     },
-//     // {
-//     //   selector: "#ancCreateJob",
-//     //   step: 2,
-//     //   title: "AddAssetCatalogue",
-//     //   content: "AddNewProductYourProductCatalogue",
-//     // },
-
-//     {
-//       selector: "#titleName",
-//       step: 2,
-//       title: "Default View",
-//       content: "DefaultView",
-//     },
-
-//     {
-//       selector: "#manageViewbutton",
-//       step: 3,
-//       title: "Manage View",
-//       content: "ManageViewSteps",
-//     },
-
-//     {
-//       selector: "#addManageView",
-//       step: 4,
-//       title: "Add New",
-//       content: "AddMangeView",
-//     },
-
-//     {
-//       selector: "#filterProductAssingment",
-//       step: 5,
-//       title: "Filters",
-//       content: "FiltersProudctAssignment",
-//     },
-
-//   ],
-// };
-touritem["AssetCatalog/Add"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Asset Catalog Add",
-  items: [
-    {
-      selector: ".productCreateTab1",
-      step: 1,
-      title: "EnterProductDetails",
-      content: "SelectProductTypeFillRequiredDetails",
+      title: "ManageMaintenance",
+      content:
+        "ManageMaintenanceScheduleUpdatingDetailsMaintenanceOptionsAvailable",
     },
     {
-      selector: "#ancDeployItems",
-      step: 2,
-      title: "AddAssetCatalogue",
-      content: "AddNewProductYourProductCatalogue",
-    },
-    {
-      selector: ".productDeployTourGuideTab2",
+      selector: ".viewcomment",
       step: 3,
-      title: "ProductDeployment",
-      content: "ProductDeloyementTab",
+      title: "View",
+      content: "CheckCalibrationCommentsAndAuditorDetails",
+    },
+    {
+      selector: "#postcomment",
+      step: 4,
+      title: "ManageCalibration",
+      content: "UpdateStatusCalibrationScheduleNextCalibration",
     },
   ],
 };
-
-// touritem["AssetCatalog/ViewInTransitItems"] = {
-//   ModuleDisplayName: "Asset Management",
-//   ModuleName: "Asset",
-//   displayName: "InTransit Items",
-//   items: [
-//     {
-//       selector: ".single-action",
-//       step: 1,
-//       title: "TransitCheck",
-//       content: "CheckYourIntransitProductsMovingFromOneLocationToAnother",
-//     },
-//     {
-//       selector: ".fa .fa-check-circle",
-//       step: 2,
-//       title: "TransitClearance",
-//       content: "ApproveRejectProductsThatAreTransit",
-//     },
-//   ],
-// };
-
-touritem["AssetRequisition/AddRequisition"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "AddRequisition",
-  items: [
-    {
-      selector: "#ancsaverequest",
-      step: 1,
-      title: "CheckOut",
-      content: "YouCanRequestProductsIssuesForYourself",
-    },
-  ],
-};
-// touritem["AssetAssignment/Index"] = {
-//   ModuleDisplayName: "Asset Management",
-//   ModuleName: "Asset",
-//   displayName: "Item Assignment",
-//   items: [
-//     {
-//       selector: "#accordionEx",
-//       step: 1,
-//       title: "SearchFilters",
-//       content: "FindAssignedProductUsingTheDefaultFilters",
-//     },
-//     {
-//       selector: "#ancCreateJob",
-//       step: 2,
-//       title: "AssignItem",
-//       content: "AssignProductsEmployeeReturnProductsFromOneSingleScreen",
-//     },
-//   ],
-// };
-touritem["AssetAssignment/Add"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Add Asset Assignment",
-  items: [
-    {
-      selector: "#btnSave",
-      step: 1,
-      title: "ProductSelectionAssignment",
-      content: "SelectProductEnterRequiredInformationAssignProduct",
-    },
-  ],
-};
-touritem["AssetRequisition/NewAssetRequisitionListing"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "New Asset Requistion",
-  items: [
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchThroughRaisedProductRequests",
-    },
-    {
-      selector: ".aViewRequisition",
-      step: 2,
-      title: "RequestView",
-      content: "ViewYourRequestDetailsComments",
-    },
-    {
-      selector: "#ancCreateJob",
-      step: 3,
-      title: "ProductRequest",
-      content: "RequesNewPproductsByAddingYouRequest",
-    },
-  ],
-};
-touritem["AssetRequisition/AddNewRequisition"] = {
-  ModuleDisplayName: "Asset Management",
-  ModuleName: "Asset",
-  displayName: "Add New Requisition",
-  items: [
-    {
-      selector: "#main-content",
-      step: 1,
-      title: "EnterDescription",
-      content: "NameProductAndDescribeIt",
-    },
-  ],
-};
-
 touritem["Asset/rfidassetlisting"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
@@ -1772,65 +1547,65 @@ touritem["ExitPolicy/EmployeeResignationList"] = {
     },
   ],
 };
-var tourData = [];
-var touritem = {};
+// var tourData = [];
+// var touritem = {};
 
-touritem["User/Dashboard"] = {
-  ModuleDisplayName: "Company Setup",
-  ModuleName: "User",
-  displayName: "Dashboard",
-  items: [
-    {
-      selector: "div#fullMenuUl",
-      step: 1,
-      title: "FullMenu",
-      content: "FullMenuContent",
-    },
-    {
-      selector: "ul.my-account",
-      step: 2,
-      title: "ProflieMenu",
-      content: "ProflieMenuContent",
-    },
-    {
-      selector: "#DivTimerContent",
-      step: 3,
-      title: "TimerIcon",
-      content: "TimerIconContent",
-    },
-    {
-      selector: "li.wizardnew",
-      step: 4,
-      title: "WizardIcon",
-      content: "WizardIconContent",
-    },
-    {
-      selector: "#anceditMyDashboard",
-      step: 5,
-      title: "MyShortcuts",
-      content: "MyShortcutsContent",
-    },
-    {
-      selector: ".rightsideicon",
-      step: 6,
-      title: "MyShortcutsCustom",
-      content: "MyShortcutsContent",
-    },
-    {
-      selector: "#ancAddGroupMyDashboard",
-      step: 7,
-      title: "AddNewGroup",
-      content: "AddNewGroupContent",
-    },
-    {
-      selector: ".clsdashboardgroup ul.shortcuts-menu li:first-child",
-      step: 8,
-      title: "ShortcutLink",
-      marked: true,
-      content: "ShortcutLinkContent",
-    },
-  ],
-};
+// touritem["User/Dashboard"] = {
+//   ModuleDisplayName: "Company Setup",
+//   ModuleName: "User",
+//   displayName: "Dashboard",
+//   items: [
+//     {
+//       selector: "div#fullMenuUl",
+//       step: 1,
+//       title: "FullMenu",
+//       content: "FullMenuContent",
+//     },
+//     {
+//       selector: "ul.my-account",
+//       step: 2,
+//       title: "ProflieMenu",
+//       content: "ProflieMenuContent",
+//     },
+//     {
+//       selector: "#DivTimerContent",
+//       step: 3,
+//       title: "TimerIcon",
+//       content: "TimerIconContent",
+//     },
+//     {
+//       selector: "li.wizardnew",
+//       step: 4,
+//       title: "WizardIcon",
+//       content: "WizardIconContent",
+//     },
+//     {
+//       selector: "#anceditMyDashboard",
+//       step: 5,
+//       title: "MyShortcuts",
+//       content: "MyShortcutsContent",
+//     },
+//     {
+//       selector: ".rightsideicon",
+//       step: 6,
+//       title: "MyShortcutsCustom",
+//       content: "MyShortcutsContent",
+//     },
+//     {
+//       selector: "#ancAddGroupMyDashboard",
+//       step: 7,
+//       title: "AddNewGroup",
+//       content: "AddNewGroupContent",
+//     },
+//     {
+//       selector: ".clsdashboardgroup ul.shortcuts-menu li:first-child",
+//       step: 8,
+//       title: "ShortcutLink",
+//       marked: true,
+//       content: "ShortcutLinkContent",
+//     },
+//   ],
+// };
 
 touritem["User/Home"] = {
   ModuleDisplayName: "Company Setup",
@@ -1869,25 +1644,25 @@ touritem["User/Home"] = {
     },
   ],
 };
-touritem["Project/Index"] = {
-  ModuleDisplayName: "Project Management",
-  ModuleName: "Project",
-  displayName: "Project",
-  items: [
-    //{
-    //    selector: "li.three_wid",
-    //    step: 1,
-    //    title: "Widgets",
-    //    content: "SummaryWidgets"
-    //},
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "Filters",
-      content: "SearchMultipleFiltersProject",
-    },
-  ],
-};
+// touritem["Project/Index"] = {
+//   ModuleDisplayName: "Project Management",
+//   ModuleName: "Project",
+//   displayName: "Project",
+//   items: [
+//     //{
+//     //    selector: "li.three_wid",
+//     //    step: 1,
+//     //    title: "Widgets",
+//     //    content: "SummaryWidgets"
+//     //},
+//     {
+//       selector: "#accordionEx",
+//       step: 1,
+//       title: "Filters",
+//       content: "SearchMultipleFiltersProject",
+//     },
+//   ],
+// };
 touritem["CRM/Index"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
@@ -2198,7 +1973,7 @@ touritem["LeaveApproval/Index"] = {
     //}
   ],
 };
-touritem["CRM/ManageLeadAdd"] = {
+touritem["CRM/ManageLead"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
   displayName: "Manage Lead",
@@ -2206,21 +1981,8 @@ touritem["CRM/ManageLeadAdd"] = {
     {
       selector: ".AddLeadDetail_a",
       step: 1,
-      title: "enter" + " " + "Lead Detail",
+      title: "enter" + " " + "LeadDetail",
       content: "AddLeadDetailContent",
-    },
-  ],
-};
-touritem["CRM/ManageLeadEdit"] = {
-  ModuleDisplayName: "CRM Management",
-  ModuleName: "CRM",
-  displayName: "Manage Lead",
-  items: [
-    {
-      selector: ".AddLeadDetail_a",
-      step: 1,
-      title: "enter" + " " + "Lead Detail",
-      content: "UpdateLeadDetailContent",
     },
   ],
 };
@@ -2233,45 +1995,45 @@ touritem["CRM/DealListing"] = {
       selector: "#titleName",
       step: 1,
       title: "DefaultView",
-      content: "DefaultViewContent",
+      content: "DefaultViewContent"
     },
     {
-      selector: "#example",
+      selector: ".defaultedit",
       step: 2,
       title: "MangeView",
-      content: "ManageviewContent",
+      content: "ManageviewContent"
     },
     {
-      selector: ".modal-dialog .float-right a:first-of-type",
+      selector: "#AddNewView",
       step: 3,
-      title: "Add" + " " + "Content",
-      content: "AddNewContent",
+      title: "AddNew",
+      content: "AddNewViewContent"
     },
     {
-      selector: "#Deal_Filter",
+      selector: "#Filters",
       step: 4,
       title: "Filters",
-      content: "DealFiltersContent",
+      content: "DealFiltersContent"
     },
     {
       selector: "#ChangeOwnerId",
       step: 5,
       title: "ChangeDealOwner",
-      content: "ChangeDealOwnerContent",
+      content: "ChangeDealOwnerContent"
     },
     {
       selector: "#AdditionalOwnerId",
       step: 6,
       title: "AdditionalOwner",
-      content: "AdditionalOwnerContent",
+      content: "AdditionalOwnerContent"
     },
     {
-      selector: ".action-list-box .list-actions",
+      selector: "#action-list",
       step: 7,
       title: "actionButton",
-      content: "actionButtonContent",
-    },
-  ],
+      content: "actionButtonContent"
+    }
+  ]
 };
 touritem["CRM/ViewDealDetails"] = {
   ModuleDisplayName: "CRM Management",
@@ -2359,27 +2121,27 @@ touritem["CRM/PurchaseOrderListing"] = {
       selector: "#titleName",
       step: 1,
       title: "DefaultView",
-      content: "DefaultViewContent",
+      content: "DefaultViewContent"
     },
     {
       selector: ".defaultedit",
       step: 2,
       title: "MangeView",
-      content: "ManageviewContent",
+      content: "ManageviewContent"
     },
     {
       selector: "#AddNewView",
       step: 3,
       title: "AddNew",
-      content: "AddNewViewContent",
+      content: "AddNewViewContent"
     },
     {
       selector: "#action-list",
       step: 4,
       title: "actionButton",
-      content: "actionButtonContent",
-    },
-  ],
+      content: "actionButtonContent"
+    }
+  ]
 };
 touritem["CRM/QuotationListing"] = {
   ModuleDisplayName: "CRM Management",
@@ -2390,75 +2152,48 @@ touritem["CRM/QuotationListing"] = {
       selector: "#titleName",
       step: 1,
       title: "DefaultView",
-      content: "DefaultViewContent",
+      content: "DefaultViewContent"
     },
     {
       selector: ".defaultedit",
       step: 2,
       title: "MangeView",
-      content: "ManageviewContent",
+      content: "ManageviewContent"
     },
     {
       selector: "#AddNewView",
       step: 3,
       title: "AddNew",
-      content: "AddNewViewContent",
+      content: "AddNewViewContent"
     },
     {
       selector: "#Filters",
       step: 4,
       title: "Filters",
-      content: "ProductFiltersContent",
+      content: "ProductFiltersContent"
     },
     {
       selector: "#action-list",
       step: 4,
       title: "actionButton",
-      content: "actionButtonContent",
+      content: "actionButtonContent"
     },
     {
       selector: "#ExportToExcel",
       step: 5,
       title: "ExporttoExcel",
-      content: "ExporttoExcelContent",
+      content: "ExporttoExcelContent"
     },
     {
       selector: "#Sendbulkmail",
       step: 6,
       title: "SendEmail",
-      content: "SendEmailQuoteContent",
+      content: "SendEmailQuoteContent"
     },
-  ],
+  ]
 };
-touritem["CRM/InvoiceListing"] = {
-  displayName: "Invoice List",
-  items: [
-    {
-      selector: "#crmleftsearch",
-      step: 1,
-      title: "SearchFilters",
-      content: "SearchInvoiceFilterContent",
-    },
-    {
-      selector: "#crmlistingStatus_span",
-      step: 2,
-      title: "Status" + " " + "Update",
-      content: "UpdateInvoiceStatusContent",
-    },
-    {
-      selector: "#addInvoice_a",
-      step: 3,
-      title: "AddInvoice",
-      content: "AddInvoiceContent",
-    },
-    {
-      selector: "#viewLeadeContent_a",
-      step: 4,
-      title: "ViewDetail",
-      content: "ViewInvoiceContent",
-    },
-  ],
-};
+
+
 touritem["CRM/ItemListing"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
@@ -2468,39 +2203,39 @@ touritem["CRM/ItemListing"] = {
       selector: "#titleName",
       step: 1,
       title: "DefaultView",
-      content: "DefaultViewContent",
+      content: "DefaultViewContent"
     },
     {
       selector: ".defaultedit",
       step: 2,
       title: "MangeView",
-      content: "ManageviewContent",
+      content: "ManageviewContent"
     },
     {
       selector: "#AddNewView",
       step: 3,
       title: "AddNew",
-      content: "AddNewViewContent",
+      content: "AddNewViewContent"
     },
     {
       selector: "#Filters",
       step: 4,
       title: "Filters",
-      content: "ProductFiltersContent",
+      content: "ProductFiltersContent"
     },
     {
       selector: "#crmleftsearch",
       step: 5,
       title: "SearchFilters",
-      content: "SearchProductFilterContent",
+      content: "SearchProductFilterContent"
     },
     {
       selector: "#AddProducts",
       step: 6,
       title: "AddItem",
-      content: "AddItemContent",
-    },
-  ],
+      content: "AddItemContent"
+    }
+  ]
 };
 
 touritem["Asset/Add"] = {
@@ -2563,27 +2298,27 @@ touritem["CRM/StageListing"] = {
       selector: "#titleName",
       step: 1,
       title: "DefaultView",
-      content: "DefaultViewContent",
+      content: "DefaultViewContent"
     },
     {
-      selector: "#example",
+      selector: ".defaultedit",
       step: 2,
       title: "MangeView",
-      content: "ManageviewContent",
+      content: "ManageviewContent"
     },
     {
-      selector: ".modal-dialog .float-right a:first-of-type",
+      selector: "#AddNewView",
       step: 3,
       title: "AddNew",
-      content: "AddNewContent",
+      content: "AddNewViewContent"
     },
     {
-      selector: "#StageFilters",
+      selector: "#Filters",
       step: 4,
       title: "Filters",
-      content: "FilterStageContent",
-    },
-  ],
+      content: "FiltersContent"
+    }
+  ]
 };
 
 touritem["CRM/Accounts"] = {
@@ -2592,13 +2327,13 @@ touritem["CRM/Accounts"] = {
   displayName: "Accounts",
   items: [
     {
-      selector: "#viewLeadeContent_a",
+      selector: ".account_widget",
       step: 1,
       title: "Widgets",
       content: "SearchAccountFilterContent",
     },
     {
-      selector: "#accordionEx",
+      selector: ".account_tour",
       step: 2,
       title: "SearchFilters",
       content: "SearchAccountFilter1Content",
@@ -2626,87 +2361,88 @@ touritem["CRM/CampaignListing"] = {
       selector: "#titleName",
       step: 1,
       title: "DefaultView",
-      content: "DefaultViewContent",
+      content: "DefaultViewContent"
     },
     {
-      selector: "#example",
+      selector: ".defaultedit",
       step: 2,
       title: "MangeView",
-      content: "ManageviewContent",
+      content: "ManageviewContent"
     },
     {
-      selector: ".modal-dialog .float-right a:first-of-type",
+      selector: "#AddNewView",
       step: 3,
-      title: "Add" + " " + "Content",
-      content: "AddNewContent",
+      title: "AddNew",
+      content: "AddNewViewContent"
     },
     {
-      selector: "#CampaignFilter",
+      selector: "#Filters",
       step: 4,
       title: "Filters",
-      content: "CampaignFiltersContent",
+      content: "CampaignFiltersContent"
     },
     {
-      selector: ".action-list-box .list-actions",
+      selector: "#action-list",
       step: 5,
       title: "actionButton",
-      content: "actionButtonContent",
-    },
-  ],
+      content: "actionButtonContent"
+    }
+  ]
 };
 touritem["CRM/InwardListing"] = {
   ModuleDisplayName: "CRM Management",
   displayName: "CRM",
-  items: [
-    {
-      selector: "#crmleftsearch",
-      step: 1,
-      title: "SearchFilters",
-      content: "GoodInwardContent",
-    },
-    {
-      selector: "#ExportToExcel",
-      step: 2,
-      title: "ExporttoExcel",
-      content: "ExporttoExcelContent",
-    },
-    {
-      selector: "#RejectApprove",
-      step: 3,
-      title: "Approve/Reject",
-      content: "RejectApproveContent",
-    },
-    {
-      selector: "#RejectApprove1",
-      step: 4,
-      title: "Approve/Reject",
-      content: "RejectApproveContent",
-    },
-    {
-      selector: "#titleName",
-      step: 5,
-      title: "DefaultView",
-      content: "DefaultViewContent",
-    },
-    {
-      selector: ".defaultedit",
-      step: 6,
-      title: "MangeView",
-      content: "ManageviewContent",
-    },
-    {
-      selector: "#AddNewView",
-      step: 7,
-      title: "AddNew",
-      content: "AddNewViewContent",
-    },
-    {
-      selector: ".actions",
-      step: 8,
-      title: "actionButton",
-      content: "actionButtonContent",
-    },
-  ],
+  items:
+    [
+      {
+        selector: "#crmleftsearch",
+        step: 1,
+        title: "SearchFilters",
+        content: "GoodInwardContent"
+      },
+      {
+        selector: "#ExportToExcel",
+        step: 2,
+        title: "ExporttoExcel",
+        content: "ExporttoExcelContent"
+      },
+      {
+        selector: "#RejectApprove",
+        step: 3,
+        title: "Approve/Reject",
+        content: "RejectApproveContent"
+      },
+      {
+        selector: "#RejectApprove1",
+        step: 4,
+        title: "Approve/Reject",
+        content: "RejectApproveContent"
+      },
+      {
+        selector: "#titleName",
+        step: 5,
+        title: "DefaultView",
+        content: "DefaultViewContent"
+      },
+      {
+        selector: ".defaultedit",
+        step: 6,
+        title: "MangeView",
+        content: "ManageviewContent"
+      },
+      {
+        selector: "#AddNewView",
+        step: 7,
+        title: "AddNew",
+        content: "AddNewViewContent"
+      },
+      {
+        selector: ".actions",
+        step: 8,
+        title: "actionButton",
+        content: "actionButtonContent"
+      }
+    ]
 };
 touritem["CRM/VendorListing"] = {
   ModuleDisplayName: "CRM Management",
@@ -2717,39 +2453,39 @@ touritem["CRM/VendorListing"] = {
       selector: "#titleName",
       step: 1,
       title: "DefaultView",
-      content: "DefaultViewContent",
+      content: "DefaultViewContent"
     },
     {
       selector: ".defaultedit",
       step: 2,
       title: "MangeView",
-      content: "ManageviewContent",
+      content: "ManageviewContent"
     },
     {
       selector: "#AddNewView",
       step: 3,
       title: "AddNew",
-      content: "AddNewViewContent",
+      content: "AddNewViewContent"
     },
     {
       selector: "#Filters",
       step: 4,
       title: "Filters",
-      content: "ProductFiltersContent",
+      content: "ProductFiltersContent"
     },
     {
       selector: "#action-list",
       step: 4,
       title: "actionButton",
-      content: "actionButtonContent",
+      content: "actionButtonContent"
     },
     {
       selector: "#ExportToExcel",
       step: 5,
       title: "ExporttoExcel",
-      content: "ExporttoExcelContent",
-    },
-  ],
+      content: "ExporttoExcelContent"
+    }
+  ]
 };
 
 touritem["CRM/ContactListing"] = {
@@ -2758,13 +2494,13 @@ touritem["CRM/ContactListing"] = {
   displayName: "Contact Listing",
   items: [
     {
-      selector: "#accordionEx",
+      selector: ".divContactData_a",
       step: 1,
       title: "SearchFilters",
       content: "SearchContactFilterContent",
     },
     {
-      selector: "#addContact_a",
+      selector: ".addcontact_a",
       step: 2,
       title: "AddContact",
       content: "AddContactContent",
@@ -2774,51 +2510,39 @@ touritem["CRM/ContactListing"] = {
 touritem["CRM/ContractListing"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
-  displayName: "Campaign Listing",
+  displayName: "Contract",
   items: [
+     {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filter",
+      content: "SearchFilterRateSchedule",
+    },
     {
       selector: "#titleName",
-      step: 1,
-      title: "DefaultView",
-      content: "DefaultViewContent",
-    },
-    {
-      selector: "#example",
       step: 2,
-      title: "MangeView",
-      content: "ManageviewContent",
-    },
-    {
-      selector: ".modal-dialog .float-right a:first-of-type",
-      step: 3,
-      title: "Add" + " " + "Content",
-      content: "AddNewContent",
-    },
+      title: "DefaultView",
+      content: "DefaultViewContent"
+    },    
     {
       selector: "#Contract_Filter",
-      step: 4,
+      step: 3,
       title: "Filters",
-      content: "ContractFiltersContent",
+      content: "ContractFiltersContent"
     },
-    {
-      selector: ".action-list-box .list-actions",
-      step: 5,
-      title: "actionButton",
-      content: "actionButtonContent",
-    },
-    {
+        {
       selector: "#viewLeadeContent_a",
-      step: 6,
+      step: 4,
       title: "ViewDetail",
-      content: "ViewContractContent",
+      content: "ViewContractContent"
     },
     {
       selector: "#crmlistingStatus_span",
-      step: 7,
+      step: 5,
       title: "Status" + " " + "Update",
-      content: "UpdateLeadStatusContent",
+      content: "UpdateLeadStatusContent"
     },
-  ],
+  ]
 };
 touritem["CRM/ManageCampaign"] = {
   ModuleDisplayName: "CRM Management",
@@ -2988,16 +2712,40 @@ touritem["RateSchedule/Index"] = {
   displayName: "RateSchedule Listing",
   items: [
     {
-      selector: "#accordionEx .left-filter",
+      selector: "#accordionEx",
       step: 1,
-      title: "ManageAutomation",
-      content: "SelectClientAndRuleNameSetupTheCondition ",
+      title: "Search Filter",
+      content: "SearchFilterRateSchedule",
+    },
+    {
+      selector: "#inactiveratechedule",
+      step: 2,
+      title: "Inactive",
+      content: "InactiveRateSchedule",
+    },
+    {
+      selector: "#addrateachedule",
+      step: 3,
+      title: "Add",
+      content: "AddRateSchedule",
+    },
+    {
+      selector: "#updateratechedule",
+      step: 4,
+      title: "Update",
+      content: "UpdateRateSchedule",
+    },
+    {
+      selector: "#copyratechedule",
+      step: 5,
+      title: "Copy",
+      content: "CopyRateSchedule",
     },
     {
       selector: ".ddlupdatestatus",
-      step: 2,
+      step: 6,
       title: "StatusUpdate",
-      content: "ChangeBillingRulestatus",
+      content: "ChangeRateSchedulestatus",
     },
   ],
 };
@@ -3011,7 +2759,7 @@ touritem["Client/Index"] = {
       selector: "#accordionEx",
       step: 1,
       title: "SearchRule",
-      content: "SearchAccountUsingPredefinedSearchFilters ",
+      content: "SearchAccountUsingPredefinedSearchFilters",
     },
     {
       selector: ".actions .action_icon",
@@ -3175,14 +2923,14 @@ touritem["Ticketing/Index"] = {
       content: "AddTicketPageTour",
     },
     {
-      selector: ".actions .mobileaction .viewTicket",
+      selector: "#TicketSubject",
       step: 5,
       title: "View Ticket",
       content: "ViewTicket",
     },
   ],
 };
-touritem["Ticketing/add"] = { 
+touritem["Ticketing/add"] = {
   ModuleDisplayName: "Ticketing",
   ModuleName: "Ticketing",
   displayName: "Add Ticket",
@@ -3191,7 +2939,7 @@ touritem["Ticketing/add"] = {
       selector: ".ancsavedraftticket",
       step: 1,
       title: "Click here to Draft ticket",
-      content: "SaveasDraftorSubmit",
+      content: "SaveAsDraftOrSubmit",
     },
     {
       selector: ".ancsaveuserticket",
@@ -3200,7 +2948,7 @@ touritem["Ticketing/add"] = {
       content: "ClickHereSubmitTicket",
     },
   ],
-};  
+};
 
 touritem["Ticketing/Manage"] = {
   ModuleDisplayName: "Ticketing",
@@ -3237,7 +2985,7 @@ touritem["Ticketing/Group"] = {
       selector: "#accordionEx",
       step: 1,
       title: "Search Filters",
-      content: "SearchFiltersPageTour",
+      content: "SearhFiltersGroup",
     },
     {
       selector: "#AddGroup",
@@ -3296,8 +3044,14 @@ touritem["Ticketing/Policy"] = {
   displayName: "Ticketing Policy",
   items: [
     {
-      selector: "#AddPolicy",
+      selector: "#accordionEx",
       step: 1,
+      title: "Search Filter",
+      content: "SearchService",
+    },
+    {
+      selector: "#AddPolicy",
+      step: 2,
       title: "Service Level Agreement",
       content: "ServiceLevelAgreement",
     },
@@ -3531,6 +3285,162 @@ touritem["File/Dashboard"] = {
     },
   ],
 };
+
+
+// touritem["Asset/Dashboard"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Dashboard",
+//   items: [
+//     {
+//       selector: "#aDateLable_global",
+//       step: 1,
+//       title: "DateSelection",
+//       content: "SelectYourDateViewReports",
+//     },
+//     {
+//       selector: "#hlkAddMoreReports",
+//       step: 2,
+//       title: "AddReport",
+//       content: "AddMoreReports",
+//     },
+//   ],
+// };
+// touritem["AssetCatalog/Index"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Asset Catalog Listing",
+//   items: [
+//     {
+//       selector: "#accordionEx",
+//       step: 1,
+//       title: "SearchFilters",
+//       content: "SearchYourProductsUsingFilters",
+//     },
+//     {
+//       selector: "#ancCreateJob",
+//       step: 2,
+//       title: "AddAssetCatalogue",
+//       content: "AddNewProductYourProductCatalogue",
+//     },
+//   ],
+// };
+// touritem["AssetCatalog/Add"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Asset Catalog Add",
+//   items: [
+//     {
+//       selector: ".productCreateTab1",
+//       step: 1,
+//       title: "EnterProductDetails",
+//       content: "SelectProductTypeFillRequiredDetails",
+//     },
+//     {
+//       selector: "#ancDeployItems",
+//       step: 2,
+//       title: "AddAssetCatalogue",
+//       content: "AddNewProductYourProductCatalogue",
+//     },
+//     {
+//       selector: ".productDeployTourGuideTab2",
+//       step: 3,
+//       title: "ProductDeployment",
+//       content: "ProductDeloyementTab",
+//     },
+//   ],
+// };
+// touritem["AssetCatalog/TransferItem"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Item Transfer",
+//   items: [
+//     {
+//       selector: ".Search-panel",
+//       step: 1,
+//       title: "AssetTransfer",
+//       content: "TransferProductsFromOneLocationToAnother",
+//     },
+//   ],
+// };
+// touritem["AssetCatalog/ViewInTransitItems"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "InTransit Items",
+//   items: [
+//     {
+//       selector: ".single-action",
+//       step: 1,
+//       title: "TransitCheck",
+//       content: "CheckYourIntransitProductsMovingFromOneLocationToAnother",
+//     },
+//     {
+//       selector: ".fa .fa-check-circle",
+//       step: 2,
+//       title: "TransitClearance",
+//       content: "ApproveRejectProductsThatAreTransit",
+//     },
+//   ],
+// };
+// touritem["Asset/MyItems"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "My Items",
+//   items: [
+//     {
+//       selector: "#ancaddgroupRequisitions",
+//       step: 1,
+//       title: "GetYourProduct",
+//       content: "YouCanRequestProductsIssuesForYourself",
+//     },
+//   ],
+// };
+// touritem["AssetRequisition/AddRequisition"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "AddRequisition",
+//   items: [
+//     {
+//       selector: "#ancsaverequest",
+//       step: 1,
+//       title: "CheckOut",
+//       content: "YouCanRequestProductsIssuesForYourself",
+//     },
+//   ],
+// };
+// touritem["AssetAssignment/Index"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Item Assignment",
+//   items: [
+//     {
+//       selector: "#accordionEx",
+//       step: 1,
+//       title: "SearchFilters",
+//       content: "FindAssignedProductUsingTheDefaultFilters",
+//     },
+//     {
+//       selector: "#ancCreateJob",
+//       step: 2,
+//       title: "AssignItem",
+//       content: "AssignProductsEmployeeReturnProductsFromOneSingleScreen",
+//     },
+//   ],
+// };
+// touritem["AssetAssignment/Add"] = {
+//   ModuleDisplayName: "Asset Management",
+//   ModuleName: "Asset",
+//   displayName: "Add Asset Assignment",
+//   items: [
+//     {
+//       selector: "#btnSave",
+//       step: 1,
+//       title: "ProductSelectionAssignment",
+//       content: "SelectProductEnterRequiredInformationAssignProduct",
+//     },
+//   ],
+// };
+
 touritem["Asset/Dashboard"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
@@ -3985,7 +3895,7 @@ touritem["AssetAssignment/Index"] = {
     {
       selector: "#accordionEx",
       step: 1,
-      title: "Search Filters",
+      title: "SearchFilters",
       content: "FindAssignedProductUsingTheDefaultFilters",
     },
 
@@ -4299,6 +4209,7 @@ touritem["Asset/PendingRequest"] = {
   ],
 };
 
+
 touritem["AssetRequisition/NewAssetRequisitionListing"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
@@ -4345,26 +4256,27 @@ touritem["AssetCatalog/ScheduleUpdate"] = {
     {
       selector: "#aRelatedSearchAsset",
       step: 1,
-      title: "SEARCH PRODUCT",
-      content: "SEARCHPRODUCTScduleUpdate",
+      title: "SearchProduct",
+      content: "SeeCalibrationScheduleProductWithTheFrequencyDetails",
     },
     {
       selector: ".left-menu-tab",
       step: 2,
       title: "ManageMaintenance",
-      content: "ManageMaintenances",
+      content:
+        "ManageMaintenanceScheduleUpdatingDetailsMaintenanceOptionsAvailable",
     },
     {
       selector: ".viewcomment",
       step: 3,
       title: "View",
-      content: "ViewScduleUpdate",
+      content: "CheckCalibrationCommentsAndAuditorDetails",
     },
     {
       selector: "#postcomment",
       step: 4,
       title: "ManageCalibration",
-      content: "MANAGECALIBRATIONScduleUpdate",
+      content: "UpdateStatusCalibrationScheduleNextCalibration",
     },
   ],
 };
@@ -4421,7 +4333,7 @@ touritem["Asset/RFIDMissingAssets"] = {
     },
   ],
 };
-tourData.push(touritem);
+//tourData.push(touritem);
 
 touritem["Timer/Index"] = {
   ModuleDisplayName: "Time Track",
@@ -4974,6 +4886,33 @@ touritem["ProjectRequest/Index"] = {
     //}
   ],
 };
+
+// touritem["ClientBill/Index"] = {
+//   ModuleDisplayName: "Invoice",
+//   ModuleName: "Billing",
+//   displayName: "Invoice",
+//   items: [
+//     {
+//       selector: "#crmleftsearch",
+//       step: 1,
+//       title: "SearchFilters",
+//       content: "SearchFilterInvoiceContent",
+//     },
+//     {
+//       selector: "#manualBillButton",
+//       step: 2,
+//       title: "Manual" + " " + "Invoice",
+//       content: "ManualInvoiceContent",
+//     },
+//     {
+//       selector: ".invaction",
+//       step: 3,
+//       title: "Update" + " " + "InvoiceStatus",
+//       content: "InvoiceStatusContent",
+//     },
+//   ],
+// };
+
 touritem["Project/Index"] = {
   ModuleDisplayName: "Project Management",
   MouseEvent: "Project",
@@ -4999,47 +4938,199 @@ touritem["Project/Index"] = {
       content: "SummaryWidgetsContent",
     },
     {
-      selector: "#selectindustype",
+      selector: "#selectindustype_0",
       step: 4,
-      title: "ChooseIndustryType",
-      content: "SummaryIndustryTypeContent",
+      title: "chooseindustype",
+      content: "chooseindustype",
     },
     {
-      selector: "#PleaseSelectTemplate",
+      selector: "#PleaseSelectTemplate_0",
       step: 5,
       title: "PleaseSelectTemplate",
+      content: "SummaryTemplateContent",
+    },
+    {
+      selector: "#btnNext1",
+      step: 6,
+      title: "Next",
       content: "SummaryTemplateNextContent",
     },
     {
-      selector: "#general",
-      step: 6,
-      title: "SummaryProjectDetailTitle",
-      content: "SummarygeneralContent",
-    },
-    {
-      selector: "#setp2btn",
+      selector: "#btnNext2",
       step: 7,
-      title: "Next",
-      content: "SummarynextstepContent",
-    }, 
-    {
-      selector: "#nextviewtab",
-      step: 8,
-      title: "SummaryViewtabsTitle",
-      content: "SummaryViewtabsContent",
+      title: "SummaryProjectDetailTitle",
+      content: "SummaryProjectDetailContent",
     },
     {
-      selector: "#chk_ids",
+      selector: "#viewtab",
+      step: 7,
+      title: "Selecttabs",
+      content: "SelecttabsContent",
+    },
+     {
+      selector: "#btnNext3",
+      step: 8,
+      title: "EextBtn",
+      content: "EextBtnContent",
+    },
+    {
+      selector: "#chx_0",
       step: 9,
       title: "AddTeamMembers",
       content: "AddTeamMembersContent",
     },
     {
-      selector: "#SummaryProjectSaveContent_a",
+      selector: "#chxpm_0",
       step: 10,
+      title: "AddProjectPm",
+      content: "AddProjectPmContent",
+    },
+    {
+      selector: "#btnNext4",
+      step: 10,
+      title: "GotofinishStep",
+      content: "GotofinishStepContent",
+    },
+    {
+      selector: "#createproject",
+      step: 11,
       title: "FinishSetup",
       content: "FinishSetupContent",
+    }
+    
+  ],
+};
+touritem["ReplyTemplate/Index"] = {
+  ModuleDisplayName: "Ticketing",
+  ModuleName: "Ticketing",
+  displayName: "Add Template",
+  items: [
+    {
+      selector: "#AddPolicy",
+      step: 1,
+      title: "Add Template",
+      content: "AddReplyTemplate",
     },
+
+  ],
+};
+touritem["Ticketing/Unassigned"] = {
+  ModuleDisplayName: "Ticketing",
+  ModuleName: "Ticketing",
+  displayName: "Unassigned Ticket",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filters",
+      content: "SearchFiltersPageTour",
+    },
+    {
+      selector: ".right-content .dashbord-widget",
+      step: 2,
+      title: "Widgets",
+      content: "WidgetsPageTour",
+    },
+    {
+      selector: "#ddlUserCurrentStatus",
+      step: 3,
+      title: "User Status",
+      content: "UserStatusPageTour",
+    },
+    {
+      selector: "#Addticketing",
+      step: 4,
+      title: "Add Ticket",
+      content: "AddTicketPageTour",
+    },
+    {
+      selector: ".actions .mobileaction .viewTicket",
+      step: 5,
+      title: "View Ticket",
+      content: "ViewTicket",
+    },
+  ],
+};
+
+touritem["User/Index"] = {
+  ModuleDisplayName: "Company Setup",
+  ModuleName: "User",
+  displayName: "User Details",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "Search Filter",
+      content: "SearchUserDetails",
+    },
+    {
+      selector: "#manageProductFilter",
+      step: 2,
+      title: "Filter User Details",
+      content: "FilterUserDetails",
+    },
+    {
+      selector: "#AssignManager",
+      step: 3,
+      title: "Assign Manager",
+      content: "AssignManagerToUser",
+    },
+    {
+      selector: "#AddUser",
+      step: 4,
+      title: "Add User",
+      content: "AddNewUserToSystem",
+    },
+  ],
+};
+touritem["BillingRule/RuleListing"] = {
+  ModuleDisplayName: "Invoice",
+  ModuleName: "ClientBill",
+  displayName: "BillingRule",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "SearchRule",
+      content: "SearchBillingRules",
+    },
+    {
+      selector: "#BillingRuleStatus",
+      step: 2,
+      title: "StatusUpdate",
+      content: "ChangeBillingRulestatus",
+    },
+    {
+      selector: ".BillingRuleDetails",
+      step: 3,
+      title: "ViewRule",
+      content: "ViewYourBillingRuleDetails",
+    },
+    {
+      selector: "#AddBillingRules",
+      step: 4,
+      title: "AddRule",
+      content: "CreateNewBillingRule",
+    },
+  ],
+};
+touritem["ClientBill/Index"] = {
+  ModuleDisplayName: "Invoice",
+  ModuleName: "ClientBill",
+  displayName: "Invoice",
+  items: [
+    {
+      selector: "#accordionEx",
+      step: 1,
+      title: "SearchFilters",
+      content: "SearchFilterInvoiceContent",
+    },
+    {
+      selector: "#manualBillButton",
+      step: 2,
+      title: "Manual" + " " + "Invoice",
+      content: "ManualInvoiceContent",
+    }  
   ],
 };
 tourData.push(touritem);
