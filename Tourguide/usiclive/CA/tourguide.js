@@ -375,13 +375,13 @@ touritem["BillingService/Index"] = {
       step: 3,
       title: "CreateService",
       content: "CreateNewBillingService",
-    },
-    {
-      selector: "#btnSave",
-      step: 4,
-      title: "EnterServiceDetails",
-      content: "CongratsYouHaveCreatedBillingServiceSuccessfully",
     }
+    // {
+    //   selector: "#btnSave",
+    //   step: 4,
+    //   title: "EnterServiceDetails",
+    //   content: "CongratsYouHaveCreatedBillingServiceSuccessfully",
+    // }
      // {
     //   selector: "#ViewBillingServiceHistory",
     //   step: 3,
@@ -3463,7 +3463,7 @@ touritem["Asset/Dashboard"] = {
 touritem["AssetCatalog/Index"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
-  displayName: "Asset Catalog Listing",
+  displayName: "Manage Product",
   items: [
     {
       selector: "#accordionEx",
@@ -3708,7 +3708,7 @@ touritem["AssetCatalog/ViewInTransitItems"] = {
 touritem["AssetCatalog/Add"] = {
   ModuleDisplayName: "Asset Management",
   ModuleName: "Asset",
-  displayName: "Asset Catalog Add",
+  displayName: "Add Product",
   items: [
     {
       selector: ".productCreateTab1",
