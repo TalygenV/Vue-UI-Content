@@ -11342,4 +11342,5 @@ ul.ullilist li:nth-child(even){margin-right: 0px;}
     display: inline-block; width: 60px; border-radius: 10px; height: 20px;border:1px solid #8b8b8b;
 }
 
+.modal-body.justformbtncontrol .row.flex-row-reverse .col-lg-6 {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
 
