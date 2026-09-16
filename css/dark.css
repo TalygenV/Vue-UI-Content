@@ -245,7 +245,8 @@ button.close:hover{color:#303030 !important;}
 .connector .bg-col2 .con-bg-circle::after {border-color:#f5b14e;}
 .connector .bg-col3 .con-bg-circle::after {border-color:#a483b0}
 .connector .bg-col4 .con-bg-circle::after {border-color:#71a380;}
-.border {	border: none !important;	background: #212528;	border-top: 2px solid #1c1f22 !important;}
+.border {	border: none !important; background: #212528; border-top: 2px solid #1c1f22 !important;}
+.border.bg-light {background:#2c3136!important;}
 
 .h5{color:#ddd;}
 .btn-primary{background-color:#25a5ff; border-color:#25a5ff;}
