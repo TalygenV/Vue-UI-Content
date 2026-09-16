@@ -725,6 +725,8 @@ select.form-control {	background-image: url(https://talygenv.github.io/Vue-UI-Co
 /* .graph-widget .bg-white {	background-color: #2c3136 !important;} */
 .graph-widget .bg-white {	background-color: #000 !important;}
 
+.vue-grid-item {border: 1px solid #454545 !important;}
+
 .inbox_head {	background: #25282e; border-bottom: 1px solid #3b3e40;}
 .list_rw .detail p a {	color: #ddd;}
 .header-msg-date{color:#585858;} /*gaurav #584313*/
