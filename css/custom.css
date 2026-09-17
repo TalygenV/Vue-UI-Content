@@ -11376,12 +11376,13 @@ ul.ullilist li:nth-child(even){margin-right: 0px;}
 }
 
 @media (max-width: 991px) {
-.modal-dialog.popup_resfix {max-width: 700px !important;}
+.modal-dialog.popup_resfix {max-width: 600px !important;}
 .modal-dialog.popup_resfix .modal-body.justformbtncontrol .col-sm-12.col-md-12.float-left.col-lg-4.col-xl-4{
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;}
 }
+
 
 
 
