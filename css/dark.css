@@ -768,7 +768,7 @@ td.bg-light {	background-color: #1c1f22 !important;}
 .heading-border .text_link a {	color: #ddd;}
 .file-list small {	color: #ddd;}
 .bg_ececec ~ .bg-light {	background-color: #272b2f !important;}
-.bg-f5f5f5 {background: #2c3136;} /****background: #000; Harjit - Please discuss with me before changing value of background. Web issue - #553131************/
+.bg-f5f5f5 {background: #2c3136!important;} /****background: #000; Harjit - Please discuss with me before changing value of background. Web issue - #553131************/
 #tab-ticket-content {background: #212528;}
 .btn.Timer {background: #000;}
 .p-action-btn .flag-color {	color: #fff;}
