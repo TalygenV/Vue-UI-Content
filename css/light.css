@@ -986,11 +986,16 @@ a.b-light-green:hover{ background-color: #9acb3e!important; color: #fff!importan
 .menu-left-wrapper.wrapper-shrink ul li.myprof_newlogobase {border-right: 6px solid #a4a4a4;}
 .myprof_newlogobase{background: #f5f5f5;}
 .menu-left-wrapper .sidebar-toggle{background-color: #fff;}
-.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu{background: #f6f6f6; border-top: 2px solid #fff;  border-right: 2px solid #fff;  border-bottom: 2px solid #fff;}
+/* .menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu{background: #f6f6f6; border-top: 2px solid #fff;  border-right: 2px solid #fff;  border-bottom: 2px solid #fff;} */
+.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu{background: #e1e1e1; border-top: 2px solid #fff;  border-right: 2px solid #fff;  border-bottom: 2px solid #fff;}
 .menu-left-wrapper.wrapper-shrink ul.navbar-nav.header-menu-for-left li.nav-item ul.dropdown-menu.my-account li.active {background: #fff;}
 ul.header-menu-for-left li.show #navbarDropdownPortfolio.nav-link.sidebaricon{background: #e4e4e4!important; color: #000!important;}
 ul.header-menu-for-left #navbarDropdownPortfolio.nav-link.sidebaricon.active{background: #e4e4e4!important; color: #000!important;}
 .menu-left-wrapper .my-image{border:4px solid #dadada;}
+
+
+.menu-left-wrapper ul.navbar-nav.header-menu-for-left li.nav-item.position-unset ul.dropdown-menu.my-account li ul.submenu li.menuitem a{background: #e1e1e1;}
+
 
 /* Styling the scrollbar in Firefox  */
 .menu-left-wrapper .fullmenu-scroll { scrollbar-color: #d9d9d9 #f0f0f0; scrollbar-width: thin;}
