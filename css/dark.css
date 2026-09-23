@@ -2068,7 +2068,7 @@ ul.ullilist li{background: #2c3136; border-bottom: 1px solid #454748; color: #cc
 .stage-pill-badge.unassigned { background: #363636; color: #6f7783; border: 1px solid #464646;}
 
 .badge-light-purple { background: #310952 !important;  color: #a286bd !important; border: 1px solid #574d62 !important;}
-.badge-light-blue { background: #7796ef !important; color: #171a22 !important; border: 1px solid #000000 !important;}
+.badge-light-blue, .stage-pill-badge { background: #7796ef !important; color: #171a22 !important; border: 1px solid #000000 !important;}
 
 .trending-accordion .trending-card:hover, .trending-accordion .card:hover { border-color: #474b50 !important; box-shadow: 0 4px 14px rgba(15, 23, 42, 0.07) !important;}
 
