@@ -2055,5 +2055,15 @@ ul.ullilist li{background: #2c3136; border-bottom: 1px solid #454748; color: #cc
 #ShowSubModuleFields .card-header{background-color: #2c3136; border-bottom: 1px solid #3e454c;}
 #ShowSubModuleFields .card-header .section-title{color: #fff;}
 
+.chart-card-header{ background: #2c3136 !important;}
+.chart-summary-card:hover { border-color: #000000 !important;}
+.sub-legend-item {border-top: 1px dashed #5e6268;}
+.legend-card-group {background: #2c3136; border: 1px solid #3c3f43;}
+.legend-card-group:hover { background: #1b1f22; border-color: #5e6268;}
 
+.badge-light-blue {background: #000000 !important; color: #789bff !important; border: 1px solid #000000 !important;}
+
+.trending-accordion .card-header a, .trending-accordion .trending-card-header a{ background: #191d20 !important; color: #0f172a !important;}
+
+.trending-accordion .trending-card, .trending-accordion .card { border: 1px solid #3c3f43 !important;}
 
