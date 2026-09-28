@@ -2220,4 +2220,5 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .assignee-avatar-circle.assignee-unassigned {background: #000000!important; color: #b9c8dd!important; border: 1px dashed #363636!important;}
 .assignee-avatar-circle{background: linear-gradient(135deg, #16171c 0%, #171922 100%)!important; border: 1.5px solid #403f3f!important; color: #6d64fb!important;}
 
+.fp-head{background: #2c3136!important; border-bottom: 1px solid #525f65!important;}
 
