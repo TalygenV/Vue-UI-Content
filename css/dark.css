@@ -2111,6 +2111,18 @@ ul.ullilist li{background: #2c3136; border-bottom: 1px solid #454748; color: #cc
 .matrix-day-num-wrapper{color: #ccc!important;}
 .day-number-plain {color: #ccc!important;}
 
+.card-stat-task{background: #000000 !important;}
+.card-stat-task .stat-title { color: #698cff!important;}
+.indicator-task{background-color:#698cff!important;}
+.card-stat-task .stat-count {color: #698cff!important;}
+
+
+
+
+
+
+
+
 
 
 
