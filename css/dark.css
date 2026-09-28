@@ -2089,6 +2089,30 @@ ul.ullilist li{background: #2c3136; border-bottom: 1px solid #454748; color: #cc
 }
 
 .trending-accordion .trending-card, .trending-accordion .card{background: #191d20 !important}
-
 .trending-table { background: #2c3136;}
 .custom-trending-progress{ background: #000000 !important;}
+
+
+/***Calendar - Project Mgmt 28Sept 2026 - S Saini****/
+
+.project-calendar-wrapper{background: #2c3136;}
+.items-displayed-badge{background-color: #212528 !important;}
+.view-switcher-pill-group { background-color: #212528; border: 1px solid #1c1f22;}
+.view-pill-btn.active {background-color: #15181a !important;border-radius: 40px !important;}
+
+.view-pill-btn:hover { color: #ccc !important;}
+.month-matrix-weekdays-row { background-color: #000000; border-bottom: 1px solid #8f8f8f;}
+
+
+.matrix-day-cell.cell-other-month { background-color: #000000;}
+.matrix-day-cell{background-color: #1c1f22;}
+.matrix-day-num-wrapper{color: #ccc;}
+.day-number-plain {color: #ccc;}
+
+
+
+
+
+/***Calendar - Project Mgmt 28Sept 2026 - S Saini****/
+
+
