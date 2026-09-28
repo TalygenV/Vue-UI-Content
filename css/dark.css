@@ -2135,8 +2135,13 @@ ul.ullilist li{background: #2c3136; border-bottom: 1px solid #454748; color: #cc
 .card-stat-milestone .stat-count {color: #8d54ef!important;}
 .indicator-milestone{ background-color: #9660f1!important;}
 
+.quarter-month-card {border: 1px solid #474c52 !important;}
 
+.quarter-tab-btn{background: #212528 !important; color: #ccc !important; border: 1px solid #1c1c1c !important;}
+.quarter-tab-btn:hover { background: #161616 !important; color: #ccc !important; border-color: #000000 !important;}
+.btn-view-month{ background: #0f172a !important; color: #ccc !important; border: 1px solid #000000 !important;}
 
+.btn-view-month:hover {background: #000000 !important; color: #ccc !important;}
 
 /***Calendar - Project Mgmt 28Sept 2026 - S Saini****/
 
