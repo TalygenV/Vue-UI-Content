@@ -2216,3 +2216,4 @@ table.trending-table .bg-light {background-color: #2c3136 !important;}
 table.table.trending-table td, table.table.trending-table th{border-top: 1px solid #585858;}
 .trending-table tbody td{color:#ccc!important;}
 
+.trending-accordion .card-header, .trending-accordion .trending-card-header{border-bottom: 1px solid #0c0c0c!important;}
