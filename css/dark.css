@@ -2210,8 +2210,9 @@ ul.ullilist li{background: #2c3136; border-bottom: 1px solid #454748; color: #cc
 .stage-custom-table tfoot .add-backlog-btn {background-color: #2c3136 !important;}
 .section-header .seg button{background: #000000!important; color: #ccc!important;}
 .section-header .seg {border: 1px solid #565656!important;background: #000000!important;}
-
 .seg button.on{background: #2456c3!important; color: #fff!important;}
-
 .projectoverviewbase .section-body.mcc-chart-body{background: #000!important;}
+table.trending-table .bg-light {background-color: #2c3136 !important;}
+table.table.trending-table td, table.table.trending-table th{border-top: 1px solid #585858;}
+.trending-table tbody td{color:#ccc!important;}
 
