@@ -2217,3 +2217,6 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .trending-table tbody td{color:#ccc!important;}
 
 .trending-accordion .card-header, .trending-accordion .trending-card-header{border-bottom: 1px solid #0c0c0c!important;}
+
+.projectoverviewbase .common-dashboard-shell .section-body.border{background: #000000!important;}
+
