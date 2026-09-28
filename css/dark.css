@@ -2185,8 +2185,14 @@ ul.ullilist li{background: #2c3136; border-bottom: 1px solid #454748; color: #cc
     border-left: 4px solid #b45309 !important;
 }
 
+.matrix-item-card.matrix-item-task:hover, .matrix-item-card.matrix-item-task.card-highlighted
+{background-color: #010102 !important;}
 
+.matrix-item-card.matrix-item-phase:hover, .matrix-item-card.matrix-item-phase.card-highlighted
+{ background-color: #002614 !important; border-color: #00583f !important;}
 
+.matrix-item-card.matrix-item-stage:hover, .matrix-item-card.matrix-item-stage.card-highlighted
+{background-color: #2c2508 !important; border-color: #a94900 !important;}
 
 
 
