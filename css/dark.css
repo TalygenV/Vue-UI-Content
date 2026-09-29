@@ -2252,4 +2252,11 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .rv-legend-item { color: #ccc!important;}
 
 
+.rv-seg-btn.active {background: #000!important; color: #fff!important; box-shadow: none;}
+.rv-seg-toggle { background: #303030!important; border: 1px solid #505050!important;}
+
+
+
+
+
 
