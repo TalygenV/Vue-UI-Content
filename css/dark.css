@@ -2227,18 +2227,15 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .builder-title{color: #fff!important;}
 .msdd-trigger {background: #191d20!important; border: 1px solid #3c3f43!important;}
 .msdd-trigger {color: #fff;}
-
 .rule-card-row{background: #2c3136!important; border: 1px solid #3d3d3d!important;}
 .rule-flow-pill{background: #191d20!important; border: 1px solid #3c3f43!important; color: #ccc!important; font-weight: 500;}
-
 .rule-action-tag{background: #000; color: #4575fb; border: 1px solid #434343;}
-
 .implement-rules-btn { background: #08070d!important; border: 1px solid #393743!important; color: #8646e9!important;}
 .clear-rules-btn { background: #322222!important; border: 1px solid #7b5353!important; color: #df5454!important;}
-
 .sectitle{color: #fff!important;}
-
 .rule-card-title {color: #d6d6d6!important; font-weight:400;}
-
 .rule-edit-btn {background: #434d5b!important; border: 1px solid #5f666e!important; color: #b7ccf4!important;}
+.msdd-count { background: #000!important; color: #7068ee!important; font-weight: 500!important;}
+
+
 
