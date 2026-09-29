@@ -2222,3 +2222,13 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 
 .fp-head{background: #2c3136!important; border-bottom: 1px solid #525f65!important;}
 .fp-icon-box{ background: #000000!important; border: 1px solid #52575e!important;}
+
+.rule-builder-card {background: #2c3136!important; border: 1px solid #3d3d3d!important;}
+.builder-title{color: #fff!important;}
+.msdd-trigger {background: #191d20!important; border: 1px solid #3c3f43!important;}
+.msdd-trigger {color: #fff;}
+
+.rule-card-row{background: #2c3136!important; border: 1px solid #3d3d3d!important;}
+.rule-flow-pill{background: #191d20!important; border: 1px solid #3c3f43!important;}
+
+
