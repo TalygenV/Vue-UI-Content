@@ -2239,3 +2239,15 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 
 .section-header-line {  border-top: 1px solid #65676c!important;}
 
+.rv-board-column { background: #000!important;  border: 1px solid #3d3d3d!important;}
+.rv-stage-card {background: #212427!important;border: 1px solid #3f3f3f!important;}
+.rv-stage-title { font-weight: 400!important;  color: #ccc!important;}
+
+.rv-rules-banner { background: #0b0b0b!important; border: 1px dashed #3f3f3f!important; color: #ccc!important;}
+.rv-rule-item{ background: #0b0b0b!important; border: 1px solid #3f3f3f!important;}
+.rv-rule-stage-pill { background: #212427!important; border: 1px solid #4c4d4e!important; color: #ccc!important;}
+
+
+
+
+
