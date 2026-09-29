@@ -2236,24 +2236,20 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .rule-card-title {color: #d6d6d6!important; font-weight:400;}
 .rule-edit-btn {background: #434d5b!important; border: 1px solid #5f666e!important; color: #b7ccf4!important;}
 .msdd-count { background: #000!important; color: #7068ee!important; font-weight: 500!important;}
-
 .section-header-line {  border-top: 1px solid #65676c!important;}
-
 .rv-board-column { background: #000!important;  border: 1px solid #3d3d3d!important;}
 .rv-stage-card {background: #212427!important;border: 1px solid #3f3f3f!important;}
 .rv-stage-title { font-weight: 400!important;  color: #ccc!important;}
-
 .rv-rules-banner { background: #0b0b0b!important; border: 1px dashed #3f3f3f!important; color: #ccc!important;}
 .rv-rule-item{ background: #0b0b0b!important; border: 1px solid #3f3f3f!important;}
 .rv-rule-stage-pill { background: #212427!important; border: 1px solid #4c4d4e!important; color: #ccc!important;}
-
 .rv-preview-bar{border-bottom: 1px solid #3d3d3d!important;  background: #1c1f22!important;}
-
 .rv-pv-stats {color: #ccc!important; border-bottom: 1px solid #3d3d3d!important; background: #0b0b0b!important;}
-
 .rv-board-preview{background: #1c1f22!important;}
 .rv-pcol {background: #0b0b0b!important;}
 .rv-pcard, .rv-wipbadge {background: #212528!important; color: #fff!important;}
 .rv-pcount, .rv-pname {font-weight: 600; color: #fff;}
+.rv-legend-item { color: #ccc!important;}
+
 
 
