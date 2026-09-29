@@ -2255,6 +2255,14 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .rv-seg-toggle { background: #303030!important; border: 1px solid #505050!important;}
 .rv-pcount { background: #434343!important;}
 
+.msdd-menu{background: #191d20!important; border: 1px solid #666!important;}
+.msdd-search { border-bottom: 1px solid #535454!important;}
+.msdd-search-input{border: 1px solid #5f5f5f!important; background: #000!important;}
+.msdd-option { border-bottom: 1px solid #595959!important;}
+.pathway-preview-card { border: 1px dashed #3b82f6!important; background: #2c3136!important;}
+.pathway-preview-head {color: #80a1ff!important;}
+.addbtn.disabled, .addbtn:disabled {background: #000;}
+
 
 
 
