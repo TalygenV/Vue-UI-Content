@@ -1244,12 +1244,13 @@ li .actions.mobileaction .action-list-box {position: relative;width: 100%;displa
 }
 .form-check.form-check-inline{margin: 0px; padding: 0px 0px 0px 0px; margin-right: 10px;} /**Avtar added marginright:10px*****/
 /* 8 July */
-.listing  .table thead th {  border-bottom: none; font-weight: 400; padding: 8px 8px !important; position:relative;}
+.listing .table thead th {  border-bottom: none; font-weight: 400; padding: 8px 8px !important; position:relative;}
 .listing .table thead th.py-1 {padding-bottom: .25rem !important; padding-top: .25rem !important;}
 .listing .table thead th:not(:last-child):not(.border-right-0)::after { content: ""; width: 1px; height: 100%; background: #cacaca; position: absolute; top: 0px; right: 0; }
-.listing  .table-responsive table th span.sort{ font-weight: 400 !important; padding-right: 15px; display: flex; align-items: center; }
-.listing  .table-responsive table th { font-weight: 400 !important;}
-.listing  .table.table-bordered tbody tr:last-child { border:none !important;}
+/* .listing .table-responsive table th span.sort{ font-weight: 400 !important; padding-right: 15px; display: flex; align-items: center; } */
+.listing .table-responsive table th span.sort{ font-weight: 400 !important; padding-right: 15px; align-items: center; }
+.listing .table-responsive table th { font-weight: 400 !important;}
+.listing .table.table-bordered tbody tr:last-child { border:none !important;}
 .table.table-bordered tr td {position:relative;}
 .digital-timer {font-family: 'digital7_mono', sans-serif; font-size:19px;}
 @font-face {
