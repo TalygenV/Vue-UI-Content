@@ -2263,14 +2263,13 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .pathway-preview-head {color: #80a1ff!important;}
 .addbtn.disabled, .addbtn:disabled {background: #000;}
 
-
 .client-dash-filter-popup{background: #2c3136!important; border: 1px solid #606161!important; color: #fff!important;}
 .cdf-popup-head{border-bottom: 1px solid #606161!important;}
 .cdf-select{border: 1px solid #606161!important; background: #1a1a1a!important; color: #fff!important;}
 .cdf-popup-footer{border-top: 1px solid #666!important;  background: #1e2125!important;}
 .cdf-reset-btn{border: 1px solid #000!important; background: #0e141a!important; color: #fff!important;}
 
-
 .graph-widget-box .graph-widget-heading .btn{color: #fff!important;}
+.billing-ticket-type-maximize-btn {color: #fff!important;}
 
 
