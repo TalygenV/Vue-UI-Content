@@ -2294,7 +2294,12 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 
 .paynow-type-card{border: 1px solid #454545!important; background: #090a0b!important;}
 .paynow-amount-input{border: 1px solid #454545!important; background: #090a0b!important;}
-
 .paynow-amount-field label{color: #ccc!important;}
+.paynow-gateway-card.active { border-color: #3b82f6!important; background: #2c3949!important;}
+.paynow-gateway-card.active .paynow-gateway-ach{font-weight: 400!important; color: #8fb9f4!important;}
+
+.paynow-gateway-card{border: 1px solid #454545!important; background: #090a0b!important;}
+
+
 
 
