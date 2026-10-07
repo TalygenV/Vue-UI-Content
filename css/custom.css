@@ -11399,8 +11399,11 @@ ul.ullilist li:nth-child(even){margin-right: 0px;}
 
 
 /***popup fix***/
-
-
+/* Added by Avtar Singh 07-oct-2026 for left search datepicker issue*/
+.tg-listv-control .vc-container .vc-day.is-not-in-month {
+    visibility: hidden;
+    pointer-events: none;
+}
 
 
 
