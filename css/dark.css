@@ -2268,16 +2268,33 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .cdf-select{border: 1px solid #606161!important; background: #1a1a1a!important; color: #fff!important;}
 .cdf-popup-footer{border-top: 1px solid #666!important;  background: #1e2125!important;}
 .cdf-reset-btn{border: 1px solid #000!important; background: #0e141a!important; color: #fff!important;}
-
 .cdf-popup-title{color: #fff!important;}
-
 .cdf-popup-close{color: #bac9da!important;}
-
-.cdf-popup-close:focus, .cdf-popup-close:hover {
-  background: #000!important;
-}
-
+.cdf-popup-close:focus, .cdf-popup-close:hover {background: #000!important;}
 .graph-widget-box .graph-widget-heading .btn{color: #fff!important;}
 .billing-ticket-type-maximize-btn {color: #fff!important;}
+
+.paynow-portal-header { background: #2c3136!important;}
+.paynow-portal-heading h2{color: #fff!important;}
+.paynow-due-card{background: #191d20!important; border: 1px solid #525252!important;}
+.paynow-due-label{color: #ccc!important;}
+.paynow-due-value{color:#ccc!important;}
+.paynow-portal {background: #191d20!important;}
+
+.paynow-info-card{background: #2c3136!important; border: 1px solid #4e4e4e!important;}
+.paynow-field label{color: #ccc!important;}
+.paynow-info-title {color: #fff!important;}
+
+.paynow-processor-note { color: #afb8c9!important;}
+.paynow-section-label { color: #ccc!important;}
+
+.paynow-type-card.active { border-color: #127b39!important; background: #19201b!important;}
+.paynow-type-name {color: #ccc!important;}
+.paynow-type-hint { color: #becae1!important;}
+
+.paynow-type-card{border: 1px solid #454545!important; background: #090a0b!important;}
+.paynow-amount-input{border: 1px solid #454545!important; background: #090a0b!important;}
+
+.paynow-amount-field label{color: #ccc!important;}
 
 
