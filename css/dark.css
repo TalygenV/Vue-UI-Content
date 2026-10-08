@@ -2021,8 +2021,8 @@ ul.ullilist li{background: #2c3136; border-bottom: 1px solid #454748; color: #cc
 .card.ticket-detail-card .td-card-body .td-description-box{background-color: #2c3136!important; border: 1px solid #454748!important;}
 
 
-.card.ticket-detail-card .td-meta-col{background-color: #2c3136!important;;}
-.card.ticket-detail-card .td-meta-col .td-value{color: #ccc!important;}
+.modal-body .cardv-body .td-meta-col{background-color: #2c3136!important;;}
+.modal-body .cardv-body .td-meta-col .td-value{color: #ccc!important;}
 
 
 
