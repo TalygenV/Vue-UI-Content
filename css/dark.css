@@ -2301,5 +2301,9 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .paynow-gateway-card{border: 1px solid #454545!important; background:#090a0b!important;}
 .paynow-gateway-ach{font-weight: 400!important; color: #879cba!important;}
 
+.dispute-list-page tr.is-dispute-expand > td { background: #1f2327!important;}
+.dispute-expand-heading, .dispute-expand-event-title{color: #ccc!important;}
+
+.dispute-expand-event-detail, .dispute-expand-line-soft { color: #c3d3f0!important;}
 
 
