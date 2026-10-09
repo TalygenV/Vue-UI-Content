@@ -2314,3 +2314,20 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .dispute-expand-event-detail, .dispute-expand-line-soft { color: #c3d3f0!important;}
 .dispute-expand-line {color: #ccc!important;}
 
+
+/*** Only for USIC Client Billing Portal *****/
+
+.cdf-field input.form-control{background-color: #fff; border: 1px solid #ced4da;}
+
+.cdf-field input.form-control .input-group-append .input-group-text{border-color: #afb5bb; background: #f0f0f0;}
+
+
+
+
+
+/*** Only for USIC Client Billing Portal *****/
+
+
+
+
+
