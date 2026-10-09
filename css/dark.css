@@ -2319,10 +2319,8 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 
 .cdf-field input.form-control{background-color: #fff !important; border: 1px solid #ced4da!important; color: #000 !important;}
 .cdf-field .timedate.input-group .input-group-append .input-group-text{border-color: #afb5bb!important; background: #f0f0f0!important;color: #000 !important;}
-
 .cdf-field label{color: #000 !important;}
-
-
+.cdf-field .timedate.input-group .vc-container { color: #000!important; background-color: #fff!important; border-color: #c3c7cb!important;}
 
 /*** Only for USIC Client Billing Portal *****/
 
