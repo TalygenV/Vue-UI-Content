@@ -2317,9 +2317,8 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 
 /*** Only for USIC Client Billing Portal *****/
 
-.cdf-field input.form-control{background-color: #fff; border: 1px solid #ced4da;}
-
-.cdf-field input.form-control .input-group-append .input-group-text{border-color: #afb5bb; background: #f0f0f0;}
+.cdf-field input.form-control{background-color: #fff !important; border: 1px solid #ced4da!important; color: #000 !important;}
+.cdf-field input.form-control .input-group-append .input-group-text{border-color: #afb5bb!important; background: #f0f0f0!important;}
 
 
 
