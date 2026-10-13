@@ -2326,5 +2326,5 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 
 .trending-modal-dialog .trending-search-input{border: 1px solid #53585f!important; background: #191d20!important; color: #ccc!important;}
 .trending-modal-dialog .pill-selected{ background: #071418!important; color: #017afb!important; border: 1px solid #000000!important;}
-
+.trending-modal-dialog .pill-total { background: #363636!important; color: #ccc!important; border: 1px solid #000000!important;}
 
