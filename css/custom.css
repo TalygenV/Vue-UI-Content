@@ -11389,6 +11389,27 @@ ul.ullilist li:nth-child(even){margin-right: 0px;}
 
 
 
+.trending-modal-dialog .search-wrapper {  position: relative;  display: flex;  align-items: center;}
+.trending-modal-dialog .search-icon {  position: absolute; left: 14px; color: #94a3b8;  font-size: 14px; pointer-events: none;}
+.trending-modal-dialog .trending-search-input { width: 100%; height: 40px; padding-left: 38px; padding-right: 36px; border-radius: 0px; border: 1px solid #d1d5db; background: #f9fafb;    color: #1e293b;    font-size: 13.5px;    transition: all 0.2s ease;}
+.trending-modal-dialog .search-clear-btn { position: absolute; right: 10px; background: none; border: none; color: #94a3b8; cursor: pointer; font-size: 13px; padding: 4px 8px; transition: color 0.15s ease;}
+.trending-modal-dialog .search-clear-btn:hover { color: #475569;}
+.trending-modal-dialog .pill-badge { display: inline-flex;  align-items: center;  font-size: 12px;  font-weight: 600;  padding: 6px 14px;  border-radius: 20px;  white-space: nowrap;}
+.trending-modal-dialog .pill-selected { background: #ecfdf5;  color: #059669;  border: 1px solid #a7f3d0;}
+.trending-modal-dialog .pill-total {  background: #f1f5f9;  color: #475569;  border: 1px solid #e2e8f0;}
+.trending-modal-dialog .trending-btn-refresh { display: inline-flex; align-items: center;  padding: 0 14px;  height: 34px; font-size: 12.5px;  font-weight: 600;  border-radius: 8px; background: #ffffff;  border: 1px solid #d1d5db; color: #2563eb; transition: all 0.2s ease; cursor: pointer; white-space: nowrap;}
+.trending-modal-dialog .trending-btn-refresh:hover { background: #eff6ff;  border-color: #bfdbfe;  color: #1d4ed8;}
+.trending-modal-dialog .widget-icon-box {width: 30px; height: 30px; border-radius: 8px; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; flex-shrink: 0; margin-right: 12px;}
+.trending-modal-dialog .widget-icon-box.icon-blue { background: #eff6ff; color: #3b82f6;}
+.trending-modal-dialog .widget-icon-box.icon-green { background: #ecfdf5; color: #10b981;}
+.trending-modal-dialog .widget-icon-box.icon-amber { background: #fffbeb; color: #f59e0b;}
+.trending-modal-dialog .widget-icon-box.icon-purple { background: #f5f3ff; color: #8b5cf6;}
+.trending-modal-dialog .widget-icon-box.icon-slate { background: #f1f5f9; color: #64748b;}
+.trending-modal-dialog .view-select-wrapper { position: relative;  max-width: 170px;}
+.trending-modal-dialog .empty-view-dash { color: #cbd5e1; font-weight: 500; padding-left: 8px;}
+.trending-modal-dialog .custom-checkbox .custom-control-label::before { border-radius: 0px; border: 1.5px solid #9198a1;  box-shadow: none; width: 18px; height: 18px;}
+.trending-modal-dialog .custom-checkbox .custom-control-label::after { width: 18px; height: 18px;}
+.trending-modal-dialog .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before { border-color: #259bff;}
 
 
 
