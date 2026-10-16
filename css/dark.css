@@ -2331,7 +2331,7 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .trending-modal-dialog .widget-icon-box.icon-blue {background: #0c0c0c!important; color: #3b82f6!important;}   
 
 
-.dispute-requested-box{
-    background: #262c30!important;
-    border: 1px solid #3c3f43!important;}
+.dispute-requested-box{background: #262c30!important; border: 1px solid #3c3f43!important;}
+.talygen-popup .dispute-action-panel { border: 1px solid #454748!important; background: #2c3136!important;}
+
 
