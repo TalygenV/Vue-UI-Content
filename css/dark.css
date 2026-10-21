@@ -2323,16 +2323,13 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .bg-unread {background: #1c1c1c!important;}
 .mr-card-h, .mr-toggle{border-bottom: 1px solid #4a4c4e!important; color: #fff!important;}
 .mr-foot{background: #070809!important; border-top: 1px solid #191d20!important;}
-
 .mr-help, .mr-sub{ color: #c5c5c5!important;}
 .mr-hint .block {color: #e39231!important;}
-
 #CloseMeterReadingModal .input-group.border{border: 1px solid #3c3f43 !important;}
 .serial-search-item{border-bottom: 1px solid #595b5d!important; background:#2b2e32!important;}
 .serial-search-item-title{color: #ccc!important;}
 .serial-search-item-selected, .serial-search-item:hover {background: #0b0b0b!important;}
 .serial-search-status-active{ background: #181c1a!important; color: #1f9d55!important;}
-
 .chip{border: 1px solid #4c4c4c!important; background: #161616!important;}
 .chip.accent{background: #303d49!important; border-color: #4a647d!important; color: #59a7e5!important;}
 .mr-grp-cell{background: #0d0d0d!important; color: #226da9!important;}
@@ -2340,12 +2337,9 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 
 .mr-grp-row, .mr-hdr, .mr-row, .mr-sub-hdr { border-bottom: 1px solid #3e4041!important;}
 .mr-in{color: #fff!important; background: #000!important; border: 1px solid #43484c!important;}
-
 .note, .st.pending{color: #7f95a6!important;}
 .st.warn {color: #b86605!important;}
-
 .st.ok{color: #23b156!important;}
-
 .st.err{ color: #d4433a!important;}
 
 
