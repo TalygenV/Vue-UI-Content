@@ -2339,5 +2339,11 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .sticky-col{background: #181818!important;}
 
 .mr-grp-row, .mr-hdr, .mr-row, .mr-sub-hdr { border-bottom: 1px solid #3e4041!important;}
+.mr-in{color: #fff!important; background: #000!important; border: 1px solid #43484c!important;}
+
+.note, .st.pending{color: #7f95a6!important;}
+
+
+
 
 
