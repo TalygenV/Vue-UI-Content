@@ -2327,3 +2327,11 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .mr-help, .mr-sub{ color: #c5c5c5!important;}
 .mr-hint .block {color: #e39231!important;}
 
+#CloseMeterReadingModal .input-group.border{border: 1px solid #3c3f43 !important;}
+.serial-search-item{border-bottom: 1px solid #595b5d!important; background:#2b2e32!important;}
+.serial-search-item-title{color: #ccc!important;}
+.serial-search-item-selected, .serial-search-item:hover {background: #0b0b0b!important;}
+
+
+
+
