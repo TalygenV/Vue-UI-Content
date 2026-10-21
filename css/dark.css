@@ -2228,10 +2228,8 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .projectoverviewbase .common-dashboard-shell .section-body.border{background: #000000!important;}
 .assignee-avatar-circle.assignee-unassigned {background: #000000!important; color: #b9c8dd!important; border: 1px dashed #363636!important;}
 .assignee-avatar-circle{background: linear-gradient(135deg, #16171c 0%, #171922 100%)!important; border: 1.5px solid #403f3f!important; color: #6d64fb!important;}
-
 .fp-head{background: #2c3136!important; border-bottom: 1px solid #525f65!important;}
 .fp-icon-box{ background: #000000!important; border: 1px solid #52575e!important;}
-
 .rule-builder-card {background: #2c3136!important; border: 1px solid #3d3d3d!important;}
 .builder-title{color: #fff!important;}
 .msdd-trigger {background: #191d20!important; border: 1px solid #3c3f43!important;}
@@ -2259,11 +2257,9 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .rv-pcard, .rv-wipbadge {background: #212528!important; color: #fff!important;}
 .rv-pcount, .rv-pname {font-weight: 600; color: #fff;}
 .rv-legend-item { color: #ccc!important;}
-
 .rv-seg-btn.active {background: #000!important; color: #fff!important; box-shadow: none;}
 .rv-seg-toggle { background: #303030!important; border: 1px solid #505050!important;}
 .rv-pcount { background: #434343!important;}
-
 .msdd-menu{background: #191d20!important; border: 1px solid #666!important;}
 .msdd-search { border-bottom: 1px solid #535454!important;}
 .msdd-search-input{border: 1px solid #5f5f5f!important; background: #000!important;}
@@ -2271,7 +2267,6 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .pathway-preview-card { border: 1px dashed #3b82f6!important; background: #2c3136!important;}
 .pathway-preview-head {color: #80a1ff!important;}
 .addbtn.disabled, .addbtn:disabled {background: #000;}
-
 .client-dash-filter-popup{background: #2c3136!important; border: 1px solid #606161!important; color: #fff!important;}
 .cdf-popup-head{border-bottom: 1px solid #606161!important;}
 .cdf-select{border: 1px solid #606161!important; background: #1a1a1a!important; color: #fff!important;}
@@ -2282,38 +2277,31 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .cdf-popup-close:focus, .cdf-popup-close:hover {background: #000!important;}
 .graph-widget-box .graph-widget-heading .btn{color: #fff!important;}
 .billing-ticket-type-maximize-btn {color: #fff!important;}
-
 .paynow-portal-header { background: #2c3136!important;}
 .paynow-portal-heading h2{color: #fff!important;}
 .paynow-due-card{background: #191d20!important; border: 1px solid #525252!important;}
 .paynow-due-label{color: #ccc!important;}
 .paynow-due-value{color:#ccc!important;}
 .paynow-portal {background: #191d20!important;}
-
 .paynow-info-card{background: #2c3136!important; border: 1px solid #4e4e4e!important;}
 .paynow-field label{color: #ccc!important;}
 .paynow-info-title {color: #fff!important;}
-
 .paynow-processor-note { color: #afb8c9!important;}
 .paynow-section-label { color: #ccc!important;}
-
 .paynow-type-card.active { border-color: #127b39!important; background: #19201b!important;}
 .paynow-type-name {color: #ccc!important;}
 .paynow-type-hint { color: #becae1!important;}
-
 .paynow-type-card{border: 1px solid #454545!important; background: #090a0b!important;}
 .paynow-amount-input{border: 1px solid #454545!important; background: #090a0b!important;}
 .paynow-amount-field label{color: #ccc!important;}
 .paynow-gateway-card.active { border-color: #3b82f6!important; background: #2c3949!important;}
 .paynow-gateway-card.active .paynow-gateway-ach{font-weight: 400!important; color: #8fb9f4!important;}
-
 .paynow-gateway-card{border: 1px solid #454545!important; background:#090a0b!important;}
 .paynow-gateway-ach{font-weight: 400!important; color: #879cba!important;}
 .dispute-list-page tr.is-dispute-expand > td { background: #1f2327!important;}
 .dispute-expand-heading, .dispute-expand-event-title{color: #ccc!important;}
 .dispute-expand-event-detail, .dispute-expand-line-soft { color: #c3d3f0!important;}
 .dispute-expand-line {color: #ccc!important;}
-
 
 /*** Only for USIC Client Billing Portal *****/
 
@@ -2323,24 +2311,20 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .cdf-field .timedate.input-group .vc-container { color: #000!important; background-color: #fff!important; border-color: #c3c7cb!important;}
 
 /*** Only for USIC Client Billing Portal *****/
-
 .trending-modal-dialog .trending-search-input{border: 1px solid #53585f!important; background: #191d20!important; color: #ccc!important; font-weight:400!important;}
 .trending-modal-dialog .pill-selected{ background: #071418!important; color: #017afb!important; border: 1px solid #000000!important; font-weight:400!important}
 .trending-modal-dialog .pill-total { background: #363636!important; color: #ccc!important; border: 1px solid #000000!important; font-weight:400!important}
 .trending-modal-dialog .trending-btn-refresh{ background: #5086fb!important; border: 1px solid #161b23!important; color: #fff!important;}
 .trending-modal-dialog .widget-icon-box.icon-blue {background: #0c0c0c!important; color: #3b82f6!important;}   
-
-
 .dispute-requested-box{background: #262c30!important; border: 1px solid #3c3f43!important;}
 .talygen-popup .dispute-action-panel { border: 1px solid #454748!important; background: #2c3136!important;}
 .paynow-amount-input input{color: #fff!important;}
-
 .border-cstm {border: 1px solid #3c3e40 !important;}
 .bg-unread {background: #1c1c1c!important;}
-
 .mr-card-h, .mr-toggle{border-bottom: 1px solid #4a4c4e!important; color: #fff!important;}
-
 .mr-foot{background: #070809!important; border-top: 1px solid #191d20!important;}
+
+.mr-help{ color: #c5c5c5!important;}
 
 
 
