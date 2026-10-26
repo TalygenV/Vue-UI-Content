@@ -2313,7 +2313,7 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .sticky-toolbar-inner .chip.active {background: #eaf1f9!important; color: #154d89!important; border-color: #eaf1fb!important;}
 .sticky-toolbar-inner .chip {border: 1px solid #e6eaef!important; color: #5b6472!important; background: #fff!important;}
 
-.pager .chips{border: 1px solid #dfe4eb!important; color: #5c6470!important;  background: #fff!important;}
+.pager .chip{border: 1px solid #dfe4eb!important; color: #5c6470!important;  background: #fff!important;}
 .pager .chip.active{background: #e7eef7!important; color: #18508b!important; border-color: #edf4fd!important;}
 
 .dash-filter-popup .dash-filter-field-group .multiselect__tags{ border: 1px solid #bbbbbb !important; background: #fff !important;}
