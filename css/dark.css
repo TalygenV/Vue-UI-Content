@@ -2360,7 +2360,7 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 /** 27Oct2026**/
 .cd-panel-title, .scr-panel-title, .cd-detail-project-name{color: #fff !important;}
 .cd-tile-label{color: #fff !important; font-weight: 500!important;}
-.cd-info-tile{background: #2c3136!important;  border: 1px solid #525f65!important;}
+.cd-info-tile, .cd-progress-hub{background: #2c3136!important;  border: 1px solid #525f65!important;}
 .cd-tile-value{color: #ccc!important;}
 
 
