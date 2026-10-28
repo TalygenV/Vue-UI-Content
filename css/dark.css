@@ -2364,6 +2364,8 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .cd-info-tile, .cd-progress-hub{background: #2c3136!important; border: 1px solid #525f65!important;}
 .cd-tile-value{color: #ccc!important;}
 
+.cd-detail-hero-banner{border-bottom: 1px solid #525f65!important;}
+
 .table-responsive .stage-parent-tree-table thead th{ background-color: #1c1f22!important; color: #fff!important;}
 .table-responsive .stage-parent-tree-table .stage-parent-row.stage-row-expanded{background-color: #2c3136!important;}
 .table-responsive .stage-parent-tree-table .stage-parent-row:hover {background-color: #000 !important;}
