@@ -2381,6 +2381,21 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 background: #2c3136!important; border: 1px solid #525f65!important;
 }
 
+.batch-count.tone-danger {
+  background: #302625!important;
+  border-color: #5b4345!important;
+}
+
+.batch-count.tone-success {
+  background: #27342b!important;
+  border-color: #485d4d!important;
+}
+
+.batch-count.tone-warning {
+  background: #2d2a21!important;
+  border-color: #595035!important;
+}
+
 
 
 
