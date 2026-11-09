@@ -2374,9 +2374,14 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .team-dropdown-header {color: #fff !important; border-bottom: 1px solid #454647!important;}
 .team-search-wrapper {border-bottom: 1px solid #454647!important;}
 
-
-
-
-
 /** 27Oct2026 latest Project Dashboard -SSaini**/
+
+
+.batch-metric, .batch-count, .batch-schedule, .batch-config-value{
+background: #2c3136!important; border: 1px solid #525f65!important;
+}
+
+
+
+
 
