@@ -6,51 +6,51 @@ touritem["User/Dashboard"] = {
   ModuleName: "User",
   displayName: "Dashboard",
   items: [
-    {
-      selector: "div#fullMenuUl",
-      step: 1,
-      title: "FullMenu",
-      content: "FullMenuContent",
-    },
-    {
-      selector: "ul.my-account",
-      step: 2,
-      title: "ProflieMenu",
-      content: "ProflieMenuContent",
-    },
-    {
-      selector: "#DivTimerContent",
-      step: 3,
-      title: "TimerIcon",
-      content: "TimerIconContent",
-    },
-    {
-      selector: "li.wizardnew",
-      step: 4,
-      title: "WizardIcon",
-      content: "WizardIconContent",
-    },
-    {
-      selector: "#anceditMyDashboard",
-      step: 5,
-      title: "MyShortcuts",
-      content: "MyShortcutsContent",
-    },
-    {
-      selector: ".rightsideicon",
-      step: 6,
-      title: "MyShortcutsCustom",
-      content: "MyShortcutsContent",
-    },
+    // {
+    //   selector: "div#fullMenuUl",
+    //   step: 1,
+    //   title: "FullMenu",
+    //   content: "FullMenuContent",
+    // },
+    // {
+    //   selector: "ul.my-account",
+    //   step: 2,
+    //   title: "ProflieMenu",
+    //   content: "ProflieMenuContent",
+    // },
+    // {
+    //   selector: "#DivTimerContent",
+    //   step: 3,
+    //   title: "TimerIcon",
+    //   content: "TimerIconContent",
+    // },
+    // {
+    //   selector: "li.wizardnew",
+    //   step: 4,
+    //   title: "WizardIcon",
+    //   content: "WizardIconContent",
+    // },
+    // {
+    //   selector: "#anceditMyDashboard",
+    //   step: 5,
+    //   title: "MyShortcuts",
+    //   content: "MyShortcutsContent",
+    // },
+    // {
+    //   selector: ".rightsideicon",
+    //   step: 6,
+    //   title: "MyShortcutsCustom",
+    //   content: "MyShortcutsContent",
+    // },
     {
       selector: "#ancAddGroupMyDashboard",
-      step: 7,
+      step: 1,
       title: "AddNewGroup",
       content: "AddNewGroupContent",
     },
     {
       selector: ".clsdashboardgroup ul.shortcuts-menu li:first-child",
-      step: 8,
+      step: 2,
       title: "ShortcutLink",
       marked: true,
       content: "ShortcutLinkContent",
@@ -1772,65 +1772,65 @@ touritem["ExitPolicy/EmployeeResignationList"] = {
     },
   ],
 };
-var tourData = [];
-var touritem = {};
+// var tourData = [];
+// var touritem = {};
 
-touritem["User/Dashboard"] = {
-  ModuleDisplayName: "Company Setup",
-  ModuleName: "User",
-  displayName: "Dashboard",
-  items: [
-    {
-      selector: "div#fullMenuUl",
-      step: 1,
-      title: "FullMenu",
-      content: "FullMenuContent",
-    },
-    {
-      selector: "ul.my-account",
-      step: 2,
-      title: "ProflieMenu",
-      content: "ProflieMenuContent",
-    },
-    {
-      selector: "#DivTimerContent",
-      step: 3,
-      title: "TimerIcon",
-      content: "TimerIconContent",
-    },
-    {
-      selector: "li.wizardnew",
-      step: 4,
-      title: "WizardIcon",
-      content: "WizardIconContent",
-    },
-    {
-      selector: "#anceditMyDashboard",
-      step: 5,
-      title: "MyShortcuts",
-      content: "MyShortcutsContent",
-    },
-    {
-      selector: ".rightsideicon",
-      step: 6,
-      title: "MyShortcutsCustom",
-      content: "MyShortcutsContent",
-    },
-    {
-      selector: "#ancAddGroupMyDashboard",
-      step: 7,
-      title: "AddNewGroup",
-      content: "AddNewGroupContent",
-    },
-    {
-      selector: ".clsdashboardgroup ul.shortcuts-menu li:first-child",
-      step: 8,
-      title: "ShortcutLink",
-      marked: true,
-      content: "ShortcutLinkContent",
-    },
-  ],
-};
+// touritem["User/Dashboard"] = {
+//   ModuleDisplayName: "Company Setup",
+//   ModuleName: "User",
+//   displayName: "Dashboard",
+//   items: [
+//     {
+//       selector: "div#fullMenuUl",
+//       step: 1,
+//       title: "FullMenu",
+//       content: "FullMenuContent",
+//     },
+//     {
+//       selector: "ul.my-account",
+//       step: 2,
+//       title: "ProflieMenu",
+//       content: "ProflieMenuContent",
+//     },
+//     {
+//       selector: "#DivTimerContent",
+//       step: 3,
+//       title: "TimerIcon",
+//       content: "TimerIconContent",
+//     },
+//     {
+//       selector: "li.wizardnew",
+//       step: 4,
+//       title: "WizardIcon",
+//       content: "WizardIconContent",
+//     },
+//     {
+//       selector: "#anceditMyDashboard",
+//       step: 5,
+//       title: "MyShortcuts",
+//       content: "MyShortcutsContent",
+//     },
+//     {
+//       selector: ".rightsideicon",
+//       step: 6,
+//       title: "MyShortcutsCustom",
+//       content: "MyShortcutsContent",
+//     },
+//     {
+//       selector: "#ancAddGroupMyDashboard",
+//       step: 7,
+//       title: "AddNewGroup",
+//       content: "AddNewGroupContent",
+//     },
+//     {
+//       selector: ".clsdashboardgroup ul.shortcuts-menu li:first-child",
+//       step: 8,
+//       title: "ShortcutLink",
+//       marked: true,
+//       content: "ShortcutLinkContent",
+//     },
+//   ],
+// };
 
 touritem["User/Home"] = {
   ModuleDisplayName: "Company Setup",
@@ -3164,25 +3164,25 @@ touritem["Ticketing/Index"] = {
     },
   ],
 };
-touritem["Ticketing/add"] = {
+touritem["Ticketing/add"] = { 
   ModuleDisplayName: "Ticketing",
   ModuleName: "Ticketing",
   displayName: "Add Ticket",
   items: [
     {
-      selector: ".saveTicket",
+      selector: ".ancsavedraftticket",
       step: 1,
-      title: "Save as Draft or Submit",
+      title: "Click here to Draft ticket",
       content: "SaveasDraftorSubmit",
     },
     {
-      selector: ".submit",
-      step: 1,
-      title: "Save as Draft or Submit",
-      content: "SaveasDraftorSubmit",
+      selector: ".ancsaveuserticket",
+      step: 2,
+      title: "Click here to Submit ticket",
+      content: "ClickHereSubmitTicket",
     },
   ],
-};
+};  
 
 touritem["Ticketing/Manage"] = {
   ModuleDisplayName: "Ticketing",
@@ -4403,7 +4403,7 @@ touritem["Asset/RFIDMissingAssets"] = {
     },
   ],
 };
-tourData.push(touritem);
+//tourData.push(touritem);
 
 touritem["Timer/Index"] = {
   ModuleDisplayName: "Time Track",
