@@ -2561,6 +2561,8 @@ table.table-bordered.dataTable th.sort span{cursor:pointer;}
 .user-img-con img{width:100%;}
 .v-select .dropdown-toggle::after{display:none;}
 
+.height_56{height: 56px!important;}
+
 .max-height-700{max-height: 640px!important;}
 
 .max-height-300{max-height: 300px!important;}
