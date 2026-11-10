@@ -1869,25 +1869,25 @@ touritem["User/Home"] = {
     },
   ],
 };
-touritem["Project/Index"] = {
-  ModuleDisplayName: "Project Management",
-  ModuleName: "Project",
-  displayName: "Project",
-  items: [
-    //{
-    //    selector: "li.three_wid",
-    //    step: 1,
-    //    title: "Widgets",
-    //    content: "SummaryWidgets"
-    //},
-    {
-      selector: "#accordionEx",
-      step: 1,
-      title: "Filters",
-      content: "SearchMultipleFiltersProject",
-    },
-  ],
-};
+// touritem["Project/Index"] = {
+//   ModuleDisplayName: "Project Management",
+//   ModuleName: "Project",
+//   displayName: "Project",
+//   items: [
+//     //{
+//     //    selector: "li.three_wid",
+//     //    step: 1,
+//     //    title: "Widgets",
+//     //    content: "SummaryWidgets"
+//     //},
+//     {
+//       selector: "#accordionEx",
+//       step: 1,
+//       title: "Filters",
+//       content: "SearchMultipleFiltersProject",
+//     },
+//   ],
+// };
 touritem["CRM/Index"] = {
   ModuleDisplayName: "CRM Management",
   ModuleName: "CRM",
@@ -4912,11 +4912,11 @@ touritem["Task/Index"] = {
       content: "SearchTasksSearchFilters",
     },
     {
-      selector: ".p-action-btn",
+      selector: "#ddlUserCurrentStatus",
       step: 2,
       title: "MultipleViews",
       content: "ChooseDesiredViewKanbanCardListView",
-    },
+    }, 
     {
       selector: ".fa-pencil",
       step: 3,
@@ -4924,7 +4924,7 @@ touritem["Task/Index"] = {
       content: "UpdateProgressYourTask",
     },
     {
-      selector: ".w-100",
+      selector: "#crmlistingStatus_span",
       step: 4,
       title: "StatusUpdate",
       content: "ChangeStatusDirectlyListingScreen",
@@ -4999,47 +4999,66 @@ touritem["Project/Index"] = {
       content: "SummaryWidgetsContent",
     },
     {
-      selector: "#selectindustype",
+      selector: "#selectindustype_0",
       step: 4,
-      title: "ChooseIndustryType",
-      content: "SummaryIndustryTypeContent",
+      title: "chooseindustype",
+      content: "chooseindustype",
     },
     {
-      selector: "#PleaseSelectTemplate",
+      selector: "#PleaseSelectTemplate_0",
       step: 5,
       title: "PleaseSelectTemplate",
+      content: "SummaryTemplateContent",
+    },
+    {
+      selector: "#btnNext1",
+      step: 6,
+      title: "Next",
       content: "SummaryTemplateNextContent",
     },
     {
-      selector: "#general",
-      step: 6,
-      title: "SummaryProjectDetailTitle",
-      content: "SummarygeneralContent",
-    },
-    {
-      selector: "#setp2btn",
+      selector: "#btnNext2",
       step: 7,
-      title: "Next",
-      content: "SummarynextstepContent",
-    }, 
-    {
-      selector: "#nextviewtab",
-      step: 8,
-      title: "SummaryViewtabsTitle",
-      content: "SummaryViewtabsContent",
+      title: "SummaryProjectDetailTitle",
+      content: "SummaryProjectDetailContent",
     },
     {
-      selector: "#chk_ids",
+      selector: "#viewtab",
+      step: 7,
+      title: "Selecttabs",
+      content: "SelecttabsContent",
+    },
+     {
+      selector: "#btnNext3",
+      step: 8,
+      title: "EextBtn",
+      content: "EextBtnContent",
+    },
+    {
+      selector: "#chx_0",
       step: 9,
       title: "AddTeamMembers",
       content: "AddTeamMembersContent",
     },
     {
-      selector: "#SummaryProjectSaveContent_a",
+      selector: "#chxpm_0",
       step: 10,
+      title: "AddProjectPm",
+      content: "AddProjectPmContent",
+    },
+    {
+      selector: "#btnNext4",
+      step: 10,
+      title: "GotofinishStep",
+      content: "GotofinishStepContent",
+    },
+    {
+      selector: "#createproject",
+      step: 11,
       title: "FinishSetup",
       content: "FinishSetupContent",
-    },
+    }
+    
   ],
 };
 tourData.push(touritem);
