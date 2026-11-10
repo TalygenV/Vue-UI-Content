@@ -4780,13 +4780,13 @@ touritem["GlobalTask/Index"] = {
       content: "SearchGlobalTasksUsingSearchFilters",
     },
     {
-      selector: ".ddlupdatestatus ",
+      selector: "#crmlistingStatus_span ",
       step: 2,
       title: "StatusUpdate",
       content: "ChangeGlobalTaskStatusListingScreen",
     },
     {
-      selector: ".text-white",
+      selector: "#AddGlobalTask",
       step: 3,
       title: "AddGlobalTask",
       content: "CreateNewBillableNonbillableGlobalTask",
@@ -4916,7 +4916,7 @@ touritem["Task/Index"] = {
       step: 2,
       title: "MultipleViews",
       content: "ChooseDesiredViewKanbanCardListView",
-    }, 
+    },  
     {
       selector: ".fa-pencil",
       step: 3,
