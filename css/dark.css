@@ -2388,8 +2388,8 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 {border: 1px solid #1c1d1e!important; background: #000000!important; color: #fff!important;}
 .queue-card h3 a, .queue-strong a {color: #ccc;}
 .queue-view-switch{background: #1c1f22!important; border: 1px solid #15171a!important;}
-.queue-row-running{background: #334760 !important;}
-.queue-row-paused {background: #5c522a !important;}
+.queue-panel-base .queue-row-running{background: #334760 !important;}
+.queue-panel-base .queue-row-paused {background: #5c522a !important;}
 
 
 
