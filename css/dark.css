@@ -2380,16 +2380,16 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .batch-count.tone-danger {background: #302625!important; border-color: #5b4345!important;}
 .batch-count.tone-success {background: #27342b!important; border-color: #485d4d!important;}
 .batch-count.tone-warning {background: #2d2a21!important; border-color: #595035!important;}
-.queue-toolbar, .queue-panel, .queue-card { background: #33383e; border: 1px solid #454748;}
-.queue-banner-title{ color: #ffffff;}
-.queue-banner-title p{color: #ccc;}
-.queue-row-running{background: #334760 !important;}
-.queue-view-switch button, .queue-refresh, .queue-link-btn, .queue-card-actions button {
-    border: 1px solid #1c1d1e; background: #000000; color: #fff;}
+.queue-toolbar, .queue-panel, .queue-card { background: #33383e!important; border: 1px solid #454748!important;}
+.queue-banner-title{ color: #ffffff!important;}
+.queue-banner-title p{color: #ccc!important;}
+
+.queue-view-switch button, .queue-refresh, .queue-link-btn, .queue-card-actions button 
+{border: 1px solid #1c1d1e!important; background: #000000!important; color: #fff!important;}
 .queue-card h3 a, .queue-strong a {color: #ccc;}
-.queue-view-switch {background: #1c1f22; border: 1px solid #15171a;}
-
-
+.queue-view-switch{background: #1c1f22!important; border: 1px solid #15171a!important;}
+.queue-row-running{background: #334760 !important;}
+.queue-row-paused {background: #5c522a !important;}
 
 
 
