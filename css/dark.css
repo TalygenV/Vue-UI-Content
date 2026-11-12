@@ -2403,6 +2403,30 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .cd-progress-pct-number, .cd-footer-meta{color: #fff!important;}
 
 
+.cd-icon-start{
+  background: #15231d!important;
+  color: #0bcf93!important;
+  border: 1px solid #3c6854!important;
+}
+
+.cd-icon-end{
+  background: #151b23!important;
+  color: #5d8df6!important;
+  border: 1px solid #3d4f66!important;
+}
+
+.cd-icon-template{
+  background: #1c1927!important;
+  color: #9b6cee!important;
+  border: 1px solid #4b4468!important;
+}
+
+.cd-icon-industry{
+  background: #302c1e!important;
+  color: #cf8d3f!important;
+  border: 1px solid #796e40!important;
+}
+
 
 
 
