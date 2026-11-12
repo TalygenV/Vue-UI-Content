@@ -2398,7 +2398,14 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .scr-pill--active{ background-color: #214373 !important; color: #afc4ff !important; }
 .scr-pill--muted { background-color: #404347 !important; color: #c3dcff !important; }
 
-.cd-detail-avatar-icon{background: #2e343a!important;  border: 1px solid #3c4b5f!important;  color: #5488f9!important;}
+.cd-detail-avatar-icon{background: #2e343a!important;  border: 1px solid #3c4b5f!important; color: #5488f9!important;}
+.cd-sub-chip{color: #ccc!important; background: #3a4045!important;  border: 1px solid #555c66!important;}
+.cd-progress-pct-number{color: #fff!important;}
+
+
+
+
+
 
 
 
