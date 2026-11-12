@@ -2386,6 +2386,7 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 
 .queue-view-switch button, .queue-refresh, .queue-link-btn, .queue-card-actions button 
 {border: 1px solid #1c1d1e!important; background: #000000!important; color: #fff!important;}
+
 .queue-card h3 a, .queue-strong a {color: #ccc;}
 .queue-view-switch{background: #1c1f22!important; border: 1px solid #15171a!important;}
 .queue-panel-base .queue-row-running{background: #334760 !important;}
@@ -2393,4 +2394,11 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 
 .reading-progress-card{background: #2c3136!important; color: #ffffff!important;}
 .reading-progress-header{background: #0a0a0a!important;}
+
+.scr-pill--active{ background-color: #214373 !important; color: #afc4ff !important; }
+.scr-pill--muted { background-color: #404347 !important; color: #c3dcff !important; }
+
+
+
+
 
