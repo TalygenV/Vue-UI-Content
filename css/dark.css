@@ -2402,22 +2402,22 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .cd-sub-chip{color: #ccc!important; background: #3a4045!important;  border: 1px solid #555c66!important;}
 .cd-progress-pct-number, .cd-footer-meta{color: #fff!important;}
 
-.cd-icon-start{
+.cd-icon-start, .stat-card-icon.icon-emerald{
   background: #15231d!important;
   color: #0bcf93!important;
   border: 1px solid #3c6854!important;
 }
-.cd-icon-end{
+.cd-icon-end, .stat-card-icon.icon-blue{
   background: #151b23!important;
   color: #5d8df6!important;
   border: 1px solid #3d4f66!important;
 }
-.cd-icon-template{
+.cd-icon-template, .stat-card-icon.icon-purple{
   background: #1c1927!important;
   color: #a375f6!important;
   border: 1px solid #544d70!important;
 }
-.cd-icon-industry{
+.cd-icon-industry, .stat-card-icon.icon-amber{
   background: #232019 !important;
   color: #be8139 !important;
   border: 1px solid #6c6238 !important;
