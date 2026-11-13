@@ -2438,7 +2438,8 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .badge-light{color:#fff!important;}
 .trending-footer{background: #2c3136!important; border-top: 1px solid #525f65!important;}
 
-
-
-
-
+.project-id-chip { color: #5783e5!important; background: #162130!important;  border: 1px solid #2e5c95!important;}
+.trending-mode-pill{
+  color: #ccc!important;
+  background: #202427!important;
+  border: 1px solid #525f65!important;}
