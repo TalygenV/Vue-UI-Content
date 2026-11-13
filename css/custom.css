@@ -10151,7 +10151,7 @@ button:focus{box-shadow: none;}
 .scr-stories-table tbody td { padding: 13px 12px; font-size: 0.875rem; border-bottom: 1px solid #f1f3f4; vertical-align: middle;}
 .scr-story-key { font-weight: 400; color: #b06000;}
 .scr-story-title { color: #202124; max-width: 240px;}
-.scr-status-pill { display: inline-block; padding: 0.2rem 0.55rem; border-radius: 8px; font-size: 0.72rem; font-weight: 600;}
+.scr-status-pill { display: inline-block; padding: 4px 10px; border-radius: 8px; font-size:13px; font-weight: 400;}
 .scr-pill--done { background: #e6f4ea; color: #137333;}
 .scr-pill--pending { background: #fef7e0; color: #b06000;}
 .scr-pill--active { background: #e8f0fe; color: #1967d2;}
