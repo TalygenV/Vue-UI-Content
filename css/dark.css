@@ -2439,7 +2439,13 @@ table.table.trending-table td, table.table.trending-table th{border-top: 1px sol
 .trending-footer{background: #2c3136!important; border-top: 1px solid #525f65!important;}
 
 .project-id-chip { color: #5783e5!important; background: #162130!important;  border: 1px solid #2e5c95!important;}
-.trending-mode-pill{
-  color: #ccc!important;
-  background: #202427!important;
-  border: 1px solid #525f65!important;}
+.trending-mode-pill{ color: #ccc!important; background: #202427!important; border: 1px solid #525f65!important;}
+
+.scr-pill--done {background: #15231d!important; color: #0a1c14!important;}
+.scr-pill--active {background: #0e1927!important; color: #4889e3!important;}
+.scr-pill--pending { background: #1c1705!important;  color: #c26d07!important;}
+.scr-pill--muted { background: #000!important;  color: #898f95!important;}
+
+.text-secondary { color: #acb6be !important;}
+
+
